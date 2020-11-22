@@ -32,7 +32,7 @@
   {
     "imgIconUrl": "img/openjdk.png",
     "title": "Java 8",
-    "url": "https://docs.liangchengj.com/jdk8/index.html"
+    "url": "https://java8doc.vercel.app"
   },
   {
     "imgIconUrl": "img/scala-spiral.png",
