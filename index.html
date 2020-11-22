@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.js"></script>
+    <script type="application/javascript">
+      $.ajaxPrefilter(function (options) {
+        if (options.crossDomain && jQuery.support.cors) {
+          var protocol =
+            window.location.protocol === "http:" ? "http:" : "https:";
+          options.url =
+            protocol + "//cors-anywhere.herokuapp.com/" + options.url;
+        }
+      });
+
+      let prefix = "https://cn.bing.com/";
+
+      $.ajax({
+        url: `${prefix}HPImageArchive.aspx?format=js&idx=0&n=1`,
+        type: "get",
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+          let fullImgUrl = `${prefix}${data["images"][0]["url"]}`;
+          $("body").css({ background: `url("${fullImgUrl}") fixed` });
+        },
+        error: function (e) {
+          console.error(e);
+        },
+      });
+    </script>
+
+    <style rel="stylesheet" type="text/css">
+      #baseContainer {
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 1rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1rem;
+        margin: 25px 48px;
+        cursor: pointer;
+      }
+
+      #baseContainer:active {
+        background-color: transparent;
+      }
+
+      #baseContainer img {
+        width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 0.65rem;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+
+      #childContainer span {
+        display: inline-block;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 17.5rem;
+        overflow: hidden;
+      }
+
+      #childContainer {
+        margin-left: 1rem;
+        width: 17.5rem;
+      }
+
+      #title {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      #url {
+        color: rgba(255, 255, 255, 0.6);
+        padding-top: 0.5rem;
+      }
+
+      #parent {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      body {
+        background-color: #242424;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent"></div>
+    <script type="application/javascript">
+      onload = () => {
+        $.getJSON("json/nav.json", function (data) {
+          /* let data = [
+        {
+          imgIconUrl: "img/studio-icon.svg",
+          title: "Android",
+          url: "https://developer.android.google.cn/guide",
+        },
+        {
+          imgIconUrl: "img/android.svg",
+          title: "Android SDK",
+          url: "https://docs.liangchengj.com/android",
+        },
+        {
+          imgIconUrl: "img/dart.svg",
+          title: "Dart",
+          url: "https://dart.cn/guides/language/language-tour",
+        },
+        {
+          imgIconUrl: "https://flutter.cn/images/favicon.png",
+          title: "Flutter",
+          url: "https://flutter.cn/docs/get-started/install",
+        },
+        {
+          imgIconUrl:
+            "https://www.kotlincn.net/assets/images/apple-touch-icon-72x72.png",
+          title: "Kotlin",
+          url: "https://www.kotlincn.net/docs/reference",
+        },
+        {
+          imgIconUrl:
+            "https://gblobscdn.gitbook.com/spaces%2F-Law_TwYroharctnLUSD%2Favatar.png?alt=media",
+          title: "SwiftGG",
+          url: "https://swiftgg.gitbook.io/swift",
+        },
+        {
+          imgIconUrl: "img/openjdk.png",
+          title: "Java 8",
+          url: "https://docs.liangchengj.com/jdk8/index.html",
+        },
+        {
+          imgIconUrl: "img/scala-spiral.png",
+          title: "Scala",
+          url: "https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html",
+        },
+        {
+          imgIconUrl: "img/groovy-logo.svg",
+          title: "Groovy",
+          url: "https://docs.groovy-lang.org/latest/html/documentation",
+        },
+        {
+          imgIconUrl: "img/javascript.svg",
+          title: "JavaScript",
+          url: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
+        },
+        // {
+        //   imgIconUrl: "img/css.svg",
+        //   title: "CSS",
+        //   url: "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
+        // },
+        // {
+        //   imgIconUrl: "img/HTML.svg",
+        //   title: "HTML",
+        //   url: "https://developer.mozilla.org/zh-CN/docs/Web/HTML",
+        // },
+        {
+          imgIconUrl: "img/React.svg",
+          title: "React Native",
+          url: "https://reactnative.cn/docs/getting-started",
+        },
+        {
+          imgIconUrl: "https://cn.vuejs.org/images/logo.png",
+          title: "Vue",
+          url: "https://cn.vuejs.org/v2/guide",
+        },
+        {
+          imgIconUrl: "img/python.svg",
+          title: "Python",
+          url: "https://docs.python.org/zh-cn/3/reference",
+        },
+        // {
+        //   imgIconUrl: "img/swift.svg",
+        //   title: "Swift",
+        //   url: "https://swift.org",
+        // },
+      ]; */
+
+          for (let obj of data) {
+            let imgIconUrl = obj["imgIconUrl"];
+            let title = obj["title"];
+            let url = obj["url"];
+            $("#parent")
+              .append(`<div id="baseContainer" onclick="location.href='${url}';">
+        <img src="${imgIconUrl}" alt="${title}"/>
+        <div id="childContainer">
+          <span id="title">${title}</span>
+          <span id="url">${url}</span>
+        </div>
+      </div>`);
+          } // end function
+        });
+      };
+    </script>
+  </body>
+</html>
