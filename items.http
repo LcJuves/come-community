@@ -1,2 +1,2 @@
-GET http://192.168.0.105:8080/items HTTP/1.1
+GET http://api.docs.danger.icu:8080/items HTTP/1.1
 token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxODk2NDFlZi0wYjM4LTRiNjAtOTU1OS00YzFlZDY3MjVjMjEiLCJzdWIiOiJhZG1pbiIsImlzcyI6InN5c3RlbSIsImlhdCI6MTYwNjE0ODE1MCwiZXhwIjoxNjA2MTUxNzUwfQ.jGec4OS7k2ryRZAzucePaZoZU2_2nPydMddlCr9_nMw

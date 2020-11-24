@@ -6,7 +6,7 @@
   });
 })();
 
-var prefixUrl = "http://api.docs.danger.icu:8080/";
+var prefixUrl = "http://101.200.121.37:8080/";
 
 String.prototype.isEmpty = function () {
   return this == null || this == "" || this.trim() == "";
