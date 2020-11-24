@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 #baseContainer {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 1rem;
@@ -8,6 +13,7 @@
   border-radius: 1rem;
   margin: 25px 48px;
   cursor: pointer;
+  position: relative;
 }
 
 #baseContainer:active {
@@ -60,23 +66,37 @@ body {
   background-color: #242424;
 }
 
-#add {
+#rigth_bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translate(-20%, -20%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 5rem;
+}
+
+#rigth_bottom div {
   background-color: rgba(255, 255, 255, 0.4);
   border: 0;
   width: 4rem;
   height: 4rem;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  transform: translate(-50%, -50%);
   border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
 }
 
-#add:active {
+#rigth_bottom div:active {
   background-color: transparent;
 }
 
-#add img {
+#rigth_bottom div img {
   width: 2rem;
   height: 2rem;
   position: absolute;
@@ -85,4 +105,106 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#baseContainer .img_del {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  display: none;
+}
 
+/* 添加标签对话框 */
+#dialog {
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 36rem;
+  border-radius: 1rem;
+  display: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* 添加标签对话框中的标题提示文字 */
+#dialog h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #61dafb;
+  margin-top: 0.52rem;
+}
+
+/* 添加标签对话框中的输入框 */
+#dialog input[type="text"],
+#dialog input[type="file"] {
+  width: 86%;
+  outline: none;
+  font-size: 1.7rem;
+  border: 0;
+  background-color: rgba(120, 120, 120, 0.1);
+  border-radius: 0.6rem;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* 添加标签对话框中的内容链接输入框 */
+#dialog #upload_url,
+#dialog #upload_file {
+  margin-top: 1rem;
+}
+
+/* 添加标签对话框中的提交按钮 */
+#submit {
+  background-color: #61dafb;
+  color: white;
+  border: 0;
+  border-radius: 0.6rem;
+  font-size: 25px;
+  padding: 3px 25px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+  outline: none;
+  cursor: no-drop;
+}
+
+/* 添加标签对话框中的提交按钮 */
+#submit:active {
+  background-color: transparent;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+/* 关闭对话框按钮（X） */
+#close_dialog {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.7rem;
+  margin-right: 0.7rem;
+  cursor: pointer;
+}
+
+#rigth_bottom #add {
+  margin-top: 1rem;
+}
+
+#dialog-parent {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+}

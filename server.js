@@ -52,15 +52,11 @@ let MOVE_CURSOR_POSTION = (y, x) => "\033[" + y + ";" + x + "H";
 
 const LOCAL_IP = (() => {
   let nifaces = require("os").networkInterfaces();
-  for (let devName in nifaces) {
-    for (let alias of nifaces[devName]) {
-      if (
-        alias.family === "IPv4" &&
-        alias.address !== "127.0.0.1" &&
-        !alias.internal
-      ) {
-        return alias.address;
-      }
+  // console.log(JSON.stringify(nifaces));
+  let wlanIface = nifaces["WLAN"];
+  for (let item of wlanIface) {
+    if (item["family"] === "IPv4") {
+      return item["address"];
     }
   }
 })();
@@ -117,24 +113,21 @@ let rmComment = (code) => code; // .replace(/\/\*(.|\r\n|\n)*?\*\/|(?<!:.*|<[\s\
 /*  .replace(/\r+|\n/gi, "")
     .replace(/[ ]+</gi, "<")
     .replace(/>[ ]+/gi, ">")
-    .replace(/(?<=.*)[ ]+(?=\/>)/gi, "") */ 
-    let compressJs = (js) => rmComment(js);
+    .replace(/(?<=.*)[ ]+(?=\/>)/gi, "") */
+let compressJs = (js) => rmComment(js); //         ) //         // Deal with EL expression //         .replace(/\$\{([^\}]+)\}/gi, `" + $1 + "`)}"`; // a //     } //   } // );
 // .replace(/\blet\b(?=\=|\bin\b|\bof\b)*/gi, "var");
- // .replace( //   /(?<!(\/\/[\s\S])|(\*[\s\S](\*\*\/)*))`([\s\S]*)`(?!\*\/*)/gi /* *`*`* */, //   (...args) => { //     // let test = //     //   '<span class="book_content"><img src="/static/img/book_icon.svg"/>' + //     //   '<a href="javascript:void(0);" onclick="loadPdf(\'" + url+ "\');">《 " + bookName.substring(' + //     //   "0," + //     //   'bookName.lastIndexOf(".")' + //     //   ')+ " 》</a>' + //     //   "</span>"; //     let tmp = args[0]; //     if ( //       tmp.startsWith(`//`) == -1 || //       tmp.startsWith("*") || //       tmp.endsWith("*/") //     ) { //       return tmp; //     } else { //       return `"${tmp //         // Handle \` escape characters in template strings //         .replace(/\`/gi, "") //         // Solve the HTML tags escape character " -> \" //         .replace(/"/gi, '\\"') //         // Processing methods in all escape character \" -> " //         .replace(/((?<=\()\\")|\\"(?=\))/gi, `"`) //         // To solve the problem of the single quotes to invoke the method //         .replace(/"'(?=\))/gi, `'"`) //         // String format template //         .replace(/ *[\r\n]+ */gi, '"\n\t+ "') //         // Methods a newline in the body //         .replace(/(?<=\()(.*)(?=\))/gis, (...args) => //           args[1].replace(/"\n\t\+ "/gi, "")
+// .replace( //   /(?<!(\/\/[\s\S])|(\*[\s\S](\*\*\/)*))`([\s\S]*)`(?!\*\/*)/gi /* *`*`* */, //   (...args) => { //     // let test = //     //   '<span class="book_content"><img src="/static/img/book_icon.svg"/>' + //     //   '<a href="javascript:void(0);" onclick="loadPdf(\'" + url+ "\');">《 " + bookName.substring(' + //     //   "0," + //     //   'bookName.lastIndexOf(".")' + //     //   ')+ " 》</a>' + //     //   "</span>"; //     let tmp = args[0]; //     if ( //       tmp.startsWith(`//`) == -1 || //       tmp.startsWith("*") || //       tmp.endsWith("*/") //     ) { //       return tmp; //     } else { //       return `"${tmp //         // Handle \` escape characters in template strings //         .replace(/\`/gi, "") //         // Solve the HTML tags escape character " -> \" //         .replace(/"/gi, '\\"') //         // Processing methods in all escape character \" -> " //         .replace(/((?<=\()\\")|\\"(?=\))/gi, `"`) //         // To solve the problem of the single quotes to invoke the method //         .replace(/"'(?=\))/gi, `'"`) //         // String format template //         .replace(/ *[\r\n]+ */gi, '"\n\t+ "') //         // Methods a newline in the body //         .replace(/(?<=\()(.*)(?=\))/gis, (...args) => //           args[1].replace(/"\n\t\+ "/gi, "")
 //
 // (\([^(]*\))\s*=>(?!.\{)([^;])*
-/* .replace(/(\([^()]*\))\s*=>(?=\s*\{(.|\n)*\})/gis, "function $1") */ //         )
-//         // Deal with EL expression
-//         .replace(/\$\{([^\}]+)\}/gi, `" + $1 + "`)}"`; // a
-//     }
-//   }
-// );
-
-let commonRespHeaderOf = (contentType, contentLength, strOfDate) => ({
+/* .replace(/(\([^()]*\))\s*=>(?=\s*\{(.|\n)*\})/gis, "function $1") */ let commonRespHeaderOf = (
+  contentType,
+  contentLength,
+  strOfDate
+) => ({
   Connection: "Keep-Alive",
   "Content-Type": contentType,
   "Content-Length": contentLength,
-//   Date: strOfDate,
+  //   Date: strOfDate,
   Host: LOCAL_IP,
 });
 
