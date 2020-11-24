@@ -151,7 +151,7 @@ function showDialog(title, showInputFile, buttonTipTop, p1, p2, target) {
       dataType: "json",
       success: function (response) {
         if (response["flag"]) {
-          let fullUrl = `http://qk7nh8b1e.hn-bkt.clouddn.com/${response["data"]}`;
+          let fullUrl = `https://cors-anywhere.herokuapp.com/http://qk7nh8b1e.hn-bkt.clouddn.com/${response["data"]}`;
           uploadData.img_url = fullUrl;
           document.getElementById("submit").removeAttribute("disabled");
           $("#submit").css("cursor", "pointer");
