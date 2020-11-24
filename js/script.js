@@ -212,6 +212,12 @@ function showDialog(title, showInputFile, buttonTipTop, p1, p2, target) {
             password: uploadData.url,
           }),
           success: function (reponse) {
+            uploadData = {
+              title: null,
+              url: null,
+              img_url: null,
+            };
+
             if (reponse.flag) {
               Cookies.set("token", reponse["data"]);
               $("#close_dialog").click();
@@ -222,13 +228,10 @@ function showDialog(title, showInputFile, buttonTipTop, p1, p2, target) {
             } else {
               console.dir(reponse);
               toast(reponse["message"]);
-            }
 
-            uploadData = {
-              title: null,
-              url: null,
-              img_url: null,
-            };
+              uploadData.title = $("#upload_title").val();
+              uploadData.url = $("#upload_url").val();
+            }
           },
         });
       }
