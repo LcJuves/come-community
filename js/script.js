@@ -226,7 +226,6 @@ function showDialog(title, showInputFile, buttonTipTop, p1, p2, target) {
 
               $(target).click();
             } else {
-              console.dir(reponse);
               toast(reponse["message"]);
 
               uploadData.title = $("#upload_title").val();
