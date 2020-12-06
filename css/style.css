@@ -4,7 +4,7 @@ body {
 }
 
 #baseContainer {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.565);
   padding: 1rem;
   display: flex;
   flex-wrap: nowrap;
@@ -47,13 +47,13 @@ body {
 }
 
 #title {
-  color: white;
+  color: rgb(60,60,60);
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 #url {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(116,116,116);
   padding-top: 0.5rem;
 }
 
