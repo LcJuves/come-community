@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Menlo';
+  src: url('/font/Menlo.ttf');
+}
+
+
+* {
+  font-family: 'Menlo'
+}
+
 html,
 body {
   height: 100%;
@@ -55,6 +65,7 @@ body {
 #url {
   color: rgb(116,116,116);
   padding-top: 0.5rem;
+  font-size: 0.75rem
 }
 
 #parent {
