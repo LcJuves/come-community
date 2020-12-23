@@ -1,24 +1,24 @@
-(function () {
-  var cors_api_host = "cors-anywhere.herokuapp.com";
-  var cors_api_url = "https://" + cors_api_host + "/";
-  var slice = [].slice;
-  var origin = window.location.protocol + "//" + window.location.host;
-  var open = XMLHttpRequest.prototype.open;
-  XMLHttpRequest.prototype.open = function () {
-    var args = slice.call(arguments);
-    var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
-    if (
-      targetOrigin &&
-      targetOrigin[0].toLowerCase() !== origin &&
-      targetOrigin[1] !== cors_api_host
-    ) {
-      args[1] = cors_api_url + args[1];
-    }
-    return open.apply(this, args);
-  };
-})();
+// (function () {
+//   var cors_api_host = "cors-anywhere.herokuapp.com";
+//   var cors_api_url = "https://" + cors_api_host + "/";
+//   var slice = [].slice;
+//   var origin = window.location.protocol + "//" + window.location.host;
+//   var open = XMLHttpRequest.prototype.open;
+//   XMLHttpRequest.prototype.open = function () {
+//     var args = slice.call(arguments);
+//     var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+//     if (
+//       targetOrigin &&
+//       targetOrigin[0].toLowerCase() !== origin &&
+//       targetOrigin[1] !== cors_api_host
+//     ) {
+//       args[1] = cors_api_url + args[1];
+//     }
+//     return open.apply(this, args);
+//   };
+// })();
 
-var prefixUrl = "http://101.200.121.37:8080/";
+var prefixUrl = "https://api.docs.danger.icu/";
 
 String.prototype.isEmpty = function () {
   return this == null || this == "" || this.trim() == "";
