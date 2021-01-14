@@ -13,6 +13,8 @@ body {
   height: 100%;
 }
 
+svg { preserveAspectRatio: max; }
+
 #baseContainer {
   background-color: rgba(255, 255, 255, 0.565);
   padding: 1rem;
