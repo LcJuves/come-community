@@ -35,7 +35,6 @@ svg { preserveAspectRatio: max; }
 #baseContainer img {
   width: 3.6rem;
   height: 3.6rem;
-  border-radius: 0.65rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
