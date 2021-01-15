@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Menlo';
+  font-family: '_Menlo';
   src: url('https://web-fronted.xyz/assets/font/menlo/regular.ttf');
 }
 
 
 * {
-  font-family: 'Menlo'
+  font-family: '_Menlo'
 }
 
 html,
@@ -41,6 +41,7 @@ svg { preserveAspectRatio: max; }
   -ms-user-select: none;
   display: block;
   vertical-align: middle;
+  object-fit: scale-down;
 }
 
 #childContainer span {
