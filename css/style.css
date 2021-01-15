@@ -13,8 +13,6 @@ body {
   height: 100%;
 }
 
-svg { preserveAspectRatio: max; }
-
 #baseContainer {
   background-color: rgba(255, 255, 255, 0.565);
   padding: 1rem;
@@ -40,7 +38,6 @@ svg { preserveAspectRatio: max; }
   -ms-user-select: none;
   display: block;
   vertical-align: middle;
-  object-fit: scale-down;
 }
 
 #childContainer span {
