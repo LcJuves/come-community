@@ -16,6 +16,14 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Current Database: `docs_liangchengj_com`
+--
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `docs_liangchengj_com` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+USE `docs_liangchengj_com`;
+
+--
 -- Table structure for table `t_item`
 --
 
@@ -78,4 +86,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-26 23:31:56
+-- Dump completed on 2021-07-26 23:46:13
