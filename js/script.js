@@ -49,7 +49,7 @@ function loadTag() {
           return a["title"].localeCompare(b["title"]);
         });
         for (let obj of data) {
-          let imgIconUrl = obj["img_url"];
+          let imgIconUrl = obj["imgUrl"];
           let title = obj["title"];
           let url = obj["url"];
           let id = obj["id"];
