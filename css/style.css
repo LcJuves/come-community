@@ -1,11 +1,10 @@
 @font-face {
-  font-family: '_Menlo';
-  src: url('https://web-fronted.xyz/assets/font/menlo/regular.ttf');
+  font-family: "_Menlo";
+  src: url("https://webfrontend.lcjuves.com/assets/font/menlo/regular.ttf");
 }
 
-
 * {
-  font-family: 'Menlo', '_Menlo'
+  font-family: "Menlo", "_Menlo";
 }
 
 html,
@@ -56,20 +55,24 @@ body {
 }
 
 #title {
-  color: rgb(60,60,60);
+  color: rgb(60, 60, 60);
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 #url {
-  color: rgb(116,116,116);
+  color: rgb(116, 116, 116);
   padding-top: 0.5rem;
-  font-size: 0.75rem
+  font-size: 0.75rem;
 }
 
 #parent {
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
+  transform: translate(0, 0, -50%, -50%);
+  width: auto;
+  height: auto;
 }
 
 body {

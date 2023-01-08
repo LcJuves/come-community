@@ -18,7 +18,8 @@
 //   };
 // })();
 
-var prefixUrl = "https://api.docs.danger.icu/";
+// var prefixUrl = "https://docs.lcjuves.com/";
+var prefixUrl = "";
 
 String.prototype.isEmpty = function () {
   return this == null || this == "" || this.trim() == "";
@@ -33,7 +34,7 @@ var uploadData = {
 function loadTag() {
   $.ajax({
     type: "get",
-    url: prefixUrl + "items",
+    url: prefixUrl + "items.json",
     // beforeSend: function (req) {
     //   let token = Cookies.get("token");
     //   if (token) {
@@ -72,40 +73,40 @@ function loadTag() {
 onload = () => {
   loadTag();
 
-  document.getElementById("add").onclick = function () {
-    if (Cookies.get("token")) {
-      showDialog(
-        "添加",
-        true,
-        "提交",
-        "请输入标签标题",
-        "请输入标签内容链接",
-        this
-      );
-    } else {
-      showDialog("用户登录", false, "登录", "请输入用户名", "请输入密码", this);
-    }
-  };
+  // document.getElementById("add").onclick = function () {
+  //   if (Cookies.get("token")) {
+  //     showDialog(
+  //       "添加",
+  //       true,
+  //       "提交",
+  //       "请输入标签标题",
+  //       "请输入标签内容链接",
+  //       this
+  //     );
+  //   } else {
+  //     showDialog("用户登录", false, "登录", "请输入用户名", "请输入密码", this);
+  //   }
+  // };
 
   var imgDelBtnIsShowing = false;
 
-  document.getElementById("edit").onclick = function () {
-    if (Cookies.get("token")) {
-      if (!imgDelBtnIsShowing) {
-        $("#baseContainer .img_del").fadeIn();
-        this.children[0].setAttribute("src", "img/ok.svg");
-        imgDelBtnIsShowing = true;
-      } else {
-        $("#baseContainer .img_del").fadeOut();
-        this.children[0].setAttribute("src", "img/edit.svg");
-        imgDelBtnIsShowing = false;
-      }
-      $(this).hide();
-      $(this).fadeIn();
-    } else {
-      showDialog("用户登录", false, "登录", "请输入用户名", "请输入密码", this);
-    }
-  };
+  // document.getElementById("edit").onclick = function () {
+  //   if (Cookies.get("token")) {
+  //     if (!imgDelBtnIsShowing) {
+  //       $("#baseContainer .img_del").fadeIn();
+  //       this.children[0].setAttribute("src", "img/ok.svg");
+  //       imgDelBtnIsShowing = true;
+  //     } else {
+  //       $("#baseContainer .img_del").fadeOut();
+  //       this.children[0].setAttribute("src", "img/edit.svg");
+  //       imgDelBtnIsShowing = false;
+  //     }
+  //     $(this).hide();
+  //     $(this).fadeIn();
+  //   } else {
+  //     showDialog("用户登录", false, "登录", "请输入用户名", "请输入密码", this);
+  //   }
+  // };
 };
 
 function showDialog(title, showInputFile, buttonTipTop, p1, p2, target) {
