@@ -355,7 +355,7 @@ VALUES
     137,
     'Go',
     NULL,
-    'https://go-zh.org/doc',
+    'https://go.dev/doc',
     'https://webfrontend.lcjuves.com/assets/svg/GoLang.svg',
     NULL,
     NULL
