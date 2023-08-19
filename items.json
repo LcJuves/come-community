@@ -214,6 +214,11 @@
       "imgUrl": "https://webfrontend.lcjuves.com/assets/svg/GraphQL.svg",
       "title": "GraphQL",
       "url": "https://graphql.cn/learn"
+    },
+    {
+      "imgUrl": "https://webfrontend.lcjuves.com/assets/svg/ZIG.svg",
+      "title": "ZIG",
+      "url": "https://ziglang.org/documentation/master"
     }
   ],
   "flag": 1
