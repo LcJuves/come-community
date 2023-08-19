@@ -56,7 +56,7 @@ function loadTag() {
           let id = obj["id"];
 
           $("#parent")
-            .append(`<div id="baseContainer" onclick="location.href='${url}';" class="shake shake-little">
+            .append(`<div id="baseContainer" onclick="window.open('${url}');" class="shake shake-little">
     <img src="${imgIconUrl}" alt="${title}"/>
     <div id="childContainer">
       <span id="title">${title}</span>
