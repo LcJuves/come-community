@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.31, for macos12 (arm64)
 --
--- Host: localhost    Database: docs_liangchengj_com
+-- Host: localhost    Database: docs_lcjuves_com
 -- ------------------------------------------------------
 -- Server version	8.0.31
 
@@ -16,12 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `docs_liangchengj_com`
+-- Current Database: `docs_lcjuves_com`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `docs_liangchengj_com` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `docs_lcjuves_com` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 
-USE `docs_liangchengj_com`;
+USE `docs_lcjuves_com`;
 
 --
 -- Table structure for table `t_item`
@@ -73,7 +73,7 @@ CREATE TABLE `t_user` (
 
 LOCK TABLES `t_user` WRITE;
 /*!40000 ALTER TABLE `t_user` DISABLE KEYS */;
-INSERT INTO `t_user` VALUES (2,'admin','@Wodeshijie9934');
+INSERT INTO `t_user` VALUES (2,'admin','Bohhyt-kyssex-bupso4');
 /*!40000 ALTER TABLE `t_user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
