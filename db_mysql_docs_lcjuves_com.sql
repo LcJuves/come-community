@@ -139,7 +139,7 @@ VALUES
     93,
     'Kotlin',
     NULL,
-    'https://www.kotlincn.net/docs',
+    'https://kotlinlang.org/docs',
     'https://webfrontend.lcjuves.com/assets/svg/Kotlin.svg',
     NULL,
     NULL

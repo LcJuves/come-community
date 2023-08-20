@@ -37,7 +37,7 @@ let data = [
     imgIconUrl:
       "https://www.kotlincn.net/assets/images/apple-touch-icon-72x72.png",
     title: "Kotlin",
-    url: "https://www.kotlincn.net/docs/reference",
+    url: "https://kotlinlang.org/docs/reference",
   },
   {
     imgIconUrl:
