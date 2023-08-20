@@ -211,7 +211,7 @@ VALUES
     121,
     'TypeScript',
     NULL,
-    'https://www.tslang.cn/docs',
+    'https://www.typescriptlang.org/zh/docs',
     'https://webfrontend.lcjuves.com/assets/svg/TypeScript.svg',
     NULL,
     NULL
