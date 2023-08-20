@@ -476,6 +476,15 @@ VALUES
     'https://webfrontend.lcjuves.com/assets/svg/ZIG.svg',
     NULL,
     NULL
+  ),
+  (
+    151,
+    'Visual C',
+    NULL,
+    'https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170',
+    'https://webfrontend.lcjuves.com/assets/svg/The%20C%20Programming%20Language.svg',
+    NULL,
+    NULL
   );
 
 /*!40000 ALTER TABLE `t_item` ENABLE KEYS */

@@ -219,6 +219,11 @@
       "imgUrl": "https://webfrontend.lcjuves.com/assets/svg/ZIG.svg",
       "title": "ZIG",
       "url": "https://ziglang.org/documentation/master"
+    },
+    {
+      "imgUrl": "https://webfrontend.lcjuves.com/assets/svg/The%20C%20Programming%20Language.svg",
+      "title": "Visual C",
+      "url": "https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170"
     }
   ],
   "flag": 1
