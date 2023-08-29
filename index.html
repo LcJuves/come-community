@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Docs Navigation</title>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.js"></script>
-  <!--<script src="/js/load_body_bac.js"></script>-->
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-  <link rel="stylesheet" href="/css/csshake.min.css" />
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
 
-  <link rel="icon" type="image/svg+xml" href="//webfrontend.lcjuves.com/assets/svg/Meyou%20Studio.svg" />
-  <link rel="shortcut icon" type="image/svg+xml" href="//webfrontend.lcjuves.com/assets/svg/Meyou%20Studio.svg" />
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="docs">
+  <link rel="apple-touch-icon" type="image/svg+xml" href="//webfrontend.lcjuves.com/assets/svg/Meyou%20Studio.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="//webfrontend.lcjuves.com/assets/svg/Meyou%20Studio.svg"/>
+
+  <title>docs</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "4217164043";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
-
 <body>
-  <div id="parent"></div>
-  <!-- <div id="rigth_bottom"> -->
-  <!-- <div id="edit"><img src="img/edit.svg" /></div> -->
-  <!-- <div id="add"><img src="img/add.svg" /></div> -->
-  <!-- </div> -->
-
-  <script src="/js/script.js"></script>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
 </body>
-
 </html>
