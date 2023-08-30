@@ -16,7 +16,7 @@ class BaseContainer extends StatelessWidget {
     return InkWellContainer(
         padding: const EdgeInsets.all(15),
         borderRadius: BorderRadius.circular(15),
-        color: const Color.fromRGBO(255, 255, 255, 0.565),
+        color: Colors.white.withOpacity(0.8),
         onTap: onTap,
         child: Row(mainAxisSize: MainAxisSize.min, children: [
           SvgNetworkIcon(url: item.imgUrl, size: svgIconSize),
@@ -26,14 +26,13 @@ class BaseContainer extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  item.title,
-                  style: const TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 60, 60, 60)),
-                  textAlign: TextAlign.start,
-                ),
+                Text(item.title,
+                    style: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(255, 60, 60, 60)),
+                    textAlign: TextAlign.start,
+                    overflow: TextOverflow.ellipsis),
                 Padding(
                   padding: const EdgeInsets.only(top: 4),
                   child: SizedBox(
