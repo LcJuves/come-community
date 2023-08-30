@@ -8,24 +8,15 @@ import 'dart:convert';
 import 'base_container.dart';
 
 void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-          primaryColor: Colors.white,
-          useMaterial3: true,
-          fontFamily: 'Menlo',
-          textSelectionTheme: const TextSelectionThemeData(
-              cursorColor: Colors.white, selectionColor: Color(0xFFB4D7FF))),
-      home: const HomePage(),
-    );
-  }
+  runApp(MaterialApp(
+    theme: ThemeData(
+        primaryColor: Colors.white,
+        useMaterial3: true,
+        fontFamily: 'Menlo',
+        textSelectionTheme: const TextSelectionThemeData(
+            cursorColor: Colors.white, selectionColor: Color(0xFFB4D7FF))),
+    home: const HomePage(),
+  ));
 }
 
 class HomePage extends StatefulWidget {
@@ -47,7 +38,7 @@ class HomePage extends StatefulWidget {
     } else {
       // If the server did not return a 200 OK response,
       // then throw an exception.
-      throw Exception('Failed to fetch items');
+      throw Exception('Failed to load items');
     }
   }
 
@@ -137,25 +128,16 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ));
           }
-
-          final screenWidth = MediaQuery.of(context).size.width;
-          final screenHeight = MediaQuery.of(context).size.height;
-          final circularProgressSize =
-              screenWidth > screenHeight ? screenHeight : screenWidth;
           // By default, show a loading spinner.
-          return Center(
-            child: SizedBox(
-              width: circularProgressSize,
-              height: circularProgressSize,
-              child: const Padding(
-                padding: EdgeInsets.all(100),
-                child: CircularProgressIndicator(
-                  strokeWidth: 10,
-                  color: Colors.white,
-                ),
-              ),
+          return const Center(
+              child: SizedBox(
+            width: 280,
+            height: 280,
+            child: CircularProgressIndicator(
+              strokeWidth: 10,
+              color: Colors.white,
             ),
-          );
+          ));
         },
       ),
     );
