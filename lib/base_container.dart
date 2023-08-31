@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:protobuffers/items.pb.dart';
 
-import 'item.dart';
 import 'svg_network_icon.dart';
 import 'inkwell_container.dart';
 
 const svgIconSize = 55.2;
 
+// ignore: must_be_immutable
 class BaseContainer extends StatelessWidget {
+  final String _commonUrlPrefix = "https://webfrontend.lcjuves.com/assets/svg";
+  late String _imgUrl;
   final Item item;
   final GestureTapCallback? onTap;
-  const BaseContainer({super.key, required this.item, this.onTap});
+  BaseContainer({super.key, required this.item, this.onTap}) {
+    _imgUrl = item.imgUrl;
+    if (_imgUrl.startsWith('/')) {
+      _imgUrl = _commonUrlPrefix + _imgUrl;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +27,7 @@ class BaseContainer extends StatelessWidget {
         color: Colors.white.withOpacity(0.8),
         onTap: onTap,
         child: Row(mainAxisSize: MainAxisSize.min, children: [
-          SvgNetworkIcon(url: item.imgUrl, size: svgIconSize),
+          SvgNetworkIcon(url: _imgUrl, size: svgIconSize),
           Padding(
             padding: const EdgeInsets.only(left: 15),
             child: Column(

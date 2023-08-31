@@ -1,22 +1,29 @@
-import 'package:docs/item.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
-
-import 'dart:convert';
+import 'package:protobuffers/items.pb.dart';
 
 import 'base_container.dart';
 
 void main() {
-  runApp(MaterialApp(
-    theme: ThemeData(
-        primaryColor: Colors.white,
-        useMaterial3: true,
-        fontFamily: 'Menlo',
-        textSelectionTheme: const TextSelectionThemeData(
-            cursorColor: Colors.white, selectionColor: Color(0xFFB4D7FF))),
-    home: const HomePage(),
-  ));
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData(
+          primaryColor: Colors.white,
+          useMaterial3: true,
+          fontFamily: 'Menlo',
+          textSelectionTheme: const TextSelectionThemeData(
+              cursorColor: Colors.white, selectionColor: Color(0xFFB4D7FF))),
+      home: const HomePage(),
+    );
+  }
 }
 
 class HomePage extends StatefulWidget {
@@ -25,16 +32,8 @@ class HomePage extends StatefulWidget {
   @protected
   Future<List<Item>> fetchItems(String url) async {
     final response = await http.get(Uri.parse(url));
-    final List<Item> items = [];
-
     if (response.statusCode == 200) {
-      // If the server did return a 200 OK response,
-      // then parse the JSON.
-      final data = jsonDecode(response.body)['data'];
-      for (var item in data) {
-        items.add(Item.fromJson(item));
-      }
-      return items;
+      return Items.fromBuffer(response.bodyBytes).itemList;
     } else {
       // If the server did not return a 200 OK response,
       // then throw an exception.
@@ -53,7 +52,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    futureItems = widget.fetchItems('https://docs.lcjuves.com/items.json');
+    futureItems = widget.fetchItems('https://docs.lcjuves.com/items.pb');
   }
 
   @override
@@ -128,14 +127,22 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ));
           }
+
+          final screenWidth = MediaQuery.of(context).size.width;
+          final screenHeight = MediaQuery.of(context).size.height;
+          final circularProgressSize =
+              screenWidth > screenHeight ? screenHeight : screenWidth;
           // By default, show a loading spinner.
-          return const Center(
+          return Center(
               child: SizedBox(
-            width: 280,
-            height: 280,
-            child: CircularProgressIndicator(
-              strokeWidth: 10,
-              color: Colors.white,
+            width: circularProgressSize,
+            height: circularProgressSize,
+            child: const Padding(
+              padding: EdgeInsets.all(100),
+              child: CircularProgressIndicator(
+                strokeWidth: 10,
+                color: Colors.white,
+              ),
             ),
           ));
         },

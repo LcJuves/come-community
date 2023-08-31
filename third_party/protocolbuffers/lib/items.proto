@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Item {
+    string img_url = 1;
+    string title = 2;
+    string url = 3;
+}
+
+message Items {
+    repeated Item item_list = 1;
+}
