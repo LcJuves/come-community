@@ -178,6 +178,8 @@ Future main(List<String> args) async {
       imgUrl: "/C%2B%2B.svg",
       title: "Visual C++",
       url: "https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170"));
+  itemList
+      .add(Item(imgUrl: "/TOML.svg", title: "TOML", url: "https://toml.io/cn"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
