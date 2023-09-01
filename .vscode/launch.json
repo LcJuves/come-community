@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "docs",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": ["--web-renderer", "canvaskit", "--no-web-resources-cdn"]
+    },
+    {
+      "name": "docs (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": ["--web-renderer", "canvaskit", "--no-web-resources-cdn"],
+      "flutterMode": "profile"
+    },
+    {
+      "name": "docs (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": ["--web-renderer", "canvaskit", "--no-web-resources-cdn"],
+      "flutterMode": "release"
+    }
+  ]
+}
