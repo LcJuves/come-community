@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:protobuffers/items.pb.dart';
 
 import 'base_container.dart';
+import 'constants.dart';
 
 void main() {
   runApp(const MyApp());
@@ -71,7 +72,7 @@ class _HomePageState extends State<HomePage> {
             fetchedItems.sort((a, b) =>
                 a.title.toLowerCase().compareTo(b.title.toLowerCase()));
             return SingleChildScrollView(
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.all(edgePadding),
                 child: Column(
                   children: [
                     SearchBar(
@@ -85,35 +86,22 @@ class _HomePageState extends State<HomePage> {
                       textStyle: const MaterialStatePropertyAll(TextStyle(
                           color: Colors.black, fontWeight: FontWeight.w500)),
                       onChanged: (value) async {
-                        if (value.isEmpty) {
-                          setState(() {
-                            futureItems = Future.value(_loadedItems);
-                          });
-                          return;
-                        }
-
-                        final List<Item> list = [];
-                        for (final item in fetchedItems) {
-                          if (item.title.contains(value) ||
-                              item.url.contains(value)) {
-                            list.add(item);
-                          }
-                        }
+                        final filteredItems = _loadedItems!.where((item) =>
+                            item.title.contains(value) ||
+                            item.url.contains(value));
                         setState(() {
-                          futureItems = Future.value(list);
+                          futureItems = Future.value(List.of(filteredItems));
                         });
                       },
                     ),
                     const SizedBox(
-                      height: 20,
+                      height: edgePadding,
                     ),
                     Center(
                         child: Wrap(
                       spacing: 50,
                       runSpacing: 40,
                       direction: Axis.horizontal,
-                      // clipBehavior: Clip.antiAliasWithSaveLayer,
-                      // verticalDirection: VerticalDirection.up,
                       children: fetchedItems
                           .map((i) => BaseContainer(
                                 item: i,

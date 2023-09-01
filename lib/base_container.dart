@@ -3,8 +3,7 @@ import 'package:protobuffers/items.pb.dart';
 
 import 'svg_network_icon.dart';
 import 'inkwell_container.dart';
-
-const svgIconSize = 55.2;
+import 'constants.dart';
 
 // ignore: must_be_immutable
 class BaseContainer extends StatelessWidget {
@@ -19,39 +18,51 @@ class BaseContainer extends StatelessWidget {
     }
   }
 
+  double _textBoxDynamicWidth(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final usableWidth = screenWidth -
+        (edgePadding * 2) -
+        (baseContainerPadding * 2) -
+        svgIconSize -
+        titleLeftPadding;
+    return usableWidth < urlBoxWidth ? usableWidth : urlBoxWidth;
+  }
+
   @override
   Widget build(BuildContext context) {
     return InkWellContainer(
-        padding: const EdgeInsets.all(15),
+        padding: const EdgeInsets.all(baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
         color: Colors.white.withOpacity(0.8),
         onTap: onTap,
         child: Row(mainAxisSize: MainAxisSize.min, children: [
           SvgNetworkIcon(url: _imgUrl, size: svgIconSize),
           Padding(
-            padding: const EdgeInsets.only(left: 15),
+            padding: const EdgeInsets.only(left: titleLeftPadding),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(item.title,
-                    style: const TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Color.fromARGB(255, 60, 60, 60)),
-                    textAlign: TextAlign.start,
-                    overflow: TextOverflow.ellipsis),
+                SizedBox(
+                  width: _textBoxDynamicWidth(context),
+                  child: Text(item.title,
+                      style: const TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 60, 60, 60)),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis),
+                ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 4),
+                  padding: const EdgeInsets.only(top: urlBoxTopPadding),
                   child: SizedBox(
-                    width: 270,
+                    width: _textBoxDynamicWidth(context),
                     child: Text(
                       item.url,
                       style: const TextStyle(
                           fontSize: 11,
                           color: Color.fromARGB(255, 100, 100, 100),
                           fontWeight: FontWeight.w500),
-                      textAlign: TextAlign.start,
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),

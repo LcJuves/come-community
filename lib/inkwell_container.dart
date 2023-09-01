@@ -6,6 +6,7 @@ class InkWellContainer extends StatelessWidget {
   final Color? color;
   final Widget? child;
   final EdgeInsetsGeometry? padding;
+  final BoxConstraints? constraints;
   const InkWellContainer({
     super.key,
     this.borderRadius,
@@ -13,6 +14,7 @@ class InkWellContainer extends StatelessWidget {
     this.color,
     this.padding,
     this.child,
+    this.constraints,
   });
 
   @override
@@ -22,6 +24,7 @@ class InkWellContainer extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(color: color, borderRadius: borderRadius),
         padding: padding,
+        constraints: constraints,
         child: child,
       ),
       onTap: () => onTap!.call(),
