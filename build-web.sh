@@ -1,26 +1,47 @@
 #!/bin/sh
 
+minify_js() {
+    # bun build "$1" --minify-syntax --minify-whitespace --target browser --outfile "$1"
+    esbuild --minify --loader=js <"$1" >"$1.out"
+    mv "$1.out" "$1"
+}
+
+minify_css() {
+    esbuild --minify --loader=css <"$1" >"$1.out"
+    mv "$1.out" "$1"
+}
+
+minify_html() {
+    bunx html-minifier --remove-comments --minify-js esbuild \
+        --minify-css esbuild \
+        --remove-optional-tags --remove-redundant-attributes \
+        --remove-tag-whitespace --collapse-whitespace \
+        --use-short-doctype --remove-script-type-attributes --remove-style-link-type-attributes \
+        "$1" -o "$1"
+}
+
+minify_json() {
+    bun repl -e "(async()=>await Bun.write(Bun.stdout,JSON.stringify(require('./$1'))))()" >"$1.out"
+    mv "$1.out" "$1"
+}
+
 flutter clean
 flutter build web --web-renderer canvaskit --no-tree-shake-icons --no-web-resources-cdn --release
 (
     cd build/web || exit
-    esbuild --minify --loader=js <flutter_service_worker.js >flutter_service_worker.out.js
-    mv flutter_service_worker.out.js flutter_service_worker.js
-    esbuild --minify --loader=js <flutter.js >flutter.out.js
-    mv flutter.out.js flutter.js
-    esbuild --minify --loader=js <main.dart.js >main.dart.out.js
-    mv main.dart.out.js main.dart.js
+    minify_js flutter_service_worker.js
+    minify_js flutter.js
+    minify_html index.html
+    minify_js main.dart.js
+    minify_json manifest.json
 
     cd canvaskit || exit
-    esbuild --minify --loader=js <canvaskit.js >canvaskit.out.js
-    mv canvaskit.out.js canvaskit.js
-    esbuild --minify --loader=js <skwasm.js >skwasm.out.js
-    mv skwasm.out.js skwasm.js
-    esbuild --minify --loader=js <skwasm.worker.js >skwasm.worker.out.js
-    mv skwasm.worker.out.js skwasm.worker.js
+    minify_js canvaskit.js
+    minify_js skwasm.js
+    minify_js skwasm.worker.js
 
     cd chromium || exit
-    esbuild --minify --loader=js <canvaskit.js >canvaskit.out.js
-    mv canvaskit.out.js canvaskit.js
+    minify_js canvaskit.js
 )
-tar -cvJf docs-web.tar.xz build/web/**
+
+tar -cvJf web-artifacts.tar.xz build/web/**
