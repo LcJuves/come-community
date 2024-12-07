@@ -77,13 +77,13 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     SearchBar(
                       shadowColor:
-                          const MaterialStatePropertyAll(Colors.transparent),
-                      backgroundColor: MaterialStatePropertyAll(
-                          Colors.white.withOpacity(0.8)),
+                          const WidgetStatePropertyAll(Colors.transparent),
+                      backgroundColor:
+                          WidgetStatePropertyAll(Colors.white.withOpacity(0.8)),
                       hintText: "Please enter some information for search",
-                      hintStyle: MaterialStatePropertyAll(
+                      hintStyle: WidgetStatePropertyAll(
                           TextStyle(color: Colors.black.withOpacity(0.4))),
-                      textStyle: const MaterialStatePropertyAll(TextStyle(
+                      textStyle: const WidgetStatePropertyAll(TextStyle(
                           color: Colors.black, fontWeight: FontWeight.w500)),
                       onChanged: (value) async {
                         final filteredItems = _loadedItems!.where((item) =>
@@ -99,8 +99,8 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Center(
                         child: Wrap(
-                      spacing: 50,
-                      runSpacing: 40,
+                      spacing: edgePadding + (edgePadding * 0.618),
+                      runSpacing: edgePadding,
                       direction: Axis.horizontal,
                       children: fetchedItems
                           .map((i) => BaseContainer(
