@@ -13,7 +13,7 @@ minify_css() {
 
 minify_html() {
     bunx html-minifier --remove-comments --minify-js esbuild \
-        --minify-css esbuild \
+        --minify-css esbuild --minify-urls relateurl \
         --remove-optional-tags --remove-redundant-attributes \
         --remove-tag-whitespace --collapse-whitespace \
         --use-short-doctype --remove-script-type-attributes --remove-style-link-type-attributes \
@@ -26,13 +26,15 @@ minify_json() {
 }
 
 flutter clean
-flutter build web --web-renderer canvaskit --no-tree-shake-icons --no-web-resources-cdn --release
+flutter build web --wasm --no-tree-shake-icons --no-native-null-assertions --no-web-resources-cdn --release
 (
     cd build/web || exit
+    minify_js flutter_bootstrap.js
     minify_js flutter_service_worker.js
     minify_js flutter.js
     minify_html index.html
     minify_js main.dart.js
+    minify_js main.dart.mjs
     minify_json manifest.json
 
     cd canvaskit || exit
