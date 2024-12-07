@@ -7,7 +7,7 @@ import 'constants.dart';
 
 // ignore: must_be_immutable
 class BaseContainer extends StatelessWidget {
-  final String _commonUrlPrefix = "https://webfrontend.lcjuves.com/assets/svg";
+  final String _commonUrlPrefix = "https://web.lcjuves.com/assets/svg";
   late String _imgUrl;
   final Item item;
   final GestureTapCallback? onTap;
