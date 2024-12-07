@@ -1,5 +1,6 @@
-import 'lib/items.pb.dart';
 import 'dart:io';
+
+import 'lib/items.pb.dart';
 
 Future main(List<String> args) async {
   final List<Item> itemList = List.empty(growable: true);
@@ -36,7 +37,9 @@ Future main(List<String> args) async {
       title: "React Native",
       url: "https://reactnative.cn/docs/getting-started"));
   itemList.add(Item(
-      imgUrl: "/Vue.svg", title: "Vue", url: "https://cn.vuejs.org/v2/guide"));
+      imgUrl: "/Vue.svg",
+      title: "VueJS",
+      url: "https://cn.vuejs.org/guide/introduction"));
   itemList.add(Item(
       imgUrl: "/Python.svg",
       title: "Python",
@@ -68,10 +71,10 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Unity.svg",
       title: "Unity",
-      url: "https://docs.unity.cn/cn/2020.3/Manual/UnityManual.html"));
+      url: "https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html"));
   itemList.add(Item(
       imgUrl: "/ThreeJS.svg",
-      title: "Three",
+      title: "ThreeJS",
       url:
           "https://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene"));
   itemList.add(Item(
@@ -80,7 +83,7 @@ Future main(List<String> args) async {
       url: "https://doc.deno.land/builtin/stable"));
   itemList.add(Item(
       imgUrl: "/NodeJS.svg",
-      title: "Node",
+      title: "NodeJS",
       url: "https://nodejs.org/zh-cn/docs"));
   itemList.add(Item(
       imgUrl: "/PyTorch.svg",
@@ -180,6 +183,74 @@ Future main(List<String> args) async {
       url: "https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170"));
   itemList
       .add(Item(imgUrl: "/TOML.svg", title: "TOML", url: "https://toml.io/cn"));
+  itemList.add(Item(
+      imgUrl: "/Swift.svg",
+      title: "Swift",
+      url: "https://www.swift.org/documentation"));
+  itemList
+      .add(Item(imgUrl: "/Bun.svg", title: "Bun", url: "https://bun.sh/docs"));
+  itemList.add(Item(
+      imgUrl: "/Apple.svg",
+      title: "Apple Developer",
+      url: "https://developer.apple.com/documentation"));
+  itemList.add(Item(
+      imgUrl: "/WebAssembly.svg",
+      title: "WebAssembly",
+      url: "https://developer.mozilla.org/zh-CN/docs/WebAssembly"));
+  // itemList.add(Item(
+  //     imgUrl: "/WebAssembly.svg",
+  //     title: "WebAssembly",
+  //     url: "https://developer.huawei.com/consumer/cn/doc"));
+  itemList.add(Item(
+      imgUrl: "/React.svg",
+      title: "ReactJS",
+      url: "https://zh-hans.react.dev/learn"));
+  itemList.add(Item(
+      imgUrl: "/Huawei.svg",
+      title: "Huawei Developer",
+      url: "https://developer.huawei.com/consumer/cn/doc"));
+  itemList.add(Item(
+      imgUrl: "/TAURI.svg",
+      title: "TAURI",
+      url: "https://tauri.app/zh-cn/start"));
+  itemList.add(Item(
+      imgUrl: "/Nginx.svg", title: "Nginx", url: "https://nginx.org/en/docs"));
+  itemList.add(Item(
+      imgUrl: "/git-scm.svg",
+      title: "Git SCM",
+      url: "https://git-scm.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub Actions",
+      url: "https://docs.github.com/zh/actions"));
+  itemList.add(Item(
+      imgUrl: "/GitLab.svg",
+      title: "GitLab CI",
+      url: "https://docs.gitlab.com/operator/developer/ci.html"));
+  itemList.add(Item(
+      imgUrl: "/VS Code.svg",
+      title: "Visual Studio Code",
+      url: "https://code.visualstudio.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/CMake.svg",
+      title: "CMake",
+      url: "https://cmake.org/cmake/help/latest"));
+  itemList.add(Item(
+      imgUrl: "/PowerShell.svg",
+      title: "PowerShell",
+      url: "https://learn.microsoft.com/zh-cn/powershell"));
+  itemList.add(
+      Item(imgUrl: "/GNU.svg", title: "GNU", url: "https://www.gnu.org/doc"));
+  // itemList.add(Item(
+  //     imgUrl: "/eBPF.svg",
+  //     title: "eBPF",
+  //     url: "https://ebpf.io/zh-hans/what-is-ebpf"));
+  // itemList.add(Item(
+  //     imgUrl: "/MAUI.svg",
+  //     title: "MAUI",
+  //     url: "https://learn.microsoft.com/zh-cn/dotnet/maui"));
+  // itemList
+  //     .add(Item(imgUrl: "/Mojo.svg", title: "Mojo", url: "https://docs.modular.com/mojo"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);

@@ -1,7 +1,9 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
-import 'package:url_launcher/url_launcher.dart';
 import 'package:protobuffers/items.pb.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'base_container.dart';
 import 'constants.dart';
@@ -31,8 +33,9 @@ class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
   @protected
-  Future<List<Item>> fetchItems(String url) async {
-    final response = await http.get(Uri.parse(url));
+  Future<List<Item>> fetchItemsFromUrl() async {
+    final response =
+        await http.get(Uri.parse("https://docs.lcjuves.com/items.pb"));
     if (response.statusCode == 200) {
       return Items.fromBuffer(response.bodyBytes).itemList;
     } else {
@@ -40,6 +43,12 @@ class HomePage extends StatefulWidget {
       // then throw an exception.
       throw Exception('Failed to load items');
     }
+  }
+
+  @protected
+  Future<List<Item>> fetchItemsFromBundle() async {
+    final buffer = await rootBundle.load('items.pb');
+    return Items.fromBuffer(Uint8List.sublistView(buffer)).itemList;
   }
 
   @override
@@ -53,7 +62,8 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    futureItems = widget.fetchItems('https://docs.lcjuves.com/items.pb');
+    futureItems =
+        kDebugMode ? widget.fetchItemsFromBundle() : widget.fetchItemsFromUrl();
   }
 
   @override
@@ -120,14 +130,16 @@ class _HomePageState extends State<HomePage> {
           final screenHeight = MediaQuery.of(context).size.height;
           final circularProgressSize =
               screenWidth > screenHeight ? screenHeight : screenWidth;
+          final circularProgressEdgePadding =
+              circularProgressSize - (circularProgressSize * 0.618);
           // By default, show a loading spinner.
           return Center(
               child: SizedBox(
             width: circularProgressSize,
             height: circularProgressSize,
-            child: const Padding(
-              padding: EdgeInsets.all(100),
-              child: CircularProgressIndicator(
+            child: Padding(
+              padding: EdgeInsets.all(circularProgressEdgePadding),
+              child: const CircularProgressIndicator(
                 strokeWidth: 10,
                 color: Colors.white,
               ),

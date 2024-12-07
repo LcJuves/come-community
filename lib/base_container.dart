@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
 
-import 'svg_network_icon.dart';
-import 'inkwell_container.dart';
 import 'constants.dart';
+import 'inkwell_container.dart';
+import 'svg_network_icon.dart';
 
 // ignore: must_be_immutable
 class BaseContainer extends StatelessWidget {

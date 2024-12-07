@@ -17,8 +17,8 @@ N
 G
 
 /React.svgReact Native+https://reactnative.cn/docs/getting-started
-.
-/Vue.svgVuehttps://cn.vuejs.org/v2/guide
+:
+/Vue.svgVueJS'https://cn.vuejs.org/guide/introduction
 4
 /Python.svgPythonhttps://docs.python.org/zh-cn
 @
@@ -37,13 +37,13 @@ TypeScript&https://www.typescriptlang.org/zh/docs
 /JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
 L
 
-/Unity.svgUnity7https://docs.unity.cn/cn/2020.3/Manual/UnityManual.html
-b
-/ThreeJS.svgThreeKhttps://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene
+/Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
+d
+/ThreeJS.svgThreeJSKhttps://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene
 7
 	/Deno.svgDeno$https://doc.deno.land/builtin/stable
-2
-/NodeJS.svgNodehttps://nodejs.org/zh-cn/docs
+4
+/NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
 5
 /PyTorch.svgPyTorchhttps://pytorch.apachecn.org
 >
@@ -103,3 +103,40 @@ T
 Visual C++8https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170
 %
 	/TOML.svgTOMLhttps://toml.io/cn
+8
+
+/Swift.svgSwift#https://www.swift.org/documentation
+$
+/Bun.svgBunhttps://bun.sh/docs
+H
+
+/Apple.svgApple Developer)https://developer.apple.com/documentation
+U
+/WebAssembly.svgWebAssembly4https://developer.mozilla.org/zh-CN/docs/WebAssembly
+6
+
+/React.svgReactJShttps://zh-hans.react.dev/learn
+M
+/Huawei.svgHuawei Developer,https://developer.huawei.com/consumer/cn/doc
+2
+
+/TAURI.svgTAURIhttps://tauri.app/zh-cn/start
+.
+
+/Nginx.svgNginxhttps://nginx.org/en/docs
+1
+/git-scm.svgGit SCMhttps://git-scm.com/docs
+A
+/GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
+L
+/GitLab.svg	GitLab CI2https://docs.gitlab.com/operator/developer/ci.html
+F
+/VS Code.svgVisual Studio Code"https://code.visualstudio.com/docs
+8
+
+/CMake.svgCMake#https://cmake.org/cmake/help/latest
+K
+/PowerShell.svg
+PowerShell,https://learn.microsoft.com/zh-cn/powershell
+(
+/GNU.svgGNUhttps://www.gnu.org/doc
