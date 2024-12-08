@@ -81,8 +81,8 @@ E
 /Webpack.svgwebpack&https://webpack.docschina.org/concepts
 I
 /Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
-:
-/Bootstrap.svg	Bootstraphttps://getbootstrap.com/docs
+8
+/Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
 .
 /PHP.svgPHPhttps://www.php.net/manual/zh
 @
@@ -124,8 +124,8 @@ M
 .
 
 /Nginx.svgNginxhttps://nginx.org/en/docs
-1
-/git-scm.svgGit SCMhttps://git-scm.com/docs
+@
+/git-scm.svgGit SCM'https://git-scm.com/docs/git/zh_HANS-CN
 A
 /GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
 L
@@ -164,3 +164,15 @@ ClickHousehttps://clickhouse.com/docs
 	/eBPF.svgeBPF$https://ebpf.io/zh-hans/what-is-ebpf
 5
 	/SVGO.svgSVGO"https://svgo.dev/docs/introduction
+5
+/Mermaid.svgMermaidhttps://mermaid.js.org/intro
+A
+/Datatracker.svgDatatracker https://datatracker.ietf.org/doc
+I
+/Org_FreeSVG.svgSVG0https://developer.mozilla.org/zh-CN/docs/Web/SVG
+B
+/esbuild.svgesbuild)https://esbuild.github.io/getting-started
+K
+/Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
+=
+/Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
