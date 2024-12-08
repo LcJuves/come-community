@@ -241,10 +241,47 @@ Future main(List<String> args) async {
       url: "https://learn.microsoft.com/zh-cn/powershell"));
   itemList.add(
       Item(imgUrl: "/GNU.svg", title: "GNU", url: "https://www.gnu.org/doc"));
+  itemList.add(Item(
+      imgUrl: "/MSYS2.svg",
+      title: "MSYS2",
+      url: "https://www.msys2.org/docs/what-is-msys2"));
+  itemList.add(Item(imgUrl: "/JWT.svg", title: "JWT", url: "https://jwt.io"));
+  itemList.add(Item(
+      imgUrl: "/emscripten.svg",
+      title: "emscripten",
+      url: "https://emscripten.org/docs"));
   // itemList.add(Item(
-  //     imgUrl: "/eBPF.svg",
-  //     title: "eBPF",
-  //     url: "https://ebpf.io/zh-hans/what-is-ebpf"));
+  //     imgUrl: "/podman.svg",
+  //     title: "podman",
+  //     url: "https://docs.podman.io/en/latest"));
+  itemList.add(
+      Item(imgUrl: "/redis.svg", title: "Redis", url: "https://redis.io/docs"));
+  itemList.add(
+      Item(imgUrl: "/LLVM.svg", title: "LLVM", url: "https://llvm.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/snowflake.svg",
+      title: "snowflake",
+      url: "https://docs.snowflake.com"));
+  itemList.add(Item(
+      imgUrl: "/ClickHouse.svg",
+      title: "ClickHouse",
+      url: "https://clickhouse.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/NanoID.svg",
+      title: "NanoID",
+      url: "https://zelark.github.io/nano-id-cc"));
+  itemList.add(Item(
+      imgUrl: "/eBPF.svg",
+      title: "eBPF",
+      url: "https://ebpf.io/zh-hans/what-is-ebpf"));
+  itemList.add(Item(
+      imgUrl: "/SVGO.svg",
+      title: "SVGO",
+      url: "https://svgo.dev/docs/introduction"));
+  // itemList.add(Item(
+  //     imgUrl: "/Bash.svg",
+  //     title: "Bash",
+  //     url: "https://www.gnu.org/software/bash/manual/html_node/index.html"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",

@@ -140,3 +140,27 @@ K
 PowerShell,https://learn.microsoft.com/zh-cn/powershell
 (
 /GNU.svgGNUhttps://www.gnu.org/doc
+=
+
+/MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
+
+/JWT.svgJWThttps://jwt.io
+:
+/emscripten.svg
+emscriptenhttps://emscripten.org/docs
+*
+
+/redis.svgRedishttps://redis.io/docs
+(
+	/LLVM.svgLLVMhttps://llvm.org/docs
+7
+/snowflake.svg	snowflakehttps://docs.snowflake.com
+:
+/ClickHouse.svg
+ClickHousehttps://clickhouse.com/docs
+:
+/NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
+7
+	/eBPF.svgeBPF$https://ebpf.io/zh-hans/what-is-ebpf
+5
+	/SVGO.svgSVGO"https://svgo.dev/docs/introduction
