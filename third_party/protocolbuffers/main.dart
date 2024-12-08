@@ -150,7 +150,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Bootstrap.svg",
       title: "Bootstrap",
-      url: "https://getbootstrap.com/docs"));
+      url: "https://v5.bootcss.com/docs"));
   itemList.add(Item(
       imgUrl: "/PHP.svg", title: "PHP", url: "https://www.php.net/manual/zh"));
   itemList.add(Item(
@@ -218,7 +218,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/git-scm.svg",
       title: "Git SCM",
-      url: "https://git-scm.com/docs"));
+      url: "https://git-scm.com/docs/git/zh_HANS-CN"));
   itemList.add(Item(
       imgUrl: "/GitHub.svg",
       title: "GitHub Actions",
@@ -278,6 +278,48 @@ Future main(List<String> args) async {
       imgUrl: "/SVGO.svg",
       title: "SVGO",
       url: "https://svgo.dev/docs/introduction"));
+  itemList.add(Item(
+      imgUrl: "/Mermaid.svg",
+      title: "Mermaid",
+      url: "https://mermaid.js.org/intro"));
+  // itemList.add(
+  //     Item(imgUrl: "/JSON5.svg", title: "JSON5", url: "https://json5.org"));
+  itemList.add(Item(
+      imgUrl: "/Datatracker.svg",
+      title: "Datatracker",
+      url: "https://datatracker.ietf.org/doc"));
+  itemList.add(Item(
+      imgUrl: "/Org_FreeSVG.svg",
+      title: "SVG",
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/SVG"));
+  itemList.add(Item(
+      imgUrl: "/esbuild.svg",
+      title: "esbuild",
+      url: "https://esbuild.github.io/getting-started"));
+  // itemList.add(Item(
+  //     imgUrl: "/Linux.svg",
+  //     title: "Linux Command",
+  //     url: "https://wangchujiang.com/linux-command/hot.html"));
+  itemList.add(Item(
+      imgUrl: "/Raspberrypi.svg",
+      title: "Raspberry Pi",
+      url: "https://www.raspberrypi.com/documentation"));
+  // itemList.add(Item(
+  //     imgUrl: "/Pug%20Template%20Engine.svg",
+  //     title: "PugJS",
+  //     url: "https://pugjs.org"));
+  itemList.add(Item(
+      imgUrl: "/Pkl.svg",
+      title: "Pkl",
+      url: "https://pkl-lang.org/main/current/index.html"));
+  // itemList.add(Item(
+  //     imgUrl: "/Pug%20Template%20Engine.svg",
+  //     title: "radash",
+  //     url: "https://radash-docs.vercel.app/docs/getting-started"));
+  // itemList.add(Item(
+  //     imgUrl: "/Apache%20Tomcat.svg",
+  //     title: "Tomcat",
+  //     url: "https://tomcat.apache.org/tomcat-11.0-doc"));
   // itemList.add(Item(
   //     imgUrl: "/Bash.svg",
   //     title: "Bash",
