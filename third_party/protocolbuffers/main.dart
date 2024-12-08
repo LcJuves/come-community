@@ -312,6 +312,28 @@ Future main(List<String> args) async {
       imgUrl: "/Pkl.svg",
       title: "Pkl",
       url: "https://pkl-lang.org/main/current/index.html"));
+  itemList.add(Item(
+      imgUrl: "/Dragonfly.svg",
+      title: "Dragonfly",
+      url: "https://www.dragonflydb.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/Bevy.svg",
+      title: "Bevy",
+      url: "https://bevyengine.org/learn/quick-start/introduction"));
+  itemList.add(Item(
+      imgUrl: "/godot.svg",
+      title: "godot",
+      url: "https://godot-rust.github.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/tokio.svg",
+      title: "Tokio",
+      url: "https://tokio.rs/tokio/tutorial"));
+  itemList.add(Item(
+      imgUrl: "/hyper.svg", title: "hyper", url: "https://hyper.rs/guides"));
+  itemList.add(Item(
+      imgUrl: "/Diesel.svg",
+      title: "Diesel",
+      url: "https://diesel.rs/guides/getting-started"));
   // itemList.add(Item(
   //     imgUrl: "/Pug%20Template%20Engine.svg",
   //     title: "radash",
