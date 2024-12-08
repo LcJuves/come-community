@@ -176,3 +176,18 @@ K
 /Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
+<
+/Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
+H
+	/Bevy.svgBevy5https://bevyengine.org/learn/quick-start/introduction
+6
+
+/godot.svggodot!https://godot-rust.github.io/docs
+4
+
+/tokio.svgTokiohttps://tokio.rs/tokio/tutorial
+,
+
+/hyper.svghyperhttps://hyper.rs/guides
+?
+/Diesel.svgDiesel(https://diesel.rs/guides/getting-started
