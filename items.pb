@@ -1,6 +1,6 @@
 
-9
-/SwiftGG.svgSwiftGG https://swiftgg.gitbook.io/swift
+^
+/SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
 0
 /Flutter.svgFlutterhttps://flutter.cn/docs
 A
@@ -44,8 +44,8 @@ d
 	/Deno.svgDeno$https://doc.deno.land/builtin/stable
 4
 /NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
-5
-/PyTorch.svgPyTorchhttps://pytorch.apachecn.org
+8
+/PyTorch.svgPyTorchhttps://pytorch.org/docs/stable
 >
 /dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
 .
@@ -103,9 +103,9 @@ T
 Visual C++8https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170
 %
 	/TOML.svgTOMLhttps://toml.io/cn
-8
+c
 
-/Swift.svgSwift#https://www.swift.org/documentation
+/Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
 $
 /Bun.svgBunhttps://bun.sh/docs
 H

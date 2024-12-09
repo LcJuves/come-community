@@ -7,7 +7,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/SwiftGG.svg",
       title: "SwiftGG",
-      url: "https://swiftgg.gitbook.io/swift"));
+      url:
+          "https://doc.swiftgg.team/documentation/the-swift-programming-language"));
   itemList.add(Item(
       imgUrl: "/Flutter.svg",
       title: "Flutter",
@@ -88,7 +89,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/PyTorch.svg",
       title: "PyTorch",
-      url: "https://pytorch.apachecn.org"));
+      url: "https://pytorch.org/docs/stable"));
   itemList.add(Item(
       imgUrl: "/dotNET.svg",
       title: "dotNET",
@@ -186,7 +187,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Swift.svg",
       title: "Swift",
-      url: "https://www.swift.org/documentation"));
+      url:
+          "https://docs.swift.org/swift-book/documentation/the-swift-programming-language"));
   itemList
       .add(Item(imgUrl: "/Bun.svg", title: "Bun", url: "https://bun.sh/docs"));
   itemList.add(Item(
