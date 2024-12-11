@@ -336,6 +336,25 @@ Future main(List<String> args) async {
       imgUrl: "/Diesel.svg",
       title: "Diesel",
       url: "https://diesel.rs/guides/getting-started"));
+  itemList.add(
+      Item(imgUrl: "/IPFS.svg", title: "IPFS", url: "https://docs.ipfs.tech"));
+  itemList.add(Item(
+      imgUrl: "/PDFJS.svg",
+      title: "PDFJS",
+      url: "https://mozilla.github.io/pdf.js/getting_started"));
+  itemList.add(Item(
+      imgUrl: "/SQLite.svg",
+      title: "SQLite",
+      url: "https://www.sqlite.org/docs.html"));
+  // itemList.add(Item(
+  //     imgUrl: "/JetpackCompose.svg",
+  //     title: "Jetpack Compose",
+  //     url:
+  //         "https://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/ComposeMultiplatform.svg",
+      title: "Compose Multiplatform",
+      url: "https://www.jetbrains.com/zh-cn/compose-multiplatform"));
   // itemList.add(Item(
   //     imgUrl: "/Pug%20Template%20Engine.svg",
   //     title: "radash",
