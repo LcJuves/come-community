@@ -191,3 +191,12 @@ H
 /hyper.svghyperhttps://hyper.rs/guides
 ?
 /Diesel.svgDiesel(https://diesel.rs/guides/getting-started
+)
+	/IPFS.svgIPFShttps://docs.ipfs.tech
+E
+
+/PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
+7
+/SQLite.svgSQLite https://www.sqlite.org/docs.html
+i
+/ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform

@@ -1,6 +1,6 @@
 
-9
-/SwiftGG.svgSwiftGG https://swiftgg.gitbook.io/swift
+^
+/SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
 0
 /Flutter.svgFlutterhttps://flutter.cn/docs
 A
@@ -44,8 +44,8 @@ d
 	/Deno.svgDeno$https://doc.deno.land/builtin/stable
 4
 /NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
-5
-/PyTorch.svgPyTorchhttps://pytorch.apachecn.org
+8
+/PyTorch.svgPyTorchhttps://pytorch.org/docs/stable
 >
 /dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
 .
@@ -81,8 +81,8 @@ E
 /Webpack.svgwebpack&https://webpack.docschina.org/concepts
 I
 /Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
-:
-/Bootstrap.svg	Bootstraphttps://getbootstrap.com/docs
+8
+/Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
 .
 /PHP.svgPHPhttps://www.php.net/manual/zh
 @
@@ -103,9 +103,9 @@ T
 Visual C++8https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170
 %
 	/TOML.svgTOMLhttps://toml.io/cn
-8
+c
 
-/Swift.svgSwift#https://www.swift.org/documentation
+/Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
 $
 /Bun.svgBunhttps://bun.sh/docs
 H
@@ -124,8 +124,8 @@ M
 .
 
 /Nginx.svgNginxhttps://nginx.org/en/docs
-1
-/git-scm.svgGit SCMhttps://git-scm.com/docs
+@
+/git-scm.svgGit SCM'https://git-scm.com/docs/git/zh_HANS-CN
 A
 /GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
 L
@@ -140,3 +140,63 @@ K
 PowerShell,https://learn.microsoft.com/zh-cn/powershell
 (
 /GNU.svgGNUhttps://www.gnu.org/doc
+=
+
+/MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
+
+/JWT.svgJWThttps://jwt.io
+:
+/emscripten.svg
+emscriptenhttps://emscripten.org/docs
+*
+
+/redis.svgRedishttps://redis.io/docs
+(
+	/LLVM.svgLLVMhttps://llvm.org/docs
+7
+/snowflake.svg	snowflakehttps://docs.snowflake.com
+:
+/ClickHouse.svg
+ClickHousehttps://clickhouse.com/docs
+:
+/NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
+7
+	/eBPF.svgeBPF$https://ebpf.io/zh-hans/what-is-ebpf
+5
+	/SVGO.svgSVGO"https://svgo.dev/docs/introduction
+5
+/Mermaid.svgMermaidhttps://mermaid.js.org/intro
+A
+/Datatracker.svgDatatracker https://datatracker.ietf.org/doc
+I
+/Org_FreeSVG.svgSVG0https://developer.mozilla.org/zh-CN/docs/Web/SVG
+B
+/esbuild.svgesbuild)https://esbuild.github.io/getting-started
+K
+/Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
+=
+/Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
+<
+/Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
+H
+	/Bevy.svgBevy5https://bevyengine.org/learn/quick-start/introduction
+6
+
+/godot.svggodot!https://godot-rust.github.io/docs
+4
+
+/tokio.svgTokiohttps://tokio.rs/tokio/tutorial
+,
+
+/hyper.svghyperhttps://hyper.rs/guides
+?
+/Diesel.svgDiesel(https://diesel.rs/guides/getting-started
+)
+	/IPFS.svgIPFShttps://docs.ipfs.tech
+E
+
+/PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
+7
+/SQLite.svgSQLite https://www.sqlite.org/docs.html
+i
+/ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
