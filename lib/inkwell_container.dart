@@ -20,9 +20,13 @@ class InkWellContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      // hoverColor: Colors.white,
       borderRadius: borderRadius,
       child: Container(
-        decoration: BoxDecoration(color: color, borderRadius: borderRadius),
+        decoration: BoxDecoration(
+          color: color,
+          borderRadius: borderRadius,
+        ),
         padding: padding,
         constraints: constraints,
         child: child,
