@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
       children: [
         Container(
           decoration: const BoxDecoration(
-            // color: Color(0xFF242424),
+            color: Color(0xFF242424),
             image: DecorationImage(
               image: AssetImage('img/wallpaper.jpg'),
               fit: BoxFit.cover,
