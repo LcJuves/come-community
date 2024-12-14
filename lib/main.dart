@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:docs/animated_wallpaper_container.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -73,15 +74,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Container(
-          decoration: const BoxDecoration(
-            color: Color(0xFF242424),
-            image: DecorationImage(
-              image: AssetImage('img/wallpaper.jpg'),
-              fit: BoxFit.cover,
-            ),
-          ),
-        ),
+        AnimatedWallpaperContainer(),
         BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 6.3, sigmaY: 6.3),
           child: Scaffold(
@@ -103,6 +96,8 @@ class _HomePageState extends State<HomePage> {
                       child: Column(
                         children: [
                           SearchBar(
+                            focusNode: FocusNode(),
+                            enabled: true,
                             autoFocus: true,
                             surfaceTintColor:
                                 const WidgetStatePropertyAll(Colors.black),
