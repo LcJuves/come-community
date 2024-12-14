@@ -96,8 +96,6 @@ class _HomePageState extends State<HomePage> {
                       child: Column(
                         children: [
                           SearchBar(
-                            focusNode: FocusNode(),
-                            enabled: true,
                             autoFocus: true,
                             surfaceTintColor:
                                 const WidgetStatePropertyAll(Colors.black),
