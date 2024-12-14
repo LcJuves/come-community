@@ -86,7 +86,7 @@ VALUES
     'SwiftGG',
     NULL,
     'https://swiftgg.gitbook.io/swift',
-    'https://webfrontend.lcjuves.com/assets/svg/SwiftGG.svg',
+    'https://web.lcjuves.com/assets/svg/SwiftGG.svg',
     NULL,
     NULL
   ),
@@ -95,7 +95,7 @@ VALUES
     'Flutter',
     NULL,
     'https://flutter.cn/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Flutter.svg',
+    'https://web.lcjuves.com/assets/svg/Flutter.svg',
     NULL,
     NULL
   ),
@@ -104,7 +104,7 @@ VALUES
     'Android',
     NULL,
     'https://developer.android.google.cn/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Android.svg',
+    'https://web.lcjuves.com/assets/svg/Android.svg',
     NULL,
     NULL
   ),
@@ -113,7 +113,7 @@ VALUES
     'Groovy',
     NULL,
     'https://docs.groovy-lang.org/latest/html/documentation',
-    'https://webfrontend.lcjuves.com/assets/svg/Apache%20Groovy.svg',
+    'https://web.lcjuves.com/assets/svg/Apache%20Groovy.svg',
     NULL,
     NULL
   ),
@@ -122,7 +122,7 @@ VALUES
     'Scala',
     NULL,
     'https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html',
-    'https://webfrontend.lcjuves.com/assets/svg/Scala.svg',
+    'https://web.lcjuves.com/assets/svg/Scala.svg',
     NULL,
     NULL
   ),
@@ -131,7 +131,7 @@ VALUES
     'MDN',
     NULL,
     'https://developer.mozilla.org/zh-CN/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/MDN.svg',
+    'https://web.lcjuves.com/assets/svg/MDN.svg',
     NULL,
     NULL
   ),
@@ -140,7 +140,7 @@ VALUES
     'Kotlin',
     NULL,
     'https://kotlinlang.org/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Kotlin.svg',
+    'https://web.lcjuves.com/assets/svg/Kotlin.svg',
     NULL,
     NULL
   ),
@@ -149,7 +149,7 @@ VALUES
     'React Native',
     NULL,
     'https://reactnative.cn/docs/getting-started',
-    'https://webfrontend.lcjuves.com/assets/svg/React.svg',
+    'https://web.lcjuves.com/assets/svg/React.svg',
     NULL,
     NULL
   ),
@@ -158,7 +158,7 @@ VALUES
     'Vue',
     NULL,
     'https://cn.vuejs.org/v2/guide',
-    'https://webfrontend.lcjuves.com/assets/svg/Vue.svg',
+    'https://web.lcjuves.com/assets/svg/Vue.svg',
     NULL,
     NULL
   ),
@@ -167,7 +167,7 @@ VALUES
     'Python',
     NULL,
     'https://docs.python.org/zh-cn',
-    'https://webfrontend.lcjuves.com/assets/svg/Python.svg',
+    'https://web.lcjuves.com/assets/svg/Python.svg',
     NULL,
     NULL
   ),
@@ -176,7 +176,7 @@ VALUES
     'Dart',
     NULL,
     'https://dart.cn/guides/language/language-tour',
-    'https://webfrontend.lcjuves.com/assets/svg/Dart.svg',
+    'https://web.lcjuves.com/assets/svg/Dart.svg',
     NULL,
     NULL
   ),
@@ -185,7 +185,7 @@ VALUES
     'Java',
     NULL,
     'https://docs.oracle.com/en/java',
-    'https://webfrontend.lcjuves.com/assets/svg/Java.svg',
+    'https://web.lcjuves.com/assets/svg/Java.svg',
     NULL,
     NULL
   ),
@@ -194,7 +194,7 @@ VALUES
     'Xamarin',
     NULL,
     'https://docs.microsoft.com/zh-cn/xamarin',
-    'https://webfrontend.lcjuves.com/assets/svg/Xamarin.svg',
+    'https://web.lcjuves.com/assets/svg/Xamarin.svg',
     NULL,
     NULL
   ),
@@ -203,7 +203,7 @@ VALUES
     'Kubernetes',
     NULL,
     'https://kubernetes.io/zh/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Kubernetes.svg',
+    'https://web.lcjuves.com/assets/svg/Kubernetes.svg',
     NULL,
     NULL
   ),
@@ -212,7 +212,7 @@ VALUES
     'TypeScript',
     NULL,
     'https://www.typescriptlang.org/zh/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/TypeScript.svg',
+    'https://web.lcjuves.com/assets/svg/TypeScript.svg',
     NULL,
     NULL
   ),
@@ -221,7 +221,7 @@ VALUES
     'Jenkins',
     NULL,
     'https://www.jenkins.io/zh/doc',
-    'https://webfrontend.lcjuves.com/assets/svg/JenkinsCI.svg',
+    'https://web.lcjuves.com/assets/svg/JenkinsCI.svg',
     NULL,
     NULL
   ),
@@ -230,7 +230,7 @@ VALUES
     'Unity',
     NULL,
     'https://docs.unity.cn/cn/2020.3/Manual/UnityManual.html',
-    'https://webfrontend.lcjuves.com/assets/svg/Unity.svg',
+    'https://web.lcjuves.com/assets/svg/Unity.svg',
     NULL,
     NULL
   ),
@@ -239,7 +239,7 @@ VALUES
     'Three',
     NULL,
     'https://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene',
-    'https://webfrontend.lcjuves.com/assets/svg/ThreeJS.svg',
+    'https://web.lcjuves.com/assets/svg/ThreeJS.svg',
     NULL,
     NULL
   ),
@@ -248,7 +248,7 @@ VALUES
     'Deno',
     NULL,
     'https://doc.deno.land/builtin/stable',
-    'https://webfrontend.lcjuves.com/assets/svg/Deno.svg',
+    'https://web.lcjuves.com/assets/svg/Deno.svg',
     NULL,
     NULL
   ),
@@ -257,7 +257,7 @@ VALUES
     'Node',
     NULL,
     'https://nodejs.org/zh-cn/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/NodeJS.svg',
+    'https://web.lcjuves.com/assets/svg/NodeJS.svg',
     NULL,
     NULL
   ),
@@ -266,7 +266,7 @@ VALUES
     'PyTorch',
     NULL,
     'https://pytorch.apachecn.org',
-    'https://webfrontend.lcjuves.com/assets/svg/PyTorch.svg',
+    'https://web.lcjuves.com/assets/svg/PyTorch.svg',
     NULL,
     NULL
   ),
@@ -275,7 +275,7 @@ VALUES
     'dotNET',
     NULL,
     'https://docs.microsoft.com/zh-cn/dotnet',
-    'https://webfrontend.lcjuves.com/assets/svg/dotNET.svg',
+    'https://web.lcjuves.com/assets/svg/dotNET.svg',
     NULL,
     NULL
   ),
@@ -284,7 +284,7 @@ VALUES
     'Docker',
     NULL,
     'https://docs.docker.com',
-    'https://webfrontend.lcjuves.com/assets/svg/Docker.svg',
+    'https://web.lcjuves.com/assets/svg/Docker.svg',
     NULL,
     NULL
   ),
@@ -293,7 +293,7 @@ VALUES
     'TensorFlow',
     NULL,
     'https://tensorflow.google.cn/learn?hl=zh-cn',
-    'https://webfrontend.lcjuves.com/assets/svg/TensorFlow.svg',
+    'https://web.lcjuves.com/assets/svg/TensorFlow.svg',
     NULL,
     NULL
   ),
@@ -302,7 +302,7 @@ VALUES
     'Django',
     NULL,
     'https://docs.djangoproject.com/zh-hans',
-    'https://webfrontend.lcjuves.com/assets/svg/Django.svg',
+    'https://web.lcjuves.com/assets/svg/Django.svg',
     NULL,
     NULL
   ),
@@ -311,7 +311,7 @@ VALUES
     'OpenCV',
     NULL,
     'https://docs.opencv.org',
-    'https://webfrontend.lcjuves.com/assets/svg/OpenCV.svg',
+    'https://web.lcjuves.com/assets/svg/OpenCV.svg',
     NULL,
     NULL
   ),
@@ -320,7 +320,7 @@ VALUES
     'Hadoop',
     NULL,
     'https://hadoop.apache.org/docs/r1.0.4/cn',
-    'https://webfrontend.lcjuves.com/assets/svg/Apache%20Hadoop.svg',
+    'https://web.lcjuves.com/assets/svg/Apache%20Hadoop.svg',
     NULL,
     NULL
   ),
@@ -329,7 +329,7 @@ VALUES
     'Flink',
     NULL,
     'https://ci.apache.org/projects/flink/flink-docs-stable/zh',
-    'https://webfrontend.lcjuves.com/assets/svg/Flink.svg',
+    'https://web.lcjuves.com/assets/svg/Flink.svg',
     NULL,
     NULL
   ),
@@ -338,7 +338,7 @@ VALUES
     'Markdown',
     NULL,
     'https://www.markdown.xyz',
-    'https://webfrontend.lcjuves.com/assets/svg/Markdown.svg',
+    'https://web.lcjuves.com/assets/svg/Markdown.svg',
     NULL,
     NULL
   ),
@@ -347,7 +347,7 @@ VALUES
     'Linux',
     NULL,
     'https://www.kernel.org/doc/html/latest/translations/zh_CN',
-    'https://webfrontend.lcjuves.com/assets/svg/Linux.svg',
+    'https://web.lcjuves.com/assets/svg/Linux.svg',
     NULL,
     NULL
   ),
@@ -356,7 +356,7 @@ VALUES
     'Go',
     NULL,
     'https://go.dev/doc',
-    'https://webfrontend.lcjuves.com/assets/svg/GoLang.svg',
+    'https://web.lcjuves.com/assets/svg/GoLang.svg',
     NULL,
     NULL
   ),
@@ -365,7 +365,7 @@ VALUES
     'Rust',
     NULL,
     'https://www.rust-lang.org/zh-CN/learn',
-    'https://webfrontend.lcjuves.com/assets/svg/Rust.svg',
+    'https://web.lcjuves.com/assets/svg/Rust.svg',
     NULL,
     NULL
   ),
@@ -374,7 +374,7 @@ VALUES
     'Angular',
     NULL,
     'https://angular.cn/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Angular.svg',
+    'https://web.lcjuves.com/assets/svg/Angular.svg',
     NULL,
     NULL
   ),
@@ -383,7 +383,7 @@ VALUES
     'Dubbo',
     NULL,
     'https://dubbo.apache.org/zh/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Apache%20Dubbo.svg',
+    'https://web.lcjuves.com/assets/svg/Apache%20Dubbo.svg',
     NULL,
     NULL
   ),
@@ -392,7 +392,7 @@ VALUES
     'Microsoft SQL',
     NULL,
     'https://docs.microsoft.com/zh-cn/sql',
-    'https://webfrontend.lcjuves.com/assets/svg/Microsoft.svg',
+    'https://web.lcjuves.com/assets/svg/Microsoft.svg',
     NULL,
     NULL
   ),
@@ -401,7 +401,7 @@ VALUES
     'webpack',
     NULL,
     'https://webpack.docschina.org/concepts',
-    'https://webfrontend.lcjuves.com/assets/svg/Webpack.svg',
+    'https://web.lcjuves.com/assets/svg/Webpack.svg',
     NULL,
     NULL
   ),
@@ -410,7 +410,7 @@ VALUES
     'Let\'s Encrypt',
     NULL,
     'https://letsencrypt.org/zh-cn/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Let\'s%20Encrypt.svg',
+    'https://web.lcjuves.com/assets/svg/Let\'s%20Encrypt.svg',
     NULL,
     NULL
   ),
@@ -419,7 +419,7 @@ VALUES
     'Bootstrap',
     NULL,
     'https://getbootstrap.com/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/Bootstrap.svg',
+    'https://web.lcjuves.com/assets/svg/Bootstrap.svg',
     NULL,
     NULL
   ),
@@ -428,7 +428,7 @@ VALUES
     'PHP',
     NULL,
     'https://www.php.net/manual/zh',
-    'https://webfrontend.lcjuves.com/assets/svg/PHP.svg',
+    'https://web.lcjuves.com/assets/svg/PHP.svg',
     NULL,
     NULL
   ),
@@ -437,7 +437,7 @@ VALUES
     'Ruby',
     NULL,
     'https://www.ruby-lang.org/zh_cn/documentation',
-    'https://webfrontend.lcjuves.com/assets/svg/Ruby.svg',
+    'https://web.lcjuves.com/assets/svg/Ruby.svg',
     NULL,
     NULL
   ),
@@ -446,7 +446,7 @@ VALUES
     'Electron',
     NULL,
     'https://www.electronjs.org/docs',
-    'https://webfrontend.lcjuves.com/assets/svg/_Electron.svg',
+    'https://web.lcjuves.com/assets/svg/_Electron.svg',
     NULL,
     NULL
   ),
@@ -455,7 +455,7 @@ VALUES
     'JavaScript',
     NULL,
     'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript',
-    'https://webfrontend.lcjuves.com/assets/svg/JavaScript.svg',
+    'https://web.lcjuves.com/assets/svg/JavaScript.svg',
     NULL,
     NULL
   ),
@@ -464,7 +464,7 @@ VALUES
     'GraphQL',
     NULL,
     'https://graphql.cn/learn',
-    'https://webfrontend.lcjuves.com/assets/svg/GraphQL.svg',
+    'https://web.lcjuves.com/assets/svg/GraphQL.svg',
     NULL,
     NULL
   ),
@@ -473,7 +473,7 @@ VALUES
     'ZIG',
     NULL,
     'https://ziglang.org/documentation/master',
-    'https://webfrontend.lcjuves.com/assets/svg/ZIG.svg',
+    'https://web.lcjuves.com/assets/svg/ZIG.svg',
     NULL,
     NULL
   ),
@@ -482,7 +482,7 @@ VALUES
     'Visual C',
     NULL,
     'https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170',
-    'https://webfrontend.lcjuves.com/assets/svg/The%20C%20Programming%20Language.svg',
+    'https://web.lcjuves.com/assets/svg/The%20C%20Programming%20Language.svg',
     NULL,
     NULL
   ),
@@ -491,7 +491,7 @@ VALUES
     'Visual C++',
     NULL,
     'https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170',
-    'https://webfrontend.lcjuves.com/assets/svg/C%2B%2B.svg',
+    'https://web.lcjuves.com/assets/svg/C%2B%2B.svg',
     NULL,
     NULL
   );
