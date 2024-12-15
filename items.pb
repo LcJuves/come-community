@@ -206,8 +206,8 @@ I
 /WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
 D
 /Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
-C
-/CSS.svgCSS2https://developer.mozilla.org/zh-CN/docs/Learn/CSS
+A
+/CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
 ,
 	/Vite.svgVitehttps://cn.vite.dev/guide
 ;
@@ -245,3 +245,11 @@ Subversion"https://subversion.apache.org/docs
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
 P
 /Microsoft.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
+0
+/Homebrew.svgHomebrewhttps://brew.sh/zh-cn
+E
+
+/HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
+(
+
+/_cURL.svgcURLhttps://curl.se/docs
