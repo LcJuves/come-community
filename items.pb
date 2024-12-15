@@ -245,3 +245,5 @@ Subversion"https://subversion.apache.org/docs
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
 P
 /Microsoft.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
+0
+/Homebrew.svgHomebrewhttps://brew.sh/zh-cn

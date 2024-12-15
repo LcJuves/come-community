@@ -431,6 +431,10 @@ Future main(List<String> args) async {
       imgUrl: "/Microsoft.svg",
       title: "Azure Quantum",
       url: "https://learn.microsoft.com/zh-cn/azure/quantum"));
+  itemList.add(Item(
+      imgUrl: "/Homebrew.svg",
+      title: "Homebrew",
+      url: "https://brew.sh/zh-cn"));
   // itemList.add(Item(
   //     imgUrl: "/Alibaba.svg",
   //     title: "Nacos",
