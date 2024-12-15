@@ -27,7 +27,7 @@ Future main(List<String> args) async {
       url: "https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html"));
   itemList.add(Item(
       imgUrl: "/MDN.svg",
-      title: "MDN",
+      title: "MDN Web",
       url: "https://developer.mozilla.org/zh-CN/docs"));
   itemList.add(Item(
       imgUrl: "/Kotlin.svg",

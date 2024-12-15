@@ -10,8 +10,8 @@ V
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
-9
-/MDN.svgMDN(https://developer.mozilla.org/zh-CN/docs
+=
+/MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
 2
 /Kotlin.svgKotlinhttps://kotlinlang.org/docs
 H
