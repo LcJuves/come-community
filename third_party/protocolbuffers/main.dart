@@ -367,7 +367,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/CSS.svg",
       title: "CSS",
-      url: "https://developer.mozilla.org/zh-CN/docs/Learn/CSS"));
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/CSS"));
   itemList.add(Item(
       imgUrl: "/Vite.svg", title: "Vite", url: "https://cn.vite.dev/guide"));
   itemList.add(Item(
@@ -435,6 +435,12 @@ Future main(List<String> args) async {
       imgUrl: "/Homebrew.svg",
       title: "Homebrew",
       url: "https://brew.sh/zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/HTML5.svg",
+      title: "HTML",
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/HTML"));
+  itemList.add(
+      Item(imgUrl: "/_cURL.svg", title: "cURL", url: "https://curl.se/docs"));
   // itemList.add(Item(
   //     imgUrl: "/Alibaba.svg",
   //     title: "Nacos",
