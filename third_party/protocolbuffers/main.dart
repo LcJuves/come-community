@@ -355,6 +355,42 @@ Future main(List<String> args) async {
       imgUrl: "/ComposeMultiplatform.svg",
       title: "Compose Multiplatform",
       url: "https://www.jetbrains.com/zh-cn/compose-multiplatform"));
+  itemList.add(Item(
+      imgUrl: "/WebdriverIO.svg",
+      title: "WebdriverIO",
+      url: "https://webdriver.io/docs/gettingstarted"));
+  itemList.add(Item(
+      imgUrl: "/Rspack.svg",
+      title: "Rspack",
+      url: "https://rspack.dev/zh/guide/start/quick-start"));
+  itemList.add(Item(
+      imgUrl: "/CSS.svg",
+      title: "CSS",
+      url: "https://developer.mozilla.org/zh-CN/docs/Learn/CSS"));
+  itemList.add(Item(
+      imgUrl: "/Vite.svg", title: "Vite", url: "https://cn.vite.dev/guide"));
+  itemList.add(Item(
+      imgUrl: "/Rollup.svg",
+      title: "Rollup",
+      url: "https://cn.rollupjs.org/introduction"));
+  itemList.add(Item(
+      imgUrl: "/ESLint.svg", title: "ESLint", url: "https://eslint.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Playwright.svg",
+      title: "Playwright",
+      url: "https://playwright.dev/docs/intro"));
+  itemList.add(Item(
+      imgUrl: "/Hexo.svg", title: "Hexo", url: "https://hexo.io/zh-cn/docs"));
+  itemList.add(Item(
+      imgUrl: "/GruntJS.svg",
+      title: "GruntJS",
+      url: "https://gruntjs.com/documentation"));
+  itemList.add(Item(
+      imgUrl: "/Spring.svg",
+      title: "Spring",
+      url: "https://spring.io/quickstart"));
+  // itemList.add(
+  //     Item(imgUrl: "/gRPC.svg", title: "gRPC", url: "https://grpc.io/docs"));
   // itemList.add(Item(
   //     imgUrl: "/Pug%20Template%20Engine.svg",
   //     title: "radash",

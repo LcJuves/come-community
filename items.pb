@@ -200,3 +200,24 @@ E
 /SQLite.svgSQLite https://www.sqlite.org/docs.html
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+I
+/WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
+D
+/Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
+C
+/CSS.svgCSS2https://developer.mozilla.org/zh-CN/docs/Learn/CSS
+,
+	/Vite.svgVitehttps://cn.vite.dev/guide
+;
+/Rollup.svgRollup$https://cn.rollupjs.org/introduction
+.
+/ESLint.svgESLinthttps://eslint.org/docs
+@
+/Playwright.svg
+Playwright!https://playwright.dev/docs/intro
+-
+	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
+:
+/GruntJS.svgGruntJS!https://gruntjs.com/documentation
+3
+/Spring.svgSpringhttps://spring.io/quickstart
