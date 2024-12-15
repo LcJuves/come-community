@@ -199,18 +199,19 @@ Future main(List<String> args) async {
       imgUrl: "/WebAssembly.svg",
       title: "WebAssembly",
       url: "https://developer.mozilla.org/zh-CN/docs/WebAssembly"));
-  // itemList.add(Item(
-  //     imgUrl: "/WebAssembly.svg",
-  //     title: "WebAssembly",
-  //     url: "https://developer.huawei.com/consumer/cn/doc"));
   itemList.add(Item(
       imgUrl: "/React.svg",
       title: "ReactJS",
       url: "https://zh-hans.react.dev/learn"));
   itemList.add(Item(
       imgUrl: "/Huawei.svg",
-      title: "Huawei Developer",
+      title: "Huawei HarmonyOS",
       url: "https://developer.huawei.com/consumer/cn/doc"));
+  itemList.add(Item(
+      imgUrl: "/Huawei.svg",
+      title: "Cangjie",
+      url:
+          "https://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5"));
   itemList.add(Item(
       imgUrl: "/TAURI.svg",
       title: "TAURI",
@@ -389,6 +390,55 @@ Future main(List<String> args) async {
       imgUrl: "/Spring.svg",
       title: "Spring",
       url: "https://spring.io/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Puppeteer.svg",
+      title: "Puppeteer",
+      url: "https://pptr.dev/guides/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Wintun.svg",
+      title: "Wintun",
+      url: "https://git.zx2c4.com/wintun/about"));
+  itemList.add(Item(
+      imgUrl: "/Browserless.svg",
+      title: "Browserless",
+      url: "https://docs.browserless.io"));
+  itemList.add(Item(
+      imgUrl: "/AppImage.svg",
+      title: "AppImage",
+      url:
+          "https://docs.appimage.org/introduction/quickstart.html#ref-quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Laravel.svg",
+      title: "Laravel",
+      url: "https://laravel.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/Lodash.svg", title: "Lodash", url: "https://lodash.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/Subversion.svg",
+      title: "Subversion",
+      url: "https://subversion.apache.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/OpenVela.svg",
+      title: "Xiaomi OpenVela",
+      url: "https://github.com/open-vela/docs/blob/dev/README_zh-cn.md"));
+  itemList.add(Item(
+      imgUrl: "/NuttX.svg",
+      title: "NuttX",
+      url: "https://nuttx.apache.org/docs/latest"));
+  itemList.add(Item(
+      imgUrl: "/Microsoft.svg",
+      title: "Azure Quantum",
+      url: "https://learn.microsoft.com/zh-cn/azure/quantum"));
+  // itemList.add(Item(
+  //     imgUrl: "/Alibaba.svg",
+  //     title: "Nacos",
+  //     url: "https://nacos.io/docs/latest/overview"));
+  // itemList.add(Item(
+  //     imgUrl: "/FreeBSD.svg",
+  //     title: "FreeBSD",
+  //     url: "https://docs.freebsd.org/zh-cn/books/handbook/basics"));
+  // itemList.add(
+  //     Item(imgUrl: "/GTK.svg", title: "GTK", url: "https://www.gtk.org/docs"));
   // itemList.add(
   //     Item(imgUrl: "/gRPC.svg", title: "gRPC", url: "https://grpc.io/docs"));
   // itemList.add(Item(
