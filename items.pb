@@ -117,7 +117,9 @@ U
 
 /React.svgReactJShttps://zh-hans.react.dev/learn
 M
-/Huawei.svgHuawei Developer,https://developer.huawei.com/consumer/cn/doc
+/Huawei.svgHuawei HarmonyOS,https://developer.huawei.com/consumer/cn/doc
+h
+/Huawei.svgCangjiePhttps://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5
 2
 
 /TAURI.svgTAURIhttps://tauri.app/zh-cn/start
@@ -200,3 +202,46 @@ E
 /SQLite.svgSQLite https://www.sqlite.org/docs.html
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+I
+/WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
+D
+/Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
+C
+/CSS.svgCSS2https://developer.mozilla.org/zh-CN/docs/Learn/CSS
+,
+	/Vite.svgVitehttps://cn.vite.dev/guide
+;
+/Rollup.svgRollup$https://cn.rollupjs.org/introduction
+.
+/ESLint.svgESLinthttps://eslint.org/docs
+@
+/Playwright.svg
+Playwright!https://playwright.dev/docs/intro
+-
+	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
+:
+/GruntJS.svgGruntJS!https://gruntjs.com/documentation
+3
+/Spring.svgSpringhttps://spring.io/quickstart
+D
+/Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started
+9
+/Wintun.svgWintun"https://git.zx2c4.com/wintun/about
+<
+/Browserless.svgBrowserlesshttps://docs.browserless.io
+`
+/AppImage.svgAppImageEhttps://docs.appimage.org/introduction/quickstart.html#ref-quickstart
+1
+/Laravel.svgLaravelhttps://laravel.com/docs
+.
+/Lodash.svgLodashhttps://lodash.com/docs
+A
+/Subversion.svg
+Subversion"https://subversion.apache.org/docs
+\
+/OpenVela.svgXiaomi OpenVela:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md
+9
+
+/NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
+P
+/Microsoft.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
