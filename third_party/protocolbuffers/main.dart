@@ -36,7 +36,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/React.svg",
       title: "React Native",
-      url: "https://reactnative.cn/docs/getting-started"));
+      url: "https://reactnative.dev/docs/getting-started"));
   itemList.add(Item(
       imgUrl: "/Vue.svg",
       title: "VueJS",
@@ -375,7 +375,9 @@ Future main(List<String> args) async {
       title: "Rollup",
       url: "https://cn.rollupjs.org/introduction"));
   itemList.add(Item(
-      imgUrl: "/ESLint.svg", title: "ESLint", url: "https://eslint.org/docs"));
+      imgUrl: "/ESLint.svg",
+      title: "ESLint",
+      url: "https://zh-hans.eslint.org/docs/latest"));
   itemList.add(Item(
       imgUrl: "/Playwright.svg",
       title: "Playwright",

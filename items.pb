@@ -14,9 +14,9 @@ N
 /MDN.svgMDN(https://developer.mozilla.org/zh-CN/docs
 2
 /Kotlin.svgKotlinhttps://kotlinlang.org/docs
-G
+H
 
-/React.svgReact Native+https://reactnative.cn/docs/getting-started
+/React.svgReact Native,https://reactnative.dev/docs/getting-started
 :
 /Vue.svgVueJS'https://cn.vuejs.org/guide/introduction
 4
@@ -212,8 +212,8 @@ C
 	/Vite.svgVitehttps://cn.vite.dev/guide
 ;
 /Rollup.svgRollup$https://cn.rollupjs.org/introduction
-.
-/ESLint.svgESLinthttps://eslint.org/docs
+=
+/ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
 @
 /Playwright.svg
 Playwright!https://playwright.dev/docs/intro
