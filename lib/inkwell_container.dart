@@ -21,7 +21,7 @@ class InkWellContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       splashColor: Colors.white,
-      // hoverColor: Colors.white,
+      hoverColor: Colors.white.withAlpha(120),
       borderRadius: borderRadius,
       child: Container(
         decoration: BoxDecoration(

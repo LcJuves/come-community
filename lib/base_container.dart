@@ -21,24 +21,26 @@ class BaseContainer extends StatelessWidget {
   double _textBoxDynamicWidth(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     final usableWidth = screenWidth -
-        (edgePadding * 2) -
-        (baseContainerPadding * 2) -
-        svgIconSize -
-        titleLeftPadding;
-    return usableWidth < urlBoxWidth ? usableWidth : urlBoxWidth;
+        (Constants.edgePadding * 2) -
+        (Constants.baseContainerPadding * 2) -
+        Constants.svgIconSize -
+        Constants.titleLeftPadding;
+    return usableWidth < Constants.urlBoxWidth
+        ? usableWidth
+        : Constants.urlBoxWidth;
   }
 
   @override
   Widget build(BuildContext context) {
     return InkWellContainer(
-        padding: const EdgeInsets.all(baseContainerPadding),
+        padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
-        color: Colors.white.withOpacity(0.8),
+        color: Colors.white.withAlpha(204),
         onTap: onTap,
         child: Row(mainAxisSize: MainAxisSize.min, children: [
-          SvgNetworkIcon(url: _imgUrl, size: svgIconSize),
+          SvgNetworkIcon(url: _imgUrl, size: Constants.svgIconSize),
           Padding(
-            padding: const EdgeInsets.only(left: titleLeftPadding),
+            padding: const EdgeInsets.only(left: Constants.titleLeftPadding),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -54,7 +56,8 @@ class BaseContainer extends StatelessWidget {
                       overflow: TextOverflow.ellipsis),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: urlBoxTopPadding),
+                  padding:
+                      const EdgeInsets.only(top: Constants.urlBoxTopPadding),
                   child: SizedBox(
                     width: _textBoxDynamicWidth(context),
                     child: Text(

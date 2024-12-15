@@ -1,6 +1,13 @@
-const double edgePadding = 35;
-const double baseContainerPadding = 15;
-const double svgIconSize = 55.2;
-const double titleLeftPadding = 15;
-const double urlBoxTopPadding = 4;
-const double urlBoxWidth = 270;
+import 'webspec.dart';
+
+abstract final class Constants {
+  static const double edgePadding = 35;
+  static const double baseContainerPadding = 15;
+  static const double svgIconSize = 55.2;
+  static const double titleLeftPadding = 15;
+  static const double urlBoxTopPadding = 4;
+  static const double urlBoxWidth = 270;
+  static final String searchBarHintText = isRunOnMobileWebViewOrBrowser()
+      ? "Enter the search here"
+      : "Please enter some information for search";
+}

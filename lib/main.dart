@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                       a.title.toLowerCase().compareTo(b.title.toLowerCase()));
                   return SingleChildScrollView(
                       scrollDirection: Axis.vertical,
-                      padding: const EdgeInsets.all(edgePadding),
+                      padding: const EdgeInsets.all(Constants.edgePadding),
                       child: Column(
                         children: [
                           SearchBar(
@@ -103,8 +103,8 @@ class _HomePageState extends State<HomePage> {
                               padding: const EdgeInsets.fromLTRB(
                                   10, 10, 10 * 0.618, 10),
                               child: Icon(
-                                Icons.search_outlined,
-                                color: Colors.black.withOpacity(0.4),
+                                Icons.search_rounded,
+                                color: Colors.black.withAlpha(102),
                               ),
                             ),
                             overlayColor:
@@ -113,11 +113,10 @@ class _HomePageState extends State<HomePage> {
                             shadowColor: const WidgetStatePropertyAll(
                                 Colors.transparent),
                             backgroundColor: WidgetStatePropertyAll(
-                                Colors.white.withOpacity(0.8)),
-                            hintText:
-                                "Please enter some information for search",
-                            hintStyle: WidgetStatePropertyAll(TextStyle(
-                                color: Colors.black.withOpacity(0.4))),
+                                Colors.white.withAlpha(204)),
+                            hintText: Constants.searchBarHintText,
+                            hintStyle: WidgetStatePropertyAll(
+                                TextStyle(color: Colors.black.withAlpha(102))),
                             textStyle: const WidgetStatePropertyAll(TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.w500)),
@@ -133,12 +132,13 @@ class _HomePageState extends State<HomePage> {
                             },
                           ),
                           const SizedBox(
-                            height: edgePadding,
+                            height: Constants.edgePadding,
                           ),
                           Center(
                               child: Wrap(
-                            spacing: edgePadding + (edgePadding * 0.618),
-                            runSpacing: edgePadding,
+                            spacing: Constants.edgePadding +
+                                (Constants.edgePadding * 0.618),
+                            runSpacing: Constants.edgePadding,
                             direction: Axis.horizontal,
                             children: fetchedItems
                                 .map((i) => BaseContainer(
