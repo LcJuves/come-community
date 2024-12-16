@@ -40,8 +40,8 @@ L
 /Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
 d
 /ThreeJS.svgThreeJSKhttps://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene
-7
-	/Deno.svgDeno$https://doc.deno.land/builtin/stable
+0
+	/Deno.svgDenohttps://docs.deno.com/runtime
 4
 /NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
 8
@@ -180,11 +180,12 @@ K
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 <
 /Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
-H
-	/Bevy.svgBevy5https://bevyengine.org/learn/quick-start/introduction
-6
+K
+	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started
+;
 
-/godot.svggodot!https://godot-rust.github.io/docs
+/godot.svg
+godot-rust!https://godot-rust.github.io/docs
 4
 
 /tokio.svgTokiohttps://tokio.rs/tokio/tutorial
@@ -243,8 +244,9 @@ Subversion"https://subversion.apache.org/docs
 9
 
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
-P
-/Microsoft.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
+L
+
+/Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
 0
 /Homebrew.svgHomebrewhttps://brew.sh/zh-cn
 E
@@ -253,3 +255,23 @@ E
 (
 
 /_cURL.svgcURLhttps://curl.se/docs
+\
+/Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
+E
+/GODOT_Engine.svgGodot Engine"https://docs.godotengine.org/zh-cn
+D
+/Apache%20Kafka.svgKafka&https://kafka.apache.org/documentation
+M
+/gulpjs.svgGulpJS6https://gulpjs.com/docs/en/getting-started/quick-start
+M
+/Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
+H
+/InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
+B
+/Appium.svgAppium+https://appium.io/docs/zh/latest/quickstart
+8
+/RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
+;
+/Jupyter.svgJupyter"https://docs.jupyter.org/en/latest
+@
+/Blender.svgBlender'https://docs.blender.org/manual/zh-hans

@@ -81,7 +81,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Deno.svg",
       title: "Deno",
-      url: "https://doc.deno.land/builtin/stable"));
+      url: "https://docs.deno.com/runtime"));
   itemList.add(Item(
       imgUrl: "/NodeJS.svg",
       title: "NodeJS",
@@ -322,10 +322,10 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Bevy.svg",
       title: "Bevy",
-      url: "https://bevyengine.org/learn/quick-start/introduction"));
+      url: "https://bevyengine.org/learn/quick-start/getting-started"));
   itemList.add(Item(
       imgUrl: "/godot.svg",
-      title: "godot",
+      title: "godot-rust",
       url: "https://godot-rust.github.io/docs"));
   itemList.add(Item(
       imgUrl: "/tokio.svg",
@@ -428,7 +428,7 @@ Future main(List<String> args) async {
       title: "NuttX",
       url: "https://nuttx.apache.org/docs/latest"));
   itemList.add(Item(
-      imgUrl: "/Microsoft.svg",
+      imgUrl: "/Azure.svg",
       title: "Azure Quantum",
       url: "https://learn.microsoft.com/zh-cn/azure/quantum"));
   itemList.add(Item(
@@ -441,6 +441,50 @@ Future main(List<String> args) async {
       url: "https://developer.mozilla.org/zh-CN/docs/Web/HTML"));
   itemList.add(
       Item(imgUrl: "/_cURL.svg", title: "cURL", url: "https://curl.se/docs"));
+  itemList.add(Item(
+      imgUrl: "/Ruby%20on%20Ralis.svg",
+      title: "Ruby on Rails",
+      url: "https://guides.rubyonrails.org/getting_started.html"));
+  itemList.add(Item(
+      imgUrl: "/GODOT_Engine.svg",
+      title: "Godot Engine",
+      url: "https://docs.godotengine.org/zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/Apache%20Kafka.svg",
+      title: "Kafka",
+      url: "https://kafka.apache.org/documentation"));
+  itemList.add(Item(
+      imgUrl: "/gulpjs.svg",
+      title: "GulpJS",
+      url: "https://gulpjs.com/docs/en/getting-started/quick-start"));
+  itemList.add(Item(
+      imgUrl: "/Anaconda.svg",
+      title: "Anaconda",
+      url: "https://docs.anaconda.com/anaconda/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/InLong.svg",
+      title: "InLong",
+      url: "https://inlong.apache.org/zh-CN/docs/introduction"));
+  itemList.add(Item(
+      imgUrl: "/Appium.svg",
+      title: "Appium",
+      url: "https://appium.io/docs/zh/latest/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/RabbitMQ.svg",
+      title: "RabbitMQ",
+      url: "https://www.rabbitmq.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/Jupyter.svg",
+      title: "Jupyter",
+      url: "https://docs.jupyter.org/en/latest"));
+  itemList.add(Item(
+      imgUrl: "/Blender.svg",
+      title: "Blender",
+      url: "https://docs.blender.org/manual/zh-hans"));
+  // itemList.add(Item(
+  //     imgUrl: "/BabylonJS.svg",
+  //     title: "BabylonJS",
+  //     url: "https://doc.babylonjs.com"));
   // itemList.add(Item(
   //     imgUrl: "/Alibaba.svg",
   //     title: "Nacos",
