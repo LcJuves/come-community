@@ -249,14 +249,14 @@ Future main(List<String> args) async {
       title: "MSYS2",
       url: "https://www.msys2.org/docs/what-is-msys2"));
   itemList.add(Item(imgUrl: "/JWT.svg", title: "JWT", url: "https://jwt.io"));
-  itemList.add(Item(
-      imgUrl: "/emscripten.svg",
-      title: "emscripten",
-      url: "https://emscripten.org/docs"));
   // itemList.add(Item(
-  //     imgUrl: "/podman.svg",
-  //     title: "podman",
-  //     url: "https://docs.podman.io/en/latest"));
+  //     imgUrl: "/emscripten.svg",
+  //     title: "emscripten",
+  //     url: "https://emscripten.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/podman.svg",
+      title: "podman",
+      url: "https://docs.podman.io/en/latest"));
   itemList.add(
       Item(imgUrl: "/redis.svg", title: "Redis", url: "https://redis.io/docs"));
   itemList.add(
@@ -307,10 +307,10 @@ Future main(List<String> args) async {
       imgUrl: "/Raspberrypi.svg",
       title: "Raspberry Pi",
       url: "https://www.raspberrypi.com/documentation"));
-  // itemList.add(Item(
-  //     imgUrl: "/Pug%20Template%20Engine.svg",
-  //     title: "PugJS",
-  //     url: "https://pugjs.org"));
+  itemList.add(Item(
+      imgUrl: "/Pug%20Template%20Engine.svg",
+      title: "PugJS",
+      url: "https://pugjs.org"));
   itemList.add(Item(
       imgUrl: "/Pkl.svg",
       title: "Pkl",
@@ -481,10 +481,32 @@ Future main(List<String> args) async {
       imgUrl: "/Blender.svg",
       title: "Blender",
       url: "https://docs.blender.org/manual/zh-hans"));
+  itemList.add(Item(
+      imgUrl: "/SpiderMonkey.svg",
+      title: "SpiderMonkey",
+      url: "https://firefox-source-docs.mozilla.org/js"));
+  itemList.add(Item(
+      imgUrl: "/WASIX.svg", title: "WASIX", url: "https://wasix.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/MoonBit.svg",
+      title: "MoonBit",
+      url: "https://docs.moonbitlang.com/zh-cn/latest"));
+  itemList.add(Item(
+      imgUrl: "/Clojure.svg",
+      title: "Clojure",
+      url: "https://clojure.org/guides/getting_started"));
+  itemList.add(Item(
+      imgUrl: "/Crystal.svg",
+      title: "Crystal",
+      url: "https://crystal-lang.org/reference/1.14/getting_started"));
   // itemList.add(Item(
-  //     imgUrl: "/BabylonJS.svg",
-  //     title: "BabylonJS",
-  //     url: "https://doc.babylonjs.com"));
+  //     imgUrl: "/ECharts.svg",
+  //     title: "ECharts",
+  //     url: "https://echarts.apache.org/handbook/zh/get-started"));
+  itemList.add(Item(
+      imgUrl: "/BabylonJS.svg",
+      title: "BabylonJS",
+      url: "https://doc.babylonjs.com"));
   // itemList.add(Item(
   //     imgUrl: "/Alibaba.svg",
   //     title: "Nacos",
@@ -505,10 +527,10 @@ Future main(List<String> args) async {
   //     imgUrl: "/Apache%20Tomcat.svg",
   //     title: "Tomcat",
   //     url: "https://tomcat.apache.org/tomcat-11.0-doc"));
-  // itemList.add(Item(
-  //     imgUrl: "/Bash.svg",
-  //     title: "Bash",
-  //     url: "https://www.gnu.org/software/bash/manual/html_node/index.html"));
+  itemList.add(Item(
+      imgUrl: "/Bash.svg",
+      title: "Bash",
+      url: "https://www.gnu.org/software/bash/manual/html_node/index.html"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",
