@@ -147,9 +147,8 @@ PowerShell,https://learn.microsoft.com/zh-cn/powershell
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
 
 /JWT.svgJWThttps://jwt.io
-:
-/emscripten.svg
-emscriptenhttps://emscripten.org/docs
+7
+/podman.svgpodman https://docs.podman.io/en/latest
 *
 
 /redis.svgRedishttps://redis.io/docs
@@ -176,6 +175,8 @@ B
 /esbuild.svgesbuild)https://esbuild.github.io/getting-started
 K
 /Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
+8
+/Pug%20Template%20Engine.svgPugJShttps://pugjs.org
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 <
@@ -275,3 +276,18 @@ B
 /Jupyter.svgJupyter"https://docs.jupyter.org/en/latest
 @
 /Blender.svgBlender'https://docs.blender.org/manual/zh-hans
+M
+/SpiderMonkey.svgSpiderMonkey*https://firefox-source-docs.mozilla.org/js
++
+
+/WASIX.svgWASIXhttps://wasix.org/docs
+B
+/MoonBit.svgMoonBit)https://docs.moonbitlang.com/zh-cn/latest
+C
+/Clojure.svgClojure*https://clojure.org/guides/getting_started
+P
+/Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
+6
+/BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
+P
+	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
