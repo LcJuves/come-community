@@ -10,13 +10,13 @@ V
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
-9
-/MDN.svgMDN(https://developer.mozilla.org/zh-CN/docs
+=
+/MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
 2
 /Kotlin.svgKotlinhttps://kotlinlang.org/docs
-G
+H
 
-/React.svgReact Native+https://reactnative.cn/docs/getting-started
+/React.svgReact Native,https://reactnative.dev/docs/getting-started
 :
 /Vue.svgVueJS'https://cn.vuejs.org/guide/introduction
 4
@@ -40,8 +40,8 @@ L
 /Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
 d
 /ThreeJS.svgThreeJSKhttps://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene
-7
-	/Deno.svgDeno$https://doc.deno.land/builtin/stable
+0
+	/Deno.svgDenohttps://docs.deno.com/runtime
 4
 /NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
 8
@@ -117,7 +117,9 @@ U
 
 /React.svgReactJShttps://zh-hans.react.dev/learn
 M
-/Huawei.svgHuawei Developer,https://developer.huawei.com/consumer/cn/doc
+/Huawei.svgHuawei HarmonyOS,https://developer.huawei.com/consumer/cn/doc
+h
+/Huawei.svgCangjiePhttps://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5
 2
 
 /TAURI.svgTAURIhttps://tauri.app/zh-cn/start
@@ -145,9 +147,8 @@ PowerShell,https://learn.microsoft.com/zh-cn/powershell
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
 
 /JWT.svgJWThttps://jwt.io
-:
-/emscripten.svg
-emscriptenhttps://emscripten.org/docs
+7
+/podman.svgpodman https://docs.podman.io/en/latest
 *
 
 /redis.svgRedishttps://redis.io/docs
@@ -174,15 +175,18 @@ B
 /esbuild.svgesbuild)https://esbuild.github.io/getting-started
 K
 /Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
+8
+/Pug%20Template%20Engine.svgPugJShttps://pugjs.org
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 <
 /Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
-H
-	/Bevy.svgBevy5https://bevyengine.org/learn/quick-start/introduction
-6
+K
+	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started
+;
 
-/godot.svggodot!https://godot-rust.github.io/docs
+/godot.svg
+godot-rust!https://godot-rust.github.io/docs
 4
 
 /tokio.svgTokiohttps://tokio.rs/tokio/tutorial
@@ -200,3 +204,90 @@ E
 /SQLite.svgSQLite https://www.sqlite.org/docs.html
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+I
+/WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
+D
+/Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
+A
+/CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
+,
+	/Vite.svgVitehttps://cn.vite.dev/guide
+;
+/Rollup.svgRollup$https://cn.rollupjs.org/introduction
+=
+/ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
+@
+/Playwright.svg
+Playwright!https://playwright.dev/docs/intro
+-
+	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
+:
+/GruntJS.svgGruntJS!https://gruntjs.com/documentation
+3
+/Spring.svgSpringhttps://spring.io/quickstart
+D
+/Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started
+9
+/Wintun.svgWintun"https://git.zx2c4.com/wintun/about
+<
+/Browserless.svgBrowserlesshttps://docs.browserless.io
+`
+/AppImage.svgAppImageEhttps://docs.appimage.org/introduction/quickstart.html#ref-quickstart
+1
+/Laravel.svgLaravelhttps://laravel.com/docs
+.
+/Lodash.svgLodashhttps://lodash.com/docs
+A
+/Subversion.svg
+Subversion"https://subversion.apache.org/docs
+\
+/OpenVela.svgXiaomi OpenVela:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md
+9
+
+/NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
+L
+
+/Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
+0
+/Homebrew.svgHomebrewhttps://brew.sh/zh-cn
+E
+
+/HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
+(
+
+/_cURL.svgcURLhttps://curl.se/docs
+\
+/Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
+E
+/GODOT_Engine.svgGodot Engine"https://docs.godotengine.org/zh-cn
+D
+/Apache%20Kafka.svgKafka&https://kafka.apache.org/documentation
+M
+/gulpjs.svgGulpJS6https://gulpjs.com/docs/en/getting-started/quick-start
+M
+/Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
+H
+/InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
+B
+/Appium.svgAppium+https://appium.io/docs/zh/latest/quickstart
+8
+/RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
+;
+/Jupyter.svgJupyter"https://docs.jupyter.org/en/latest
+@
+/Blender.svgBlender'https://docs.blender.org/manual/zh-hans
+M
+/SpiderMonkey.svgSpiderMonkey*https://firefox-source-docs.mozilla.org/js
++
+
+/WASIX.svgWASIXhttps://wasix.org/docs
+B
+/MoonBit.svgMoonBit)https://docs.moonbitlang.com/zh-cn/latest
+C
+/Clojure.svgClojure*https://clojure.org/guides/getting_started
+P
+/Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
+6
+/BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
+P
+	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
