@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import 'base_container.dart';
 import 'constants.dart';
@@ -141,13 +140,7 @@ class _HomePageState extends State<HomePage> {
                             runSpacing: Constants.edgePadding,
                             direction: Axis.horizontal,
                             children: fetchedItems
-                                .map((i) => BaseContainer(
-                                      item: i,
-                                      onTap: () async {
-                                        await launchUrl(Uri.parse(i.url),
-                                            mode: LaunchMode.inAppWebView);
-                                      },
-                                    ))
+                                .map((i) => BaseContainer(item: i))
                                 .toList(),
                           ))
                         ],
@@ -168,7 +161,7 @@ class _HomePageState extends State<HomePage> {
                   child: Padding(
                     padding: EdgeInsets.all(circularProgressEdgePadding),
                     child: const CircularProgressIndicator(
-                      strokeWidth: 10,
+                      strokeWidth: 9,
                       color: Colors.white,
                     ),
                   ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'constants.dart';
 import 'inkwell_container.dart';
@@ -10,8 +11,7 @@ class BaseContainer extends StatelessWidget {
   final String _commonUrlPrefix = "https://web.lcjuves.com/assets/svg";
   late String _imgUrl;
   final Item item;
-  final GestureTapCallback? onTap;
-  BaseContainer({super.key, required this.item, this.onTap}) {
+  BaseContainer({super.key, required this.item}) {
     _imgUrl = item.imgUrl;
     if (_imgUrl.startsWith('/')) {
       _imgUrl = _commonUrlPrefix + _imgUrl;
@@ -36,7 +36,8 @@ class BaseContainer extends StatelessWidget {
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
         color: Colors.white.withAlpha(204),
-        onTap: onTap,
+        onTap: () async =>
+            await launchUrl(Uri.parse(item.url), mode: LaunchMode.inAppWebView),
         child: Row(mainAxisSize: MainAxisSize.min, children: [
           SvgNetworkIcon(url: _imgUrl, size: Constants.svgIconSize),
           Padding(
