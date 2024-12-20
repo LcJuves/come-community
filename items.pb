@@ -202,6 +202,8 @@ E
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
 7
 /SQLite.svgSQLite https://www.sqlite.org/docs.html
+u
+/JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
 I
@@ -291,3 +293,28 @@ P
 /BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
 P
 	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
+G
+/GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
+3
+/Cygwin.svgCygwinhttps://cygwin.com/docs.html
+C
+
+/robot.svgRobot Framework$https://docs.robotframework.org/docs
+?
+/Apache%20Hive.svgHive#https://hive.apache.org/docs/latest
+K
+/Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
+]
+/GNU.svgGNU CoreutilsBhttps://www.gnu.org/software/coreutils/manual/html_node/index.html
+R
+/WebGPU.svgWebGPU;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API
+9
+/GTK.svgGTK(https://www.gtk.org/docs/getting-started
+M
+/PostgreSQL.svg
+PostgreSQL.http://www.postgres.cn/docs/current/index.html
+(
+	/Vala.svgValahttps://docs.vala.dev
+*
+
+/Servo.svgServohttps://doc.servo.org
