@@ -347,11 +347,11 @@ Future main(List<String> args) async {
       imgUrl: "/SQLite.svg",
       title: "SQLite",
       url: "https://www.sqlite.org/docs.html"));
-  // itemList.add(Item(
-  //     imgUrl: "/JetpackCompose.svg",
-  //     title: "Jetpack Compose",
-  //     url:
-  //         "https://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/JetpackCompose.svg",
+      title: "Jetpack Compose",
+      url:
+          "https://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn"));
   itemList.add(Item(
       imgUrl: "/ComposeMultiplatform.svg",
       title: "Compose Multiplatform",
@@ -531,6 +531,49 @@ Future main(List<String> args) async {
       imgUrl: "/Bash.svg",
       title: "Bash",
       url: "https://www.gnu.org/software/bash/manual/html_node/index.html"));
+  itemList.add(Item(
+      imgUrl: "/GraalVM.svg",
+      title: "GraalVM",
+      url: "https://www.graalvm.org/latest/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Cygwin.svg",
+      title: "Cygwin",
+      url: "https://cygwin.com/docs.html"));
+  itemList.add(Item(
+      imgUrl: "/robot.svg",
+      title: "Robot Framework",
+      url: "https://docs.robotframework.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Apache%20Hive.svg",
+      title: "Hive",
+      url: "https://hive.apache.org/docs/latest"));
+  itemList.add(Item(
+      imgUrl: "/Apache%20Cordova.svg",
+      title: "Cordova",
+      url: "https://cordova.apache.org/docs/en/latest"));
+  itemList.add(Item(
+      imgUrl: "/GNU.svg",
+      title: "GNU Coreutils",
+      url:
+          "https://www.gnu.org/software/coreutils/manual/html_node/index.html"));
+  // itemList
+  //     .add(Item(imgUrl: "/V8.svg", title: "V8", url: "https://v8.dev/docs"));
+  itemList.add(Item(
+      imgUrl: "/WebGPU.svg",
+      title: "WebGPU",
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API"));
+  itemList.add(Item(
+      imgUrl: "/GTK.svg",
+      title: "GTK",
+      url: "https://www.gtk.org/docs/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/PostgreSQL.svg",
+      title: "PostgreSQL",
+      url: "http://www.postgres.cn/docs/current/index.html"));
+  itemList.add(
+      Item(imgUrl: "/Vala.svg", title: "Vala", url: "https://docs.vala.dev"));
+  itemList.add(
+      Item(imgUrl: "/Servo.svg", title: "Servo", url: "https://doc.servo.org"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",
