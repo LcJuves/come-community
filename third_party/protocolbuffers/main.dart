@@ -578,6 +578,19 @@ Future main(List<String> args) async {
       imgUrl: "/OpenHarmony.svg",
       title: "OpenHarmony",
       url: "https://docs.openharmony.cn"));
+  itemList.add(Item(
+      imgUrl: "/_Xiaomi.svg",
+      title: "Home Integration",
+      url:
+          "https://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md"));
+  itemList.add(Item(
+      imgUrl: "/MQTT.svg",
+      title: "MQTT",
+      url: "https://mqtt.org/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/JSON.svg",
+      title: "JSON",
+      url: "https://www.json.org/json-zh.html"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",

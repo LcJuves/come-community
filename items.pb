@@ -320,3 +320,9 @@ PostgreSQL.http://www.postgres.cn/docs/current/index.html
 /Servo.svgServohttps://doc.servo.org
 <
 /OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
+e
+/_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
+3
+	/MQTT.svgMQTT https://mqtt.org/getting-started
+4
+	/JSON.svgJSON!https://www.json.org/json-zh.html
