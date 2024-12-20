@@ -574,6 +574,10 @@ Future main(List<String> args) async {
       Item(imgUrl: "/Vala.svg", title: "Vala", url: "https://docs.vala.dev"));
   itemList.add(
       Item(imgUrl: "/Servo.svg", title: "Servo", url: "https://doc.servo.org"));
+  itemList.add(Item(
+      imgUrl: "/OpenHarmony.svg",
+      title: "OpenHarmony",
+      url: "https://docs.openharmony.cn"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",

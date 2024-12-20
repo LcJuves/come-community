@@ -318,3 +318,5 @@ PostgreSQL.http://www.postgres.cn/docs/current/index.html
 *
 
 /Servo.svgServohttps://doc.servo.org
+<
+/OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
