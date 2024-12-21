@@ -77,7 +77,7 @@ Future main(List<String> args) async {
       imgUrl: "/ThreeJS.svg",
       title: "ThreeJS",
       url:
-          "https://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene"));
+          "https://threejs.org/docs/index.html#manual/zh/introduction/Installation"));
   itemList.add(Item(
       imgUrl: "/Deno.svg",
       title: "Deno",
@@ -432,9 +432,7 @@ Future main(List<String> args) async {
       title: "Azure Quantum",
       url: "https://learn.microsoft.com/zh-cn/azure/quantum"));
   itemList.add(Item(
-      imgUrl: "/Homebrew.svg",
-      title: "Homebrew",
-      url: "https://brew.sh/zh-cn"));
+      imgUrl: "/Homebrew.svg", title: "Homebrew", url: "https://docs.brew.sh"));
   itemList.add(Item(
       imgUrl: "/HTML5.svg",
       title: "HTML",
@@ -633,12 +631,32 @@ Future main(List<String> args) async {
       imgUrl: "/OpenWrt.svg",
       title: "OpenWrt",
       url: "https://openwrt.org/zh/docs/guide-quick-start/start"));
+  itemList
+      .add(Item(imgUrl: "/YAML.svg", title: "YAML", url: "https://yaml.org"));
+  itemList.add(Item(
+      imgUrl: "/XML.svg",
+      title: "XML",
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/XML"));
+  itemList.add(Item(
+      imgUrl: "/Nim.svg",
+      title: "Nim",
+      url: "https://nim-lang.org/documentation.html"));
+  itemList.add(Item(
+      imgUrl: "/Haskell.svg",
+      title: "Haskell",
+      url: "https://www.haskell.org/documentation"));
+  // itemList.add(Item(
+  //     imgUrl: "/ProGuard.svg",
+  //     title: "ProGuard",
+  //     url: "https://www.guardsquare.com/manual/quickstart"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",
   //     url: "https://learn.microsoft.com/zh-cn/dotnet/maui"));
-  // itemList
-  //     .add(Item(imgUrl: "/Mojo.svg", title: "Mojo", url: "https://docs.modular.com/mojo"));
+  itemList.add(Item(
+      imgUrl: "/Mojo.svg",
+      title: "Mojo",
+      url: "https://docs.modular.com/mojo"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
