@@ -326,3 +326,17 @@ e
 	/MQTT.svgMQTT https://mqtt.org/getting-started
 4
 	/JSON.svgJSON!https://www.json.org/json-zh.html
+Y
+/microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
+H
+/HomeAssistant.svgHome Assistant"https://www.home-assistant.io/docs
+3
+	/D3JS.svgD3JS https://d3js.org/getting-started
+>
+/RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
+Z
+/Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
+J
+/Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
+.
+/Deepin.svgDeepinhttps://docs.deepin.org
