@@ -591,6 +591,32 @@ Future main(List<String> args) async {
       imgUrl: "/JSON.svg",
       title: "JSON",
       url: "https://www.json.org/json-zh.html"));
+  itemList.add(Item(
+      imgUrl: "/microbit.svg",
+      title: "micro:bit",
+      url: "https://microbit.org/get-started/getting-started/introduction"));
+  itemList.add(Item(
+      imgUrl: "/HomeAssistant.svg",
+      title: "Home Assistant",
+      url: "https://www.home-assistant.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/D3JS.svg",
+      title: "D3JS",
+      url: "https://d3js.org/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/RockyLinux.svg",
+      title: "Rocky Linux",
+      url: "https://docs.rockylinux.org/zh"));
+  itemList.add(Item(
+      imgUrl: "/Fedora.svg",
+      title: "Fedora Workstation",
+      url: "https://docs.fedoraproject.org/zh_Hans/workstation-docs"));
+  itemList.add(Item(
+      imgUrl: "/Asahi%20Linux.svg",
+      title: "Asahi Linux",
+      url: "https://github.com/asahilinux/docs/wiki"));
+  itemList.add(Item(
+      imgUrl: "/Deepin.svg", title: "Deepin", url: "https://docs.deepin.org"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",
