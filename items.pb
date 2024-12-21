@@ -356,5 +356,7 @@ A
 /Nim.svgNim'https://nim-lang.org/documentation.html
 >
 /Haskell.svgHaskell%https://www.haskell.org/documentation
+J
+/Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
 0
 	/Mojo.svgMojohttps://docs.modular.com/mojo
