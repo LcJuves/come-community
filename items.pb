@@ -342,5 +342,9 @@ J
 /Deepin.svgDeepinhttps://docs.deepin.org
 3
 	/QEMU.svgQEMU https://www.qemu.org/docs/master
-K
-/KasmWorkspaces.svgKasm Workspaces#https://www.kasmweb.com/docs/latest
+R
+/KasmWorkspaces.svgKasm Workspaces*https://kasmweb.com/docs/latest/index.html
+A
+/WireGuard.svg	WireGuard$https://www.wireguard.com/quickstart
+L
+/OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start

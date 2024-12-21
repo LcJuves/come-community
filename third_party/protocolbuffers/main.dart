@@ -624,7 +624,15 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/KasmWorkspaces.svg",
       title: "Kasm Workspaces",
-      url: "https://www.kasmweb.com/docs/latest"));
+      url: "https://kasmweb.com/docs/latest/index.html"));
+  itemList.add(Item(
+      imgUrl: "/WireGuard.svg",
+      title: "WireGuard",
+      url: "https://www.wireguard.com/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/OpenWrt.svg",
+      title: "OpenWrt",
+      url: "https://openwrt.org/zh/docs/guide-quick-start/start"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",
