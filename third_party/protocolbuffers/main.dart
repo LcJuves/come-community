@@ -161,7 +161,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/_Electron.svg",
       title: "Electron",
-      url: "https://www.electronjs.org/docs"));
+      url: "https://www.electronjs.org/zh/docs/latest"));
   itemList.add(Item(
       imgUrl: "/JavaScript.svg",
       title: "JavaScript",
@@ -617,6 +617,14 @@ Future main(List<String> args) async {
       url: "https://github.com/asahilinux/docs/wiki"));
   itemList.add(Item(
       imgUrl: "/Deepin.svg", title: "Deepin", url: "https://docs.deepin.org"));
+  itemList.add(Item(
+      imgUrl: "/QEMU.svg",
+      title: "QEMU",
+      url: "https://www.qemu.org/docs/master"));
+  itemList.add(Item(
+      imgUrl: "/KasmWorkspaces.svg",
+      title: "Kasm Workspaces",
+      url: "https://www.kasmweb.com/docs/latest"));
   // itemList.add(Item(
   //     imgUrl: "/MAUI.svg",
   //     title: "MAUI",
