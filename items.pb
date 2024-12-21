@@ -87,8 +87,8 @@ I
 /PHP.svgPHPhttps://www.php.net/manual/zh
 @
 	/Ruby.svgRuby-https://www.ruby-lang.org/zh_cn/documentation
-;
-/_Electron.svgElectronhttps://www.electronjs.org/docs
+E
+/_Electron.svgElectron)https://www.electronjs.org/zh/docs/latest
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
@@ -340,3 +340,7 @@ J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 .
 /Deepin.svgDeepinhttps://docs.deepin.org
+3
+	/QEMU.svgQEMU https://www.qemu.org/docs/master
+K
+/KasmWorkspaces.svgKasm Workspaces#https://www.kasmweb.com/docs/latest
