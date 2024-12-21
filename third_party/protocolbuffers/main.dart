@@ -645,6 +645,10 @@ Future main(List<String> args) async {
       imgUrl: "/Haskell.svg",
       title: "Haskell",
       url: "https://www.haskell.org/documentation"));
+  itemList.add(Item(
+      imgUrl: "/Bitcoin.svg",
+      title: "Bitcoin",
+      url: "https://developer.bitcoin.org/devguide/index.html"));
   // itemList.add(Item(
   //     imgUrl: "/ProGuard.svg",
   //     title: "ProGuard",
