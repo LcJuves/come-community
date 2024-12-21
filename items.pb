@@ -38,8 +38,8 @@ TypeScript&https://www.typescriptlang.org/zh/docs
 L
 
 /Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
-d
-/ThreeJS.svgThreeJSKhttps://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene
+`
+/ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 4
@@ -250,8 +250,8 @@ Subversion"https://subversion.apache.org/docs
 L
 
 /Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
-0
-/Homebrew.svgHomebrewhttps://brew.sh/zh-cn
+/
+/Homebrew.svgHomebrewhttps://docs.brew.sh
 E
 
 /HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
@@ -348,3 +348,13 @@ A
 /WireGuard.svg	WireGuard$https://www.wireguard.com/quickstart
 L
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
+#
+	/YAML.svgYAMLhttps://yaml.org
+A
+/XML.svgXML0https://developer.mozilla.org/zh-CN/docs/Web/XML
+8
+/Nim.svgNim'https://nim-lang.org/documentation.html
+>
+/Haskell.svgHaskell%https://www.haskell.org/documentation
+0
+	/Mojo.svgMojohttps://docs.modular.com/mojo
