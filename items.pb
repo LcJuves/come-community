@@ -358,5 +358,7 @@ A
 /Haskell.svgHaskell%https://www.haskell.org/documentation
 J
 /Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
+4
+/WinterCG.svgWinterCGhttps://wintercg.org/work
 0
 	/Mojo.svgMojohttps://docs.modular.com/mojo
