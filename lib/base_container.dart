@@ -61,14 +61,20 @@ class BaseContainer extends StatelessWidget {
                       const EdgeInsets.only(top: Constants.urlBoxTopPadding),
                   child: SizedBox(
                     width: _textBoxDynamicWidth(context),
-                    child: Text(
-                      item.url,
-                      style: const TextStyle(
-                          fontSize: 11,
-                          color: Color.fromARGB(255, 100, 100, 100),
-                          fontWeight: FontWeight.w500),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
+                    child: Tooltip(
+                      triggerMode: TooltipTriggerMode.manual,
+                      preferBelow: true,
+                      margin: const EdgeInsets.all(4),
+                      message: item.url,
+                      child: Text(
+                        item.url,
+                        style: const TextStyle(
+                            fontSize: 11,
+                            color: Color.fromARGB(255, 100, 100, 100),
+                            fontWeight: FontWeight.w500),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
                     ),
                   ),
                 ),
