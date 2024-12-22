@@ -135,7 +135,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Apache%20Dubbo.svg",
       title: "Dubbo",
-      url: "https://dubbo.apache.org/zh/docs"));
+      url: "https://cn.dubbo.apache.org/zh-cn/overview/home"));
   itemList.add(Item(
       imgUrl: "/Microsoft.svg",
       title: "Microsoft SQL",
@@ -653,6 +653,26 @@ Future main(List<String> args) async {
       imgUrl: "/WinterCG.svg",
       title: "WinterCG",
       url: "https://wintercg.org/work"));
+  itemList.add(Item(
+      imgUrl: "/gitee.svg",
+      title: "Gitee Go",
+      url: "https://gitee.com/help/categories/69"));
+  itemList.add(Item(
+      imgUrl: "/Flameshot.svg",
+      title: "Flameshot",
+      url: "https://flameshot.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Gradle.svg",
+      title: "Gradle",
+      url: "https://docs.gradle.org/current/userguide/quick_start.html"));
+  itemList.add(Item(
+      imgUrl: "/Ethereum.svg",
+      title: "Ethereum",
+      url: "https://ethereum.org/zh/developers/docs"));
+  // itemList.add(Item(
+  //     imgUrl: "/CloudBeaver.svg",
+  //     title: "CloudBeaver",
+  //     url: "https://dbeaver.com/docs/cloudbeaver/24.3"));
   // itemList.add(Item(
   //     imgUrl: "/ProGuard.svg",
   //     title: "ProGuard",
@@ -665,6 +685,10 @@ Future main(List<String> args) async {
       imgUrl: "/Mojo.svg",
       title: "Mojo",
       url: "https://docs.modular.com/mojo"));
+  itemList.add(Item(
+      imgUrl: "/Debian.svg",
+      title: "Debian",
+      url: "https://www.debian.org/doc/manuals/debian-reference"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
