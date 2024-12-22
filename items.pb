@@ -73,8 +73,8 @@ N
 	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
 0
 /Angular.svgAngularhttps://angular.cn/docs
->
-/Apache%20Dubbo.svgDubbo https://dubbo.apache.org/zh/docs
+M
+/Apache%20Dubbo.svgDubbo/https://cn.dubbo.apache.org/zh-cn/overview/home
 E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
 ?
@@ -360,5 +360,16 @@ J
 /Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
 4
 /WinterCG.svgWinterCGhttps://wintercg.org/work
+<
+
+/gitee.svgGitee Go$https://gitee.com/help/categories/69
+7
+/Flameshot.svg	Flameshothttps://flameshot.org/docs
+Q
+/Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html
+B
+/Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
 0
 	/Mojo.svgMojohttps://docs.modular.com/mojo
+J
+/Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
