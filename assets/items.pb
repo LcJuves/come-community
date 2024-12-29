@@ -38,8 +38,8 @@ TypeScript&https://www.typescriptlang.org/zh/docs
 L
 
 /Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
-d
-/ThreeJS.svgThreeJSKhttps://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene
+`
+/ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 4
@@ -73,8 +73,8 @@ N
 	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
 0
 /Angular.svgAngularhttps://angular.cn/docs
->
-/Apache%20Dubbo.svgDubbo https://dubbo.apache.org/zh/docs
+M
+/Apache%20Dubbo.svgDubbo/https://cn.dubbo.apache.org/zh-cn/overview/home
 E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
 ?
@@ -87,8 +87,8 @@ I
 /PHP.svgPHPhttps://www.php.net/manual/zh
 @
 	/Ruby.svgRuby-https://www.ruby-lang.org/zh_cn/documentation
-;
-/_Electron.svgElectronhttps://www.electronjs.org/docs
+E
+/_Electron.svgElectron)https://www.electronjs.org/zh/docs/latest
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
@@ -202,6 +202,8 @@ E
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
 7
 /SQLite.svgSQLite https://www.sqlite.org/docs.html
+u
+/JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
 I
@@ -248,8 +250,8 @@ Subversion"https://subversion.apache.org/docs
 L
 
 /Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
-0
-/Homebrew.svgHomebrewhttps://brew.sh/zh-cn
+/
+/Homebrew.svgHomebrewhttps://docs.brew.sh
 E
 
 /HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
@@ -291,3 +293,102 @@ P
 /BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
 P
 	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
+G
+/GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
+3
+/Cygwin.svgCygwinhttps://cygwin.com/docs.html
+C
+
+/robot.svgRobot Framework$https://docs.robotframework.org/docs
+?
+/Apache%20Hive.svgHive#https://hive.apache.org/docs/latest
+K
+/Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
+]
+/GNU.svgGNU CoreutilsBhttps://www.gnu.org/software/coreutils/manual/html_node/index.html
+R
+/WebGPU.svgWebGPU;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API
+9
+/GTK.svgGTK(https://www.gtk.org/docs/getting-started
+M
+/PostgreSQL.svg
+PostgreSQL.http://www.postgres.cn/docs/current/index.html
+(
+	/Vala.svgValahttps://docs.vala.dev
+*
+
+/Servo.svgServohttps://doc.servo.org
+<
+/OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
+e
+/_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
+3
+	/MQTT.svgMQTT https://mqtt.org/getting-started
+4
+	/JSON.svgJSON!https://www.json.org/json-zh.html
+Y
+/microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
+H
+/HomeAssistant.svgHome Assistant"https://www.home-assistant.io/docs
+3
+	/D3JS.svgD3JS https://d3js.org/getting-started
+>
+/RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
+Z
+/Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
+J
+/Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
+.
+/Deepin.svgDeepinhttps://docs.deepin.org
+3
+	/QEMU.svgQEMU https://www.qemu.org/docs/master
+R
+/KasmWorkspaces.svgKasm Workspaces*https://kasmweb.com/docs/latest/index.html
+A
+/WireGuard.svg	WireGuard$https://www.wireguard.com/quickstart
+L
+/OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
+#
+	/YAML.svgYAMLhttps://yaml.org
+A
+/XML.svgXML0https://developer.mozilla.org/zh-CN/docs/Web/XML
+8
+/Nim.svgNim'https://nim-lang.org/documentation.html
+>
+/Haskell.svgHaskell%https://www.haskell.org/documentation
+J
+/Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
+4
+/WinterCG.svgWinterCGhttps://wintercg.org/work
+<
+
+/gitee.svgGitee Go$https://gitee.com/help/categories/69
+7
+/Flameshot.svg	Flameshothttps://flameshot.org/docs
+Q
+/Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html
+B
+/Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
+0
+	/Mojo.svgMojohttps://docs.modular.com/mojo
+J
+/Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
+;
+
+/Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
+B
+/Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
+<
+
+/MySQL.svgMySQL'https://dev.mysql.com/doc/refman/8.4/en
+?
+/OpenZFS.svgOpenZFS&https://openzfs.github.io/openzfs-docs
+b
+/SpringBoot.svgSpring BootBhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
+6
+/ECMAScript.svg
+ECMAScripthttps://tc39.es/ecma262
+?
+/HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
+0
+/Swagger.svgSwaggerhttps://swagger.io/docs
