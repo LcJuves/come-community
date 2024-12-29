@@ -734,6 +734,10 @@ Future main(List<String> args) async {
       imgUrl: "/Swagger.svg",
       title: "Swagger",
       url: "https://swagger.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/HHVM.svg",
+      title: "HHVM",
+      url: "https://docs.hhvm.com/hhvm/basic-usage/introduction"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
