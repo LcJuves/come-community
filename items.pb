@@ -373,3 +373,22 @@ B
 	/Mojo.svgMojohttps://docs.modular.com/mojo
 J
 /Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
+;
+
+/Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
+B
+/Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
+<
+
+/MySQL.svgMySQL'https://dev.mysql.com/doc/refman/8.4/en
+?
+/OpenZFS.svgOpenZFS&https://openzfs.github.io/openzfs-docs
+b
+/SpringBoot.svgSpring BootBhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
+6
+/ECMAScript.svg
+ECMAScripthttps://tc39.es/ecma262
+?
+/HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
+0
+/Swagger.svgSwaggerhttps://swagger.io/docs
