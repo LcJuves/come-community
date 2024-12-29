@@ -392,3 +392,5 @@ ECMAScripthttps://tc39.es/ecma262
 /HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
 0
 /Swagger.svgSwaggerhttps://swagger.io/docs
+F
+	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
