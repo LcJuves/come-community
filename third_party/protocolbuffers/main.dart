@@ -689,6 +689,51 @@ Future main(List<String> args) async {
       imgUrl: "/Debian.svg",
       title: "Debian",
       url: "https://www.debian.org/doc/manuals/debian-reference"));
+  itemList.add(Item(
+      imgUrl: "/Cargo.svg",
+      title: "Cargo",
+      url: "https://doc.rust-lang.org/stable/cargo"));
+  /* itemList.add(Item(
+      imgUrl: "/XTermJS.svg",
+      title: "XTermJS",
+      url: "https://xtermjs.org/docs")); */
+  itemList.add(Item(
+      imgUrl: "/Wayland.svg",
+      title: "Wayland",
+      url: "https://wayland.freedesktop.org/docs/html"));
+  itemList.add(Item(
+      imgUrl: "/MySQL.svg",
+      title: "MySQL",
+      url: "https://dev.mysql.com/doc/refman/8.4/en"));
+  itemList.add(Item(
+      imgUrl: "/OpenZFS.svg",
+      title: "OpenZFS",
+      url: "https://openzfs.github.io/openzfs-docs"));
+  /* itemList.add(Item(
+      imgUrl: "/LateX.svg",
+      title: "LateX",
+      url: "https://openzfs.github.io/openzfs-docs")); */
+  itemList.add(Item(
+      imgUrl: "/SpringBoot.svg",
+      title: "Spring Boot",
+      url:
+          "https://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html"));
+  itemList.add(Item(
+      imgUrl: "/ECMAScript.svg",
+      title: "ECMAScript",
+      url: "https://tc39.es/ecma262"));
+  // itemList.add(Item(
+  //     imgUrl: "/HighlightJS.svg",
+  //     title: "HighlightJS",
+  //     url: "https://highlightjs.readthedocs.io/en/latest"));
+  itemList.add(Item(
+      imgUrl: "/HTTP_Toolkit.svg",
+      title: "HTTP Toolkit",
+      url: "https://httptoolkit.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/Swagger.svg",
+      title: "Swagger",
+      url: "https://swagger.io/docs"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
