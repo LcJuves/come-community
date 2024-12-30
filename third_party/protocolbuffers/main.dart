@@ -514,8 +514,6 @@ Future main(List<String> args) async {
   //     title: "FreeBSD",
   //     url: "https://docs.freebsd.org/zh-cn/books/handbook/basics"));
   // itemList.add(
-  //     Item(imgUrl: "/GTK.svg", title: "GTK", url: "https://www.gtk.org/docs"));
-  // itemList.add(
   //     Item(imgUrl: "/gRPC.svg", title: "gRPC", url: "https://grpc.io/docs"));
   // itemList.add(Item(
   //     imgUrl: "/Pug%20Template%20Engine.svg",
@@ -738,6 +736,18 @@ Future main(List<String> args) async {
       imgUrl: "/HHVM.svg",
       title: "HHVM",
       url: "https://docs.hhvm.com/hhvm/basic-usage/introduction"));
+  itemList.add(Item(
+      imgUrl: "/Gnome.svg",
+      title: "GNOME",
+      url: "https://developer.gnome.org/documentation"));
+  itemList.add(Item(
+      imgUrl: "/ReactiveX.svg",
+      title: "ReactiveX",
+      url: "https://reactivex.io/documentation"));
+  itemList.add(Item(
+      imgUrl: "/OceanBase.svg",
+      title: "OceanBase",
+      url: "https://www.oceanbase.com/docs/oceanbase-database-cn"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);

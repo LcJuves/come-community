@@ -394,3 +394,10 @@ ECMAScripthttps://tc39.es/ecma262
 /Swagger.svgSwaggerhttps://swagger.io/docs
 F
 	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
+>
+
+/Gnome.svgGNOME)https://developer.gnome.org/documentation
+?
+/ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
+Q
+/OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
