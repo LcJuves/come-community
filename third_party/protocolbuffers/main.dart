@@ -748,6 +748,22 @@ Future main(List<String> args) async {
       imgUrl: "/OceanBase.svg",
       title: "OceanBase",
       url: "https://www.oceanbase.com/docs/oceanbase-database-cn"));
+  itemList.add(Item(
+      imgUrl: "/mongoDB.svg",
+      title: "MongoDB",
+      url: "https://www.mongodb.com/zh-cn/docs"));
+  itemList.add(Item(
+      imgUrl: "/MariaDB.svg",
+      title: "MariaDB",
+      url: "https://mariadb.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/Tribuo.svg",
+      title: "Tribuo",
+      url: "https://tribuo.org/learn/4.3/docs"));
+  // itemList.add(Item(
+  //     imgUrl: "/FFmpeg.svg",
+  //     title: "FFmpeg",
+  //     url: "https://ffmpeg.org/documentation.html"));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
