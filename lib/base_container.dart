@@ -1,3 +1,4 @@
+import 'package:docs/webspec.dart';
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -49,10 +50,11 @@ class BaseContainer extends StatelessWidget {
                 SizedBox(
                   width: _textBoxDynamicWidth(context),
                   child: Text(item.title,
-                      style: const TextStyle(
-                          fontSize: 20,
+                      style: TextStyle(
+                          fontSize:
+                              isRunOnMobileWebViewOrBrowser() ? 18.84 : 20,
                           fontWeight: FontWeight.bold,
-                          color: Color.fromARGB(255, 60, 60, 60)),
+                          color: const Color.fromARGB(255, 60, 60, 60)),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis),
                 ),
@@ -61,14 +63,21 @@ class BaseContainer extends StatelessWidget {
                       const EdgeInsets.only(top: Constants.urlBoxTopPadding),
                   child: SizedBox(
                     width: _textBoxDynamicWidth(context),
-                    child: Text(
-                      item.url,
-                      style: const TextStyle(
-                          fontSize: 11,
-                          color: Color.fromARGB(255, 100, 100, 100),
-                          fontWeight: FontWeight.w500),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
+                    child: Tooltip(
+                      triggerMode: TooltipTriggerMode.manual,
+                      margin: const EdgeInsets.all(4),
+                      message: item.url,
+                      waitDuration: const Duration(milliseconds: 1200),
+                      exitDuration: const Duration(),
+                      child: Text(
+                        item.url,
+                        style: const TextStyle(
+                            fontSize: 11,
+                            color: Color.fromARGB(255, 100, 100, 100),
+                            fontWeight: FontWeight.w500),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
                     ),
                   ),
                 ),
