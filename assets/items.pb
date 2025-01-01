@@ -392,3 +392,18 @@ ECMAScripthttps://tc39.es/ecma262
 /HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
 0
 /Swagger.svgSwaggerhttps://swagger.io/docs
+F
+	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
+>
+
+/Gnome.svgGNOME)https://developer.gnome.org/documentation
+?
+/ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
+Q
+/OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
+;
+/mongoDB.svgMongoDB"https://www.mongodb.com/zh-cn/docs
+1
+/MariaDB.svgMariaDBhttps://mariadb.com/docs
+8
+/Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
