@@ -401,3 +401,9 @@ F
 /ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
 Q
 /OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
+;
+/mongoDB.svgMongoDB"https://www.mongodb.com/zh-cn/docs
+1
+/MariaDB.svgMariaDBhttps://mariadb.com/docs
+8
+/Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
