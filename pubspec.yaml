@@ -66,10 +66,11 @@ flutter:
     - family: Menlo
       fonts:
         - asset: fonts/Menlo-Regular.ttf
-        - asset: fonts/Menlo-Italic.ttf
-          style: italic
         - asset: fonts/Menlo-Bold.ttf
           weight: 700
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   assets:
