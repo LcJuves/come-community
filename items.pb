@@ -304,6 +304,9 @@ E
 /PHP.svgPHPhttps://www.php.net/manual/zh
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
+F
+
+/Plan9.svgPlan 90http://9p.io/wiki/plan9/Documentation/index.html
 @
 /Playwright.svg
 Playwright!https://playwright.dev/docs/intro
@@ -340,9 +343,9 @@ H
 *
 
 /redis.svgRedishttps://redis.io/docs
-8
+5
 
-/Redox.svgRedox OS https://www.redox-os.org/zh/docs
+/Redox.svgRedox OShttps://doc.redox-os.org/book
 C
 
 /robot.svgRobot Framework$https://docs.robotframework.org/docs

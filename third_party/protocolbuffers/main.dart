@@ -788,7 +788,11 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Redox.svg",
       title: "Redox OS",
-      url: "https://www.redox-os.org/zh/docs"));
+      url: "https://doc.redox-os.org/book"));
+  itemList.add(Item(
+      imgUrl: "/Plan9.svg",
+      title: "Plan 9",
+      url: "http://9p.io/wiki/plan9/Documentation/index.html"));
 
   // itemList.add(Item(
   //     imgUrl: "/Spark.svg",
