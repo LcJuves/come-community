@@ -113,6 +113,9 @@ Z
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
 <
 /FFmpeg.svgFFmpeg%https://ffmpeg.org/documentation.html
+@
+
+/Figma.svgFigma Developers https://www.figma.com/developers
 7
 /Flameshot.svg	Flameshothttps://flameshot.org/docs
 N
