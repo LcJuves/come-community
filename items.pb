@@ -240,8 +240,8 @@ I
 N
 
 /Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
-(
-	/LLVM.svgLLVMhttps://llvm.org/docs
+<
+	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html
 .
 /Lodash.svgLodashhttps://lodash.com/docs
 1
