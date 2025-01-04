@@ -87,8 +87,6 @@ class _HomePageState extends State<HomePage> {
                 if (snapshot.hasData) {
                   final fetchedItems = snapshot.data!;
                   _loadedItems ??= fetchedItems;
-                  fetchedItems.sort((a, b) =>
-                      a.title.toLowerCase().compareTo(b.title.toLowerCase()));
                   return SingleChildScrollView(
                       scrollDirection: Axis.vertical,
                       padding: const EdgeInsets.all(Constants.edgePadding),

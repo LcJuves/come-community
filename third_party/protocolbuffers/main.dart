@@ -299,10 +299,6 @@ Future main(List<String> args) async {
       imgUrl: "/esbuild.svg",
       title: "esbuild",
       url: "https://esbuild.github.io/getting-started"));
-  // itemList.add(Item(
-  //     imgUrl: "/Linux.svg",
-  //     title: "Linux Command",
-  //     url: "https://wangchujiang.com/linux-command/hot.html"));
   itemList.add(Item(
       imgUrl: "/Raspberrypi.svg",
       title: "Raspberry Pi",
@@ -505,16 +501,16 @@ Future main(List<String> args) async {
       imgUrl: "/BabylonJS.svg",
       title: "BabylonJS",
       url: "https://doc.babylonjs.com"));
-  // itemList.add(Item(
-  //     imgUrl: "/Alibaba.svg",
-  //     title: "Nacos",
-  //     url: "https://nacos.io/docs/latest/overview"));
-  // itemList.add(Item(
-  //     imgUrl: "/FreeBSD.svg",
-  //     title: "FreeBSD",
-  //     url: "https://docs.freebsd.org/zh-cn/books/handbook/basics"));
-  // itemList.add(
-  //     Item(imgUrl: "/gRPC.svg", title: "gRPC", url: "https://grpc.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/Nacos.svg",
+      title: "Nacos",
+      url: "https://nacos.io/docs/latest/overview"));
+  itemList.add(Item(
+      imgUrl: "/FreeBSD.svg",
+      title: "FreeBSD",
+      url: "https://docs.freebsd.org/zh-cn/books/handbook/basics"));
+  itemList.add(
+      Item(imgUrl: "/gRPC.svg", title: "gRPC", url: "https://grpc.io/docs"));
   // itemList.add(Item(
   //     imgUrl: "/Pug%20Template%20Engine.svg",
   //     title: "radash",
@@ -707,10 +703,6 @@ Future main(List<String> args) async {
       imgUrl: "/OpenZFS.svg",
       title: "OpenZFS",
       url: "https://openzfs.github.io/openzfs-docs"));
-  /* itemList.add(Item(
-      imgUrl: "/LateX.svg",
-      title: "LateX",
-      url: "https://openzfs.github.io/openzfs-docs")); */
   itemList.add(Item(
       imgUrl: "/SpringBoot.svg",
       title: "Spring Boot",
@@ -760,10 +752,95 @@ Future main(List<String> args) async {
       imgUrl: "/Tribuo.svg",
       title: "Tribuo",
       url: "https://tribuo.org/learn/4.3/docs"));
+  itemList.add(Item(
+      imgUrl: "/GitLFS.svg",
+      title: "Git LFS",
+      url:
+          "https://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs"));
+  itemList.add(Item(
+      imgUrl: "/HTTP.svg",
+      title: "HTTP",
+      url: "https://developer.mozilla.org/zh-CN/docs/Web/HTTP"));
+  itemList.add(
+      Item(imgUrl: "/Ktor.svg", title: "Ktor", url: "https://ktor.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/Airflow.svg",
+      title: "Airflow",
+      url: "https://airflow.apache.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Arduino.svg",
+      title: "Arduino",
+      url: "https://docs.arduino.cc"));
+  itemList.add(Item(
+      imgUrl: "/Inkscape.svg",
+      title: "Inkscape",
+      url: "https://inkscape.org/zh-hans/simplified-chinese-learn"));
   // itemList.add(Item(
-  //     imgUrl: "/FFmpeg.svg",
-  //     title: "FFmpeg",
-  //     url: "https://ffmpeg.org/documentation.html"));
+  //     imgUrl: "/Mattermost.svg",
+  //     title: "Mattermost",
+  //     url: "https://docs.mattermost.com"));
+  itemList.add(Item(
+      imgUrl: "/LateX.svg",
+      title: "LateX",
+      url: "https://www.latex-project.org/help/documentation"));
+  itemList.add(Item(
+      imgUrl: "/KateX.svg", title: "KateX", url: "https://katex.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Redox.svg",
+      title: "Redox OS",
+      url: "https://www.redox-os.org/zh/docs"));
+
+  // itemList.add(Item(
+  //     imgUrl: "/Spark.svg",
+  //     title: "Spark",
+  //     url: "https://spark.apache.org/docs/latest"));
+  // itemList.add(Item(
+  //     imgUrl: "/RustWASM.svg",
+  //     title: "Rust and WebAssembly",
+  //     url: "https://rustwasm.github.io/docs.html"));
+  itemList.add(Item(
+      imgUrl: "/FFmpeg.svg",
+      title: "FFmpeg",
+      url: "https://ffmpeg.org/documentation.html"));
+  itemList.add(Item(
+      imgUrl: "/Alpine.svg",
+      title: "Alpine Linux",
+      url: "https://docs.alpinelinux.org"));
+  itemList.add(Item(
+      imgUrl: "/Arch%20Linux.svg",
+      title: "Arch Linux",
+      url: "https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5"));
+  itemList.add(Item(
+      imgUrl: "/Windows.svg",
+      title: "Windows",
+      url: "https://learn.microsoft.com/zh-cn/windows"));
+  itemList.add(Item(
+      imgUrl: "/Windows.svg",
+      title: "Windows Commands",
+      url:
+          "https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands"));
+  itemList.add(Item(
+      imgUrl: "/MS-DOS.svg",
+      title: "MS-DOS",
+      url:
+          "https://zh.wikipedia.org/wiki/MS-DOS%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8"));
+  itemList.add(Item(
+      imgUrl: "/ActixWeb.svg",
+      title: "Actix Web",
+      url: "https://actix.rs/docs"));
+  itemList.add(Item(
+      imgUrl: "/Rocket.svg", title: "Rocket", url: "https://actix.rs/docs"));
+  itemList.add(Item(
+      imgUrl: "/Eclipse%20IDE.svg",
+      title: "AspectJ",
+      url:
+          "https://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc"));
+  // itemList.add(Item(
+  //     imgUrl: "/WINE.svg",
+  //     title: "WineHQ",
+  //     url: "https://gitlab.winehq.org/wine/wine/-/wikis/Documentation"));
+  itemList
+      .sort((a, b) => a.title.toLowerCase().compareTo(b.title.toLowerCase()));
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
