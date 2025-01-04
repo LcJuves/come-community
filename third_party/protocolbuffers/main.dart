@@ -259,8 +259,10 @@ Future main(List<String> args) async {
       url: "https://docs.podman.io/en/latest"));
   itemList.add(
       Item(imgUrl: "/redis.svg", title: "Redis", url: "https://redis.io/docs"));
-  itemList.add(
-      Item(imgUrl: "/LLVM.svg", title: "LLVM", url: "https://llvm.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/LLVM.svg",
+      title: "LLVM",
+      url: "https://llvm.org/docs/GettingStarted.html"));
   itemList.add(Item(
       imgUrl: "/snowflake.svg",
       title: "snowflake",
