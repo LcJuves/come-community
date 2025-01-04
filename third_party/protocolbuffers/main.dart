@@ -70,7 +70,7 @@ Future main(List<String> args) async {
       title: "Jenkins",
       url: "https://www.jenkins.io/zh/doc"));
   itemList.add(Item(
-      imgUrl: "/Unity.svg",
+      imgUrl: "/_Unity.svg",
       title: "Unity",
       url: "https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html"));
   itemList.add(Item(
@@ -115,7 +115,7 @@ Future main(List<String> args) async {
       title: "Flink",
       url: "https://ci.apache.org/projects/flink/flink-docs-stable/zh"));
   itemList.add(Item(
-      imgUrl: "/Markdown.svg",
+      imgUrl: "/_Markdown.svg",
       title: "Markdown",
       url: "https://www.markdown.xyz"));
   itemList.add(Item(
