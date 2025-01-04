@@ -343,8 +343,8 @@ H
 C
 
 /robot.svgRobot Framework$https://docs.robotframework.org/docs
-,
-/Rocket.svgRockethttps://actix.rs/docs
+3
+/Rocket.svgRockethttps://rocket.rs/guide/v0.5
 >
 /RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
 ;
