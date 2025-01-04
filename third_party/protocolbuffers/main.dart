@@ -837,6 +837,10 @@ Future main(List<String> args) async {
       title: "AspectJ",
       url:
           "https://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc"));
+  itemList.add(Item(
+      imgUrl: "/Figma.svg",
+      title: "Figma Developers",
+      url: "https://www.figma.com/developers"));
   // itemList.add(Item(
   //     imgUrl: "/WINE.svg",
   //     title: "WineHQ",
