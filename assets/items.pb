@@ -1,409 +1,456 @@
 
-^
-/SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
-0
-/Flutter.svgFlutterhttps://flutter.cn/docs
+1
+/ActixWeb.svg	Actix Webhttps://actix.rs/docs
+8
+/Airflow.svgAirflowhttps://airflow.apache.org/docs
+9
+/Alpine.svgAlpine Linuxhttps://docs.alpinelinux.org
+M
+/Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
 A
 /Android.svgAndroid(https://developer.android.google.cn/docs
-V
-/Apache%20Groovy.svgGroovy6https://docs.groovy-lang.org/latest/html/documentation
-N
-
-/Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
-=
-/MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
-2
-/Kotlin.svgKotlinhttps://kotlinlang.org/docs
-H
-
-/React.svgReact Native,https://reactnative.dev/docs/getting-started
-:
-/Vue.svgVueJS'https://cn.vuejs.org/guide/introduction
-4
-/Python.svgPythonhttps://docs.python.org/zh-cn
-@
-	/Dart.svgDart-https://dart.cn/guides/language/language-tour
-2
-	/Java.svgJavahttps://docs.oracle.com/en/java
-A
-/Xamarin.svgXamarin(https://docs.microsoft.com/zh-cn/xamarin
-<
-/Kubernetes.svg
-Kuberneteshttps://kubernetes.io/zh/docs
-E
-/TypeScript.svg
-TypeScript&https://www.typescriptlang.org/zh/docs
-8
-/JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
-L
-
-/Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
-`
-/ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
-0
-	/Deno.svgDenohttps://docs.deno.com/runtime
-4
-/NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
-8
-/PyTorch.svgPyTorchhttps://pytorch.org/docs/stable
->
-/dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
-.
-/Docker.svgDockerhttps://docs.docker.com
-J
-/TensorFlow.svg
-TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
-=
-/Django.svgDjango&https://docs.djangoproject.com/zh-hans
-.
-/OpenCV.svgOpenCVhttps://docs.opencv.org
-H
-/Apache%20Hadoop.svgHadoop(https://hadoop.apache.org/docs/r1.0.4/cn
-N
-
-/Flink.svgFlink9https://ci.apache.org/projects/flink/flink-docs-stable/zh
-3
-/Markdown.svgMarkdownhttps://www.markdown.xyz
-N
-
-/Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
-%
-/GoLang.svgGohttps://go.dev/doc
-8
-	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
 0
 /Angular.svgAngularhttps://angular.cn/docs
-M
-/Apache%20Dubbo.svgDubbo/https://cn.dubbo.apache.org/zh-cn/overview/home
-E
-/Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
-?
-/Webpack.svgwebpack&https://webpack.docschina.org/concepts
-I
-/Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
-8
-/Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
-.
-/PHP.svgPHPhttps://www.php.net/manual/zh
-@
-	/Ruby.svgRuby-https://www.ruby-lang.org/zh_cn/documentation
-E
-/_Electron.svgElectron)https://www.electronjs.org/zh/docs/latest
-V
-/JavaScript.svg
-JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
-1
-/GraphQL.svgGraphQLhttps://graphql.cn/learn
-9
-/ZIG.svgZIG(https://ziglang.org/documentation/master
-r
-%/The%20C%20Programming%20Language.svgVisual C?https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170
-T
-/C%2B%2B.svg
-Visual C++8https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170
-%
-	/TOML.svgTOMLhttps://toml.io/cn
-c
-
-/Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
-$
-/Bun.svgBunhttps://bun.sh/docs
+`
+/AppImage.svgAppImageEhttps://docs.appimage.org/introduction/quickstart.html#ref-quickstart
+B
+/Appium.svgAppium+https://appium.io/docs/zh/latest/quickstart
 H
 
 /Apple.svgApple Developer)https://developer.apple.com/documentation
 U
-/WebAssembly.svgWebAssembly4https://developer.mozilla.org/zh-CN/docs/WebAssembly
-6
+/Arch%20Linux.svg
+Arch Linux4https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5
+0
+/Arduino.svgArduinohttps://docs.arduino.cc
+J
+/Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
+x
+/Eclipse%20IDE.svgAspectJYhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc
+L
 
-/React.svgReactJShttps://zh-hans.react.dev/learn
-M
-/Huawei.svgHuawei HarmonyOS,https://developer.huawei.com/consumer/cn/doc
+/Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
+6
+/BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
+P
+	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
+K
+	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started
+J
+/Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
+@
+/Blender.svgBlender'https://docs.blender.org/manual/zh-hans
+8
+/Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
+<
+/Browserless.svgBrowserlesshttps://docs.browserless.io
+$
+/Bun.svgBunhttps://bun.sh/docs
 h
 /Huawei.svgCangjiePhttps://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5
-2
+;
 
-/TAURI.svgTAURIhttps://tauri.app/zh-cn/start
+/Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
+:
+/ClickHouse.svg
+ClickHousehttps://clickhouse.com/docs
+C
+/Clojure.svgClojure*https://clojure.org/guides/getting_started
+8
+
+/CMake.svgCMake#https://cmake.org/cmake/help/latest
+i
+/ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+K
+/Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
+P
+/Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
+A
+/CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
+(
+
+/_cURL.svgcURLhttps://curl.se/docs
+3
+/Cygwin.svgCygwinhttps://cygwin.com/docs.html
+3
+	/D3JS.svgD3JS https://d3js.org/getting-started
+@
+	/Dart.svgDart-https://dart.cn/guides/language/language-tour
+A
+/Datatracker.svgDatatracker https://datatracker.ietf.org/doc
+J
+/Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
 .
+/Deepin.svgDeepinhttps://docs.deepin.org
+0
+	/Deno.svgDenohttps://docs.deno.com/runtime
+?
+/Diesel.svgDiesel(https://diesel.rs/guides/getting-started
+=
+/Django.svgDjango&https://docs.djangoproject.com/zh-hans
+.
+/Docker.svgDockerhttps://docs.docker.com
+>
+/dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
+<
+/Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
+M
+/Apache%20Dubbo.svgDubbo/https://cn.dubbo.apache.org/zh-cn/overview/home
+7
+	/eBPF.svgeBPF$https://ebpf.io/zh-hans/what-is-ebpf
+6
+/ECMAScript.svg
+ECMAScripthttps://tc39.es/ecma262
+E
+/_Electron.svgElectron)https://www.electronjs.org/zh/docs/latest
+B
+/esbuild.svgesbuild)https://esbuild.github.io/getting-started
+=
+/ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
+B
+/Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
+Z
+/Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
+<
+/FFmpeg.svgFFmpeg%https://ffmpeg.org/documentation.html
+7
+/Flameshot.svg	Flameshothttps://flameshot.org/docs
+N
 
-/Nginx.svgNginxhttps://nginx.org/en/docs
+/Flink.svgFlink9https://ci.apache.org/projects/flink/flink-docs-stable/zh
+0
+/Flutter.svgFlutterhttps://flutter.cn/docs
+M
+/FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
+‰
+/GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
 @
 /git-scm.svgGit SCM'https://git-scm.com/docs/git/zh_HANS-CN
+<
+
+/gitee.svgGitee Go$https://gitee.com/help/categories/69
 A
 /GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
 L
 /GitLab.svg	GitLab CI2https://docs.gitlab.com/operator/developer/ci.html
-F
-/VS Code.svgVisual Studio Code"https://code.visualstudio.com/docs
-8
+>
 
-/CMake.svgCMake#https://cmake.org/cmake/help/latest
-K
-/PowerShell.svg
-PowerShell,https://learn.microsoft.com/zh-cn/powershell
+/Gnome.svgGNOME)https://developer.gnome.org/documentation
 (
 /GNU.svgGNUhttps://www.gnu.org/doc
-=
-
-/MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
-
-/JWT.svgJWThttps://jwt.io
-7
-/podman.svgpodman https://docs.podman.io/en/latest
-*
-
-/redis.svgRedishttps://redis.io/docs
-(
-	/LLVM.svgLLVMhttps://llvm.org/docs
-7
-/snowflake.svg	snowflakehttps://docs.snowflake.com
-:
-/ClickHouse.svg
-ClickHousehttps://clickhouse.com/docs
-:
-/NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
-7
-	/eBPF.svgeBPF$https://ebpf.io/zh-hans/what-is-ebpf
-5
-	/SVGO.svgSVGO"https://svgo.dev/docs/introduction
-5
-/Mermaid.svgMermaidhttps://mermaid.js.org/intro
-A
-/Datatracker.svgDatatracker https://datatracker.ietf.org/doc
-I
-/Org_FreeSVG.svgSVG0https://developer.mozilla.org/zh-CN/docs/Web/SVG
-B
-/esbuild.svgesbuild)https://esbuild.github.io/getting-started
-K
-/Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
-8
-/Pug%20Template%20Engine.svgPugJShttps://pugjs.org
-=
-/Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
-<
-/Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
-K
-	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started
+]
+/GNU.svgGNU CoreutilsBhttps://www.gnu.org/software/coreutils/manual/html_node/index.html
+%
+/GoLang.svgGohttps://go.dev/doc
+E
+/GODOT_Engine.svgGodot Engine"https://docs.godotengine.org/zh-cn
 ;
 
 /godot.svg
 godot-rust!https://godot-rust.github.io/docs
-4
-
-/tokio.svgTokiohttps://tokio.rs/tokio/tutorial
-,
-
-/hyper.svghyperhttps://hyper.rs/guides
-?
-/Diesel.svgDiesel(https://diesel.rs/guides/getting-started
-)
-	/IPFS.svgIPFShttps://docs.ipfs.tech
-E
-
-/PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
-7
-/SQLite.svgSQLite https://www.sqlite.org/docs.html
-u
-/JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
-i
-/ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
-I
-/WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
-D
-/Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
-A
-/CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
-,
-	/Vite.svgVitehttps://cn.vite.dev/guide
-;
-/Rollup.svgRollup$https://cn.rollupjs.org/introduction
-=
-/ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
-@
-/Playwright.svg
-Playwright!https://playwright.dev/docs/intro
--
-	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
+G
+/GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
+Q
+/Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html
+1
+/GraphQL.svgGraphQLhttps://graphql.cn/learn
+V
+/Apache%20Groovy.svgGroovy6https://docs.groovy-lang.org/latest/html/documentation
+'
+	/gRPC.svggRPChttps://grpc.io/docs
 :
 /GruntJS.svgGruntJS!https://gruntjs.com/documentation
-3
-/Spring.svgSpringhttps://spring.io/quickstart
-D
-/Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started
 9
-/Wintun.svgWintun"https://git.zx2c4.com/wintun/about
-<
-/Browserless.svgBrowserlesshttps://docs.browserless.io
-`
-/AppImage.svgAppImageEhttps://docs.appimage.org/introduction/quickstart.html#ref-quickstart
-1
-/Laravel.svgLaravelhttps://laravel.com/docs
-.
-/Lodash.svgLodashhttps://lodash.com/docs
-A
-/Subversion.svg
-Subversion"https://subversion.apache.org/docs
-\
-/OpenVela.svgXiaomi OpenVela:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md
-9
-
-/NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
-L
-
-/Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
+/GTK.svgGTK(https://www.gtk.org/docs/getting-started
+M
+/gulpjs.svgGulpJS6https://gulpjs.com/docs/en/getting-started/quick-start
+H
+/Apache%20Hadoop.svgHadoop(https://hadoop.apache.org/docs/r1.0.4/cn
+>
+/Haskell.svgHaskell%https://www.haskell.org/documentation
+-
+	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
+F
+	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
+?
+/Apache%20Hive.svgHive#https://hive.apache.org/docs/latest
+H
+/HomeAssistant.svgHome Assistant"https://www.home-assistant.io/docs
+e
+/_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
 /
 /Homebrew.svgHomebrewhttps://docs.brew.sh
 E
 
 /HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
-(
-
-/_cURL.svgcURLhttps://curl.se/docs
-\
-/Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
-E
-/GODOT_Engine.svgGodot Engine"https://docs.godotengine.org/zh-cn
 D
-/Apache%20Kafka.svgKafka&https://kafka.apache.org/documentation
+	/HTTP.svgHTTP1https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+?
+/HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
 M
-/gulpjs.svgGulpJS6https://gulpjs.com/docs/en/getting-started/quick-start
-M
-/Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
+/Huawei.svgHuawei HarmonyOS,https://developer.huawei.com/consumer/cn/doc
+,
+
+/hyper.svghyperhttps://hyper.rs/guides
+P
+/Inkscape.svgInkscape5https://inkscape.org/zh-hans/simplified-chinese-learn
 H
 /InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
-B
-/Appium.svgAppium+https://appium.io/docs/zh/latest/quickstart
+)
+	/IPFS.svgIPFShttps://docs.ipfs.tech
+2
+	/Java.svgJavahttps://docs.oracle.com/en/java
+V
+/JavaScript.svg
+JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
 8
-/RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
+/JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
+u
+/JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
+4
+	/JSON.svgJSON!https://www.json.org/json-zh.html
 ;
 /Jupyter.svgJupyter"https://docs.jupyter.org/en/latest
+
+/JWT.svgJWThttps://jwt.io
+D
+/Apache%20Kafka.svgKafka&https://kafka.apache.org/documentation
+R
+/KasmWorkspaces.svgKasm Workspaces*https://kasmweb.com/docs/latest/index.html
++
+
+/KateX.svgKateXhttps://katex.org/docs
+2
+/Kotlin.svgKotlinhttps://kotlinlang.org/docs
+'
+	/Ktor.svgKtorhttps://ktor.io/docs
+<
+/Kubernetes.svg
+Kuberneteshttps://kubernetes.io/zh/docs
+1
+/Laravel.svgLaravelhttps://laravel.com/docs
+E
+
+/LateX.svgLateX0https://www.latex-project.org/help/documentation
+I
+/Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
+N
+
+/Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
+(
+	/LLVM.svgLLVMhttps://llvm.org/docs
+.
+/Lodash.svgLodashhttps://lodash.com/docs
+1
+/MariaDB.svgMariaDBhttps://mariadb.com/docs
+3
+/Markdown.svgMarkdownhttps://www.markdown.xyz
+=
+/MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
+5
+/Mermaid.svgMermaidhttps://mermaid.js.org/intro
+Y
+/microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
+E
+/Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
+0
+	/Mojo.svgMojohttps://docs.modular.com/mojo
+;
+/mongoDB.svgMongoDB"https://www.mongodb.com/zh-cn/docs
+B
+/MoonBit.svgMoonBit)https://docs.moonbitlang.com/zh-cn/latest
+3
+	/MQTT.svgMQTT https://mqtt.org/getting-started
+_
+/MS-DOS.svgMS-DOSHhttps://zh.wikipedia.org/wiki/MS-DOS%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8
+=
+
+/MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
+<
+
+/MySQL.svgMySQL'https://dev.mysql.com/doc/refman/8.4/en
+:
+
+/Nacos.svgNacos%https://nacos.io/docs/latest/overview
+:
+/NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
+.
+
+/Nginx.svgNginxhttps://nginx.org/en/docs
+8
+/Nim.svgNim'https://nim-lang.org/documentation.html
+4
+/NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
+9
+
+/NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
+Q
+/OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
+.
+/OpenCV.svgOpenCVhttps://docs.opencv.org
+<
+/OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
+L
+/OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
+?
+/OpenZFS.svgOpenZFS&https://openzfs.github.io/openzfs-docs
+E
+
+/PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
+.
+/PHP.svgPHPhttps://www.php.net/manual/zh
+=
+/Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 @
-/Blender.svgBlender'https://docs.blender.org/manual/zh-hans
+/Playwright.svg
+Playwright!https://playwright.dev/docs/intro
+7
+/podman.svgpodman https://docs.podman.io/en/latest
+M
+/PostgreSQL.svg
+PostgreSQL.http://www.postgres.cn/docs/current/index.html
+K
+/PowerShell.svg
+PowerShell,https://learn.microsoft.com/zh-cn/powershell
+8
+/Pug%20Template%20Engine.svgPugJShttps://pugjs.org
+D
+/Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started
+4
+/Python.svgPythonhttps://docs.python.org/zh-cn
+8
+/PyTorch.svgPyTorchhttps://pytorch.org/docs/stable
+3
+	/QEMU.svgQEMU https://www.qemu.org/docs/master
+8
+/RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
+K
+/Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
+H
+
+/React.svgReact Native,https://reactnative.dev/docs/getting-started
+?
+/ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
+6
+
+/React.svgReactJShttps://zh-hans.react.dev/learn
+*
+
+/redis.svgRedishttps://redis.io/docs
+8
+
+/Redox.svgRedox OS https://www.redox-os.org/zh/docs
+C
+
+/robot.svgRobot Framework$https://docs.robotframework.org/docs
+,
+/Rocket.svgRockethttps://actix.rs/docs
+>
+/RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
+;
+/Rollup.svgRollup$https://cn.rollupjs.org/introduction
+D
+/Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
+@
+	/Ruby.svgRuby-https://www.ruby-lang.org/zh_cn/documentation
+\
+/Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
+8
+	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
+N
+
+/Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
+*
+
+/Servo.svgServohttps://doc.servo.org
+7
+/snowflake.svg	snowflakehttps://docs.snowflake.com
 M
 /SpiderMonkey.svgSpiderMonkey*https://firefox-source-docs.mozilla.org/js
+3
+/Spring.svgSpringhttps://spring.io/quickstart
+b
+/SpringBoot.svgSpring BootBhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
+7
+/SQLite.svgSQLite https://www.sqlite.org/docs.html
+A
+/Subversion.svg
+Subversion"https://subversion.apache.org/docs
+I
+/Org_FreeSVG.svgSVG0https://developer.mozilla.org/zh-CN/docs/Web/SVG
+5
+	/SVGO.svgSVGO"https://svgo.dev/docs/introduction
+0
+/Swagger.svgSwaggerhttps://swagger.io/docs
+c
+
+/Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
+^
+/SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
+2
+
+/TAURI.svgTAURIhttps://tauri.app/zh-cn/start
+J
+/TensorFlow.svg
+TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
+`
+/ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
+4
+
+/tokio.svgTokiohttps://tokio.rs/tokio/tutorial
+%
+	/TOML.svgTOMLhttps://toml.io/cn
+8
+/Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
+E
+/TypeScript.svg
+TypeScript&https://www.typescriptlang.org/zh/docs
+L
+
+/Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
+(
+	/Vala.svgValahttps://docs.vala.dev
+r
+%/The%20C%20Programming%20Language.svgVisual C?https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170
+T
+/C%2B%2B.svg
+Visual C++8https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170
+F
+/VS Code.svgVisual Studio Code"https://code.visualstudio.com/docs
+,
+	/Vite.svgVitehttps://cn.vite.dev/guide
+:
+/Vue.svgVueJS'https://cn.vuejs.org/guide/introduction
 +
 
 /WASIX.svgWASIXhttps://wasix.org/docs
 B
-/MoonBit.svgMoonBit)https://docs.moonbitlang.com/zh-cn/latest
-C
-/Clojure.svgClojure*https://clojure.org/guides/getting_started
-P
-/Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
-6
-/BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
-P
-	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
-G
-/GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
-3
-/Cygwin.svgCygwinhttps://cygwin.com/docs.html
-C
-
-/robot.svgRobot Framework$https://docs.robotframework.org/docs
-?
-/Apache%20Hive.svgHive#https://hive.apache.org/docs/latest
-K
-/Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
-]
-/GNU.svgGNU CoreutilsBhttps://www.gnu.org/software/coreutils/manual/html_node/index.html
+/Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
+U
+/WebAssembly.svgWebAssembly4https://developer.mozilla.org/zh-CN/docs/WebAssembly
+I
+/WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
 R
 /WebGPU.svgWebGPU;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API
-9
-/GTK.svgGTK(https://www.gtk.org/docs/getting-started
-M
-/PostgreSQL.svg
-PostgreSQL.http://www.postgres.cn/docs/current/index.html
-(
-	/Vala.svgValahttps://docs.vala.dev
-*
-
-/Servo.svgServohttps://doc.servo.org
-<
-/OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
-e
-/_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
-3
-	/MQTT.svgMQTT https://mqtt.org/getting-started
-4
-	/JSON.svgJSON!https://www.json.org/json-zh.html
-Y
-/microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
-H
-/HomeAssistant.svgHome Assistant"https://www.home-assistant.io/docs
-3
-	/D3JS.svgD3JS https://d3js.org/getting-started
->
-/RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
-Z
-/Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
-J
-/Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
-.
-/Deepin.svgDeepinhttps://docs.deepin.org
-3
-	/QEMU.svgQEMU https://www.qemu.org/docs/master
-R
-/KasmWorkspaces.svgKasm Workspaces*https://kasmweb.com/docs/latest/index.html
-A
-/WireGuard.svg	WireGuard$https://www.wireguard.com/quickstart
-L
-/OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
-#
-	/YAML.svgYAMLhttps://yaml.org
-A
-/XML.svgXML0https://developer.mozilla.org/zh-CN/docs/Web/XML
-8
-/Nim.svgNim'https://nim-lang.org/documentation.html
->
-/Haskell.svgHaskell%https://www.haskell.org/documentation
-J
-/Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
+?
+/Webpack.svgwebpack&https://webpack.docschina.org/concepts
+B
+/Windows.svgWindows)https://learn.microsoft.com/zh-cn/windows
+ƒ
+/Windows.svgWindows Commandsahttps://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands
 4
 /WinterCG.svgWinterCGhttps://wintercg.org/work
-<
-
-/gitee.svgGitee Go$https://gitee.com/help/categories/69
-7
-/Flameshot.svg	Flameshothttps://flameshot.org/docs
-Q
-/Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html
-B
-/Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
-0
-	/Mojo.svgMojohttps://docs.modular.com/mojo
-J
-/Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
-;
-
-/Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
-B
-/Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
-<
-
-/MySQL.svgMySQL'https://dev.mysql.com/doc/refman/8.4/en
-?
-/OpenZFS.svgOpenZFS&https://openzfs.github.io/openzfs-docs
-b
-/SpringBoot.svgSpring BootBhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
-6
-/ECMAScript.svg
-ECMAScripthttps://tc39.es/ecma262
-?
-/HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
-0
-/Swagger.svgSwaggerhttps://swagger.io/docs
-F
-	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
->
-
-/Gnome.svgGNOME)https://developer.gnome.org/documentation
-?
-/ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
-Q
-/OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
-;
-/mongoDB.svgMongoDB"https://www.mongodb.com/zh-cn/docs
-1
-/MariaDB.svgMariaDBhttps://mariadb.com/docs
-8
-/Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
+9
+/Wintun.svgWintun"https://git.zx2c4.com/wintun/about
+A
+/WireGuard.svg	WireGuard$https://www.wireguard.com/quickstart
+A
+/Xamarin.svgXamarin(https://docs.microsoft.com/zh-cn/xamarin
+\
+/OpenVela.svgXiaomi OpenVela:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md
+A
+/XML.svgXML0https://developer.mozilla.org/zh-CN/docs/Web/XML
+#
+	/YAML.svgYAMLhttps://yaml.org
+9
+/ZIG.svgZIG(https://ziglang.org/documentation/master
