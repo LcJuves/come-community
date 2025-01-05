@@ -34,7 +34,7 @@ Future main(List<String> args) async {
       title: "Kotlin",
       url: "https://kotlinlang.org/docs"));
   itemList.add(Item(
-      imgUrl: "/React.svg",
+      imgUrl: "/ReactNative.svg",
       title: "React Native",
       url: "https://reactnative.dev/docs/getting-started"));
   itemList.add(Item(
@@ -200,7 +200,7 @@ Future main(List<String> args) async {
       title: "WebAssembly",
       url: "https://developer.mozilla.org/zh-CN/docs/WebAssembly"));
   itemList.add(Item(
-      imgUrl: "/React.svg",
+      imgUrl: "/ReactJS.svg",
       title: "ReactJS",
       url: "https://zh-hans.react.dev/learn"));
   itemList.add(Item(
@@ -227,9 +227,17 @@ Future main(List<String> args) async {
       title: "GitHub Actions",
       url: "https://docs.github.com/zh/actions"));
   itemList.add(Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub CLI",
+      url: "https://docs.github.com/zh/github-cli"));
+  itemList.add(Item(
       imgUrl: "/GitLab.svg",
       title: "GitLab CI",
       url: "https://docs.gitlab.com/operator/developer/ci.html"));
+  itemList.add(Item(
+      imgUrl: "/GitLab.svg",
+      title: "GitLab CLI",
+      url: "https://docs.gitlab.com/ee/editor_extensions/gitlab_cli"));
   itemList.add(Item(
       imgUrl: "/VS Code.svg",
       title: "Visual Studio Code",
@@ -550,6 +558,10 @@ Future main(List<String> args) async {
       title: "GNU Coreutils",
       url:
           "https://www.gnu.org/software/coreutils/manual/html_node/index.html"));
+  itemList.add(Item(
+      imgUrl: "/GNU.svg",
+      title: "GNU make",
+      url: "https://www.gnu.org/software/make/manual/html_node/index.html"));
   // itemList
   //     .add(Item(imgUrl: "/V8.svg", title: "V8", url: "https://v8.dev/docs"));
   itemList.add(Item(
@@ -847,6 +859,120 @@ Future main(List<String> args) async {
       imgUrl: "/Figma.svg",
       title: "Figma Developers",
       url: "https://www.figma.com/developers"));
+  itemList.add(Item(
+      imgUrl: "/XOrg.svg",
+      title: "X Window System",
+      url: "https://www.x.org/releases/current/doc/index.html"));
+  itemList.add(Item(
+      imgUrl: "/OCaml.svg",
+      title: "OCaml",
+      url: "https://ocaml.org/docs/installing-ocaml"));
+  itemList.add(Item(
+      imgUrl: "/KDE.svg",
+      title: "KDE Developer",
+      url: "https://develop.kde.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Unicode.svg",
+      title: "Unicode",
+      url: "https://www.unicode.org/versions/Unicode16.0.0"));
+  itemList.add(Item(
+      imgUrl: "/vcpkg.svg",
+      title: "vcpkg",
+      url: "https://learn.microsoft.com/zh-cn/vcpkg"));
+  itemList.add(Item(
+      imgUrl: "/Maven.svg",
+      title: "Maven",
+      url: "https://maven.apache.org/ref/current"));
+  itemList.add(Item(
+      imgUrl: "/DevContainer.svg",
+      title: "Dev Container",
+      url: "https://containers.dev/overview"));
+  itemList.add(Item(
+      imgUrl: "/Zookeeper.svg",
+      title: "Zookeeper",
+      url: "https://zookeeper.apache.org/doc/current/index.html"));
+  itemList.add(Item(
+      imgUrl: "/WrenAI.svg",
+      title: "Wren AI",
+      url: "https://docs.getwren.ai/oss/overview/introduction"));
+  itemList.add(Item(
+      imgUrl: "/quiche.svg",
+      title: "quiche",
+      url: "https://docs.quic.tech/quiche"));
+  itemList.add(Item(
+      imgUrl: "/OpenSSL.svg",
+      title: "OpenSSL",
+      url: "https://docs.openssl.org/master"));
+  itemList.add(Item(
+      imgUrl: "/OpenEuler.svg",
+      title: "OpenEuler",
+      url: "https://docs.openeuler.org/zh"));
+  // itemList.add(Item(
+  //     imgUrl: "/Datadog.svg",
+  //     title: "Datadog",
+  //     url: "https://docs.datadoghq.com"));
+  itemList.add(Item(
+      imgUrl: "/Wireshark.svg",
+      title: "Wireshark",
+      url: "https://www.wireshark.org/docs/wsug_html"));
+  itemList
+      .add(Item(imgUrl: "/SWC.svg", title: "SWC", url: "https://swc.rs/docs"));
+  itemList.add(Item(
+      imgUrl: "/Qdrant.svg",
+      title: "Qdrant",
+      url: "https://qdrant.tech/documentation/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/HuggingFace.svg",
+      title: "Hugging Face",
+      url: "https://huggingface.co/docs"));
+  itemList.add(Item(
+      imgUrl: "/Ollama.svg",
+      title: "Ollama",
+      url: "https://github.com/ollama/ollama/blob/main/README.md#quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Grafana.svg",
+      title: "Grafana",
+      url: "https://grafana.com/docs/grafana/latest"));
+  itemList.add(Item(
+      imgUrl: "/Prometheus.svg",
+      title: "Prometheus",
+      url: "https://prometheus.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/Cilium.svg",
+      title: "Cilium",
+      url: "https://docs.cilium.io/en/stable"));
+  itemList.add(Item(
+      imgUrl: "/Hubble.svg",
+      title: "Hubble",
+      url:
+          "https://github.com/cilium/hubble?tab=readme-ov-file#getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Tetragon.svg",
+      title: "Tetragon",
+      url: "https://tetragon.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/Remmina.svg",
+      title: "Remmina",
+      url: "https://remmina.gitlab.io/remminadoc.gitlab.io"));
+  // itemList.add(Item(
+  //     imgUrl: "/RISC-V.svg",
+  //     title: "RISC-V",
+  //     url: "https://riscv.org/developers"));
+
+  // itemList.add(Item(
+  //     imgUrl: "/CommonLisp.svg",
+  //     title: "Common Lisp",
+  //     url: "https://lisp-lang.org/learn/getting-started"));
+  // itemList.add(Item(
+  //     imgUrl: "/Pingora.svg",
+  //     title: "Pingora",
+  //     url: "https://github.com/cloudflare/pingora/blob/main/docs/quick_start.md"));
+
+  // itemList.add(Item(
+  //     imgUrl: "/Xen.svg",
+  //     title: "Xen",
+  //     url: "https://wiki.xenproject.org/wiki/Main_Page"));
+
   // itemList.add(Item(
   //     imgUrl: "/WINE.svg",
   //     title: "WineHQ",
