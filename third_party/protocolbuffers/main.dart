@@ -954,6 +954,93 @@ Future main(List<String> args) async {
       imgUrl: "/Remmina.svg",
       title: "Remmina",
       url: "https://remmina.gitlab.io/remminadoc.gitlab.io"));
+  itemList.add(Item(
+      imgUrl: "/Chat2DB.svg",
+      title: "Chat2DB",
+      url: "https://chat2db-ai.com/resources/docs"));
+  itemList.add(Item(
+      imgUrl: "/Selenium.svg",
+      title: "Selenium",
+      url: "https://www.selenium.dev/documentation"));
+  itemList.add(Item(
+      imgUrl: "/OpenAIPlatform.svg",
+      title: "OpenAI Platform",
+      url: "https://platform.openai.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/minikube.svg",
+      title: "minikube",
+      url: "https://minikube.sigs.k8s.io/docs"));
+  // itemList.add(Item(
+  //     imgUrl: "/Cursor.svg", title: "Cursor", url: "https://docs.cursor.com"));
+  itemList.add(Item(
+      imgUrl: "/codeium.svg",
+      title: "codeium",
+      url: "https://docs.codeium.com"));
+  itemList.add(Item(
+      imgUrl: "/Ghostty.svg",
+      title: "Ghostty",
+      url: "https://ghostty.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Rsbuild.svg",
+      title: "Rsbuild",
+      url: "https://rsbuild.dev/zh/guide/start/quick-start"));
+  itemList.add(Item(
+      imgUrl: "/Rolldown.svg",
+      title: "Rolldown",
+      url: "https://rolldown.rs/guide/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/AzurePipelines.svg",
+      title: "Azure Pipelines",
+      url: "https://learn.microsoft.com/zh-cn/azure/devops/pipelines"));
+  itemList.add(Item(
+      imgUrl: "/CodeGeeX.svg",
+      title: "CodeGeeX",
+      url: "https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md"));
+  itemList.add(Item(
+      imgUrl: "/ModelScope.svg",
+      title: "ModelScope",
+      url: "https://modelscope.cn/docs"));
+  itemList.add(Item(
+      imgUrl: "/OpenInterpreter.svg",
+      title: "Open Interpreter",
+      url:
+          "https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md"));
+  itemList.add(Item(
+      imgUrl: "/MetaLlama.svg",
+      title: "Meta Llama",
+      url: "https://www.llama.com/docs/how-to-guides"));
+  itemList.add(Item(
+      imgUrl: "/NextChat.svg",
+      title: "NextChat",
+      url:
+          "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/README_CN.md"));
+  itemList.add(Item(
+      imgUrl: "/Automa.svg", title: "Automa", url: "https://docs.automa.site"));
+  // itemList.add(Item(
+  //     imgUrl: "/GPTAcademic.svg",
+  //     title: "GPT Academic",
+  //     url: "https://github.com/binary-husky/gpt_academic/wiki/online"));
+  // itemList.add(Item(
+  //     imgUrl: "/Roo-Cline.svg",
+  //     title: "Roo-Cline",
+  //     url: "https://github.com/RooVetGit/Roo-Cline"));
+  // itemList.add(Item(
+  //     imgUrl: "/TabbyML.svg",
+  //     title: "Tabby ML",
+  //     url: "https://tabby.tabbyml.com/docs"));
+  // itemList.add(Item(
+  //     imgUrl: "/Qwen.svg",
+  //     title: "Qwen",
+  //     url: "https://qwen.readthedocs.io/zh-cn/latest"));
+  // itemList.add(Item(
+  //     imgUrl: "/MarsCode.svg",
+  //     title: "MarsCode",
+  //     url: "https://docs.marscode.com"));
+
+  // itemList.add(Item(
+  //     imgUrl: "/LibreOffice.svg",
+  //     title: "LibreOffice",
+  //     url: "https://documentation.libreoffice.org/zh-cn/docs"));
   // itemList.add(Item(
   //     imgUrl: "/RISC-V.svg",
   //     title: "RISC-V",
