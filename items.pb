@@ -27,6 +27,10 @@ J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 x
 /Eclipse%20IDE.svgAspectJYhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc
+/
+/Automa.svgAutomahttps://docs.automa.site
+`
+/AzurePipelines.svgAzure Pipelines8https://learn.microsoft.com/zh-cn/azure/devops/pipelines
 L
 
 /Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
@@ -51,6 +55,8 @@ h
 ;
 
 /Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
+>
+/Chat2DB.svgChat2DB%https://chat2db-ai.com/resources/docs
 7
 /Cilium.svgCilium https://docs.cilium.io/en/stable
 :
@@ -61,6 +67,10 @@ C
 8
 
 /CMake.svgCMake#https://cmake.org/cmake/help/latest
+T
+/CodeGeeX.svgCodeGeeX9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
+1
+/codeium.svgcodeiumhttps://docs.codeium.com
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
 K
@@ -129,6 +139,8 @@ N
 /Flutter.svgFlutterhttps://flutter.cn/docs
 M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
+1
+/Ghostty.svgGhosttyhttps://ghostty.org/docs
 ‰
 /GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
 @
@@ -275,10 +287,18 @@ N
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
 5
 /Mermaid.svgMermaidhttps://mermaid.js.org/intro
+F
+/MetaLlama.svg
+Meta Llama(https://www.llama.com/docs/how-to-guides
 Y
 /microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
 E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
+<
+/minikube.svgminikube!https://minikube.sigs.k8s.io/docs
+9
+/ModelScope.svg
+ModelScopehttps://modelscope.cn/docs
 0
 	/Mojo.svgMojohttps://docs.modular.com/mojo
 ;
@@ -300,6 +320,8 @@ _
 /Nacos.svgNacos%https://nacos.io/docs/latest/overview
 :
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
+d
+/NextChat.svgNextChatIhttps://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/README_CN.md
 .
 
 /Nginx.svgNginxhttps://nginx.org/en/docs
@@ -317,6 +339,10 @@ Q
 /OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
 V
 /Ollama.svgOllama?https://github.com/ollama/ollama/blob/main/README.md#quickstart
+y
+/OpenInterpreter.svgOpen InterpreterOhttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md
+H
+/OpenAIPlatform.svgOpenAI Platform https://platform.openai.com/docs
 .
 /OpenCV.svgOpenCVhttps://docs.opencv.org
 :
@@ -392,8 +418,12 @@ C
 /Rocket.svgRockethttps://rocket.rs/guide/v0.5
 >
 /RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
+D
+/Rolldown.svgRolldown)https://rolldown.rs/guide/getting-started
 ;
 /Rollup.svgRollup$https://cn.rollupjs.org/introduction
+G
+/Rsbuild.svgRsbuild.https://rsbuild.dev/zh/guide/start/quick-start
 D
 /Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
 @
@@ -405,6 +435,8 @@ D
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
+A
+/Selenium.svgSelenium&https://www.selenium.dev/documentation
 *
 
 /Servo.svgServohttps://doc.servo.org
