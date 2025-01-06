@@ -349,6 +349,8 @@ H
 /OpenEuler.svg	OpenEulerhttps://docs.openeuler.org/zh
 <
 /OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
+6
+/Duke%20Hips.svgOpenJDKhttps://openjdk.org/guide
 8
 /OpenSSL.svgOpenSSLhttps://docs.openssl.org/master
 L
@@ -517,6 +519,8 @@ I
 /WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
 R
 /WebGPU.svgWebGPU;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API
+E
+/Org_WebKit.svgWebKit*https://webkit.org/blog/category/standards
 ?
 /Webpack.svgwebpack&https://webpack.docschina.org/concepts
 B

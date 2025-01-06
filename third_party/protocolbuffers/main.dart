@@ -562,8 +562,16 @@ Future main(List<String> args) async {
       imgUrl: "/GNU.svg",
       title: "GNU make",
       url: "https://www.gnu.org/software/make/manual/html_node/index.html"));
+  itemList.add(Item(
+      imgUrl: "/Org_WebKit.svg",
+      title: "WebKit",
+      url: "https://webkit.org/blog/category/standards"));
   // itemList
   //     .add(Item(imgUrl: "/V8.svg", title: "V8", url: "https://v8.dev/docs"));
+  itemList.add(Item(
+      imgUrl: "/Duke%20Hips.svg",
+      title: "OpenJDK",
+      url: "https://openjdk.org/guide"));
   itemList.add(Item(
       imgUrl: "/WebGPU.svg",
       title: "WebGPU",
