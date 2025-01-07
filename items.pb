@@ -48,6 +48,8 @@ J
 /Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
 <
 /Browserless.svgBrowserlesshttps://docs.browserless.io
+X
+/Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
 $
 /Bun.svgBunhttps://bun.sh/docs
 h
@@ -238,8 +240,6 @@ H
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
-^
-/Duke%20Hips.svgJDK Build Instructions2https://openjdk.org/groups/build/doc/building.html
 8
 /JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
 u
