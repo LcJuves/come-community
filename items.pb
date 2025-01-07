@@ -57,6 +57,8 @@ h
 /Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
 >
 /Chat2DB.svgChat2DB%https://chat2db-ai.com/resources/docs
+O
+/Chroma.svgChroma8https://docs.trychroma.com/docs/overview/getting-started
 7
 /Cilium.svgCilium https://docs.cilium.io/en/stable
 :
@@ -236,6 +238,8 @@ H
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+^
+/Duke%20Hips.svgJDK Build Instructions2https://openjdk.org/groups/build/doc/building.html
 8
 /JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
 u
@@ -248,6 +252,9 @@ u
 /JWT.svgJWThttps://jwt.io
 D
 /Apache%20Kafka.svgKafka&https://kafka.apache.org/documentation
+2
+	/Kali.svg
+Kali Linuxhttps://www.kali.org/docs
 R
 /KasmWorkspaces.svgKasm Workspaces*https://kasmweb.com/docs/latest/index.html
 +

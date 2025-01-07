@@ -566,12 +566,28 @@ Future main(List<String> args) async {
       imgUrl: "/Org_WebKit.svg",
       title: "WebKit",
       url: "https://webkit.org/blog/category/standards"));
+  // itemList.add(Item(
+  //     imgUrl: "/CSV.svg",
+  //     title: "CSV",
+  //     url: "https://datatracker.ietf.org/doc/html/rfc4180"));
   // itemList
   //     .add(Item(imgUrl: "/V8.svg", title: "V8", url: "https://v8.dev/docs"));
   itemList.add(Item(
       imgUrl: "/Duke%20Hips.svg",
       title: "OpenJDK",
       url: "https://openjdk.org/guide"));
+  itemList.add(Item(
+      imgUrl: "/Duke%20Hips.svg",
+      title: "JDK Build Instructions",
+      url: "https://openjdk.org/groups/build/doc/building.html"));
+  itemList.add(Item(
+      imgUrl: "/Chroma.svg",
+      title: "Chroma",
+      url: "https://docs.trychroma.com/docs/overview/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Kali.svg",
+      title: "Kali Linux",
+      url: "https://www.kali.org/docs"));
   itemList.add(Item(
       imgUrl: "/WebGPU.svg",
       title: "WebGPU",
@@ -635,6 +651,8 @@ Future main(List<String> args) async {
       imgUrl: "/QEMU.svg",
       title: "QEMU",
       url: "https://www.qemu.org/docs/master"));
+  // itemList.add(Item(
+  //     imgUrl: "/CUDA.svg", title: "CUDA", url: "https://docs.nvidia.com/cuda"));
   itemList.add(Item(
       imgUrl: "/KasmWorkspaces.svg",
       title: "Kasm Workspaces",
