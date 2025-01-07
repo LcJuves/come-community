@@ -1,4 +1,3 @@
-import 'package:docs/webspec.dart';
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
 import 'package:url_launcher/url_launcher.dart';

@@ -1,12 +1,12 @@
 import 'dart:ui';
 
-import 'package:docs/animated_wallpaper_container.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
+import 'animated_wallpaper_container.dart';
 import 'base_container.dart';
 import 'constants.dart';
 
