@@ -50,11 +50,10 @@ class BaseContainer extends StatelessWidget {
                 SizedBox(
                   width: _textBoxDynamicWidth(context),
                   child: Text(item.title,
-                      style: TextStyle(
-                          fontSize:
-                              isRunOnMobileWebViewOrBrowser() ? 18.84 : 20,
+                      style: const TextStyle(
+                          fontSize: 18.84,
                           fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 60, 60, 60)),
+                          color: Color.fromARGB(255, 60, 60, 60)),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis),
                 ),
