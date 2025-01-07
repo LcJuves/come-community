@@ -27,6 +27,10 @@ J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 x
 /Eclipse%20IDE.svgAspectJYhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc
+/
+/Automa.svgAutomahttps://docs.automa.site
+`
+/AzurePipelines.svgAzure Pipelines8https://learn.microsoft.com/zh-cn/azure/devops/pipelines
 L
 
 /Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
@@ -51,6 +55,12 @@ h
 ;
 
 /Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
+>
+/Chat2DB.svgChat2DB%https://chat2db-ai.com/resources/docs
+O
+/Chroma.svgChroma8https://docs.trychroma.com/docs/overview/getting-started
+7
+/Cilium.svgCilium https://docs.cilium.io/en/stable
 :
 /ClickHouse.svg
 ClickHousehttps://clickhouse.com/docs
@@ -59,6 +69,10 @@ C
 8
 
 /CMake.svgCMake#https://cmake.org/cmake/help/latest
+T
+/CodeGeeX.svgCodeGeeX9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
+1
+/codeium.svgcodeiumhttps://docs.codeium.com
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
 K
@@ -84,6 +98,8 @@ J
 /Deepin.svgDeepinhttps://docs.deepin.org
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
+C
+/DevContainer.svgDev Containerhttps://containers.dev/overview
 ?
 /Diesel.svgDiesel(https://diesel.rs/guides/getting-started
 =
@@ -113,6 +129,9 @@ Z
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
 <
 /FFmpeg.svgFFmpeg%https://ffmpeg.org/documentation.html
+@
+
+/Figma.svgFigma Developers https://www.figma.com/developers
 7
 /Flameshot.svg	Flameshothttps://flameshot.org/docs
 N
@@ -122,6 +141,8 @@ N
 /Flutter.svgFlutterhttps://flutter.cn/docs
 M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
+1
+/Ghostty.svgGhosttyhttps://ghostty.org/docs
 ‰
 /GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
 @
@@ -131,8 +152,14 @@ M
 /gitee.svgGitee Go$https://gitee.com/help/categories/69
 A
 /GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
+@
+/GitHub.svg
+GitHub CLI%https://docs.github.com/zh/github-cli
 L
 /GitLab.svg	GitLab CI2https://docs.gitlab.com/operator/developer/ci.html
+R
+/GitLab.svg
+GitLab CLI7https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
 >
 
 /Gnome.svgGNOME)https://developer.gnome.org/documentation
@@ -140,6 +167,8 @@ L
 /GNU.svgGNUhttps://www.gnu.org/doc
 ]
 /GNU.svgGNU CoreutilsBhttps://www.gnu.org/software/coreutils/manual/html_node/index.html
+S
+/GNU.svgGNU make=https://www.gnu.org/software/make/manual/html_node/index.html
 %
 /GoLang.svgGohttps://go.dev/doc
 E
@@ -152,6 +181,8 @@ G
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
 Q
 /Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html
+@
+/Grafana.svgGrafana'https://grafana.com/docs/grafana/latest
 1
 /GraphQL.svgGraphQLhttps://graphql.cn/learn
 V
@@ -189,6 +220,10 @@ D
 /HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
 M
 /Huawei.svgHuawei HarmonyOS,https://developer.huawei.com/consumer/cn/doc
+Z
+/Hubble.svgHubbleChttps://github.com/cilium/hubble?tab=readme-ov-file#getting-started
+=
+/HuggingFace.svgHugging Facehttps://huggingface.co/docs
 ,
 
 /hyper.svghyperhttps://hyper.rs/guides
@@ -203,6 +238,8 @@ H
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+^
+/Duke%20Hips.svgJDK Build Instructions2https://openjdk.org/groups/build/doc/building.html
 8
 /JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
 u
@@ -215,11 +252,16 @@ u
 /JWT.svgJWThttps://jwt.io
 D
 /Apache%20Kafka.svgKafka&https://kafka.apache.org/documentation
+2
+	/Kali.svg
+Kali Linuxhttps://www.kali.org/docs
 R
 /KasmWorkspaces.svgKasm Workspaces*https://kasmweb.com/docs/latest/index.html
 +
 
 /KateX.svgKateXhttps://katex.org/docs
+7
+/KDE.svgKDE Developerhttps://develop.kde.org/docs
 2
 /Kotlin.svgKotlinhttps://kotlinlang.org/docs
 '
@@ -237,22 +279,33 @@ I
 N
 
 /Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
-(
-	/LLVM.svgLLVMhttps://llvm.org/docs
+<
+	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html
 .
 /Lodash.svgLodashhttps://lodash.com/docs
 1
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
-3
-/Markdown.svgMarkdownhttps://www.markdown.xyz
+4
+/_Markdown.svgMarkdownhttps://www.markdown.xyz
+9
+
+/Maven.svgMaven$https://maven.apache.org/ref/current
 =
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
 5
 /Mermaid.svgMermaidhttps://mermaid.js.org/intro
+F
+/MetaLlama.svg
+Meta Llama(https://www.llama.com/docs/how-to-guides
 Y
 /microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
 E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
+<
+/minikube.svgminikube!https://minikube.sigs.k8s.io/docs
+9
+/ModelScope.svg
+ModelScopehttps://modelscope.cn/docs
 0
 	/Mojo.svgMojohttps://docs.modular.com/mojo
 ;
@@ -274,6 +327,8 @@ _
 /Nacos.svgNacos%https://nacos.io/docs/latest/overview
 :
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
+d
+/NextChat.svgNextChatIhttps://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/README_CN.md
 .
 
 /Nginx.svgNginxhttps://nginx.org/en/docs
@@ -284,12 +339,27 @@ _
 9
 
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
+<
+
+/OCaml.svgOCaml'https://ocaml.org/docs/installing-ocaml
 Q
 /OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
+V
+/Ollama.svgOllama?https://github.com/ollama/ollama/blob/main/README.md#quickstart
+y
+/OpenInterpreter.svgOpen InterpreterOhttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md
+H
+/OpenAIPlatform.svgOpenAI Platform https://platform.openai.com/docs
 .
 /OpenCV.svgOpenCVhttps://docs.opencv.org
+:
+/OpenEuler.svg	OpenEulerhttps://docs.openeuler.org/zh
 <
 /OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
+6
+/Duke%20Hips.svgOpenJDKhttps://openjdk.org/guide
+8
+/OpenSSL.svgOpenSSLhttps://docs.openssl.org/master
 L
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
 ?
@@ -301,6 +371,9 @@ E
 /PHP.svgPHPhttps://www.php.net/manual/zh
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
+F
+
+/Plan9.svgPlan 90http://9p.io/wiki/plan9/Documentation/index.html
 @
 /Playwright.svg
 Playwright!https://playwright.dev/docs/intro
@@ -312,6 +385,9 @@ PostgreSQL.http://www.postgres.cn/docs/current/index.html
 K
 /PowerShell.svg
 PowerShell,https://learn.microsoft.com/zh-cn/powershell
+9
+/Prometheus.svg
+Prometheushttps://prometheus.io/docs
 8
 /Pug%20Template%20Engine.svgPugJShttps://pugjs.org
 D
@@ -320,35 +396,43 @@ D
 /Python.svgPythonhttps://docs.python.org/zh-cn
 8
 /PyTorch.svgPyTorchhttps://pytorch.org/docs/stable
+C
+/Qdrant.svgQdrant,https://qdrant.tech/documentation/quickstart
 3
 	/QEMU.svgQEMU https://www.qemu.org/docs/master
+4
+/quiche.svgquichehttps://docs.quic.tech/quiche
 8
 /RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
 K
 /Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
-H
-
-/React.svgReact Native,https://reactnative.dev/docs/getting-started
+N
+/ReactNative.svgReact Native,https://reactnative.dev/docs/getting-started
 ?
 /ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
-6
-
-/React.svgReactJShttps://zh-hans.react.dev/learn
+8
+/ReactJS.svgReactJShttps://zh-hans.react.dev/learn
 *
 
 /redis.svgRedishttps://redis.io/docs
-8
+5
 
-/Redox.svgRedox OS https://www.redox-os.org/zh/docs
+/Redox.svgRedox OShttps://doc.redox-os.org/book
+G
+/Remmina.svgRemmina.https://remmina.gitlab.io/remminadoc.gitlab.io
 C
 
 /robot.svgRobot Framework$https://docs.robotframework.org/docs
-,
-/Rocket.svgRockethttps://actix.rs/docs
+3
+/Rocket.svgRockethttps://rocket.rs/guide/v0.5
 >
 /RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
+D
+/Rolldown.svgRolldown)https://rolldown.rs/guide/getting-started
 ;
 /Rollup.svgRollup$https://cn.rollupjs.org/introduction
+G
+/Rsbuild.svgRsbuild.https://rsbuild.dev/zh/guide/start/quick-start
 D
 /Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
 @
@@ -360,6 +444,8 @@ D
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
+A
+/Selenium.svgSelenium&https://www.selenium.dev/documentation
 *
 
 /Servo.svgServohttps://doc.servo.org
@@ -382,6 +468,8 @@ I
 	/SVGO.svgSVGO"https://svgo.dev/docs/introduction
 0
 /Swagger.svgSwaggerhttps://swagger.io/docs
+$
+/SWC.svgSWChttps://swc.rs/docs
 c
 
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
@@ -393,6 +481,8 @@ c
 J
 /TensorFlow.svg
 TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
+3
+/Tetragon.svgTetragonhttps://tetragon.io/docs
 `
 /ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
 4
@@ -405,11 +495,15 @@ TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
 E
 /TypeScript.svg
 TypeScript&https://www.typescriptlang.org/zh/docs
-L
-
-/Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
+G
+/Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0
+M
+/_Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
 (
 	/Vala.svgValahttps://docs.vala.dev
+<
+
+/vcpkg.svgvcpkg'https://learn.microsoft.com/zh-cn/vcpkg
 r
 %/The%20C%20Programming%20Language.svgVisual C?https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170
 T
@@ -432,6 +526,8 @@ I
 /WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
 R
 /WebGPU.svgWebGPU;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API
+E
+/Org_WebKit.svgWebKit*https://webkit.org/blog/category/standards
 ?
 /Webpack.svgwebpack&https://webpack.docschina.org/concepts
 B
@@ -444,6 +540,12 @@ B
 /Wintun.svgWintun"https://git.zx2c4.com/wintun/about
 A
 /WireGuard.svg	WireGuard$https://www.wireguard.com/quickstart
+E
+/Wireshark.svg	Wireshark(https://www.wireshark.org/docs/wsug_html
+I
+/WrenAI.svgWren AI1https://docs.getwren.ai/oss/overview/introduction
+O
+	/XOrg.svgX Window System1https://www.x.org/releases/current/doc/index.html
 A
 /Xamarin.svgXamarin(https://docs.microsoft.com/zh-cn/xamarin
 \
@@ -454,3 +556,5 @@ A
 	/YAML.svgYAMLhttps://yaml.org
 9
 /ZIG.svgZIG(https://ziglang.org/documentation/master
+P
+/Zookeeper.svg	Zookeeper3https://zookeeper.apache.org/doc/current/index.html
