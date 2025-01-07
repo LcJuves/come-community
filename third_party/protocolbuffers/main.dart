@@ -578,7 +578,7 @@ Future main(List<String> args) async {
       url: "https://openjdk.org/guide"));
   itemList.add(Item(
       imgUrl: "/Duke%20Hips.svg",
-      title: "JDK Build Instructions",
+      title: "Building the JDK",
       url: "https://openjdk.org/groups/build/doc/building.html"));
   itemList.add(Item(
       imgUrl: "/Chroma.svg",
