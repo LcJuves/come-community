@@ -3,6 +3,8 @@
 /ActixWeb.svg	Actix Webhttps://actix.rs/docs
 8
 /Airflow.svgAirflowhttps://airflow.apache.org/docs
+O
+/Alibaba.svgAliDNS7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
 9
 /Alpine.svgAlpine Linuxhttps://docs.alpinelinux.org
 M
@@ -179,6 +181,8 @@ E
 
 /godot.svg
 godot-rust!https://godot-rust.github.io/docs
+d
+/Google.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
 G
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
 Q
@@ -233,6 +237,8 @@ P
 /Inkscape.svgInkscape5https://inkscape.org/zh-hans/simplified-chinese-learn
 H
 /InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
+]
+/IntelliJ IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
 2
@@ -287,6 +293,8 @@ N
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
 4
 /_Markdown.svgMarkdownhttps://www.markdown.xyz
+L
+/MaterialWeb.svgMaterial Web*https://material-web.dev/about/quick-start
 9
 
 /Maven.svgMaven$https://maven.apache.org/ref/current
@@ -485,6 +493,8 @@ TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
 /Tetragon.svgTetragonhttps://tetragon.io/docs
 `
 /ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
+I
+/TigerBeetle.svgTigerBeetle(https://docs.tigerbeetle.com/quick-start
 4
 
 /tokio.svgTokiohttps://tokio.rs/tokio/tutorial
