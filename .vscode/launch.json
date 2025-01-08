@@ -5,24 +5,27 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "docs",
+      "name": "devfans",
       "request": "launch",
-      "type": "dart",
-      "toolArgs": ["--web-renderer", "canvaskit", "--no-web-resources-cdn"]
+      "type": "dart"
     },
     {
-      "name": "docs (profile mode)",
+      "name": "devfans (profile mode)",
       "request": "launch",
       "type": "dart",
-      "toolArgs": ["--web-renderer", "canvaskit", "--no-web-resources-cdn"],
       "flutterMode": "profile"
     },
     {
-      "name": "docs (release mode)",
+      "name": "devfans (release mode)",
       "request": "launch",
       "type": "dart",
-      "toolArgs": ["--web-renderer", "canvaskit", "--no-web-resources-cdn"],
       "flutterMode": "release"
+    },
+    {
+      "name": "protocolbuffers",
+      "cwd": "third_party/protocolbuffers",
+      "request": "launch",
+      "type": "dart"
     }
   ]
 }
