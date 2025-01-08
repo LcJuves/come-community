@@ -3,8 +3,6 @@
 /ActixWeb.svg	Actix Webhttps://actix.rs/docs
 8
 /Airflow.svgAirflowhttps://airflow.apache.org/docs
-O
-/Alibaba.svgAliDNS7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
 9
 /Alpine.svgAlpine Linuxhttps://docs.alpinelinux.org
 M
@@ -85,6 +83,8 @@ P
 /Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
 A
 /CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
+1
+/NVIDIA.svgCUDAhttps://docs.nvidia.com/cuda
 (
 
 /_cURL.svgcURLhttps://curl.se/docs
@@ -100,6 +100,8 @@ J
 /Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
 .
 /Deepin.svgDeepinhttps://docs.deepin.org
+s
+/DeepSeek-V3.svgDeepSeek-V3Rhttps://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 C
@@ -181,8 +183,6 @@ E
 
 /godot.svg
 godot-rust!https://godot-rust.github.io/docs
-d
-/Google.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
 G
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
 Q
@@ -237,8 +237,8 @@ P
 /Inkscape.svgInkscape5https://inkscape.org/zh-hans/simplified-chinese-learn
 H
 /InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
-]
-/IntelliJ IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
+T
+	/idea.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
 2
@@ -270,6 +270,8 @@ R
 /KDE.svgKDE Developerhttps://develop.kde.org/docs
 2
 /Kotlin.svgKotlinhttps://kotlinlang.org/docs
+z
+/KotlinMultiplatform.svgKotlin MultiplatformHhttps://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html
 '
 	/Ktor.svgKtorhttps://ktor.io/docs
 <
@@ -293,8 +295,6 @@ N
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
 4
 /_Markdown.svgMarkdownhttps://www.markdown.xyz
-L
-/MaterialWeb.svgMaterial Web*https://material-web.dev/about/quick-start
 9
 
 /Maven.svgMaven$https://maven.apache.org/ref/current
@@ -311,6 +311,8 @@ E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
 <
 /minikube.svgminikube!https://minikube.sigs.k8s.io/docs
+/
+/Mintty.svgMinttyhttps://mintty.github.io
 9
 /ModelScope.svg
 ModelScopehttps://modelscope.cn/docs
@@ -457,6 +459,8 @@ A
 *
 
 /Servo.svgServohttps://doc.servo.org
+(
+	/Skia.svgSkiahttps://skia.org/docs
 7
 /snowflake.svg	snowflakehttps://docs.snowflake.com
 M
@@ -528,6 +532,8 @@ F
 +
 
 /WASIX.svgWASIXhttps://wasix.org/docs
+-
+/Wasmer.svgWasmerhttps://docs.wasmer.io
 B
 /Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
 U
