@@ -48,6 +48,8 @@ J
 /Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
 <
 /Browserless.svgBrowserlesshttps://docs.browserless.io
+X
+/Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
 $
 /Bun.svgBunhttps://bun.sh/docs
 h
@@ -81,6 +83,8 @@ P
 /Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
 A
 /CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
+1
+/NVIDIA.svgCUDAhttps://docs.nvidia.com/cuda
 (
 
 /_cURL.svgcURLhttps://curl.se/docs
@@ -96,6 +100,8 @@ J
 /Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
 .
 /Deepin.svgDeepinhttps://docs.deepin.org
+p
+/DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 C
@@ -231,6 +237,8 @@ P
 /Inkscape.svgInkscape5https://inkscape.org/zh-hans/simplified-chinese-learn
 H
 /InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
+T
+	/idea.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
 2
@@ -238,8 +246,6 @@ H
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
-^
-/Duke%20Hips.svgJDK Build Instructions2https://openjdk.org/groups/build/doc/building.html
 8
 /JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
 u
@@ -264,6 +270,8 @@ R
 /KDE.svgKDE Developerhttps://develop.kde.org/docs
 2
 /Kotlin.svgKotlinhttps://kotlinlang.org/docs
+z
+/KotlinMultiplatform.svgKotlin MultiplatformHhttps://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html
 '
 	/Ktor.svgKtorhttps://ktor.io/docs
 <
@@ -303,6 +311,8 @@ E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
 <
 /minikube.svgminikube!https://minikube.sigs.k8s.io/docs
+/
+/Mintty.svgMinttyhttps://mintty.github.io
 9
 /ModelScope.svg
 ModelScopehttps://modelscope.cn/docs
@@ -449,6 +459,8 @@ A
 *
 
 /Servo.svgServohttps://doc.servo.org
+(
+	/Skia.svgSkiahttps://skia.org/docs
 7
 /snowflake.svg	snowflakehttps://docs.snowflake.com
 M
@@ -485,6 +497,8 @@ TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
 /Tetragon.svgTetragonhttps://tetragon.io/docs
 `
 /ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
+I
+/TigerBeetle.svgTigerBeetle(https://docs.tigerbeetle.com/quick-start
 4
 
 /tokio.svgTokiohttps://tokio.rs/tokio/tutorial
@@ -518,6 +532,8 @@ F
 +
 
 /WASIX.svgWASIXhttps://wasix.org/docs
+-
+/Wasmer.svgWasmerhttps://docs.wasmer.io
 B
 /Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
 U
