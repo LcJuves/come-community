@@ -1078,7 +1078,7 @@ Future main(List<String> args) async {
       Item(imgUrl: "/Skia.svg", title: "Skia", url: "https://skia.org/docs"));
   itemList.add(Item(
       imgUrl: "/DeepSeek-V3.svg",
-      title: "DeepSeek-V3",
+      title: "DeepSeek",
       url:
           "https://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally"));
   // itemList.add(Item(
