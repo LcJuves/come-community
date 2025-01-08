@@ -166,6 +166,8 @@ L
 R
 /GitLab.svg
 GitLab CLI7https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
+1
+/Gitpod.svgGitpodhttps://www.gitpod.io/docs
 >
 
 /Gnome.svgGNOME)https://developer.gnome.org/documentation

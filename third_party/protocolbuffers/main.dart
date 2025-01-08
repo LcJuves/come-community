@@ -14,6 +14,10 @@ Future main(List<String> args) async {
       title: "Flutter",
       url: "https://flutter.cn/docs"));
   itemList.add(Item(
+      imgUrl: "/Gitpod.svg",
+      title: "Gitpod",
+      url: "https://www.gitpod.io/docs"));
+  itemList.add(Item(
       imgUrl: "/Android.svg",
       title: "Android",
       url: "https://developer.android.google.cn/docs"));
