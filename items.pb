@@ -100,8 +100,8 @@ J
 /Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
 .
 /Deepin.svgDeepinhttps://docs.deepin.org
-s
-/DeepSeek-V3.svgDeepSeek-V3Rhttps://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally
+p
+/DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 C
