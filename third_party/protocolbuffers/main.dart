@@ -34,6 +34,11 @@ Future main(List<String> args) async {
       title: "Kotlin",
       url: "https://kotlinlang.org/docs"));
   itemList.add(Item(
+      imgUrl: "/KotlinMultiplatform.svg",
+      title: "Kotlin Multiplatform",
+      url:
+          "https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html"));
+  itemList.add(Item(
       imgUrl: "/ReactNative.svg",
       title: "React Native",
       url: "https://reactnative.dev/docs/getting-started"));
@@ -651,8 +656,10 @@ Future main(List<String> args) async {
       imgUrl: "/QEMU.svg",
       title: "QEMU",
       url: "https://www.qemu.org/docs/master"));
-  // itemList.add(Item(
-  //     imgUrl: "/CUDA.svg", title: "CUDA", url: "https://docs.nvidia.com/cuda"));
+  itemList.add(Item(
+      imgUrl: "/NVIDIA.svg",
+      title: "CUDA",
+      url: "https://docs.nvidia.com/cuda"));
   itemList.add(Item(
       imgUrl: "/KasmWorkspaces.svg",
       title: "Kasm Workspaces",
@@ -996,6 +1003,27 @@ Future main(List<String> args) async {
       imgUrl: "/minikube.svg",
       title: "minikube",
       url: "https://minikube.sigs.k8s.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/idea.svg",
+      title: "IntelliJ IDEA",
+      url: "https://www.jetbrains.com/help/idea/getting-started.html"));
+  itemList.add(Item(
+      imgUrl: "/TigerBeetle.svg",
+      title: "TigerBeetle",
+      url: "https://docs.tigerbeetle.com/quick-start"));
+  // itemList.add(Item(
+  //     imgUrl: "/Alibaba.svg",
+  //     title: "AliDNS",
+  //     url: "https://www.alidns.com/knowledge?type=SETTING_DOCS#user"));
+  // itemList.add(Item(
+  //     imgUrl: "/MaterialWeb.svg",
+  //     title: "Material Web",
+  //     url: "https://material-web.dev/about/quick-start"));
+  // itemList.add(Item(
+  //     imgUrl: "/Google.svg",
+  //     title: "Google Public DNS",
+  //     url:
+  //         "https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn"));
   // itemList.add(Item(
   //     imgUrl: "/Cursor.svg", title: "Cursor", url: "https://docs.cursor.com"));
   itemList.add(Item(
@@ -1042,6 +1070,19 @@ Future main(List<String> args) async {
           "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/README_CN.md"));
   itemList.add(Item(
       imgUrl: "/Automa.svg", title: "Automa", url: "https://docs.automa.site"));
+  itemList.add(Item(
+      imgUrl: "/Mintty.svg", title: "Mintty", url: "https://mintty.github.io"));
+  itemList.add(Item(
+      imgUrl: "/Wasmer.svg", title: "Wasmer", url: "https://docs.wasmer.io"));
+  itemList.add(
+      Item(imgUrl: "/Skia.svg", title: "Skia", url: "https://skia.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/DeepSeek-V3.svg",
+      title: "DeepSeek-V3",
+      url:
+          "https://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally"));
+  // itemList.add(Item(
+  //     imgUrl: "/WASI.svg", title: "WASI", url: "https://wasi.dev"));
   // itemList.add(Item(
   //     imgUrl: "/GPTAcademic.svg",
   //     title: "GPT Academic",
