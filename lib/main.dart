@@ -38,7 +38,7 @@ class HomePage extends StatefulWidget {
   @protected
   Future<List<Item>> fetchItemsFromUrl() async {
     final response =
-        await http.get(Uri.parse("https://docs.lcjuves.com/items.pb"));
+        await http.get(Uri.parse("https://devfans.lcjuves.com/items.pb"));
     if (response.statusCode == 200) {
       return Items.fromBuffer(response.bodyBytes).itemList;
     } else {
