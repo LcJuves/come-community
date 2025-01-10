@@ -1032,7 +1032,7 @@ Future main(List<String> args) async {
       url: "https://www.alidns.com/knowledge?type=SETTING_DOCS#user"));
   itemList.add(Item(
       imgUrl: "/Cloudflare.svg",
-      title: "1.1.1.1 (DNS Resolver)",
+      title: "1.1.1.1",
       url: "https://developers.cloudflare.com/1.1.1.1"));
   itemList.add(Item(
       imgUrl: "/MaterialWeb.svg",
