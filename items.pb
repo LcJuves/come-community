@@ -1,6 +1,4 @@
 
-T
-/Cloudflare.svg1.1.1.1 (DNS Resolver))https://developers.cloudflare.com/1.1.1.1
 1
 /ActixWeb.svg	Actix Webhttps://actix.rs/docs
 8
@@ -116,6 +114,8 @@ C
 /Diesel.svgDiesel(https://diesel.rs/guides/getting-started
 =
 /Django.svgDjango&https://docs.djangoproject.com/zh-hans
+T
+/Cloudflare.svgDNS Resolver (1.1.1.1))https://developers.cloudflare.com/1.1.1.1
 .
 /Docker.svgDockerhttps://docs.docker.com
 >
