@@ -138,6 +138,14 @@ Future main(List<String> args) async {
       title: "Rust",
       url: "https://www.rust-lang.org/zh-CN/learn"));
   itemList.add(Item(
+      imgUrl: "/Windows.svg",
+      title: "Rust for Windows",
+      url: "https://microsoft.github.io/windows-docs-rs/doc/windows"));
+  itemList.add(Item(
+      imgUrl: "/Windows_Terminal.svg",
+      title: "Windows Terminal",
+      url: "https://learn.microsoft.com/zh-cn/windows/terminal"));
+  itemList.add(Item(
       imgUrl: "/Angular.svg",
       title: "Angular",
       url: "https://angular.cn/docs"));
@@ -213,14 +221,13 @@ Future main(List<String> args) async {
       title: "ReactJS",
       url: "https://zh-hans.react.dev/learn"));
   itemList.add(Item(
-      imgUrl: "/Huawei.svg",
-      title: "Huawei HarmonyOS",
+      imgUrl: "/HMOS.svg",
+      title: "HarmonyOS Developer",
       url: "https://developer.huawei.com/consumer/cn/doc"));
   itemList.add(Item(
-      imgUrl: "/Huawei.svg",
+      imgUrl: "/Cangjie.svg",
       title: "Cangjie",
-      url:
-          "https://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5"));
+      url: "https://cangjie-lang.cn/docs"));
   itemList.add(Item(
       imgUrl: "/TAURI.svg",
       title: "TAURI",
@@ -729,7 +736,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Mojo.svg",
       title: "Mojo",
-      url: "https://docs.modular.com/mojo"));
+      url: "https://docs.modular.com/mojo/manual/get-started"));
   itemList.add(Item(
       imgUrl: "/Debian.svg",
       title: "Debian",
@@ -1008,26 +1015,38 @@ Future main(List<String> args) async {
       title: "minikube",
       url: "https://minikube.sigs.k8s.io/docs"));
   itemList.add(Item(
-      imgUrl: "/idea.svg",
+      imgUrl: "/IntelliJ_IDEA.svg",
       title: "IntelliJ IDEA",
       url: "https://www.jetbrains.com/help/idea/getting-started.html"));
+  itemList.add(Item(
+      imgUrl: "/Fleet.svg",
+      title: "JetBrains Fleet",
+      url: "https://www.jetbrains.com/help/fleet/getting-started.html"));
   itemList.add(Item(
       imgUrl: "/TigerBeetle.svg",
       title: "TigerBeetle",
       url: "https://docs.tigerbeetle.com/quick-start"));
-  // itemList.add(Item(
-  //     imgUrl: "/Alibaba.svg",
-  //     title: "AliDNS",
-  //     url: "https://www.alidns.com/knowledge?type=SETTING_DOCS#user"));
-  // itemList.add(Item(
-  //     imgUrl: "/MaterialWeb.svg",
-  //     title: "Material Web",
-  //     url: "https://material-web.dev/about/quick-start"));
-  // itemList.add(Item(
-  //     imgUrl: "/Google.svg",
-  //     title: "Google Public DNS",
-  //     url:
-  //         "https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/Alibaba.svg",
+      title: "AliDNS",
+      url: "https://www.alidns.com/knowledge?type=SETTING_DOCS#user"));
+  itemList.add(Item(
+      imgUrl: "/Cloudflare.svg",
+      title: "1.1.1.1 (DNS Resolver)",
+      url: "https://developers.cloudflare.com/1.1.1.1"));
+  itemList.add(Item(
+      imgUrl: "/MaterialWeb.svg",
+      title: "Material Web",
+      url: "https://material-web.dev/about/quick-start"));
+  itemList.add(Item(
+      imgUrl: "/BaiduKaifa.svg",
+      title: "Baidu Kaifa",
+      url: "https://kaifa.baidu.com"));
+  itemList.add(Item(
+      imgUrl: "/GooglePublicDNS.svg",
+      title: "Google Public DNS",
+      url:
+          "https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn"));
   // itemList.add(Item(
   //     imgUrl: "/Cursor.svg", title: "Cursor", url: "https://docs.cursor.com"));
   itemList.add(Item(
@@ -1064,6 +1083,10 @@ Future main(List<String> args) async {
       url:
           "https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md"));
   itemList.add(Item(
+      imgUrl: "/Google.svg",
+      title: "Gemini API",
+      url: "https://ai.google.dev/gemini-api/docs?hl=zh-cn"));
+  itemList.add(Item(
       imgUrl: "/MetaLlama.svg",
       title: "Meta Llama",
       url: "https://www.llama.com/docs/how-to-guides"));
@@ -1075,16 +1098,31 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Automa.svg", title: "Automa", url: "https://docs.automa.site"));
   itemList.add(Item(
-      imgUrl: "/Mintty.svg", title: "Mintty", url: "https://mintty.github.io"));
+      imgUrl: "/Mintty.svg",
+      title: "Mintty",
+      url: "https://mintty.github.io/mintty.1.html"));
   itemList.add(Item(
       imgUrl: "/Wasmer.svg", title: "Wasmer", url: "https://docs.wasmer.io"));
   itemList.add(
       Item(imgUrl: "/Skia.svg", title: "Skia", url: "https://skia.org/docs"));
   itemList.add(Item(
+      imgUrl: "/MLIR.svg",
+      title: "MLIR",
+      url: "https://mlir.llvm.org/getting_started"));
+  // itemList.add(
+  //     Item(imgUrl: "/Pixi.svg", title: "Pixi", url: "https://pixi.sh/latest"));
+  itemList.add(Item(
+      imgUrl: "/Mingw-w64.svg",
+      title: "Mingw-w64",
+      url:
+          "https://sourceforge.net/p/mingw-w64/wiki2/GeneralUsageInstructions"));
+  itemList.add(Item(
       imgUrl: "/DeepSeek-V3.svg",
       title: "DeepSeek",
       url:
           "https://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally"));
+  // itemList
+  //     .add(Item(imgUrl: "/Zed.svg", title: "Zed", url: "https://zed.dev/docs"));
   // itemList.add(Item(
   //     imgUrl: "/WASI.svg", title: "WASI", url: "https://wasi.dev"));
   // itemList.add(Item(

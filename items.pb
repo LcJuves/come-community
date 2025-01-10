@@ -1,8 +1,12 @@
 
+T
+/Cloudflare.svg1.1.1.1 (DNS Resolver))https://developers.cloudflare.com/1.1.1.1
 1
 /ActixWeb.svg	Actix Webhttps://actix.rs/docs
 8
 /Airflow.svgAirflowhttps://airflow.apache.org/docs
+O
+/Alibaba.svgAliDNS7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
 9
 /Alpine.svgAlpine Linuxhttps://docs.alpinelinux.org
 M
@@ -36,6 +40,8 @@ L
 /Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
 6
 /BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
+7
+/BaiduKaifa.svgBaidu Kaifahttps://kaifa.baidu.com
 P
 	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
 K
@@ -52,8 +58,8 @@ X
 /Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
 $
 /Bun.svgBunhttps://bun.sh/docs
-h
-/Huawei.svgCangjiePhttps://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5
+5
+/Cangjie.svgCangjiehttps://cangjie-lang.cn/docs
 ;
 
 /Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
@@ -147,6 +153,9 @@ N
 /Flutter.svgFlutterhttps://flutter.cn/docs
 M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
+I
+/Google.svg
+Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
 1
 /Ghostty.svgGhosttyhttps://ghostty.org/docs
 ‰
@@ -185,6 +194,8 @@ E
 
 /godot.svg
 godot-rust!https://godot-rust.github.io/docs
+m
+/GooglePublicDNS.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
 G
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
 Q
@@ -205,6 +216,8 @@ M
 /gulpjs.svgGulpJS6https://gulpjs.com/docs/en/getting-started/quick-start
 H
 /Apache%20Hadoop.svgHadoop(https://hadoop.apache.org/docs/r1.0.4/cn
+N
+	/HMOS.svgHarmonyOS Developer,https://developer.huawei.com/consumer/cn/doc
 >
 /Haskell.svgHaskell%https://www.haskell.org/documentation
 -
@@ -226,8 +239,6 @@ D
 	/HTTP.svgHTTP1https://developer.mozilla.org/zh-CN/docs/Web/HTTP
 ?
 /HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
-M
-/Huawei.svgHuawei HarmonyOS,https://developer.huawei.com/consumer/cn/doc
 Z
 /Hubble.svgHubbleChttps://github.com/cilium/hubble?tab=readme-ov-file#getting-started
 =
@@ -239,8 +250,8 @@ P
 /Inkscape.svgInkscape5https://inkscape.org/zh-hans/simplified-chinese-learn
 H
 /InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
-T
-	/idea.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
+]
+/IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
 2
@@ -250,6 +261,9 @@ V
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
 8
 /JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
+X
+
+/Fleet.svgJetBrains Fleet9https://www.jetbrains.com/help/fleet/getting-started.html
 u
 /JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
 4
@@ -297,6 +311,8 @@ N
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
 4
 /_Markdown.svgMarkdownhttps://www.markdown.xyz
+L
+/MaterialWeb.svgMaterial Web*https://material-web.dev/about/quick-start
 9
 
 /Maven.svgMaven$https://maven.apache.org/ref/current
@@ -311,15 +327,19 @@ Y
 /microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
 E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
+_
+/Mingw-w64.svg	Mingw-w64Bhttps://sourceforge.net/p/mingw-w64/wiki2/GeneralUsageInstructions
 <
 /minikube.svgminikube!https://minikube.sigs.k8s.io/docs
-/
-/Mintty.svgMinttyhttps://mintty.github.io
+=
+/Mintty.svgMintty&https://mintty.github.io/mintty.1.html
+8
+	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started
 9
 /ModelScope.svg
 ModelScopehttps://modelscope.cn/docs
-0
-	/Mojo.svgMojohttps://docs.modular.com/mojo
+C
+	/Mojo.svgMojo0https://docs.modular.com/mojo/manual/get-started
 ;
 /mongoDB.svgMongoDB"https://www.mongodb.com/zh-cn/docs
 B
@@ -453,6 +473,8 @@ D
 /Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
 8
 	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
+Y
+/Windows.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
@@ -552,6 +574,8 @@ B
 /Windows.svgWindows)https://learn.microsoft.com/zh-cn/windows
 ƒ
 /Windows.svgWindows Commandsahttps://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands
+]
+/Windows_Terminal.svgWindows Terminal2https://learn.microsoft.com/zh-cn/windows/terminal
 4
 /WinterCG.svgWinterCGhttps://wintercg.org/work
 9
