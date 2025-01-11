@@ -35,6 +35,8 @@ x
 /Eclipse%20IDE.svgAspectJYhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc
 /
 /Automa.svgAutomahttps://docs.automa.site
+:
+	/AVIF.svgAVIF'https://aomediacodec.github.io/av1-avif
 `
 /AzurePipelines.svgAzure Pipelines8https://learn.microsoft.com/zh-cn/azure/devops/pipelines
 L
@@ -69,6 +71,8 @@ $
 /Chat2DB.svgChat2DB%https://chat2db-ai.com/resources/docs
 O
 /Chroma.svgChroma8https://docs.trychroma.com/docs/overview/getting-started
+S
+/Chrome.svgChrome DevTools3https://developer.chrome.com/docs/devtools?hl=zh-cn
 7
 /Cilium.svgCilium https://docs.cilium.io/en/stable
 :
@@ -80,6 +84,8 @@ C
 
 /CMake.svgCMake#https://cmake.org/cmake/help/latest
 T
+/__CodeOSS.svgCode OSS8https://github.com/LcJuves/vscode/wiki/How-to-Contribute
+T
 /CodeGeeX.svgCodeGeeX9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 1
 /codeium.svgcodeiumhttps://docs.codeium.com
@@ -87,6 +93,8 @@ i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
 K
 /Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
+y
+/NVIDIA.svgCosmosbhttps://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai
 P
 /Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
 A
@@ -139,6 +147,8 @@ B
 /ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
 B
 /Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
+E
+	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project
 Z
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
 <
@@ -146,6 +156,8 @@ Z
 @
 
 /Figma.svgFigma Developers https://www.figma.com/developers
+W
+/FingerprintJS.svgFingerprintJS2https://dev.fingerprint.com/docs/quick-start-guide
 7
 /Flameshot.svg	Flameshothttps://flameshot.org/docs
 N
@@ -169,9 +181,14 @@ Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
 /gitee.svgGitee Go$https://gitee.com/help/categories/69
 A
 /GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
+I
+/GitHub.svg
+GitHub CLI.https://docs.github.com/zh/packages/quickstart
 @
 /GitHub.svg
 GitHub CLI%https://docs.github.com/zh/github-cli
+b
+/GitHub.svgGitHub Codespaces@https://docs.github.com/zh/codespaces/getting-started/quickstart
 L
 /GitLab.svg	GitLab CI2https://docs.gitlab.com/operator/developer/ci.html
 R
@@ -222,6 +239,9 @@ N
 	/HMOS.svgHarmonyOS Developer,https://developer.huawei.com/consumer/cn/doc
 >
 /Haskell.svgHaskell%https://www.haskell.org/documentation
+K
+/HelloAlgo.svg
+Hello Algo-https://www.hello-algo.com/chapter_hello_algo
 -
 	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
 F
@@ -241,6 +261,8 @@ D
 	/HTTP.svgHTTP1https://developer.mozilla.org/zh-CN/docs/Web/HTTP
 ?
 /HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
+9
+/HTTP_3_Check.svgHTTP/3 Checkhttps://http3check.net
 Z
 /Hubble.svgHubbleChttps://github.com/cilium/hubble?tab=readme-ov-file#getting-started
 =
@@ -266,6 +288,9 @@ JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
 X
 
 /Fleet.svgJetBrains Fleet9https://www.jetbrains.com/help/fleet/getting-started.html
+X
+
+/Space.svgJetBrains Space9https://www.jetbrains.com/help/space/getting-started.html
 u
 /JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
 4
@@ -309,6 +334,8 @@ N
 	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html
 .
 /Lodash.svgLodashhttps://lodash.com/docs
+/
+/Lua.svgLuahttps://www.lua.org/start.html
 1
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
 4
@@ -325,6 +352,8 @@ L
 F
 /MetaLlama.svg
 Meta Llama(https://www.llama.com/docs/how-to-guides
+?
+/Metabase.svgMetabase$https://www.metabase.com/docs/latest
 Y
 /microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
 E
@@ -394,6 +423,8 @@ H
 /Duke%20Hips.svgOpenJDKhttps://openjdk.org/guide
 8
 /OpenSSL.svgOpenSSLhttps://docs.openssl.org/master
+=
+/OpenStack.svg	OpenStack https://docs.openstack.org/zh_CN
 L
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
 ?
@@ -461,8 +492,8 @@ C
 /robot.svgRobot Framework$https://docs.robotframework.org/docs
 3
 /Rocket.svgRockethttps://rocket.rs/guide/v0.5
->
-/RockyLinux.svgRocky Linuxhttps://docs.rockylinux.org/zh
+E
+/RockyLinux.svgRocky Linux%https://docs.rockylinux.org/zh/guides
 D
 /Rolldown.svgRolldown)https://rolldown.rs/guide/getting-started
 ;
@@ -479,6 +510,8 @@ D
 	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
 Y
 /Windows.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows
+P
+/rust-analyzer.svgrust-analyzer+https://rust-analyzer.github.io/manual.html
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
@@ -502,6 +535,8 @@ b
 A
 /Subversion.svg
 Subversion"https://subversion.apache.org/docs
+5
+/Svelte.svgSveltehttps://svelte.dev/docs/svelte
 I
 /Org_FreeSVG.svgSVG0https://developer.mozilla.org/zh-CN/docs/Web/SVG
 5
@@ -527,6 +562,9 @@ TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
 /ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
 I
 /TigerBeetle.svgTigerBeetle(https://docs.tigerbeetle.com/quick-start
+<
+
+/TIOBE.svgTIOBE Index!https://www.tiobe.com/tiobe-index
 4
 
 /tokio.svgTokiohttps://tokio.rs/tokio/tutorial
@@ -537,6 +575,10 @@ I
 E
 /TypeScript.svg
 TypeScript&https://www.typescriptlang.org/zh/docs
+C
+/Ubuntu.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
+<
+/Ubuntu.svgUbuntu Serverhttps://www.lua.org/start.html
 G
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0
 M
@@ -594,6 +636,9 @@ O
 	/XOrg.svgX Window System1https://www.x.org/releases/current/doc/index.html
 A
 /Xamarin.svgXamarin(https://docs.microsoft.com/zh-cn/xamarin
+D
+
+/Xcode.svgXcode/https://developer.apple.com/documentation/xcode
 \
 /OpenVela.svgXiaomi OpenVela:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md
 A

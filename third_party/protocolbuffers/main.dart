@@ -47,6 +47,10 @@ Future main(List<String> args) async {
       title: "React Native",
       url: "https://reactnative.dev/docs/getting-started"));
   itemList.add(Item(
+      imgUrl: "/Expo.svg",
+      title: "Expo",
+      url: "https://docs.expo.dev/get-started/create-a-project"));
+  itemList.add(Item(
       imgUrl: "/Vue.svg",
       title: "VueJS",
       url: "https://cn.vuejs.org/guide/introduction"));
@@ -141,6 +145,10 @@ Future main(List<String> args) async {
       imgUrl: "/Windows.svg",
       title: "Rust for Windows",
       url: "https://microsoft.github.io/windows-docs-rs/doc/windows"));
+  // itemList.add(Item(
+  //     imgUrl: "/RustforLinux.svg",
+  //     title: "Rust for Linux",
+  //     url: "https://docs.kernel.org/translations/zh_CN/rust/quick-start.html"));
   itemList.add(Item(
       imgUrl: "/Windows_Terminal.svg",
       title: "Windows Terminal",
@@ -247,6 +255,14 @@ Future main(List<String> args) async {
       title: "GitHub CLI",
       url: "https://docs.github.com/zh/github-cli"));
   itemList.add(Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub Codespaces",
+      url: "https://docs.github.com/zh/codespaces/getting-started/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub CLI",
+      url: "https://docs.github.com/zh/packages/quickstart"));
+  itemList.add(Item(
       imgUrl: "/GitLab.svg",
       title: "GitLab CI",
       url: "https://docs.gitlab.com/operator/developer/ci.html"));
@@ -258,6 +274,10 @@ Future main(List<String> args) async {
       imgUrl: "/VS Code.svg",
       title: "Visual Studio Code",
       url: "https://code.visualstudio.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/__CodeOSS.svg",
+      title: "Code OSS",
+      url: "https://github.com/LcJuves/vscode/wiki/How-to-Contribute"));
   itemList.add(Item(
       imgUrl: "/CMake.svg",
       title: "CMake",
@@ -652,7 +672,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/RockyLinux.svg",
       title: "Rocky Linux",
-      url: "https://docs.rockylinux.org/zh"));
+      url: "https://docs.rockylinux.org/zh/guides"));
   itemList.add(Item(
       imgUrl: "/Fedora.svg",
       title: "Fedora Workstation",
@@ -671,6 +691,11 @@ Future main(List<String> args) async {
       imgUrl: "/NVIDIA.svg",
       title: "CUDA",
       url: "https://docs.nvidia.com/cuda"));
+  itemList.add(Item(
+      imgUrl: "/NVIDIA.svg",
+      title: "Cosmos",
+      url:
+          "https://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai"));
   itemList.add(Item(
       imgUrl: "/KasmWorkspaces.svg",
       title: "Kasm Workspaces",
@@ -770,6 +795,10 @@ Future main(List<String> args) async {
       imgUrl: "/ECMAScript.svg",
       title: "ECMAScript",
       url: "https://tc39.es/ecma262"));
+  itemList.add(Item(
+      imgUrl: "/Xcode.svg",
+      title: "Xcode",
+      url: "https://developer.apple.com/documentation/xcode"));
   // itemList.add(Item(
   //     imgUrl: "/HighlightJS.svg",
   //     title: "HighlightJS",
@@ -778,6 +807,16 @@ Future main(List<String> args) async {
       imgUrl: "/HTTP_Toolkit.svg",
       title: "HTTP Toolkit",
       url: "https://httptoolkit.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/HTTP_3_Check.svg",
+      title: "HTTP/3 Check",
+      url: "https://http3check.net"));
+  itemList.add(Item(
+      imgUrl: "/TIOBE.svg",
+      title: "TIOBE Index",
+      url: "https://www.tiobe.com/tiobe-index"));
+  itemList.add(Item(
+      imgUrl: "/Lua.svg", title: "Lua", url: "https://www.lua.org/start.html"));
   itemList.add(Item(
       imgUrl: "/Swagger.svg",
       title: "Swagger",
@@ -1023,6 +1062,14 @@ Future main(List<String> args) async {
       title: "JetBrains Fleet",
       url: "https://www.jetbrains.com/help/fleet/getting-started.html"));
   itemList.add(Item(
+      imgUrl: "/Space.svg",
+      title: "JetBrains Space",
+      url: "https://www.jetbrains.com/help/space/getting-started.html"));
+  itemList.add(Item(
+      imgUrl: "/Metabase.svg",
+      title: "Metabase",
+      url: "https://www.metabase.com/docs/latest"));
+  itemList.add(Item(
       imgUrl: "/TigerBeetle.svg",
       title: "TigerBeetle",
       url: "https://docs.tigerbeetle.com/quick-start"));
@@ -1129,6 +1176,50 @@ Future main(List<String> args) async {
       imgUrl: "/PinganCloud.svg",
       title: "Ping An Cloud",
       url: "https://fincloud.pingan.com/ssr/help/center"));
+  itemList.add(Item(
+      imgUrl: "/Svelte.svg",
+      title: "Svelte",
+      url: "https://svelte.dev/docs/svelte"));
+  itemList.add(Item(
+      imgUrl: "/rust-analyzer.svg",
+      title: "rust-analyzer",
+      url: "https://rust-analyzer.github.io/manual.html"));
+  itemList.add(Item(
+      imgUrl: "/OpenStack.svg",
+      title: "OpenStack",
+      url: "https://docs.openstack.org/zh_CN"));
+  itemList.add(Item(
+      imgUrl: "/HelloAlgo.svg",
+      title: "Hello Algo",
+      url: "https://www.hello-algo.com/chapter_hello_algo"));
+  itemList.add(Item(
+      imgUrl: "/AVIF.svg",
+      title: "AVIF",
+      url: "https://aomediacodec.github.io/av1-avif"));
+  itemList.add(Item(
+      imgUrl: "/Chrome.svg",
+      title: "Chrome DevTools",
+      url: "https://developer.chrome.com/docs/devtools?hl=zh-cn"));
+  // itemList.add(Item(
+  //     imgUrl: "/AFFiNE.svg",
+  //     title: "AFFiNE",
+  //     url: "https://docs.affine.pro/docs/development/quick-start"));
+  itemList.add(Item(
+      imgUrl: "/FingerprintJS.svg",
+      title: "FingerprintJS",
+      url: "https://dev.fingerprint.com/docs/quick-start-guide"));
+  itemList.add(Item(
+      imgUrl: "/Ubuntu.svg",
+      title: "Ubuntu Server",
+      url: "https://ubuntu.com/server/docs/how-to"));
+  itemList.add(Item(
+      imgUrl: "/Ubuntu.svg",
+      title: "Ubuntu Server",
+      url: "https://www.lua.org/start.html"));
+  // itemList.add(Item(
+  //     imgUrl: "/RocketMQ.svg",
+  //     title: "RocketMQ",
+  //     url: "https://rocketmq.apache.org/zh/docs/quickStart/01quickstart"));
   // itemList.add(
   //     Item(imgUrl: "/Aider.svg", title: "Aider", url: "https://aider.chat"));
   // itemList
