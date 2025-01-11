@@ -1121,6 +1121,16 @@ Future main(List<String> args) async {
       title: "DeepSeek",
       url:
           "https://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally"));
+  itemList.add(Item(
+      imgUrl: "/AppFlowy.svg",
+      title: "AppFlowy",
+      url: "https://docs.appflowy.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/PinganCloud.svg",
+      title: "Pingan Cloud",
+      url: "https://fincloud.pingan.com/ssr/help/center"));
+  // itemList.add(
+  //     Item(imgUrl: "/Aider.svg", title: "Aider", url: "https://aider.chat"));
   // itemList
   //     .add(Item(imgUrl: "/Zed.svg", title: "Zed", url: "https://zed.dev/docs"));
   // itemList.add(Item(

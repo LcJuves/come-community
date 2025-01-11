@@ -15,6 +15,8 @@ A
 /Android.svgAndroid(https://developer.android.google.cn/docs
 0
 /Angular.svgAngularhttps://angular.cn/docs
+8
+/AppFlowy.svgAppFlowyhttps://docs.appflowy.io/docs
 `
 /AppImage.svgAppImageEhttps://docs.appimage.org/introduction/quickstart.html#ref-quickstart
 B
@@ -401,6 +403,8 @@ E
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
 .
 /PHP.svgPHPhttps://www.php.net/manual/zh
+M
+/PinganCloud.svgPingan Cloud+https://fincloud.pingan.com/ssr/help/center
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 F
