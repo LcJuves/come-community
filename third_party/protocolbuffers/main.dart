@@ -154,6 +154,10 @@ Future main(List<String> args) async {
       title: "Rust error codes",
       url: "https://doc.rust-lang.org/error_codes/error-index.html"));
   itemList.add(Item(
+      imgUrl: "/gVisor.svg",
+      title: "gVisor",
+      url: "https://gvisor.dev/docs/user_guide/install"));
+  itemList.add(Item(
       imgUrl: "/Windows.svg",
       title: "Rust for Windows",
       url: "https://microsoft.github.io/windows-docs-rs/doc/windows"));
