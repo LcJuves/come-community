@@ -181,9 +181,6 @@ Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
 /gitee.svgGitee Go$https://gitee.com/help/categories/69
 A
 /GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
-I
-/GitHub.svg
-GitHub CLI.https://docs.github.com/zh/packages/quickstart
 @
 /GitHub.svg
 GitHub CLI%https://docs.github.com/zh/github-cli
@@ -325,6 +322,8 @@ Kuberneteshttps://kubernetes.io/zh/docs
 E
 
 /LateX.svgLateX0https://www.latex-project.org/help/documentation
+;
+/LcJuvesBlog.svgLcJuves' Bloghttps://blog.lcjuves.com
 I
 /Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
 N
@@ -575,8 +574,6 @@ I
 E
 /TypeScript.svg
 TypeScript&https://www.typescriptlang.org/zh/docs
-C
-/Ubuntu.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
 <
 /Ubuntu.svgUbuntu Serverhttps://www.lua.org/start.html
 G

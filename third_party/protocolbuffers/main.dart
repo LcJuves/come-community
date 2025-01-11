@@ -259,10 +259,6 @@ Future main(List<String> args) async {
       title: "GitHub Codespaces",
       url: "https://docs.github.com/zh/codespaces/getting-started/quickstart"));
   itemList.add(Item(
-      imgUrl: "/GitHub.svg",
-      title: "GitHub CLI",
-      url: "https://docs.github.com/zh/packages/quickstart"));
-  itemList.add(Item(
       imgUrl: "/GitLab.svg",
       title: "GitLab CI",
       url: "https://docs.gitlab.com/operator/developer/ci.html"));
@@ -1177,6 +1173,10 @@ Future main(List<String> args) async {
       title: "Ping An Cloud",
       url: "https://fincloud.pingan.com/ssr/help/center"));
   itemList.add(Item(
+      imgUrl: "/LcJuvesBlog.svg",
+      title: "LcJuves' Blog",
+      url: "https://blog.lcjuves.com"));
+  itemList.add(Item(
       imgUrl: "/Svelte.svg",
       title: "Svelte",
       url: "https://svelte.dev/docs/svelte"));
@@ -1208,10 +1208,6 @@ Future main(List<String> args) async {
       imgUrl: "/FingerprintJS.svg",
       title: "FingerprintJS",
       url: "https://dev.fingerprint.com/docs/quick-start-guide"));
-  itemList.add(Item(
-      imgUrl: "/Ubuntu.svg",
-      title: "Ubuntu Server",
-      url: "https://ubuntu.com/server/docs/how-to"));
   itemList.add(Item(
       imgUrl: "/Ubuntu.svg",
       title: "Ubuntu Server",
