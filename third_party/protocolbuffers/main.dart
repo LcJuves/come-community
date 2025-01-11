@@ -142,6 +142,18 @@ Future main(List<String> args) async {
       title: "Rust",
       url: "https://www.rust-lang.org/zh-CN/learn"));
   itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "The Rust Core Library",
+      url: "https://doc.rust-lang.org/core/index.html#the-rust-core-library"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "rustc",
+      url: "https://doc.rust-lang.org/rustc/index.html"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust error codes",
+      url: "https://doc.rust-lang.org/error_codes/error-index.html"));
+  itemList.add(Item(
       imgUrl: "/Windows.svg",
       title: "Rust for Windows",
       url: "https://microsoft.github.io/windows-docs-rs/doc/windows"));
@@ -285,6 +297,10 @@ Future main(List<String> args) async {
   itemList.add(
       Item(imgUrl: "/GNU.svg", title: "GNU", url: "https://www.gnu.org/doc"));
   itemList.add(Item(
+      imgUrl: "/GNU.svg",
+      title: "The GNU C Library",
+      url: "https://www.gnu.org/software/libc/manual/html_node/index.html"));
+  itemList.add(Item(
       imgUrl: "/MSYS2.svg",
       title: "MSYS2",
       url: "https://www.msys2.org/docs/what-is-msys2"));
@@ -306,11 +322,11 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/snowflake.svg",
       title: "snowflake",
-      url: "https://docs.snowflake.com"));
+      url: "https://docs.snowflake.com/en/user-guide-getting-started"));
   itemList.add(Item(
       imgUrl: "/ClickHouse.svg",
       title: "ClickHouse",
-      url: "https://clickhouse.com/docs"));
+      url: "https://clickhouse.com/docs/en/getting-started/quick-start"));
   itemList.add(Item(
       imgUrl: "/NanoID.svg",
       title: "NanoID",
@@ -384,7 +400,11 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/SQLite.svg",
       title: "SQLite",
-      url: "https://www.sqlite.org/docs.html"));
+      url: "https://www.sqlite.org/quickstart.html"));
+  itemList.add(Item(
+      imgUrl: "/Bytebase.svg",
+      title: "Bytebase",
+      url: "https://www.bytebase.com/docs"));
   itemList.add(Item(
       imgUrl: "/JetpackCompose.svg",
       title: "Jetpack Compose",
@@ -1212,6 +1232,26 @@ Future main(List<String> args) async {
       imgUrl: "/Ubuntu.svg",
       title: "Ubuntu Server",
       url: "https://www.lua.org/start.html"));
+  itemList.add(Item(
+      imgUrl: "/J1Assistant.svg",
+      title: "J1 Assistant",
+      url: "https://matter.ai"));
+  itemList.add(Item(
+      imgUrl: "/FVM.svg",
+      title: "FVM",
+      url: "https://fvm.app/documentation/guides/basic-commands"));
+  itemList.add(Item(
+      imgUrl: "/Tabnine.svg",
+      title: "Tabnine",
+      url: "https://docs.tabnine.com/main/getting-started/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Continue.svg",
+      title: "Continue",
+      url: "https://docs.continue.dev/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/VSCodium.svg",
+      title: "VSCodium",
+      url: "https://github.com/VSCodium/vscodium/blob/master/docs/index.md"));
   // itemList.add(Item(
   //     imgUrl: "/RocketMQ.svg",
   //     title: "RocketMQ",
