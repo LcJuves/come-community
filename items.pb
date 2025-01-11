@@ -62,6 +62,8 @@ X
 /Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
 $
 /Bun.svgBunhttps://bun.sh/docs
+8
+/Bytebase.svgBytebasehttps://www.bytebase.com/docs
 5
 /Cangjie.svgCangjiehttps://cangjie-lang.cn/docs
 ;
@@ -75,9 +77,9 @@ S
 /Chrome.svgChrome DevTools3https://developer.chrome.com/docs/devtools?hl=zh-cn
 7
 /Cilium.svgCilium https://docs.cilium.io/en/stable
-:
+Y
 /ClickHouse.svg
-ClickHousehttps://clickhouse.com/docs
+ClickHouse:https://clickhouse.com/docs/en/getting-started/quick-start
 C
 /Clojure.svgClojure*https://clojure.org/guides/getting_started
 8
@@ -91,6 +93,8 @@ T
 /codeium.svgcodeiumhttps://docs.codeium.com
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+D
+/Continue.svgContinue)https://docs.continue.dev/getting-started
 K
 /Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
 y
@@ -167,6 +171,8 @@ N
 /Flutter.svgFlutterhttps://flutter.cn/docs
 M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
+D
+/FVM.svgFVM3https://fvm.app/documentation/guides/basic-commands
 I
 /Google.svg
 Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
@@ -275,6 +281,8 @@ H
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
+3
+/J1Assistant.svgJ1 Assistanthttps://matter.ai
 2
 	/Java.svgJavahttps://docs.oracle.com/en/java
 V
@@ -507,10 +515,14 @@ D
 /Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
 8
 	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
+U
+	/Rust.svgRust error codes6https://doc.rust-lang.org/error_codes/error-index.html
 Y
 /Windows.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows
 P
 /rust-analyzer.svgrust-analyzer+https://rust-analyzer.github.io/manual.html
+>
+	/Rust.svgrustc*https://doc.rust-lang.org/rustc/index.html
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
@@ -521,16 +533,16 @@ A
 /Servo.svgServohttps://doc.servo.org
 (
 	/Skia.svgSkiahttps://skia.org/docs
-7
-/snowflake.svg	snowflakehttps://docs.snowflake.com
+U
+/snowflake.svg	snowflake8https://docs.snowflake.com/en/user-guide-getting-started
 M
 /SpiderMonkey.svgSpiderMonkey*https://firefox-source-docs.mozilla.org/js
 3
 /Spring.svgSpringhttps://spring.io/quickstart
 b
 /SpringBoot.svgSpring BootBhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
-7
-/SQLite.svgSQLite https://www.sqlite.org/docs.html
+=
+/SQLite.svgSQLite&https://www.sqlite.org/quickstart.html
 A
 /Subversion.svg
 Subversion"https://subversion.apache.org/docs
@@ -549,6 +561,8 @@ c
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
 ^
 /SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
+Q
+/Tabnine.svgTabnine8https://docs.tabnine.com/main/getting-started/quickstart
 2
 
 /TAURI.svgTAURIhttps://tauri.app/zh-cn/start
@@ -557,6 +571,10 @@ J
 TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
 3
 /Tetragon.svgTetragonhttps://tetragon.io/docs
+\
+/GNU.svgThe GNU C Library=https://www.gnu.org/software/libc/manual/html_node/index.html
+c
+	/Rust.svgThe Rust Core Library?https://doc.rust-lang.org/core/index.html#the-rust-core-library
 `
 /ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
 I
@@ -594,6 +612,8 @@ F
 /VS Code.svgVisual Studio Code"https://code.visualstudio.com/docs
 ,
 	/Vite.svgVitehttps://cn.vite.dev/guide
+Y
+/VSCodium.svgVSCodium>https://github.com/VSCodium/vscodium/blob/master/docs/index.md
 :
 /Vue.svgVueJS'https://cn.vuejs.org/guide/introduction
 +
