@@ -1127,7 +1127,7 @@ Future main(List<String> args) async {
       url: "https://docs.appflowy.io/docs"));
   itemList.add(Item(
       imgUrl: "/PinganCloud.svg",
-      title: "Pingan Cloud",
+      title: "Ping An Cloud",
       url: "https://fincloud.pingan.com/ssr/help/center"));
   // itemList.add(
   //     Item(imgUrl: "/Aider.svg", title: "Aider", url: "https://aider.chat"));

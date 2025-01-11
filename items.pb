@@ -403,8 +403,8 @@ E
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
 .
 /PHP.svgPHPhttps://www.php.net/manual/zh
-M
-/PinganCloud.svgPingan Cloud+https://fincloud.pingan.com/ssr/help/center
+N
+/PinganCloud.svgPing An Cloud+https://fincloud.pingan.com/ssr/help/center
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 F
