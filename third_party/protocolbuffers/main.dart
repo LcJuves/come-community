@@ -1238,7 +1238,7 @@ Future main(List<String> args) async {
       title: "FingerprintJS",
       url: "https://dev.fingerprint.com/docs/quick-start-guide"));
   itemList.add(Item(
-      imgUrl: "/Ubuntu.svg",
+      imgUrl: "/UbuntuServer.svg",
       title: "Ubuntu Server",
       url: "https://ubuntu.com/server/docs/how-to"));
   itemList.add(Item(
@@ -1261,6 +1261,10 @@ Future main(List<String> args) async {
       imgUrl: "/VSCodium.svg",
       title: "VSCodium",
       url: "https://github.com/VSCodium/vscodium/blob/master/docs/index.md"));
+  itemList.add(Item(
+      imgUrl: "/_Jekyll.svg",
+      title: "Jekyll",
+      url: "https://jekyllrb.com/docs"));
   // itemList.add(Item(
   //     imgUrl: "/RocketMQ.svg",
   //     title: "RocketMQ",
