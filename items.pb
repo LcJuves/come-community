@@ -523,6 +523,8 @@ D
 	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
 U
 	/Rust.svgRust error codes6https://doc.rust-lang.org/error_codes/error-index.html
+g
+/Rust-for-Linux.svgRust for Linux@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html
 Y
 /Windows.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows
 P
