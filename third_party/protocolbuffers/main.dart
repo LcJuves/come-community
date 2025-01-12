@@ -1269,6 +1269,22 @@ Future main(List<String> args) async {
       imgUrl: "/W3C.svg",
       title: "WebDriver BiDi",
       url: "https://w3c.github.io/webdriver-bidi"));
+  itemList.add(Item(
+      imgUrl: "/Tor.svg",
+      title: "Tor",
+      url: "https://support.torproject.org/zh-CN"));
+  itemList.add(Item(
+      imgUrl: "/LOKINET.svg",
+      title: "LOKINET",
+      url: "https://www.lokinet.org/faq"));
+  itemList.add(Item(
+      imgUrl: "/Oxen.svg",
+      title: "Oxen",
+      url: "https://docs.oxen.io/oxen-docs"));
+  itemList.add(Item(
+      imgUrl: "/SESSION.svg",
+      title: "SESSION",
+      url: "https://getsession.org/faq"));
   // itemList.add(Item(
   //     imgUrl: "/RocketMQ.svg",
   //     title: "RocketMQ",

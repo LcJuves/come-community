@@ -347,6 +347,8 @@ N
 	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html
 .
 /Lodash.svgLodashhttps://lodash.com/docs
+4
+/LOKINET.svgLOKINEThttps://www.lokinet.org/faq
 /
 /Lua.svgLuahttps://www.lua.org/start.html
 1
@@ -442,6 +444,8 @@ L
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
 ?
 /OpenZFS.svgOpenZFS&https://openzfs.github.io/openzfs-docs
+1
+	/Oxen.svgOxenhttps://docs.oxen.io/oxen-docs
 E
 
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
@@ -539,6 +543,8 @@ A
 *
 
 /Servo.svgServohttps://doc.servo.org
+3
+/SESSION.svgSESSIONhttps://getsession.org/faq
 (
 	/Skia.svgSkiahttps://skia.org/docs
 U
@@ -595,6 +601,8 @@ I
 /tokio.svgTokiohttps://tokio.rs/tokio/tutorial
 %
 	/TOML.svgTOMLhttps://toml.io/cn
+5
+/Tor.svgTor$https://support.torproject.org/zh-CN
 8
 /Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
 E
