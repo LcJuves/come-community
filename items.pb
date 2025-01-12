@@ -75,6 +75,8 @@ O
 /Chroma.svgChroma8https://docs.trychroma.com/docs/overview/getting-started
 S
 /Chrome.svgChrome DevTools3https://developer.chrome.com/docs/devtools?hl=zh-cn
+j
+/Chromium.svgChromiumOhttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md
 7
 /Cilium.svgCilium https://docs.cilium.io/en/stable
 Y
@@ -594,8 +596,8 @@ I
 E
 /TypeScript.svg
 TypeScript&https://www.typescriptlang.org/zh/docs
-<
-/Ubuntu.svgUbuntu Serverhttps://www.lua.org/start.html
+C
+/Ubuntu.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
 G
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0
 M

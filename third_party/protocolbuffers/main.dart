@@ -158,6 +158,11 @@ Future main(List<String> args) async {
       title: "gVisor",
       url: "https://gvisor.dev/docs/user_guide/install"));
   itemList.add(Item(
+      imgUrl: "/Chromium.svg",
+      title: "Chromium",
+      url:
+          "https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md"));
+  itemList.add(Item(
       imgUrl: "/Windows.svg",
       title: "Rust for Windows",
       url: "https://microsoft.github.io/windows-docs-rs/doc/windows"));
@@ -1235,7 +1240,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Ubuntu.svg",
       title: "Ubuntu Server",
-      url: "https://www.lua.org/start.html"));
+      url: "https://ubuntu.com/server/docs/how-to"));
   itemList.add(Item(
       imgUrl: "/J1Assistant.svg",
       title: "J1 Assistant",
