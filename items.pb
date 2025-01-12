@@ -428,6 +428,8 @@ y
 /OpenInterpreter.svgOpen InterpreterOhttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md
 H
 /OpenAIPlatform.svgOpenAI Platform https://platform.openai.com/docs
+8
+/OpenBSD.svgOpenBSDhttps://www.openbsd.org/76.html
 .
 /OpenCV.svgOpenCVhttps://docs.opencv.org
 :
