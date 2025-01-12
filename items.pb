@@ -292,6 +292,8 @@ H
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+1
+/_Jekyll.svgJekyllhttps://jekyllrb.com/docs
 8
 /JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
 X
@@ -596,8 +598,8 @@ I
 E
 /TypeScript.svg
 TypeScript&https://www.typescriptlang.org/zh/docs
-C
-/Ubuntu.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
+I
+/UbuntuServer.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
 G
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0
 M
