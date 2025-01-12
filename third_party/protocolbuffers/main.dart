@@ -166,10 +166,10 @@ Future main(List<String> args) async {
       imgUrl: "/Windows.svg",
       title: "Rust for Windows",
       url: "https://microsoft.github.io/windows-docs-rs/doc/windows"));
-  // itemList.add(Item(
-  //     imgUrl: "/RustforLinux.svg",
-  //     title: "Rust for Linux",
-  //     url: "https://docs.kernel.org/translations/zh_CN/rust/quick-start.html"));
+  itemList.add(Item(
+      imgUrl: "/Rust-for-Linux.svg",
+      title: "Rust for Linux",
+      url: "https://docs.kernel.org/translations/zh_CN/rust/quick-start.html"));
   itemList.add(Item(
       imgUrl: "/Windows_Terminal.svg",
       title: "Windows Terminal",
