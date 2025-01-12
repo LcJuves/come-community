@@ -1265,6 +1265,10 @@ Future main(List<String> args) async {
       imgUrl: "/_Jekyll.svg",
       title: "Jekyll",
       url: "https://jekyllrb.com/docs"));
+  itemList.add(Item(
+      imgUrl: "/W3C.svg",
+      title: "WebDriver BiDi",
+      url: "https://w3c.github.io/webdriver-bidi"));
   // itemList.add(Item(
   //     imgUrl: "/RocketMQ.svg",
   //     title: "RocketMQ",
