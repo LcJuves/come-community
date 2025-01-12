@@ -631,6 +631,8 @@ B
 /Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
 U
 /WebAssembly.svgWebAssembly4https://developer.mozilla.org/zh-CN/docs/WebAssembly
+@
+/W3C.svgWebDriver BiDi$https://w3c.github.io/webdriver-bidi
 I
 /WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted
 R
