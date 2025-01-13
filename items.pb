@@ -297,6 +297,9 @@ H
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
+2
+/IT-Tools.svg
+IT - TOOLShttps://it-tools.tech
 3
 /J1Assistant.svgJ1 Assistanthttps://matter.ai
 2
