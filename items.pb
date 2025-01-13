@@ -689,8 +689,8 @@ B
 /Windows.svgWindows)https://learn.microsoft.com/zh-cn/windows
 ƒ
 /Windows.svgWindows Commandsahttps://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands
-T
-/Windows.svgWindows PE Format1https://docs.codeium.com/windsurf/getting-started
+b
+/Windows.svgWindows PE Format?https://learn.microsoft.com/zh-cn/windows/win32/debug/pe-format
 ]
 /Windows_Terminal.svgWindows Terminal2https://learn.microsoft.com/zh-cn/windows/terminal
 L
