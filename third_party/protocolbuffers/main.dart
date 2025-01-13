@@ -1322,7 +1322,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Windows.svg",
       title: "Windows PE Format",
-      url: "https://docs.codeium.com/windsurf/getting-started"));
+      url: "https://learn.microsoft.com/zh-cn/windows/win32/debug/pe-format"));
   itemList.add(Item(
       imgUrl: "/Rust.svg",
       title: "rustdoc",
