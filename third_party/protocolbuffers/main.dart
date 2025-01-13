@@ -1349,7 +1349,7 @@ Future main(List<String> args) async {
       title: "musl libc",
       url: "https://musl.libc.org/doc/1.1.24/manual.html"));
   itemList.add(
-      Item(imgUrl: "systemd.svg", title: "systemd", url: "https://systemd.io"));
+      Item(imgUrl: "/systemd.svg", title: "systemd", url: "https://systemd.io"));
   itemList.add(Item(
       imgUrl: "/Apple.svg",
       title: "Mach-O EF",

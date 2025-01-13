@@ -598,8 +598,8 @@ c
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
 ^
 /SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
-*
-systemd.svgsystemdhttps://systemd.io
++
+/systemd.svgsystemdhttps://systemd.io
 Q
 /Tabnine.svgTabnine8https://docs.tabnine.com/main/getting-started/quickstart
 2
