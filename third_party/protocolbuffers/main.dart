@@ -1119,8 +1119,8 @@ Future main(List<String> args) async {
       title: "Google Public DNS",
       url:
           "https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn"));
-  // itemList.add(Item(
-  //     imgUrl: "/Cursor.svg", title: "Cursor", url: "https://docs.cursor.com"));
+  itemList.add(Item(
+      imgUrl: "/Cursor.svg", title: "Cursor", url: "https://docs.cursor.com"));
   itemList.add(Item(
       imgUrl: "/codeium.svg",
       title: "codeium",
@@ -1289,6 +1289,76 @@ Future main(List<String> args) async {
       imgUrl: "/OpenBSD.svg",
       title: "OpenBSD",
       url: "https://www.openbsd.org/76.html"));
+  // itemList.add(Item(
+  //     imgUrl: "https://web.lcjuves.com/Material-for-MkDocs-Icon.svg",
+  //     title: "Material for MkDocs",
+  //     url: "https://squidfunk.github.io/mkdocs-material/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/GitBook.svg",
+      title: "GitBook",
+      url: "https://docs.gitbook.com/getting-started/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/GCC.svg",
+      title: "GCC",
+      url: "https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc"));
+  // itemList.add(Item(
+  //     imgUrl: "/NextJS.svg", title: "NextJS", url: "https://nextjs.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/Mercurial.svg",
+      title: "Mercurial",
+      url: "https://www.mercurial-scm.org/guide"));
+  itemList.add(Item(
+      imgUrl: "/WebP.svg",
+      title: "WebP",
+      url: "https://developers.google.com/speed/webp?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/LLVM.svg",
+      title: "Clang",
+      url: "https://clang.llvm.org/get_started.html"));
+  itemList.add(Item(
+      imgUrl: "/Windsurf.svg",
+      title: "Windsurf",
+      url: "https://docs.codeium.com/windsurf/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Windows.svg",
+      title: "Windows PE Format",
+      url: "https://docs.codeium.com/windsurf/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "rustdoc",
+      url: "https://doc.rust-lang.org/rustdoc"));
+  itemList.add(Item(
+      imgUrl: "/Bazzite.svg",
+      title: "Bazzite",
+      url: "https://docs.bazzite.gg"));
+  itemList.add(Item(
+      imgUrl: "/UNIX.svg",
+      title: "Unix ELF",
+      url:
+          "https://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F"));
+  itemList.add(Item(
+      imgUrl: "/UNIX.svg",
+      title: "The UNIX® Standard",
+      url: "https://www.opengroup.org/membership/forums/platform/unix"));
+  itemList.add(Item(
+      imgUrl: "https://web.lcjuves.com/donate/Alipay.svg",
+      title: "Donate to the author",
+      url: "https://web.lcjuves.com/donate"));
+  itemList.add(Item(
+      imgUrl: "/musl-libc.svg",
+      title: "musl libc",
+      url: "https://musl.libc.org/doc/1.1.24/manual.html"));
+  itemList.add(
+      Item(imgUrl: "systemd.svg", title: "systemd", url: "https://systemd.io"));
+  itemList.add(Item(
+      imgUrl: "/Apple.svg",
+      title: "Mach-O EF",
+      url:
+          "https://developer.apple.com/library/archive/documentation/Performance/Conceptual/CodeFootprint/Articles/MachOOverview.html"));
+  // itemList.add(Item(
+  //     imgUrl: "/MATLAB.svg",
+  //     title: "MATLAB",
+  //     url: "https://ww2.mathworks.cn/help/?s_tid=hp_ff_l_doc"));
   // itemList.add(Item(
   //     imgUrl: "/OpenGL.svg",
   //     title: "OpenGL",

@@ -48,6 +48,8 @@ L
 /BaiduKaifa.svgBaidu Kaifahttps://kaifa.baidu.com
 P
 	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
+0
+/Bazzite.svgBazzitehttps://docs.bazzite.gg
 K
 	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started
 J
@@ -79,6 +81,8 @@ j
 /Chromium.svgChromiumOhttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md
 7
 /Cilium.svgCilium https://docs.cilium.io/en/stable
+;
+	/LLVM.svgClang'https://clang.llvm.org/get_started.html
 Y
 /ClickHouse.svg
 ClickHouse:https://clickhouse.com/docs/en/getting-started/quick-start
@@ -110,6 +114,8 @@ A
 (
 
 /_cURL.svgcURLhttps://curl.se/docs
+.
+/Cursor.svgCursorhttps://docs.cursor.com
 3
 /Cygwin.svgCygwinhttps://cygwin.com/docs.html
 3
@@ -134,6 +140,8 @@ C
 /Django.svgDjango&https://docs.djangoproject.com/zh-hans
 .
 /Docker.svgDockerhttps://docs.docker.com
+a
+)https://web.lcjuves.com/donate/Alipay.svgDonate to the authorhttps://web.lcjuves.com/donate
 >
 /dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
 <
@@ -175,6 +183,8 @@ M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
 D
 /FVM.svgFVM3https://fvm.app/documentation/guides/basic-commands
+>
+/GCC.svgGCC-https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc
 I
 /Google.svg
 Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
@@ -184,6 +194,8 @@ Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
 /GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
 @
 /git-scm.svgGit SCM'https://git-scm.com/docs/git/zh_HANS-CN
+L
+/GitBook.svgGitBook3https://docs.gitbook.com/getting-started/quickstart
 <
 
 /gitee.svgGitee Go$https://gitee.com/help/categories/69
@@ -351,6 +363,9 @@ N
 /LOKINET.svgLOKINEThttps://www.lokinet.org/faq
 /
 /Lua.svgLuahttps://www.lua.org/start.html
+“
+
+/Apple.svg	Mach-O EFzhttps://developer.apple.com/library/archive/documentation/Performance/Conceptual/CodeFootprint/Articles/MachOOverview.html
 1
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
 4
@@ -362,6 +377,8 @@ L
 /Maven.svgMaven$https://maven.apache.org/ref/current
 =
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
+@
+/Mercurial.svg	Mercurial#https://www.mercurial-scm.org/guide
 5
 /Mermaid.svgMermaidhttps://mermaid.js.org/intro
 F
@@ -397,6 +414,8 @@ _
 =
 
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
+I
+/musl-libc.svg	musl libc,https://musl.libc.org/doc/1.1.24/manual.html
 <
 
 /MySQL.svgMySQL'https://dev.mysql.com/doc/refman/8.4/en
@@ -537,6 +556,8 @@ P
 /rust-analyzer.svgrust-analyzer+https://rust-analyzer.github.io/manual.html
 >
 	/Rust.svgrustc*https://doc.rust-lang.org/rustc/index.html
+7
+	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
@@ -577,6 +598,8 @@ c
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
 ^
 /SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
+*
+systemd.svgsystemdhttps://systemd.io
 Q
 /Tabnine.svgTabnine8https://docs.tabnine.com/main/getting-started/quickstart
 2
@@ -591,6 +614,8 @@ TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
 /GNU.svgThe GNU C Library=https://www.gnu.org/software/libc/manual/html_node/index.html
 c
 	/Rust.svgThe Rust Core Library?https://doc.rust-lang.org/core/index.html#the-rust-core-library
+[
+	/UNIX.svgThe UNIXÂ® Standard9https://www.opengroup.org/membership/forums/platform/unix
 `
 /ThreeJS.svgThreeJSGhttps://threejs.org/docs/index.html#manual/zh/introduction/Installation
 I
@@ -616,6 +641,8 @@ G
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0
 M
 /_Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
+‡
+	/UNIX.svgUnix ELFphttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
 (
 	/Vala.svgValahttps://docs.vala.dev
 <
@@ -651,14 +678,20 @@ R
 /WebGPU.svgWebGPU;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API
 E
 /Org_WebKit.svgWebKit*https://webkit.org/blog/category/standards
+D
+	/WebP.svgWebP1https://developers.google.com/speed/webp?hl=zh-cn
 ?
 /Webpack.svgwebpack&https://webpack.docschina.org/concepts
 B
 /Windows.svgWindows)https://learn.microsoft.com/zh-cn/windows
 ƒ
 /Windows.svgWindows Commandsahttps://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands
+T
+/Windows.svgWindows PE Format1https://docs.codeium.com/windsurf/getting-started
 ]
 /Windows_Terminal.svgWindows Terminal2https://learn.microsoft.com/zh-cn/windows/terminal
+L
+/Windsurf.svgWindsurf1https://docs.codeium.com/windsurf/getting-started
 4
 /WinterCG.svgWinterCGhttps://wintercg.org/work
 9
