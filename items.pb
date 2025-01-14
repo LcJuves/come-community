@@ -99,8 +99,8 @@ T
 /CodeGeeX.svgCodeGeeX9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 1
 /codeium.svgcodeiumhttps://docs.codeium.com
-H
-/CompilerExplorer.svgCompiler Explorerhttps://docs.waydro.id/usage
+?
+/CompilerExplorer.svgCompiler Explorerhttps://godbolt.org
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
 D

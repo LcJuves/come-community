@@ -814,7 +814,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/CompilerExplorer.svg",
       title: "Compiler Explorer",
-      url: "https://docs.waydro.id/usage"));
+      url: "https://godbolt.org"));
   itemList.add(Item(
       imgUrl: "/Microsoft.svg",
       title: "MSVC",
