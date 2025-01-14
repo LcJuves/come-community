@@ -1,6 +1,6 @@
 
-E
-/Cloudflare.svg1.1.1.1)https://developers.cloudflare.com/1.1.1.1
+K
+/Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup
 1
 /ActixWeb.svg	Actix Webhttps://actix.rs/docs
 8
