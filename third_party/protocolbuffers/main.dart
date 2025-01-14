@@ -970,7 +970,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/ActixWeb.svg",
       title: "Actix Web",
-      url: "https://actix.rs/docs"));
+      url: "https://actix.rs/docs/getting-started"));
   itemList.add(Item(
       imgUrl: "/Rocket.svg",
       title: "Rocket",
