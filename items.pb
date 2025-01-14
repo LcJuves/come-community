@@ -662,6 +662,8 @@ M
 /_Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
 ‡
 	/UNIX.svgUnix ELFphttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
+.
+/UUP-dump.svgUUP dumphttps://uupdump.net
 (
 	/Vala.svgValahttps://docs.vala.dev
 <
