@@ -884,6 +884,10 @@ Future main(List<String> args) async {
       title: "MongoDB",
       url: "https://www.mongodb.com/zh-cn/docs"));
   itemList.add(Item(
+      imgUrl: "/DocsyJekyll.svg",
+      title: "Docsy Jekyll",
+      url: "https://vsoch.github.io/docsy-jekyll/docs/getting-started"));
+  itemList.add(Item(
       imgUrl: "/MariaDB.svg",
       title: "MariaDB",
       url: "https://mariadb.com/docs"));

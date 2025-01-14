@@ -147,6 +147,8 @@ C
 /Django.svgDjango&https://docs.djangoproject.com/zh-hans
 .
 /Docker.svgDockerhttps://docs.docker.com
+[
+/DocsyJekyll.svgDocsy Jekyll9https://vsoch.github.io/docsy-jekyll/docs/getting-started
 a
 )https://web.lcjuves.com/donate/Alipay.svgDonate to the authorhttps://web.lcjuves.com/donate
 >
