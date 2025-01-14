@@ -541,7 +541,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Jupyter.svg",
       title: "Jupyter",
-      url: "https://docs.jupyter.org/en/latest"));
+      url: "https://docs.jupyter.org/en/latest/start"));
   itemList.add(Item(
       imgUrl: "/Blender.svg",
       title: "Blender",
@@ -619,6 +619,10 @@ Future main(List<String> args) async {
       title: "GNU Coreutils",
       url:
           "https://www.gnu.org/software/coreutils/manual/html_node/index.html"));
+  itemList.add(Item(
+      imgUrl: "/GNU.svg",
+      title: "GNU Binutils",
+      url: "https://sourceware.org/binutils/docs/binutils/index.html"));
   itemList.add(Item(
       imgUrl: "/GNU.svg",
       title: "GNU make",
@@ -804,6 +808,19 @@ Future main(List<String> args) async {
       title: "Wayland",
       url: "https://wayland.freedesktop.org/docs/html"));
   itemList.add(Item(
+      imgUrl: "/Waydroid.svg",
+      title: "Waydroid",
+      url: "https://docs.waydro.id/usage"));
+  itemList.add(Item(
+      imgUrl: "/CompilerExplorer.svg",
+      title: "Compiler Explorer",
+      url: "https://docs.waydro.id/usage"));
+  itemList.add(Item(
+      imgUrl: "/Microsoft.svg",
+      title: "MSVC",
+      url:
+          "https://learn.microsoft.com/zh-cn/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170"));
+  itemList.add(Item(
       imgUrl: "/MySQL.svg",
       title: "MySQL",
       url: "https://dev.mysql.com/doc/refman/8.4/en"));
@@ -957,7 +974,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Rocket.svg",
       title: "Rocket",
-      url: "https://rocket.rs/guide/v0.5"));
+      url: "https://rocket.rs/guide/v0.5/getting-started/#getting-started"));
   itemList.add(Item(
       imgUrl: "/Eclipse%20IDE.svg",
       title: "AspectJ",
@@ -1328,6 +1345,10 @@ Future main(List<String> args) async {
       title: "rustdoc",
       url: "https://doc.rust-lang.org/rustdoc"));
   itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "rustup",
+      url: "https://rust-lang.github.io/rustup"));
+  itemList.add(Item(
       imgUrl: "/Bazzite.svg",
       title: "Bazzite",
       url: "https://docs.bazzite.gg"));
@@ -1354,6 +1375,20 @@ Future main(List<String> args) async {
       imgUrl: "/IT-Tools.svg",
       title: "IT - TOOLS",
       url: "https://it-tools.tech"));
+  itemList.add(
+      Item(imgUrl: "/CRDTs.svg", title: "CRDTs", url: "https://crdt.tech"));
+  itemList.add(Item(
+      imgUrl: "/HTTPieCLI.svg",
+      title: "HTTPie CLI",
+      url: "https://httpie.io/docs/cli/installation"));
+  itemList.add(Item(
+      imgUrl: "/Microsoft.svg",
+      title: "WSL",
+      url: "https://learn.microsoft.com/zh-cn/windows/wsl/install"));
+  itemList.add(Item(
+      imgUrl: "/CocoaPods.svg",
+      title: "CocoaPods",
+      url: "https://guides.cocoapods.org/using/getting-started.html"));
   itemList.add(Item(
       imgUrl: "/Apple.svg",
       title: "Mach-O EF",

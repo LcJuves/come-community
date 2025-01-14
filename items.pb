@@ -92,11 +92,15 @@ C
 
 /CMake.svgCMake#https://cmake.org/cmake/help/latest
 T
+/CocoaPods.svg	CocoaPods7https://guides.cocoapods.org/using/getting-started.html
+T
 /__CodeOSS.svgCode OSS8https://github.com/LcJuves/vscode/wiki/How-to-Contribute
 T
 /CodeGeeX.svgCodeGeeX9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 1
 /codeium.svgcodeiumhttps://docs.codeium.com
+H
+/CompilerExplorer.svgCompiler Explorerhttps://docs.waydro.id/usage
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
 D
@@ -105,6 +109,9 @@ K
 /Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
 y
 /NVIDIA.svgCosmosbhttps://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai
+&
+
+/CRDTs.svgCRDTshttps://crdt.tech
 P
 /Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
 A
@@ -218,6 +225,8 @@ GitLab CLI7https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
 /Gnome.svgGNOME)https://developer.gnome.org/documentation
 (
 /GNU.svgGNUhttps://www.gnu.org/doc
+R
+/GNU.svgGNU Binutils8https://sourceware.org/binutils/docs/binutils/index.html
 ]
 /GNU.svgGNU CoreutilsBhttps://www.gnu.org/software/coreutils/manual/html_node/index.html
 S
@@ -282,6 +291,9 @@ D
 /HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
 9
 /HTTP_3_Check.svgHTTP/3 Checkhttps://http3check.net
+E
+/HTTPieCLI.svg
+HTTPie CLI'https://httpie.io/docs/cli/installation
 Z
 /Hubble.svgHubbleChttps://github.com/cilium/hubble?tab=readme-ov-file#getting-started
 =
@@ -321,8 +333,8 @@ u
 /JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
 4
 	/JSON.svgJSON!https://www.json.org/json-zh.html
-;
-/Jupyter.svgJupyter"https://docs.jupyter.org/en/latest
+A
+/Jupyter.svgJupyter(https://docs.jupyter.org/en/latest/start
 
 /JWT.svgJWThttps://jwt.io
 D
@@ -414,6 +426,8 @@ B
 	/MQTT.svgMQTT https://mqtt.org/getting-started
 _
 /MS-DOS.svgMS-DOSHhttps://zh.wikipedia.org/wiki/MS-DOS%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8
+u
+/Microsoft.svgMSVC]https://learn.microsoft.com/zh-cn/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170
 =
 
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
@@ -531,8 +545,8 @@ G
 C
 
 /robot.svgRobot Framework$https://docs.robotframework.org/docs
-3
-/Rocket.svgRockethttps://rocket.rs/guide/v0.5
+T
+/Rocket.svgRocket=https://rocket.rs/guide/v0.5/getting-started/#getting-started
 E
 /RockyLinux.svgRocky Linux%https://docs.rockylinux.org/zh/guides
 D
@@ -561,6 +575,8 @@ P
 	/Rust.svgrustc*https://doc.rust-lang.org/rustc/index.html
 7
 	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc
+7
+	/Rust.svgrustup"https://rust-lang.github.io/rustup
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
@@ -669,6 +685,8 @@ Y
 /WASIX.svgWASIXhttps://wasix.org/docs
 -
 /Wasmer.svgWasmerhttps://docs.wasmer.io
+7
+/Waydroid.svgWaydroidhttps://docs.waydro.id/usage
 B
 /Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
 U
@@ -705,6 +723,8 @@ E
 /Wireshark.svg	Wireshark(https://www.wireshark.org/docs/wsug_html
 I
 /WrenAI.svgWren AI1https://docs.getwren.ai/oss/overview/introduction
+L
+/Microsoft.svgWSL5https://learn.microsoft.com/zh-cn/windows/wsl/install
 O
 	/XOrg.svgX Window System1https://www.x.org/releases/current/doc/index.html
 A
