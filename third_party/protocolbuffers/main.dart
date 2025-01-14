@@ -1122,7 +1122,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Cloudflare.svg",
       title: "1.1.1.1",
-      url: "https://developers.cloudflare.com/1.1.1.1"));
+      url: "https://developers.cloudflare.com/1.1.1.1/setup"));
   itemList.add(Item(
       imgUrl: "/MaterialWeb.svg",
       title: "Material Web",
