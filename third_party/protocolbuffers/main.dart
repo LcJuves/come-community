@@ -1401,7 +1401,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "https://web.lcjuves.com/donate/Alipay.svg",
       title: "Donate to the author",
-      url: "https://web.lcjuves.com/donate"));
+      url: "https://web.lcjuves.com/donate/Alipay.svg"));
   itemList.add(Item(
       imgUrl: "/musl-libc.svg",
       title: "musl libc",
