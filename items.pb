@@ -15,6 +15,8 @@ A
 /Android.svgAndroid(https://developer.android.google.cn/docs
 0
 /Angular.svgAngularhttps://angular.cn/docs
+C
+/Java_with_Ant.svgAnt(https://ant.apache.org/manual/index.html
 8
 /AppFlowy.svgAppFlowyhttps://docs.appflowy.io/docs
 `
@@ -147,10 +149,14 @@ C
 /Django.svgDjango&https://docs.djangoproject.com/zh-hans
 .
 /Docker.svgDockerhttps://docs.docker.com
+[
+/DocsyJekyll.svgDocsy Jekyll9https://vsoch.github.io/docsy-jekyll/docs/getting-started
 a
 )https://web.lcjuves.com/donate/Alipay.svgDonate to the authorhttps://web.lcjuves.com/donate
 >
 /dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
+w
+/Douyin.svgDouyin Mini AppWhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/introduction/usage-guide
 <
 /Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
 M
@@ -309,6 +315,8 @@ H
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
+<
+	/iroh.svgiroh)https://www.iroh.computer/docs/quickstart
 2
 /IT-Tools.svg
 IT - TOOLShttps://it-tools.tech
@@ -401,6 +409,8 @@ F
 Meta Llama(https://www.llama.com/docs/how-to-guides
 ?
 /Metabase.svgMetabase$https://www.metabase.com/docs/latest
+L
+/Metaflow.svgMetaflow1https://docs.metaflow.org/getting-started/install
 Y
 /microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
 E
@@ -411,6 +421,9 @@ _
 /minikube.svgminikube!https://minikube.sigs.k8s.io/docs
 =
 /Mintty.svgMintty&https://mintty.github.io/mintty.1.html
+P
+/MistralAI.svg
+Mistral AI2https://docs.mistral.ai/getting-started/quickstart
 8
 	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started
 9
@@ -542,6 +555,8 @@ N
 /Redox.svgRedox OShttps://doc.redox-os.org/book
 G
 /Remmina.svgRemmina.https://remmina.gitlab.io/remminadoc.gitlab.io
+4
+	/Rust.svgreqwesthttps://docs.rs/reqwest/latest
 C
 
 /robot.svgRobot Framework$https://docs.robotframework.org/docs
@@ -577,6 +592,8 @@ P
 	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc
 7
 	/Rust.svgrustup"https://rust-lang.github.io/rustup
+N
+/sbt.svgsbt=https://www.scala-sbt.org/1.x/docs/zh-cn/Getting-Started.html
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
@@ -705,6 +722,8 @@ D
 	/WebP.svgWebP1https://developers.google.com/speed/webp?hl=zh-cn
 ?
 /Webpack.svgwebpack&https://webpack.docschina.org/concepts
+_
+/_WeChat.svgWeChat Mini Program:https://developers.weixin.qq.com/miniprogram/dev/framework
 B
 /Windows.svgWindows)https://learn.microsoft.com/zh-cn/windows
 ƒ
