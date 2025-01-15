@@ -1353,6 +1353,39 @@ Future main(List<String> args) async {
       title: "rustup",
       url: "https://rust-lang.github.io/rustup"));
   itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "reqwest",
+      url: "https://docs.rs/reqwest/latest"));
+  itemList.add(Item(
+      imgUrl: "/sbt.svg",
+      title: "sbt",
+      url: "https://www.scala-sbt.org/1.x/docs/zh-cn/Getting-Started.html"));
+  itemList.add(Item(
+      imgUrl: "/Java_with_Ant.svg",
+      title: "Ant",
+      url: "https://ant.apache.org/manual/index.html"));
+  itemList.add(Item(
+      imgUrl: "/MistralAI.svg",
+      title: "Mistral AI",
+      url: "https://docs.mistral.ai/getting-started/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Metaflow.svg",
+      title: "Metaflow",
+      url: "https://docs.metaflow.org/getting-started/install"));
+  itemList.add(Item(
+      imgUrl: "/_WeChat.svg",
+      title: "WeChat Mini Program",
+      url: "https://developers.weixin.qq.com/miniprogram/dev/framework"));
+  itemList.add(Item(
+      imgUrl: "/Douyin.svg",
+      title: "Douyin Mini App",
+      url:
+          "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/introduction/usage-guide"));
+  itemList.add(Item(
+      imgUrl: "/iroh.svg",
+      title: "iroh",
+      url: "https://www.iroh.computer/docs/quickstart"));
+  itemList.add(Item(
       imgUrl: "/Bazzite.svg",
       title: "Bazzite",
       url: "https://docs.bazzite.gg"));
@@ -1469,7 +1502,7 @@ Future main(List<String> args) async {
   // itemList.add(Item(
   //     imgUrl: "/WINE.svg",
   //     title: "WineHQ",
-  //     url: "https://gitlab.winehq.org/wine/wine/-/wikis/Documentation"));
+  //     url: "https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide"));
   itemList
       .sort((a, b) => a.title.toLowerCase().compareTo(b.title.toLowerCase()));
   final items = Items(itemList: itemList);
