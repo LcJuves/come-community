@@ -539,6 +539,11 @@ Future main(List<String> args) async {
       title: "RabbitMQ",
       url: "https://www.rabbitmq.com/docs"));
   itemList.add(Item(
+      imgUrl: "/Atlassian%20Bitbucket.svg",
+      title: "Bitbucket Pipelines",
+      url:
+          "https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines"));
+  itemList.add(Item(
       imgUrl: "/Jupyter.svg",
       title: "Jupyter",
       url: "https://docs.jupyter.org/en/latest/start"));
