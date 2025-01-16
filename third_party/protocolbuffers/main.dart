@@ -1202,6 +1202,26 @@ Future main(List<String> args) async {
       imgUrl: "/MLIR.svg",
       title: "MLIR",
       url: "https://mlir.llvm.org/getting_started"));
+  itemList.add(Item(
+      imgUrl: "/Pintree.svg",
+      title: "Pintree",
+      url: "https://docs.pintree.io/zh/guide"));
+  itemList.add(Item(
+      imgUrl: "/JavaScript.svg",
+      title: "QuickJS",
+      url: "https://bellard.org/quickjs/quickjs.html#Quick-start"));
+  itemList.add(Item(
+      imgUrl: "/BoaJS.svg",
+      title: "Boa JS",
+      url: "https://docs.rs/boa_engine/latest"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "Rusty V8 Binding",
+      url: "https://docs.rs/v8"));
+  itemList.add(Item(
+      imgUrl: "/Cargo.svg",
+      title: "Cargo Remote",
+      url: "https://github.com/sgeisler/cargo-remote"));
   // itemList.add(
   //     Item(imgUrl: "/Pixi.svg", title: "Pixi", url: "https://pixi.sh/latest"));
   itemList.add(Item(
