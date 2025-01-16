@@ -54,6 +54,8 @@ P
 /Bazzite.svgBazzitehttps://docs.bazzite.gg
 K
 	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started
+Š
+/Atlassian%20Bitbucket.svgBitbucket PipelinesWhttps://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines
 J
 /Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
 @
