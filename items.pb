@@ -58,6 +58,9 @@ J
 /Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
 @
 /Blender.svgBlender'https://docs.blender.org/manual/zh-hans
+7
+
+/BoaJS.svgBoa JS!https://docs.rs/boa_engine/latest
 8
 /Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
 <
@@ -73,6 +76,9 @@ $
 ;
 
 /Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
+D
+
+/Cargo.svgCargo Remote(https://github.com/sgeisler/cargo-remote
 >
 /Chat2DB.svgChat2DB%https://chat2db-ai.com/resources/docs
 O
@@ -504,6 +510,8 @@ E
 /PHP.svgPHPhttps://www.php.net/manual/zh
 N
 /PinganCloud.svgPing An Cloud+https://fincloud.pingan.com/ssr/help/center
+9
+/Pintree.svgPintree https://docs.pintree.io/zh/guide
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 F
@@ -537,6 +545,8 @@ C
 	/QEMU.svgQEMU https://www.qemu.org/docs/master
 4
 /quiche.svgquichehttps://docs.quic.tech/quiche
+P
+/JavaScript.svgQuickJS4https://bellard.org/quickjs/quickjs.html#Quick-start
 8
 /RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
 K
@@ -592,6 +602,8 @@ P
 	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc
 7
 	/Rust.svgrustup"https://rust-lang.github.io/rustup
+1
+	/Rust.svgRusty V8 Bindinghttps://docs.rs/v8
 N
 /sbt.svgsbt=https://www.scala-sbt.org/1.x/docs/zh-cn/Getting-Started.html
 N
