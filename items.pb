@@ -315,6 +315,8 @@ Z
 ,
 
 /hyper.svghyperhttps://hyper.rs/guides
+c
+/XunFeiOpenPlatform.svgiFLYTEK Open Platform1https://www.xfyun.cn/doc/platform/quickguide.html
 P
 /Inkscape.svgInkscape5https://inkscape.org/zh-hans/simplified-chinese-learn
 H

@@ -1454,6 +1454,10 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/UUP-dump.svg", title: "UUP dump", url: "https://uupdump.net"));
   itemList.add(Item(
+      imgUrl: "/XunFeiOpenPlatform.svg",
+      title: "iFLYTEK Open Platform",
+      url: "https://www.xfyun.cn/doc/platform/quickguide.html"));
+  itemList.add(Item(
       imgUrl: "/Apple.svg",
       title: "Mach-O EF",
       url:
