@@ -606,7 +606,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Cygwin.svg",
       title: "Cygwin",
-      url: "https://cygwin.com/docs.html"));
+      url: "https://cygwin.com/cygwin-ug-net/cygwin-ug-net.html"));
   itemList.add(Item(
       imgUrl: "/robot.svg",
       title: "Robot Framework",
@@ -762,8 +762,12 @@ Future main(List<String> args) async {
       url: "https://developer.bitcoin.org/devguide/index.html"));
   itemList.add(Item(
       imgUrl: "/WinterCG.svg",
-      title: "WinterCG",
+      title: "WinterTC",
       url: "https://wintercg.org/work"));
+  itemList.add(Item(
+      imgUrl: "/Exercism.svg",
+      title: "Exercism",
+      url: "https://exercism.org/tracks"));
   itemList.add(Item(
       imgUrl: "/gitee.svg",
       title: "Gitee Go",

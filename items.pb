@@ -133,8 +133,8 @@ A
 /_cURL.svgcURLhttps://curl.se/docs
 .
 /Cursor.svgCursorhttps://docs.cursor.com
-3
-/Cygwin.svgCygwinhttps://cygwin.com/docs.html
+J
+/Cygwin.svgCygwin3https://cygwin.com/cygwin-ug-net/cygwin-ug-net.html
 3
 	/D3JS.svgD3JS https://d3js.org/getting-started
 @
@@ -182,6 +182,8 @@ B
 /ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
 B
 /Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
+6
+/Exercism.svgExercismhttps://exercism.org/tracks
 E
 	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project
 Z
@@ -751,7 +753,7 @@ b
 L
 /Windsurf.svgWindsurf1https://docs.codeium.com/windsurf/getting-started
 4
-/WinterCG.svgWinterCGhttps://wintercg.org/work
+/WinterCG.svgWinterTChttps://wintercg.org/work
 9
 /Wintun.svgWintun"https://git.zx2c4.com/wintun/about
 A
