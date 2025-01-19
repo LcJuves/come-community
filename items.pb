@@ -76,6 +76,9 @@ $
 /Bun.svgBunhttps://bun.sh/docs
 8
 /Bytebase.svgBytebasehttps://www.bytebase.com/docs
+V
+/Apache%20Camel.svg
+Camel Core3https://camel.apache.org/camel-core/getting-started
 5
 /Cangjie.svgCangjiehttps://cangjie-lang.cn/docs
 ;
@@ -116,6 +119,9 @@ T
 /CompilerExplorer.svgCompiler Explorerhttps://godbolt.org
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+c
+
+/Conda.svgCondaNhttps://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 i
 /containerd.svg
 containerdJhttps://github.com/containerd/containerd/blob/main/docs/getting-started.md
@@ -513,6 +519,8 @@ L
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
 ?
 /OpenZFS.svgOpenZFS&https://openzfs.github.io/openzfs-docs
++
+/OW2_ASM.svgOW2 ASMhttps://asm.ow2.io
 1
 	/Oxen.svgOxenhttps://docs.oxen.io/oxen-docs
 E
@@ -522,6 +530,8 @@ E
 /PHP.svgPHPhttps://www.php.net/manual/zh
 N
 /PinganCloud.svgPing An Cloud+https://fincloud.pingan.com/ssr/help/center
+_
+/Cloudflare.svgPingoraChttps://github.com/cloudflare/pingora/blob/main/docs/quick_start.md
 9
 /Pintree.svgPintree https://docs.pintree.io/zh/guide
 =
@@ -688,6 +698,8 @@ I
 4
 
 /tokio.svgTokiohttps://tokio.rs/tokio/tutorial
+I
+/Apache%20Tomcat.svgTomcat)https://tomcat.apache.org/tomcat-11.0-doc
 %
 	/TOML.svgTOMLhttps://toml.io/cn
 5
