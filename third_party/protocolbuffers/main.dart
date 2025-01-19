@@ -527,6 +527,11 @@ Future main(List<String> args) async {
       title: "Anaconda",
       url: "https://docs.anaconda.com/anaconda/getting-started"));
   itemList.add(Item(
+      imgUrl: "/Conda.svg",
+      title: "Conda",
+      url:
+          "https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html"));
+  itemList.add(Item(
       imgUrl: "/InLong.svg",
       title: "InLong",
       url: "https://inlong.apache.org/zh-CN/docs/introduction"));
@@ -591,10 +596,14 @@ Future main(List<String> args) async {
   //     imgUrl: "/Pug%20Template%20Engine.svg",
   //     title: "radash",
   //     url: "https://radash-docs.vercel.app/docs/getting-started"));
-  // itemList.add(Item(
-  //     imgUrl: "/Apache%20Tomcat.svg",
-  //     title: "Tomcat",
-  //     url: "https://tomcat.apache.org/tomcat-11.0-doc"));
+  itemList.add(Item(
+      imgUrl: "/Apache%20Tomcat.svg",
+      title: "Tomcat",
+      url: "https://tomcat.apache.org/tomcat-11.0-doc"));
+  itemList.add(Item(
+      imgUrl: "/Apache%20Camel.svg",
+      title: "Camel Core",
+      url: "https://camel.apache.org/camel-core/getting-started"));
   itemList.add(Item(
       imgUrl: "/Bash.svg",
       title: "Bash",
@@ -1001,6 +1010,8 @@ Future main(List<String> args) async {
       title: "AspectJ",
       url:
           "https://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc"));
+  itemList.add(Item(
+      imgUrl: "/OW2_ASM.svg", title: "OW2 ASM", url: "https://asm.ow2.io"));
   itemList.add(Item(
       imgUrl: "/Figma.svg",
       title: "Figma Developers",
@@ -1554,10 +1565,11 @@ Future main(List<String> args) async {
   //     imgUrl: "/CommonLisp.svg",
   //     title: "Common Lisp",
   //     url: "https://lisp-lang.org/learn/getting-started"));
-  // itemList.add(Item(
-  //     imgUrl: "/Pingora.svg",
-  //     title: "Pingora",
-  //     url: "https://github.com/cloudflare/pingora/blob/main/docs/quick_start.md"));
+  itemList.add(Item(
+      imgUrl: "/Cloudflare.svg",
+      title: "Pingora",
+      url:
+          "https://github.com/cloudflare/pingora/blob/main/docs/quick_start.md"));
 
   // itemList.add(Item(
   //     imgUrl: "/Xen.svg",
