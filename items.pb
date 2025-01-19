@@ -35,8 +35,8 @@ J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 x
 /Eclipse%20IDE.svgAspectJYhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc
-/
-/Automa.svgAutomahttps://docs.automa.site
+F
+/Automa.svgAutoma/https://docs.automa.site/guide/quick-start.html
 :
 	/AVIF.svgAVIF'https://aomediacodec.github.io/av1-avif
 `
@@ -50,6 +50,9 @@ L
 /BaiduKaifa.svgBaidu Kaifahttps://kaifa.baidu.com
 P
 	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
+;
+
+/Bazel.svgBazel&https://bazel.build/run/build?hl=zh-cn
 0
 /Bazzite.svgBazzitehttps://docs.bazzite.gg
 K
@@ -113,6 +116,9 @@ T
 /CompilerExplorer.svgCompiler Explorerhttps://godbolt.org
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+i
+/containerd.svg
+containerdJhttps://github.com/containerd/containerd/blob/main/docs/getting-started.md
 D
 /Continue.svgContinue)https://docs.continue.dev/getting-started
 K
@@ -243,8 +249,8 @@ GitLab CLI7https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
 /GNU.svgGNUhttps://www.gnu.org/doc
 R
 /GNU.svgGNU Binutils8https://sourceware.org/binutils/docs/binutils/index.html
-]
-/GNU.svgGNU CoreutilsBhttps://www.gnu.org/software/coreutils/manual/html_node/index.html
+p
+/GNU.svgGNU CoreutilsUhttps://www.gnu.org/software/coreutils/manual/html_node/index.html#toc-Introduction-1
 S
 /GNU.svgGNU make=https://www.gnu.org/software/make/manual/html_node/index.html
 %
@@ -414,8 +420,8 @@ L
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
 @
 /Mercurial.svg	Mercurial#https://www.mercurial-scm.org/guide
-5
-/Mermaid.svgMermaidhttps://mermaid.js.org/intro
+J
+/Mermaid.svgMermaid1https://mermaid.js.org/intro/getting-started.html
 F
 /MetaLlama.svg
 Meta Llama(https://www.llama.com/docs/how-to-guides
@@ -487,8 +493,8 @@ V
 /Ollama.svgOllama?https://github.com/ollama/ollama/blob/main/README.md#quickstart
 y
 /OpenInterpreter.svgOpen InterpreterOhttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md
-H
-/OpenAIPlatform.svgOpenAI Platform https://platform.openai.com/docs
+S
+/OpenAIPlatform.svgOpenAI Platform+https://platform.openai.com/docs/quickstart
 8
 /OpenBSD.svgOpenBSDhttps://www.openbsd.org/76.html
 .
@@ -617,6 +623,8 @@ N
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
 A
 /Selenium.svgSelenium&https://www.selenium.dev/documentation
+7
+/Sentry.svgSentry https://docs.sentry.io/platforms
 *
 
 /Servo.svgServohttps://doc.servo.org
@@ -695,6 +703,8 @@ G
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0
 M
 /_Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
+f
+/OpenAIPlatform.svguniverseEhttps://github.com/openai/universe?tab=readme-ov-file#getting-started
 ‡
 	/UNIX.svgUnix ELFphttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
 .
