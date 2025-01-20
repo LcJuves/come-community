@@ -3,6 +3,13 @@ K
 /Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup
 A
 /ActixWeb.svg	Actix Web%https://actix.rs/docs/getting-started
+K
+/AFFiNE.svgAFFiNE4https://docs.affine.pro/docs/development/quick-start
+'
+
+/Aider.svgAiderhttps://aider.chat
+k
+/Microsoft.svgAIOpsLabOhttps://github.com/microsoft/AIOpsLab?tab=readme-ov-file#%F0%9F%9A%80quickstart
 8
 /Airflow.svgAirflowhttps://airflow.apache.org/docs
 O
@@ -122,6 +129,8 @@ i
 c
 
 /Conda.svgCondaNhttps://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+O
+/conda-forge.svgconda-forge.https://conda-forge.org/docs/user/introduction
 i
 /containerd.svg
 containerdJhttps://github.com/containerd/containerd/blob/main/docs/getting-started.md
@@ -220,6 +229,8 @@ D
 /FVM.svgFVM3https://fvm.app/documentation/guides/basic-commands
 >
 /GCC.svgGCC-https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc
+R
+/GEETEST.svgGEETEST OneLogin0https://docs.geetest.com/onelogin/overview/start
 I
 /Google.svg
 Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
@@ -281,8 +292,10 @@ V
 /Apache%20Groovy.svgGroovy6https://docs.groovy-lang.org/latest/html/documentation
 '
 	/gRPC.svggRPChttps://grpc.io/docs
-:
-/GruntJS.svgGruntJS!https://gruntjs.com/documentation
+<
+/GruntJS.svgGruntJS#https://gruntjs.com/getting-started
+<
+/GruntJS.svgGruntJS#https://gruntjs.com/getting-started
 9
 /GTK.svgGTK(https://www.gtk.org/docs/getting-started
 M
@@ -351,6 +364,8 @@ IT - TOOLShttps://it-tools.tech
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+E
+/JAX.svgJAX4https://jax.readthedocs.io/en/latest/quickstart.html
 1
 /_Jekyll.svgJekyllhttps://jekyllrb.com/docs
 8
@@ -381,6 +396,9 @@ R
 /KateX.svgKateXhttps://katex.org/docs
 7
 /KDE.svgKDE Developerhttps://develop.kde.org/docs
+5
+
+/Keras.svgKeras https://keras.io/getting_started
 2
 /Kotlin.svgKotlinhttps://kotlinlang.org/docs
 z
@@ -441,6 +459,8 @@ E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
 _
 /Mingw-w64.svg	Mingw-w64Bhttps://sourceforge.net/p/mingw-w64/wiki2/GeneralUsageInstructions
+?
+/conda-forge.svg	Miniforge https://conda-forge.org/download
 <
 /minikube.svgminikube!https://minikube.sigs.k8s.io/docs
 =
@@ -450,6 +470,8 @@ P
 Mistral AI2https://docs.mistral.ai/getting-started/quickstart
 8
 	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started
+I
+/China%20Mobile.svgMobile Open Platformhttps://dev.10086.cn/docHome
 9
 /ModelScope.svg
 ModelScopehttps://modelscope.cn/docs
@@ -515,6 +537,8 @@ S
 /OpenSSL.svgOpenSSLhttps://docs.openssl.org/master
 =
 /OpenStack.svg	OpenStack https://docs.openstack.org/zh_CN
+I
+/OpenVINO.svgOpenVINO.https://docs.openvino.ai/2024/get-started.html
 L
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
 ?
@@ -704,6 +728,8 @@ I
 	/TOML.svgTOMLhttps://toml.io/cn
 5
 /Tor.svgTor$https://support.torproject.org/zh-CN
+A
+	/Trae.svgTrae.https://docs.trae.ai/docs/set-up-trae?_lang=en
 8
 /Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
 E

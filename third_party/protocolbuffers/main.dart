@@ -87,6 +87,14 @@ Future main(List<String> args) async {
       title: "Unity",
       url: "https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html"));
   itemList.add(Item(
+      imgUrl: "/China%20Mobile.svg",
+      title: "Mobile Open Platform",
+      url: "https://dev.10086.cn/docHome"));
+  // itemList.add(Item(
+  //     imgUrl: "/Tuanjie.svg",
+  //     title: "Tuanjie",
+  //     url: "https://docs.unity.cn/cn/tuanjiemanual/Manual/UnityManual.html"));
+  itemList.add(Item(
       imgUrl: "/ThreeJS.svg",
       title: "ThreeJS",
       url:
@@ -454,7 +462,23 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/GruntJS.svg",
       title: "GruntJS",
-      url: "https://gruntjs.com/documentation"));
+      url: "https://gruntjs.com/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Keras.svg",
+      title: "Keras",
+      url: "https://keras.io/getting_started"));
+  itemList.add(Item(
+      imgUrl: "/JAX.svg",
+      title: "JAX",
+      url: "https://jax.readthedocs.io/en/latest/quickstart.html"));
+  itemList.add(Item(
+      imgUrl: "/OpenVINO.svg",
+      title: "OpenVINO",
+      url: "https://docs.openvino.ai/2024/get-started.html"));
+  itemList.add(Item(
+      imgUrl: "/GruntJS.svg",
+      title: "GruntJS",
+      url: "https://gruntjs.com/getting-started"));
   itemList.add(Item(
       imgUrl: "/Spring.svg",
       title: "Spring",
@@ -535,6 +559,27 @@ Future main(List<String> args) async {
       imgUrl: "/InLong.svg",
       title: "InLong",
       url: "https://inlong.apache.org/zh-CN/docs/introduction"));
+  itemList.add(Item(
+      imgUrl: "/conda-forge.svg",
+      title: "conda-forge",
+      url: "https://conda-forge.org/docs/user/introduction"));
+  itemList.add(Item(
+      imgUrl: "/conda-forge.svg",
+      title: "Miniforge",
+      url: "https://conda-forge.org/download"));
+  itemList.add(Item(
+      imgUrl: "/Trae.svg",
+      title: "Trae",
+      url: "https://docs.trae.ai/docs/set-up-trae?_lang=en"));
+  itemList.add(Item(
+      imgUrl: "/GEETEST.svg",
+      title: "GEETEST OneLogin",
+      url: "https://docs.geetest.com/onelogin/overview/start"));
+  itemList.add(Item(
+      imgUrl: "/Microsoft.svg",
+      title: "AIOpsLab",
+      url:
+          "https://github.com/microsoft/AIOpsLab?tab=readme-ov-file#%F0%9F%9A%80quickstart"));
   itemList.add(Item(
       imgUrl: "/Appium.svg",
       title: "Appium",
@@ -1322,10 +1367,10 @@ Future main(List<String> args) async {
       imgUrl: "/Chrome.svg",
       title: "Chrome DevTools",
       url: "https://developer.chrome.com/docs/devtools?hl=zh-cn"));
-  // itemList.add(Item(
-  //     imgUrl: "/AFFiNE.svg",
-  //     title: "AFFiNE",
-  //     url: "https://docs.affine.pro/docs/development/quick-start"));
+  itemList.add(Item(
+      imgUrl: "/AFFiNE.svg",
+      title: "AFFiNE",
+      url: "https://docs.affine.pro/docs/development/quick-start"));
   itemList.add(Item(
       imgUrl: "/FingerprintJS.svg",
       title: "FingerprintJS",
@@ -1525,8 +1570,8 @@ Future main(List<String> args) async {
   //     imgUrl: "/RocketMQ.svg",
   //     title: "RocketMQ",
   //     url: "https://rocketmq.apache.org/zh/docs/quickStart/01quickstart"));
-  // itemList.add(
-  //     Item(imgUrl: "/Aider.svg", title: "Aider", url: "https://aider.chat"));
+  itemList.add(
+      Item(imgUrl: "/Aider.svg", title: "Aider", url: "https://aider.chat"));
   // itemList
   //     .add(Item(imgUrl: "/Zed.svg", title: "Zed", url: "https://zed.dev/docs"));
   // itemList.add(Item(
