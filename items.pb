@@ -569,6 +569,8 @@ F
 Playwright!https://playwright.dev/docs/intro
 7
 /podman.svgpodman https://docs.podman.io/en/latest
+I
+/OpenGroup.svgPOSIX0https://pubs.opengroup.org/onlinepubs/9799919799
 M
 /PostgreSQL.svg
 PostgreSQL.http://www.postgres.cn/docs/current/index.html
