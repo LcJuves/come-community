@@ -1427,6 +1427,10 @@ Future main(List<String> args) async {
       imgUrl: "/OpenBSD.svg",
       title: "OpenBSD",
       url: "https://www.openbsd.org/76.html"));
+  itemList.add(Item(
+      imgUrl: "/OpenGroup.svg",
+      title: "POSIX",
+      url: "https://pubs.opengroup.org/onlinepubs/9799919799"));
   // itemList.add(Item(
   //     imgUrl: "https://web.lcjuves.com/Material-for-MkDocs-Icon.svg",
   //     title: "Material for MkDocs",
