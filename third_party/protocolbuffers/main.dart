@@ -476,10 +476,6 @@ Future main(List<String> args) async {
       title: "OpenVINO",
       url: "https://docs.openvino.ai/2024/get-started.html"));
   itemList.add(Item(
-      imgUrl: "/GruntJS.svg",
-      title: "GruntJS",
-      url: "https://gruntjs.com/getting-started"));
-  itemList.add(Item(
       imgUrl: "/Spring.svg",
       title: "Spring",
       url: "https://spring.io/quickstart"));
@@ -491,6 +487,10 @@ Future main(List<String> args) async {
       imgUrl: "/Wintun.svg",
       title: "Wintun",
       url: "https://git.zx2c4.com/wintun/about"));
+  itemList.add(Item(
+      imgUrl: "/NumPy.svg",
+      title: "NumPy",
+      url: "https://numpy.org/doc/stable/user/absolute_beginners.html"));
   itemList.add(Item(
       imgUrl: "/Browserless.svg",
       title: "Browserless",

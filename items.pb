@@ -294,8 +294,6 @@ V
 	/gRPC.svggRPChttps://grpc.io/docs
 <
 /GruntJS.svgGruntJS#https://gruntjs.com/getting-started
-<
-/GruntJS.svgGruntJS#https://gruntjs.com/getting-started
 9
 /GTK.svgGTK(https://www.gtk.org/docs/getting-started
 M
@@ -509,6 +507,9 @@ d
 /Nim.svgNim'https://nim-lang.org/documentation.html
 4
 /NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
+N
+
+/NumPy.svgNumPy9https://numpy.org/doc/stable/user/absolute_beginners.html
 9
 
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
