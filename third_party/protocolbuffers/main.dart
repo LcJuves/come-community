@@ -20,7 +20,12 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Android.svg",
       title: "Android",
-      url: "https://developer.android.google.cn/docs"));
+      url: "https://developer.android.google.cn/develop?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/Android.svg",
+      title: "Android XR",
+      url:
+          "https://developer.android.google.cn/develop/xr/get-started?hl=zh-cn"));
   itemList.add(Item(
       imgUrl: "/Apache%20Groovy.svg",
       title: "Groovy",
@@ -250,6 +255,10 @@ Future main(List<String> args) async {
       title: "Apple Developer",
       url: "https://developer.apple.com/documentation"));
   itemList.add(Item(
+      imgUrl: "/Apple.svg",
+      title: "Objective-C Runtime",
+      url: "https://developer.apple.com/documentation/objectivec"));
+  itemList.add(Item(
       imgUrl: "/WebAssembly.svg",
       title: "WebAssembly",
       url: "https://developer.mozilla.org/zh-CN/docs/WebAssembly"));
@@ -336,6 +345,10 @@ Future main(List<String> args) async {
       imgUrl: "/LLVM.svg",
       title: "LLVM",
       url: "https://llvm.org/docs/GettingStarted.html"));
+  itemList.add(Item(
+      imgUrl: "/LLVM.svg",
+      title: "llvm-cov",
+      url: "https://llvm.org/docs/CommandGuide/llvm-cov.html"));
   itemList.add(Item(
       imgUrl: "/snowflake.svg",
       title: "snowflake",
@@ -1431,6 +1444,18 @@ Future main(List<String> args) async {
       imgUrl: "/OpenGroup.svg",
       title: "POSIX",
       url: "https://pubs.opengroup.org/onlinepubs/9799919799"));
+  itemList.add(Item(
+      imgUrl: "/Eko.svg",
+      title: "Eko",
+      url: "https://eko.fellou.ai/docs/getting-started/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Serverpod.svg",
+      title: "Serverpod",
+      url: "https://docs.serverpod.dev"));
+  // itemList.add(Item(
+  //     imgUrl: "/Motion.svg",
+  //     title: "Motion",
+  //     url: "https://motion.dev/docs/react-quick-start"));
   // itemList.add(Item(
   //     imgUrl: "https://web.lcjuves.com/Material-for-MkDocs-Icon.svg",
   //     title: "Material for MkDocs",
@@ -1443,6 +1468,14 @@ Future main(List<String> args) async {
       imgUrl: "/GCC.svg",
       title: "GCC",
       url: "https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc"));
+  itemList.add(Item(
+      imgUrl: "/GDB.svg",
+      title: "GDB",
+      url: "https://sourceware.org/gdb/download/onlinedocs/gdb.html"));
+  itemList.add(Item(
+      imgUrl: "/emoji_u1f41b.svg",
+      title: "LLDB",
+      url: "https://lldb.llvm.org"));
   // itemList.add(Item(
   //     imgUrl: "/NextJS.svg", title: "NextJS", url: "https://nextjs.org/docs"));
   itemList.add(Item(
@@ -1477,6 +1510,10 @@ Future main(List<String> args) async {
       imgUrl: "/Rust.svg",
       title: "reqwest",
       url: "https://docs.rs/reqwest/latest"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "Comprehensive Rust",
+      url: "https://google.github.io/comprehensive-rust/zh-CN"));
   itemList.add(Item(
       imgUrl: "/sbt.svg",
       title: "sbt",
