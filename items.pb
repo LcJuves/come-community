@@ -18,8 +18,11 @@ O
 /Alpine.svgAlpine Linuxhttps://docs.alpinelinux.org
 M
 /Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
-A
-/Android.svgAndroid(https://developer.android.google.cn/docs
+M
+/Android.svgAndroid4https://developer.android.google.cn/develop?hl=zh-cn
+_
+/Android.svg
+Android XRChttps://developer.android.google.cn/develop/xr/get-started?hl=zh-cn
 0
 /Angular.svgAngularhttps://angular.cn/docs
 C
@@ -126,6 +129,8 @@ T
 /CompilerExplorer.svgCompiler Explorerhttps://godbolt.org
 i
 /ComposeMultiplatform.svgCompose Multiplatform5https://www.jetbrains.com/zh-cn/compose-multiplatform
+R
+	/Rust.svgComprehensive Rust1https://google.github.io/comprehensive-rust/zh-CN
 c
 
 /Conda.svgCondaNhttps://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
@@ -195,6 +200,8 @@ M
 6
 /ECMAScript.svg
 ECMAScripthttps://tc39.es/ecma262
+F
+/Eko.svgEko5https://eko.fellou.ai/docs/getting-started/quickstart
 E
 /_Electron.svgElectron)https://www.electronjs.org/zh/docs/latest
 B
@@ -229,6 +236,8 @@ D
 /FVM.svgFVM3https://fvm.app/documentation/guides/basic-commands
 >
 /GCC.svgGCC-https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc
+H
+/GDB.svgGDB7https://sourceware.org/gdb/download/onlinedocs/gdb.html
 R
 /GEETEST.svgGEETEST OneLogin0https://docs.geetest.com/onelogin/overview/start
 I
@@ -418,8 +427,12 @@ I
 N
 
 /Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
+0
+/emoji_u1f41b.svgLLDBhttps://lldb.llvm.org
 <
 	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html
+G
+	/LLVM.svgllvm-cov0https://llvm.org/docs/CommandGuide/llvm-cov.html
 .
 /Lodash.svgLodashhttps://lodash.com/docs
 4
@@ -513,6 +526,9 @@ N
 9
 
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
+W
+
+/Apple.svgObjective-C Runtime4https://developer.apple.com/documentation/objectivec
 <
 
 /OCaml.svgOCaml'https://ocaml.org/docs/installing-ocaml
@@ -662,6 +678,8 @@ A
 /Selenium.svgSelenium&https://www.selenium.dev/documentation
 7
 /Sentry.svgSentry https://docs.sentry.io/platforms
+7
+/Serverpod.svg	Serverpodhttps://docs.serverpod.dev
 *
 
 /Servo.svgServohttps://doc.servo.org
