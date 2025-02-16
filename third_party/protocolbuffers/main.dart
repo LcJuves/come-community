@@ -1476,6 +1476,90 @@ Future main(List<String> args) async {
       imgUrl: "/emoji_u1f41b.svg",
       title: "LLDB",
       url: "https://lldb.llvm.org"));
+  itemList.add(Item(
+      imgUrl: "/Buildah.svg",
+      title: "Buildah",
+      url:
+          "https://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html"));
+  itemList.add(Item(
+      imgUrl: "/Meson.svg",
+      title: "Meson",
+      url: "https://mesonbuild.com/Quick-guide.html"));
+  itemList.add(Item(
+      imgUrl: "/Ionic.svg",
+      title: "Ionic React",
+      url: "https://ionicframework.com/docs/react/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Ionic.svg",
+      title: "Ionic Vue",
+      url: "https://ionicframework.com/docs/vue/quickstart"));
+  itemList.add(Item(
+      imgUrl: "/WebRTC.svg",
+      title: "WebRTC",
+      url: "https://webrtc.org/getting-started/overview?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/FlatBuffers.svg",
+      title: "FlatBuffers",
+      url: "https://flatbuffers.dev/quick_start"));
+  itemList.add(Item(
+      imgUrl: "/Hono.svg",
+      title: "Hono",
+      url: "https://hono.dev/docs/getting-started/basic"));
+  itemList.add(Item(
+      imgUrl: "/Lobster.svg",
+      title: "Lobster",
+      url: "https://aardappel.github.io/lobster/getting_started.html"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "Evcxr Rust REPL",
+      url: "https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md"));
+  itemList.add(Item(
+      imgUrl: "/StirlingPDF.svg",
+      title: "Stirling PDF",
+      url: "https://docs.stirlingpdf.com"));
+  itemList.add(Item(
+      imgUrl: "/GN.svg",
+      title: "GN",
+      url: "https://gn.googlesource.com/gn/+/main/docs/quick_start.md"));
+  itemList.add(Item(
+      imgUrl: "/Mojo.svg",
+      title: "Firecrawl",
+      url: "https://docs.firecrawl.dev/introduction"));
+  itemList.add(Item(
+      imgUrl: "/qwik.svg",
+      title: "qwik",
+      url: "https://qwik.dev/docs/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Nuxt.svg",
+      title: "Nuxt",
+      url: "https://nuxt.com/docs/getting-started"));
+  itemList.add(
+      Item(imgUrl: "/OAuth.svg", title: "OAuth 2", url: "https://oauth.net/2"));
+  // itemList.add(Item(
+  //     imgUrl: "/SDKMAN.svg",
+  //     title: "SDKMAN",
+  //     url: "https://sdkman.io/install"));
+  itemList.add(Item(
+      imgUrl: "/MindSpore.svg",
+      title: "MindSpore",
+      url: "https://www.mindspore.cn/install"));
+  itemList.add(Item(
+      imgUrl: "/ARCore.svg",
+      title: "ARCore",
+      url:
+          "https://developers.google.com/ar/develop/getting-started?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/WebXR.svg",
+      title: "WebXR",
+      url: "https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite"));
+  // itemList.add(Item(
+  //     imgUrl: "/OpenWebUI.svg",
+  //     title: "Open WebUI",
+  //     url: "https://docs.openwebui.com/getting-started/quick-start"));
+  // itemList.add(Item(
+  //     imgUrl: "/Carbon.svg",
+  //     title: "Carbon",
+  //     url: "https://docs.carbon-lang.dev/#getting-started"));
   // itemList.add(Item(
   //     imgUrl: "/NextJS.svg", title: "NextJS", url: "https://nextjs.org/docs"));
   itemList.add(Item(
