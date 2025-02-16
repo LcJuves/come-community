@@ -39,6 +39,8 @@ H
 U
 /Arch%20Linux.svg
 Arch Linux4https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5
+X
+/ARCore.svgARCoreAhttps://developers.google.com/ar/develop/getting-started?hl=zh-cn
 0
 /Arduino.svgArduinohttps://docs.arduino.cc
 J
@@ -80,6 +82,8 @@ J
 /Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
 <
 /Browserless.svgBrowserlesshttps://docs.browserless.io
+^
+/Buildah.svgBuildahEhttps://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html
 X
 /Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
 $
@@ -210,6 +214,8 @@ B
 /ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
 B
 /Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
+[
+	/Rust.svgEvcxr Rust REPL=https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md
 6
 /Exercism.svgExercismhttps://exercism.org/tracks
 E
@@ -223,8 +229,12 @@ Z
 /Figma.svgFigma Developers https://www.figma.com/developers
 W
 /FingerprintJS.svgFingerprintJS2https://dev.fingerprint.com/docs/quick-start-guide
+?
+	/Mojo.svg	Firecrawl'https://docs.firecrawl.dev/introduction
 7
 /Flameshot.svg	Flameshothttps://flameshot.org/docs
+D
+/FlatBuffers.svgFlatBuffers#https://flatbuffers.dev/quick_start
 N
 
 /Flink.svgFlink9https://ci.apache.org/projects/flink/flink-docs-stable/zh
@@ -268,6 +278,8 @@ R
 GitLab CLI7https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
 1
 /Gitpod.svgGitpodhttps://www.gitpod.io/docs
+H
+/GN.svgGN9https://gn.googlesource.com/gn/+/main/docs/quick_start.md
 >
 
 /Gnome.svgGNOME)https://developer.gnome.org/documentation
@@ -330,6 +342,8 @@ e
 /_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
 /
 /Homebrew.svgHomebrewhttps://docs.brew.sh
+>
+	/Hono.svgHono+https://hono.dev/docs/getting-started/basic
 E
 
 /HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
@@ -357,6 +371,12 @@ H
 /InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
 ]
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
+K
+
+/Ionic.svgIonic React0https://ionicframework.com/docs/react/quickstart
+G
+
+/Ionic.svg	Ionic Vue.https://ionicframework.com/docs/vue/quickstart
 )
 	/IPFS.svgIPFShttps://docs.ipfs.tech
 <
@@ -433,6 +453,8 @@ N
 	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html
 G
 	/LLVM.svgllvm-cov0https://llvm.org/docs/CommandGuide/llvm-cov.html
+Q
+/Lobster.svgLobster8https://aardappel.github.io/lobster/getting_started.html
 .
 /Lodash.svgLodashhttps://lodash.com/docs
 4
@@ -457,6 +479,9 @@ L
 /Mercurial.svg	Mercurial#https://www.mercurial-scm.org/guide
 J
 /Mermaid.svgMermaid1https://mermaid.js.org/intro/getting-started.html
+<
+
+/Meson.svgMeson'https://mesonbuild.com/Quick-guide.html
 F
 /MetaLlama.svg
 Meta Llama(https://www.llama.com/docs/how-to-guides
@@ -468,6 +493,8 @@ Y
 /microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction
 E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
+=
+/MindSpore.svg	MindSpore https://www.mindspore.cn/install
 _
 /Mingw-w64.svg	Mingw-w64Bhttps://sourceforge.net/p/mingw-w64/wiki2/GeneralUsageInstructions
 ?
@@ -526,6 +553,11 @@ N
 9
 
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
+8
+	/Nuxt.svgNuxt%https://nuxt.com/docs/getting-started
+*
+
+/OAuth.svgOAuth 2https://oauth.net/2
 W
 
 /Apple.svgObjective-C Runtime4https://developer.apple.com/documentation/objectivec
@@ -613,6 +645,8 @@ C
 P
 /JavaScript.svgQuickJS4https://bellard.org/quickjs/quickjs.html#Quick-start
 8
+	/qwik.svgqwik%https://qwik.dev/docs/getting-started
+8
 /RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
 K
 /Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
@@ -697,6 +731,8 @@ b
 /SpringBoot.svgSpring BootBhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
 =
 /SQLite.svgSQLite&https://www.sqlite.org/quickstart.html
+>
+/StirlingPDF.svgStirling PDFhttps://docs.stirlingpdf.com
 A
 /Subversion.svg
 Subversion"https://subversion.apache.org/docs
@@ -809,6 +845,11 @@ D
 	/WebP.svgWebP1https://developers.google.com/speed/webp?hl=zh-cn
 ?
 /Webpack.svgwebpack&https://webpack.docschina.org/concepts
+K
+/WebRTC.svgWebRTC4https://webrtc.org/getting-started/overview?hl=zh-cn
+R
+
+/WebXR.svgWebXR=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite
 _
 /_WeChat.svgWeChat Mini Program:https://developers.weixin.qq.com/miniprogram/dev/framework
 B
