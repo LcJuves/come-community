@@ -23,6 +23,43 @@ Future main(List<String> args) async {
       url: "https://developer.android.google.cn/develop?hl=zh-cn"));
   itemList.add(Item(
       imgUrl: "/Android.svg",
+      title: "AOSP",
+      url: "https://source.android.com/docs/setup/start?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/Jetty.svg",
+      title: "Jetty",
+      url: "https://jetty.org/docs/jetty/12/programming-guide"));
+  itemList.add(Item(
+      imgUrl: "/MAX.svg",
+      title: "MAX",
+      url: "https://docs.modular.com/stable/max/get-started"));
+  itemList.add(Item(
+      imgUrl: "/Magic.svg",
+      title: "Magic",
+      url: "https://docs.modular.com/stable/magic"));
+  itemList.add(Item(
+      imgUrl: "/C3.svg",
+      title: "C3",
+      url: "https://c3-lang.org/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/SageMath.svg",
+      title: "SageMath",
+      url: "https://www.sagemath.org/tour-quickstart.html"));
+  itemList.add(Item(
+      imgUrl: "/Sage.svg",
+      title: "Sage",
+      url:
+          "https://github.com/sagemath/sage?tab=readme-ov-file#getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Square.svg",
+      title: "Okio",
+      url: "https://square.github.io/okio"));
+  itemList.add(Item(
+      imgUrl: "/LeakCanary.svg",
+      title: "LeakCanary",
+      url: "https://square.github.io/leakcanary/getting_started"));
+  itemList.add(Item(
+      imgUrl: "/Android.svg",
       title: "Android XR",
       url:
           "https://developer.android.google.cn/develop/xr/get-started?hl=zh-cn"));
@@ -241,6 +278,10 @@ Future main(List<String> args) async {
       imgUrl: "/C%2B%2B.svg",
       title: "Visual C++",
       url: "https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170"));
+  itemList.add(Item(
+      imgUrl: "/C%2B%2B.svg",
+      title: "ISO C++",
+      url: "https://isocpp.org/get-started"));
   itemList
       .add(Item(imgUrl: "/TOML.svg", title: "TOML", url: "https://toml.io/cn"));
   itemList.add(Item(
@@ -248,6 +289,14 @@ Future main(List<String> args) async {
       title: "Swift",
       url:
           "https://docs.swift.org/swift-book/documentation/the-swift-programming-language"));
+  itemList.add(Item(
+      imgUrl: "/Swift.svg",
+      title: "SwiftPM",
+      url: "https://www.swift.org/getting-started/cli-swiftpm"));
+  itemList.add(Item(
+      imgUrl: "/Elixir.svg",
+      title: "Elixir",
+      url: "https://hexdocs.pm/elixir/introduction.html"));
   itemList
       .add(Item(imgUrl: "/Bun.svg", title: "Bun", url: "https://bun.sh/docs"));
   itemList.add(Item(
@@ -874,7 +923,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Mojo.svg",
       title: "Mojo",
-      url: "https://docs.modular.com/mojo/manual/get-started"));
+      url: "https://docs.modular.com/stable/mojo/manual/get-started"));
   itemList.add(Item(
       imgUrl: "/Debian.svg",
       title: "Debian",

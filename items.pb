@@ -27,6 +27,8 @@ Android XRChttps://developer.android.google.cn/develop/xr/get-started?hl=zh-cn
 /Angular.svgAngularhttps://angular.cn/docs
 C
 /Java_with_Ant.svgAnt(https://ant.apache.org/manual/index.html
+J
+/Android.svgAOSP4https://source.android.com/docs/setup/start?hl=zh-cn
 8
 /AppFlowy.svgAppFlowyhttps://docs.appflowy.io/docs
 `
@@ -90,6 +92,8 @@ $
 /Bun.svgBunhttps://bun.sh/docs
 8
 /Bytebase.svgBytebasehttps://www.bytebase.com/docs
+2
+/C3.svgC3#https://c3-lang.org/getting-started
 V
 /Apache%20Camel.svg
 Camel Core3https://camel.apache.org/camel-core/getting-started
@@ -208,6 +212,8 @@ F
 /Eko.svgEko5https://eko.fellou.ai/docs/getting-started/quickstart
 E
 /_Electron.svgElectron)https://www.electronjs.org/zh/docs/latest
+B
+/Elixir.svgElixir+https://hexdocs.pm/elixir/introduction.html
 B
 /esbuild.svgesbuild)https://esbuild.github.io/getting-started
 =
@@ -381,6 +387,8 @@ G
 	/IPFS.svgIPFShttps://docs.ipfs.tech
 <
 	/iroh.svgiroh)https://www.iroh.computer/docs/quickstart
+7
+/C%2B%2B.svgISO C++https://isocpp.org/get-started
 2
 /IT-Tools.svg
 IT - TOOLShttps://it-tools.tech
@@ -405,6 +413,9 @@ X
 /Space.svgJetBrains Space9https://www.jetbrains.com/help/space/getting-started.html
 u
 /JetpackCompose.svgJetpack ComposeMhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
+F
+
+/Jetty.svgJetty1https://jetty.org/docs/jetty/12/programming-guide
 4
 	/JSON.svgJSON!https://www.json.org/json-zh.html
 A
@@ -442,6 +453,9 @@ E
 /LateX.svgLateX0https://www.latex-project.org/help/documentation
 ;
 /LcJuvesBlog.svgLcJuves' Bloghttps://blog.lcjuves.com
+R
+/LeakCanary.svg
+LeakCanary3https://square.github.io/leakcanary/getting_started
 I
 /Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
 N
@@ -464,6 +478,9 @@ Q
 “
 
 /Apple.svg	Mach-O EFzhttps://developer.apple.com/library/archive/documentation/Performance/Conceptual/CodeFootprint/Articles/MachOOverview.html
+:
+
+/Magic.svgMagic%https://docs.modular.com/stable/magic
 1
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
 4
@@ -473,6 +490,8 @@ L
 9
 
 /Maven.svgMaven$https://maven.apache.org/ref/current
+@
+/MAX.svgMAX/https://docs.modular.com/stable/max/get-started
 =
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
 @
@@ -513,8 +532,8 @@ I
 9
 /ModelScope.svg
 ModelScopehttps://modelscope.cn/docs
-C
-	/Mojo.svgMojo0https://docs.modular.com/mojo/manual/get-started
+J
+	/Mojo.svgMojo7https://docs.modular.com/stable/mojo/manual/get-started
 ;
 /mongoDB.svgMongoDB"https://www.mongodb.com/zh-cn/docs
 B
@@ -566,6 +585,8 @@ W
 /OCaml.svgOCaml'https://ocaml.org/docs/installing-ocaml
 Q
 /OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
+2
+/Square.svgOkiohttps://square.github.io/okio
 V
 /Ollama.svgOllama?https://github.com/ollama/ollama/blob/main/README.md#quickstart
 y
@@ -703,6 +724,10 @@ P
 	/Rust.svgrustup"https://rust-lang.github.io/rustup
 1
 	/Rust.svgRusty V8 Bindinghttps://docs.rs/v8
+V
+	/Sage.svgSageChttps://github.com/sagemath/sage?tab=readme-ov-file#getting-started
+H
+/SageMath.svgSageMath-https://www.sagemath.org/tour-quickstart.html
 N
 /sbt.svgsbt=https://www.scala-sbt.org/1.x/docs/zh-cn/Getting-Started.html
 N
@@ -751,6 +776,9 @@ c
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
 ^
 /SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
+H
+
+/Swift.svgSwiftPM1https://www.swift.org/getting-started/cli-swiftpm
 +
 /systemd.svgsystemdhttps://systemd.io
 Q
