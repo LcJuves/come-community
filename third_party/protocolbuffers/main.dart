@@ -850,6 +850,10 @@ Future main(List<String> args) async {
       title: "NVVM IR",
       url: "https://docs.nvidia.com/cuda"));
   itemList.add(Item(
+      imgUrl: "/UEFI.svg",
+      title: "UEFI",
+      url: "https://uefi.org/uefi"));
+  itemList.add(Item(
       imgUrl: "/NVIDIA.svg",
       title: "CUDA",
       url: "https://docs.nvidia.com/cuda/nvvm-ir-spec"));

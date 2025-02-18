@@ -824,6 +824,8 @@ E
 TypeScript&https://www.typescriptlang.org/zh/docs
 I
 /UbuntuServer.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
+(
+	/UEFI.svgUEFIhttps://uefi.org/uefi
 G
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0
 M
