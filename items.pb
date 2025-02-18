@@ -160,8 +160,8 @@ P
 /Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
 A
 /CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
-1
-/NVIDIA.svgCUDAhttps://docs.nvidia.com/cuda
+>
+/NVIDIA.svgCUDA)https://docs.nvidia.com/cuda/nvvm-ir-spec
 (
 
 /_cURL.svgcURLhttps://curl.se/docs
@@ -574,6 +574,8 @@ N
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
 8
 	/Nuxt.svgNuxt%https://nuxt.com/docs/getting-started
+4
+/NVIDIA.svgNVVM IRhttps://docs.nvidia.com/cuda
 *
 
 /OAuth.svgOAuth 2https://oauth.net/2

@@ -847,8 +847,12 @@ Future main(List<String> args) async {
       url: "https://www.qemu.org/docs/master"));
   itemList.add(Item(
       imgUrl: "/NVIDIA.svg",
-      title: "CUDA",
+      title: "NVVM IR",
       url: "https://docs.nvidia.com/cuda"));
+  itemList.add(Item(
+      imgUrl: "/NVIDIA.svg",
+      title: "CUDA",
+      url: "https://docs.nvidia.com/cuda/nvvm-ir-spec"));
   itemList.add(Item(
       imgUrl: "/NVIDIA.svg",
       title: "Cosmos",
@@ -1804,6 +1808,4 @@ Future main(List<String> args) async {
   final items = Items(itemList: itemList);
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
-  final itemsJSON = File('../../items.json');
-  await itemsJSON.writeAsString(items.writeToJson(), flush: true);
 }
