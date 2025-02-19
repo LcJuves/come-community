@@ -80,8 +80,8 @@ J
 7
 
 /BoaJS.svgBoa JS!https://docs.rs/boa_engine/latest
-8
-/Bootstrap.svg	Bootstraphttps://v5.bootcss.com/docs
+N
+/Bootstrap.svg	Bootstrap1https://getbootstrap.com/docs/5.3/getting-started
 <
 /Browserless.svgBrowserlesshttps://docs.browserless.io
 ^
@@ -133,6 +133,8 @@ T
 /CodeGeeX.svgCodeGeeX9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 1
 /codeium.svgcodeiumhttps://docs.codeium.com
+]
+/Colossal-AI.svgColossal-AI<https://colossalai.org/zh-Hans/docs/get_started/installation
 ?
 /CompilerExplorer.svgCompiler Explorerhttps://godbolt.org
 i
@@ -147,6 +149,8 @@ O
 i
 /containerd.svg
 containerdJhttps://github.com/containerd/containerd/blob/main/docs/getting-started.md
+O
+/ContainerSSH.svgContainerSSH,https://containerssh.io/v0.5/getting-started
 D
 /Continue.svgContinue)https://docs.continue.dev/getting-started
 K
@@ -173,6 +177,8 @@ J
 	/D3JS.svgD3JS https://d3js.org/getting-started
 @
 	/Dart.svgDart-https://dart.cn/guides/language/language-tour
+@
+	/Dart.svgDart DevTools$https://dart.dev/tools/dart-devtools
 A
 /Datatracker.svgDatatracker https://datatracker.ietf.org/doc
 J
@@ -265,6 +271,8 @@ Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
 /GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
 @
 /git-scm.svgGit SCM'https://git-scm.com/docs/git/zh_HANS-CN
+6
+	/Rust.svggit2-rs https://docs.rs/git2/latest/git2
 L
 /GitBook.svgGitBook3https://docs.gitbook.com/getting-started/quickstart
 <
@@ -418,6 +426,8 @@ F
 /Jetty.svgJetty1https://jetty.org/docs/jetty/12/programming-guide
 4
 	/JSON.svgJSON!https://www.json.org/json-zh.html
+Z
+/JSONSchema.svgJSON Schema:https://json-schema.org/learn/getting-started-step-by-step
 A
 /Jupyter.svgJupyter(https://docs.jupyter.org/en/latest/start
 
@@ -461,6 +471,8 @@ I
 N
 
 /Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
+^
+/Linux%20Foundation.svgLinux Foundation Projects(https://www.linuxfoundation.org/projects
 0
 /emoji_u1f41b.svgLLDBhttps://lldb.llvm.org
 <
@@ -591,6 +603,9 @@ Q
 /Square.svgOkiohttps://square.github.io/okio
 V
 /Ollama.svgOllama?https://github.com/ollama/ollama/blob/main/README.md#quickstart
+E
+/Microsoft.svg
+OmniParser'https://github.com/microsoft/OmniParser
 y
 /OpenInterpreter.svgOpen InterpreterOhttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md
 S
@@ -675,6 +690,8 @@ K
 /Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
 N
 /ReactNative.svgReact Native,https://reactnative.dev/docs/getting-started
+Q
+/reactbits.svg	reactbits4https://www.reactbits.dev/text-animations/split-text
 ?
 /ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
 8
@@ -908,6 +925,8 @@ L
 /Microsoft.svgWSL5https://learn.microsoft.com/zh-cn/windows/wsl/install
 O
 	/XOrg.svgX Window System1https://www.x.org/releases/current/doc/index.html
+7
+/xAI.svgxAI Grok!https://github.com/xai-org/grok-1
 A
 /Xamarin.svgXamarin(https://docs.microsoft.com/zh-cn/xamarin
 D
