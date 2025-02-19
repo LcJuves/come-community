@@ -190,8 +190,12 @@ Future main(List<String> args) async {
       title: "Linux",
       url: "https://www.kernel.org/doc/html/latest/translations/zh_CN"));
   itemList.add(Item(
+      imgUrl: "/LinuxBoot.svg",
+      title: "LinuxBoot",
+      url: "https://www.linuxboot.org"));
+  itemList.add(Item(
       imgUrl: "/Linux%20Foundation.svg",
-      title: "Linux Foundation Projects",
+      title: "LF Projects",
       url: "https://www.linuxfoundation.org/projects"));
   itemList
       .add(Item(imgUrl: "/GoLang.svg", title: "Go", url: "https://go.dev/doc"));
