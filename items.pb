@@ -754,6 +754,8 @@ N
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
+T
+/Android.svgSDK Command-Line Tools,https://developer.android.com/tools?hl=zh-cn
 A
 /Selenium.svgSelenium&https://www.selenium.dev/documentation
 7
