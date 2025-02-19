@@ -23,6 +23,10 @@ Future main(List<String> args) async {
       url: "https://developer.android.google.cn/develop?hl=zh-cn"));
   itemList.add(Item(
       imgUrl: "/Android.svg",
+      title: "SDK Command-Line Tools",
+      url: "https://developer.android.com/tools?hl=zh-cn"));
+  itemList.add(Item(
+      imgUrl: "/Android.svg",
       title: "AOSP",
       url: "https://source.android.com/docs/setup/start?hl=zh-cn"));
   itemList.add(Item(
