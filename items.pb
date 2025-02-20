@@ -5,9 +5,9 @@ A
 /ActixWeb.svg	Actix Web%https://actix.rs/docs/getting-started
 K
 /AFFiNE.svgAFFiNE4https://docs.affine.pro/docs/development/quick-start
-'
+8
 
-/Aider.svgAiderhttps://aider.chat
+/Aider.svgAider#https://aider.chat/#getting-started
 k
 /Microsoft.svgAIOpsLabOhttps://github.com/microsoft/AIOpsLab?tab=readme-ov-file#%F0%9F%9A%80quickstart
 8
@@ -20,6 +20,8 @@ M
 /Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
 M
 /Android.svgAndroid4https://developer.android.google.cn/develop?hl=zh-cn
+N
+/Android.svgAndroid NDK1https://developer.android.com/ndk/guides?hl=zh-cn
 _
 /Android.svg
 Android XRChttps://developer.android.google.cn/develop/xr/get-started?hl=zh-cn
@@ -47,12 +49,18 @@ X
 /Arduino.svgArduinohttps://docs.arduino.cc
 J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
+4
+/AsciiDoc.svgAsciiDochttps://asciidoc.org/#try
 x
 /Eclipse%20IDE.svgAspectJYhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc
 F
 /Automa.svgAutoma/https://docs.automa.site/guide/quick-start.html
 :
 	/AVIF.svgAVIF'https://aomediacodec.github.io/av1-avif
+T
+/AWK.svgAWKChttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/awk.html
+T
+/AWK.svgAWKChttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/awk.html
 `
 /AzurePipelines.svgAzure Pipelines8https://learn.microsoft.com/zh-cn/azure/devops/pipelines
 L
@@ -131,8 +139,8 @@ T
 /__CodeOSS.svgCode OSS8https://github.com/LcJuves/vscode/wiki/How-to-Contribute
 T
 /CodeGeeX.svgCodeGeeX9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
-1
-/codeium.svgcodeiumhttps://docs.codeium.com
+Q
+/codeium.svgcodeium8https://docs.codeium.com/getstarted/overview#get-started
 ]
 /Colossal-AI.svgColossal-AI<https://colossalai.org/zh-Hans/docs/get_started/installation
 ?
@@ -169,12 +177,12 @@ A
 (
 
 /_cURL.svgcURLhttps://curl.se/docs
-.
-/Cursor.svgCursorhttps://docs.cursor.com
+N
+/Cursor.svgCursor7https://docs.cursor.com/get-started/welcome#get-started
 J
 /Cygwin.svgCygwin3https://cygwin.com/cygwin-ug-net/cygwin-ug-net.html
-3
-	/D3JS.svgD3JS https://d3js.org/getting-started
+C
+	/D3JS.svgD3JS0https://d3js.org/getting-started#getting-started
 @
 	/Dart.svgDart-https://dart.cn/guides/language/language-tour
 @
@@ -256,6 +264,8 @@ M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
 D
 /FVM.svgFVM3https://fvm.app/documentation/guides/basic-commands
+a
+/GNU.svgGAWKOhttps://www.gnu.org/software/gawk/manual/gawk.html#toc-Getting-Started-with-awk
 >
 /GCC.svgGCC-https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc
 H
@@ -265,8 +275,8 @@ R
 I
 /Google.svg
 Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
-1
-/Ghostty.svgGhosttyhttps://ghostty.org/docs
+=
+/Ghostty.svgGhostty$https://ghostty.org/docs#get-started
 ‰
 /GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
 @
@@ -292,6 +302,8 @@ R
 GitLab CLI7https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
 1
 /Gitpod.svgGitpodhttps://www.gitpod.io/docs
+;
+	/glTF.svgglTF(https://www.khronos.org/gltf/#gltf-intro
 H
 /GN.svgGN9https://gn.googlesource.com/gn/+/main/docs/quick_start.md
 >
@@ -437,8 +449,8 @@ D
 2
 	/Kali.svg
 Kali Linuxhttps://www.kali.org/docs
-R
-/KasmWorkspaces.svgKasm Workspaces*https://kasmweb.com/docs/latest/index.html
+b
+/KasmWorkspaces.svgKasm Workspaces:https://kasmweb.com/docs/latest/index.html#getting-started
 +
 
 /KateX.svgKateXhttps://katex.org/docs
@@ -447,10 +459,12 @@ R
 5
 
 /Keras.svgKeras https://keras.io/getting_started
-2
-/Kotlin.svgKotlinhttps://kotlinlang.org/docs
+G
+/Kotlin.svgKotlin0https://kotlinlang.org/docs/getting-started.html
 z
 /KotlinMultiplatform.svgKotlin MultiplatformHhttps://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html
+H
+	/kRPC.svgkRPC5https://kotlin.github.io/kotlinx-rpc/get-started.html
 '
 	/Ktor.svgKtorhttps://ktor.io/docs
 <
@@ -593,6 +607,10 @@ N
 *
 
 /OAuth.svgOAuth 2https://oauth.net/2
+2
+
+/OAuth.svg
+OAuth PKCEhttps://oauth.net/2/pkce
 W
 
 /Apple.svgObjective-C Runtime4https://developer.apple.com/documentation/objectivec
@@ -622,6 +640,9 @@ S
 /OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
 6
 /Duke%20Hips.svgOpenJDKhttps://openjdk.org/guide
+D
+/OpenRouter.svg
+OpenRouter%https://openrouter.ai/docs/quickstart
 8
 /OpenSSL.svgOpenSSLhttps://docs.openssl.org/master
 =
@@ -754,8 +775,8 @@ N
 N
 
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
-T
-/Android.svgSDK Command-Line Tools,https://developer.android.com/tools?hl=zh-cn
+O
+/Android.svgSDK CmdLine Tools,https://developer.android.com/tools?hl=zh-cn
 A
 /Selenium.svgSelenium&https://www.selenium.dev/documentation
 7
@@ -799,9 +820,9 @@ c
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
 ^
 /SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
-H
+J
 
-/Swift.svgSwiftPM1https://www.swift.org/getting-started/cli-swiftpm
+/Swift.svgSwiftPM3https://www.swift.org/documentation/package-manager
 +
 /systemd.svgsystemdhttps://systemd.io
 Q
@@ -853,6 +874,8 @@ M
 /_Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html
 f
 /OpenAIPlatform.svguniverseEhttps://github.com/openai/universe?tab=readme-ov-file#getting-started
+Q
+	/UNIX.svgUnix domain socket0https://en.wikipedia.org/wiki/Unix_domain_socket
 ‡
 	/UNIX.svgUnix ELFphttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
 .
