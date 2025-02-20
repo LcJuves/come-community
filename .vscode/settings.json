@@ -1,5 +1,6 @@
 {
-  "livePreview.serverRoot": "build/web"
+  "livePreview.serverRoot": "build/web",
+  "svg.preview.background": "transparent"
   //   "protoc": {
   //     "path": "/Users/lcjuves/Documents/macos/Enviroment/protoc-24/bin/protoc",
   //     "options": [

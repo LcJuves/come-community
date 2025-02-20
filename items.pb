@@ -59,8 +59,6 @@ F
 	/AVIF.svgAVIF'https://aomediacodec.github.io/av1-avif
 T
 /AWK.svgAWKChttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/awk.html
-T
-/AWK.svgAWKChttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/awk.html
 `
 /AzurePipelines.svgAzure Pipelines8https://learn.microsoft.com/zh-cn/azure/devops/pipelines
 L
