@@ -10,8 +10,8 @@ K
 /Aider.svgAider#https://aider.chat/#getting-started
 k
 /Microsoft.svgAIOpsLabOhttps://github.com/microsoft/AIOpsLab?tab=readme-ov-file#%F0%9F%9A%80quickstart
-8
-/Airflow.svgAirflowhttps://airflow.apache.org/docs
+Y
+/Airflow.svgAirflow@https://airflow.apache.org/docs/apache-airflow/stable/start.html
 O
 /Alibaba.svgAliDNS7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
 9
@@ -45,8 +45,8 @@ U
 Arch Linux4https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5
 X
 /ARCore.svgARCoreAhttps://developers.google.com/ar/develop/getting-started?hl=zh-cn
-0
-/Arduino.svgArduinohttps://docs.arduino.cc
+]
+/Arduino.svgArduinoDhttps://docs.arduino.cc/learn/starting-guide/getting-started-arduino
 J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 4
@@ -103,16 +103,16 @@ $
 V
 /Apache%20Camel.svg
 Camel Core3https://camel.apache.org/camel-core/getting-started
-5
-/Cangjie.svgCangjiehttps://cangjie-lang.cn/docs
-;
+„
+/Cangjie.svgCangjiekhttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
+\
 
-/Cargo.svgCargo&https://doc.rust-lang.org/stable/cargo
+/Cargo.svgCargoGhttps://doc.rust-lang.org/stable/cargo/getting-started/first-steps.html
 D
 
 /Cargo.svgCargo Remote(https://github.com/sgeisler/cargo-remote
->
-/Chat2DB.svgChat2DB%https://chat2db-ai.com/resources/docs
+Z
+/Chat2DB.svgChat2DBAhttps://chat2db-ai.com/resources/docs/start-guide/getting-started
 O
 /Chroma.svgChroma8https://docs.trychroma.com/docs/overview/getting-started
 S
@@ -181,8 +181,8 @@ J
 /Cygwin.svgCygwin3https://cygwin.com/cygwin-ug-net/cygwin-ug-net.html
 C
 	/D3JS.svgD3JS0https://d3js.org/getting-started#getting-started
-@
-	/Dart.svgDart-https://dart.cn/guides/language/language-tour
++
+	/Dart.svgDarthttps://dart.cn/language
 @
 	/Dart.svgDart DevTools$https://dart.dev/tools/dart-devtools
 A
@@ -192,15 +192,15 @@ J
 .
 /Deepin.svgDeepinhttps://docs.deepin.org
 p
-/DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-V3?tab=readme-ov-file#6-how-to-run-locally
+/DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 C
 /DevContainer.svgDev Containerhttps://containers.dev/overview
 ?
 /Diesel.svgDiesel(https://diesel.rs/guides/getting-started
-=
-/Django.svgDjango&https://docs.djangoproject.com/zh-hans
+P
+/Django.svgDjango9https://docs.djangoproject.com/zh-hans/5.1/intro/overview
 .
 /Docker.svgDockerhttps://docs.docker.com
 [
@@ -249,15 +249,15 @@ W
 /FingerprintJS.svgFingerprintJS2https://dev.fingerprint.com/docs/quick-start-guide
 ?
 	/Mojo.svg	Firecrawl'https://docs.firecrawl.dev/introduction
-7
-/Flameshot.svg	Flameshothttps://flameshot.org/docs
+I
+/Flameshot.svg	Flameshot,https://flameshot.org/docs/overview/overview
 D
 /FlatBuffers.svgFlatBuffers#https://flatbuffers.dev/quick_start
 N
 
 /Flink.svgFlink9https://ci.apache.org/projects/flink/flink-docs-stable/zh
-0
-/Flutter.svgFlutterhttps://flutter.cn/docs
+D
+/Flutter.svgFlutter+https://docs.flutter.cn/get-started/install
 M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
 D
@@ -315,14 +315,14 @@ p
 /GNU.svgGNU CoreutilsUhttps://www.gnu.org/software/coreutils/manual/html_node/index.html#toc-Introduction-1
 S
 /GNU.svgGNU make=https://www.gnu.org/software/make/manual/html_node/index.html
-%
-/GoLang.svgGohttps://go.dev/doc
-E
-/GODOT_Engine.svgGodot Engine"https://docs.godotengine.org/zh-cn
-;
+>
+/GoLang.svgGo+https://go.dev/doc/tutorial/getting-started
+
+/GODOT_Engine.svgGodot Engine^https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/introduction_to_godot.html
+L
 
 /godot.svg
-godot-rust!https://godot-rust.github.io/docs
+godot-rust2https://godot-rust.github.io/book/intro/index.html
 m
 /GooglePublicDNS.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
 G
@@ -345,12 +345,12 @@ M
 /gulpjs.svgGulpJS6https://gulpjs.com/docs/en/getting-started/quick-start
 A
 /gVisor.svggVisor*https://gvisor.dev/docs/user_guide/install
-H
-/Apache%20Hadoop.svgHadoop(https://hadoop.apache.org/docs/r1.0.4/cn
+X
+/Apache%20Hadoop.svgHadoop8https://hadoop.apache.org/docs/r1.0.4/cn/quickstart.html
 N
 	/HMOS.svgHarmonyOS Developer,https://developer.huawei.com/consumer/cn/doc
->
-/Haskell.svgHaskell%https://www.haskell.org/documentation
+<
+/Haskell.svgHaskell#https://www.haskell.org/get-started
 K
 /HelloAlgo.svg
 Hello Algo-https://www.hello-algo.com/chapter_hello_algo
@@ -373,8 +373,8 @@ E
 /HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
 D
 	/HTTP.svgHTTP1https://developer.mozilla.org/zh-CN/docs/Web/HTTP
-?
-/HTTP_Toolkit.svgHTTP Toolkithttps://httptoolkit.com/docs
+O
+/HTTP_Toolkit.svgHTTP Toolkit,https://httptoolkit.com/docs/getting-started
 9
 /HTTP_3_Check.svgHTTP/3 Checkhttps://http3check.net
 E
@@ -384,9 +384,9 @@ Z
 /Hubble.svgHubbleChttps://github.com/cilium/hubble?tab=readme-ov-file#getting-started
 =
 /HuggingFace.svgHugging Facehttps://huggingface.co/docs
-,
+9
 
-/hyper.svghyperhttps://hyper.rs/guides
+/hyper.svghyper$https://hyper.rs/guides/1/init/setup
 c
 /XunFeiOpenPlatform.svgiFLYTEK Open Platform1https://www.xfyun.cn/doc/platform/quickguide.html
 P
@@ -401,8 +401,8 @@ K
 G
 
 /Ionic.svg	Ionic Vue.https://ionicframework.com/docs/vue/quickstart
-)
-	/IPFS.svgIPFShttps://docs.ipfs.tech
+1
+	/IPFS.svgIPFShttps://docs.ipfs.tech/install
 <
 	/iroh.svgiroh)https://www.iroh.computer/docs/quickstart
 7
@@ -412,8 +412,8 @@ G
 IT - TOOLShttps://it-tools.tech
 3
 /J1Assistant.svgJ1 Assistanthttps://matter.ai
-2
-	/Java.svgJavahttps://docs.oracle.com/en/java
+9
+	/Java.svgJava&https://dev.java/learn/getting-started
 V
 /JavaScript.svg
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
@@ -421,8 +421,8 @@ E
 /JAX.svgJAX4https://jax.readthedocs.io/en/latest/quickstart.html
 1
 /_Jekyll.svgJekyllhttps://jekyllrb.com/docs
-8
-/JenkinsCI.svgJenkinshttps://www.jenkins.io/zh/doc
+V
+/JenkinsCI.svgJenkins;https://www.jenkins.io/zh/doc/pipeline/tour/getting-started
 X
 
 /Fleet.svgJetBrains Fleet9https://www.jetbrains.com/help/fleet/getting-started.html
@@ -434,6 +434,8 @@ u
 F
 
 /Jetty.svgJetty1https://jetty.org/docs/jetty/12/programming-guide
+a
+/TypeScript.svgJSDocGhttps://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
 4
 	/JSON.svgJSON!https://www.json.org/json-zh.html
 Z
@@ -442,8 +444,8 @@ A
 /Jupyter.svgJupyter(https://docs.jupyter.org/en/latest/start
 
 /JWT.svgJWThttps://jwt.io
-D
-/Apache%20Kafka.svgKafka&https://kafka.apache.org/documentation
+T
+/Apache%20Kafka.svgKafka6https://kafka.apache.org/documentation/#gettingStarted
 2
 	/Kali.svg
 Kali Linuxhttps://www.kali.org/docs
@@ -452,8 +454,8 @@ b
 +
 
 /KateX.svgKateXhttps://katex.org/docs
-7
-/KDE.svgKDE Developerhttps://develop.kde.org/docs
+G
+/KDE.svgKDE Developer,https://develop.kde.org/docs/getting-started
 5
 
 /Keras.svgKeras https://keras.io/getting_started
@@ -465,9 +467,9 @@ H
 	/kRPC.svgkRPC5https://kotlin.github.io/kotlinx-rpc/get-started.html
 '
 	/Ktor.svgKtorhttps://ktor.io/docs
-<
+E
 /Kubernetes.svg
-Kuberneteshttps://kubernetes.io/zh/docs
+Kubernetes&https://kubernetes.io/zh-cn/docs/setup
 1
 /Laravel.svgLaravelhttps://laravel.com/docs
 E
@@ -478,6 +480,8 @@ E
 R
 /LeakCanary.svg
 LeakCanary3https://square.github.io/leakcanary/getting_started
+F
+/LcJuvesBlog.svgLearn X in Y minuteshttps://learnxinyminutes.com
 I
 /Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
 P
@@ -499,6 +503,9 @@ Q
 /Lodash.svgLodashhttps://lodash.com/docs
 4
 /LOKINET.svgLOKINEThttps://www.lokinet.org/faq
+e
+/Microsoft.svg
+LSP / LSIFGhttps://microsoft.github.io/language-server-protocol/specifications/lsp
 /
 /Lua.svgLuahttps://www.lua.org/start.html
 “
@@ -509,8 +516,8 @@ Q
 /Magic.svgMagic%https://docs.modular.com/stable/magic
 1
 /MariaDB.svgMariaDBhttps://mariadb.com/docs
-4
-/_Markdown.svgMarkdownhttps://www.markdown.xyz
+D
+/_Markdown.svgMarkdown(https://www.markdown.xyz/getting-started
 L
 /MaterialWeb.svgMaterial Web*https://material-web.dev/about/quick-start
 9
@@ -530,8 +537,8 @@ J
 F
 /MetaLlama.svg
 Meta Llama(https://www.llama.com/docs/how-to-guides
-?
-/Metabase.svgMetabase$https://www.metabase.com/docs/latest
+Y
+/Metabase.svgMetabase>https://www.metabase.com/learn/metabase-basics/getting-started
 L
 /Metaflow.svgMetaflow1https://docs.metaflow.org/getting-started/install
 Y
@@ -540,12 +547,12 @@ E
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql
 =
 /MindSpore.svg	MindSpore https://www.mindspore.cn/install
-_
-/Mingw-w64.svg	Mingw-w64Bhttps://sourceforge.net/p/mingw-w64/wiki2/GeneralUsageInstructions
+Q
+/Mingw-w64.svg	Mingw-w644https://www.mingw-w64.org/getting-started/msys2-llvm
 ?
 /conda-forge.svg	Miniforge https://conda-forge.org/download
-<
-/minikube.svgminikube!https://minikube.sigs.k8s.io/docs
+B
+/minikube.svgminikube'https://minikube.sigs.k8s.io/docs/start
 =
 /Mintty.svgMintty&https://mintty.github.io/mintty.1.html
 P
@@ -573,11 +580,11 @@ u
 =
 
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2
-I
-/musl-libc.svg	musl libc,https://musl.libc.org/doc/1.1.24/manual.html
-<
+G
+/musl-libc.svg	musl libc*https://wiki.musl-libc.org/getting-started
+U
 
-/MySQL.svgMySQL'https://dev.mysql.com/doc/refman/8.4/en
+/MySQL.svgMySQL@https://dev.mysql.com/doc/refman/8.4/en/binary-installation.html
 :
 
 /Nacos.svgNacos%https://nacos.io/docs/latest/overview
@@ -649,8 +656,8 @@ I
 /OpenVINO.svgOpenVINO.https://docs.openvino.ai/2024/get-started.html
 L
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start
-?
-/OpenZFS.svgOpenZFS&https://openzfs.github.io/openzfs-docs
+\
+/OpenZFS.svgOpenZFSChttps://openzfs.github.io/openzfs-docs/Getting%20Started/index.html
 +
 /OW2_ASM.svgOW2 ASMhttps://asm.ow2.io
 1
@@ -658,14 +665,16 @@ L
 E
 
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
+\
+	/Pepe.svgPepeIhttps://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage
 .
 /PHP.svgPHPhttps://www.php.net/manual/zh
 N
 /PinganCloud.svgPing An Cloud+https://fincloud.pingan.com/ssr/help/center
 _
 /Cloudflare.svgPingoraChttps://github.com/cloudflare/pingora/blob/main/docs/quick_start.md
-9
-/Pintree.svgPintree https://docs.pintree.io/zh/guide
+E
+/Pintree.svgPintree,https://docs.pintree.io/zh/guide/open-source
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 F
@@ -687,8 +696,8 @@ PowerShell,https://learn.microsoft.com/zh-cn/powershell
 9
 /Prometheus.svg
 Prometheushttps://prometheus.io/docs
-8
-/Pug%20Template%20Engine.svgPugJShttps://pugjs.org
+Q
+/Pug%20Template%20Engine.svgPugJS*https://pugjs.org/api/getting-started.html
 D
 /Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started
 4
@@ -720,9 +729,9 @@ Q
 *
 
 /redis.svgRedishttps://redis.io/docs
-5
+Z
 
-/Redox.svgRedox OShttps://doc.redox-os.org/book
+/Redox.svgRedox OSBhttps://doc.redox-os.org/book/getting-started.html#getting-started
 G
 /Remmina.svgRemmina.https://remmina.gitlab.io/remminadoc.gitlab.io
 4
@@ -746,8 +755,8 @@ D
 	/Ruby.svgRuby-https://www.ruby-lang.org/zh_cn/documentation
 \
 /Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
-8
-	/Rust.svgRust%https://www.rust-lang.org/zh-CN/learn
+K
+	/Rust.svgRust8https://doc.rust-lang.org/book/ch01-01-installation.html
 U
 	/Rust.svgRust error codes6https://doc.rust-lang.org/error_codes/error-index.html
 g
@@ -775,8 +784,8 @@ N
 /Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
 O
 /Android.svgSDK CmdLine Tools,https://developer.android.com/tools?hl=zh-cn
-A
-/Selenium.svgSelenium&https://www.selenium.dev/documentation
+[
+/Selenium.svgSelenium@https://www.selenium.dev/documentation/webdriver/getting_started
 7
 /Sentry.svgSentry https://docs.sentry.io/platforms
 7
@@ -803,16 +812,16 @@ b
 A
 /Subversion.svg
 Subversion"https://subversion.apache.org/docs
-5
-/Svelte.svgSveltehttps://svelte.dev/docs/svelte
+E
+/Svelte.svgSvelte.https://svelte.dev/docs/svelte/getting-started
 I
 /Org_FreeSVG.svgSVG0https://developer.mozilla.org/zh-CN/docs/Web/SVG
 5
 	/SVGO.svgSVGO"https://svgo.dev/docs/introduction
 0
 /Swagger.svgSwaggerhttps://swagger.io/docs
-$
-/SWC.svgSWChttps://swc.rs/docs
+4
+/SWC.svgSWC#https://swc.rs/docs/getting-started
 c
 
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
@@ -846,9 +855,9 @@ I
 <
 
 /TIOBE.svgTIOBE Index!https://www.tiobe.com/tiobe-index
-4
+@
 
-/tokio.svgTokiohttps://tokio.rs/tokio/tutorial
+/tokio.svgTokio+https://tokio.rs/tokio/tutorial/hello-tokio
 I
 /Apache%20Tomcat.svgTomcat)https://tomcat.apache.org/tomcat-11.0-doc
 %
@@ -859,9 +868,12 @@ A
 	/Trae.svgTrae.https://docs.trae.ai/docs/set-up-trae?_lang=en
 8
 /Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
-E
+9
+
+/Trunk.svgTrunk$https://trunkrs.dev/#getting-started
+k
 /TypeScript.svg
-TypeScript&https://www.typescriptlang.org/zh/docs
+TypeScriptLhttps://www.typescriptlang.org/zh/docs/handbook/typescript-from-scratch.html
 I
 /UbuntuServer.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
 (
@@ -888,8 +900,8 @@ r
 T
 /C%2B%2B.svg
 Visual C++8https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170
-F
-/VS Code.svgVisual Studio Code"https://code.visualstudio.com/docs
+a
+/VS Code.svgVisual Studio Code=https://code.visualstudio.com/docs/getstarted/getting-started
 ,
 	/Vite.svgVitehttps://cn.vite.dev/guide
 Y
@@ -963,7 +975,9 @@ A
 /XML.svgXML0https://developer.mozilla.org/zh-CN/docs/Web/XML
 #
 	/YAML.svgYAMLhttps://yaml.org
-9
-/ZIG.svgZIG(https://ziglang.org/documentation/master
+R
+/Duke%20Hips.svgZGC9https://wiki.openjdk.org/display/zgc/Main#Main-QuickStart
+?
+/ZIG.svgZIG.https://zig.guide/getting-started/installation
 P
 /Zookeeper.svg	Zookeeper3https://zookeeper.apache.org/doc/current/index.html
