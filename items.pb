@@ -12,6 +12,8 @@ k
 /Microsoft.svgAIOpsLabOhttps://github.com/microsoft/AIOpsLab?tab=readme-ov-file#%F0%9F%9A%80quickstart
 Y
 /Airflow.svgAirflow@https://airflow.apache.org/docs/apache-airflow/stable/start.html
+v
+/Aliyun.svgAlibaba CloudXhttps://www.alibabacloud.com/help/zh/cloud-migration-guide-for-beginners/latest/overview
 O
 /Alibaba.svgAliDNS7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
 9
@@ -20,6 +22,8 @@ M
 /Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
 M
 /Android.svgAndroid4https://developer.android.google.cn/develop?hl=zh-cn
+T
+/Android.svgAndroid Decompile1https://github.lcjuves.com/java/android/decompile
 N
 /Android.svgAndroid NDK1https://developer.android.com/ndk/guides?hl=zh-cn
 _
@@ -51,14 +55,17 @@ J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 4
 /AsciiDoc.svgAsciiDochttps://asciidoc.org/#try
-x
-/Eclipse%20IDE.svgAspectJYhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc
+•
+/Eclipse%20IDE.svgAspectJvhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc#getting-started-with-aspectj
 F
 /Automa.svgAutoma/https://docs.automa.site/guide/quick-start.html
 :
 	/AVIF.svgAVIF'https://aomediacodec.github.io/av1-avif
 T
 /AWK.svgAWKChttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/awk.html
+„
+
+/Azure.svgAzure Linuxihttps://github.com/microsoft/azurelinux/blob/3.0/toolkit/docs/quick_start/quickstart.md#quick-start-guide
 `
 /AzurePipelines.svgAzure Pipelines8https://learn.microsoft.com/zh-cn/azure/devops/pipelines
 L
@@ -94,8 +101,8 @@ N
 /Buildah.svgBuildahEhttps://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html
 X
 /Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
-$
-/Bun.svgBunhttps://bun.sh/docs
+/
+/Bun.svgBunhttps://bun.sh/docs/quickstart
 8
 /Bytebase.svgBytebasehttps://www.bytebase.com/docs
 2
@@ -123,6 +130,8 @@ j
 /Cilium.svgCilium https://docs.cilium.io/en/stable
 ;
 	/LLVM.svgClang'https://clang.llvm.org/get_started.html
+f
+/ClearLinux.svgClear LinuxFhttps://www.clearlinux.org/clear-linux-documentation/guides/index.html
 Y
 /ClickHouse.svg
 ClickHouse:https://clickhouse.com/docs/en/getting-started/quick-start
@@ -152,9 +161,9 @@ c
 /Conda.svgCondaNhttps://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 O
 /conda-forge.svgconda-forge.https://conda-forge.org/docs/user/introduction
-i
+‰
 /containerd.svg
-containerdJhttps://github.com/containerd/containerd/blob/main/docs/getting-started.md
+containerdjhttps://github.com/containerd/containerd/blob/main/docs/getting-started.md#getting-started-with-containerd
 O
 /ContainerSSH.svgContainerSSH,https://containerssh.io/v0.5/getting-started
 D
@@ -170,8 +179,8 @@ P
 /Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
 A
 /CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
->
-/NVIDIA.svgCUDA)https://docs.nvidia.com/cuda/nvvm-ir-spec
+H
+/NVIDIA.svgCUDA3https://docs.nvidia.com/cuda/cuda-quick-start-guide
 (
 
 /_cURL.svgcURLhttps://curl.se/docs
@@ -209,10 +218,12 @@ l
 )https://web.lcjuves.com/donate/Alipay.svgDonate to the author)https://web.lcjuves.com/donate/Alipay.svg
 >
 /dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
+I
+/dotNET.svgdotNET MAUI-https://learn.microsoft.com/zh-cn/dotnet/maui
 w
 /Douyin.svgDouyin Mini AppWhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/introduction/usage-guide
-<
-/Dragonfly.svg	Dragonflyhttps://www.dragonflydb.io/docs
+L
+/Dragonfly.svg	Dragonfly/https://www.dragonflydb.io/docs/getting-started
 M
 /Apache%20Dubbo.svgDubbo/https://cn.dubbo.apache.org/zh-cn/overview/home
 7
@@ -228,8 +239,8 @@ B
 /Elixir.svgElixir+https://hexdocs.pm/elixir/introduction.html
 B
 /esbuild.svgesbuild)https://esbuild.github.io/getting-started
-=
-/ESLint.svgESLint&https://zh-hans.eslint.org/docs/latest
+Q
+/ESLint.svgESLint:https://zh-hans.eslint.org/docs/latest/use/getting-started
 B
 /Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
 [
@@ -260,6 +271,8 @@ D
 /Flutter.svgFlutter+https://docs.flutter.cn/get-started/install
 M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
+M
+/Fuchsia.svgFuchsia4https://fuchsia.dev/fuchsia-src/get-started?hl=zh-cn
 D
 /FVM.svgFVM3https://fvm.app/documentation/guides/basic-commands
 a
@@ -270,9 +283,9 @@ H
 /GDB.svgGDB7https://sourceware.org/gdb/download/onlinedocs/gdb.html
 R
 /GEETEST.svgGEETEST OneLogin0https://docs.geetest.com/onelogin/overview/start
-I
-/Google.svg
-Gemini API.https://ai.google.dev/gemini-api/docs?hl=zh-cn
+^
+/Gemini.svg
+Gemini APIChttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest
 =
 /Ghostty.svgGhostty$https://ghostty.org/docs#get-started
 ‰
@@ -286,11 +299,13 @@ L
 <
 
 /gitee.svgGitee Go$https://gitee.com/help/categories/69
-A
-/GitHub.svgGitHub Actions"https://docs.github.com/zh/actions
-@
+^
+/GitHub.svgGitHub Actions?https://docs.github.com/zh/actions/writing-workflows/quickstart
+ˆ
+/GitHub.svgGitHub Actions Runner Images[https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md
+V
 /GitHub.svg
-GitHub CLI%https://docs.github.com/zh/github-cli
+GitHub CLI;https://docs.github.com/zh/github-cli/github-cli/quickstart
 b
 /GitHub.svgGitHub Codespaces@https://docs.github.com/zh/codespaces/getting-started/quickstart
 L
@@ -503,9 +518,9 @@ Q
 /Lodash.svgLodashhttps://lodash.com/docs
 4
 /LOKINET.svgLOKINEThttps://www.lokinet.org/faq
-e
-/Microsoft.svg
-LSP / LSIFGhttps://microsoft.github.io/language-server-protocol/specifications/lsp
+r
+/LSP.svg
+LSP / LSIFZhttps://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification
 /
 /Lua.svgLuahttps://www.lua.org/start.html
 “
@@ -562,9 +577,9 @@ Mistral AI2https://docs.mistral.ai/getting-started/quickstart
 	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started
 I
 /China%20Mobile.svgMobile Open Platformhttps://dev.10086.cn/docHome
-9
+J
 /ModelScope.svg
-ModelScopehttps://modelscope.cn/docs
+ModelScope+https://modelscope.cn/docs/intro/quickstart
 J
 	/Mojo.svgMojo7https://docs.modular.com/stable/mojo/manual/get-started
 ;
@@ -590,11 +605,11 @@ U
 /Nacos.svgNacos%https://nacos.io/docs/latest/overview
 :
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
-d
-/NextChat.svgNextChatIhttps://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/README_CN.md
-.
+i
+/NextChat.svgNextChatNhttps://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#å¼€å§‹ä½¿ç”¨
+C
 
-/Nginx.svgNginxhttps://nginx.org/en/docs
+/Nginx.svgNginx.https://nginx.org/en/docs/beginners_guide.html
 8
 /Nim.svgNim'https://nim-lang.org/documentation.html
 4
@@ -607,8 +622,10 @@ N
 /NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
 8
 	/Nuxt.svgNuxt%https://nuxt.com/docs/getting-started
-4
-/NVIDIA.svgNVVM IRhttps://docs.nvidia.com/cuda
+f
+/NVIDIA.svgNVVM ABI for PTXEhttps://docs.nvidia.com/cuda/nvvm-ir-spec/index.html#nvvm-abi-for-ptx
+A
+/NVIDIA.svgNVVM IR)https://docs.nvidia.com/cuda/nvvm-ir-spec
 *
 
 /OAuth.svgOAuth 2https://oauth.net/2
@@ -631,16 +648,18 @@ V
 E
 /Microsoft.svg
 OmniParser'https://github.com/microsoft/OmniParser
-y
-/OpenInterpreter.svgOpen InterpreterOhttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md
+†
+/OpenInterpreter.svgOpen Interpreter\https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#å¿«é€Ÿå¼€å§‹
 S
 /OpenAIPlatform.svgOpenAI Platform+https://platform.openai.com/docs/quickstart
 8
 /OpenBSD.svgOpenBSDhttps://www.openbsd.org/76.html
-.
-/OpenCV.svgOpenCVhttps://docs.opencv.org
+5
+/OpenCV.svgOpenCVhttps://opencv.org/get-started
 :
 /OpenEuler.svg	OpenEulerhttps://docs.openeuler.org/zh
+f
+/OpenHands.svg	OpenHandsIhttps://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file#-quick-start
 <
 /OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
 6
@@ -662,6 +681,8 @@ L
 /OW2_ASM.svgOW2 ASMhttps://asm.ow2.io
 1
 	/Oxen.svgOxenhttps://docs.oxen.io/oxen-docs
+r
+/Packer.svgPacker[https://developer.hashicorp.com/packer/tutorials/docker-get-started/get-started-install-cli
 E
 
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
@@ -716,8 +737,8 @@ P
 	/qwik.svgqwik%https://qwik.dev/docs/getting-started
 8
 /RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
-K
-/Raspberrypi.svgRaspberry Pi)https://www.raspberrypi.com/documentation
+j
+/Raspberrypi.svgRaspberry PiHhttps://www.raspberrypi.com/documentation/computers/getting-started.html
 N
 /ReactNative.svgReact Native,https://reactnative.dev/docs/getting-started
 Q
@@ -726,9 +747,9 @@ Q
 /ReactiveX.svg	ReactiveX"https://reactivex.io/documentation
 8
 /ReactJS.svgReactJShttps://zh-hans.react.dev/learn
-*
+=
 
-/redis.svgRedishttps://redis.io/docs
+/redis.svgRedis(https://redis.io/docs/latest/get-started
 Z
 
 /Redox.svgRedox OSBhttps://doc.redox-os.org/book/getting-started.html#getting-started
@@ -825,6 +846,9 @@ I
 c
 
 /Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
+k
+
+/Swift.svgSwift for TensorFlowGhttps://github.com/tensorflow/swift/blob/main/README.md#getting-started
 ^
 /SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
 J
@@ -890,6 +914,8 @@ Q
 	/UNIX.svgUnix ELFphttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
 .
 /UUP-dump.svgUUP dumphttps://uupdump.net
+E
+/uv.svguv6https://docs.astral.sh/uv/getting-started/installation
 (
 	/Vala.svgValahttps://docs.vala.dev
 <
