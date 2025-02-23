@@ -408,6 +408,8 @@ Z
 9
 
 /hyper.svghyper$https://hyper.rs/guides/1/init/setup
+8
+	/iced.svgiced%https://book.iced.rs/first-steps.html
 c
 /XunFeiOpenPlatform.svgiFLYTEK Open Platform1https://www.xfyun.cn/doc/platform/quickguide.html
 P
