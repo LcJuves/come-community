@@ -1068,6 +1068,11 @@ Future main(List<String> args) async {
       title: "Debian",
       url: "https://www.debian.org/doc/manuals/debian-reference"));
   itemList.add(Item(
+      imgUrl: "/Debian.svg",
+      title: "Simple Shell Command",
+      url:
+          "https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command"));
+  itemList.add(Item(
       imgUrl: "/Cargo.svg",
       title: "Cargo",
       url:
@@ -1152,11 +1157,13 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/OceanBase.svg",
       title: "OceanBase",
-      url: "https://www.oceanbase.com/docs/oceanbase-database-cn"));
+      url:
+          "https://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002012693"));
   itemList.add(Item(
       imgUrl: "/mongoDB.svg",
       title: "MongoDB",
-      url: "https://www.mongodb.com/zh-cn/docs"));
+      url:
+          "https://www.mongodb.com/zh-cn/docs/manual/tutorial/getting-started"));
   itemList.add(Item(
       imgUrl: "/DocsyJekyll.svg",
       title: "Docsy Jekyll",
@@ -1168,7 +1175,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Tribuo.svg",
       title: "Tribuo",
-      url: "https://tribuo.org/learn/4.3/docs"));
+      url: "https://tribuo.org/learn/4.3/docs/#h1"));
   itemList.add(Item(
       imgUrl: "/GitLFS.svg",
       title: "Git LFS",
@@ -1327,10 +1334,10 @@ Future main(List<String> args) async {
       imgUrl: "/OpenEuler.svg",
       title: "OpenEuler",
       url: "https://docs.openeuler.org/zh"));
-  // itemList.add(Item(
-  //     imgUrl: "/Datadog.svg",
-  //     title: "Datadog",
-  //     url: "https://docs.datadoghq.com"));
+  itemList.add(Item(
+      imgUrl: "/Datadog.svg",
+      title: "Datadog",
+      url: "https://docs.datadoghq.com/getting_started/application"));
   itemList.add(Item(
       imgUrl: "/Wireshark.svg",
       title: "Wireshark",
@@ -1350,7 +1357,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/HuggingFace.svg",
       title: "Hugging Face",
-      url: "https://huggingface.co/docs"));
+      url: "https://huggingface.co/docs/transformers/quicktour"));
   itemList.add(Item(
       imgUrl: "/Ollama.svg",
       title: "Ollama",
@@ -1358,15 +1365,15 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Grafana.svg",
       title: "Grafana",
-      url: "https://grafana.com/docs/grafana/latest"));
+      url: "https://grafana.com/docs/grafana/latest/getting-started"));
   itemList.add(Item(
       imgUrl: "/Prometheus.svg",
       title: "Prometheus",
-      url: "https://prometheus.io/docs"));
+      url: "https://prometheus.io/docs/introduction/first_steps"));
   itemList.add(Item(
       imgUrl: "/Cilium.svg",
       title: "Cilium",
-      url: "https://docs.cilium.io/en/stable"));
+      url: "https://docs.cilium.io/en/stable/#getting-started"));
   itemList.add(Item(
       imgUrl: "/Hubble.svg",
       title: "Hubble",
@@ -1677,6 +1684,11 @@ Future main(List<String> args) async {
       imgUrl: "/OpenGroup.svg",
       title: "POSIX",
       url: "https://pubs.opengroup.org/onlinepubs/9799919799"));
+  itemList.add(Item(
+      imgUrl: "/OpenGroup.svg",
+      title: "POSIX Shell",
+      url:
+          "https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html"));
   itemList.add(Item(
       imgUrl: "/AWK.svg",
       title: "AWK",
