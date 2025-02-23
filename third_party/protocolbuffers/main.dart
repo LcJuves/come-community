@@ -252,6 +252,10 @@ Future main(List<String> args) async {
       title: "uv",
       url: "https://docs.astral.sh/uv/getting-started/installation"));
   itemList.add(Item(
+      imgUrl: "/iced.svg",
+      title: "iced",
+      url: "https://book.iced.rs/first-steps.html"));
+  itemList.add(Item(
       imgUrl: "/gVisor.svg",
       title: "gVisor",
       url: "https://gvisor.dev/docs/user_guide/install"));
