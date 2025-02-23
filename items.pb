@@ -492,6 +492,8 @@ H
 	/kRPC.svgkRPC5https://kotlin.github.io/kotlinx-rpc/get-started.html
 '
 	/Ktor.svgKtorhttps://ktor.io/docs
+U
+/ktunnel.svgktunnel<https://github.com/omrikiei/ktunnel?tab=readme-ov-file#usage
 E
 /Kubernetes.svg
 Kubernetes&https://kubernetes.io/zh-cn/docs/setup
