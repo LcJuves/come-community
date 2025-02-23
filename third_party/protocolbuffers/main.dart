@@ -813,6 +813,8 @@ Future main(List<String> args) async {
       imgUrl: "/FreeBSD.svg",
       title: "FreeBSD",
       url: "https://docs.freebsd.org/zh-cn/books/handbook/basics"));
+  itemList
+      .add(Item(imgUrl: "/Tabby.svg", title: "Tabby", url: "https://tabby.sh"));
   itemList.add(Item(
       imgUrl: "/gRPC.svg",
       title: "gRPC",

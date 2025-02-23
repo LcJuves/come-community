@@ -874,6 +874,9 @@ J
 /Swift.svgSwiftPM3https://www.swift.org/documentation/package-manager
 +
 /systemd.svgsystemdhttps://systemd.io
+%
+
+/Tabby.svgTabbyhttps://tabby.sh
 Q
 /Tabnine.svgTabnine8https://docs.tabnine.com/main/getting-started/quickstart
 2
