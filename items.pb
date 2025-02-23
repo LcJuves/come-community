@@ -350,6 +350,8 @@ m
 /GooglePublicDNS.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
 G
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
+b
+/GraalVM.svgGraalVM Native Image<https://www.graalvm.org/latest/reference-manual/native-image
 Q
 /Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html
 P
@@ -771,9 +773,9 @@ G
 /Remmina.svgRemmina.https://remmina.gitlab.io/remminadoc.gitlab.io
 4
 	/Rust.svgreqwesthttps://docs.rs/reqwest/latest
-C
+W
 
-/robot.svgRobot Framework$https://docs.robotframework.org/docs
+/robot.svgRobot Framework8https://docs.robotframework.org/docs/getting_started/rpa
 T
 /Rocket.svgRocket=https://rocket.rs/guide/v0.5/getting-started/#getting-started
 E
