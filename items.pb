@@ -1,6 +1,8 @@
 
 K
 /Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup
+Å
+/GitHub.svgActions Runner Images[https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md
 A
 /ActixWeb.svg	Actix Web%https://actix.rs/docs/getting-started
 K
@@ -170,6 +172,8 @@ D
 /Continue.svgContinue)https://docs.continue.dev/getting-started
 K
 /Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
+`
+/COSMIC_Toolkit.svgCOSMIC Toolkit9https://pop-os.github.io/libcosmic-book/introduction.html
 y
 /NVIDIA.svgCosmosbhttps://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai
 &
@@ -301,18 +305,20 @@ L
 /gitee.svgGitee Go$https://gitee.com/help/categories/69
 ^
 /GitHub.svgGitHub Actions?https://docs.github.com/zh/actions/writing-workflows/quickstart
-à
-/GitHub.svgGitHub Actions Runner Images[https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md
 V
 /GitHub.svg
 GitHub CLI;https://docs.github.com/zh/github-cli/github-cli/quickstart
 b
 /GitHub.svgGitHub Codespaces@https://docs.github.com/zh/codespaces/getting-started/quickstart
-L
-/GitLab.svg	GitLab CI2https://docs.gitlab.com/operator/developer/ci.html
-R
+`
+/GitHub.svgGitHub REST API@https://docs.github.com/zh/rest/quickstart?apiVersion=2022-11-28
+7
+/GitLab.svgGitLab CI/CDhttps://docs.gitlab.com/ci
+O
 /GitLab.svg
-GitLab CLI7https://docs.gitlab.com/ee/editor_extensions/gitlab_cli
+GitLab CLI4https://docs.gitlab.com/editor_extensions/gitlab_cli
+@
+/GitLab.svgGitLab REST API https://docs.gitlab.com/api/rest
 1
 /Gitpod.svgGitpodhttps://www.gitpod.io/docs
 ;
@@ -457,8 +463,8 @@ Z
 /JSONSchema.svgJSON Schema:https://json-schema.org/learn/getting-started-step-by-step
 A
 /Jupyter.svgJupyter(https://docs.jupyter.org/en/latest/start
-
-/JWT.svgJWThttps://jwt.io
+,
+/JWT.svgJWThttps://jwt.io/introduction
 T
 /Apache%20Kafka.svgKafka6https://kafka.apache.org/documentation/#gettingStarted
 2
@@ -687,7 +693,7 @@ E
 
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
 \
-	/Pepe.svgPepeIhttps://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage
+	/Rust.svgPepeIhttps://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage
 .
 /PHP.svgPHPhttps://www.php.net/manual/zh
 N
@@ -704,8 +710,8 @@ F
 @
 /Playwright.svg
 Playwright!https://playwright.dev/docs/intro
-7
-/podman.svgpodman https://docs.podman.io/en/latest
+-
+/podman.svgpodmanhttps://podman.io/docs
 I
 /OpenGroup.svgPOSIX0https://pubs.opengroup.org/onlinepubs/9799919799
 M

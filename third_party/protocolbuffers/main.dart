@@ -423,7 +423,11 @@ Future main(List<String> args) async {
       url: "https://docs.github.com/zh/actions/writing-workflows/quickstart"));
   itemList.add(Item(
       imgUrl: "/GitHub.svg",
-      title: "GitHub Actions Runner Images",
+      title: "GitHub REST API",
+      url: "https://docs.github.com/zh/rest/quickstart?apiVersion=2022-11-28"));
+  itemList.add(Item(
+      imgUrl: "/GitHub.svg",
+      title: "Actions Runner Images",
       url:
           "https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md"));
   itemList.add(Item(
@@ -441,12 +445,16 @@ Future main(List<String> args) async {
       url: "https://docs.github.com/zh/codespaces/getting-started/quickstart"));
   itemList.add(Item(
       imgUrl: "/GitLab.svg",
-      title: "GitLab CI",
-      url: "https://docs.gitlab.com/operator/developer/ci.html"));
+      title: "GitLab CI/CD",
+      url: "https://docs.gitlab.com/ci"));
+  itemList.add(Item(
+      imgUrl: "/GitLab.svg",
+      title: "GitLab REST API",
+      url: "https://docs.gitlab.com/api/rest"));
   itemList.add(Item(
       imgUrl: "/GitLab.svg",
       title: "GitLab CLI",
-      url: "https://docs.gitlab.com/ee/editor_extensions/gitlab_cli"));
+      url: "https://docs.gitlab.com/editor_extensions/gitlab_cli"));
   itemList.add(Item(
       imgUrl: "/VS Code.svg",
       title: "Visual Studio Code",
@@ -473,15 +481,14 @@ Future main(List<String> args) async {
       imgUrl: "/MSYS2.svg",
       title: "MSYS2",
       url: "https://www.msys2.org/docs/what-is-msys2"));
-  itemList.add(Item(imgUrl: "/JWT.svg", title: "JWT", url: "https://jwt.io"));
+  itemList.add(Item(
+      imgUrl: "/JWT.svg", title: "JWT", url: "https://jwt.io/introduction"));
   // itemList.add(Item(
   //     imgUrl: "/emscripten.svg",
   //     title: "emscripten",
   //     url: "https://emscripten.org/docs/getting_started"));
   itemList.add(Item(
-      imgUrl: "/podman.svg",
-      title: "podman",
-      url: "https://docs.podman.io/en/latest"));
+      imgUrl: "/podman.svg", title: "podman", url: "https://podman.io/docs"));
   itemList.add(Item(
       imgUrl: "/redis.svg",
       title: "Redis",
@@ -1527,10 +1534,14 @@ Future main(List<String> args) async {
       title: "Rusty V8 Binding",
       url: "https://docs.rs/v8"));
   itemList.add(Item(
-      imgUrl: "/Pepe.svg",
+      imgUrl: "/Rust.svg",
       title: "Pepe",
       url:
           "https://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage"));
+  itemList.add(Item(
+      imgUrl: "/COSMIC_Toolkit.svg",
+      title: "COSMIC Toolkit",
+      url: "https://pop-os.github.io/libcosmic-book/introduction.html"));
   itemList.add(Item(
       imgUrl: "/Trunk.svg",
       title: "Trunk",
