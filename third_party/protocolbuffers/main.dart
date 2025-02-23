@@ -115,11 +115,11 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Vue.svg",
       title: "VueJS",
-      url: "https://cn.vuejs.org/guide/introduction"));
+      url: "https://cn.vuejs.org/guide/quick-start.html"));
   itemList.add(Item(
       imgUrl: "/Python.svg",
       title: "Python",
-      url: "https://docs.python.org/zh-cn"));
+      url: "https://docs.python.org/zh-cn/3/tutorial/index.html"));
   itemList.add(Item(
       imgUrl: "/Dart.svg", title: "Dart", url: "https://dart.cn/language"));
   itemList.add(Item(
@@ -133,7 +133,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Xamarin.svg",
       title: "Xamarin",
-      url: "https://docs.microsoft.com/zh-cn/xamarin"));
+      url:
+          "https://learn.microsoft.com/zh-cn/previous-versions/xamarin/get-started/quickstarts/app"));
   itemList.add(Item(
       imgUrl: "/Kubernetes.svg",
       title: "Kubernetes",
@@ -176,11 +177,12 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/NodeJS.svg",
       title: "NodeJS",
-      url: "https://nodejs.org/zh-cn/docs"));
+      url:
+          "https://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"));
   itemList.add(Item(
       imgUrl: "/PyTorch.svg",
       title: "PyTorch",
-      url: "https://pytorch.org/docs/stable"));
+      url: "https://pytorch.org/get-started/locally"));
   itemList.add(Item(
       imgUrl: "/dotNET.svg",
       title: "dotNET",
@@ -834,21 +836,26 @@ Future main(List<String> args) async {
       title: "GraalVM",
       url: "https://www.graalvm.org/latest/getting-started"));
   itemList.add(Item(
+      imgUrl: "/GraalVM.svg",
+      title: "GraalVM Native Image",
+      url: "https://www.graalvm.org/latest/reference-manual/native-image"));
+  itemList.add(Item(
       imgUrl: "/Cygwin.svg",
       title: "Cygwin",
       url: "https://cygwin.com/cygwin-ug-net/cygwin-ug-net.html"));
   itemList.add(Item(
       imgUrl: "/robot.svg",
       title: "Robot Framework",
-      url: "https://docs.robotframework.org/docs"));
+      url: "https://docs.robotframework.org/docs/getting_started/rpa"));
   itemList.add(Item(
       imgUrl: "/Apache%20Hive.svg",
       title: "Hive",
-      url: "https://hive.apache.org/docs/latest"));
+      url: "https://cwiki.apache.org/confluence/display/Hive/GettingStarted"));
   itemList.add(Item(
       imgUrl: "/Apache%20Cordova.svg",
       title: "Cordova",
-      url: "https://cordova.apache.org/docs/en/latest"));
+      url:
+          "https://cordova.apache.org/docs/en/latest/guide/cli/installation.html"));
   itemList.add(Item(
       imgUrl: "/GNU.svg",
       title: "GNU Coreutils",
