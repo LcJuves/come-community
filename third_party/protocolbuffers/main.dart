@@ -813,8 +813,14 @@ Future main(List<String> args) async {
       imgUrl: "/FreeBSD.svg",
       title: "FreeBSD",
       url: "https://docs.freebsd.org/zh-cn/books/handbook/basics"));
-  itemList.add(
-      Item(imgUrl: "/gRPC.svg", title: "gRPC", url: "https://grpc.io/docs"));
+  itemList.add(Item(
+      imgUrl: "/gRPC.svg",
+      title: "gRPC",
+      url: "https://grpc.io/docs/languages/go/quickstart"));
+  // itemList.add(Item(
+  //     imgUrl: "/capnproto.svg",
+  //     title: "Cap’n Proto",
+  //     url: "https://capnproto.org/install.html"));
   // itemList.add(Item(
   //     imgUrl: "/radash.svg",
   //     title: "radash",

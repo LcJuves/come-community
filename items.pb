@@ -360,8 +360,8 @@ P
 /GraphQL.svgGraphQLhttps://graphql.cn/learn
 V
 /Apache%20Groovy.svgGroovy6https://docs.groovy-lang.org/latest/html/documentation
-'
-	/gRPC.svggRPChttps://grpc.io/docs
+?
+	/gRPC.svggRPC,https://grpc.io/docs/languages/go/quickstart
 <
 /GruntJS.svgGruntJS#https://gruntjs.com/getting-started
 9
