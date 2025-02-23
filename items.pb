@@ -128,8 +128,8 @@ S
 /Chrome.svgChrome DevTools3https://developer.chrome.com/docs/devtools?hl=zh-cn
 j
 /Chromium.svgChromiumOhttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md
-7
-/Cilium.svgCilium https://docs.cilium.io/en/stable
+H
+/Cilium.svgCilium1https://docs.cilium.io/en/stable/#getting-started
 ;
 	/LLVM.svgClang'https://clang.llvm.org/get_started.html
 f
@@ -198,6 +198,8 @@ C
 	/Dart.svgDarthttps://dart.cn/language
 @
 	/Dart.svgDart DevTools$https://dart.dev/tools/dart-devtools
+O
+/Datadog.svgDatadog6https://docs.datadoghq.com/getting_started/application
 A
 /Datatracker.svgDatatracker https://datatracker.ietf.org/doc
 J
@@ -350,8 +352,8 @@ G
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started
 Q
 /Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html
-@
-/Grafana.svgGrafana'https://grafana.com/docs/grafana/latest
+P
+/Grafana.svgGrafana7https://grafana.com/docs/grafana/latest/getting-started
 1
 /GraphQL.svgGraphQLhttps://graphql.cn/learn
 V
@@ -403,8 +405,8 @@ E
 HTTPie CLI'https://httpie.io/docs/cli/installation
 Z
 /Hubble.svgHubbleChttps://github.com/cilium/hubble?tab=readme-ov-file#getting-started
-=
-/HuggingFace.svgHugging Facehttps://huggingface.co/docs
+T
+/HuggingFace.svgHugging Face2https://huggingface.co/docs/transformers/quicktour
 9
 
 /hyper.svghyper$https://hyper.rs/guides/1/init/setup
@@ -590,8 +592,8 @@ J
 ModelScope+https://modelscope.cn/docs/intro/quickstart
 J
 	/Mojo.svgMojo7https://docs.modular.com/stable/mojo/manual/get-started
-;
-/mongoDB.svgMongoDB"https://www.mongodb.com/zh-cn/docs
+[
+/mongoDB.svgMongoDBBhttps://www.mongodb.com/zh-cn/docs/manual/tutorial/getting-started
 B
 /MoonBit.svgMoonBit)https://docs.moonbitlang.com/zh-cn/latest
 3
@@ -647,8 +649,8 @@ W
 <
 
 /OCaml.svgOCaml'https://ocaml.org/docs/installing-ocaml
-Q
-/OceanBase.svg	OceanBase4https://www.oceanbase.com/docs/oceanbase-database-cn
+i
+/OceanBase.svg	OceanBaseLhttps://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002012693
 2
 /Square.svgOkiohttps://square.github.io/okio
 V
@@ -716,15 +718,17 @@ Playwright!https://playwright.dev/docs/intro
 /podman.svgpodmanhttps://podman.io/docs
 I
 /OpenGroup.svgPOSIX0https://pubs.opengroup.org/onlinepubs/9799919799
+h
+/OpenGroup.svgPOSIX ShellIhttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html
 M
 /PostgreSQL.svg
 PostgreSQL.http://www.postgres.cn/docs/current/index.html
 K
 /PowerShell.svg
 PowerShell,https://learn.microsoft.com/zh-cn/powershell
-9
+R
 /Prometheus.svg
-Prometheushttps://prometheus.io/docs
+Prometheus3https://prometheus.io/docs/introduction/first_steps
 Q
 /Pug%20Template%20Engine.svgPugJS*https://pugjs.org/api/getting-started.html
 D
@@ -824,6 +828,8 @@ O
 /Servo.svgServohttps://doc.servo.org
 3
 /SESSION.svgSESSIONhttps://getsession.org/faq
+‚
+/Debian.svgSimple Shell Command]https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command
 (
 	/Skia.svgSkiahttps://skia.org/docs
 U
@@ -898,8 +904,8 @@ I
 /Tor.svgTor$https://support.torproject.org/zh-CN
 A
 	/Trae.svgTrae.https://docs.trae.ai/docs/set-up-trae?_lang=en
-8
-/Tribuo.svgTribuo!https://tribuo.org/learn/4.3/docs
+<
+/Tribuo.svgTribuo%https://tribuo.org/learn/4.3/docs/#h1
 9
 
 /Trunk.svgTrunk$https://trunkrs.dev/#getting-started
