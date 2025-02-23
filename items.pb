@@ -170,8 +170,8 @@ O
 /ContainerSSH.svgContainerSSH,https://containerssh.io/v0.5/getting-started
 D
 /Continue.svgContinue)https://docs.continue.dev/getting-started
-K
-/Apache%20Cordova.svgCordova)https://cordova.apache.org/docs/en/latest
+g
+/Apache%20Cordova.svgCordovaEhttps://cordova.apache.org/docs/en/latest/guide/cli/installation.html
 `
 /COSMIC_Toolkit.svgCOSMIC Toolkit9https://pop-os.github.io/libcosmic-book/introduction.html
 y
@@ -383,8 +383,8 @@ Hello Algo-https://www.hello-algo.com/chapter_hello_algo
 	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
 F
 	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
-?
-/Apache%20Hive.svgHive#https://hive.apache.org/docs/latest
+[
+/Apache%20Hive.svgHive?https://cwiki.apache.org/confluence/display/Hive/GettingStarted
 H
 /HomeAssistant.svgHome Assistant"https://www.home-assistant.io/docs
 e
@@ -626,8 +626,8 @@ C
 /Nginx.svgNginx.https://nginx.org/en/docs/beginners_guide.html
 8
 /Nim.svgNim'https://nim-lang.org/documentation.html
-4
-/NodeJS.svgNodeJShttps://nodejs.org/zh-cn/docs
+\
+/NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
 N
 
 /NumPy.svgNumPy9https://numpy.org/doc/stable/user/absolute_beginners.html
@@ -737,10 +737,10 @@ Q
 /Pug%20Template%20Engine.svgPugJS*https://pugjs.org/api/getting-started.html
 D
 /Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started
-4
-/Python.svgPythonhttps://docs.python.org/zh-cn
-8
-/PyTorch.svgPyTorchhttps://pytorch.org/docs/stable
+J
+/Python.svgPython3https://docs.python.org/zh-cn/3/tutorial/index.html
+@
+/PyTorch.svgPyTorch'https://pytorch.org/get-started/locally
 C
 /Qdrant.svgQdrant,https://qdrant.tech/documentation/quickstart
 3
@@ -950,8 +950,8 @@ a
 	/Vite.svgVitehttps://cn.vite.dev/guide
 Y
 /VSCodium.svgVSCodium>https://github.com/VSCodium/vscodium/blob/master/docs/index.md
-:
-/Vue.svgVueJS'https://cn.vuejs.org/guide/introduction
+>
+/Vue.svgVueJS+https://cn.vuejs.org/guide/quick-start.html
 +
 
 /WASIX.svgWASIXhttps://wasix.org/docs
@@ -1008,8 +1008,8 @@ O
 	/XOrg.svgX Window System1https://www.x.org/releases/current/doc/index.html
 7
 /xAI.svgxAI Grok!https://github.com/xai-org/grok-1
-A
-/Xamarin.svgXamarin(https://docs.microsoft.com/zh-cn/xamarin
+p
+/Xamarin.svgXamarinWhttps://learn.microsoft.com/zh-cn/previous-versions/xamarin/get-started/quickstarts/app
 D
 
 /Xcode.svgXcode/https://developer.apple.com/documentation/xcode
