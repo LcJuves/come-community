@@ -107,7 +107,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/ReactNative.svg",
       title: "React Native",
-      url: "https://reactnative.dev/docs/getting-started"));
+      url: "https://reactnative.dev/docs/environment-setup"));
   itemList.add(Item(
       imgUrl: "/Expo.svg",
       title: "Expo",
@@ -297,15 +297,22 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Let's%20Encrypt.svg",
       title: "Let's Encrypt",
-      url: "https://letsencrypt.org/zh-cn/docs"));
+      url: "https://letsencrypt.org/zh-cn/getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Certbot.svg",
+      title: "Certbot Commands",
+      url:
+          "https://eff-certbot.readthedocs.io/en/stable/using.html#certbot-commands"));
   itemList.add(Item(
       imgUrl: "/Bootstrap.svg",
       title: "Bootstrap",
-      url: "https://getbootstrap.com/docs/5.3/getting-started"));
+      url:
+          "https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start"));
   itemList.add(Item(
       imgUrl: "/Microsoft.svg",
       title: "OmniParser",
-      url: "https://github.com/microsoft/OmniParser"));
+      url:
+          "https://github.com/microsoft/OmniParser?tab=readme-ov-file#install"));
   itemList.add(Item(
       imgUrl: "/Colossal-AI.svg",
       title: "Colossal-AI",
@@ -319,11 +326,12 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Ruby.svg",
       title: "Ruby",
-      url: "https://www.ruby-lang.org/zh_cn/documentation"));
+      url: "https://www.ruby-lang.org/zh_cn/documentation/quickstart"));
   itemList.add(Item(
       imgUrl: "/_Electron.svg",
       title: "Electron",
-      url: "https://www.electronjs.org/zh/docs/latest"));
+      url:
+          "https://www.electronjs.org/zh/docs/latest/tutorial/tutorial-prerequisites"));
   itemList.add(Item(
       imgUrl: "/JavaScript.svg",
       title: "JavaScript",
@@ -472,7 +480,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/CMake.svg",
       title: "CMake",
-      url: "https://cmake.org/cmake/help/latest"));
+      url:
+          "https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html"));
   itemList.add(Item(
       imgUrl: "/PowerShell.svg",
       title: "PowerShell",
@@ -666,11 +675,12 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/NumPy.svg",
       title: "NumPy",
-      url: "https://numpy.org/doc/stable/user/absolute_beginners.html"));
+      url:
+          "https://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"));
   itemList.add(Item(
       imgUrl: "/Browserless.svg",
       title: "Browserless",
-      url: "https://docs.browserless.io"));
+      url: "https://docs.browserless.io/baas/docker/quickstart"));
   itemList.add(Item(
       imgUrl: "/AppImage.svg",
       title: "AppImage",
@@ -685,7 +695,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Subversion.svg",
       title: "Subversion",
-      url: "https://subversion.apache.org/docs"));
+      url: "https://subversion.apache.org/quick-start"));
   itemList.add(Item(
       imgUrl: "/OpenVela.svg",
       title: "Xiaomi OpenVela",
@@ -693,7 +703,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/NuttX.svg",
       title: "NuttX",
-      url: "https://nuttx.apache.org/docs/latest"));
+      url: "https://nuttx.apache.org/docs/latest/quickstart/install.html"));
   itemList.add(Item(
       imgUrl: "/Azure.svg",
       title: "Azure Quantum",
@@ -704,7 +714,17 @@ Future main(List<String> args) async {
       url:
           "https://github.com/microsoft/azurelinux/blob/3.0/toolkit/docs/quick_start/quickstart.md#quick-start-guide"));
   itemList.add(Item(
-      imgUrl: "/Homebrew.svg", title: "Homebrew", url: "https://docs.brew.sh"));
+      imgUrl: "/Homebrew.svg",
+      title: "Homebrew",
+      url: "https://docs.brew.sh/Installation"));
+  itemList.add(Item(
+      imgUrl: "/IANA.svg",
+      title: "Media Types",
+      url: "https://docs.brew.sh/Installation"));
+  itemList.add(Item(
+      imgUrl: "/ACME.svg",
+      title: "ACME",
+      url: "https://datatracker.ietf.org/doc/html/rfc8555"));
   itemList.add(Item(
       imgUrl: "/HTML5.svg",
       title: "HTML",
@@ -1576,8 +1596,10 @@ Future main(List<String> args) async {
       imgUrl: "/Cargo.svg",
       title: "Cargo Remote",
       url: "https://github.com/sgeisler/cargo-remote"));
-  // itemList.add(
-  //     Item(imgUrl: "/Pixi.svg", title: "Pixi", url: "https://pixi.sh/latest/#getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Prefix.svg",
+      title: "Pixi",
+      url: "https://pixi.sh/latest/#installation"));
   itemList.add(Item(
       imgUrl: "/Mingw-w64.svg",
       title: "Mingw-w64",
@@ -1587,6 +1609,11 @@ Future main(List<String> args) async {
       title: "DeepSeek",
       url:
           "https://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally"));
+  itemList.add(Item(
+      imgUrl: "/DeepSeek-V3.svg",
+      title: "DeepEP",
+      url:
+          "https://github.com/deepseek-ai/DeepEP?tab=readme-ov-file#quick-start"));
   itemList.add(Item(
       imgUrl: "/AppFlowy.svg",
       title: "AppFlowy",
@@ -1610,11 +1637,12 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/rust-analyzer.svg",
       title: "rust-analyzer",
-      url: "https://rust-analyzer.github.io/manual.html"));
+      url: "https://rust-analyzer.github.io/book/vs_code.html#vs-code"));
   itemList.add(Item(
-      imgUrl: "/OpenStack.svg",
-      title: "OpenStack",
-      url: "https://docs.openstack.org/zh_CN"));
+    imgUrl: "/OpenStack.svg",
+    title: "OpenStack",
+    url: "https://docs.openstack.org/devstack/latest/#quick-start",
+  ));
   itemList.add(Item(
       imgUrl: "/HelloAlgo.svg",
       title: "Hello Algo",
@@ -1698,7 +1726,13 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/OpenGroup.svg",
       title: "POSIX",
-      url: "https://pubs.opengroup.org/onlinepubs/9799919799"));
+      url:
+          "https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap01.html"));
+  itemList.add(Item(
+      imgUrl: "/OpenGroup.svg",
+      title: "POSIX Headers",
+      url:
+          "https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap14.html"));
   itemList.add(Item(
       imgUrl: "/OpenGroup.svg",
       title: "POSIX Shell",
@@ -1721,7 +1755,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Serverpod.svg",
       title: "Serverpod",
-      url: "https://docs.serverpod.dev"));
+      url: "https://docs.serverpod.dev/#command-line-tools"));
   // itemList.add(Item(
   //     imgUrl: "/Motion.svg",
   //     title: "Motion",
@@ -1745,24 +1779,26 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/emoji_u1f41b.svg",
       title: "LLDB",
-      url: "https://lldb.llvm.org"));
+      url: "https://lldb.llvm.org/use/tutorial.html"));
   itemList.add(Item(
       imgUrl: "/Buildah.svg",
       title: "Buildah",
       url:
-          "https://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html"));
+          "https://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html#building-oci-container-images"));
   itemList.add(Item(
       imgUrl: "/Meson.svg",
       title: "Meson",
-      url: "https://mesonbuild.com/Quick-guide.html"));
+      url: "https://mesonbuild.com/Quick-guide.html#requirements"));
   itemList.add(Item(
       imgUrl: "/Ionic.svg",
       title: "Ionic React",
-      url: "https://ionicframework.com/docs/react/quickstart"));
+      url:
+          "https://ionicframework.com/docs/react/quickstart#what-is-ionic-framework"));
   itemList.add(Item(
       imgUrl: "/Ionic.svg",
       title: "Ionic Vue",
-      url: "https://ionicframework.com/docs/vue/quickstart"));
+      url:
+          "https://ionicframework.com/docs/vue/quickstart#what-is-ionic-framework"));
   itemList.add(Item(
       imgUrl: "/WebRTC.svg",
       title: "WebRTC",
@@ -1839,7 +1875,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Mercurial.svg",
       title: "Mercurial",
-      url: "https://www.mercurial-scm.org/guide"));
+      url: "https://www.mercurial-scm.org/install"));
   itemList.add(Item(
       imgUrl: "/WebP.svg",
       title: "WebP",
@@ -1879,7 +1915,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Java_with_Ant.svg",
       title: "Ant",
-      url: "https://ant.apache.org/manual/index.html"));
+      url: "https://ant.apache.org/manual/install.html#getting"));
   itemList.add(Item(
       imgUrl: "/MistralAI.svg",
       title: "Mistral AI",
