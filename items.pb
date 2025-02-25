@@ -210,8 +210,9 @@ J
 /Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
 `
 /DeepSeek-V3.svgDeepEPDhttps://github.com/deepseek-ai/DeepEP?tab=readme-ov-file#quick-start
-.
-/Deepin.svgDeepinhttps://docs.deepin.org
+s
+/Deepin.svg
+Deepin DTKXhttps://docs.deepin.org/info/开发入门/基础环境/DTK/概述/概述/DTK入门指引
 p
 /DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
 0
@@ -274,6 +275,8 @@ W
 	/Mojo.svg	Firecrawl'https://docs.firecrawl.dev/introduction
 I
 /Flameshot.svg	Flameshot,https://flameshot.org/docs/overview/overview
+d
+/DeepSeek-V3.svgFlashMLAFhttps://github.com/deepseek-ai/FlashMLA?tab=readme-ov-file#quick-start
 D
 /FlatBuffers.svgFlatBuffers#https://flatbuffers.dev/quick_start
 N
@@ -397,8 +400,8 @@ e
 /_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
 <
 /Homebrew.svgHomebrew!https://docs.brew.sh/Installation
->
-	/Hono.svgHono+https://hono.dev/docs/getting-started/basic
+F
+	/Hono.svgHono3https://hono.dev/docs/getting-started/basic#starter
 E
 
 /HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML
@@ -562,8 +565,8 @@ L
 /MAX.svgMAX/https://docs.modular.com/stable/max/get-started
 =
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
-;
-	/IANA.svgMedia Types!https://docs.brew.sh/Installation
+X
+	/IANA.svgMedia Types>https://www.iana.org/assignments/media-types/media-types.xhtml
 B
 /Mercurial.svg	Mercurial%https://www.mercurial-scm.org/install
 J
@@ -858,8 +861,8 @@ b
 /SpringBoot.svgSpring BootBhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
 =
 /SQLite.svgSQLite&https://www.sqlite.org/quickstart.html
->
-/StirlingPDF.svgStirling PDFhttps://docs.stirlingpdf.com
+�
+/StirlingPDF.svgStirling PDF_https://docs.stirlingpdf.com/Installation/Docker%20Install#run-docker-container-with-docker-run
 H
 /Subversion.svg
 Subversion)https://subversion.apache.org/quick-start
@@ -1008,7 +1011,7 @@ b
 L
 /Windsurf.svgWindsurf1https://docs.codeium.com/windsurf/getting-started
 4
-/WinterCG.svgWinterTChttps://wintercg.org/work
+/WinterCG.svgWinterTChttps://wintertc.org/work
 9
 /Wintun.svgWintun"https://git.zx2c4.com/wintun/about
 A
