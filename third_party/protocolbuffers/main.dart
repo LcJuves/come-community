@@ -720,7 +720,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/IANA.svg",
       title: "Media Types",
-      url: "https://docs.brew.sh/Installation"));
+      url: "https://www.iana.org/assignments/media-types/media-types.xhtml"));
   itemList.add(Item(
       imgUrl: "/ACME.svg",
       title: "ACME",
@@ -1002,7 +1002,9 @@ Future main(List<String> args) async {
       url:
           "https://www.clearlinux.org/clear-linux-documentation/guides/index.html"));
   itemList.add(Item(
-      imgUrl: "/Deepin.svg", title: "Deepin", url: "https://docs.deepin.org"));
+      imgUrl: "/Deepin.svg",
+      title: "Deepin DTK",
+      url: "https://docs.deepin.org/info/开发入门/基础环境/DTK/概述/概述/DTK入门指引"));
   itemList.add(Item(
       imgUrl: "/QEMU.svg",
       title: "QEMU",
@@ -1064,7 +1066,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/WinterCG.svg",
       title: "WinterTC",
-      url: "https://wintercg.org/work"));
+      url: "https://wintertc.org/work"));
   itemList.add(Item(
       imgUrl: "/Exercism.svg",
       title: "Exercism",
@@ -1615,6 +1617,11 @@ Future main(List<String> args) async {
       url:
           "https://github.com/deepseek-ai/DeepEP?tab=readme-ov-file#quick-start"));
   itemList.add(Item(
+      imgUrl: "/DeepSeek-V3.svg",
+      title: "FlashMLA",
+      url:
+          "https://github.com/deepseek-ai/FlashMLA?tab=readme-ov-file#quick-start"));
+  itemList.add(Item(
       imgUrl: "/AppFlowy.svg",
       title: "AppFlowy",
       url: "https://docs.appflowy.io/docs"));
@@ -1810,7 +1817,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Hono.svg",
       title: "Hono",
-      url: "https://hono.dev/docs/getting-started/basic"));
+      url: "https://hono.dev/docs/getting-started/basic#starter"));
   itemList.add(Item(
       imgUrl: "/Lobster.svg",
       title: "Lobster",
@@ -1822,7 +1829,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/StirlingPDF.svg",
       title: "Stirling PDF",
-      url: "https://docs.stirlingpdf.com"));
+      url:
+          "https://docs.stirlingpdf.com/Installation/Docker%20Install#run-docker-container-with-docker-run"));
   itemList.add(Item(
       imgUrl: "/GN.svg",
       title: "GN",
