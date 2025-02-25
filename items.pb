@@ -1,6 +1,8 @@
 
 K
 /Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup
+@
+	/ACME.svgACME-https://datatracker.ietf.org/doc/html/rfc8555
 �
 /GitHub.svgActions Runner Images[https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md
 A
@@ -33,8 +35,8 @@ _
 Android XRChttps://developer.android.google.cn/develop/xr/get-started?hl=zh-cn
 0
 /Angular.svgAngularhttps://angular.cn/docs
-C
-/Java_with_Ant.svgAnt(https://ant.apache.org/manual/index.html
+M
+/Java_with_Ant.svgAnt2https://ant.apache.org/manual/install.html#getting
 J
 /Android.svgAOSP4https://source.android.com/docs/setup/start?hl=zh-cn
 8
@@ -95,12 +97,12 @@ J
 7
 
 /BoaJS.svgBoa JS!https://docs.rs/boa_engine/latest
-N
-/Bootstrap.svg	Bootstrap1https://getbootstrap.com/docs/5.3/getting-started
-<
-/Browserless.svgBrowserlesshttps://docs.browserless.io
-^
-/Buildah.svgBuildahEhttps://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html
+h
+/Bootstrap.svg	BootstrapKhttps://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start
+S
+/Browserless.svgBrowserless2https://docs.browserless.io/baas/docker/quickstart
+|
+/Buildah.svgBuildahchttps://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html#building-oci-container-images
 X
 /Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
 /
@@ -120,6 +122,8 @@ Camel Core3https://camel.apache.org/camel-core/getting-started
 D
 
 /Cargo.svgCargo Remote(https://github.com/sgeisler/cargo-remote
+j
+/Certbot.svgCertbot CommandsHhttps://eff-certbot.readthedocs.io/en/stable/using.html#certbot-commands
 Z
 /Chat2DB.svgChat2DBAhttps://chat2db-ai.com/resources/docs/start-guide/getting-started
 O
@@ -139,9 +143,9 @@ Y
 ClickHouse:https://clickhouse.com/docs/en/getting-started/quick-start
 C
 /Clojure.svgClojure*https://clojure.org/guides/getting_started
-8
+i
 
-/CMake.svgCMake#https://cmake.org/cmake/help/latest
+/CMake.svgCMakeThttps://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html
 T
 /CocoaPods.svg	CocoaPods7https://guides.cocoapods.org/using/getting-started.html
 T
@@ -204,6 +208,8 @@ A
 /Datatracker.svgDatatracker https://datatracker.ietf.org/doc
 J
 /Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
+`
+/DeepSeek-V3.svgDeepEPDhttps://github.com/deepseek-ai/DeepEP?tab=readme-ov-file#quick-start
 .
 /Deepin.svgDeepinhttps://docs.deepin.org
 p
@@ -239,8 +245,8 @@ M
 ECMAScripthttps://tc39.es/ecma262
 F
 /Eko.svgEko5https://eko.fellou.ai/docs/getting-started/quickstart
-E
-/_Electron.svgElectron)https://www.electronjs.org/zh/docs/latest
+e
+/_Electron.svgElectronIhttps://www.electronjs.org/zh/docs/latest/tutorial/tutorial-prerequisites
 B
 /Elixir.svgElixir+https://hexdocs.pm/elixir/introduction.html
 B
@@ -389,8 +395,8 @@ H
 /HomeAssistant.svgHome Assistant"https://www.home-assistant.io/docs
 e
 /_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
-/
-/Homebrew.svgHomebrewhttps://docs.brew.sh
+<
+/Homebrew.svgHomebrew!https://docs.brew.sh/Installation
 >
 	/Hono.svgHono+https://hono.dev/docs/getting-started/basic
 E
@@ -422,12 +428,12 @@ H
 /InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
 ]
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
-K
+c
 
-/Ionic.svgIonic React0https://ionicframework.com/docs/react/quickstart
-G
+/Ionic.svgIonic ReactHhttps://ionicframework.com/docs/react/quickstart#what-is-ionic-framework
+_
 
-/Ionic.svg	Ionic Vue.https://ionicframework.com/docs/vue/quickstart
+/Ionic.svg	Ionic VueFhttps://ionicframework.com/docs/vue/quickstart#what-is-ionic-framework
 1
 	/IPFS.svgIPFShttps://docs.ipfs.tech/install
 <
@@ -511,8 +517,8 @@ R
 LeakCanary3https://square.github.io/leakcanary/getting_started
 F
 /LcJuvesBlog.svgLearn X in Y minuteshttps://learnxinyminutes.com
-I
-/Let's%20Encrypt.svgLet's Encrypt"https://letsencrypt.org/zh-cn/docs
+T
+/Let's%20Encrypt.svgLet's Encrypt-https://letsencrypt.org/zh-cn/getting-started
 P
 /Linux%20Foundation.svgLF Projects(https://www.linuxfoundation.org/projects
 N
@@ -520,8 +526,8 @@ N
 /Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
 6
 /LinuxBoot.svg	LinuxBoothttps://www.linuxboot.org
-0
-/emoji_u1f41b.svgLLDBhttps://lldb.llvm.org
+B
+/emoji_u1f41b.svgLLDB'https://lldb.llvm.org/use/tutorial.html
 <
 	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html
 G
@@ -556,13 +562,15 @@ L
 /MAX.svgMAX/https://docs.modular.com/stable/max/get-started
 =
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs
-@
-/Mercurial.svg	Mercurial#https://www.mercurial-scm.org/guide
+;
+	/IANA.svgMedia Types!https://docs.brew.sh/Installation
+B
+/Mercurial.svg	Mercurial%https://www.mercurial-scm.org/install
 J
 /Mermaid.svgMermaid1https://mermaid.js.org/intro/getting-started.html
-<
+I
 
-/Meson.svgMeson'https://mesonbuild.com/Quick-guide.html
+/Meson.svgMeson4https://mesonbuild.com/Quick-guide.html#requirements
 F
 /MetaLlama.svg
 Meta Llama(https://www.llama.com/docs/how-to-guides
@@ -628,12 +636,12 @@ C
 /Nim.svgNim'https://nim-lang.org/documentation.html
 \
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-N
+W
 
-/NumPy.svgNumPy9https://numpy.org/doc/stable/user/absolute_beginners.html
-9
+/NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+Q
 
-/NuttX.svgNuttX$https://nuttx.apache.org/docs/latest
+/NuttX.svgNuttX<https://nuttx.apache.org/docs/latest/quickstart/install.html
 8
 	/Nuxt.svgNuxt%https://nuxt.com/docs/getting-started
 f
@@ -659,9 +667,9 @@ i
 /Square.svgOkiohttps://square.github.io/okio
 V
 /Ollama.svgOllama?https://github.com/ollama/ollama/blob/main/README.md#quickstart
-E
+`
 /Microsoft.svg
-OmniParser'https://github.com/microsoft/OmniParser
+OmniParserBhttps://github.com/microsoft/OmniParser?tab=readme-ov-file#install
 �
 /OpenInterpreter.svgOpen Interpreter\https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#快速开始
 S
@@ -683,8 +691,8 @@ D
 OpenRouter%https://openrouter.ai/docs/quickstart
 8
 /OpenSSL.svgOpenSSLhttps://docs.openssl.org/master
-=
-/OpenStack.svg	OpenStack https://docs.openstack.org/zh_CN
+T
+/OpenStack.svg	OpenStack7https://docs.openstack.org/devstack/latest/#quick-start
 I
 /OpenVINO.svgOpenVINO.https://docs.openvino.ai/2024/get-started.html
 L
@@ -710,6 +718,8 @@ _
 /Cloudflare.svgPingoraChttps://github.com/cloudflare/pingora/blob/main/docs/quick_start.md
 E
 /Pintree.svgPintree,https://docs.pintree.io/zh/guide/open-source
+9
+/Prefix.svgPixi$https://pixi.sh/latest/#installation
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
 F
@@ -720,8 +730,10 @@ F
 Playwright!https://playwright.dev/docs/intro
 -
 /podman.svgpodmanhttps://podman.io/docs
-I
-/OpenGroup.svgPOSIX0https://pubs.opengroup.org/onlinepubs/9799919799
+a
+/OpenGroup.svgPOSIXHhttps://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap01.html
+i
+/OpenGroup.svgPOSIX HeadersHhttps://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap14.html
 h
 /OpenGroup.svgPOSIX ShellIhttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html
 M
@@ -755,8 +767,8 @@ P
 /RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
 j
 /Raspberrypi.svgRaspberry PiHhttps://www.raspberrypi.com/documentation/computers/getting-started.html
-N
-/ReactNative.svgReact Native,https://reactnative.dev/docs/getting-started
+P
+/ReactNative.svgReact Native.https://reactnative.dev/docs/environment-setup
 Q
 /reactbits.svg	reactbits4https://www.reactbits.dev/text-animations/split-text
 ?
@@ -788,8 +800,8 @@ G
 /Rsbuild.svgRsbuild.https://rsbuild.dev/zh/guide/start/quick-start
 D
 /Rspack.svgRspack-https://rspack.dev/zh/guide/start/quick-start
-@
-	/Ruby.svgRuby-https://www.ruby-lang.org/zh_cn/documentation
+K
+	/Ruby.svgRuby8https://www.ruby-lang.org/zh_cn/documentation/quickstart
 \
 /Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
 K
@@ -800,8 +812,8 @@ g
 /Rust-for-Linux.svgRust for Linux@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html
 Y
 /Windows.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows
-P
-/rust-analyzer.svgrust-analyzer+https://rust-analyzer.github.io/manual.html
+^
+/rust-analyzer.svgrust-analyzer9https://rust-analyzer.github.io/book/vs_code.html#vs-code
 >
 	/Rust.svgrustc*https://doc.rust-lang.org/rustc/index.html
 7
@@ -825,8 +837,8 @@ O
 /Selenium.svgSelenium@https://www.selenium.dev/documentation/webdriver/getting_started
 7
 /Sentry.svgSentry https://docs.sentry.io/platforms
-7
-/Serverpod.svg	Serverpodhttps://docs.serverpod.dev
+K
+/Serverpod.svg	Serverpod.https://docs.serverpod.dev/#command-line-tools
 *
 
 /Servo.svgServohttps://doc.servo.org
@@ -848,9 +860,9 @@ b
 /SQLite.svgSQLite&https://www.sqlite.org/quickstart.html
 >
 /StirlingPDF.svgStirling PDFhttps://docs.stirlingpdf.com
-A
+H
 /Subversion.svg
-Subversion"https://subversion.apache.org/docs
+Subversion)https://subversion.apache.org/quick-start
 E
 /Svelte.svgSvelte.https://svelte.dev/docs/svelte/getting-started
 I
