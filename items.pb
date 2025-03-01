@@ -124,6 +124,9 @@ Camel Core3https://camel.apache.org/camel-core/getting-started
 /Cangjie.svgCangjiekhttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
 E
 	/Skia.svg	CanvasKit-https://skia.org/docs/user/modules/quickstart
+?
+
+/e-CNY.svgCap‚Äôn Proto"https://capnproto.org/install.html
 \
 
 /Cargo.svgCargoGhttps://doc.rust-lang.org/stable/cargo/getting-started/first-steps.html
@@ -227,8 +230,9 @@ p
 /DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
 o
 /DeepSeek-V3.svgDeepSeek 3FSMhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide
-S
-/DeltaLake.svg	DeltaLake6https://delta-io.github.io/delta-rs/usage/installation
+T
+/DeltaLake.svg
+Delta Lake6https://delta-io.github.io/delta-rs/usage/installation
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 C
@@ -367,10 +371,10 @@ S
 /GoLang.svgGo+https://go.dev/doc/tutorial/getting-started
 Å
 /GODOT_Engine.svgGodot Engine^https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/introduction_to_godot.html
-L
+Y
 
 /godot.svg
-godot-rust2https://godot-rust.github.io/book/intro/index.html
+godot-rust?https://godot-rust.github.io/book/intro/setup.html#godot-engine
 m
 /GooglePublicDNS.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
 G
@@ -875,6 +879,8 @@ K
 /Servo.svgServo)https://book.servo.org/getting-servo.html
 3
 /SESSION.svgSESSIONhttps://getsession.org/faq
+R
+	/Rust.svgSIMD JSON for Rust1https://docs.rs/simd-json/latest/simd_json/#usage
 Ç
 /Debian.svgSimple Shell Command]https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command
 (

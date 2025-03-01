@@ -606,7 +606,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/godot.svg",
       title: "godot-rust",
-      url: "https://godot-rust.github.io/book/intro/index.html"));
+      url: "https://godot-rust.github.io/book/intro/setup.html#godot-engine"));
   itemList.add(Item(
       imgUrl: "/tokio.svg",
       title: "Tokio",
@@ -870,10 +870,14 @@ Future main(List<String> args) async {
       imgUrl: "/gRPC.svg",
       title: "gRPC",
       url: "https://grpc.io/docs/languages/go/quickstart"));
-  // itemList.add(Item(
-  //     imgUrl: "/capnproto.svg",
-  //     title: "Cap’n Proto",
-  //     url: "https://capnproto.org/install.html"));
+  itemList.add(Item(
+      imgUrl: "/e-CNY.svg",
+      title: "Cap’n Proto",
+      url: "https://capnproto.org/install.html"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "SIMD JSON for Rust",
+      url: "https://docs.rs/simd-json/latest/simd_json/#usage"));
   // itemList.add(Item(
   //     imgUrl: "/radash.svg",
   //     title: "radash",
@@ -1907,7 +1911,7 @@ Future main(List<String> args) async {
       url: "https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md"));
   itemList.add(Item(
       imgUrl: "/DeltaLake.svg",
-      title: "DeltaLake",
+      title: "Delta Lake",
       url: "https://delta-io.github.io/delta-rs/usage/installation"));
   itemList.add(Item(
       imgUrl: "/StirlingPDF.svg",
