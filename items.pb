@@ -1,8 +1,6 @@
 
 K
 /Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup
-f
-/DeepSeek-V3.svg3FSMhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide
 @
 	/ACME.svgACME-https://datatracker.ietf.org/doc/html/rfc8555
 �
@@ -225,6 +223,8 @@ s
 Deepin DTKXhttps://docs.deepin.org/info/开发入门/基础环境/DTK/概述/概述/DTK入门指引
 p
 /DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
+o
+/DeepSeek-V3.svgDeepSeek 3FSMhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 C

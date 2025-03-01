@@ -1663,7 +1663,7 @@ Future main(List<String> args) async {
           "https://github.com/deepseek-ai/DeepGEMM?tab=readme-ov-file#quick-start"));
   itemList.add(Item(
       imgUrl: "/DeepSeek-V3.svg",
-      title: "3FS",
+      title: "DeepSeek 3FS",
       url:
           "https://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide"));
   itemList.add(Item(
