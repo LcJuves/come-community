@@ -1,6 +1,8 @@
 
 K
 /Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup
+f
+/DeepSeek-V3.svg3FSMhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide
 @
 	/ACME.svgACME-https://datatracker.ietf.org/doc/html/rfc8555
 �
@@ -33,8 +35,8 @@ N
 _
 /Android.svg
 Android XRChttps://developer.android.google.cn/develop/xr/get-started?hl=zh-cn
-0
-/Angular.svgAngularhttps://angular.cn/docs
+[
+/Angular.svgAngularBhttps://angular.cn/tutorials/learn-angular/1-components-in-angular
 M
 /Java_with_Ant.svgAnt2https://ant.apache.org/manual/install.html#getting
 J
@@ -61,6 +63,8 @@ J
 /AsciiDoc.svgAsciiDochttps://asciidoc.org/#try
 �
 /Eclipse%20IDE.svgAspectJvhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc#getting-started-with-aspectj
+Z
+/AssemblyScript.svgAssemblyScript3https://www.assemblyscript.org/getting-started.html
 F
 /Automa.svgAutoma/https://docs.automa.site/guide/quick-start.html
 :
@@ -97,6 +101,8 @@ J
 7
 
 /BoaJS.svgBoa JS!https://docs.rs/boa_engine/latest
+�
+/Bonjour.svgBonjourhhttps://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/NetServices/Introduction.html
 h
 /Bootstrap.svg	BootstrapKhttps://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start
 S
@@ -116,6 +122,8 @@ V
 Camel Core3https://camel.apache.org/camel-core/getting-started
 �
 /Cangjie.svgCangjiekhttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
+E
+	/Skia.svg	CanvasKit-https://skia.org/docs/user/modules/quickstart
 \
 
 /Cargo.svgCargoGhttps://doc.rust-lang.org/stable/cargo/getting-started/first-steps.html
@@ -210,6 +218,8 @@ J
 /Debian.svgDebian3https://www.debian.org/doc/manuals/debian-reference
 `
 /DeepSeek-V3.svgDeepEPDhttps://github.com/deepseek-ai/DeepEP?tab=readme-ov-file#quick-start
+d
+/DeepSeek-V3.svgDeepGEMMFhttps://github.com/deepseek-ai/DeepGEMM?tab=readme-ov-file#quick-start
 s
 /Deepin.svg
 Deepin DTKXhttps://docs.deepin.org/info/开发入门/基础环境/DTK/概述/概述/DTK入门指引
@@ -330,8 +340,8 @@ O
 GitLab CLI4https://docs.gitlab.com/editor_extensions/gitlab_cli
 @
 /GitLab.svgGitLab REST API https://docs.gitlab.com/api/rest
-1
-/Gitpod.svgGitpodhttps://www.gitpod.io/docs
+b
+/Gitpod.svgGitpodKhttps://www.gitpod.io/docs/introduction/getting-started#a-gitpodyml-example
 ;
 	/glTF.svgglTF(https://www.khronos.org/gltf/#gltf-intro
 H
@@ -524,6 +534,10 @@ T
 /Let's%20Encrypt.svgLet's Encrypt-https://letsencrypt.org/zh-cn/getting-started
 P
 /Linux%20Foundation.svgLF Projects(https://www.linuxfoundation.org/projects
+T
+/libimobiledevice.svglibimobiledevice)https://libimobiledevice.org/#get-started
+0
+	/Lima.svgLimahttps://lima-vm.io/docs/usage
 N
 
 /Linux.svgLinux9https://www.kernel.org/doc/html/latest/translations/zh_CN
@@ -666,6 +680,8 @@ W
 /OCaml.svgOCaml'https://ocaml.org/docs/installing-ocaml
 i
 /OceanBase.svg	OceanBaseLhttps://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002012693
+c
+/OctoTools.svg	OctoToolsFhttps://github.com/octotools/octotools?tab=readme-ov-file#installation
 2
 /Square.svgOkiohttps://square.github.io/okio
 V
@@ -735,8 +751,8 @@ Playwright!https://playwright.dev/docs/intro
 /podman.svgpodmanhttps://podman.io/docs
 a
 /OpenGroup.svgPOSIXHhttps://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap01.html
-i
-/OpenGroup.svgPOSIX HeadersHhttps://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap14.html
+b
+/OpenGroup.svgPOSIX HeadersAhttps://pubs.opengroup.org/onlinepubs/9799919799/idx/headers.html
 h
 /OpenGroup.svgPOSIX ShellIhttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html
 M
@@ -764,12 +780,18 @@ C
 /quiche.svgquichehttps://docs.quic.tech/quiche
 P
 /JavaScript.svgQuickJS4https://bellard.org/quickjs/quickjs.html#Quick-start
+R
+	/Qwen.svgQwen?https://github.com/QwenLM/Qwen2.5?tab=readme-ov-file#quickstart
+X
+	/Qwen.svgQwen WanAhttps://github.com/Wan-Video/Wan2.1?tab=readme-ov-file#quickstart
 8
 	/qwik.svgqwik%https://qwik.dev/docs/getting-started
 8
 /RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
 j
 /Raspberrypi.svgRaspberry PiHhttps://www.raspberrypi.com/documentation/computers/getting-started.html
+]
+/Ray.svgRay CoreGhttps://docs.ray.io/en/latest/ray-core/walkthrough.html#getting-started
 P
 /ReactNative.svgReact Native.https://reactnative.dev/docs/environment-setup
 Q
@@ -851,6 +873,8 @@ K
 /Debian.svgSimple Shell Command]https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command
 (
 	/Skia.svgSkiahttps://skia.org/docs
+l
+/DeepSeek-V3.svg	SmallpondMhttps://github.com/deepseek-ai/smallpond/blob/main/docs/source/getstarted.rst
 U
 /snowflake.svg	snowflake8https://docs.snowflake.com/en/user-guide-getting-started
 M
@@ -863,9 +887,9 @@ b
 /SQLite.svgSQLite&https://www.sqlite.org/quickstart.html
 �
 /StirlingPDF.svgStirling PDF_https://docs.stirlingpdf.com/Installation/Docker%20Install#run-docker-container-with-docker-run
-H
+^
 /Subversion.svg
-Subversion)https://subversion.apache.org/quick-start
+Subversion?https://subversion.apache.org/quick-start#installing-the-client
 E
 /Svelte.svgSvelte.https://svelte.dev/docs/svelte/getting-started
 I
@@ -950,6 +974,8 @@ Q
 	/UNIX.svgUnix ELFphttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
 .
 /UUP-dump.svgUUP dumphttps://uupdump.net
+`
+/uutils.svguutils coreutils?https://uutils.github.io/coreutils/docs/installation.html#cargo
 E
 /uv.svguv6https://docs.astral.sh/uv/getting-started/installation
 (
@@ -973,8 +999,8 @@ Y
 +
 
 /WASIX.svgWASIXhttps://wasix.org/docs
--
-/Wasmer.svgWasmerhttps://docs.wasmer.io
+5
+/Wasmer.svgWasmerhttps://docs.wasmer.io/install
 7
 /Waydroid.svgWaydroidhttps://docs.waydro.id/usage
 B
@@ -991,8 +1017,8 @@ E
 /Org_WebKit.svgWebKit*https://webkit.org/blog/category/standards
 D
 	/WebP.svgWebP1https://developers.google.com/speed/webp?hl=zh-cn
-?
-/Webpack.svgwebpack&https://webpack.docschina.org/concepts
+M
+/Webpack.svgwebpack4https://webpack.docschina.org/guides/getting-started
 K
 /WebRTC.svgWebRTC4https://webrtc.org/getting-started/overview?hl=zh-cn
 R
