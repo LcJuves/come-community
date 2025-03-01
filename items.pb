@@ -20,8 +20,8 @@ v
 /Aliyun.svgAlibaba CloudXhttps://www.alibabacloud.com/help/zh/cloud-migration-guide-for-beginners/latest/overview
 O
 /Alibaba.svgAliDNS7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
-9
-/Alpine.svgAlpine Linuxhttps://docs.alpinelinux.org
+c
+/Alpine.svgAlpine LinuxFhttps://docs.alpinelinux.org/user-handbook/0.1a/Installing/medium.html
 M
 /Anaconda.svgAnaconda2https://docs.anaconda.com/anaconda/getting-started
 M
@@ -88,6 +88,8 @@ P
 /Bazel.svgBazel&https://bazel.build/run/build?hl=zh-cn
 0
 /Bazzite.svgBazzitehttps://docs.bazzite.gg
+X
+/BentoML.svgBentoML?https://docs.bentoml.com/en/latest/get-started/hello-world.html
 K
 	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started
 Š
@@ -111,8 +113,8 @@ X
 /Duke%20Hips.svgBuilding the JDK2https://openjdk.org/groups/build/doc/building.html
 /
 /Bun.svgBunhttps://bun.sh/docs/quickstart
-8
-/Bytebase.svgBytebasehttps://www.bytebase.com/docs
+d
+/Bytebase.svgBytebaseIhttps://www.bytebase.com/docs/get-started/step-by-step/deploy-with-docker
 2
 /C3.svgC3#https://c3-lang.org/getting-started
 V
@@ -132,8 +134,8 @@ j
 /Certbot.svgCertbot CommandsHhttps://eff-certbot.readthedocs.io/en/stable/using.html#certbot-commands
 Z
 /Chat2DB.svgChat2DBAhttps://chat2db-ai.com/resources/docs/start-guide/getting-started
-O
-/Chroma.svgChroma8https://docs.trychroma.com/docs/overview/getting-started
+_
+/Chroma.svgChromaHhttps://docs.trychroma.com/docs/overview/getting-started?lang=typescript
 S
 /Chrome.svgChrome DevTools3https://developer.chrome.com/docs/devtools?hl=zh-cn
 j
@@ -225,6 +227,8 @@ p
 /DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
 o
 /DeepSeek-V3.svgDeepSeek 3FSMhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide
+S
+/DeltaLake.svg	DeltaLake6https://delta-io.github.io/delta-rs/usage/installation
 0
 	/Deno.svgDenohttps://docs.deno.com/runtime
 C
@@ -264,6 +268,8 @@ B
 /esbuild.svgesbuild)https://esbuild.github.io/getting-started
 Q
 /ESLint.svgESLint:https://zh-hans.eslint.org/docs/latest/use/getting-started
+Q
+/Etcher.svgEtcher:https://etcher-docs.balena.io/#supported-operating-systems
 B
 /Ethereum.svgEthereum'https://ethereum.org/zh/developers/docs
 [
@@ -274,8 +280,8 @@ E
 	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project
 Z
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs
-<
-/FFmpeg.svgFFmpeg%https://ffmpeg.org/documentation.html
+B
+/FFmpeg.svgFFmpeg+https://ffmpeg.org/ffmpeg-all.html#Synopsis
 @
 
 /Figma.svgFigma Developers https://www.figma.com/developers
@@ -391,15 +397,15 @@ A
 /gVisor.svggVisor*https://gvisor.dev/docs/user_guide/install
 X
 /Apache%20Hadoop.svgHadoop8https://hadoop.apache.org/docs/r1.0.4/cn/quickstart.html
-N
-	/HMOS.svgHarmonyOS Developer,https://developer.huawei.com/consumer/cn/doc
+t
+	/HMOS.svgHarmonyOS DeveloperRhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5
 <
 /Haskell.svgHaskell#https://www.haskell.org/get-started
 K
 /HelloAlgo.svg
 Hello Algo-https://www.hello-algo.com/chapter_hello_algo
--
-	/Hexo.svgHexohttps://hexo.io/zh-cn/docs
+A
+	/Hexo.svgHexo.https://hexo.io/zh-cn/docs/#%E8%A6%81%E6%B1%82
 F
 	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
 [
@@ -566,8 +572,8 @@ LSP / LSIFZhttps://microsoft.github.io/language-server-protocol/specifications/
 :
 
 /Magic.svgMagic%https://docs.modular.com/stable/magic
-1
-/MariaDB.svgMariaDBhttps://mariadb.com/docs
+F
+/MariaDB.svgMariaDB-https://mariadb.com/kb/zh-cn/a-mariadb-primer
 D
 /_Markdown.svgMarkdown(https://www.markdown.xyz/getting-started
 L
@@ -644,8 +650,8 @@ U
 /Nacos.svgNacos%https://nacos.io/docs/latest/overview
 :
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
-i
-/NextChat.svgNextChatNhttps://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#å¼€å§‹ä½¿ç”¨
+
+/NextChat.svgNextChatfhttps://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8
 C
 
 /Nginx.svgNginx.https://nginx.org/en/docs/beginners_guide.html
@@ -689,8 +695,8 @@ V
 `
 /Microsoft.svg
 OmniParserBhttps://github.com/microsoft/OmniParser?tab=readme-ov-file#install
-†
-/OpenInterpreter.svgOpen Interpreter\https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#å¿«é€Ÿå¼€å§‹
+ž
+/OpenInterpreter.svgOpen Interpreterthttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B
 S
 /OpenAIPlatform.svgOpenAI Platform+https://platform.openai.com/docs/quickstart
 8
@@ -701,8 +707,8 @@ S
 /OpenEuler.svg	OpenEulerhttps://docs.openeuler.org/zh
 f
 /OpenHands.svg	OpenHandsIhttps://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file#-quick-start
-<
-/OpenHarmony.svgOpenHarmonyhttps://docs.openharmony.cn
+{
+/OpenHarmony.svgOpenHarmonyZhttps://docs.openharmony.cn/pages/v5.0/zh-cn/device-dev/quick-start/quickstart-overview.md
 6
 /Duke%20Hips.svgOpenJDKhttps://openjdk.org/guide
 D
@@ -741,9 +747,9 @@ E
 /Prefix.svgPixi$https://pixi.sh/latest/#installation
 =
 /Pkl.svgPkl,https://pkl-lang.org/main/current/index.html
-F
+R
 
-/Plan9.svgPlan 90http://9p.io/wiki/plan9/Documentation/index.html
+/Plan9.svgPlan 9<http://9p.io/wiki/plan9/Installation_instructions/index.html
 @
 /Playwright.svg
 Playwright!https://playwright.dev/docs/intro
@@ -780,8 +786,8 @@ C
 /quiche.svgquichehttps://docs.quic.tech/quiche
 P
 /JavaScript.svgQuickJS4https://bellard.org/quickjs/quickjs.html#Quick-start
-R
-	/Qwen.svgQwen?https://github.com/QwenLM/Qwen2.5?tab=readme-ov-file#quickstart
+[
+	/Qwen.svgQwenHhttps://qwen.readthedocs.io/zh-cn/latest/getting_started/quickstart.html
 X
 	/Qwen.svgQwen WanAhttps://github.com/Wan-Video/Wan2.1?tab=readme-ov-file#quickstart
 8
@@ -864,9 +870,9 @@ O
 /Sentry.svgSentry https://docs.sentry.io/platforms
 K
 /Serverpod.svg	Serverpod.https://docs.serverpod.dev/#command-line-tools
-*
+>
 
-/Servo.svgServohttps://doc.servo.org
+/Servo.svgServo)https://book.servo.org/getting-servo.html
 3
 /SESSION.svgSESSIONhttps://getsession.org/faq
 ‚
@@ -978,8 +984,8 @@ Q
 /uutils.svguutils coreutils?https://uutils.github.io/coreutils/docs/installation.html#cargo
 E
 /uv.svguv6https://docs.astral.sh/uv/getting-started/installation
-(
-	/Vala.svgValahttps://docs.vala.dev
+;
+	/Vala.svgVala(https://docs.vala.dev/installation-guide
 <
 
 /vcpkg.svgvcpkg'https://learn.microsoft.com/zh-cn/vcpkg
@@ -1063,6 +1069,8 @@ A
 /XML.svgXML0https://developer.mozilla.org/zh-CN/docs/Web/XML
 #
 	/YAML.svgYAMLhttps://yaml.org
+6
+/Zed.svgZed%https://zed.dev/docs/#getting-started
 R
 /Duke%20Hips.svgZGC9https://wiki.openjdk.org/display/zgc/Main#Main-QuickStart
 ?
