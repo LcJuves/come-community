@@ -348,7 +348,12 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Qwen.svg",
       title: "Qwen",
-      url: "https://github.com/QwenLM/Qwen2.5?tab=readme-ov-file#quickstart"));
+      url:
+          "https://qwen.readthedocs.io/zh-cn/latest/getting_started/quickstart.html"));
+  itemList.add(Item(
+      imgUrl: "/BentoML.svg",
+      title: "BentoML",
+      url: "https://docs.bentoml.com/en/latest/get-started/hello-world.html"));
   itemList.add(Item(
       imgUrl: "/_Electron.svg",
       title: "Electron",
@@ -427,7 +432,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/HMOS.svg",
       title: "HarmonyOS Developer",
-      url: "https://developer.huawei.com/consumer/cn/doc"));
+      url:
+          "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5"));
   itemList.add(Item(
       imgUrl: "/Cangjie.svg",
       title: "Cangjie",
@@ -628,7 +634,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Bytebase.svg",
       title: "Bytebase",
-      url: "https://www.bytebase.com/docs"));
+      url:
+          "https://www.bytebase.com/docs/get-started/step-by-step/deploy-with-docker"));
   itemList.add(Item(
       imgUrl: "/JetpackCompose.svg",
       title: "Jetpack Compose",
@@ -665,7 +672,9 @@ Future main(List<String> args) async {
       title: "Playwright",
       url: "https://playwright.dev/docs/intro"));
   itemList.add(Item(
-      imgUrl: "/Hexo.svg", title: "Hexo", url: "https://hexo.io/zh-cn/docs"));
+      imgUrl: "/Hexo.svg",
+      title: "Hexo",
+      url: "https://hexo.io/zh-cn/docs/#%E8%A6%81%E6%B1%82"));
   itemList.add(Item(
       imgUrl: "/GruntJS.svg",
       title: "GruntJS",
@@ -944,7 +953,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Chroma.svg",
       title: "Chroma",
-      url: "https://docs.trychroma.com/docs/overview/getting-started"));
+      url:
+          "https://docs.trychroma.com/docs/overview/getting-started?lang=typescript"));
   itemList.add(Item(
       imgUrl: "/Kali.svg",
       title: "Kali Linux",
@@ -969,14 +979,19 @@ Future main(List<String> args) async {
       imgUrl: "/PostgreSQL.svg",
       title: "PostgreSQL",
       url: "http://www.postgres.cn/docs/current/index.html"));
-  itemList.add(
-      Item(imgUrl: "/Vala.svg", title: "Vala", url: "https://docs.vala.dev"));
-  itemList.add(
-      Item(imgUrl: "/Servo.svg", title: "Servo", url: "https://doc.servo.org"));
+  itemList.add(Item(
+      imgUrl: "/Vala.svg",
+      title: "Vala",
+      url: "https://docs.vala.dev/installation-guide"));
+  itemList.add(Item(
+      imgUrl: "/Servo.svg",
+      title: "Servo",
+      url: "https://book.servo.org/getting-servo.html"));
   itemList.add(Item(
       imgUrl: "/OpenHarmony.svg",
       title: "OpenHarmony",
-      url: "https://docs.openharmony.cn"));
+      url:
+          "https://docs.openharmony.cn/pages/v5.0/zh-cn/device-dev/quick-start/quickstart-overview.md"));
   itemList.add(Item(
       imgUrl: "/_Xiaomi.svg",
       title: "Home Integration",
@@ -1230,7 +1245,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/MariaDB.svg",
       title: "MariaDB",
-      url: "https://mariadb.com/docs"));
+      url: "https://mariadb.com/kb/zh-cn/a-mariadb-primer"));
   itemList.add(Item(
       imgUrl: "/Tribuo.svg",
       title: "Tribuo",
@@ -1277,7 +1292,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Plan9.svg",
       title: "Plan 9",
-      url: "http://9p.io/wiki/plan9/Documentation/index.html"));
+      url: "http://9p.io/wiki/plan9/Installation_instructions/index.html"));
 
   // itemList.add(Item(
   //     imgUrl: "/Spark.svg",
@@ -1290,11 +1305,16 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/FFmpeg.svg",
       title: "FFmpeg",
-      url: "https://ffmpeg.org/documentation.html"));
+      url: "https://ffmpeg.org/ffmpeg-all.html#Synopsis"));
   itemList.add(Item(
       imgUrl: "/Alpine.svg",
       title: "Alpine Linux",
-      url: "https://docs.alpinelinux.org"));
+      url:
+          "https://docs.alpinelinux.org/user-handbook/0.1a/Installing/medium.html"));
+  itemList.add(Item(
+      imgUrl: "/Etcher.svg",
+      title: "Etcher",
+      url: "https://etcher-docs.balena.io/#supported-operating-systems"));
   itemList.add(Item(
       imgUrl: "/Arch%20Linux.svg",
       title: "Arch Linux",
@@ -1556,7 +1576,7 @@ Future main(List<String> args) async {
       title: "Open Interpreter",
       // https://github.com/OpenInterpreter/open-interpreter?tab=readme-ov-file#quick-start
       url:
-          "https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#快速开始"));
+          "https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B"));
   itemList.add(Item(
       imgUrl: "/Gemini.svg",
       title: "Gemini API",
@@ -1570,7 +1590,7 @@ Future main(List<String> args) async {
       imgUrl: "/NextChat.svg",
       title: "NextChat",
       url:
-          "https://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#开始使用"));
+          "https://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8"));
   itemList.add(Item(
       imgUrl: "/Automa.svg",
       title: "Automa",
@@ -1886,6 +1906,10 @@ Future main(List<String> args) async {
       title: "Evcxr Rust REPL",
       url: "https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md"));
   itemList.add(Item(
+      imgUrl: "/DeltaLake.svg",
+      title: "DeltaLake",
+      url: "https://delta-io.github.io/delta-rs/usage/installation"));
+  itemList.add(Item(
       imgUrl: "/StirlingPDF.svg",
       title: "Stirling PDF",
       url:
@@ -2093,8 +2117,10 @@ Future main(List<String> args) async {
       imgUrl: "/Aider.svg",
       title: "Aider",
       url: "https://aider.chat/#getting-started"));
-  // itemList
-  //     .add(Item(imgUrl: "/Zed.svg", title: "Zed", url: "https://zed.dev/docs"));
+  itemList.add(Item(
+      imgUrl: "/Zed.svg",
+      title: "Zed",
+      url: "https://zed.dev/docs/#getting-started"));
   // itemList.add(Item(
   //     imgUrl: "/WASI.svg", title: "WASI", url: "https://wasi.dev"));
   // itemList.add(Item(
@@ -2109,10 +2135,6 @@ Future main(List<String> args) async {
   //     imgUrl: "/TabbyML.svg",
   //     title: "Tabby ML",
   //     url: "https://tabby.tabbyml.com/docs"));
-  // itemList.add(Item(
-  //     imgUrl: "/Qwen.svg",
-  //     title: "Qwen",
-  //     url: "https://qwen.readthedocs.io/zh-cn/latest"));
   // itemList.add(Item(
   //     imgUrl: "/MarsCode.svg",
   //     title: "MarsCode",
