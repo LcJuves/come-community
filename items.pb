@@ -55,6 +55,10 @@ X
 /ARCore.svgARCoreAhttps://developers.google.com/ar/develop/getting-started?hl=zh-cn
 ]
 /Arduino.svgArduinoDhttps://docs.arduino.cc/learn/starting-guide/getting-started-arduino
+r
+/arm.svgArm Compiler for EmbeddedKhttps://developer.arm.com/documentation/100748/0623/Getting-Started?lang=en
+=
+/arroyo.svgarroyo&https://doc.arroyo.dev/getting-started
 J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 4
@@ -98,15 +102,18 @@ J
 /Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
 @
 /Blender.svgBlender'https://docs.blender.org/manual/zh-hans
-7
+N
 
-/BoaJS.svgBoa JS!https://docs.rs/boa_engine/latest
+/BoaJS.svgBoa;https://docs.rs/boa_engine/latest/boa_engine/#example-usage
 Å
 /Bonjour.svgBonjourhhttps://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/NetServices/Introduction.html
 h
 /Bootstrap.svg	BootstrapKhttps://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start
 S
 /Browserless.svgBrowserless2https://docs.browserless.io/baas/docker/quickstart
+C
+
+/Buck2.svgBuck2.https://buck2.build/docs/about/getting_started
 |
 /Buildah.svgBuildahchttps://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html#building-oci-container-images
 X
@@ -194,6 +201,8 @@ y
 &
 
 /CRDTs.svgCRDTshttps://crdt.tech
+X
+	/Rust.svgCrubitChttps://github.com/google/crubit?tab=readme-ov-file#getting-started
 P
 /Crystal.svgCrystal7https://crystal-lang.org/reference/1.14/getting_started
 A
@@ -367,6 +376,8 @@ p
 /GNU.svgGNU CoreutilsUhttps://www.gnu.org/software/coreutils/manual/html_node/index.html#toc-Introduction-1
 S
 /GNU.svgGNU make=https://www.gnu.org/software/make/manual/html_node/index.html
+S
+/GNU.svgGNU Wget=https://www.gnu.org/software/wget/manual/html_node/index.html
 >
 /GoLang.svgGo+https://go.dev/doc/tutorial/getting-started
 Å
@@ -468,6 +479,8 @@ _
 IT - TOOLShttps://it-tools.tech
 3
 /J1Assistant.svgJ1 Assistanthttps://matter.ai
+c
+/Google.svg	J2CL/WasmIhttps://github.com/google/j2cl/blob/master/docs/getting-started-j2wasm.md
 9
 	/Java.svgJava&https://dev.java/learn/getting-started
 V
@@ -565,6 +578,9 @@ Q
 /Lodash.svgLodashhttps://lodash.com/docs
 4
 /LOKINET.svgLOKINEThttps://www.lokinet.org/faq
+h
+
+/e-CNY.svg	LoongArchOhttps://loongson.github.io/LoongArch-Documentation/README-CN.html#getting-start
 r
 /LSP.svg
 LSP / LSIFZhttps://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification
@@ -739,8 +755,8 @@ E
 /PDFJS.svgPDFJS0https://mozilla.github.io/pdf.js/getting_started
 \
 	/Rust.svgPepeIhttps://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage
-.
-/PHP.svgPHPhttps://www.php.net/manual/zh
+E
+/PHP.svgPHP4https://www.php.net/manual/zh/tutorial.firstpage.php
 N
 /PinganCloud.svgPing An Cloud+https://fincloud.pingan.com/ssr/help/center
 _
@@ -820,6 +836,10 @@ G
 /Remmina.svgRemmina.https://remmina.gitlab.io/remminadoc.gitlab.io
 4
 	/Rust.svgreqwesthttps://docs.rs/reqwest/latest
+3
+/RISC-V.svgRISC-Vhttps://riscv.org/developers
+g
+/RISC-V.svgRISCV Sail ModelFhttps://github.com/riscv/sail-riscv?tab=readme-ov-file#getting-started
 W
 
 /robot.svgRobot Framework8https://docs.robotframework.org/docs/getting_started/rpa
@@ -855,17 +875,17 @@ Y
 	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc
 7
 	/Rust.svgrustup"https://rust-lang.github.io/rustup
-1
-	/Rust.svgRusty V8 Bindinghttps://docs.rs/v8
+D
+	/Rust.svgRusty V8 Binding%https://docs.rs/v8/latest/v8/#example
 V
 	/Sage.svgSageChttps://github.com/sagemath/sage?tab=readme-ov-file#getting-started
 H
 /SageMath.svgSageMath-https://www.sagemath.org/tour-quickstart.html
-N
-/sbt.svgsbt=https://www.scala-sbt.org/1.x/docs/zh-cn/Getting-Started.html
-N
+G
+/sbt.svgsbt6https://www.scala-sbt.org/1.x/docs/sbt-by-example.html
+Ü
 
-/Scala.svgScala9https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
+/Scala.svgScalaqhttps://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html
 O
 /Android.svgSDK CmdLine Tools,https://developer.android.com/tools?hl=zh-cn
 [
@@ -933,15 +953,21 @@ Q
 2
 
 /TAURI.svgTAURIhttps://tauri.app/zh-cn/start
+E
+	/Java.svgTeaVM1https://teavm.org/docs/intro/getting-started.html
 J
 /TensorFlow.svg
 TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
+C
+/Termux.svgTermux,https://wiki.termux.com/wiki/Getting_started
 3
 /Tetragon.svgTetragonhttps://tetragon.io/docs
 \
 /GNU.svgThe GNU C Library=https://www.gnu.org/software/libc/manual/html_node/index.html
 c
 	/Rust.svgThe Rust Core Library?https://doc.rust-lang.org/core/index.html#the-rust-core-library
+g
+	/Rust.svgThe Rust Style GuideDhttps://doc.rust-lang.org/stable/style-guide/#the-default-rust-style
 [
 	/UNIX.svgThe UNIX¬Æ Standard9https://www.opengroup.org/membership/forums/platform/unix
 `
@@ -1017,8 +1043,8 @@ Y
 /Waydroid.svgWaydroidhttps://docs.waydro.id/usage
 B
 /Wayland.svgWayland)https://wayland.freedesktop.org/docs/html
-U
-/WebAssembly.svgWebAssembly4https://developer.mozilla.org/zh-CN/docs/WebAssembly
+Y
+/WebAssembly.svgWebAssembly8https://webassembly.org/getting-started/developers-guide
 @
 /W3C.svgWebDriver BiDi$https://w3c.github.io/webdriver-bidi
 I
