@@ -55,8 +55,8 @@ X
 /ARCore.svgARCoreAhttps://developers.google.com/ar/develop/getting-started?hl=zh-cn
 ]
 /Arduino.svgArduinoDhttps://docs.arduino.cc/learn/starting-guide/getting-started-arduino
-r
-/arm.svgArm Compiler for EmbeddedKhttps://developer.arm.com/documentation/100748/0623/Getting-Started?lang=en
+n
+/arm.svgArm Embedded CompilerKhttps://developer.arm.com/documentation/100748/0623/Getting-Started?lang=en
 =
 /arroyo.svgarroyo&https://doc.arroyo.dev/getting-started
 J
@@ -672,6 +672,8 @@ U
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
 
 /NextChat.svgNextChatfhttps://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8
+O
+/NextJS.svgNextJS8https://nextjs.org/docs/app/getting-started/installation
 C
 
 /Nginx.svgNginx.https://nginx.org/en/docs/beginners_guide.html
@@ -859,8 +861,8 @@ K
 	/Ruby.svgRuby8https://www.ruby-lang.org/zh_cn/documentation/quickstart
 \
 /Ruby%20on%20Ralis.svgRuby on Rails3https://guides.rubyonrails.org/getting_started.html
-K
-	/Rust.svgRust8https://doc.rust-lang.org/book/ch01-01-installation.html
+>
+	/Rust.svgRust+https://www.rust-lang.org/learn/get-started
 U
 	/Rust.svgRust error codes6https://doc.rust-lang.org/error_codes/error-index.html
 g
