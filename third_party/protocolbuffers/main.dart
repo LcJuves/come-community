@@ -781,8 +781,10 @@ Future main(List<String> args) async {
       imgUrl: "/HTML5.svg",
       title: "HTML",
       url: "https://developer.mozilla.org/zh-CN/docs/Web/HTML"));
-  itemList.add(
-      Item(imgUrl: "/_cURL.svg", title: "cURL", url: "https://curl.se/docs"));
+  itemList.add(Item(
+      imgUrl: "/_cURL.svg",
+      title: "cURL",
+      url: "https://curl.se/docs/tutorial.html"));
   itemList.add(Item(
       imgUrl: "/Ruby%20on%20Ralis.svg",
       title: "Ruby on Rails",
@@ -812,7 +814,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/InLong.svg",
       title: "InLong",
-      url: "https://inlong.apache.org/zh-CN/docs/introduction"));
+      url:
+          "https://inlong.apache.org/zh-CN/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example"));
   itemList.add(Item(
       imgUrl: "/conda-forge.svg",
       title: "conda-forge",
@@ -841,7 +844,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/RabbitMQ.svg",
       title: "RabbitMQ",
-      url: "https://www.rabbitmq.com/docs"));
+      url: "https://www.rabbitmq.com/tutorials/tutorial-one-rust-stream"));
   itemList.add(Item(
       imgUrl: "/Atlassian%20Bitbucket.svg",
       title: "Bitbucket Pipelines",
@@ -854,17 +857,20 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Blender.svg",
       title: "Blender",
-      url: "https://docs.blender.org/manual/zh-hans"));
+      url:
+          "https://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html"));
   itemList.add(Item(
       imgUrl: "/SpiderMonkey.svg",
       title: "SpiderMonkey",
       url: "https://firefox-source-docs.mozilla.org/js"));
   itemList.add(Item(
-      imgUrl: "/WASIX.svg", title: "WASIX", url: "https://wasix.org/docs"));
+      imgUrl: "/WASIX.svg",
+      title: "WASIX",
+      url: "https://wasix.org/docs/language-guide/rust/installation"));
   itemList.add(Item(
       imgUrl: "/MoonBit.svg",
       title: "MoonBit",
-      url: "https://docs.moonbitlang.com/zh-cn/latest"));
+      url: "https://docs.moonbitlang.com/zh-cn/latest/tutorial/tour.html"));
   itemList.add(Item(
       imgUrl: "/Clojure.svg",
       title: "Clojure",
@@ -876,11 +882,12 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/BabylonJS.svg",
       title: "BabylonJS",
-      url: "https://doc.babylonjs.com"));
+      url:
+          "https://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step"));
   itemList.add(Item(
       imgUrl: "/Nacos.svg",
       title: "Nacos",
-      url: "https://nacos.io/docs/latest/overview"));
+      url: "https://nacos.io/docs/latest/quickstart/quick-start"));
   itemList.add(Item(
       imgUrl: "/FreeBSD.svg",
       title: "FreeBSD",
@@ -1425,7 +1432,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Zookeeper.svg",
       title: "Zookeeper",
-      url: "https://zookeeper.apache.org/doc/current/index.html"));
+      url:
+          "https://zookeeper.apache.org/doc/current/zookeeperStarted.html#getting-started-coordinating-distributed-applications-with-zooKeeper"));
   itemList.add(Item(
       imgUrl: "/WrenAI.svg",
       title: "Wren AI",
@@ -1733,7 +1741,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/AppFlowy.svg",
       title: "AppFlowy",
-      url: "https://docs.appflowy.io/docs"));
+      url:
+          "https://docs.appflowy.io/docs/appflowy/install-appflowy/installation-methods/installing-with-docker"));
   itemList.add(Item(
       imgUrl: "/PinganCloud.svg",
       title: "Ping An Cloud",
@@ -1786,7 +1795,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/UbuntuServer.svg",
       title: "Ubuntu Server",
-      url: "https://ubuntu.com/server/docs/how-to"));
+      url:
+          "https://documentation.ubuntu.com/server/tutorial/basic-installation/#basic-installation"));
   itemList.add(Item(
       imgUrl: "/J1Assistant.svg",
       title: "J1 Assistant",
@@ -1826,7 +1836,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Oxen.svg",
       title: "Oxen",
-      url: "https://docs.oxen.io/oxen-docs"));
+      url:
+          "https://docs.oxen.io/oxen-docs/using-the-oxen-blockchain/oxen-service-node-guides/setting-up-an-oxen-service-node"));
   itemList.add(Item(
       imgUrl: "/SESSION.svg",
       title: "SESSION",
@@ -2071,7 +2082,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Bazzite.svg",
       title: "Bazzite",
-      url: "https://docs.bazzite.gg"));
+      url: "https://docs.bazzite.gg/General/Installation_Guide"));
   itemList.add(Item(
       imgUrl: "/UNIX.svg",
       title: "Unix ELF",
