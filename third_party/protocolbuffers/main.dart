@@ -87,7 +87,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Scala.svg",
       title: "Scala",
-      url: "https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html"));
+      url:
+          "https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html"));
   itemList.add(Item(
       imgUrl: "/MDN.svg",
       title: "MDN Web",
@@ -241,6 +242,11 @@ Future main(List<String> args) async {
       url: "https://doc.rust-lang.org/book/ch01-01-installation.html"));
   itemList.add(Item(
       imgUrl: "/Rust.svg",
+      title: "Crubit",
+      url:
+          "https://github.com/google/crubit?tab=readme-ov-file#getting-started"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
       title: "The Rust Core Library",
       url: "https://doc.rust-lang.org/core/index.html#the-rust-core-library"));
   itemList.add(Item(
@@ -335,7 +341,13 @@ Future main(List<String> args) async {
   //     title: "LLM Compressor",
   //     url: "https://github.com/vllm-project/llm-compressor"));
   itemList.add(Item(
-      imgUrl: "/PHP.svg", title: "PHP", url: "https://www.php.net/manual/zh"));
+      imgUrl: "/PHP.svg",
+      title: "PHP",
+      url: "https://www.php.net/manual/zh/tutorial.firstpage.php"));
+  itemList.add(Item(
+      imgUrl: "/Termux.svg",
+      title: "Termux",
+      url: "https://wiki.termux.com/wiki/Getting_started"));
   itemList.add(Item(
       imgUrl: "/Ruby.svg",
       title: "Ruby",
@@ -416,7 +428,16 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/WebAssembly.svg",
       title: "WebAssembly",
-      url: "https://developer.mozilla.org/zh-CN/docs/WebAssembly"));
+      url: "https://webassembly.org/getting-started/developers-guide"));
+  itemList.add(Item(
+      imgUrl: "/Java.svg",
+      title: "TeaVM",
+      url: "https://teavm.org/docs/intro/getting-started.html"));
+  itemList.add(Item(
+      imgUrl: "/Google.svg",
+      title: "J2CL/Wasm",
+      url:
+          "https://github.com/google/j2cl/blob/master/docs/getting-started-j2wasm.md"));
   itemList.add(Item(
       imgUrl: "/ReactJS.svg",
       title: "ReactJS",
@@ -933,6 +954,10 @@ Future main(List<String> args) async {
       title: "GNU make",
       url: "https://www.gnu.org/software/make/manual/html_node/index.html"));
   itemList.add(Item(
+      imgUrl: "/GNU.svg",
+      title: "GNU Wget",
+      url: "https://www.gnu.org/software/wget/manual/html_node/index.html"));
+  itemList.add(Item(
       imgUrl: "/Org_WebKit.svg",
       title: "WebKit",
       url: "https://webkit.org/blog/category/standards"));
@@ -1128,10 +1153,10 @@ Future main(List<String> args) async {
       imgUrl: "/Ethereum.svg",
       title: "Ethereum",
       url: "https://ethereum.org/zh/developers/docs"));
-  // itemList.add(Item(
-  //     imgUrl: "/CloudBeaver.svg",
-  //     title: "CloudBeaver",
-  //     url: "https://dbeaver.com/docs/cloudbeaver/24.3"));
+  itemList.add(Item(
+      imgUrl: "/arroyo.svg",
+      title: "arroyo",
+      url: "https://doc.arroyo.dev/getting-started"));
   // itemList.add(Item(
   //     imgUrl: "/ProGuard.svg",
   //     title: "ProGuard",
@@ -1639,12 +1664,17 @@ Future main(List<String> args) async {
       url: "https://bellard.org/quickjs/quickjs.html#Quick-start"));
   itemList.add(Item(
       imgUrl: "/BoaJS.svg",
-      title: "Boa JS",
-      url: "https://docs.rs/boa_engine/latest"));
+      title: "Boa",
+      url: "https://docs.rs/boa_engine/latest/boa_engine/#example-usage"));
   itemList.add(Item(
       imgUrl: "/Rust.svg",
       title: "Rusty V8 Binding",
-      url: "https://docs.rs/v8"));
+      url: "https://docs.rs/v8/latest/v8/#example"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "The Rust Style Guide",
+      url:
+          "https://doc.rust-lang.org/stable/style-guide/#the-default-rust-style"));
   itemList.add(Item(
       imgUrl: "/Rust.svg",
       title: "Pepe",
@@ -1957,6 +1987,10 @@ Future main(List<String> args) async {
       imgUrl: "/WebXR.svg",
       title: "WebXR",
       url: "https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite"));
+  itemList.add(Item(
+      imgUrl: "/Buck2.svg",
+      title: "Buck2",
+      url: "https://buck2.build/docs/about/getting_started"));
   // itemList.add(Item(
   //     imgUrl: "/OpenWebUI.svg",
   //     title: "Open WebUI",
@@ -2006,7 +2040,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/sbt.svg",
       title: "sbt",
-      url: "https://www.scala-sbt.org/1.x/docs/zh-cn/Getting-Started.html"));
+      url: "https://www.scala-sbt.org/1.x/docs/sbt-by-example.html"));
   itemList.add(Item(
       imgUrl: "/Java_with_Ant.svg",
       title: "Ant",
@@ -2148,10 +2182,25 @@ Future main(List<String> args) async {
   //     imgUrl: "/LibreOffice.svg",
   //     title: "LibreOffice",
   //     url: "https://documentation.libreoffice.org/zh-cn/docs"));
-  // itemList.add(Item(
-  //     imgUrl: "/RISC-V.svg",
-  //     title: "RISC-V",
-  //     url: "https://riscv.org/developers"));
+  itemList.add(Item(
+      imgUrl: "/RISC-V.svg",
+      title: "RISC-V",
+      url: "https://riscv.org/developers"));
+  itemList.add(Item(
+      imgUrl: "/RISC-V.svg",
+      title: "RISCV Sail Model",
+      url:
+          "https://github.com/riscv/sail-riscv?tab=readme-ov-file#getting-started"));
+  itemList.add(Item(
+      imgUrl: "/arm.svg",
+      title: "Arm Compiler for Embedded",
+      url:
+          "https://developer.arm.com/documentation/100748/0623/Getting-Started?lang=en"));
+  itemList.add(Item(
+      imgUrl: "/e-CNY.svg",
+      title: "LoongArch",
+      url:
+          "https://loongson.github.io/LoongArch-Documentation/README-CN.html#getting-start"));
 
   // itemList.add(Item(
   //     imgUrl: "/CommonLisp.svg",
