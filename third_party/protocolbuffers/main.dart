@@ -239,7 +239,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Rust.svg",
       title: "Rust",
-      url: "https://doc.rust-lang.org/book/ch01-01-installation.html"));
+      url: "https://www.rust-lang.org/learn/get-started"));
   itemList.add(Item(
       imgUrl: "/Rust.svg",
       title: "Crubit",
@@ -1999,8 +1999,10 @@ Future main(List<String> args) async {
   //     imgUrl: "/Carbon.svg",
   //     title: "Carbon",
   //     url: "https://docs.carbon-lang.dev/#getting-started"));
-  // itemList.add(Item(
-  //     imgUrl: "/NextJS.svg", title: "NextJS", url: "https://nextjs.org/docs"));
+  itemList.add(Item(
+      imgUrl: "/NextJS.svg",
+      title: "NextJS",
+      url: "https://nextjs.org/docs/app/getting-started/installation"));
   itemList.add(Item(
       imgUrl: "/Mercurial.svg",
       title: "Mercurial",
@@ -2193,7 +2195,7 @@ Future main(List<String> args) async {
           "https://github.com/riscv/sail-riscv?tab=readme-ov-file#getting-started"));
   itemList.add(Item(
       imgUrl: "/arm.svg",
-      title: "Arm Compiler for Embedded",
+      title: "Arm Embedded Compiler",
       url:
           "https://developer.arm.com/documentation/100748/0623/Getting-Started?lang=en"));
   itemList.add(Item(
