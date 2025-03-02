@@ -39,8 +39,8 @@ M
 /Java_with_Ant.svgAnt2https://ant.apache.org/manual/install.html#getting
 J
 /Android.svgAOSP4https://source.android.com/docs/setup/start?hl=zh-cn
-8
-/AppFlowy.svgAppFlowyhttps://docs.appflowy.io/docs
+~
+/AppFlowy.svgAppFlowychttps://docs.appflowy.io/docs/appflowy/install-appflowy/installation-methods/installing-with-docker
 `
 /AppImage.svgAppImageEhttps://docs.appimage.org/introduction/quickstart.html#ref-quickstart
 B
@@ -81,8 +81,8 @@ T
 L
 
 /Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
-6
-/BabylonJS.svg	BabylonJShttps://doc.babylonjs.com
+e
+/BabylonJS.svg	BabylonJSHhttps://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step
 7
 /BaiduKaifa.svgBaidu Kaifahttps://kaifa.baidu.com
 P
@@ -90,8 +90,8 @@ P
 ;
 
 /Bazel.svgBazel&https://bazel.build/run/build?hl=zh-cn
-0
-/Bazzite.svgBazzitehttps://docs.bazzite.gg
+K
+/Bazzite.svgBazzite2https://docs.bazzite.gg/General/Installation_Guide
 X
 /BentoML.svgBentoML?https://docs.bentoml.com/en/latest/get-started/hello-world.html
 K
@@ -100,8 +100,8 @@ K
 /Atlassian%20Bitbucket.svgBitbucket PipelinesWhttps://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines
 J
 /Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html
-@
-/Blender.svgBlender'https://docs.blender.org/manual/zh-hans
+m
+/Blender.svgBlenderThttps://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html
 N
 
 /BoaJS.svgBoa;https://docs.rs/boa_engine/latest/boa_engine/#example-usage
@@ -209,9 +209,9 @@ A
 /CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
 H
 /NVIDIA.svgCUDA3https://docs.nvidia.com/cuda/cuda-quick-start-guide
-(
+6
 
-/_cURL.svgcURLhttps://curl.se/docs
+/_cURL.svgcURL"https://curl.se/docs/tutorial.html
 N
 /Cursor.svgCursor7https://docs.cursor.com/get-started/welcome#get-started
 J
@@ -458,8 +458,8 @@ c
 /XunFeiOpenPlatform.svgiFLYTEK Open Platform1https://www.xfyun.cn/doc/platform/quickguide.html
 P
 /Inkscape.svgInkscape5https://inkscape.org/zh-hans/simplified-chinese-learn
-H
-/InLong.svgInLong1https://inlong.apache.org/zh-CN/docs/introduction
+u
+/InLong.svgInLong^https://inlong.apache.org/zh-CN/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example
 ]
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html
 c
@@ -649,8 +649,8 @@ J
 	/Mojo.svgMojo7https://docs.modular.com/stable/mojo/manual/get-started
 [
 /mongoDB.svgMongoDBBhttps://www.mongodb.com/zh-cn/docs/manual/tutorial/getting-started
-B
-/MoonBit.svgMoonBit)https://docs.moonbitlang.com/zh-cn/latest
+U
+/MoonBit.svgMoonBit<https://docs.moonbitlang.com/zh-cn/latest/tutorial/tour.html
 3
 	/MQTT.svgMQTT https://mqtt.org/getting-started
 _
@@ -665,9 +665,9 @@ G
 U
 
 /MySQL.svgMySQL@https://dev.mysql.com/doc/refman/8.4/en/binary-installation.html
-:
+H
 
-/Nacos.svgNacos%https://nacos.io/docs/latest/overview
+/Nacos.svgNacos3https://nacos.io/docs/latest/quickstart/quick-start
 :
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc
 
@@ -748,8 +748,8 @@ L
 /OpenZFS.svgOpenZFSChttps://openzfs.github.io/openzfs-docs/Getting%20Started/index.html
 +
 /OW2_ASM.svgOW2 ASMhttps://asm.ow2.io
-1
-	/Oxen.svgOxenhttps://docs.oxen.io/oxen-docs
+„
+	/Oxen.svgOxenqhttps://docs.oxen.io/oxen-docs/using-the-oxen-blockchain/oxen-service-node-guides/setting-up-an-oxen-service-node
 r
 /Packer.svgPacker[https://developer.hashicorp.com/packer/tutorials/docker-get-started/get-started-install-cli
 E
@@ -814,8 +814,8 @@ X
 	/Qwen.svgQwen WanAhttps://github.com/Wan-Video/Wan2.1?tab=readme-ov-file#quickstart
 8
 	/qwik.svgqwik%https://qwik.dev/docs/getting-started
-8
-/RabbitMQ.svgRabbitMQhttps://www.rabbitmq.com/docs
+V
+/RabbitMQ.svgRabbitMQ;https://www.rabbitmq.com/tutorials/tutorial-one-rust-stream
 j
 /Raspberrypi.svgRaspberry PiHhttps://www.raspberrypi.com/documentation/computers/getting-started.html
 ]
@@ -998,8 +998,8 @@ A
 k
 /TypeScript.svg
 TypeScriptLhttps://www.typescriptlang.org/zh/docs/handbook/typescript-from-scratch.html
-I
-/UbuntuServer.svgUbuntu Server%https://ubuntu.com/server/docs/how-to
+{
+/UbuntuServer.svgUbuntu ServerWhttps://documentation.ubuntu.com/server/tutorial/basic-installation/#basic-installation
 (
 	/UEFI.svgUEFIhttps://uefi.org/uefi
 G
@@ -1036,9 +1036,9 @@ Y
 /VSCodium.svgVSCodium>https://github.com/VSCodium/vscodium/blob/master/docs/index.md
 >
 /Vue.svgVueJS+https://cn.vuejs.org/guide/quick-start.html
-+
+L
 
-/WASIX.svgWASIXhttps://wasix.org/docs
+/WASIX.svgWASIX7https://wasix.org/docs/language-guide/rust/installation
 5
 /Wasmer.svgWasmerhttps://docs.wasmer.io/install
 7
@@ -1109,5 +1109,5 @@ R
 /Duke%20Hips.svgZGC9https://wiki.openjdk.org/display/zgc/Main#Main-QuickStart
 ?
 /ZIG.svgZIG.https://zig.guide/getting-started/installation
-P
-/Zookeeper.svg	Zookeeper3https://zookeeper.apache.org/doc/current/index.html
+¡
+/Zookeeper.svg	Zookeeperƒhttps://zookeeper.apache.org/doc/current/zookeeperStarted.html#getting-started-coordinating-distributed-applications-with-zooKeeper
