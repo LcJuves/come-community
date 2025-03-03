@@ -39,7 +39,7 @@ dependencies:
   url_launcher: ^6.1.12
   protobuffers:
     path: third_party/protocolbuffers
-  web: ^1.1.0
+  web: ^1.1.1
 
 dev_dependencies:
   flutter_test:
