@@ -3,8 +3,8 @@ K
 /Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup
 @
 	/ACME.svgACME-https://datatracker.ietf.org/doc/html/rfc8555
-Å
-/GitHub.svgActions Runner Images[https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md
+û
+/GitHub.svgActions Runner Imagesxhttps://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md#github-actions-runner-images
 A
 /ActixWeb.svg	Actix Web%https://actix.rs/docs/getting-started
 K
@@ -122,6 +122,8 @@ X
 /Bun.svgBunhttps://bun.sh/docs/quickstart
 d
 /Bytebase.svgBytebaseIhttps://www.bytebase.com/docs/get-started/step-by-step/deploy-with-docker
+ä
+/C%2B%2B.svg	C++/WinRTohttps://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start
 2
 /C3.svgC3#https://c3-lang.org/getting-started
 V
@@ -232,9 +234,9 @@ J
 /DeepSeek-V3.svgDeepEPDhttps://github.com/deepseek-ai/DeepEP?tab=readme-ov-file#quick-start
 d
 /DeepSeek-V3.svgDeepGEMMFhttps://github.com/deepseek-ai/DeepGEMM?tab=readme-ov-file#quick-start
-s
+‘
 /Deepin.svg
-Deepin DTKXhttps://docs.deepin.org/info/ÂºÄÂèëÂÖ•Èó®/Âü∫Á°ÄÁéØÂ¢É/DTK/Ê¶ÇËø∞/Ê¶ÇËø∞/DTKÂÖ•Èó®ÊåáÂºï
+Deepin DTK∏https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%95
 p
 /DeepSeek-V3.svgDeepSeekRhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
 o
@@ -260,8 +262,8 @@ l
 /dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet
 I
 /dotNET.svgdotNET MAUI-https://learn.microsoft.com/zh-cn/dotnet/maui
-w
-/Douyin.svgDouyin Mini AppWhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/introduction/usage-guide
+ä
+/Douyin.svgDouyin Mini Appjhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev
 L
 /Dragonfly.svg	Dragonfly/https://www.dragonflydb.io/docs/getting-started
 M
@@ -425,8 +427,8 @@ F
 	/HHVM.svgHHVM3https://docs.hhvm.com/hhvm/basic-usage/introduction
 [
 /Apache%20Hive.svgHive?https://cwiki.apache.org/confluence/display/Hive/GettingStarted
-H
-/HomeAssistant.svgHome Assistant"https://www.home-assistant.io/docs
+Ä
+/HomeAssistant.svgHome AssistantZhttps://www.home-assistant.io/installation/generic-x86-64#install-home-assistant-container
 e
 /_Xiaomi.svgHome IntegrationChttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
 <
@@ -628,7 +630,7 @@ E
 =
 /MindSpore.svg	MindSpore https://www.mindspore.cn/install
 Q
-/Mingw-w64.svg	Mingw-w644https://www.mingw-w64.org/getting-started/msys2-llvm
+/mingw-w64.svg	mingw-w644https://www.mingw-w64.org/getting-started/msys2-llvm
 ?
 /conda-forge.svg	Miniforge https://conda-forge.org/download
 B
@@ -655,6 +657,8 @@ U
 	/MQTT.svgMQTT https://mqtt.org/getting-started
 _
 /MS-DOS.svgMS-DOSHhttps://zh.wikipedia.org/wiki/MS-DOS%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8
+x
+/Microsoft.svgMSBuild]https://learn.microsoft.com/zh-cn/visualstudio/msbuild/walkthrough-using-msbuild?view=vs-2022
 u
 /Microsoft.svgMSVC]https://learn.microsoft.com/zh-cn/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170
 =
@@ -869,6 +873,8 @@ g
 /Rust-for-Linux.svgRust for Linux@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html
 Y
 /Windows.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows
+N
+	/Rust.svg	Rust UEFI6https://rust-osdev.github.io/uefi-rs/tutorial/app.html
 ^
 /rust-analyzer.svgrust-analyzer9https://rust-analyzer.github.io/book/vs_code.html#vs-code
 >
@@ -998,6 +1004,8 @@ A
 k
 /TypeScript.svg
 TypeScriptLhttps://www.typescriptlang.org/zh/docs/handbook/typescript-from-scratch.html
+6
+/u-root.svgu-roothttps://u-root.org/#get-started
 {
 /UbuntuServer.svgUbuntu ServerWhttps://documentation.ubuntu.com/server/tutorial/basic-installation/#basic-installation
 (
@@ -1023,11 +1031,11 @@ E
 <
 
 /vcpkg.svgvcpkg'https://learn.microsoft.com/zh-cn/vcpkg
-r
-%/The%20C%20Programming%20Language.svgVisual C?https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170
-T
+†
+%/The%20C%20Programming%20Language.svgVisual Cmhttps://learn.microsoft.com/zh-cn/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-170
+i
 /C%2B%2B.svg
-Visual C++8https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170
+Visual C++Mhttps://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-1-create?view=msvc-170
 a
 /VS Code.svgVisual Studio Code=https://code.visualstudio.com/docs/getstarted/getting-started
 ,
@@ -1064,8 +1072,8 @@ K
 R
 
 /WebXR.svgWebXR=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite
-_
-/_WeChat.svgWeChat Mini Program:https://developers.weixin.qq.com/miniprogram/dev/framework
+x
+/_WeChat.svgWeChat Mini ProgramShttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html
 B
 /Windows.svgWindows)https://learn.microsoft.com/zh-cn/windows
 É
