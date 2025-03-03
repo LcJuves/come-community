@@ -386,11 +386,18 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/The%20C%20Programming%20Language.svg",
       title: "Visual C",
-      url: "https://learn.microsoft.com/zh-cn/cpp/c-language/?view=msvc-170"));
+      url:
+          "https://learn.microsoft.com/zh-cn/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-170"));
   itemList.add(Item(
       imgUrl: "/C%2B%2B.svg",
       title: "Visual C++",
-      url: "https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170"));
+      url:
+          "https://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-1-create?view=msvc-170"));
+  itemList.add(Item(
+      imgUrl: "/C%2B%2B.svg",
+      title: "C++/WinRT",
+      url:
+          "https://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start"));
   itemList.add(Item(
       imgUrl: "/C%2B%2B.svg",
       title: "ISO C++",
@@ -492,7 +499,7 @@ Future main(List<String> args) async {
       imgUrl: "/GitHub.svg",
       title: "Actions Runner Images",
       url:
-          "https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md"));
+          "https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md#github-actions-runner-images"));
   itemList.add(Item(
       imgUrl: "/Packer.svg",
       title: "Packer",
@@ -968,10 +975,6 @@ Future main(List<String> args) async {
       imgUrl: "/Org_WebKit.svg",
       title: "WebKit",
       url: "https://webkit.org/blog/category/standards"));
-  // itemList.add(Item(
-  //     imgUrl: "/CSV.svg",
-  //     title: "CSV",
-  //     url: "https://datatracker.ietf.org/doc/html/rfc4180"));
   // itemList
   //     .add(Item(imgUrl: "/V8.svg", title: "V8", url: "https://v8.dev/docs"));
   itemList.add(Item(
@@ -1052,7 +1055,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/HomeAssistant.svg",
       title: "Home Assistant",
-      url: "https://www.home-assistant.io/docs"));
+      url:
+          "https://www.home-assistant.io/installation/generic-x86-64#install-home-assistant-container"));
   itemList.add(Item(
       imgUrl: "/D3JS.svg",
       title: "D3JS",
@@ -1077,7 +1081,8 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Deepin.svg",
       title: "Deepin DTK",
-      url: "https://docs.deepin.org/info/开发入门/基础环境/DTK/概述/概述/DTK入门指引"));
+      url:
+          "https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%95"));
   itemList.add(Item(
       imgUrl: "/QEMU.svg",
       title: "QEMU",
@@ -1209,6 +1214,11 @@ Future main(List<String> args) async {
       url:
           "https://learn.microsoft.com/zh-cn/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170"));
   itemList.add(Item(
+      imgUrl: "/Microsoft.svg",
+      title: "MSBuild",
+      url:
+          "https://learn.microsoft.com/zh-cn/visualstudio/msbuild/walkthrough-using-msbuild?view=vs-2022"));
+  itemList.add(Item(
       imgUrl: "/MySQL.svg",
       title: "MySQL",
       url: "https://dev.mysql.com/doc/refman/8.4/en/binary-installation.html"));
@@ -1330,10 +1340,6 @@ Future main(List<String> args) async {
       title: "Plan 9",
       url: "http://9p.io/wiki/plan9/Installation_instructions/index.html"));
 
-  // itemList.add(Item(
-  //     imgUrl: "/Spark.svg",
-  //     title: "Spark",
-  //     url: "https://spark.apache.org/docs/latest"));
   // itemList.add(Item(
   //     imgUrl: "/RustWASM.svg",
   //     title: "Rust and WebAssembly",
@@ -1705,8 +1711,8 @@ Future main(List<String> args) async {
       title: "Pixi",
       url: "https://pixi.sh/latest/#installation"));
   itemList.add(Item(
-      imgUrl: "/Mingw-w64.svg",
-      title: "Mingw-w64",
+      imgUrl: "/mingw-w64.svg",
+      title: "mingw-w64",
       url: "https://www.mingw-w64.org/getting-started/msys2-llvm"));
   itemList.add(Item(
       imgUrl: "/DeepSeek-V3.svg",
@@ -2069,12 +2075,25 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/_WeChat.svg",
       title: "WeChat Mini Program",
-      url: "https://developers.weixin.qq.com/miniprogram/dev/framework"));
+      url:
+          "https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html"));
   itemList.add(Item(
       imgUrl: "/Douyin.svg",
       title: "Douyin Mini App",
       url:
-          "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/introduction/usage-guide"));
+          "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev"));
+  // itemList.add(Item(
+  //     imgUrl: "/Taro.svg",
+  //     title: "Taro",
+  //     url: "https://docs.taro.zone/docs/GETTING-STARTED"));
+  itemList.add(Item(
+      imgUrl: "/u-root.svg",
+      title: "u-root",
+      url: "https://u-root.org/#get-started"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust UEFI",
+      url: "https://rust-osdev.github.io/uefi-rs/tutorial/app.html"));
   itemList.add(Item(
       imgUrl: "/iroh.svg",
       title: "iroh",
