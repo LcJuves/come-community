@@ -1504,7 +1504,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Tetragon.svg",
       title: "Tetragon",
-      url: "https://tetragon.io/docs"));
+      url: "https://tetragon.io/docs/getting-started/install-k8s"));
   itemList.add(Item(
       imgUrl: "/Remmina.svg",
       title: "Remmina",
@@ -1752,7 +1752,16 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/PinganCloud.svg",
       title: "Ping An Cloud",
-      url: "https://fincloud.pingan.com/ssr/help/center"));
+      url:
+          "https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance"));
+  itemList.add(Item(
+      imgUrl: "/Tencent%20Cloud.svg",
+      title: "Tencent Cloud VM",
+      url: "https://www.tencentcloud.com/document/product/213/38678"));
+  itemList.add(Item(
+      imgUrl: "/BaiduOCR.svg",
+      title: "Baidu OCR",
+      url: "https://cloud.baidu.com/doc/OCR/s/dk3iqnq51"));
   itemList.add(Item(
       imgUrl: "/LcJuvesBlog.svg",
       title: "LcJuves' Blog",

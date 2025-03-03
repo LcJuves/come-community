@@ -85,6 +85,8 @@ e
 /BabylonJS.svg	BabylonJSHhttps://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step
 7
 /BaiduKaifa.svgBaidu Kaifahttps://kaifa.baidu.com
+G
+/BaiduOCR.svg	Baidu OCR+https://cloud.baidu.com/doc/OCR/s/dk3iqnq51
 P
 	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html
 ;
@@ -763,8 +765,8 @@ E
 	/Rust.svgPepeIhttps://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage
 E
 /PHP.svgPHP4https://www.php.net/manual/zh/tutorial.firstpage.php
-N
-/PinganCloud.svgPing An Cloud+https://fincloud.pingan.com/ssr/help/center
+Å
+/PinganCloud.svgPing An Cloud^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance
 _
 /Cloudflare.svgPingoraChttps://github.com/cloudflare/pingora/blob/main/docs/quick_start.md
 E
@@ -963,13 +965,15 @@ Q
 /TAURI.svgTAURIhttps://tauri.app/zh-cn/start
 E
 	/Java.svgTeaVM1https://teavm.org/docs/intro/getting-started.html
+a
+/Tencent%20Cloud.svgTencent Cloud VM7https://www.tencentcloud.com/document/product/213/38678
 J
 /TensorFlow.svg
 TensorFlow+https://tensorflow.google.cn/learn?hl=zh-cn
 C
 /Termux.svgTermux,https://wiki.termux.com/wiki/Getting_started
-3
-/Tetragon.svgTetragonhttps://tetragon.io/docs
+O
+/Tetragon.svgTetragon4https://tetragon.io/docs/getting-started/install-k8s
 \
 /GNU.svgThe GNU C Library=https://www.gnu.org/software/libc/manual/html_node/index.html
 c
