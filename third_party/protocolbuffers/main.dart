@@ -504,6 +504,14 @@ Future main(List<String> args) async {
       title: "git2-rs",
       url: "https://docs.rs/git2/latest/git2"));
   itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "capnpc",
+      url: "https://docs.rs/capnpc/latest/capnpc"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "Cap’n Proto Runtime Library",
+      url: "https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library"));
+  itemList.add(Item(
       imgUrl: "/GitHub.svg",
       title: "GitHub Actions",
       url: "https://docs.github.com/zh/actions/writing-workflows/quickstart"));
@@ -1123,6 +1131,10 @@ Future main(List<String> args) async {
       imgUrl: "/Grok.svg",
       title: "xAI Grok",
       url: "https://github.com/xai-org/grok-1"));
+  itemList.add(Item(
+      imgUrl: "/LangChain.svg",
+      title: "LangChain",
+      url: "https://python.langchain.com/docs/how_to"));
   itemList.add(Item(
       imgUrl: "/NVIDIA.svg",
       title: "CUDA",
