@@ -728,6 +728,8 @@ V
 OmniParserBhttps://github.com/microsoft/OmniParser?tab=readme-ov-file#install
 ž
 /OpenInterpreter.svgOpen Interpreterthttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B
+I
+/OpenUSD.svgOpen USD/https://openusd.org/release/tut_helloworld.html
 g
 /OpenVSX.svgOpen VSXMhttps://github.com/EclipseFdn/open-vsx.org?tab=readme-ov-file#getting-started
 S
