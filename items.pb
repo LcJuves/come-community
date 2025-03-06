@@ -63,8 +63,8 @@ J
 /Asahi%20Linux.svgAsahi Linux'https://github.com/asahilinux/docs/wiki
 4
 /AsciiDoc.svgAsciiDochttps://asciidoc.org/#try
-•
-/Eclipse%20IDE.svgAspectJvhttps://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc#getting-started-with-aspectj
+_
+/Eclipse%20IDE.svgAspectJ@https://eclipse.dev/aspectj/doc/released/progguide/starting.html
 Z
 /AssemblyScript.svgAssemblyScript3https://www.assemblyscript.org/getting-started.html
 F
@@ -78,9 +78,8 @@ T
 /Azure.svgAzure Linuxihttps://github.com/microsoft/azurelinux/blob/3.0/toolkit/docs/quick_start/quickstart.md#quick-start-guide
 `
 /AzurePipelines.svgAzure Pipelines8https://learn.microsoft.com/zh-cn/azure/devops/pipelines
-L
-
-/Azure.svgAzure Quantum/https://learn.microsoft.com/zh-cn/azure/quantum
+s
+/AzureQuantum.svgAzure QuantumOhttps://learn.microsoft.com/zh-cn/training/paths/quantum-computing-fundamentals
 e
 /BabylonJS.svg	BabylonJSHhttps://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step
 7
@@ -651,6 +650,8 @@ J
 ModelScope+https://modelscope.cn/docs/intro/quickstart
 J
 	/Mojo.svgMojo7https://docs.modular.com/stable/mojo/manual/get-started
+J
+/__CodeOSS.svgMonaco Editor)https://microsoft.github.io/monaco-editor
 [
 /mongoDB.svgMongoDBBhttps://www.mongodb.com/zh-cn/docs/manual/tutorial/getting-started
 U
@@ -725,6 +726,8 @@ V
 OmniParserBhttps://github.com/microsoft/OmniParser?tab=readme-ov-file#install
 ž
 /OpenInterpreter.svgOpen Interpreterthttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B
+g
+/OpenVSX.svgOpen VSXMhttps://github.com/EclipseFdn/open-vsx.org?tab=readme-ov-file#getting-started
 S
 /OpenAIPlatform.svgOpenAI Platform+https://platform.openai.com/docs/quickstart
 8
@@ -875,6 +878,10 @@ g
 /Rust-for-Linux.svgRust for Linux@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html
 Y
 /Windows.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows
+E
+	/Rust.svgRust HIR.https://rustc-dev-guide.rust-lang.org/hir.html
+@
+	/Rust.svgRust MIR)https://rustc-dev-guide.rust-lang.org/mir
 N
 	/Rust.svg	Rust UEFI6https://rust-osdev.github.io/uefi-rs/tutorial/app.html
 ^
@@ -909,6 +916,9 @@ K
 /Servo.svgServo)https://book.servo.org/getting-servo.html
 3
 /SESSION.svgSESSIONhttps://getsession.org/faq
+O
+
+/Swift.svgSIL<https://github.com/swiftlang/swift/blob/main/docs/SIL/SIL.md
 R
 	/Rust.svgSIMD JSON for Rust1https://docs.rs/simd-json/latest/simd_json/#usage
 ‚
@@ -942,17 +952,17 @@ I
 /Swagger.svgSwaggerhttps://swagger.io/docs
 4
 /SWC.svgSWC#https://swc.rs/docs/getting-started
-c
+n
 
-/Swift.svgSwiftNhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language
+/Swift.svgSwiftYhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
 k
 
 /Swift.svgSwift for TensorFlowGhttps://github.com/tensorflow/swift/blob/main/README.md#getting-started
-^
-/SwiftGG.svgSwiftGGEhttps://doc.swiftgg.team/documentation/the-swift-programming-language
-J
+m
+/SwiftGG.svgSwiftGGThttps://doc.swiftgg.team/documentation/the-swift-programming-language-----/thebasics
+H
 
-/Swift.svgSwiftPM3https://www.swift.org/documentation/package-manager
+/Swift.svgSwiftPM1https://www.swift.org/getting-started/cli-swiftpm
 +
 /systemd.svgsystemdhttps://systemd.io
 %
