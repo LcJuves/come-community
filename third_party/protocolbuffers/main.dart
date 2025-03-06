@@ -8,7 +8,7 @@ Future main(List<String> args) async {
       imgUrl: "/SwiftGG.svg",
       title: "SwiftGG",
       url:
-          "https://doc.swiftgg.team/documentation/the-swift-programming-language"));
+          "https://doc.swiftgg.team/documentation/the-swift-programming-language-----/thebasics"));
   itemList.add(Item(
       imgUrl: "/Flutter.svg",
       title: "Flutter",
@@ -242,6 +242,14 @@ Future main(List<String> args) async {
       url: "https://www.rust-lang.org/learn/get-started"));
   itemList.add(Item(
       imgUrl: "/Rust.svg",
+      title: "Rust MIR",
+      url: "https://rustc-dev-guide.rust-lang.org/mir"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust HIR",
+      url: "https://rustc-dev-guide.rust-lang.org/hir.html"));
+  itemList.add(Item(
+      imgUrl: "/Rust.svg",
       title: "Crubit",
       url:
           "https://github.com/google/crubit?tab=readme-ov-file#getting-started"));
@@ -408,11 +416,15 @@ Future main(List<String> args) async {
       imgUrl: "/Swift.svg",
       title: "Swift",
       url:
-          "https://docs.swift.org/swift-book/documentation/the-swift-programming-language"));
+          "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour"));
+  itemList.add(Item(
+      imgUrl: "/Swift.svg",
+      title: "SIL",
+      url: "https://github.com/swiftlang/swift/blob/main/docs/SIL/SIL.md"));
   itemList.add(Item(
       imgUrl: "/Swift.svg",
       title: "SwiftPM",
-      url: "https://www.swift.org/documentation/package-manager"));
+      url: "https://www.swift.org/getting-started/cli-swiftpm"));
   itemList.add(Item(
       imgUrl: "/Swift.svg",
       title: "Swift for TensorFlow",
@@ -533,6 +545,10 @@ Future main(List<String> args) async {
       imgUrl: "/__CodeOSS.svg",
       title: "Code OSS",
       url: "https://github.com/LcJuves/vscode/wiki/How-to-Contribute"));
+  itemList.add(Item(
+      imgUrl: "/__CodeOSS.svg",
+      title: "Monaco Editor",
+      url: "https://microsoft.github.io/monaco-editor"));
   itemList.add(Item(
       imgUrl: "/CMake.svg",
       title: "CMake",
@@ -764,9 +780,10 @@ Future main(List<String> args) async {
       title: "NuttX",
       url: "https://nuttx.apache.org/docs/latest/quickstart/install.html"));
   itemList.add(Item(
-      imgUrl: "/Azure.svg",
+      imgUrl: "/AzureQuantum.svg",
       title: "Azure Quantum",
-      url: "https://learn.microsoft.com/zh-cn/azure/quantum"));
+      url:
+          "https://learn.microsoft.com/zh-cn/training/paths/quantum-computing-fundamentals"));
   itemList.add(Item(
       imgUrl: "/Azure.svg",
       title: "Azure Linux",
@@ -1386,8 +1403,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/Eclipse%20IDE.svg",
       title: "AspectJ",
-      url:
-          "https://github.com/eclipse-aspectj/aspectj/blob/master/docs/progguide/gettingstarted.adoc#getting-started-with-aspectj"));
+      url: "https://eclipse.dev/aspectj/doc/released/progguide/starting.html"));
   itemList.add(Item(
       imgUrl: "/OW2_ASM.svg", title: "OW2 ASM", url: "https://asm.ow2.io"));
   itemList.add(Item(
@@ -1766,6 +1782,11 @@ Future main(List<String> args) async {
       imgUrl: "/LcJuvesBlog.svg",
       title: "LcJuves' Blog",
       url: "https://blog.lcjuves.com"));
+  itemList.add(Item(
+      imgUrl: "/OpenVSX.svg",
+      title: "Open VSX",
+      url:
+          "https://github.com/EclipseFdn/open-vsx.org?tab=readme-ov-file#getting-started"));
   itemList.add(Item(
       imgUrl: "/LcJuvesBlog.svg",
       title: "Learn X in Y minutes",
