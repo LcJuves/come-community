@@ -134,9 +134,13 @@ Camel Core3https://camel.apache.org/camel-core/getting-started
 /Cangjie.svgCangjiekhttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
 E
 	/Skia.svg	CanvasKit-https://skia.org/docs/user/modules/quickstart
+9
+	/Rust.svgcapnpc$https://docs.rs/capnpc/latest/capnpc
 ?
 
 /e-CNY.svgCap’n Proto"https://capnproto.org/install.html
+j
+	/Rust.svgCap’n Proto Runtime Library>https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library
 \
 
 /Cargo.svgCargoGhttps://doc.rust-lang.org/stable/cargo/getting-started/first-steps.html
@@ -546,6 +550,8 @@ U
 E
 /Kubernetes.svg
 Kubernetes&https://kubernetes.io/zh-cn/docs/setup
+E
+/LangChain.svg	LangChain(https://python.langchain.com/docs/how_to
 1
 /Laravel.svgLaravelhttps://laravel.com/docs
 E
