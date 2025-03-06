@@ -139,8 +139,8 @@ E
 ?
 
 /e-CNY.svgCap’n Proto"https://capnproto.org/install.html
-j
-	/Rust.svgCap’n Proto Runtime Library>https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library
+b
+	/Rust.svgCap’n Proto Runtime>https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library
 \
 
 /Cargo.svgCargoGhttps://doc.rust-lang.org/stable/cargo/getting-started/first-steps.html
