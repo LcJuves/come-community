@@ -320,8 +320,8 @@ D
 N
 
 /Flink.svgFlink9https://ci.apache.org/projects/flink/flink-docs-stable/zh
-D
-/Flutter.svgFlutter+https://docs.flutter.cn/get-started/install
+Z
+/Flutter.svgFlutterAhttps://docs.flutter.dev/get-started/install/macos/mobile-android
 M
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics
 M

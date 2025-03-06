@@ -17,7 +17,8 @@ class Item extends $pb.GeneratedMessage {
   factory Item({
     $core.String? imgUrl,
     $core.String? title,
-    $core.String? url,
+    $core.String? cnurl,
+    $core.String? enurl,
   }) {
     final $result = create();
     if (imgUrl != null) {
@@ -26,8 +27,11 @@ class Item extends $pb.GeneratedMessage {
     if (title != null) {
       $result.title = title;
     }
-    if (url != null) {
-      $result.url = url;
+    if (cnurl != null) {
+      $result.cnurl = cnurl;
+    }
+    if (enurl != null) {
+      $result.enurl = enurl;
     }
     return $result;
   }
@@ -38,7 +42,8 @@ class Item extends $pb.GeneratedMessage {
   static final $pb.BuilderInfo _i = $pb.BuilderInfo(_omitMessageNames ? '' : 'Item', createEmptyInstance: create)
     ..aOS(1, _omitFieldNames ? '' : 'imgUrl')
     ..aOS(2, _omitFieldNames ? '' : 'title')
-    ..aOS(3, _omitFieldNames ? '' : 'url')
+    ..aOS(3, _omitFieldNames ? '' : 'cnurl')
+    ..aOS(4, _omitFieldNames ? '' : 'enurl')
     ..hasRequiredFields = false
   ;
 
@@ -82,13 +87,22 @@ class Item extends $pb.GeneratedMessage {
   void clearTitle() => clearField(2);
 
   @$pb.TagNumber(3)
-  $core.String get url => $_getSZ(2);
+  $core.String get cnurl => $_getSZ(2);
   @$pb.TagNumber(3)
-  set url($core.String v) { $_setString(2, v); }
+  set cnurl($core.String v) { $_setString(2, v); }
   @$pb.TagNumber(3)
-  $core.bool hasUrl() => $_has(2);
+  $core.bool hasCnurl() => $_has(2);
   @$pb.TagNumber(3)
-  void clearUrl() => clearField(3);
+  void clearCnurl() => clearField(3);
+
+  @$pb.TagNumber(4)
+  $core.String get enurl => $_getSZ(3);
+  @$pb.TagNumber(4)
+  set enurl($core.String v) { $_setString(3, v); }
+  @$pb.TagNumber(4)
+  $core.bool hasEnurl() => $_has(3);
+  @$pb.TagNumber(4)
+  void clearEnurl() => clearField(4);
 }
 
 class Items extends $pb.GeneratedMessage {
