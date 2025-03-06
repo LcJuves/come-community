@@ -1125,6 +1125,10 @@ Future main(List<String> args) async {
       url: "https://docs.nvidia.com/cuda/cuda-quick-start-guide"));
   itemList.add(Item(
       imgUrl: "/NVIDIA.svg",
+      title: "CUDA-GDB",
+      url: "https://docs.nvidia.com/cuda/cuda-gdb/index.html#getting-started"));
+  itemList.add(Item(
+      imgUrl: "/NVIDIA.svg",
       title: "Cosmos",
       url:
           "https://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai"));
@@ -1790,7 +1794,7 @@ Future main(List<String> args) async {
   itemList.add(Item(
       imgUrl: "/LcJuvesBlog.svg",
       title: "Learn X in Y minutes",
-      url: "https://learnxinyminutes.com"));
+      url: "https://learnxinyminutes.com/c"));
   itemList.add(Item(
       imgUrl: "/Svelte.svg",
       title: "Svelte",

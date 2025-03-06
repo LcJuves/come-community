@@ -212,6 +212,8 @@ A
 /CSS.svgCSS0https://developer.mozilla.org/zh-CN/docs/Web/CSS
 H
 /NVIDIA.svgCUDA3https://docs.nvidia.com/cuda/cuda-quick-start-guide
+Y
+/NVIDIA.svgCUDA-GDB@https://docs.nvidia.com/cuda/cuda-gdb/index.html#getting-started
 6
 
 /_cURL.svgcURL"https://curl.se/docs/tutorial.html
@@ -554,8 +556,8 @@ E
 R
 /LeakCanary.svg
 LeakCanary3https://square.github.io/leakcanary/getting_started
-F
-/LcJuvesBlog.svgLearn X in Y minuteshttps://learnxinyminutes.com
+H
+/LcJuvesBlog.svgLearn X in Y minuteshttps://learnxinyminutes.com/c
 T
 /Let's%20Encrypt.svgLet's Encrypt-https://letsencrypt.org/zh-cn/getting-started
 P
