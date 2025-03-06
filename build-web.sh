@@ -39,8 +39,8 @@ flutter build web --wasm --no-tree-shake-icons --no-native-null-assertions --no-
 
     cd canvaskit || exit
     minify_js canvaskit.js
+    minify_js skwasm_st.js
     minify_js skwasm.js
-    minify_js skwasm.worker.js
 
     cd chromium || exit
     minify_js canvaskit.js
