@@ -1114,8 +1114,8 @@ L
 /Microsoft.svgWSL5https://learn.microsoft.com/zh-cn/windows/wsl/install
 O
 	/XOrg.svgX Window System1https://www.x.org/releases/current/doc/index.html
-7
-/xAI.svgxAI Grok!https://github.com/xai-org/grok-1
+8
+	/Grok.svgxAI Grok!https://github.com/xai-org/grok-1
 p
 /Xamarin.svgXamarinWhttps://learn.microsoft.com/zh-cn/previous-versions/xamarin/get-started/quickstarts/app
 D

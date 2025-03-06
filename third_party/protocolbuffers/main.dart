@@ -1116,7 +1116,7 @@ Future main(List<String> args) async {
   itemList.add(
       Item(imgUrl: "/UEFI.svg", title: "UEFI", url: "https://uefi.org/uefi"));
   itemList.add(Item(
-      imgUrl: "/xAI.svg",
+      imgUrl: "/Grok.svg",
       title: "xAI Grok",
       url: "https://github.com/xai-org/grok-1"));
   itemList.add(Item(
