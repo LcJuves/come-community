@@ -509,7 +509,7 @@ Future main(List<String> args) async {
       url: "https://docs.rs/capnpc/latest/capnpc"));
   itemList.add(Item(
       imgUrl: "/Rust.svg",
-      title: "Cap’n Proto Runtime Library",
+      title: "Cap’n Proto Runtime",
       url: "https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library"));
   itemList.add(Item(
       imgUrl: "/GitHub.svg",
