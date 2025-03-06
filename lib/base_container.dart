@@ -37,7 +37,7 @@ class BaseContainer extends StatelessWidget {
         borderRadius: BorderRadius.circular(15),
         color: Colors.white.withAlpha(204),
         onTap: () async =>
-            await launchUrl(Uri.parse(item.url), mode: LaunchMode.inAppWebView),
+            await launchUrl(Uri.parse(item.cnurl), mode: LaunchMode.inAppWebView),
         child: Row(mainAxisSize: MainAxisSize.min, children: [
           SvgNetworkIcon(url: _imgUrl, size: Constants.svgIconSize),
           Padding(
@@ -64,11 +64,11 @@ class BaseContainer extends StatelessWidget {
                     child: Tooltip(
                       triggerMode: TooltipTriggerMode.manual,
                       margin: const EdgeInsets.all(4),
-                      message: item.url,
+                      message: item.cnurl,
                       waitDuration: const Duration(milliseconds: 1200),
                       exitDuration: const Duration(),
                       child: Text(
-                        item.url,
+                        item.cnurl,
                         style: const TextStyle(
                             fontSize: 11,
                             color: Color.fromARGB(255, 100, 100, 100),

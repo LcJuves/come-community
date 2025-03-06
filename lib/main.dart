@@ -121,7 +121,7 @@ class _HomePageState extends State<HomePage> {
                               final filteredItems = _loadedItems!.where(
                                   (item) =>
                                       item.title.contains(value) ||
-                                      item.url.contains(value));
+                                      item.cnurl.contains(value));
                               setState(() {
                                 futureItems =
                                     Future.value(List.of(filteredItems));
