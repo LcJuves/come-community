@@ -418,6 +418,10 @@ Future main(List<String> args) async {
       url:
           "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour"));
   itemList.add(Item(
+      imgUrl: "/OpenUSD.svg",
+      title: "Open USD",
+      url: "https://openusd.org/release/tut_helloworld.html"));
+  itemList.add(Item(
       imgUrl: "/Swift.svg",
       title: "SIL",
       url: "https://github.com/swiftlang/swift/blob/main/docs/SIL/SIL.md"));
