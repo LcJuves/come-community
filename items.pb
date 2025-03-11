@@ -659,6 +659,8 @@ Mistral AI2https://docs.mistral.ai/getting-started/quickstart"#
 	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started"#
 L
 /China%20Mobile.svgMobile Open Platformhttps://dev.10086.cn/docHome"#
+X
+/MCP.svgModel Context Protocol1https://modelcontextprotocol.io/quickstart/client"#
 M
 /ModelScope.svg
 ModelScope+https://modelscope.cn/docs/intro/quickstart"#

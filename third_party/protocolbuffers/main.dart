@@ -312,6 +312,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/MCP.svg",
+      title: "Model Context Protocol",
+      enurl: "#",
+      cnurl: "https://modelcontextprotocol.io/quickstart/client",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/_Unity.svg",
       title: "Unity",
       enurl: "#",
