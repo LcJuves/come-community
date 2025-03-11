@@ -313,7 +313,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/MCP.svg",
-      title: "Model Context Protocol",
+      title: "MCP",
       enurl: "#",
       cnurl: "https://modelcontextprotocol.io/quickstart/client",
     ),
