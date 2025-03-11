@@ -101,8 +101,8 @@ N
 /Atlassian%20Bitbucket.svgBitbucket PipelinesWhttps://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines"#
 M
 /Bitcoin.svgBitcoin1https://developer.bitcoin.org/devguide/index.html"#
-p
-/Blender.svgBlenderThttps://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html"#
+¾
+/Blender.svgBlenderThttps://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html"Ohttps://docs.blender.org/manual/en/latest/getting_started/installing/index.html
 Q
 
 /BoaJS.svgBoa;https://docs.rs/boa_engine/latest/boa_engine/#example-usage"#
@@ -147,6 +147,9 @@ _
 G
 
 /Cargo.svgCargo Remote(https://github.com/sgeisler/cargo-remote"#
+z
+
+/Cargo.svg	cargo-ndk^https://github.com/bbqsrc/cargo-ndk?tab=readme-ov-file#cargo-ndk---build-rust-code-for-android"#
 m
 /Certbot.svgCertbot CommandsHhttps://eff-certbot.readthedocs.io/en/stable/using.html#certbot-commands"#
 ]
@@ -227,8 +230,8 @@ M
 /Cygwin.svgCygwin3https://cygwin.com/cygwin-ug-net/cygwin-ug-net.html"#
 F
 	/D3JS.svgD3JS0https://d3js.org/getting-started#getting-started"#
-+
-	/Dart.svgDarthttps://dart.cn/language
+F
+	/Dart.svgDarthttps://dart.cn/language"https://dart.dev/language
 C
 	/Dart.svgDart DevTools$https://dart.dev/tools/dart-devtools"#
 R
@@ -407,6 +410,9 @@ S
 /Grafana.svgGrafana7https://grafana.com/docs/grafana/latest/getting-started"#
 4
 /GraphQL.svgGraphQLhttps://graphql.cn/learn"#
+W
+/GreptimeDB.svg
+GreptimeDB5https://docs.greptime.com/getting-started/quick-start"#
 Y
 /Apache%20Groovy.svgGroovy6https://docs.groovy-lang.org/latest/html/documentation"#
 B
@@ -550,8 +556,8 @@ X
 H
 /Kubernetes.svg
 Kubernetes&https://kubernetes.io/zh-cn/docs/setup"#
-H
-/LangChain.svg	LangChain(https://python.langchain.com/docs/how_to"#
+D
+/LangChain.svg	LangChain$https://js.langchain.com/docs/how_to"#
 4
 /Laravel.svgLaravelhttps://laravel.com/docs"#
 H
@@ -763,8 +769,8 @@ L
 /OpenVINO.svgOpenVINO.https://docs.openvino.ai/2024/get-started.html"#
 O
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start"#
-_
-/OpenZFS.svgOpenZFSChttps://openzfs.github.io/openzfs-docs/Getting%20Started/index.html"#
+f
+/OpenZFS.svgOpenZFSJhttps://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/index.html"#
 +
 /OW2_ASM.svgOW2 ASMhttps://asm.ow2.io
 ‡
@@ -935,6 +941,9 @@ U
 /Debian.svgSimple Shell Command]https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command"#
 (
 	/Skia.svgSkiahttps://skia.org/docs
+Y
+
+/Slint.svgSlintAhttps://docs.slint.dev/latest/docs/slint/tutorial/getting_started"#
 o
 /DeepSeek-V3.svg	SmallpondMhttps://github.com/deepseek-ai/smallpond/blob/main/docs/source/getstarted.rst"#
 X
@@ -1036,6 +1045,8 @@ TypeScriptLhttps://www.typescriptlang.org/zh/docs/handbook/typescript-from-scra
 	/UEFI.svgUEFIhttps://uefi.org/uefi
 J
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0"#
+W
+	/Rust.svgUniFFI?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html"#
 P
 /_Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html"#
 i
@@ -1052,6 +1063,9 @@ H
 /uv.svguv6https://docs.astral.sh/uv/getting-started/installation"#
 >
 	/Vala.svgVala(https://docs.vala.dev/installation-guide"#
+L
+
+/Vapor.svgVapor4https://docs.vapor.codes/getting-started/hello-world"#
 ?
 
 /vcpkg.svgvcpkg'https://learn.microsoft.com/zh-cn/vcpkg"#
@@ -1071,6 +1085,9 @@ A
 O
 
 /WASIX.svgWASIX7https://wasix.org/docs/language-guide/rust/installation"#
+t
+/BytecodeAlliance.svg
+wasm-toolsLhttps://github.com/bytecodealliance/wasm-tools?tab=readme-ov-file#wasm-tools"#
 8
 /Wasmer.svgWasmerhttps://docs.wasmer.io/install"#
 :

@@ -245,7 +245,11 @@ Future main(List<String> args) async {
     ),
   );
   itemList.add(
-    Item(imgUrl: "/Dart.svg", title: "Dart", cnurl: "https://dart.cn/language"),
+    Item(
+        imgUrl: "/Dart.svg",
+        title: "Dart",
+        enurl: "https://dart.dev/language",
+        cnurl: "https://dart.cn/language"),
   );
   itemList.add(
     Item(
@@ -804,6 +808,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Vapor.svg",
+      title: "Vapor",
+      enurl: "#",
+      cnurl: "https://docs.vapor.codes/getting-started/hello-world",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/OpenUSD.svg",
       title: "Open USD",
       enurl: "#",
@@ -873,6 +885,24 @@ Future main(List<String> args) async {
       title: "WebAssembly",
       enurl: "#",
       cnurl: "https://webassembly.org/getting-started/developers-guide",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/BytecodeAlliance.svg",
+      title: "wasm-tools",
+      enurl: "#",
+      cnurl:
+          "https://github.com/bytecodealliance/wasm-tools?tab=readme-ov-file#wasm-tools",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Slint.svg",
+      title: "Slint",
+      enurl: "#",
+      cnurl:
+          "https://docs.slint.dev/latest/docs/slint/tutorial/getting_started",
     ),
   );
   itemList.add(
@@ -1739,7 +1769,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Blender.svg",
       title: "Blender",
-      enurl: "#",
+      enurl:
+          "https://docs.blender.org/manual/en/latest/getting_started/installing/index.html",
       cnurl:
           "https://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html",
     ),
@@ -2199,7 +2230,7 @@ Future main(List<String> args) async {
       imgUrl: "/LangChain.svg",
       title: "LangChain",
       enurl: "#",
-      cnurl: "https://python.langchain.com/docs/how_to",
+      cnurl: "https://js.langchain.com/docs/how_to",
     ),
   );
   itemList.add(
@@ -2441,7 +2472,15 @@ Future main(List<String> args) async {
       title: "OpenZFS",
       enurl: "#",
       cnurl:
-          "https://openzfs.github.io/openzfs-docs/Getting%20Started/index.html",
+          "https://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/index.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GreptimeDB.svg",
+      title: "GreptimeDB",
+      enurl: "#",
+      cnurl: "https://docs.greptime.com/getting-started/quick-start",
     ),
   );
   itemList.add(
@@ -3333,6 +3372,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Rust.svg",
+      title: "UniFFI",
+      enurl: "#",
+      cnurl: "https://mozilla.github.io/uniffi-rs/latest/Getting_started.html",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/COSMIC_Toolkit.svg",
       title: "COSMIC Toolkit",
       enurl: "#",
@@ -3353,6 +3400,15 @@ Future main(List<String> args) async {
       title: "Cargo Remote",
       enurl: "#",
       cnurl: "https://github.com/sgeisler/cargo-remote",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Cargo.svg",
+      title: "cargo-ndk",
+      enurl: "#",
+      cnurl:
+          "https://github.com/bbqsrc/cargo-ndk?tab=readme-ov-file#cargo-ndk---build-rust-code-for-android",
     ),
   );
   itemList.add(
