@@ -763,8 +763,8 @@ V
 /OpenBSD.svgOpenBSDhttps://www.openbsd.org/76.html"#
 8
 /OpenCV.svgOpenCVhttps://opencv.org/get-started"#
-=
-/OpenEuler.svg	OpenEulerhttps://docs.openeuler.org/zh"#
+Œ
+/OpenEuler.svg	OpenEulerlhttps://docs.openeuler.org/zh/docs/22.03_LTS_SP2/docs/Installation/%E5%AE%89%E8%A3%85%E6%8C%87%E5%AF%BC.html"#
 i
 /OpenHands.svg	OpenHandsIhttps://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file#-quick-start"#
 ~
@@ -774,8 +774,8 @@ i
 G
 /OpenRouter.svg
 OpenRouter%https://openrouter.ai/docs/quickstart"#
-;
-/OpenSSL.svgOpenSSLhttps://docs.openssl.org/master"#
+I
+/OpenSSL.svgOpenSSL commands$https://docs.openssl.org/master/man1"#
 T
 /OpenStack.svg	OpenStack7https://docs.openstack.org/devstack/latest/#quick-start
 L
