@@ -227,14 +227,14 @@ Future main(List<String> args) async {
       cnurl: "https://cn.vuejs.org/guide/quick-start.html",
     ),
   );
-  itemList.add(
-    Item(
-      imgUrl: "/Python.svg",
-      title: "Python",
-      enurl: "#",
-      cnurl: "https://docs.python.org/zh-cn/3/tutorial/index.html",
-    ),
-  );
+  // itemList.add(
+  //   Item(
+  //     imgUrl: "/Python.svg",
+  //     title: "Python",
+  //     enurl: "#",
+  //     cnurl: "https://docs.python.org/zh-cn/3/tutorial/index.html",
+  //   ),
+  // );
   itemList.add(
     Item(
       imgUrl: "/Ray.svg",
@@ -464,14 +464,14 @@ Future main(List<String> args) async {
       cnurl: "https://www.linuxfoundation.org/projects",
     ),
   );
-  itemList.add(
-    Item(
-      imgUrl: "/GoLang.svg",
-      title: "Go",
-      enurl: "#",
-      cnurl: "https://go.dev/doc/tutorial/getting-started",
-    ),
-  );
+  // itemList.add(
+  //   Item(
+  //     imgUrl: "/GoLang.svg",
+  //     title: "Go",
+  //     enurl: "#",
+  //     cnurl: "https://go.dev/doc/tutorial/getting-started",
+  //   ),
+  // );
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
@@ -2135,7 +2135,8 @@ Future main(List<String> args) async {
       imgUrl: "/microbit.svg",
       title: "micro:bit",
       enurl: "#",
-      cnurl: "https://microbit.org/get-started/getting-started/introduction",
+      cnurl:
+          "https://microbit.org/get-started/getting-started/power-up-and-play",
     ),
   );
   itemList.add(
@@ -2853,7 +2854,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/DevContainer.svg",
-      title: "Dev Container",
+      title: "Dev Containers",
       enurl: "#",
       cnurl: "https://containers.dev/overview",
     ),
@@ -3413,10 +3414,28 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Cargo.svg",
-      title: "cargo-ndk",
+      title: "Cargo NDK",
       enurl: "#",
       cnurl:
           "https://github.com/bbqsrc/cargo-ndk?tab=readme-ov-file#cargo-ndk---build-rust-code-for-android",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Cargo.svg",
+      title: "Cargo Cocoapods",
+      enurl: "#",
+      cnurl:
+          "https://github.com/bbqsrc/cargo-cocoapods/tree/main?tab=readme-ov-file#cargo-cocoapods---build-rust-code-for-xcode-integration",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Cargo.svg",
+      title: "Cargo Lipo",
+      enurl: "#",
+      cnurl:
+          "https://github.com/TimNN/cargo-lipo?tab=readme-ov-file#cargo-lipo--",
     ),
   );
   itemList.add(
@@ -4052,6 +4071,14 @@ Future main(List<String> args) async {
       title: "Clang",
       enurl: "#",
       cnurl: "https://clang.llvm.org/get_started.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/clangd.svg",
+      title: "clangd",
+      enurl: "#",
+      cnurl: "https://clangd.llvm.org/installation",
     ),
   );
   itemList.add(
