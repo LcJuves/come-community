@@ -144,12 +144,19 @@ e
 _
 
 /Cargo.svgCargoGhttps://doc.rust-lang.org/stable/cargo/getting-started/first-steps.html"#
+ 
+
+/Cargo.svgCargo Cocoapods~https://github.com/bbqsrc/cargo-cocoapods/tree/main?tab=readme-ov-file#cargo-cocoapods---build-rust-code-for-xcode-integration"#
+`
+
+/Cargo.svg
+Cargo LipoChttps://github.com/TimNN/cargo-lipo?tab=readme-ov-file#cargo-lipo--"#
+z
+
+/Cargo.svg	Cargo NDK^https://github.com/bbqsrc/cargo-ndk?tab=readme-ov-file#cargo-ndk---build-rust-code-for-android"#
 G
 
 /Cargo.svgCargo Remote(https://github.com/sgeisler/cargo-remote"#
-z
-
-/Cargo.svg	cargo-ndk^https://github.com/bbqsrc/cargo-ndk?tab=readme-ov-file#cargo-ndk---build-rust-code-for-android"#
 m
 /Certbot.svgCertbot CommandsHhttps://eff-certbot.readthedocs.io/en/stable/using.html#certbot-commands"#
 ]
@@ -164,6 +171,8 @@ K
 /Cilium.svgCilium1https://docs.cilium.io/en/stable/#getting-started"#
 >
 	/LLVM.svgClang'https://clang.llvm.org/get_started.html"#
+>
+/clangd.svgclangd$https://clangd.llvm.org/installation"#
 i
 /ClearLinux.svgClear LinuxFhttps://www.clearlinux.org/clear-linux-documentation/guides/index.html"#
 \
@@ -256,8 +265,8 @@ W
 Delta Lake6https://delta-io.github.io/delta-rs/usage/installation"#
 3
 	/Deno.svgDenohttps://docs.deno.com/runtime"#
-F
-/DevContainer.svgDev Containerhttps://containers.dev/overview"#
+G
+/DevContainer.svgDev Containershttps://containers.dev/overview"#
 B
 /Diesel.svgDiesel(https://diesel.rs/guides/getting-started"#
 S
@@ -640,8 +649,8 @@ Meta Llama(https://www.llama.com/docs/how-to-guides"#
 /Metabase.svgMetabase>https://www.metabase.com/learn/metabase-basics/getting-started"#
 O
 /Metaflow.svgMetaflow1https://docs.metaflow.org/getting-started/install"#
-\
-/microbit.svg	micro:bit=https://microbit.org/get-started/getting-started/introduction"#
+a
+/microbit.svg	micro:bitBhttps://microbit.org/get-started/getting-started/power-up-and-play"#
 H
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql"#
 @
@@ -819,6 +828,10 @@ PowerShell,https://learn.microsoft.com/zh-cn/powershell"#
 U
 /Prometheus.svg
 Prometheus3https://prometheus.io/docs/introduction/first_steps"#
+W
+/DocsyJekyll.svgProtocol Buffers.https://protobuf.dev/programming-guides/proto3"#
+U
+/DocsyJekyll.svgProtoJSON Format,https://protobuf.dev/programming-guides/json"#
 T
 /Pug%20Template%20Engine.svgPugJS*https://pugjs.org/api/getting-started.html"#
 G
