@@ -2940,9 +2940,9 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/OpenSSL.svg",
-      title: "OpenSSL",
+      title: "OpenSSL commands",
       enurl: "#",
-      cnurl: "https://docs.openssl.org/master",
+      cnurl: "https://docs.openssl.org/master/man1",
     ),
   );
   itemList.add(
@@ -2950,7 +2950,8 @@ Future main(List<String> args) async {
       imgUrl: "/OpenEuler.svg",
       title: "OpenEuler",
       enurl: "#",
-      cnurl: "https://docs.openeuler.org/zh",
+      cnurl:
+          "https://docs.openeuler.org/zh/docs/22.03_LTS_SP2/docs/Installation/%E5%AE%89%E8%A3%85%E6%8C%87%E5%AF%BC.html",
     ),
   );
   itemList.add(
