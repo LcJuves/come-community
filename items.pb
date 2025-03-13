@@ -988,14 +988,12 @@ L
 /Swagger.svgSwaggerhttps://swagger.io/docs"#
 7
 /SWC.svgSWC#https://swc.rs/docs/getting-started"#
-q
+À
 
-/Swift.svgSwiftYhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour"#
+/Swift.svgSwiftPhttps://doc.swiftgg.team/documentation/the-swift-programming-language/guidedtour"Yhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
 n
 
 /Swift.svgSwift for TensorFlowGhttps://github.com/tensorflow/swift/blob/main/README.md#getting-started"#
-p
-/SwiftGG.svgSwiftGGThttps://doc.swiftgg.team/documentation/the-swift-programming-language-----/thebasics"#
 K
 
 /Swift.svgSwiftPM1https://www.swift.org/getting-started/cli-swiftpm"#
@@ -1160,9 +1158,9 @@ R
 	/Grok.svgxAI Grok!https://github.com/xai-org/grok-1"#
 s
 /Xamarin.svgXamarinWhttps://learn.microsoft.com/zh-cn/previous-versions/xamarin/get-started/quickstarts/app"#
-G
+l
 
-/Xcode.svgXcode/https://developer.apple.com/documentation/xcode"#
+/Xcode.svgXcodeThttps://developer.apple.com/documentation/xcode/creating-an-xcode-project-for-an-app"#
 _
 /OpenVela.svgXiaomi OpenVela:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md"#
 D
