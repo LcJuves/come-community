@@ -2405,6 +2405,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Mojo.svg",
+      title: "Mojo StdLib",
+      enurl: "#",
+      cnurl: "https://docs.modular.com/mojo/lib",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Debian.svg",
       title: "Debian",
       enurl: "#",

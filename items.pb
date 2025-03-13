@@ -675,6 +675,8 @@ M
 ModelScope+https://modelscope.cn/docs/intro/quickstart"#
 M
 	/Mojo.svgMojo7https://docs.modular.com/stable/mojo/manual/get-started"#
+>
+	/Mojo.svgMojo StdLib!https://docs.modular.com/mojo/lib"#
 M
 /__CodeOSS.svgMonaco Editor)https://microsoft.github.io/monaco-editor"#
 ^
