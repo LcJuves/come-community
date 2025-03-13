@@ -811,7 +811,7 @@ Future main(List<String> args) async {
         enurl:
             "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour",
         cnurl:
-            "https://doc.swiftgg.team/documentation/the-swift-programming-language/guidedtour"),
+            "https://doc.swiftgg.team/documentation/the-swift-programming-language-----/thebasics"),
   );
   itemList.add(
     Item(
@@ -892,6 +892,14 @@ Future main(List<String> args) async {
       title: "WebAssembly",
       enurl: "#",
       cnurl: "https://webassembly.org/getting-started/developers-guide",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/WebAssembly.svg",
+      title: "WAMR",
+      enurl: "#",
+      cnurl: "https://wamr.gitbook.io/document/basics/getting-started",
     ),
   );
   itemList.add(
