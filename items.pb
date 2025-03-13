@@ -136,9 +136,9 @@ H
 	/Skia.svg	CanvasKit-https://skia.org/docs/user/modules/quickstart"#
 <
 	/Rust.svgcapnpc$https://docs.rs/capnpc/latest/capnpc"#
-B
+C
 
-/e-CNY.svgCap’n Proto"https://capnproto.org/install.html"#
+/e-CNY.svgCap’n Proto#https://capnproto.org/language.html"#
 e
 	/Rust.svgCap’n Proto Runtime>https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library"#
 _
