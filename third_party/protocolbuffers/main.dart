@@ -227,12 +227,20 @@ Future main(List<String> args) async {
       cnurl: "https://cn.vuejs.org/guide/quick-start.html",
     ),
   );
+  itemList.add(
+    Item(
+      imgUrl: "/Python.svg",
+      title: "Python",
+      enurl: "#",
+      cnurl: "https://docs.python.org/zh-cn/3/tutorial/index.html",
+    ),
+  );
   // itemList.add(
   //   Item(
-  //     imgUrl: "/Python.svg",
-  //     title: "Python",
+  //     imgUrl: "/Poetry.svg",
+  //     title: "Poetry",
   //     enurl: "#",
-  //     cnurl: "https://docs.python.org/zh-cn/3/tutorial/index.html",
+  //     cnurl: "https://python-poetry.org/docs/basic-usage",
   //   ),
   // );
   itemList.add(
@@ -464,14 +472,14 @@ Future main(List<String> args) async {
       cnurl: "https://www.linuxfoundation.org/projects",
     ),
   );
-  // itemList.add(
-  //   Item(
-  //     imgUrl: "/GoLang.svg",
-  //     title: "Go",
-  //     enurl: "#",
-  //     cnurl: "https://go.dev/doc/tutorial/getting-started",
-  //   ),
-  // );
+  itemList.add(
+    Item(
+      imgUrl: "/GoLang.svg",
+      title: "Go",
+      enurl: "#",
+      cnurl: "https://go.dev/doc/tutorial/getting-started",
+    ),
+  );
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
@@ -2609,6 +2617,22 @@ Future main(List<String> args) async {
       title: "Docsy Jekyll",
       enurl: "#",
       cnurl: "https://vsoch.github.io/docsy-jekyll/docs/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/DocsyJekyll.svg",
+      title: "Protocol Buffers",
+      enurl: "#",
+      cnurl: "https://protobuf.dev/programming-guides/proto3",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/DocsyJekyll.svg",
+      title: "ProtoJSON Format",
+      enurl: "#",
+      cnurl: "https://protobuf.dev/programming-guides/json",
     ),
   );
   itemList.add(

@@ -399,6 +399,8 @@ V
 /GNU.svgGNU make=https://www.gnu.org/software/make/manual/html_node/index.html"#
 V
 /GNU.svgGNU Wget=https://www.gnu.org/software/wget/manual/html_node/index.html"#
+A
+/GoLang.svgGo+https://go.dev/doc/tutorial/getting-started"#
 „
 /GODOT_Engine.svgGodot Engine^https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/introduction_to_godot.html"#
 \
@@ -826,10 +828,16 @@ PowerShell,https://learn.microsoft.com/zh-cn/powershell"#
 U
 /Prometheus.svg
 Prometheus3https://prometheus.io/docs/introduction/first_steps"#
+W
+/DocsyJekyll.svgProtocol Buffers.https://protobuf.dev/programming-guides/proto3"#
+U
+/DocsyJekyll.svgProtoJSON Format,https://protobuf.dev/programming-guides/json"#
 T
 /Pug%20Template%20Engine.svgPugJS*https://pugjs.org/api/getting-started.html"#
 G
 /Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started"#
+M
+/Python.svgPython3https://docs.python.org/zh-cn/3/tutorial/index.html"#
 C
 /PyTorch.svgPyTorch'https://pytorch.org/get-started/locally"#
 F
