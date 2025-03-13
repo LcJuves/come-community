@@ -6,15 +6,6 @@ Future main(List<String> args) async {
   final List<Item> itemList = List.empty(growable: true);
   itemList.add(
     Item(
-      imgUrl: "/SwiftGG.svg",
-      title: "SwiftGG",
-      enurl: "#",
-      cnurl:
-          "https://doc.swiftgg.team/documentation/the-swift-programming-language-----/thebasics",
-    ),
-  );
-  itemList.add(
-    Item(
       imgUrl: "/Flutter.svg",
       title: "Flutter",
       enurl:
@@ -815,12 +806,12 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Swift.svg",
-      title: "Swift",
-      enurl: "#",
-      cnurl:
-          "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour",
-    ),
+        imgUrl: "/Swift.svg",
+        title: "Swift",
+        enurl:
+            "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour",
+        cnurl:
+            "https://doc.swiftgg.team/documentation/the-swift-programming-language/guidedtour"),
   );
   itemList.add(
     Item(
@@ -2530,7 +2521,8 @@ Future main(List<String> args) async {
       imgUrl: "/Xcode.svg",
       title: "Xcode",
       enurl: "#",
-      cnurl: "https://developer.apple.com/documentation/xcode",
+      cnurl:
+          "https://developer.apple.com/documentation/xcode/creating-an-xcode-project-for-an-app",
     ),
   );
   // itemList.add(Item(
