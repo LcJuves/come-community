@@ -988,9 +988,9 @@ L
 /Swagger.svgSwaggerhttps://swagger.io/docs"#
 7
 /SWC.svgSWC#https://swc.rs/docs/getting-started"#
-À
+Ä
 
-/Swift.svgSwiftPhttps://doc.swiftgg.team/documentation/the-swift-programming-language/guidedtour"Yhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
+/Swift.svgSwiftThttps://doc.swiftgg.team/documentation/the-swift-programming-language-----/thebasics"Yhttps://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
 n
 
 /Swift.svgSwift for TensorFlowGhttps://github.com/tensorflow/swift/blob/main/README.md#getting-started"#
@@ -1097,6 +1097,8 @@ d
 /VSCodium.svgVSCodium>https://github.com/VSCodium/vscodium/blob/master/docs/index.md"#
 A
 /Vue.svgVueJS+https://cn.vuejs.org/guide/quick-start.html"#
+T
+/WebAssembly.svgWAMR7https://wamr.gitbook.io/document/basics/getting-started"#
 O
 
 /WASIX.svgWASIX7https://wasix.org/docs/language-guide/rust/installation"#
