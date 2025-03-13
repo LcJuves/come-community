@@ -1863,7 +1863,7 @@ Future main(List<String> args) async {
       imgUrl: "/e-CNY.svg",
       title: "Cap’n Proto",
       enurl: "#",
-      cnurl: "https://capnproto.org/install.html",
+      cnurl: "https://capnproto.org/language.html",
     ),
   );
   itemList.add(
