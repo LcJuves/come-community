@@ -758,6 +758,8 @@ Y
 c
 /Microsoft.svg
 OmniParserBhttps://github.com/microsoft/OmniParser?tab=readme-ov-file#install"#
+X
+/ONNXRuntime.svgONNX Runtime3https://onnxruntime.ai/docs/get-started/with-c.html"#
 ž
 /OpenInterpreter.svgOpen Interpreterthttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B
 L
@@ -791,6 +793,8 @@ O
 /OpenWrt.svgOpenWrt3https://openwrt.org/zh/docs/guide-quick-start/start"#
 f
 /OpenZFS.svgOpenZFSJhttps://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/index.html"#
+(
+	/Rust.svgorthttps://ort.pyke.io"#
 +
 /OW2_ASM.svgOW2 ASMhttps://asm.ow2.io
 ‡
