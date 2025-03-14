@@ -252,6 +252,22 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ONNXRuntime.svg",
+      title: "ONNX Runtime",
+      enurl: "#",
+      cnurl: "https://onnxruntime.ai/docs/get-started/with-c.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "ort",
+      enurl: "#",
+      cnurl: "https://ort.pyke.io",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Ray.svg",
       title: "Ray Core",
       enurl: "#",
