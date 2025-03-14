@@ -226,14 +226,30 @@ Future main(List<String> args) async {
       cnurl: "https://docs.python.org/zh-cn/3/tutorial/index.html",
     ),
   );
-  // itemList.add(
-  //   Item(
-  //     imgUrl: "/Poetry.svg",
-  //     title: "Poetry",
-  //     enurl: "#",
-  //     cnurl: "https://python-poetry.org/docs/basic-usage",
-  //   ),
-  // );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "PyO3",
+      enurl: "#",
+      cnurl: "https://pyo3.rs/latest/getting-started.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "numpy",
+      enurl: "#",
+      cnurl: "https://docs.rs/numpy/latest/numpy",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Ferrules",
+      enurl: "#",
+      cnurl: "https://github.com/AmineDiro/ferrules?tab=readme-ov-file#installation",
+    ),
+  );
   itemList.add(
     Item(
       imgUrl: "/Ray.svg",
@@ -1253,6 +1269,14 @@ Future main(List<String> args) async {
       title: "Mermaid",
       enurl: "#",
       cnurl: "https://mermaid.js.org/intro/getting-started.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/JSONCrack.svg",
+      title: "JSON Crack",
+      enurl: "#",
+      cnurl: "https://todiagram.com/editor",
     ),
   );
   // itemList.add(

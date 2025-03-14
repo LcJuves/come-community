@@ -314,6 +314,8 @@ H
 	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project"#
 ]
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs"#
+_
+	/Rust.svgFerrulesEhttps://github.com/AmineDiro/ferrules?tab=readme-ov-file#installation"#
 E
 /FFmpeg.svgFFmpeg+https://ffmpeg.org/ffmpeg-all.html#Synopsis"#
 C
@@ -531,6 +533,9 @@ d
 /TypeScript.svgJSDocGhttps://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html"#
 7
 	/JSON.svgJSON!https://www.json.org/json-zh.html"#
+=
+/JSONCrack.svg
+JSON Crackhttps://todiagram.com/editor"#
 ]
 /JSONSchema.svgJSON Schema:https://json-schema.org/learn/getting-started-step-by-step"#
 D
@@ -715,6 +720,8 @@ F
 /Nim.svgNim'https://nim-lang.org/documentation.html"#
 _
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"#
+9
+	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 Z
 
 /NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"#
@@ -838,6 +845,8 @@ T
 /Pug%20Template%20Engine.svgPugJS*https://pugjs.org/api/getting-started.html"#
 G
 /Puppeteer.svg	Puppeteer'https://pptr.dev/guides/getting-started"#
+A
+	/Rust.svgPyO3+https://pyo3.rs/latest/getting-started.html"#
 M
 /Python.svgPython3https://docs.python.org/zh-cn/3/tutorial/index.html"#
 C
