@@ -19,6 +19,7 @@ class Item extends $pb.GeneratedMessage {
     $core.String? title,
     $core.String? cnurl,
     $core.String? enurl,
+    $core.bool? onlyChineseVersion,
   }) {
     final $result = create();
     if (imgUrl != null) {
@@ -33,6 +34,9 @@ class Item extends $pb.GeneratedMessage {
     if (enurl != null) {
       $result.enurl = enurl;
     }
+    if (onlyChineseVersion != null) {
+      $result.onlyChineseVersion = onlyChineseVersion;
+    }
     return $result;
   }
   Item._() : super();
@@ -44,6 +48,7 @@ class Item extends $pb.GeneratedMessage {
     ..aOS(2, _omitFieldNames ? '' : 'title')
     ..aOS(3, _omitFieldNames ? '' : 'cnurl')
     ..aOS(4, _omitFieldNames ? '' : 'enurl')
+    ..aOB(5, _omitFieldNames ? '' : 'onlyChineseVersion')
     ..hasRequiredFields = false
   ;
 
@@ -103,6 +108,15 @@ class Item extends $pb.GeneratedMessage {
   $core.bool hasEnurl() => $_has(3);
   @$pb.TagNumber(4)
   void clearEnurl() => clearField(4);
+
+  @$pb.TagNumber(5)
+  $core.bool get onlyChineseVersion => $_getBF(4);
+  @$pb.TagNumber(5)
+  set onlyChineseVersion($core.bool v) { $_setBool(4, v); }
+  @$pb.TagNumber(5)
+  $core.bool hasOnlyChineseVersion() => $_has(4);
+  @$pb.TagNumber(5)
+  void clearOnlyChineseVersion() => clearField(5);
 }
 
 class Items extends $pb.GeneratedMessage {

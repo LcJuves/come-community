@@ -5,6 +5,7 @@ message Item {
     string title = 2;
     string cnurl = 3;
     string enurl = 4;
+    bool only_chinese_version = 5;
 }
 
 message Items {

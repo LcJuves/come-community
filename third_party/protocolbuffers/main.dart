@@ -26,24 +26,26 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Android.svg",
       title: "Android",
-      enurl: "#",
-      cnurl: "https://developer.android.google.cn/develop?hl=zh-cn",
+      enurl:
+          "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?hl=en#0",
+      cnurl:
+          "https://developer.android.google.cn/codelabs/basic-android-kotlin-compose-first-app?hl=zh-cn#0",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Android.svg",
       title: "Android NDK",
-      enurl: "#",
-      cnurl: "https://developer.android.com/ndk/guides?hl=zh-cn",
+      enurl: "https://developer.android.com/ndk/guides?hl=en",
+      cnurl: "https://developer.android.google.cn/ndk/guides?hl=zh-cn",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Android.svg",
       title: "SDK CmdLine Tools",
-      enurl: "#",
-      cnurl: "https://developer.android.com/tools?hl=zh-cn",
+      enurl: "https://developer.android.com/tools?hl=en",
+      cnurl: "https://developer.android.google.cn/tools?hl=zh-cn",
     ),
   );
   itemList.add(
@@ -58,7 +60,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Android.svg",
       title: "AOSP",
-      enurl: "#",
+      enurl: "https://source.android.com/docs/setup/start?hl=en",
       cnurl: "https://source.android.com/docs/setup/start?hl=zh-cn",
     ),
   );
@@ -66,7 +68,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Fuchsia.svg",
       title: "Fuchsia",
-      enurl: "#",
+      enurl: "https://fuchsia.dev/fuchsia-src/get-started?hl=en",
       cnurl: "https://fuchsia.dev/fuchsia-src/get-started?hl=zh-cn",
     ),
   );
@@ -139,7 +141,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Android.svg",
       title: "Android XR",
-      enurl: "#",
+      enurl: "https://developer.android.com/develop/xr/get-started?hl=en",
       cnurl:
           "https://developer.android.google.cn/develop/xr/get-started?hl=zh-cn",
     ),
@@ -247,7 +249,8 @@ Future main(List<String> args) async {
       imgUrl: "/Rust.svg",
       title: "Ferrules",
       enurl: "#",
-      cnurl: "https://github.com/AmineDiro/ferrules?tab=readme-ov-file#installation",
+      cnurl:
+          "https://github.com/AmineDiro/ferrules?tab=readme-ov-file#installation",
     ),
   );
   itemList.add(
@@ -302,7 +305,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Xamarin.svg",
       title: "Xamarin",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/previous-versions/xamarin/get-started/quickstarts/app",
       cnurl:
           "https://learn.microsoft.com/zh-cn/previous-versions/xamarin/get-started/quickstarts/app",
     ),
@@ -313,6 +317,22 @@ Future main(List<String> args) async {
       title: "Kubernetes",
       enurl: "#",
       cnurl: "https://kubernetes.io/zh-cn/docs/setup",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/kind.svg",
+      title: "kind",
+      enurl: "#",
+      cnurl: "https://kind.sigs.k8s.io/docs/user/quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Jython.svg",
+      title: "Jython",
+      enurl: "#",
+      cnurl: "https://kind.sigs.k8s.io/docs/user/quick-start",
     ),
   );
   itemList.add(
@@ -362,7 +382,8 @@ Future main(List<String> args) async {
       imgUrl: "/China%20Mobile.svg",
       title: "Mobile Open Platform",
       enurl: "#",
-      cnurl: "https://dev.10086.cn/docHome",
+      cnurl: "https://dev.10086.cn/docInside",
+      onlyChineseVersion: true,
     ),
   );
   itemList.add(
@@ -411,8 +432,10 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/dotNET.svg",
       title: "dotNET MAUI",
-      enurl: "#",
-      cnurl: "https://learn.microsoft.com/zh-cn/dotnet/maui",
+      enurl:
+          "https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation",
     ),
   );
   itemList.add(
@@ -427,15 +450,16 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/TensorFlow.svg",
       title: "TensorFlow",
-      enurl: "#",
-      cnurl: "https://tensorflow.google.cn/learn?hl=zh-cn",
+      enurl: "https://tensorflow.org/tutorials/quickstart/beginner?hl=en",
+      cnurl:
+          "https://tensorflow.google.cn/tutorials/quickstart/beginner?hl=zh-cn",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Django.svg",
       title: "Django",
-      enurl: "#",
+      enurl: "https://docs.djangoproject.com/en/5.1/intro/overview",
       cnurl: "https://docs.djangoproject.com/zh-hans/5.1/intro/overview",
     ),
   );
@@ -451,7 +475,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Apache%20Hadoop.svg",
       title: "Hadoop",
-      enurl: "#",
+      enurl:
+          "https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html",
       cnurl: "https://hadoop.apache.org/docs/r1.0.4/cn/quickstart.html",
     ),
   );
@@ -459,8 +484,10 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Flink.svg",
       title: "Flink",
-      enurl: "#",
-      cnurl: "https://ci.apache.org/projects/flink/flink-docs-stable/zh",
+      enurl:
+          "https://nightlies.apache.org/flink/flink-docs-release-1.20/docs/learn-flink/overview",
+      cnurl:
+          "https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/docs/learn-flink/overview",
     ),
   );
   itemList.add(
@@ -475,8 +502,17 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Linux.svg",
       title: "Linux",
-      enurl: "#",
+      enurl: "https://www.kernel.org/doc/html/latest/index.html",
       cnurl: "https://www.kernel.org/doc/html/latest/translations/zh_CN",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Linux.svg",
+      title: "Linux XZ",
+      enurl: "https://www.kernel.org/doc/html/latest/staging/xz.html",
+      cnurl:
+          "https://www.kernel.org/doc/html/latest/translations/zh_CN/staging/xz.html",
     ),
   );
   itemList.add(
@@ -507,8 +543,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "Rust",
-      enurl: "#",
-      cnurl: "https://www.rust-lang.org/learn/get-started",
+      enurl: "https://www.rust-lang.org/learn/get-started",
+      cnurl: "https://www.rust-lang.org/zh-CN/learn/get-started",
     ),
   );
   itemList.add(
@@ -595,7 +631,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Windows.svg",
+      imgUrl: "/Windows_11.svg",
       title: "Rust for Windows",
       enurl: "#",
       cnurl: "https://microsoft.github.io/windows-docs-rs/doc/windows",
@@ -613,7 +649,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Windows_Terminal.svg",
       title: "Windows Terminal",
-      enurl: "#",
+      enurl: "https://learn.microsoft.com/en-us/windows/terminal",
       cnurl: "https://learn.microsoft.com/zh-cn/windows/terminal",
     ),
   );
@@ -621,7 +657,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Angular.svg",
       title: "Angular",
-      enurl: "#",
+      enurl:
+          "https://angular.dev/tutorials/learn-angular/1-components-in-angular",
       cnurl:
           "https://angular.cn/tutorials/learn-angular/1-components-in-angular",
     ),
@@ -639,15 +676,17 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Apache%20Dubbo.svg",
       title: "Dubbo",
-      enurl: "#",
-      cnurl: "https://cn.dubbo.apache.org/zh-cn/overview/home",
+      enurl:
+          "https://cn.dubbo.apache.org/en/overview/mannual/java-sdk/quick-start/starter",
+      cnurl:
+          "https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/quick-start/starter",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Microsoft.svg",
       title: "Microsoft SQL",
-      enurl: "#",
+      enurl: "https://learn.microsoft.com/en-us/sql",
       cnurl: "https://docs.microsoft.com/zh-cn/sql",
     ),
   );
@@ -655,7 +694,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Webpack.svg",
       title: "webpack",
-      enurl: "#",
+      enurl: "https://webpack.js.org/guides/getting-started",
       cnurl: "https://webpack.docschina.org/guides/getting-started",
     ),
   );
@@ -672,7 +711,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Let's%20Encrypt.svg",
       title: "Let's Encrypt",
-      enurl: "#",
+      enurl: "https://letsencrypt.org/getting-started",
       cnurl: "https://letsencrypt.org/zh-cn/getting-started",
     ),
   );
@@ -707,7 +746,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Colossal-AI.svg",
       title: "Colossal-AI",
-      enurl: "#",
+      enurl: "https://colossalai.org/docs/get_started/installation",
       cnurl: "https://colossalai.org/zh-Hans/docs/get_started/installation",
     ),
   );
@@ -719,7 +758,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/PHP.svg",
       title: "PHP",
-      enurl: "#",
+      enurl: "https://www.php.net/manual/en/tutorial.firstpage.php",
       cnurl: "https://www.php.net/manual/zh/tutorial.firstpage.php",
     ),
   );
@@ -735,7 +774,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Ruby.svg",
       title: "Ruby",
-      enurl: "#",
+      enurl: "https://www.ruby-lang.org/en/documentation/quickstart",
       cnurl: "https://www.ruby-lang.org/zh_cn/documentation/quickstart",
     ),
   );
@@ -752,7 +791,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Qwen.svg",
       title: "Qwen",
-      enurl: "#",
+      enurl:
+          "https://qwen.readthedocs.io/en/latest/getting_started/quickstart.html",
       cnurl:
           "https://qwen.readthedocs.io/zh-cn/latest/getting_started/quickstart.html",
     ),
@@ -769,16 +809,17 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/_Electron.svg",
       title: "Electron",
-      enurl: "#",
+      enurl:
+          "https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app",
       cnurl:
-          "https://www.electronjs.org/zh/docs/latest/tutorial/tutorial-prerequisites",
+          "https://www.electronjs.org/zh/docs/latest/tutorial/tutorial-first-app",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/JavaScript.svg",
       title: "JavaScript",
-      enurl: "#",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
     ),
   );
@@ -786,7 +827,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GraphQL.svg",
       title: "GraphQL",
-      enurl: "#",
+      enurl: "https://graphql.org/learn",
       cnurl: "https://graphql.cn/learn",
     ),
   );
@@ -802,7 +843,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/The%20C%20Programming%20Language.svg",
       title: "Visual C",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-170",
       cnurl:
           "https://learn.microsoft.com/zh-cn/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-170",
     ),
@@ -811,7 +853,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/C%2B%2B.svg",
       title: "Visual C++",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/cpp/build/vscpp-step-1-create?view=msvc-170",
       cnurl:
           "https://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-1-create?view=msvc-170",
     ),
@@ -820,7 +863,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/C%2B%2B.svg",
       title: "C++/WinRT",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start",
       cnurl:
           "https://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start",
     ),
@@ -834,7 +878,11 @@ Future main(List<String> args) async {
     ),
   );
   itemList.add(
-    Item(imgUrl: "/TOML.svg", title: "TOML", cnurl: "https://toml.io/cn"),
+    Item(
+        imgUrl: "/TOML.svg",
+        title: "TOML",
+        enurl: "https://toml.io/en",
+        cnurl: "https://toml.io/cn"),
   );
   itemList.add(
     Item(
@@ -973,7 +1021,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/ReactJS.svg",
       title: "ReactJS",
-      enurl: "#",
+      enurl: "https://react.dev/learn",
       cnurl: "https://zh-hans.react.dev/learn",
     ),
   );
@@ -997,7 +1045,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/HMOS.svg",
       title: "HarmonyOS Developer",
-      enurl: "#",
+      enurl:
+          "https://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5",
       cnurl:
           "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5",
     ),
@@ -1006,7 +1055,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Cangjie.svg",
       title: "Cangjie",
-      enurl: "#",
+      enurl:
+          "https://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html",
       cnurl:
           "https://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html",
     ),
@@ -1015,7 +1065,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/TAURI.svg",
       title: "TAURI",
-      enurl: "#",
+      enurl: "https://tauri.app/start",
       cnurl: "https://tauri.app/zh-cn/start",
     ),
   );
@@ -1031,7 +1081,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/git-scm.svg",
       title: "Git SCM",
-      enurl: "#",
+      enurl: "https://git-scm.com/docs/git",
       cnurl: "https://git-scm.com/docs/git/zh_HANS-CN",
     ),
   );
@@ -1067,7 +1117,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GitHub.svg",
       title: "GitHub Actions",
-      enurl: "#",
+      enurl: "https://docs.github.com/en/actions/writing-workflows/quickstart",
       cnurl: "https://docs.github.com/zh/actions/writing-workflows/quickstart",
     ),
   );
@@ -1075,7 +1125,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GitHub.svg",
       title: "GitHub REST API",
-      enurl: "#",
+      enurl: "https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28",
       cnurl: "https://docs.github.com/zh/rest/quickstart?apiVersion=2022-11-28",
     ),
   );
@@ -1101,7 +1151,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GitHub.svg",
       title: "GitHub CLI",
-      enurl: "#",
+      enurl: "https://docs.github.com/en/github-cli/github-cli/quickstart",
       cnurl: "https://docs.github.com/zh/github-cli/github-cli/quickstart",
     ),
   );
@@ -1109,8 +1159,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GitHub.svg",
       title: "GitHub Codespaces",
-      enurl: "#",
-      cnurl: "https://docs.github.com/zh/codespaces/getting-started/quickstart",
+      enurl: "https://docs.github.com/en/codespaces/quickstart",
+      cnurl: "https://docs.github.com/zh/codespaces/quickstart",
     ),
   );
   itemList.add(
@@ -1174,8 +1224,10 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/PowerShell.svg",
       title: "PowerShell",
-      enurl: "#",
-      cnurl: "https://learn.microsoft.com/zh-cn/powershell",
+      enurl:
+          "https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.5",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.5",
     ),
   );
   itemList.add(
@@ -1212,7 +1264,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/podman.svg",
       title: "podman",
-      cnurl: "https://podman.io/docs",
+      enurl: "#",
+      cnurl: "https://podman.io/docs/installation",
     ),
   );
   itemList.add(
@@ -1251,8 +1304,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/ClickHouse.svg",
       title: "ClickHouse",
-      enurl: "#",
-      cnurl: "https://clickhouse.com/docs/en/getting-started/quick-start",
+      enurl: "https://clickhouse.com/docs/en/getting-started/quick-start",
+      cnurl: "https://clickhouse.com/docs/zh/getting-started/quick-start",
     ),
   );
   itemList.add(
@@ -1267,7 +1320,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/eBPF.svg",
       title: "eBPF",
-      enurl: "#",
+      enurl: "https://ebpf.io/what-is-ebpf",
       cnurl: "https://ebpf.io/zh-hans/what-is-ebpf",
     ),
   );
@@ -1309,8 +1362,10 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Org_FreeSVG.svg",
       title: "SVG",
-      enurl: "#",
-      cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/SVG",
+      enurl:
+          "https://developer.mozilla.org/en-US/docs/Web/SVG#getting_started_with_svg",
+      cnurl:
+          "https://developer.mozilla.org/zh-CN/docs/Web/SVG#getting_started_with_svg",
     ),
   );
   itemList.add(
@@ -1431,7 +1486,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/JetpackCompose.svg",
       title: "Jetpack Compose",
-      enurl: "#",
+      enurl:
+          "https://developer.android.com/develop/ui/compose/documentation?hl=en",
       cnurl:
           "https://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn",
     ),
@@ -1440,7 +1496,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/ComposeMultiplatform.svg",
       title: "Compose Multiplatform",
-      enurl: "#",
+      enurl: "https://www.jetbrains.com/compose-multiplatform",
       cnurl: "https://www.jetbrains.com/zh-cn/compose-multiplatform",
     ),
   );
@@ -1456,7 +1512,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rspack.svg",
       title: "Rspack",
-      enurl: "#",
+      enurl: "https://rspack.dev/guide/start/quick-start",
       cnurl: "https://rspack.dev/zh/guide/start/quick-start",
     ),
   );
@@ -1464,7 +1520,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/CSS.svg",
       title: "CSS",
-      enurl: "#",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/CSS",
     ),
   );
@@ -1472,6 +1528,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Vite.svg",
       title: "Vite",
+      enurl: "https://vite.dev/guide",
       cnurl: "https://cn.vite.dev/guide",
     ),
   );
@@ -1479,15 +1536,15 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rollup.svg",
       title: "Rollup",
-      enurl: "#",
-      cnurl: "https://cn.rollupjs.org/introduction",
+      enurl: "https://rollupjs.org/introduction/#installation",
+      cnurl: "https://cn.rollupjs.org/introduction/#installation",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/ESLint.svg",
       title: "ESLint",
-      enurl: "#",
+      enurl: "https://eslint.org/docs/latest/use/getting-started",
       cnurl: "https://zh-hans.eslint.org/docs/latest/use/getting-started",
     ),
   );
@@ -1496,15 +1553,15 @@ Future main(List<String> args) async {
       imgUrl: "/Playwright.svg",
       title: "Playwright",
       enurl: "#",
-      cnurl: "https://playwright.dev/docs/intro",
+      cnurl: "https://playwright.dev/docs/intro#installing-playwright",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Hexo.svg",
       title: "Hexo",
-      enurl: "#",
-      cnurl: "https://hexo.io/zh-cn/docs/#%E8%A6%81%E6%B1%82",
+      enurl: "https://hexo.io/docs/setup.html",
+      cnurl: "https://hexo.io/zh-cn/docs/setup",
     ),
   );
   itemList.add(
@@ -1594,7 +1651,7 @@ Future main(List<String> args) async {
       imgUrl: "/Laravel.svg",
       title: "Laravel",
       enurl: "#",
-      cnurl: "https://laravel.com/docs",
+      cnurl: "https://laravel.com/docs/12.x#creating-a-laravel-project",
     ),
   );
   itemList.add(
@@ -1617,7 +1674,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OpenVela.svg",
       title: "Xiaomi OpenVela",
-      enurl: "#",
+      enurl: "https://github.com/open-vela/docs/blob/dev/README.md",
       cnurl: "https://github.com/open-vela/docs/blob/dev/README_zh-cn.md",
     ),
   );
@@ -1633,7 +1690,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/AzureQuantum.svg",
       title: "Azure Quantum",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals",
       cnurl:
           "https://learn.microsoft.com/zh-cn/training/paths/quantum-computing-fundamentals",
     ),
@@ -1675,7 +1733,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/HTML5.svg",
       title: "HTML",
-      enurl: "#",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web/HTML",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/HTML",
     ),
   );
@@ -1699,9 +1757,10 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GODOT_Engine.svg",
       title: "Godot Engine",
-      enurl: "#",
+      enurl:
+          "https://docs.godotengine.org/en/stable/getting_started/introduction/introduction_to_godot.html",
       cnurl:
-          "https://docs.godotengine.org/zh-cn/4.x/getting_started/introduction/introduction_to_godot.html",
+          "https://docs.godotengine.org/zh-cn/stable/getting_started/introduction/introduction_to_godot.html",
     ),
   );
   itemList.add(
@@ -1741,7 +1800,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/InLong.svg",
       title: "InLong",
-      enurl: "#",
+      enurl:
+          "https://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example",
       cnurl:
           "https://inlong.apache.org/zh-CN/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example",
     ),
@@ -1766,8 +1826,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Trae.svg",
       title: "Trae",
-      enurl: "#",
-      cnurl: "https://docs.trae.ai/docs/set-up-trae?_lang=en",
+      enurl: "https://docs.trae.ai/docs/set-up-trae?_lang=en",
+      cnurl: "https://docs.trae.ai/docs/set-up-trae?_lang=zh",
     ),
   );
   itemList.add(
@@ -1791,7 +1851,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Appium.svg",
       title: "Appium",
-      enurl: "#",
+      enurl: "https://appium.io/docs/en/latest/quickstart",
       cnurl: "https://appium.io/docs/zh/latest/quickstart",
     ),
   );
@@ -1850,7 +1910,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/MoonBit.svg",
       title: "MoonBit",
-      enurl: "#",
+      enurl: "https://docs.moonbitlang.com/en/latest/tutorial/tour.html",
       cnurl: "https://docs.moonbitlang.com/zh-cn/latest/tutorial/tour.html",
     ),
   );
@@ -1891,7 +1951,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/FreeBSD.svg",
       title: "FreeBSD",
-      enurl: "#",
+      enurl: "https://docs.freebsd.org/en/books/handbook/basics",
       cnurl: "https://docs.freebsd.org/zh-cn/books/handbook/basics",
     ),
   );
@@ -2098,8 +2158,8 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/WebGPU.svg",
-      title: "WebGPU",
-      enurl: "#",
+      title: "WebGPU API",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API",
     ),
   );
@@ -2115,8 +2175,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/PostgreSQL.svg",
       title: "PostgreSQL",
-      enurl: "#",
-      cnurl: "http://www.postgres.cn/docs/current/index.html",
+      enurl: "https://www.postgresql.org/docs/current/tutorial-install.html",
+      cnurl: "http://www.postgres.cn/docs/current/tutorial-install.html",
     ),
   );
   itemList.add(
@@ -2139,7 +2199,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OpenHarmony.svg",
       title: "OpenHarmony",
-      enurl: "#",
+      enurl:
+          "https://docs.openharmony.cn/pages/v5.0/en/device-dev/quick-start/quickstart-overview.md",
       cnurl:
           "https://docs.openharmony.cn/pages/v5.0/zh-cn/device-dev/quick-start/quickstart-overview.md",
     ),
@@ -2148,7 +2209,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/_Xiaomi.svg",
       title: "Home Integration",
-      enurl: "#",
+      enurl: "https://github.com/XiaoMi/ha_xiaomi_home/blob/main/README.md",
       cnurl:
           "https://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md",
     ),
@@ -2165,7 +2226,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/JSON.svg",
       title: "JSON",
-      enurl: "#",
+      enurl: "https://www.json.org/json-en.html",
       cnurl: "https://www.json.org/json-zh.html",
     ),
   );
@@ -2207,15 +2268,15 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/RockyLinux.svg",
       title: "Rocky Linux",
-      enurl: "#",
-      cnurl: "https://docs.rockylinux.org/zh/guides",
+      enurl: "https://docs.rockylinux.org/guides/installation",
+      cnurl: "https://docs.rockylinux.org/zh/guides/installation",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Fedora.svg",
       title: "Fedora Workstation",
-      enurl: "#",
+      enurl: "https://docs.fedoraproject.org/en-US/workstation-docs",
       cnurl: "https://docs.fedoraproject.org/zh_Hans/workstation-docs",
     ),
   );
@@ -2238,12 +2299,12 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Deepin.svg",
-      title: "Deepin DTK",
-      enurl: "#",
-      cnurl:
-          "https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%95",
-    ),
+        imgUrl: "/Deepin.svg",
+        title: "Deepin DTK",
+        enurl: "#",
+        cnurl:
+            "https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%95",
+        onlyChineseVersion: true),
   );
   itemList.add(
     Item(
@@ -2334,7 +2395,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OpenWrt.svg",
       title: "OpenWrt",
-      enurl: "#",
+      enurl: "https://openwrt.org/docs/guide-quick-start/start",
       cnurl: "https://openwrt.org/zh/docs/guide-quick-start/start",
     ),
   );
@@ -2345,7 +2406,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/XML.svg",
       title: "XML",
-      enurl: "#",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web/XML",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/XML",
     ),
   );
@@ -2417,8 +2478,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Ethereum.svg",
       title: "Ethereum",
-      enurl: "#",
-      cnurl: "https://ethereum.org/zh/developers/docs",
+      enurl: "https://ethereum.org/en/developers/docs/intro-to-ethereum",
+      cnurl: "https://ethereum.org/zh/developers/docs/intro-to-ethereum",
     ),
   );
   itemList.add(
@@ -2462,7 +2523,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Debian.svg",
       title: "Simple Shell Command",
-      enurl: "#",
+      enurl:
+          "https://www.debian.org/doc/manuals/debian-reference/ch01.en.html#_the_simple_shell_command",
       cnurl:
           "https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command",
     ),
@@ -2508,7 +2570,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Microsoft.svg",
       title: "MSVC",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170",
       cnurl:
           "https://learn.microsoft.com/zh-cn/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170",
     ),
@@ -2517,7 +2580,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Microsoft.svg",
       title: "MSBuild",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/visualstudio/msbuild/walkthrough-using-msbuild?view=vs-2022",
       cnurl:
           "https://learn.microsoft.com/zh-cn/visualstudio/msbuild/walkthrough-using-msbuild?view=vs-2022",
     ),
@@ -2527,7 +2591,8 @@ Future main(List<String> args) async {
       imgUrl: "/MySQL.svg",
       title: "MySQL",
       enurl: "#",
-      cnurl: "https://dev.mysql.com/doc/refman/8.4/en/binary-installation.html",
+      cnurl:
+          "https://dev.mysql.com/doc/refman/latest/en/binary-installation.html",
     ),
   );
   itemList.add(
@@ -2645,7 +2710,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OceanBase.svg",
       title: "OceanBase",
-      enurl: "#",
+      enurl:
+          "https://en.oceanbase.com/docs/common-oceanbase-database-10000000001970931",
       cnurl:
           "https://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002012693",
     ),
@@ -2654,7 +2720,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/mongoDB.svg",
       title: "MongoDB",
-      enurl: "#",
+      enurl: "https://www.mongodb.com/docs/manual/tutorial/getting-started",
       cnurl:
           "https://www.mongodb.com/zh-cn/docs/manual/tutorial/getting-started",
     ),
@@ -2687,7 +2753,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/MariaDB.svg",
       title: "MariaDB",
-      enurl: "#",
+      enurl: "https://mariadb.com/kb/en/a-mariadb-primer",
       cnurl: "https://mariadb.com/kb/zh-cn/a-mariadb-primer",
     ),
   );
@@ -2712,7 +2778,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/HTTP.svg",
       title: "HTTP",
-      enurl: "#",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web/HTTP",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/HTTP",
     ),
   );
@@ -2740,8 +2806,9 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Inkscape.svg",
       title: "Inkscape",
-      enurl: "#",
-      cnurl: "https://inkscape.org/zh-hans/simplified-chinese-learn",
+      enurl: "https://inkscape.org/doc/tutorials/basic/tutorial-basic.html",
+      cnurl:
+          "https://inkscape.org/zh-hans/doc/tutorials/basic/tutorial-basic.html",
     ),
   );
   // itemList.add(Item(
@@ -2810,23 +2877,26 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Arch%20Linux.svg",
       title: "Arch Linux",
-      enurl: "#",
+      enurl: "https://wiki.archlinux.org/title/Main_page",
       cnurl: "https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5",
     ),
   );
   itemList.add(
     Item(
-      imgUrl: "/Windows.svg",
+      imgUrl: "/Windows_11.svg",
       title: "Windows",
-      enurl: "#",
-      cnurl: "https://learn.microsoft.com/zh-cn/windows",
+      enurl:
+          "https://learn.microsoft.com/en-us/windows/whats-new/windows-11-overview",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/windows/whats-new/windows-11-overview",
     ),
   );
   itemList.add(
     Item(
-      imgUrl: "/Windows.svg",
+      imgUrl: "/Windows_11.svg",
       title: "Windows Commands",
-      enurl: "#",
+      enurl:
+          "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands",
       cnurl:
           "https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands",
     ),
@@ -2835,7 +2905,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/MS-DOS.svg",
       title: "MS-DOS",
-      enurl: "#",
+      enurl: "https://en.wikipedia.org/wiki/List_of_DOS_commands",
       cnurl:
           "https://zh.wikipedia.org/wiki/MS-DOS%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8",
     ),
@@ -2911,8 +2981,10 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/vcpkg.svg",
       title: "vcpkg",
-      enurl: "#",
-      cnurl: "https://learn.microsoft.com/zh-cn/vcpkg",
+      enurl:
+          "https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/vcpkg/get_started/get-started?pivots=shell-bash",
     ),
   );
   itemList.add(
@@ -2942,9 +3014,27 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/containerd.svg",
+      title: "nerdctl",
+      enurl: "#",
+      cnurl:
+          "https://github.com/containerd/nerdctl?tab=readme-ov-file#basic-usage",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OCI.svg",
+      title: "runc",
+      enurl: "#",
+      cnurl:
+          "https://github.com/opencontainers/runc?tab=readme-ov-file#using-runc",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Bazel.svg",
       title: "Bazel",
-      enurl: "#",
+      enurl: "https://bazel.build/run/build?hl=en",
       cnurl: "https://bazel.build/run/build?hl=zh-cn",
     ),
   );
@@ -2989,7 +3079,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OpenEuler.svg",
       title: "OpenEuler",
-      enurl: "#",
+      enurl:
+          "https://docs.openeuler.org/en/docs/22.03_LTS_SP2/docs/Installation/installation-preparations.html",
       cnurl:
           "https://docs.openeuler.org/zh/docs/22.03_LTS_SP2/docs/Installation/%E5%AE%89%E8%A3%85%E6%8C%87%E5%AF%BC.html",
     ),
@@ -3198,7 +3289,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Aliyun.svg",
       title: "Alibaba Cloud",
-      enurl: "#",
+      enurl:
+          "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/overview",
       cnurl:
           "https://www.alibabacloud.com/help/zh/cloud-migration-guide-for-beginners/latest/overview",
     ),
@@ -3231,7 +3323,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GooglePublicDNS.svg",
       title: "Google Public DNS",
-      enurl: "#",
+      enurl: "https://developers.google.com/speed/public-dns/docs/using?hl=en",
       cnurl:
           "https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn",
     ),
@@ -3264,7 +3356,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rsbuild.svg",
       title: "Rsbuild",
-      enurl: "#",
+      enurl: "https://rsbuild.dev/guide/start/quick-start",
       cnurl: "https://rsbuild.dev/zh/guide/start/quick-start",
     ),
   );
@@ -3280,15 +3372,17 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/AzurePipelines.svg",
       title: "Azure Pipelines",
-      enurl: "#",
-      cnurl: "https://learn.microsoft.com/zh-cn/azure/devops/pipelines",
+      enurl:
+          "https://learn.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cbrowser",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cbrowser",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/CodeGeeX.svg",
       title: "CodeGeeX",
-      enurl: "#",
+      enurl: "https://github.com/THUDM/CodeGeeX4/blob/main/README.md",
       cnurl: "https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md",
     ),
   );
@@ -3304,7 +3398,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OpenInterpreter.svg",
       title: "Open Interpreter",
-      // https://github.com/OpenInterpreter/open-interpreter?tab=readme-ov-file#quick-start
+      enurl:
+          "https://github.com/OpenInterpreter/open-interpreter?tab=readme-ov-file#quick-start",
       cnurl:
           "https://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B",
     ),
@@ -3313,7 +3408,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Gemini.svg",
       title: "Gemini API",
-      enurl: "#",
+      enurl: "https://ai.google.dev/gemini-api/docs/quickstart?hl=en&lang=rest",
       cnurl:
           "https://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest",
     ),
@@ -3330,7 +3425,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/NextChat.svg",
       title: "NextChat",
-      enurl: "#",
+      enurl:
+          "https://github.com/ChatGPTNextWeb/NextChat/tree/main?tab=readme-ov-file#get-started",
       cnurl:
           "https://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8",
     ),
@@ -3406,7 +3502,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Pintree.svg",
       title: "Pintree",
-      enurl: "#",
+      enurl: "https://docs.pintree.io/en/guide/open-source",
       cnurl: "https://docs.pintree.io/zh/guide/open-source",
     ),
   );
@@ -3691,8 +3787,10 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Chrome.svg",
       title: "Chrome DevTools",
-      enurl: "#",
-      cnurl: "https://developer.chrome.com/docs/devtools?hl=zh-cn",
+      enurl:
+          "https://developer.chrome.com/docs/devtools/overview?hl=en#open?hl=en",
+      cnurl:
+          "https://developer.chrome.com/docs/devtools/overview?hl=zh-cn#open?hl=zh-cn",
     ),
   );
   itemList.add(
@@ -3780,7 +3878,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Tor.svg",
       title: "Tor",
-      enurl: "#",
+      enurl: "https://support.torproject.org",
       cnurl: "https://support.torproject.org/zh-CN",
     ),
   );
@@ -3973,7 +4071,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/WebRTC.svg",
       title: "WebRTC",
-      enurl: "#",
+      enurl: "https://webrtc.org/getting-started/overview?hl=en",
       cnurl: "https://webrtc.org/getting-started/overview?hl=zh-cn",
     ),
   );
@@ -4085,7 +4183,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/ARCore.svg",
       title: "ARCore",
-      enurl: "#",
+      enurl: "https://developers.google.com/ar/develop/getting-started?hl=en",
       cnurl:
           "https://developers.google.com/ar/develop/getting-started?hl=zh-cn",
     ),
@@ -4134,7 +4232,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/WebP.svg",
       title: "WebP",
-      enurl: "#",
+      enurl: "https://developers.google.com/speed/webp?hl=en",
       cnurl: "https://developers.google.com/speed/webp?hl=zh-cn",
     ),
   );
@@ -4164,9 +4262,9 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Windows.svg",
+      imgUrl: "/Windows_11.svg",
       title: "Windows PE Format",
-      enurl: "#",
+      enurl: "https://learn.microsoft.com/en-us/windows/win32/debug/pe-format",
       cnurl: "https://learn.microsoft.com/zh-cn/windows/win32/debug/pe-format",
     ),
   );
@@ -4198,7 +4296,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "Comprehensive Rust",
-      enurl: "#",
+      enurl: "https://google.github.io/comprehensive-rust/index.html",
       cnurl: "https://google.github.io/comprehensive-rust/zh-CN",
     ),
   );
@@ -4292,7 +4390,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/UNIX.svg",
       title: "Unix ELF",
-      enurl: "#",
+      enurl: "https://en.wikipedia.org/wiki/Executable_and_Linkable_Format",
       cnurl:
           "https://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F",
     ),
@@ -4301,8 +4399,9 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/UNIX.svg",
       title: "Unix domain socket",
-      enurl: "#",
-      cnurl: "https://en.wikipedia.org/wiki/Unix_domain_socket",
+      enurl: "https://en.wikipedia.org/wiki/Unix_domain_socket",
+      cnurl:
+          "https://zh.wikipedia.org/wiki/Unix%E5%9F%9F%E5%A5%97%E6%8E%A5%E5%AD%97",
     ),
   );
   itemList.add(
@@ -4371,7 +4470,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Microsoft.svg",
       title: "WSL",
-      enurl: "#",
+      enurl: "https://learn.microsoft.com/en-us/windows/wsl/install",
       cnurl: "https://learn.microsoft.com/zh-cn/windows/wsl/install",
     ),
   );
@@ -4502,7 +4601,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/e-CNY.svg",
       title: "LoongArch",
-      enurl: "#",
+      enurl:
+          "https://loongson.github.io/LoongArch-Documentation/README-EN.html#_getting_started",
       cnurl:
           "https://loongson.github.io/LoongArch-Documentation/README-CN.html#getting-start",
     ),

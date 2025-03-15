@@ -21,13 +21,15 @@ const Item$json = {
     {'1': 'title', '3': 2, '4': 1, '5': 9, '10': 'title'},
     {'1': 'cnurl', '3': 3, '4': 1, '5': 9, '10': 'cnurl'},
     {'1': 'enurl', '3': 4, '4': 1, '5': 9, '10': 'enurl'},
+    {'1': 'only_chinese_version', '3': 5, '4': 1, '5': 8, '10': 'onlyChineseVersion'},
   ],
 };
 
 /// Descriptor for `Item`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List itemDescriptor = $convert.base64Decode(
     'CgRJdGVtEhcKB2ltZ191cmwYASABKAlSBmltZ1VybBIUCgV0aXRsZRgCIAEoCVIFdGl0bGUSFA'
-    'oFY251cmwYAyABKAlSBWNudXJsEhQKBWVudXJsGAQgASgJUgVlbnVybA==');
+    'oFY251cmwYAyABKAlSBWNudXJsEhQKBWVudXJsGAQgASgJUgVlbnVybBIwChRvbmx5X2NoaW5l'
+    'c2VfdmVyc2lvbhgFIAEoCFISb25seUNoaW5lc2VWZXJzaW9u');
 
 @$core.Deprecated('Use itemsDescriptor instead')
 const Items$json = {
