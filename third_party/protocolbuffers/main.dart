@@ -58,6 +58,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/_Atom.svg",
+      title: "Atom",
+      enurl: "#",
+      cnurl:
+          "https://flight-manual.atom-editor.cc/getting-started/sections/atom-basics",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Android.svg",
       title: "AOSP",
       enurl: "https://source.android.com/docs/setup/start?hl=en",
@@ -303,6 +312,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/JBang.svg",
+      title: "JBang",
+      enurl: "#",
+      cnurl: "https://www.jbang.dev/documentation/guide/latest/usage.html",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Xamarin.svg",
       title: "Xamarin",
       enurl:
@@ -323,14 +340,6 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/kind.svg",
       title: "kind",
-      enurl: "#",
-      cnurl: "https://kind.sigs.k8s.io/docs/user/quick-start",
-    ),
-  );
-  itemList.add(
-    Item(
-      imgUrl: "/Jython.svg",
-      title: "Jython",
       enurl: "#",
       cnurl: "https://kind.sigs.k8s.io/docs/user/quick-start",
     ),
@@ -364,17 +373,37 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/MCP.svg",
-      title: "MCP",
+      title: "MCP Java",
       enurl: "#",
-      cnurl: "https://modelcontextprotocol.io/quickstart/client",
+      cnurl: "https://modelcontextprotocol.io/sdk/java/mcp-overview",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MCP.svg",
+      title: "MCP TypeScript",
+      enurl: "#",
+      cnurl:
+          "https://github.com/modelcontextprotocol/typescript-sdk?tab=readme-ov-file#quick-start",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/_Unity.svg",
       title: "Unity",
-      enurl: "#",
-      cnurl: "https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html",
+      enurl:
+          "https://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html",
+      cnurl: "https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/_Unity.svg",
+      title: "Unity",
+      enurl:
+          "https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine",
+      cnurl:
+          "https://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine",
     ),
   );
   itemList.add(
@@ -1165,6 +1194,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub Desktop",
+      enurl:
+          "https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop",
+      cnurl:
+          "https://docs.github.com/zh/desktop/overview/getting-started-with-github-desktop",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GitLab.svg",
       title: "GitLab CI/CD",
       enurl: "#",
@@ -1209,6 +1248,15 @@ Future main(List<String> args) async {
       title: "Monaco Editor",
       enurl: "#",
       cnurl: "https://microsoft.github.io/monaco-editor",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Mermaid.svg",
+      title: "Mermaid Live Editor",
+      enurl: "#",
+      cnurl:
+          "https://mermaid.live/edit#pako:eNpVjkFrwzAMhf-K0GmD5g_kMFiTrZfCButpcQ8iUWKz2DKOTSlJ_vucdoNNJ-m97z00YysdY4n9KJdWU4hwqpWDPM9NpYOZoqXpDEXxtBw4ghXH1wX2DweBSYv3xg2Pd36_QVDNxw1jiNq4r_VuVbf8m-MF6uZIPoo__3VOF1ngpTHvOtf_d3TgnHpteip7KloKUFG4IbhDy8GS6fL786YojJotKyzz2nFPaYwKlVszSinKx9W1WMaQeIdB0qAxd45TvpLvKHJtaAhkfxFP7lPE_kDrN7nAYR4",
     ),
   );
   itemList.add(
@@ -1282,6 +1330,39 @@ Future main(List<String> args) async {
       title: "LLVM",
       enurl: "#",
       cnurl: "https://llvm.org/docs/GettingStarted.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "mlir-sys",
+      enurl: "#",
+      cnurl: "https://github.com/mlir-rs/mlir-sys",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Melior",
+      enurl: "#",
+      cnurl: "https://mlir-rs.github.io/melior/melior",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "llvm-sys",
+      enurl: "#",
+      cnurl: "https://docs.rs/llvm-sys/latest/llvm_sys",
+    ),
+  );
+
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "audionimbus-sys",
+      enurl: "#",
+      cnurl: "https://docs.rs/audionimbus-sys/latest/audionimbus_sys",
     ),
   );
   itemList.add(
@@ -2024,6 +2105,14 @@ Future main(List<String> args) async {
       title: "GraalVM Native Image",
       enurl: "#",
       cnurl: "https://www.graalvm.org/latest/reference-manual/native-image",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GraalVM.svg",
+      title: "GraalVM SDK",
+      enurl: "#",
+      cnurl: "https://www.graalvm.org/sdk/javadoc",
     ),
   );
   itemList.add(
@@ -3317,6 +3406,7 @@ Future main(List<String> args) async {
       title: "Baidu Kaifa",
       enurl: "#",
       cnurl: "https://kaifa.baidu.com",
+      onlyChineseVersion: true,
     ),
   );
   itemList.add(
@@ -3690,7 +3780,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/PinganCloud.svg",
       title: "Ping An Cloud",
-      enurl: "#",
+      enurl:
+          "https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance",
       cnurl:
           "https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance",
     ),
@@ -3699,17 +3790,25 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Tencent%20Cloud.svg",
       title: "Tencent Cloud VM",
-      enurl: "#",
-      cnurl: "https://www.tencentcloud.com/document/product/213/38678",
+      enurl: "https://www.tencentcloud.com/document/product/213/38678",
+      cnurl:
+          "https://www.tencentcloud.com/zh/document/product/213/38678?lang=zh&pg=",
     ),
   );
   itemList.add(
     Item(
-      imgUrl: "/BaiduOCR.svg",
-      title: "Baidu OCR",
-      enurl: "#",
-      cnurl: "https://cloud.baidu.com/doc/OCR/s/dk3iqnq51",
-    ),
+        imgUrl: "/BaiduOCR.svg",
+        title: "Baidu OCR",
+        enurl: "#",
+        cnurl: "https://cloud.baidu.com/doc/OCR/s/dk3iqnq51",
+        onlyChineseVersion: true),
+  );
+  itemList.add(
+    Item(
+        imgUrl: "/BaiduOCR.svg",
+        title: "Baidu AI Cloud",
+        enurl: "#",
+        cnurl: "https://intl.cloud.baidu.com/doc/BML/s/Xjxbjc84n-en"),
   );
   itemList.add(
     Item(
@@ -4336,7 +4435,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/_WeChat.svg",
       title: "WeChat Mini Program",
-      enurl: "#",
+      enurl:
+          "https://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html",
       cnurl:
           "https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html",
     ),
@@ -4345,7 +4445,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Douyin.svg",
       title: "Douyin Mini App",
-      enurl: "#",
+      enurl:
+          "https://developers.tiktok.com/doc/our-guidelines-developer-guidelines",
       cnurl:
           "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev",
     ),

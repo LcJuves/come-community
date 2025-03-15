@@ -67,6 +67,11 @@ b
 /Eclipse%20IDE.svgAspectJ@https://eclipse.dev/aspectj/doc/released/progguide/starting.html"#
 ]
 /AssemblyScript.svgAssemblyScript3https://www.assemblyscript.org/getting-started.html"#
+`
+
+/_Atom.svgAtomIhttps://flight-manual.atom-editor.cc/getting-started/sections/atom-basics"#
+W
+	/Rust.svgaudionimbus-sys6https://docs.rs/audionimbus-sys/latest/audionimbus_sys"#
 I
 /Automa.svgAutoma/https://docs.automa.site/guide/quick-start.html"#
 =
@@ -82,10 +87,12 @@ W
 /AzureQuantum.svgAzure QuantumOhttps://learn.microsoft.com/zh-cn/training/paths/quantum-computing-fundamentals"Ohttps://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals
 h
 /BabylonJS.svg	BabylonJSHhttps://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step"#
-:
-/BaiduKaifa.svgBaidu Kaifahttps://kaifa.baidu.com"#
-J
-/BaiduOCR.svg	Baidu OCR+https://cloud.baidu.com/doc/OCR/s/dk3iqnq51"#
+W
+/BaiduOCR.svgBaidu AI Cloud3https://intl.cloud.baidu.com/doc/BML/s/Xjxbjc84n-en"#
+<
+/BaiduKaifa.svgBaidu Kaifahttps://kaifa.baidu.com"#(
+L
+/BaiduOCR.svg	Baidu OCR+https://cloud.baidu.com/doc/OCR/s/dk3iqnq51"#(
 S
 	/Bash.svgBash=https://www.gnu.org/software/bash/manual/html_node/index.html"#
 `
@@ -281,8 +288,8 @@ A
 /dotNET.svgdotNET'https://docs.microsoft.com/zh-cn/dotnet"#
 ª
 /dotNET.svgdotNET MAUIFhttps://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation"Fhttps://learn.microsoft.com/en-us/dotnet/maui/get-started/installation
-
-/Douyin.svgDouyin Mini Appjhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev"#
+Ñ
+/Douyin.svgDouyin Mini Appjhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev"Ehttps://developers.tiktok.com/doc/our-guidelines-developer-guidelines
 O
 /Dragonfly.svg	Dragonfly/https://www.dragonflydb.io/docs/getting-started"#
 »
@@ -373,6 +380,8 @@ O
 GitHub CLI;https://docs.github.com/zh/github-cli/github-cli/quickstart";https://docs.github.com/en/github-cli/github-cli/quickstart
 „
 /GitHub.svgGitHub Codespaces0https://docs.github.com/zh/codespaces/quickstart"0https://docs.github.com/en/codespaces/quickstart
+¿
+/GitHub.svgGitHub DesktopOhttps://docs.github.com/zh/desktop/overview/getting-started-with-github-desktop"Ohttps://docs.github.com/en/desktop/overview/getting-started-with-github-desktop
 ¢
 /GitHub.svgGitHub REST API@https://docs.github.com/zh/rest/quickstart?apiVersion=2022-11-28"@https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28
 :
@@ -415,6 +424,8 @@ J
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started"#
 e
 /GraalVM.svgGraalVM Native Image<https://www.graalvm.org/latest/reference-manual/native-image"#
+C
+/GraalVM.svgGraalVM SDK#https://www.graalvm.org/sdk/javadoc"#
 T
 /Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html"#
 S
@@ -514,6 +525,9 @@ f
 JavaScript7https://developer.mozilla.org/zh-CN/docs/Web/JavaScript"7https://developer.mozilla.org/en-US/docs/Web/JavaScript
 H
 /JAX.svgJAX4https://jax.readthedocs.io/en/latest/quickstart.html"#
+S
+
+/JBang.svgJBang;https://www.jbang.dev/documentation/guide/latest/usage.html"#
 4
 /_Jekyll.svgJekyllhttps://jekyllrb.com/docs"#
 Y
@@ -542,8 +556,6 @@ D
 /Jupyter.svgJupyter(https://docs.jupyter.org/en/latest/start"#
 ,
 /JWT.svgJWThttps://jwt.io/introduction
-H
-/Jython.svgJython.https://kind.sigs.k8s.io/docs/user/quick-start"#
 W
 /Apache%20Kafka.svgKafka6https://kafka.apache.org/documentation/#gettingStarted"#
 5
@@ -610,6 +622,8 @@ E
 	/LLVM.svgLLVM)https://llvm.org/docs/GettingStarted.html"#
 J
 	/LLVM.svgllvm-cov0https://llvm.org/docs/CommandGuide/llvm-cov.html"#
+B
+	/Rust.svgllvm-sys(https://docs.rs/llvm-sys/latest/llvm_sys"#
 T
 /Lobster.svgLobster8https://aardappel.github.io/lobster/getting_started.html"#
 1
@@ -641,16 +655,22 @@ O
 /Maven.svgMaven$https://maven.apache.org/ref/current"#
 C
 /MAX.svgMAX/https://docs.modular.com/stable/max/get-started"#
-E
-/MCP.svgMCP1https://modelcontextprotocol.io/quickstart/client"#
+N
+/MCP.svgMCP Java5https://modelcontextprotocol.io/sdk/java/mcp-overview"#
+t
+/MCP.svgMCP TypeScriptUhttps://github.com/modelcontextprotocol/typescript-sdk?tab=readme-ov-file#quick-start"#
 @
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs"#
 [
 	/IANA.svgMedia Types>https://www.iana.org/assignments/media-types/media-types.xhtml"#
+?
+	/Rust.svgMelior'https://mlir-rs.github.io/melior/melior"#
 E
 /Mercurial.svg	Mercurial%https://www.mercurial-scm.org/install"#
 M
 /Mermaid.svgMermaid1https://mermaid.js.org/intro/getting-started.html"#
+ë
+/Mermaid.svgMermaid Live EditorÂhttps://mermaid.live/edit#pako:eNpVjkFrwzAMhf-K0GmD5g_kMFiTrZfCButpcQ8iUWKz2DKOTSlJ_vucdoNNJ-m97z00YysdY4n9KJdWU4hwqpWDPM9NpYOZoqXpDEXxtBw4ghXH1wX2DweBSYv3xg2Pd36_QVDNxw1jiNq4r_VuVbf8m-MF6uZIPoo__3VOF1ngpTHvOtf_d3TgnHpteip7KloKUFG4IbhDy8GS6fL786YojJotKyzz2nFPaYwKlVszSinKx9W1WMaQeIdB0qAxd45TvpLvKHJtaAhkfxFP7lPE_kDrN7nAYR4"#
 L
 
 /Meson.svgMeson4https://mesonbuild.com/Quick-guide.html#requirements"#
@@ -680,6 +700,8 @@ S
 Mistral AI2https://docs.mistral.ai/getting-started/quickstart"#
 ;
 	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started"#
+=
+	/Rust.svgmlir-sys#https://github.com/mlir-rs/mlir-sys"#
 P
 /China%20Mobile.svgMobile Open Platformhttps://dev.10086.cn/docInside"#(
 M
@@ -729,11 +751,11 @@ F
 /Nim.svgNim'https://nim-lang.org/documentation.html"#
 _
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"#
+9
+	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 Z
 
 /NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"#
-9
-	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 T
 
 /NuttX.svgNuttX<https://nuttx.apache.org/docs/latest/quickstart/install.html"#
@@ -817,8 +839,8 @@ _
 	/Rust.svgPepeIhttps://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage"#
 {
 /PHP.svgPHP4https://www.php.net/manual/zh/tutorial.firstpage.php"4https://www.php.net/manual/en/tutorial.firstpage.php
-„
-/PinganCloud.svgPing An Cloud^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance"#
+á
+/PinganCloud.svgPing An Cloud^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance"^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance
 b
 /Cloudflare.svgPingoraChttps://github.com/cloudflare/pingora/blob/main/docs/quick_start.md"#
 s
@@ -1033,8 +1055,8 @@ K
 /TAURI.svgTAURIhttps://tauri.app/zh-cn/start"https://tauri.app/start
 H
 	/Java.svgTeaVM1https://teavm.org/docs/intro/getting-started.html"#
-d
-/Tencent%20Cloud.svgTencent Cloud VM7https://www.tencentcloud.com/document/product/213/38678"#
+©
+/Tencent%20Cloud.svgTencent Cloud VMFhttps://www.tencentcloud.com/zh/document/product/213/38678?lang=zh&pg="7https://www.tencentcloud.com/document/product/213/38678
 ž
 /TensorFlow.svg
 TensorFlowChttps://tensorflow.google.cn/tutorials/quickstart/beginner?hl=zh-cn":https://tensorflow.org/tutorials/quickstart/beginner?hl=en
@@ -1086,8 +1108,10 @@ J
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0"#
 W
 	/Rust.svgUniFFI?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html"#
-P
-/_Unity.svgUnity7https://docs.unity.cn/cn/2022.3/Manual/UnityManual.html"#
+–
+/_Unity.svgUnity8https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html"Fhttps://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html
+â
+/_Unity.svgUnityehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine
 i
 /OpenAIPlatform.svguniverseEhttps://github.com/openai/universe?tab=readme-ov-file#getting-started"#
 ™
@@ -1155,8 +1179,8 @@ t
 U
 
 /WebXR.svgWebXR=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite"#
-{
-/_WeChat.svgWeChat Mini ProgramShttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html"#
+Ð
+/_WeChat.svgWeChat Mini ProgramShttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html"Vhttps://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html
 ¬
 /Windows_11.svgWindowsGhttps://learn.microsoft.com/zh-cn/windows/whats-new/windows-11-overview"Ghttps://learn.microsoft.com/en-us/windows/whats-new/windows-11-overview
 é
