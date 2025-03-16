@@ -4201,6 +4201,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/GNU.svg",
+      title: "Jobserver Protocol",
+      enurl: "#",
+      cnurl: "https://make.mad-scientist.net/papers/jobserver-implementation",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Eko.svg",
       title: "Eko",
       enurl: "#",

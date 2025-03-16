@@ -570,6 +570,8 @@ Y
 I
 
 /Jetty.svgJetty1https://jetty.org/docs/jetty/12/programming-guide"#
+a
+/GNU.svgJobserver Protocol>https://make.mad-scientist.net/papers/jobserver-implementation"#
 d
 /TypeScript.svgJSDocGhttps://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html"#
 W
