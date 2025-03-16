@@ -284,8 +284,8 @@ W
 Delta Lake6https://delta-io.github.io/delta-rs/usage/installation"#
 3
 	/Deno.svgDenohttps://docs.deno.com/runtime"#
-G
-/DevContainer.svgDev Containershttps://containers.dev/overview"#
+U
+/DevContainer.svgDev Containers-https://containers.dev/implementors/templates"#
 B
 /Diesel.svgDiesel(https://diesel.rs/guides/getting-started"#
 †
