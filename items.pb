@@ -1,6 +1,8 @@
 
 N
 /Cloudflare.svg1.1.1.1/https://developers.cloudflare.com/1.1.1.1/setup"#
+I
+/996.ICU.svg996.ICUhttps://996.icu/#/zh_CN"https://996.icu/#/en_US
 C
 	/ACME.svgACME-https://datatracker.ietf.org/doc/html/rfc8555"#
 ¡
@@ -33,6 +35,8 @@ W
 ›
 /Android.svg
 Android XRChttps://developer.android.google.cn/develop/xr/get-started?hl=zh-cn":https://developer.android.com/develop/xr/get-started?hl=en
+W
+/Google.svgANGLE>https://chromium.googlesource.com/angle/angle/+/main/README.md"#
  
 /Angular.svgAngularBhttps://angular.cn/tutorials/learn-angular/1-components-in-angular"Chttps://angular.dev/tutorials/learn-angular/1-components-in-angular
 P
@@ -104,6 +108,8 @@ N
 /BentoML.svgBentoML?https://docs.bentoml.com/en/latest/get-started/hello-world.html"#
 N
 	/Bevy.svgBevy8https://bevyengine.org/learn/quick-start/getting-started"#
+A
+	/Rust.svgbindgen(https://rust-lang.github.io/rust-bindgen"#
 
 /Atlassian%20Bitbucket.svgBitbucket PipelinesWhttps://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines"#
 M
@@ -164,6 +170,11 @@ z
 G
 
 /Cargo.svgCargo Remote(https://github.com/sgeisler/cargo-remote"#
+|
+
+/Cargo.svgCargo Workspace AnalyzerQhttps://github.com/jaads/cargo-workspace-analyzer?tab=readme-ov-file#installation"#
+0
+	/Rust.svgcchttps://docs.rs/cc/latest/cc"#
 m
 /Certbot.svgCertbot CommandsHhttps://eff-certbot.readthedocs.io/en/stable/using.html#certbot-commands"#
 ]
@@ -220,6 +231,8 @@ G
 /Continue.svgContinue)https://docs.continue.dev/getting-started"#
 j
 /Apache%20Cordova.svgCordovaEhttps://cordova.apache.org/docs/en/latest/guide/cli/installation.html"#
+Y
+	/Rust.svg	Corrosion>https://corrosion-rs.github.io/corrosion/v0.5/quick_start.html"#
 c
 /COSMIC_Toolkit.svgCOSMIC Toolkit9https://pop-os.github.io/libcosmic-book/introduction.html"#
 |
@@ -242,6 +255,8 @@ K
 /_cURL.svgcURL"https://curl.se/docs/tutorial.html"#
 Q
 /Cursor.svgCursor7https://docs.cursor.com/get-started/welcome#get-started"#
+#
+	/Rust.svgCXXhttps://cxx.rs"#
 M
 /Cygwin.svgCygwin3https://cygwin.com/cygwin-ug-net/cygwin-ug-net.html"#
 F
@@ -360,6 +375,10 @@ U
  
 /Gemini.svg
 Gemini APIChttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest"@https://ai.google.dev/gemini-api/docs/quickstart?hl=en&lang=rest
+.
+/GitHub.svggh-cardhttps://gh-card.dev"#
+f
+/GitHub.svggh-card*https://www.freecodecamp.org/chinese/learn""https://www.freecodecamp.org/learn
 @
 /Ghostty.svgGhostty$https://ghostty.org/docs#get-started"#
 Œ
@@ -391,6 +410,8 @@ R
 GitLab CLI4https://docs.gitlab.com/editor_extensions/gitlab_cli"#
 C
 /GitLab.svgGitLab REST API https://docs.gitlab.com/api/rest"#
+K
+/GitLens.svgGitLens/https://help.gitkraken.com/gitlens/gitlens-home"#
 e
 /Gitpod.svgGitpodKhttps://www.gitpod.io/docs/introduction/getting-started#a-gitpodyml-example"#
 >
@@ -430,6 +451,9 @@ T
 /Gradle.svgGradle:https://docs.gradle.org/current/userguide/quick_start.html"#
 S
 /Grafana.svgGrafana7https://grafana.com/docs/grafana/latest/getting-started"#
+A
+
+/Grain.svgGrain)https://grain-lang.org/docs/getting_grain"#
 L
 /GraphQL.svgGraphQLhttps://graphql.cn/learn"https://graphql.org/learn
 W
@@ -453,9 +477,9 @@ D
 	/HMOS.svgHarmonyOS DeveloperRhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5"Rhttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5
 ?
 /Haskell.svgHaskell#https://www.haskell.org/get-started"#
-N
+}
 /HelloAlgo.svg
-Hello Algo-https://www.hello-algo.com/chapter_hello_algo"#
+Hello Algo-https://www.hello-algo.com/chapter_hello_algo"0https://www.hello-algo.com/en/chapter_hello_algo
 T
 	/Hexo.svgHexo https://hexo.io/zh-cn/docs/setup"https://hexo.io/docs/setup.html
 I
@@ -746,6 +770,8 @@ K
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc"#
 c
 /containerd.svgnerdctlDhttps://github.com/containerd/nerdctl?tab=readme-ov-file#basic-usage"#
+;
+/NEWSNOW.svgNews Nowhttps://newsnow.busiyi.world"#(
 Ö
 /NextChat.svgNextChatfhttps://github.com/ChatGPTNextWeb/NextChat/blob/main/README_CN.md#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8"Shttps://github.com/ChatGPTNextWeb/NextChat/tree/main?tab=readme-ov-file#get-started
 R
@@ -757,11 +783,11 @@ F
 /Nim.svgNim'https://nim-lang.org/documentation.html"#
 _
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"#
-9
-	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 Z
 
 /NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"#
+9
+	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 T
 
 /NuttX.svgNuttX<https://nuttx.apache.org/docs/latest/quickstart/install.html"#
@@ -988,6 +1014,8 @@ J
 ‰
 
 /Scala.svgScalaqhttps://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html"#
+S
+/ScalaJS.svgScalaJS7https://www.scala-js.org/doc/tutorial/scalajs-vite.html"#
 €
 /Android.svgSDK CmdLine Tools2https://developer.android.google.cn/tools?hl=zh-cn")https://developer.android.com/tools?hl=en
 ^
@@ -1114,10 +1142,10 @@ J
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0"#
 W
 	/Rust.svgUniFFI?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html"#
-–
-/_Unity.svgUnity8https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html"Fhttps://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html
 â
 /_Unity.svgUnityehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine
+–
+/_Unity.svgUnity8https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html"Fhttps://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html
 i
 /OpenAIPlatform.svguniverseEhttps://github.com/openai/universe?tab=readme-ov-file#getting-started"#
 ™

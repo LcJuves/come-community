@@ -174,6 +174,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ScalaJS.svg",
+      title: "ScalaJS",
+      enurl: "#",
+      cnurl: "https://www.scala-js.org/doc/tutorial/scalajs-vite.html",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/MDN.svg",
       title: "MDN Web",
       enurl: "#",
@@ -599,6 +607,38 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/google/crubit?tab=readme-ov-file#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Corrosion",
+      enurl: "#",
+      cnurl: "https://corrosion-rs.github.io/corrosion/v0.5/quick_start.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "cc",
+      enurl: "#",
+      cnurl: "https://docs.rs/cc/latest/cc",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "CXX",
+      enurl: "#",
+      cnurl: "https://cxx.rs",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "bindgen",
+      enurl: "#",
+      cnurl: "https://rust-lang.github.io/rust-bindgen",
     ),
   );
   itemList.add(
@@ -1048,6 +1088,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Google.svg",
+      title: "ANGLE",
+      enurl: "#",
+      cnurl: "https://chromium.googlesource.com/angle/angle/+/main/README.md",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/ReactJS.svg",
       title: "ReactJS",
       enurl: "https://react.dev/learn",
@@ -1165,6 +1213,30 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md#github-actions-runner-images",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "gh-card",
+      enurl: "#",
+      cnurl: "https://gh-card.dev",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "gh-card",
+      enurl: "https://www.freecodecamp.org/learn",
+      cnurl: "https://www.freecodecamp.org/chinese/learn",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/996.ICU.svg",
+      title: "996.ICU",
+      enurl: "https://996.icu/#/en_US",
+      cnurl: "https://996.icu/#/zh_CN",
     ),
   );
   itemList.add(
@@ -3724,6 +3796,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Cargo.svg",
+      title: "Cargo Workspace Analyzer",
+      enurl: "#",
+      cnurl:
+          "https://github.com/jaads/cargo-workspace-analyzer?tab=readme-ov-file#installation",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Prefix.svg",
       title: "Pixi",
       enurl: "#",
@@ -3887,7 +3968,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/HelloAlgo.svg",
       title: "Hello Algo",
-      enurl: "#",
+      enurl: "https://www.hello-algo.com/en/chapter_hello_algo",
       cnurl: "https://www.hello-algo.com/chapter_hello_algo",
     ),
   );
@@ -4746,6 +4827,31 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/cloudflare/pingora/blob/main/docs/quick_start.md",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/NEWSNOW.svg",
+      title: "News Now",
+      enurl: "#",
+      cnurl: "https://newsnow.busiyi.world",
+      currentlyOnlySupportsChinese: true,
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitLens.svg",
+      title: "GitLens",
+      enurl: "#",
+      cnurl: "https://help.gitkraken.com/gitlens/gitlens-home",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Grain.svg",
+      title: "Grain",
+      enurl: "#",
+      cnurl: "https://grain-lang.org/docs/getting_grain",
     ),
   );
 
