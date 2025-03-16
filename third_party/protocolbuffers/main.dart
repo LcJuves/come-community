@@ -3204,7 +3204,7 @@ Future main(List<String> args) async {
       imgUrl: "/DevContainer.svg",
       title: "Dev Containers",
       enurl: "#",
-      cnurl: "https://containers.dev/overview",
+      cnurl: "https://containers.dev/implementors/templates",
     ),
   );
   itemList.add(
