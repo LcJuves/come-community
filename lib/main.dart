@@ -1,3 +1,4 @@
+import 'dart:isolate';
 import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
@@ -35,8 +36,7 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
-  @protected
-  Future<List<Item>> fetchItemsFromUrl() async {
+  Future<List<Item>> _fetchItemsFromUrl() async {
     final response =
         await http.get(Uri.parse("https://devfans.lcjuves.com/items.pb"));
     if (response.statusCode == 200) {
@@ -48,10 +48,26 @@ class HomePage extends StatefulWidget {
     }
   }
 
-  @protected
-  Future<List<Item>> fetchItemsFromBundle() async {
+  // ignore: unused_element
+  Future<List<Item>> _isolateFetchItemsFromUrl() async {
+    return Isolate.run(_fetchItemsFromUrl);
+  }
+
+  Future<List<Item>> _fetchItemsFromBundle() async {
     final buffer = await rootBundle.load('items.pb');
     return Items.fromBuffer(Uint8List.sublistView(buffer)).itemList;
+  }
+
+  // ignore: unused_element
+  Future<List<Item>> _isolateFetchItemsFromBundle() async {
+    return Isolate.run(_fetchItemsFromBundle);
+  }
+
+  Future<List<Item>> _initFutureItems() async {
+    if (kDebugMode) {
+      return /* kIsWeb ? */ _fetchItemsFromBundle() /* : _isolateFetchItemsFromBundle() */;
+    }
+    return /* kIsWeb ? */ _fetchItemsFromUrl() /* : _isolateFetchItemsFromUrl() */;
   }
 
   @override
@@ -65,8 +81,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    futureItems =
-        kDebugMode ? widget.fetchItemsFromBundle() : widget.fetchItemsFromUrl();
+    futureItems = widget._initFutureItems();
   }
 
   @override
