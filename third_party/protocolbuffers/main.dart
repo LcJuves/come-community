@@ -406,8 +406,8 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/_Unity.svg",
-      title: "Unity",
+      imgUrl: "/Unreal%20Engine.svg",
+      title: "Unreal Engine",
       enurl:
           "https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine",
       cnurl:
@@ -2362,7 +2362,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/WebGPU.svg",
-      title: "WebGPU API",
+      title: "WebGPU",
       enurl: "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API",
     ),
