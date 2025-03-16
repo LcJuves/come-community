@@ -3815,7 +3815,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Cargo.svg",
-      title: "Cargo Workspace Analyzer",
+      title: "Workspace Analyzer",
       enurl: "#",
       cnurl:
           "https://github.com/jaads/cargo-workspace-analyzer?tab=readme-ov-file#installation",
@@ -4573,6 +4573,14 @@ Future main(List<String> args) async {
           "https://developers.tiktok.com/doc/our-guidelines-developer-guidelines",
       cnurl:
           "https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/World.svg",
+      title: "World Mini Apps",
+      enurl: "#",
+      cnurl: "https://docs.world.org/mini-apps/quick-start/installing",
     ),
   );
   // itemList.add(Item(
