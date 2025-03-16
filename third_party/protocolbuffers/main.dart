@@ -412,7 +412,7 @@ Future main(List<String> args) async {
       title: "Mobile Open Platform",
       enurl: "#",
       cnurl: "https://dev.10086.cn/docInside",
-      onlyChineseVersion: true,
+      currentlyOnlySupportsChinese: true,
     ),
   );
   itemList.add(
@@ -2393,7 +2393,7 @@ Future main(List<String> args) async {
         enurl: "#",
         cnurl:
             "https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%95",
-        onlyChineseVersion: true),
+        currentlyOnlySupportsChinese: true),
   );
   itemList.add(
     Item(
@@ -3406,7 +3406,7 @@ Future main(List<String> args) async {
       title: "Baidu Kaifa",
       enurl: "#",
       cnurl: "https://kaifa.baidu.com",
-      onlyChineseVersion: true,
+      currentlyOnlySupportsChinese: true,
     ),
   );
   itemList.add(
@@ -3801,7 +3801,7 @@ Future main(List<String> args) async {
         title: "Baidu OCR",
         enurl: "#",
         cnurl: "https://cloud.baidu.com/doc/OCR/s/dk3iqnq51",
-        onlyChineseVersion: true),
+        currentlyOnlySupportsChinese: true),
   );
   itemList.add(
     Item(

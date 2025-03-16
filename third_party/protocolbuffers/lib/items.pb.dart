@@ -19,7 +19,7 @@ class Item extends $pb.GeneratedMessage {
     $core.String? title,
     $core.String? cnurl,
     $core.String? enurl,
-    $core.bool? onlyChineseVersion,
+    $core.bool? currentlyOnlySupportsChinese,
   }) {
     final $result = create();
     if (imgUrl != null) {
@@ -34,8 +34,8 @@ class Item extends $pb.GeneratedMessage {
     if (enurl != null) {
       $result.enurl = enurl;
     }
-    if (onlyChineseVersion != null) {
-      $result.onlyChineseVersion = onlyChineseVersion;
+    if (currentlyOnlySupportsChinese != null) {
+      $result.currentlyOnlySupportsChinese = currentlyOnlySupportsChinese;
     }
     return $result;
   }
@@ -48,7 +48,7 @@ class Item extends $pb.GeneratedMessage {
     ..aOS(2, _omitFieldNames ? '' : 'title')
     ..aOS(3, _omitFieldNames ? '' : 'cnurl')
     ..aOS(4, _omitFieldNames ? '' : 'enurl')
-    ..aOB(5, _omitFieldNames ? '' : 'onlyChineseVersion')
+    ..aOB(5, _omitFieldNames ? '' : 'currentlyOnlySupportsChinese')
     ..hasRequiredFields = false
   ;
 
@@ -110,13 +110,13 @@ class Item extends $pb.GeneratedMessage {
   void clearEnurl() => clearField(4);
 
   @$pb.TagNumber(5)
-  $core.bool get onlyChineseVersion => $_getBF(4);
+  $core.bool get currentlyOnlySupportsChinese => $_getBF(4);
   @$pb.TagNumber(5)
-  set onlyChineseVersion($core.bool v) { $_setBool(4, v); }
+  set currentlyOnlySupportsChinese($core.bool v) { $_setBool(4, v); }
   @$pb.TagNumber(5)
-  $core.bool hasOnlyChineseVersion() => $_has(4);
+  $core.bool hasCurrentlyOnlySupportsChinese() => $_has(4);
   @$pb.TagNumber(5)
-  void clearOnlyChineseVersion() => clearField(5);
+  void clearCurrentlyOnlySupportsChinese() => clearField(5);
 }
 
 class Items extends $pb.GeneratedMessage {
