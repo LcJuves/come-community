@@ -475,6 +475,12 @@ x
 /HTML5.svgHTML1https://developer.mozilla.org/zh-CN/docs/Web/HTML"1https://developer.mozilla.org/en-US/docs/Web/HTML
 w
 	/HTTP.svgHTTP1https://developer.mozilla.org/zh-CN/docs/Web/HTTP"1https://developer.mozilla.org/en-US/docs/Web/HTTP
+[
+	/IANA.svgHTTP Fields>https://www.iana.org/assignments/http-fields/http-fields.xhtml"#
+^
+	/IANA.svgHTTP Methods@https://www.iana.org/assignments/http-methods/http-methods.xhtml"#
+m
+	/IANA.svgHTTP Status CodesJhttps://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml"#
 R
 /HTTP_Toolkit.svgHTTP Toolkit,https://httptoolkit.com/docs/getting-started"#
 <
