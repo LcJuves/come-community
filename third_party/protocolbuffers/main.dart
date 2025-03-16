@@ -813,6 +813,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Microsoft.svg",
+      title: "Universal CRT",
+      enurl:
+          "https://learn.microsoft.com/en-us/cpp/windows/universal-crt-deployment?view=msvc-170",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/cpp/windows/universal-crt-deployment?view=msvc-170",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Colossal-AI.svg",
       title: "Colossal-AI",
       enurl: "https://colossalai.org/docs/get_started/installation",
@@ -1225,8 +1235,8 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/GitHub.svg",
-      title: "gh-card",
+      imgUrl: "/freeCodeCamp.svg",
+      title: "freeCodeCamp",
       enurl: "https://www.freecodecamp.org/learn",
       cnurl: "https://www.freecodecamp.org/chinese/learn",
     ),
@@ -1513,7 +1523,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Org_FreeSVG.svg",
+      imgUrl: "/SVG.svg",
       title: "SVG",
       enurl:
           "https://developer.mozilla.org/en-US/docs/Web/SVG#getting_started_with_svg",
@@ -1551,7 +1561,7 @@ Future main(List<String> args) async {
       imgUrl: "/Pkl.svg",
       title: "Pkl",
       enurl: "#",
-      cnurl: "https://pkl-lang.org/main/current/index.html",
+      cnurl: "https://pkl-lang.org/swift/current/quickstart.html",
     ),
   );
   itemList.add(
@@ -2327,6 +2337,14 @@ Future main(List<String> args) async {
       title: "Kali Linux",
       enurl: "#",
       cnurl: "https://www.kali.org/docs",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/linebender.svg",
+      title: "resvg",
+      enurl: "#",
+      cnurl: "https://github.com/linebender/resvg",
     ),
   );
   itemList.add(

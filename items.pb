@@ -360,6 +360,8 @@ G
 /Flutter.svgFlutter:https://docs.flutter.cn/get-started/install/windows/mobile"Ahttps://docs.flutter.dev/get-started/install/macos/mobile-android
 €
 /FreeBSD.svgFreeBSD4https://docs.freebsd.org/zh-cn/books/handbook/basics"1https://docs.freebsd.org/en/books/handbook/basics
+q
+/freeCodeCamp.svgfreeCodeCamp*https://www.freecodecamp.org/chinese/learn""https://www.freecodecamp.org/learn
 €
 /Fuchsia.svgFuchsia4https://fuchsia.dev/fuchsia-src/get-started?hl=zh-cn"1https://fuchsia.dev/fuchsia-src/get-started?hl=en
 G
@@ -377,8 +379,6 @@ U
 Gemini APIChttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest"@https://ai.google.dev/gemini-api/docs/quickstart?hl=en&lang=rest
 .
 /GitHub.svggh-cardhttps://gh-card.dev"#
-f
-/GitHub.svggh-card*https://www.freecodecamp.org/chinese/learn""https://www.freecodecamp.org/learn
 @
 /Ghostty.svgGhostty$https://ghostty.org/docs#get-started"#
 Œ
@@ -879,8 +879,8 @@ s
 /Pintree.svgPintree,https://docs.pintree.io/zh/guide/open-source",https://docs.pintree.io/en/guide/open-source
 <
 /Prefix.svgPixi$https://pixi.sh/latest/#installation"#
-@
-/Pkl.svgPkl,https://pkl-lang.org/main/current/index.html"#
+F
+/Pkl.svgPkl2https://pkl-lang.org/swift/current/quickstart.html"#
 U
 
 /Plan9.svgPlan 9<http://9p.io/wiki/plan9/Installation_instructions/index.html"#
@@ -956,6 +956,8 @@ J
 /Remmina.svgRemmina.https://remmina.gitlab.io/remminadoc.gitlab.io"#
 7
 	/Rust.svgreqwesthttps://docs.rs/reqwest/latest"#
+@
+/linebender.svgresvg#https://github.com/linebender/resvg"#
 6
 /RISC-V.svgRISC-Vhttps://riscv.org/developers"#
 j
@@ -1060,8 +1062,8 @@ a
 Subversion?https://subversion.apache.org/quick-start#installing-the-client"#
 H
 /Svelte.svgSvelte.https://svelte.dev/docs/svelte/getting-started"#
-­
-/Org_FreeSVG.svgSVGIhttps://developer.mozilla.org/zh-CN/docs/Web/SVG#getting_started_with_svg"Ihttps://developer.mozilla.org/en-US/docs/Web/SVG#getting_started_with_svg
+¥
+/SVG.svgSVGIhttps://developer.mozilla.org/zh-CN/docs/Web/SVG#getting_started_with_svg"Ihttps://developer.mozilla.org/en-US/docs/Web/SVG#getting_started_with_svg
 8
 	/SVGO.svgSVGO"https://svgo.dev/docs/introduction"#
 3
@@ -1142,10 +1144,12 @@ J
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0"#
 W
 	/Rust.svgUniFFI?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html"#
-â
-/_Unity.svgUnityehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine
 –
 /_Unity.svgUnity8https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html"Fhttps://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html
+â
+/_Unity.svgUnityehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine
+Ë
+/Microsoft.svgUniversal CRTThttps://learn.microsoft.com/zh-cn/cpp/windows/universal-crt-deployment?view=msvc-170"Thttps://learn.microsoft.com/en-us/cpp/windows/universal-crt-deployment?view=msvc-170
 i
 /OpenAIPlatform.svguniverseEhttps://github.com/openai/universe?tab=readme-ov-file#getting-started"#
 ™
