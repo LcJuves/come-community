@@ -771,8 +771,8 @@ M
 @
 
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2"#
-f
-/MooreThreads .svgMT-Transformer-vLLM8https://docs.mthreads.com/mtt/mtt-doc-online/quick_start"#
+e
+/MooreThreads.svgMT-Transformer-vLLM8https://docs.mthreads.com/mtt/mtt-doc-online/quick_start"#
 J
 /musl-libc.svg	musl libc*https://wiki.musl-libc.org/getting-started"#
 [
