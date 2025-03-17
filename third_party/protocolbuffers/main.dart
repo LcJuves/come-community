@@ -2633,7 +2633,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/MooreThreads .svg",
+      imgUrl: "/MooreThreads.svg",
       title: "MT-Transformer-vLLM",
       enurl: "#",
       cnurl: "https://docs.mthreads.com/mtt/mtt-doc-online/quick_start",
