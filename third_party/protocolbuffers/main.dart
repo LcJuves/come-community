@@ -35,6 +35,33 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Android.svg",
+      title: "CameraX",
+      enurl:
+          "https://developer.android.com/codelabs/camerax-getting-started?hl=en#0",
+      cnurl:
+          "https://developer.android.google.cn/codelabs/camerax-getting-started?hl=zh-cn#0",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Android.svg",
+      title: "ExoPlayer",
+      enurl: "https://developer.android.com/codelabs/exoplayer-intro?hl=en#0",
+      cnurl:
+          "https://developer.android.google.cn/codelabs/exoplayer-intro?hl=zh-cn#0",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Android.svg",
+      title: "ADPF",
+      enurl: "https://developer.android.com/games/optimize/adpf?hl=en",
+      cnurl: "https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Android.svg",
       title: "Android NDK",
       enurl: "https://developer.android.com/ndk/guides?hl=en",
       cnurl: "https://developer.android.google.cn/ndk/guides?hl=zh-cn",
@@ -974,6 +1001,20 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+        imgUrl: "/SKIP.tools.svg",
+        title: "SKIP.tools",
+        enurl: "#",
+        cnurl: "https://skip.tools/docs/gettingstarted"),
+  );
+  itemList.add(
+    Item(
+        imgUrl: "/MetaMask.svg",
+        title: "Meta Mask",
+        enurl: "#",
+        cnurl: "https://docs.metamask.io/sdk/quickstart/javascript-wagmi"),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Vapor.svg",
       title: "Vapor",
       enurl: "#",
@@ -1102,6 +1143,16 @@ Future main(List<String> args) async {
       title: "ANGLE",
       enurl: "#",
       cnurl: "https://chromium.googlesource.com/angle/angle/+/main/README.md",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GoogleTranslate.svg",
+      title: "Google Translate",
+      enurl:
+          "https://translate.google.com/?hl=zh-CN&sl=en&tl=zh-CN&op=translate",
+      cnurl:
+          "https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate",
     ),
   );
   itemList.add(
@@ -2267,6 +2318,24 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/GNU.svg",
+      title: "sed",
+      enurl: "#",
+      cnurl:
+          "https://www.gnu.org/software/sed/manual/sed.html#Command_002dLine-Options",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GNU.svg",
+      title: "grep",
+      enurl: "#",
+      cnurl:
+          "https://www.gnu.org/software/grep/manual/grep.html#grep-Programs-1",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GNU.svg",
       title: "GNU Binutils",
       enurl: "#",
       cnurl: "https://sourceware.org/binutils/docs/binutils/index.html",
@@ -2564,6 +2633,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/MooreThreads .svg",
+      title: "MT-Transformer-vLLM",
+      enurl: "#",
+      cnurl: "https://docs.mthreads.com/mtt/mtt-doc-online/quick_start",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/NVIDIA.svg",
       title: "CUDA-GDB",
       enurl: "#",
@@ -2659,7 +2736,8 @@ Future main(List<String> args) async {
       imgUrl: "/gitee.svg",
       title: "Gitee Go",
       enurl: "#",
-      cnurl: "https://gitee.com/help/categories/69",
+      cnurl: "https://gitee.com/help/articles/4357#article-header0",
+      currentlyOnlySupportsChinese: true,
     ),
   );
   itemList.add(
@@ -3661,6 +3739,15 @@ Future main(List<String> args) async {
     ),
   );
   itemList.add(
+    Item(
+      imgUrl: "/Wasmer.svg",
+      title: "WinterJS",
+      enurl: "#",
+      cnurl:
+          "https://github.com/wasmerio/winterjs?tab=readme-ov-file#running-winterjs-natively",
+    ),
+  );
+  itemList.add(
     Item(imgUrl: "/Skia.svg", title: "Skia", cnurl: "https://skia.org/docs"),
   );
   itemList.add(
@@ -3759,6 +3846,24 @@ Future main(List<String> args) async {
       title: "UniFFI",
       enurl: "#",
       cnurl: "https://mozilla.github.io/uniffi-rs/latest/Getting_started.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "RustOwl",
+      enurl: "#",
+      cnurl:
+          "https://github.com/cordx56/rustowl?tab=readme-ov-file#quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "mlx-rs",
+      enurl: "#",
+      cnurl:
+          "https://github.com/oxideai/mlx-rs?tab=readme-ov-file#installation",
     ),
   );
   itemList.add(

@@ -9,6 +9,8 @@ C
 /GitHub.svgActions Runner Imagesxhttps://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md#github-actions-runner-images"#
 D
 /ActixWeb.svg	Actix Web%https://actix.rs/docs/getting-started"#
+
+/Android.svgADPF@https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn"7https://developer.android.com/games/optimize/adpf?hl=en
 N
 /AFFiNE.svgAFFiNE4https://docs.affine.pro/docs/development/quick-start"#
 ;
@@ -143,6 +145,8 @@ g
 Y
 /Apache%20Camel.svg
 Camel Core3https://camel.apache.org/camel-core/getting-started"#
+°
+/Android.svgCameraXOhttps://developer.android.google.cn/codelabs/camerax-getting-started?hl=zh-cn#0"Fhttps://developer.android.com/codelabs/camerax-getting-started?hl=en#0
 ñ
 /Cangjie.svgCangjiekhttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html
 H
@@ -329,6 +333,8 @@ T
 	/Rust.svgEvcxr Rust REPL=https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md"#
 9
 /Exercism.svgExercismhttps://exercism.org/tracks"#
+¢
+/Android.svg	ExoPlayerGhttps://developer.android.google.cn/codelabs/exoplayer-intro?hl=zh-cn#0">https://developer.android.com/codelabs/exoplayer-intro?hl=en#0
 H
 	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project"#
 ‘
@@ -386,9 +392,9 @@ Gemini APIChttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest"
 	/Rust.svggit2-rs https://docs.rs/git2/latest/git2"#
 O
 /GitBook.svgGitBook3https://docs.gitbook.com/getting-started/quickstart"#
-?
+Q
 
-/gitee.svgGitee Go$https://gitee.com/help/categories/69"#
+/gitee.svgGitee Go4https://gitee.com/help/articles/4357#article-header0"#(
 Ÿ
 /GitHub.svgGitHub Actions?https://docs.github.com/zh/actions/writing-workflows/quickstart"?https://docs.github.com/en/actions/writing-workflows/quickstart
 “
@@ -438,6 +444,8 @@ A
 godot-rust?https://godot-rust.github.io/book/intro/setup.html#godot-engine"#
 ®
 /GooglePublicDNS.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn"?https://developers.google.com/speed/public-dns/docs/using?hl=en
+Á
+/GoogleTranslate.svgGoogle TranslateShttps://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate"Bhttps://translate.google.com/?hl=zh-CN&sl=en&tl=zh-CN&op=translate
 J
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started"#
 e
@@ -453,6 +461,8 @@ A
 /Grain.svgGrain)https://grain-lang.org/docs/getting_grain"#
 L
 /GraphQL.svgGraphQLhttps://graphql.cn/learn"https://graphql.org/learn
+W
+/GNU.svggrepBhttps://www.gnu.org/software/grep/manual/grep.html#grep-Programs-1"#
 W
 /GreptimeDB.svg
 GreptimeDB5https://docs.greptime.com/getting-started/quick-start"#
@@ -706,6 +716,8 @@ L
 I
 /MetaLlama.svg
 Meta Llama(https://www.llama.com/docs/how-to-guides"#
+W
+/MetaMask.svg	Meta Mask8https://docs.metamask.io/sdk/quickstart/javascript-wagmi"#
 \
 /Metabase.svgMetabase>https://www.metabase.com/learn/metabase-basics/getting-started"#
 O
@@ -731,6 +743,8 @@ Mistral AI2https://docs.mistral.ai/getting-started/quickstart"#
 	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started"#
 =
 	/Rust.svgmlir-sys#https://github.com/mlir-rs/mlir-sys"#
+Y
+	/Rust.svgmlx-rsAhttps://github.com/oxideai/mlx-rs?tab=readme-ov-file#installation"#
 P
 /China%20Mobile.svgMobile Open Platformhttps://dev.10086.cn/docInside"#(
 M
@@ -757,6 +771,8 @@ M
 @
 
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2"#
+f
+/MooreThreads .svgMT-Transformer-vLLM8https://docs.mthreads.com/mtt/mtt-doc-online/quick_start"#
 J
 /musl-libc.svg	musl libc*https://wiki.musl-libc.org/getting-started"#
 [
@@ -782,11 +798,11 @@ F
 /Nim.svgNim'https://nim-lang.org/documentation.html"#
 _
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"#
-9
-	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 Z
 
 /NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"#
+9
+	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 T
 
 /NuttX.svgNuttX<https://nuttx.apache.org/docs/latest/quickstart/install.html"#
@@ -1002,6 +1018,8 @@ A
 	/Rust.svgrustc*https://doc.rust-lang.org/rustc/index.html"#
 :
 	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc"#
+Z
+	/Rust.svgRustOwlAhttps://github.com/cordx56/rustowl?tab=readme-ov-file#quick-start"#
 :
 	/Rust.svgrustup"https://rust-lang.github.io/rustup"#
 G
@@ -1019,6 +1037,8 @@ S
 /ScalaJS.svgScalaJS7https://www.scala-js.org/doc/tutorial/scalajs-vite.html"#
 €
 /Android.svgSDK CmdLine Tools2https://developer.android.google.cn/tools?hl=zh-cn")https://developer.android.com/tools?hl=en
+]
+/GNU.svgsedIhttps://www.gnu.org/software/sed/manual/sed.html#Command_002dLine-Options"#
 ^
 /Selenium.svgSelenium@https://www.selenium.dev/documentation/webdriver/getting_started"#
 :
@@ -1039,6 +1059,9 @@ U
 /Debian.svgSimple Shell Command]https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command"Zhttps://www.debian.org/doc/manuals/debian-reference/ch01.en.html#_the_simple_shell_command
 (
 	/Skia.svgSkiahttps://skia.org/docs
+H
+/SKIP.tools.svg
+SKIP.tools&https://skip.tools/docs/gettingstarted"#
 Y
 
 /Slint.svgSlintAhttps://docs.slint.dev/latest/docs/slint/tutorial/getting_started"#
@@ -1227,6 +1250,8 @@ U
 /Windows_Terminal.svgWindows Terminal2https://learn.microsoft.com/zh-cn/windows/terminal"2https://learn.microsoft.com/en-us/windows/terminal
 O
 /Windsurf.svgWindsurf1https://docs.codeium.com/windsurf/getting-started"#
+m
+/Wasmer.svgWinterJSQhttps://github.com/wasmerio/winterjs?tab=readme-ov-file#running-winterjs-natively"#
 7
 /WinterCG.svgWinterTChttps://wintertc.org/work"#
 <
