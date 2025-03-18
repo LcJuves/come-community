@@ -337,6 +337,8 @@ T
 /Android.svg	ExoPlayerGhttps://developer.android.google.cn/codelabs/exoplayer-intro?hl=zh-cn#0">https://developer.android.com/codelabs/exoplayer-intro?hl=en#0
 H
 	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project"#
+&
+	/FAST.svgFAST#"https://fast.com
 ‘
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs"5https://docs.fedoraproject.org/en-US/workstation-docs
 _
@@ -404,6 +406,8 @@ GitHub CLI;https://docs.github.com/zh/github-cli/github-cli/quickstart";https:/
 /GitHub.svgGitHub Codespaces0https://docs.github.com/zh/codespaces/quickstart"0https://docs.github.com/en/codespaces/quickstart
 ¿
 /GitHub.svgGitHub DesktopOhttps://docs.github.com/zh/desktop/overview/getting-started-with-github-desktop"Ohttps://docs.github.com/en/desktop/overview/getting-started-with-github-desktop
+~
+/GitHub.svgGitHub Packages.https://docs.github.com/zh/packages/quickstart".https://docs.github.com/en/packages/quickstart
 ¢
 /GitHub.svgGitHub REST API@https://docs.github.com/zh/rest/quickstart?apiVersion=2022-11-28"@https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28
 :
@@ -643,6 +647,8 @@ K
 /Let's%20Encrypt.svgLet's Encrypt-https://letsencrypt.org/zh-cn/getting-started"'https://letsencrypt.org/getting-started
 S
 /Linux%20Foundation.svgLF Projects(https://www.linuxfoundation.org/projects"#
+6
+	/Rust.svglibc https://docs.rs/libc/latest/libc"#
 W
 /libimobiledevice.svglibimobiledevice)https://libimobiledevice.org/#get-started"#
 3
@@ -798,11 +804,11 @@ F
 /Nim.svgNim'https://nim-lang.org/documentation.html"#
 _
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"#
+9
+	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 Z
 
 /NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"#
-9
-	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 T
 
 /NuttX.svgNuttX<https://nuttx.apache.org/docs/latest/quickstart/install.html"#
@@ -1240,6 +1246,8 @@ U
 /WebXR.svgWebXR=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite"#
 Ð
 /_WeChat.svgWeChat Mini ProgramShttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html"Vhttps://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html
+¥
+/Microsoft.svg	Win32 APIChttps://learn.microsoft.com/zh-cn/windows/win32/desktop-programming"Chttps://learn.microsoft.com/en-us/windows/win32/desktop-programming
 ¬
 /Windows_11.svgWindowsGhttps://learn.microsoft.com/zh-cn/windows/whats-new/windows-11-overview"Ghttps://learn.microsoft.com/en-us/windows/whats-new/windows-11-overview
 é

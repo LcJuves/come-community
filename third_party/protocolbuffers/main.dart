@@ -655,6 +655,14 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "libc",
+      enurl: "#",
+      cnurl: "https://docs.rs/libc/latest/libc",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "CXX",
       enurl: "#",
       cnurl: "https://cxx.rs",
@@ -1257,6 +1265,14 @@ Future main(List<String> args) async {
       title: "GitHub Actions",
       enurl: "https://docs.github.com/en/actions/writing-workflows/quickstart",
       cnurl: "https://docs.github.com/zh/actions/writing-workflows/quickstart",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub Packages",
+      enurl: "https://docs.github.com/en/packages/quickstart",
+      cnurl: "https://docs.github.com/zh/packages/quickstart",
     ),
   );
   itemList.add(
@@ -3617,6 +3633,24 @@ Future main(List<String> args) async {
       title: "Cursor",
       enurl: "#",
       cnurl: "https://docs.cursor.com/get-started/welcome#get-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/FAST.svg",
+      title: "FAST",
+      enurl: "https://fast.com",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Microsoft.svg",
+      title: "Win32 API",
+      enurl:
+          "https://learn.microsoft.com/en-us/windows/win32/desktop-programming",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/windows/win32/desktop-programming",
     ),
   );
   itemList.add(
