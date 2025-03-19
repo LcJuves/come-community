@@ -338,7 +338,7 @@ T
 H
 	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project"#
 &
-	/FAST.svgFAST#"https://fast.com
+	/FAST.svgFASThttps://fast.com"#
 ‘
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs"5https://docs.fedoraproject.org/en-US/workstation-docs
 _
