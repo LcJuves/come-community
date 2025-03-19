@@ -3639,8 +3639,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/FAST.svg",
       title: "FAST",
-      enurl: "https://fast.com",
-      cnurl: "#",
+      enurl: "#",
+      cnurl: "https://fast.com",
     ),
   );
   itemList.add(
