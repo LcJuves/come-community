@@ -601,9 +601,12 @@ D
 /JWT.svgJWThttps://jwt.io/introduction
 W
 /Apache%20Kafka.svgKafka6https://kafka.apache.org/documentation/#gettingStarted"#
-5
+U
 	/Kali.svg
-Kali Linuxhttps://www.kali.org/docs"#
+Kali Linux9https://www.kali.org/docs/introduction/what-is-kali-linux"#
+6
+	/Kali.svg
+Kali Toolshttps://www.kali.org/tools"#
 e
 /KasmWorkspaces.svgKasm Workspaces:https://kasmweb.com/docs/latest/index.html#getting-started"#
 +
@@ -704,6 +707,8 @@ N
 /MCP.svgMCP Java5https://modelcontextprotocol.io/sdk/java/mcp-overview"#
 t
 /MCP.svgMCP TypeScriptUhttps://github.com/modelcontextprotocol/typescript-sdk?tab=readme-ov-file#quick-start"#
+V
+	/Rust.svgMCPR@https://github.com/conikeec/mcpr?tab=readme-ov-file#installation"#
 @
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs"#
 [
@@ -732,8 +737,8 @@ a
 /microbit.svg	micro:bitBhttps://microbit.org/get-started/getting-started/power-up-and-play"#
 l
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql"%https://learn.microsoft.com/en-us/sql
-@
-/MindSpore.svg	MindSpore https://www.mindspore.cn/install"#
+b
+/MindSpore.svg	MindSpore https://www.mindspore.cn/install"#https://www.mindspore.cn/install/en
 T
 /mingw-w64.svg	mingw-w644https://www.mingw-w64.org/getting-started/msys2-llvm"#
 B
@@ -789,6 +794,8 @@ K
 /Nacos.svgNacos3https://nacos.io/docs/latest/quickstart/quick-start"#
 =
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc"#
+9
+/Microsoft.svgNatureLMhttps://naturelm.github.io"#
 c
 /containerd.svgnerdctlDhttps://github.com/containerd/nerdctl?tab=readme-ov-file#basic-usage"#
 ;
@@ -804,11 +811,11 @@ F
 /Nim.svgNim'https://nim-lang.org/documentation.html"#
 _
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"#
-9
-	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 Z
 
 /NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"#
+9
+	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 T
 
 /NuttX.svgNuttX<https://nuttx.apache.org/docs/latest/quickstart/install.html"#
@@ -1028,6 +1035,8 @@ Z
 	/Rust.svgRustOwlAhttps://github.com/cordx56/rustowl?tab=readme-ov-file#quick-start"#
 :
 	/Rust.svgrustup"https://rust-lang.github.io/rustup"#
+)
+	/Rust.svgrustuphttps://rustup.rs"#
 G
 	/Rust.svgRusty V8 Binding%https://docs.rs/v8/latest/v8/#example"#
 Y
@@ -1299,5 +1308,10 @@ U
 /Duke%20Hips.svgZGC9https://wiki.openjdk.org/display/zgc/Main#Main-QuickStart"#
 B
 /ZIG.svgZIG.https://zig.guide/getting-started/installation"#
+D
+/ZIG.svgZig LangRef(https://ziglang.org/documentation/0.14.0"#
+G
+/ZIG.svg
+Zig StdLib,https://ziglang.org/documentation/0.14.0/std"#
 ¤
 /Zookeeper.svg	Zookeeperƒhttps://zookeeper.apache.org/doc/current/zookeeperStarted.html#getting-started-coordinating-distributed-applications-with-zooKeeper"#

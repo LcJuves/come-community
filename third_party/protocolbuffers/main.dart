@@ -2421,7 +2421,15 @@ Future main(List<String> args) async {
       imgUrl: "/Kali.svg",
       title: "Kali Linux",
       enurl: "#",
-      cnurl: "https://www.kali.org/docs",
+      cnurl: "https://www.kali.org/docs/introduction/what-is-kali-linux",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Kali.svg",
+      title: "Kali Tools",
+      enurl: "#",
+      cnurl: "https://www.kali.org/tools",
     ),
   );
   itemList.add(
@@ -3877,6 +3885,46 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "MCPR",
+      enurl: "#",
+      cnurl: "https://github.com/conikeec/mcpr?tab=readme-ov-file#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "rustup",
+      enurl: "#",
+      cnurl: "https://rustup.rs",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ZIG.svg",
+      title: "Zig LangRef",
+      enurl: "#",
+      cnurl: "https://ziglang.org/documentation/0.14.0",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ZIG.svg",
+      title: "Zig StdLib",
+      enurl: "#",
+      cnurl: "https://ziglang.org/documentation/0.14.0/std",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Microsoft.svg",
+      title: "NatureLM",
+      enurl: "#",
+      cnurl: "https://naturelm.github.io",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "UniFFI",
       enurl: "#",
       cnurl: "https://mozilla.github.io/uniffi-rs/latest/Getting_started.html",
@@ -4545,7 +4593,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/MindSpore.svg",
       title: "MindSpore",
-      enurl: "#",
+      enurl: "https://www.mindspore.cn/install/en",
       cnurl: "https://www.mindspore.cn/install",
     ),
   );
