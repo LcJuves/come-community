@@ -321,6 +321,8 @@ I
 /_Electron.svgElectronEhttps://www.electronjs.org/zh/docs/latest/tutorial/tutorial-first-app"Bhttps://www.electronjs.org/docs/latest/tutorial/tutorial-first-app
 E
 /Elixir.svgElixir+https://hexdocs.pm/elixir/introduction.html"#
+S
+	/Rust.svgempiriqa9https://github.com/ynqa/empiriqa?tab=readme-ov-file#usage"#
 E
 /esbuild.svgesbuild)https://esbuild.github.io/getting-started"#
 …
@@ -386,6 +388,8 @@ Gemini APIChttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest"
 /GitHub.svggh-cardhttps://gh-card.dev"#
 @
 /Ghostty.svgGhostty$https://ghostty.org/docs#get-started"#
+B
+	/GIMP.svgGIMP,https://www.gimp.org/tutorials/GIMP_Quickies"#
 Œ
 /GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs"#
 ^
@@ -811,11 +815,11 @@ F
 /Nim.svgNim'https://nim-lang.org/documentation.html"#
 _
 /NodeJS.svgNodeJSEhttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs"#
+9
+	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 Z
 
 /NumPy.svgNumPyBhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart"#
-9
-	/Rust.svgnumpy"https://docs.rs/numpy/latest/numpy"#
 T
 
 /NuttX.svgNuttX<https://nuttx.apache.org/docs/latest/quickstart/install.html"#
@@ -1013,12 +1017,16 @@ Y
 /OCI.svgruncDhttps://github.com/opencontainers/runc?tab=readme-ov-file#using-runc"#
 q
 	/Rust.svgRust1https://www.rust-lang.org/zh-CN/learn/get-started"+https://www.rust-lang.org/learn/get-started
+}
+	/Rust.svg	Rust CUDAbhttps://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started"#
 X
 	/Rust.svgRust error codes6https://doc.rust-lang.org/error_codes/error-index.html"#
 j
 /Rust-for-Linux.svgRust for Linux@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html"#
 _
 /Windows_11.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows"#
+4
+	/Rust.svgRust GPUhttps://rust-gpu.github.io"#
 H
 	/Rust.svgRust HIR.https://rustc-dev-guide.rust-lang.org/hir.html"#
 C
@@ -1216,6 +1224,8 @@ d
 /VS Code.svgVisual Studio Code=https://code.visualstudio.com/docs/getstarted/getting-started"#
 D
 	/Vite.svgVitehttps://cn.vite.dev/guide"https://vite.dev/guide
+h
+/VS Code.svgVS Code ExtensionBhttps://code.visualstudio.com/api/get-started/your-first-extension"#
 \
 /VSCodium.svgVSCodium>https://github.com/VSCodium/vscodium/blob/master/docs/index.md"#
 A
