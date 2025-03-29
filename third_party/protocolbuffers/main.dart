@@ -1385,6 +1385,48 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/VS Code.svg",
+      title: "VS Code Extension",
+      enurl: "#",
+      cnurl:
+          "https://code.visualstudio.com/api/get-started/your-first-extension",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GIMP.svg",
+      title: "GIMP",
+      enurl: "#",
+      cnurl: "https://www.gimp.org/tutorials/GIMP_Quickies",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust CUDA",
+      enurl: "#",
+      cnurl:
+          "https://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust GPU",
+      enurl: "#",
+      cnurl: "https://rust-gpu.github.io",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "empiriqa",
+      enurl: "#",
+      cnurl: "https://github.com/ynqa/empiriqa?tab=readme-ov-file#usage",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/__CodeOSS.svg",
       title: "Code OSS",
       enurl: "#",
