@@ -1,6 +1,7 @@
-import 'dart:isolate';
 import 'dart:ui';
 
+import 'package:devfans/future_data.dart';
+import 'package:devfans/snapshot_error_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -11,7 +12,7 @@ import 'animated_wallpaper_container.dart';
 import 'base_container.dart';
 import 'constants.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 
@@ -48,26 +49,20 @@ class HomePage extends StatefulWidget {
     }
   }
 
-  // ignore: unused_element
-  Future<List<Item>> _isolateFetchItemsFromUrl() async {
-    return Isolate.run(_fetchItemsFromUrl);
-  }
-
   Future<List<Item>> _fetchItemsFromBundle() async {
     final buffer = await rootBundle.load('items.pb');
     return Items.fromBuffer(Uint8List.sublistView(buffer)).itemList;
   }
 
-  // ignore: unused_element
-  Future<List<Item>> _isolateFetchItemsFromBundle() async {
-    return Isolate.run(_fetchItemsFromBundle);
+  Future<List<Item>> _initFutureItems() async {
+    return kDebugMode ? _fetchItemsFromBundle() : _fetchItemsFromUrl();
   }
 
-  Future<List<Item>> _initFutureItems() async {
-    if (kDebugMode) {
-      return /* kIsWeb ? */ _fetchItemsFromBundle() /* : _isolateFetchItemsFromBundle() */;
-    }
-    return /* kIsWeb ? */ _fetchItemsFromUrl() /* : _isolateFetchItemsFromUrl() */;
+  Future<FutureData> _initFutureData() async {
+    final futureItems = await _initFutureItems();
+    final futuregeoInfo = await getgeoInfo();
+    final futureData = FutureData(items: futureItems, geoInfo: futuregeoInfo);
+    return Future.value(futureData);
   }
 
   @override
@@ -75,13 +70,14 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  late Future<List<Item>> futureItems;
+  late Future<FutureData> futureData;
   List<Item>? _loadedItems;
 
   @override
   void initState() {
     super.initState();
-    futureItems = widget._initFutureItems();
+    futureData = /* kIsWeb ? */
+        widget._initFutureData() /* : Isolate.run(widget._initFutureData) */;
   }
 
   @override
@@ -93,15 +89,26 @@ class _HomePageState extends State<HomePage> {
           filter: ImageFilter.blur(sigmaX: 6.3, sigmaY: 6.3),
           child: Scaffold(
             backgroundColor: Colors.transparent,
-            body: FutureBuilder<List<Item>>(
-              future: futureItems,
+            body: FutureBuilder<FutureData>(
+              future: futureData,
               builder: (context, snapshot) {
                 if (snapshot.hasError) {
-                  return Text('${snapshot.error}');
+                  return SnapshotErrorText(
+                    asyncSnapshot: snapshot,
+                  );
                 }
                 if (snapshot.hasData) {
-                  final fetchedItems = snapshot.data!;
-                  _loadedItems ??= fetchedItems;
+                  final fetchedData = snapshot.data!;
+                  final filteredFetchedItems =
+                      List.of(fetchedData.fetchedItems.where((item) {
+                    if (item.currentlyOnlySupportsChinese &&
+                        fetchedData.fetchedGeoInfo['country_code'] != "CN") {
+                      // Let people who know English gradually understand Chinese culture
+                      return fetchedData.fetchedGeoInfo['country_code'] == "EN";
+                    }
+                    return true;
+                  }));
+                  _loadedItems ??= filteredFetchedItems;
                   return SingleChildScrollView(
                       scrollDirection: Axis.vertical,
                       padding: const EdgeInsets.all(Constants.edgePadding),
@@ -133,13 +140,15 @@ class _HomePageState extends State<HomePage> {
                                 color: Colors.black,
                                 fontWeight: FontWeight.w500)),
                             onChanged: (value) async {
-                              final filteredItems = _loadedItems!.where(
+                              final filteredItemsIterable = _loadedItems!.where(
                                   (item) =>
                                       item.title.contains(value) ||
+                                      item.enurl.contains(value) ||
                                       item.cnurl.contains(value));
                               setState(() {
-                                futureItems =
-                                    Future.value(List.of(filteredItems));
+                                futureData = Future.value(FutureData(
+                                    items: List.of(filteredItemsIterable),
+                                    geoInfo: fetchedData.fetchedGeoInfo));
                               });
                             },
                           ),
@@ -152,8 +161,11 @@ class _HomePageState extends State<HomePage> {
                                 (Constants.edgePadding * 0.618),
                             runSpacing: Constants.edgePadding,
                             direction: Axis.horizontal,
-                            children: fetchedItems
-                                .map((i) => BaseContainer(item: i))
+                            children: filteredFetchedItems
+                                .map((i) => BaseContainer(
+                                      item: i,
+                                      geoInfo: fetchedData.fetchedGeoInfo,
+                                    ))
                                 .toList(),
                           ))
                         ],

@@ -1157,8 +1157,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GoogleTranslate.svg",
       title: "Google Translate",
-      enurl:
-          "https://translate.google.com/?hl=zh-CN&sl=en&tl=zh-CN&op=translate",
+      enurl: "https://translate.google.com/?hl=en&sl=en&tl=zh-CN&op=translate",
       cnurl:
           "https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate",
     ),

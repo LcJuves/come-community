@@ -7,11 +7,12 @@ import 'inkwell_container.dart';
 import 'svg_network_icon.dart';
 
 // ignore: must_be_immutable
-class BaseContainer extends StatelessWidget {
-  final String _commonUrlPrefix = "https://web.lcjuves.com/assets/svg";
+class BaseContainer extends StatefulWidget {
+  final String _commonUrlPrefix = Constants.svgCommonUrlPrefix;
   late String _imgUrl;
   final Item item;
-  BaseContainer({super.key, required this.item}) {
+  final dynamic geoInfo;
+  BaseContainer({super.key, required this.item, required this.geoInfo}) {
     _imgUrl = item.imgUrl;
     if (_imgUrl.startsWith('/')) {
       _imgUrl = _commonUrlPrefix + _imgUrl;
@@ -30,16 +31,30 @@ class BaseContainer extends StatelessWidget {
         : Constants.urlBoxWidth;
   }
 
+  String _getLaunchUrl() {
+    if (geoInfo['country_code'] == "CN" &&
+        (item.cnurl != "#" || item.cnurl.isNotEmpty)) {
+      return item.cnurl;
+    }
+    return item.enurl != "#" ? item.enurl : item.cnurl;
+  }
+
+  @override
+  State<BaseContainer> createState() => _BaseContainerState();
+}
+
+class _BaseContainerState extends State<BaseContainer> {
   @override
   Widget build(BuildContext context) {
     return InkWellContainer(
+        key: GlobalObjectKey(widget.item),
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
         color: Colors.white.withAlpha(204),
-        onTap: () async =>
-            await launchUrl(Uri.parse(item.cnurl), mode: LaunchMode.inAppWebView),
+        onTap: () async => await launchUrl(Uri.parse(widget._getLaunchUrl()),
+            mode: LaunchMode.inAppWebView),
         child: Row(mainAxisSize: MainAxisSize.min, children: [
-          SvgNetworkIcon(url: _imgUrl, size: Constants.svgIconSize),
+          SvgNetworkIcon(url: widget._imgUrl, size: Constants.svgIconSize),
           Padding(
             padding: const EdgeInsets.only(left: Constants.titleLeftPadding),
             child: Column(
@@ -47,8 +62,8 @@ class BaseContainer extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(
-                  width: _textBoxDynamicWidth(context),
-                  child: Text(item.title,
+                  width: widget._textBoxDynamicWidth(context),
+                  child: Text(widget.item.title,
                       style: const TextStyle(
                           fontSize: 18.84,
                           fontWeight: FontWeight.bold,
@@ -60,15 +75,15 @@ class BaseContainer extends StatelessWidget {
                   padding:
                       const EdgeInsets.only(top: Constants.urlBoxTopPadding),
                   child: SizedBox(
-                    width: _textBoxDynamicWidth(context),
+                    width: widget._textBoxDynamicWidth(context),
                     child: Tooltip(
                       triggerMode: TooltipTriggerMode.manual,
                       margin: const EdgeInsets.all(4),
-                      message: item.cnurl,
+                      message: Uri.decodeComponent(widget._getLaunchUrl()),
                       waitDuration: const Duration(milliseconds: 1200),
                       exitDuration: const Duration(),
                       child: Text(
-                        item.cnurl,
+                        Uri.decodeComponent(widget._getLaunchUrl()),
                         style: const TextStyle(
                             fontSize: 11,
                             color: Color.fromARGB(255, 100, 100, 100),
