@@ -546,8 +546,8 @@ f
 /InLong.svgInLong^https://inlong.apache.org/zh-CN/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example"Xhttps://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example
 `
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html"#
-†
-/IntelliJ_Platform_Plugin.svgIntelliJ Platform PluginHhttps://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html"#
+~
+/IntelliJ_Platform_Plugin.svgIntelliJ PluginsHhttps://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html"#
 f
 
 /Ionic.svgIonic ReactHhttps://ionicframework.com/docs/react/quickstart#what-is-ionic-framework"#

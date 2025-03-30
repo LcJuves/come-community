@@ -1403,7 +1403,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/IntelliJ_Platform_Plugin.svg",
-      title: "IntelliJ Platform Plugin",
+      title: "IntelliJ Plugins",
       enurl: "#",
       cnurl:
           "https://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html",
