@@ -1394,6 +1394,23 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/VS Code.svg",
+      title: "VS Code API",
+      enurl: "#",
+      cnurl: "https://code.visualstudio.com/api/references/vscode-api",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/IntelliJ_Platform_Plugin.svg",
+      title: "IntelliJ Platform Plugin",
+      enurl: "#",
+      cnurl:
+          "https://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GIMP.svg",
       title: "GIMP",
       enurl: "#",
@@ -4247,6 +4264,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Chrome.svg",
+      title: "Chrome Extensions",
+      enurl:
+          "https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=en",
+      cnurl:
+          "https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=zh-cn",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/AFFiNE.svg",
       title: "AFFiNE",
       enurl: "#",
@@ -4739,9 +4766,9 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
-      title: "rustup",
+      title: "Rust up",
       enurl: "#",
-      cnurl: "https://rust-lang.github.io/rustup",
+      cnurl: "https://rust-lang.github.io/rustup/basics.html",
     ),
   );
   itemList.add(

@@ -184,6 +184,8 @@ b
 /Chroma.svgChromaHhttps://docs.trychroma.com/docs/overview/getting-started?lang=typescript"#
 °
 /Chrome.svgChrome DevToolsJhttps://developer.chrome.com/docs/devtools/overview?hl=zh-cn#open?hl=zh-cn"Dhttps://developer.chrome.com/docs/devtools/overview?hl=en#open?hl=en
+Í
+/Chrome.svgChrome ExtensionsVhttps://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=zh-cn"Shttps://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=en
 m
 /Chromium.svgChromiumOhttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md"#
 K
@@ -544,6 +546,8 @@ f
 /InLong.svgInLong^https://inlong.apache.org/zh-CN/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example"Xhttps://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example
 `
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html"#
+†
+/IntelliJ_Platform_Plugin.svgIntelliJ Platform PluginHhttps://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html"#
 f
 
 /Ionic.svgIonic ReactHhttps://ionicframework.com/docs/react/quickstart#what-is-ionic-framework"#
@@ -1033,6 +1037,8 @@ C
 	/Rust.svgRust MIR)https://rustc-dev-guide.rust-lang.org/mir"#
 Q
 	/Rust.svg	Rust UEFI6https://rust-osdev.github.io/uefi-rs/tutorial/app.html"#
+G
+	/Rust.svgRust up.https://rust-lang.github.io/rustup/basics.html"#
 a
 /rust-analyzer.svgrust-analyzer9https://rust-analyzer.github.io/book/vs_code.html#vs-code"#
 A
@@ -1041,8 +1047,6 @@ A
 	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc"#
 Z
 	/Rust.svgRustOwlAhttps://github.com/cordx56/rustowl?tab=readme-ov-file#quick-start"#
-:
-	/Rust.svgrustup"https://rust-lang.github.io/rustup"#
 )
 	/Rust.svgrustuphttps://rustup.rs"#
 G
@@ -1224,6 +1228,8 @@ d
 /VS Code.svgVisual Studio Code=https://code.visualstudio.com/docs/getstarted/getting-started"#
 D
 	/Vite.svgVitehttps://cn.vite.dev/guide"https://vite.dev/guide
+W
+/VS Code.svgVS Code API7https://code.visualstudio.com/api/references/vscode-api"#
 h
 /VS Code.svgVS Code ExtensionBhttps://code.visualstudio.com/api/get-started/your-first-extension"#
 \
