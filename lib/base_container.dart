@@ -36,7 +36,9 @@ class BaseContainer extends StatefulWidget {
         (item.cnurl != "#" || item.cnurl.isNotEmpty)) {
       return item.cnurl;
     }
-    return item.enurl != "#" ? item.enurl : item.cnurl;
+    return (item.enurl.isNotEmpty && item.enurl != "#")
+        ? item.enurl
+        : item.cnurl;
   }
 
   @override
