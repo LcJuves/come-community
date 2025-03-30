@@ -454,8 +454,8 @@ A
 godot-rust?https://godot-rust.github.io/book/intro/setup.html#godot-engine"#
 ®
 /GooglePublicDNS.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn"?https://developers.google.com/speed/public-dns/docs/using?hl=en
-Á
-/GoogleTranslate.svgGoogle TranslateShttps://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate"Bhttps://translate.google.com/?hl=zh-CN&sl=en&tl=zh-CN&op=translate
+¾
+/GoogleTranslate.svgGoogle TranslateShttps://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate"?https://translate.google.com/?hl=en&sl=en&tl=zh-CN&op=translate
 J
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started"#
 e

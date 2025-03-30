@@ -9,6 +9,8 @@ C
 /GitHub.svgActions Runner Imagesxhttps://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md#github-actions-runner-images"#
 D
 /ActixWeb.svg	Actix Web%https://actix.rs/docs/getting-started"#
+è
+/Android.svgADPF@https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn"7https://developer.android.com/games/optimize/adpf?hl=en
 N
 /AFFiNE.svgAFFiNE4https://docs.affine.pro/docs/development/quick-start"#
 ;
@@ -143,6 +145,8 @@ g
 Y
 /Apache%20Camel.svg
 Camel Core3https://camel.apache.org/camel-core/getting-started"#
+∞
+/Android.svgCameraXOhttps://developer.android.google.cn/codelabs/camerax-getting-started?hl=zh-cn#0"Fhttps://developer.android.com/codelabs/camerax-getting-started?hl=en#0
 Ò
 /Cangjie.svgCangjiekhttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html
 H
@@ -180,6 +184,8 @@ b
 /Chroma.svgChromaHhttps://docs.trychroma.com/docs/overview/getting-started?lang=typescript"#
 ∞
 /Chrome.svgChrome DevToolsJhttps://developer.chrome.com/docs/devtools/overview?hl=zh-cn#open?hl=zh-cn"Dhttps://developer.chrome.com/docs/devtools/overview?hl=en#open?hl=en
+Õ
+/Chrome.svgChrome ExtensionsVhttps://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=zh-cn"Shttps://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=en
 m
 /Chromium.svgChromiumOhttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md"#
 K
@@ -284,8 +290,8 @@ W
 Delta Lake6https://delta-io.github.io/delta-rs/usage/installation"#
 3
 	/Deno.svgDenohttps://docs.deno.com/runtime"#
-G
-/DevContainer.svgDev Containershttps://containers.dev/overview"#
+U
+/DevContainer.svgDev Containers-https://containers.dev/implementors/templates"#
 B
 /Diesel.svgDiesel(https://diesel.rs/guides/getting-started"#
 Ü
@@ -317,6 +323,8 @@ I
 /_Electron.svgElectronEhttps://www.electronjs.org/zh/docs/latest/tutorial/tutorial-first-app"Bhttps://www.electronjs.org/docs/latest/tutorial/tutorial-first-app
 E
 /Elixir.svgElixir+https://hexdocs.pm/elixir/introduction.html"#
+S
+	/Rust.svgempiriqa9https://github.com/ynqa/empiriqa?tab=readme-ov-file#usage"#
 E
 /esbuild.svgesbuild)https://esbuild.github.io/getting-started"#
 Ö
@@ -329,8 +337,12 @@ T
 	/Rust.svgEvcxr Rust REPL=https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md"#
 9
 /Exercism.svgExercismhttps://exercism.org/tracks"#
+¢
+/Android.svg	ExoPlayerGhttps://developer.android.google.cn/codelabs/exoplayer-intro?hl=zh-cn#0">https://developer.android.com/codelabs/exoplayer-intro?hl=en#0
 H
 	/Expo.svgExpo2https://docs.expo.dev/get-started/create-a-project"#
+&
+	/FAST.svgFASThttps://fast.com"#
 ë
 /Fedora.svgFedora Workstation7https://docs.fedoraproject.org/zh_Hans/workstation-docs"5https://docs.fedoraproject.org/en-US/workstation-docs
 _
@@ -378,6 +390,8 @@ Gemini APIChttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest"
 /GitHub.svggh-cardhttps://gh-card.dev"#
 @
 /Ghostty.svgGhostty$https://ghostty.org/docs#get-started"#
+B
+	/GIMP.svgGIMP,https://www.gimp.org/tutorials/GIMP_Quickies"#
 å
 /GitLFS.svgGit LFSqhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs"#
 ^
@@ -386,9 +400,9 @@ Gemini APIChttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest"
 	/Rust.svggit2-rs https://docs.rs/git2/latest/git2"#
 O
 /GitBook.svgGitBook3https://docs.gitbook.com/getting-started/quickstart"#
-?
+Q
 
-/gitee.svgGitee Go$https://gitee.com/help/categories/69"#
+/gitee.svgGitee Go4https://gitee.com/help/articles/4357#article-header0"#(
 ü
 /GitHub.svgGitHub Actions?https://docs.github.com/zh/actions/writing-workflows/quickstart"?https://docs.github.com/en/actions/writing-workflows/quickstart
 ì
@@ -398,6 +412,8 @@ GitHub CLI;https://docs.github.com/zh/github-cli/github-cli/quickstart";https:/
 /GitHub.svgGitHub Codespaces0https://docs.github.com/zh/codespaces/quickstart"0https://docs.github.com/en/codespaces/quickstart
 ø
 /GitHub.svgGitHub DesktopOhttps://docs.github.com/zh/desktop/overview/getting-started-with-github-desktop"Ohttps://docs.github.com/en/desktop/overview/getting-started-with-github-desktop
+~
+/GitHub.svgGitHub Packages.https://docs.github.com/zh/packages/quickstart".https://docs.github.com/en/packages/quickstart
 ¢
 /GitHub.svgGitHub REST API@https://docs.github.com/zh/rest/quickstart?apiVersion=2022-11-28"@https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28
 :
@@ -438,6 +454,8 @@ A
 godot-rust?https://godot-rust.github.io/book/intro/setup.html#godot-engine"#
 Æ
 /GooglePublicDNS.svgGoogle Public DNSBhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn"?https://developers.google.com/speed/public-dns/docs/using?hl=en
+æ
+/GoogleTranslate.svgGoogle TranslateShttps://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate"?https://translate.google.com/?hl=en&sl=en&tl=zh-CN&op=translate
 J
 /GraalVM.svgGraalVM.https://www.graalvm.org/latest/getting-started"#
 e
@@ -453,6 +471,8 @@ A
 /Grain.svgGrain)https://grain-lang.org/docs/getting_grain"#
 L
 /GraphQL.svgGraphQLhttps://graphql.cn/learn"https://graphql.org/learn
+W
+/GNU.svggrepBhttps://www.gnu.org/software/grep/manual/grep.html#grep-Programs-1"#
 W
 /GreptimeDB.svg
 GreptimeDB5https://docs.greptime.com/getting-started/quick-start"#
@@ -526,6 +546,8 @@ f
 /InLong.svgInLong^https://inlong.apache.org/zh-CN/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example"Xhttps://inlong.apache.org/docs/quick_start/data_ingestion/file_pulsar_clickhouse_example
 `
 /IntelliJ_IDEA.svgIntelliJ IDEA8https://www.jetbrains.com/help/idea/getting-started.html"#
+~
+/IntelliJ_Platform_Plugin.svgIntelliJ PluginsHhttps://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html"#
 f
 
 /Ionic.svgIonic ReactHhttps://ionicframework.com/docs/react/quickstart#what-is-ionic-framework"#
@@ -570,6 +592,8 @@ Y
 I
 
 /Jetty.svgJetty1https://jetty.org/docs/jetty/12/programming-guide"#
+a
+/GNU.svgJobserver Protocol>https://make.mad-scientist.net/papers/jobserver-implementation"#
 d
 /TypeScript.svgJSDocGhttps://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html"#
 W
@@ -585,9 +609,12 @@ D
 /JWT.svgJWThttps://jwt.io/introduction
 W
 /Apache%20Kafka.svgKafka6https://kafka.apache.org/documentation/#gettingStarted"#
-5
+U
 	/Kali.svg
-Kali Linuxhttps://www.kali.org/docs"#
+Kali Linux9https://www.kali.org/docs/introduction/what-is-kali-linux"#
+6
+	/Kali.svg
+Kali Toolshttps://www.kali.org/tools"#
 e
 /KasmWorkspaces.svgKasm Workspaces:https://kasmweb.com/docs/latest/index.html#getting-started"#
 +
@@ -631,6 +658,8 @@ K
 /Let's%20Encrypt.svgLet's Encrypt-https://letsencrypt.org/zh-cn/getting-started"'https://letsencrypt.org/getting-started
 S
 /Linux%20Foundation.svgLF Projects(https://www.linuxfoundation.org/projects"#
+6
+	/Rust.svglibc https://docs.rs/libc/latest/libc"#
 W
 /libimobiledevice.svglibimobiledevice)https://libimobiledevice.org/#get-started"#
 3
@@ -686,6 +715,8 @@ N
 /MCP.svgMCP Java5https://modelcontextprotocol.io/sdk/java/mcp-overview"#
 t
 /MCP.svgMCP TypeScriptUhttps://github.com/modelcontextprotocol/typescript-sdk?tab=readme-ov-file#quick-start"#
+V
+	/Rust.svgMCPR@https://github.com/conikeec/mcpr?tab=readme-ov-file#installation"#
 @
 /MDN.svgMDN Web(https://developer.mozilla.org/zh-CN/docs"#
 [
@@ -704,6 +735,8 @@ L
 I
 /MetaLlama.svg
 Meta Llama(https://www.llama.com/docs/how-to-guides"#
+W
+/MetaMask.svg	Meta Mask8https://docs.metamask.io/sdk/quickstart/javascript-wagmi"#
 \
 /Metabase.svgMetabase>https://www.metabase.com/learn/metabase-basics/getting-started"#
 O
@@ -712,8 +745,8 @@ a
 /microbit.svg	micro:bitBhttps://microbit.org/get-started/getting-started/power-up-and-play"#
 l
 /Microsoft.svgMicrosoft SQL$https://docs.microsoft.com/zh-cn/sql"%https://learn.microsoft.com/en-us/sql
-@
-/MindSpore.svg	MindSpore https://www.mindspore.cn/install"#
+b
+/MindSpore.svg	MindSpore https://www.mindspore.cn/install"#https://www.mindspore.cn/install/en
 T
 /mingw-w64.svg	mingw-w644https://www.mingw-w64.org/getting-started/msys2-llvm"#
 B
@@ -729,6 +762,8 @@ Mistral AI2https://docs.mistral.ai/getting-started/quickstart"#
 	/MLIR.svgMLIR%https://mlir.llvm.org/getting_started"#
 =
 	/Rust.svgmlir-sys#https://github.com/mlir-rs/mlir-sys"#
+Y
+	/Rust.svgmlx-rsAhttps://github.com/oxideai/mlx-rs?tab=readme-ov-file#installation"#
 P
 /China%20Mobile.svgMobile Open Platformhttps://dev.10086.cn/docInside"#(
 M
@@ -755,6 +790,8 @@ M
 @
 
 /MSYS2.svgMSYS2(https://www.msys2.org/docs/what-is-msys2"#
+e
+/MooreThreads.svgMT-Transformer-vLLM8https://docs.mthreads.com/mtt/mtt-doc-online/quick_start"#
 J
 /musl-libc.svg	musl libc*https://wiki.musl-libc.org/getting-started"#
 [
@@ -765,6 +802,8 @@ K
 /Nacos.svgNacos3https://nacos.io/docs/latest/quickstart/quick-start"#
 =
 /NanoID.svgNanoID#https://zelark.github.io/nano-id-cc"#
+9
+/Microsoft.svgNatureLMhttps://naturelm.github.io"#
 c
 /containerd.svgnerdctlDhttps://github.com/containerd/nerdctl?tab=readme-ov-file#basic-usage"#
 ;
@@ -982,26 +1021,34 @@ Y
 /OCI.svgruncDhttps://github.com/opencontainers/runc?tab=readme-ov-file#using-runc"#
 q
 	/Rust.svgRust1https://www.rust-lang.org/zh-CN/learn/get-started"+https://www.rust-lang.org/learn/get-started
+}
+	/Rust.svg	Rust CUDAbhttps://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started"#
 X
 	/Rust.svgRust error codes6https://doc.rust-lang.org/error_codes/error-index.html"#
 j
 /Rust-for-Linux.svgRust for Linux@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html"#
 _
 /Windows_11.svgRust for Windows7https://microsoft.github.io/windows-docs-rs/doc/windows"#
+4
+	/Rust.svgRust GPUhttps://rust-gpu.github.io"#
 H
 	/Rust.svgRust HIR.https://rustc-dev-guide.rust-lang.org/hir.html"#
 C
 	/Rust.svgRust MIR)https://rustc-dev-guide.rust-lang.org/mir"#
 Q
 	/Rust.svg	Rust UEFI6https://rust-osdev.github.io/uefi-rs/tutorial/app.html"#
+G
+	/Rust.svgRust up.https://rust-lang.github.io/rustup/basics.html"#
 a
 /rust-analyzer.svgrust-analyzer9https://rust-analyzer.github.io/book/vs_code.html#vs-code"#
 A
 	/Rust.svgrustc*https://doc.rust-lang.org/rustc/index.html"#
 :
 	/Rust.svgrustdoc!https://doc.rust-lang.org/rustdoc"#
-:
-	/Rust.svgrustup"https://rust-lang.github.io/rustup"#
+Z
+	/Rust.svgRustOwlAhttps://github.com/cordx56/rustowl?tab=readme-ov-file#quick-start"#
+)
+	/Rust.svgrustuphttps://rustup.rs"#
 G
 	/Rust.svgRusty V8 Binding%https://docs.rs/v8/latest/v8/#example"#
 Y
@@ -1017,6 +1064,8 @@ S
 /ScalaJS.svgScalaJS7https://www.scala-js.org/doc/tutorial/scalajs-vite.html"#
 Ä
 /Android.svgSDK CmdLine Tools2https://developer.android.google.cn/tools?hl=zh-cn")https://developer.android.com/tools?hl=en
+]
+/GNU.svgsedIhttps://www.gnu.org/software/sed/manual/sed.html#Command_002dLine-Options"#
 ^
 /Selenium.svgSelenium@https://www.selenium.dev/documentation/webdriver/getting_started"#
 :
@@ -1037,6 +1086,9 @@ U
 /Debian.svgSimple Shell Command]https://www.debian.org/doc/manuals/debian-reference/ch01.zh-cn.html#_the_simple_shell_command"Zhttps://www.debian.org/doc/manuals/debian-reference/ch01.en.html#_the_simple_shell_command
 (
 	/Skia.svgSkiahttps://skia.org/docs
+H
+/SKIP.tools.svg
+SKIP.tools&https://skip.tools/docs/gettingstarted"#
 Y
 
 /Slint.svgSlintAhttps://docs.slint.dev/latest/docs/slint/tutorial/getting_started"#
@@ -1141,8 +1193,6 @@ J
 /Unicode.svgUnicode.https://www.unicode.org/versions/Unicode16.0.0"#
 W
 	/Rust.svgUniFFI?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html"#
-‚
-/_Unity.svgUnityehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine
 ñ
 /_Unity.svgUnity8https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html"Fhttps://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html
 À
@@ -1153,6 +1203,8 @@ i
 	/UNIX.svgUnix domain socketFhttps://zh.wikipedia.org/wiki/Unix%E5%9F%9F%E5%A5%97%E6%8E%A5%E5%AD%97"0https://en.wikipedia.org/wiki/Unix_domain_socket
 ≈
 	/UNIX.svgUnix ELFphttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F"<https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
+Û
+/Unreal%20Engine.svgUnreal Engineehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine
 1
 /UUP-dump.svgUUP dumphttps://uupdump.net"#
 c
@@ -1176,6 +1228,10 @@ d
 /VS Code.svgVisual Studio Code=https://code.visualstudio.com/docs/getstarted/getting-started"#
 D
 	/Vite.svgVitehttps://cn.vite.dev/guide"https://vite.dev/guide
+W
+/VS Code.svgVS Code API7https://code.visualstudio.com/api/references/vscode-api"#
+h
+/VS Code.svgVS Code ExtensionBhttps://code.visualstudio.com/api/get-started/your-first-extension"#
 \
 /VSCodium.svgVSCodium>https://github.com/VSCodium/vscodium/blob/master/docs/index.md"#
 A
@@ -1200,9 +1256,8 @@ C
 /W3C.svgWebDriver BiDi$https://w3c.github.io/webdriver-bidi"#
 L
 /WebdriverIO.svgWebdriverIO(https://webdriver.io/docs/gettingstarted"#
-ì
-/WebGPU.svg
-WebGPU API;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API";https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API
+è
+/WebGPU.svgWebGPU;https://developer.mozilla.org/zh-CN/docs/Web/API/WebGPU_API";https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API
 H
 /Org_WebKit.svgWebKit*https://webkit.org/blog/category/standards"#
 t
@@ -1216,6 +1271,8 @@ U
 /WebXR.svgWebXR=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite"#
 –
 /_WeChat.svgWeChat Mini ProgramShttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html"Vhttps://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html
+•
+/Microsoft.svg	Win32 APIChttps://learn.microsoft.com/zh-cn/windows/win32/desktop-programming"Chttps://learn.microsoft.com/en-us/windows/win32/desktop-programming
 ¨
 /Windows_11.svgWindowsGhttps://learn.microsoft.com/zh-cn/windows/whats-new/windows-11-overview"Ghttps://learn.microsoft.com/en-us/windows/whats-new/windows-11-overview
 È
@@ -1226,6 +1283,8 @@ U
 /Windows_Terminal.svgWindows Terminal2https://learn.microsoft.com/zh-cn/windows/terminal"2https://learn.microsoft.com/en-us/windows/terminal
 O
 /Windsurf.svgWindsurf1https://docs.codeium.com/windsurf/getting-started"#
+m
+/Wasmer.svgWinterJSQhttps://github.com/wasmerio/winterjs?tab=readme-ov-file#running-winterjs-natively"#
 7
 /WinterCG.svgWinterTChttps://wintertc.org/work"#
 <
@@ -1265,5 +1324,10 @@ U
 /Duke%20Hips.svgZGC9https://wiki.openjdk.org/display/zgc/Main#Main-QuickStart"#
 B
 /ZIG.svgZIG.https://zig.guide/getting-started/installation"#
+D
+/ZIG.svgZig LangRef(https://ziglang.org/documentation/0.14.0"#
+G
+/ZIG.svg
+Zig StdLib,https://ziglang.org/documentation/0.14.0/std"#
 §
 /Zookeeper.svg	ZookeeperÉhttps://zookeeper.apache.org/doc/current/zookeeperStarted.html#getting-started-coordinating-distributed-applications-with-zooKeeper"#
