@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:devfans/webspec.dart';
 import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
@@ -14,6 +15,9 @@ class FutureData {
 }
 
 Future<dynamic> getgeoInfo() async {
+  if (isRunOnMobileWebViewOrBrowser()) {
+    return Future.value({'country_code': 'CN'});
+  }
   final response = await http.get(Uri.parse('https://ipapi.co/json'));
   if (response.statusCode == 200) {
     return jsonDecode(response.body);
