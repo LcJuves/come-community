@@ -2,7 +2,7 @@
 //  Generated code. Do not modify.
 //  source: items.proto
 //
-// @dart = 2.12
+// @dart = 3.3
 
 // ignore_for_file: annotate_overrides, camel_case_types, comment_references
 // ignore_for_file: constant_identifier_names, library_prefixes
@@ -13,12 +13,15 @@ import 'dart:core' as $core;
 
 import 'package:protobuf/protobuf.dart' as $pb;
 
+export 'package:protobuf/protobuf.dart' show GeneratedMessageGenericExtensions;
+
 class Item extends $pb.GeneratedMessage {
   factory Item({
     $core.String? imgUrl,
     $core.String? title,
-    $core.String? cnurl,
+    $core.String? cntitle,
     $core.String? enurl,
+    $core.String? cnurl,
     $core.bool? currentlyOnlySupportsChinese,
   }) {
     final $result = create();
@@ -28,11 +31,14 @@ class Item extends $pb.GeneratedMessage {
     if (title != null) {
       $result.title = title;
     }
-    if (cnurl != null) {
-      $result.cnurl = cnurl;
+    if (cntitle != null) {
+      $result.cntitle = cntitle;
     }
     if (enurl != null) {
       $result.enurl = enurl;
+    }
+    if (cnurl != null) {
+      $result.cnurl = cnurl;
     }
     if (currentlyOnlySupportsChinese != null) {
       $result.currentlyOnlySupportsChinese = currentlyOnlySupportsChinese;
@@ -46,9 +52,10 @@ class Item extends $pb.GeneratedMessage {
   static final $pb.BuilderInfo _i = $pb.BuilderInfo(_omitMessageNames ? '' : 'Item', createEmptyInstance: create)
     ..aOS(1, _omitFieldNames ? '' : 'imgUrl')
     ..aOS(2, _omitFieldNames ? '' : 'title')
-    ..aOS(3, _omitFieldNames ? '' : 'cnurl')
+    ..aOS(3, _omitFieldNames ? '' : 'cntitle')
     ..aOS(4, _omitFieldNames ? '' : 'enurl')
-    ..aOB(5, _omitFieldNames ? '' : 'currentlyOnlySupportsChinese')
+    ..aOS(5, _omitFieldNames ? '' : 'cnurl')
+    ..aOB(6, _omitFieldNames ? '' : 'currentlyOnlySupportsChinese')
     ..hasRequiredFields = false
   ;
 
@@ -80,7 +87,7 @@ class Item extends $pb.GeneratedMessage {
   @$pb.TagNumber(1)
   $core.bool hasImgUrl() => $_has(0);
   @$pb.TagNumber(1)
-  void clearImgUrl() => clearField(1);
+  void clearImgUrl() => $_clearField(1);
 
   @$pb.TagNumber(2)
   $core.String get title => $_getSZ(1);
@@ -89,16 +96,16 @@ class Item extends $pb.GeneratedMessage {
   @$pb.TagNumber(2)
   $core.bool hasTitle() => $_has(1);
   @$pb.TagNumber(2)
-  void clearTitle() => clearField(2);
+  void clearTitle() => $_clearField(2);
 
   @$pb.TagNumber(3)
-  $core.String get cnurl => $_getSZ(2);
+  $core.String get cntitle => $_getSZ(2);
   @$pb.TagNumber(3)
-  set cnurl($core.String v) { $_setString(2, v); }
+  set cntitle($core.String v) { $_setString(2, v); }
   @$pb.TagNumber(3)
-  $core.bool hasCnurl() => $_has(2);
+  $core.bool hasCntitle() => $_has(2);
   @$pb.TagNumber(3)
-  void clearCnurl() => clearField(3);
+  void clearCntitle() => $_clearField(3);
 
   @$pb.TagNumber(4)
   $core.String get enurl => $_getSZ(3);
@@ -107,16 +114,25 @@ class Item extends $pb.GeneratedMessage {
   @$pb.TagNumber(4)
   $core.bool hasEnurl() => $_has(3);
   @$pb.TagNumber(4)
-  void clearEnurl() => clearField(4);
+  void clearEnurl() => $_clearField(4);
 
   @$pb.TagNumber(5)
-  $core.bool get currentlyOnlySupportsChinese => $_getBF(4);
+  $core.String get cnurl => $_getSZ(4);
   @$pb.TagNumber(5)
-  set currentlyOnlySupportsChinese($core.bool v) { $_setBool(4, v); }
+  set cnurl($core.String v) { $_setString(4, v); }
   @$pb.TagNumber(5)
-  $core.bool hasCurrentlyOnlySupportsChinese() => $_has(4);
+  $core.bool hasCnurl() => $_has(4);
   @$pb.TagNumber(5)
-  void clearCurrentlyOnlySupportsChinese() => clearField(5);
+  void clearCnurl() => $_clearField(5);
+
+  @$pb.TagNumber(6)
+  $core.bool get currentlyOnlySupportsChinese => $_getBF(5);
+  @$pb.TagNumber(6)
+  set currentlyOnlySupportsChinese($core.bool v) { $_setBool(5, v); }
+  @$pb.TagNumber(6)
+  $core.bool hasCurrentlyOnlySupportsChinese() => $_has(5);
+  @$pb.TagNumber(6)
+  void clearCurrentlyOnlySupportsChinese() => $_clearField(6);
 }
 
 class Items extends $pb.GeneratedMessage {
@@ -160,7 +176,7 @@ class Items extends $pb.GeneratedMessage {
   static Items? _defaultInstance;
 
   @$pb.TagNumber(1)
-  $core.List<Item> get itemList => $_getList(0);
+  $pb.PbList<Item> get itemList => $_getList(0);
 }
 
 
