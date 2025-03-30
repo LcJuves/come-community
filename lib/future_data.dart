@@ -14,9 +14,7 @@ class FutureData {
 }
 
 Future<dynamic> getgeoInfo() async {
-  final response = await http.get(Uri.parse('https://ipapi.co/json'), headers: {
-    "user-agent": "Flutter#${DateTime.now().microsecond}",
-  });
+  final response = await http.get(Uri.parse('https://ipapi.co/json'));
   if (response.statusCode == 200) {
     return jsonDecode(response.body);
   } else {
