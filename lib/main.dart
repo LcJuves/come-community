@@ -60,8 +60,8 @@ class HomePage extends StatefulWidget {
 
   Future<FutureData> _initFutureData() async {
     final futureItems = await _initFutureItems();
-    final futuregeoInfo = await getgeoInfo();
-    final futureData = FutureData(items: futureItems, geoInfo: futuregeoInfo);
+    final futureGeoInfo = await getGeoInfo();
+    final futureData = FutureData(items: futureItems, geoInfo: futureGeoInfo);
     return Future.value(futureData);
   }
 

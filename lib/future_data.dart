@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:devfans/webspec.dart';
 import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
@@ -14,16 +13,19 @@ class FutureData {
   get fetchedGeoInfo => geoInfo;
 }
 
-Future<dynamic> getgeoInfo() async {
-  if (isRunOnMobileWebViewOrBrowser()) {
-    return Future.value({'country_code': 'CN'});
-  }
-  final response = await http.get(Uri.parse('https://ipapi.co/json'));
-  if (response.statusCode == 200) {
-    return jsonDecode(response.body);
-  } else {
-    // If the server did not return a 200 OK response,
-    // then throw an exception.
-    throw Exception('Failed to load geoip location info');
+Future<dynamic> _defaultGeoInfo() async {
+  return Future.value({'country_code': 'CN'});
+}
+
+Future<dynamic> getGeoInfo() async {
+  try {
+    final response = await http.get(Uri.parse('https://ipapi.co/json'));
+    if (response.statusCode == 200) {
+      return jsonDecode(response.body);
+    } else {
+      return _defaultGeoInfo();
+    }
+  } catch (_) {
+    return _defaultGeoInfo();
   }
 }
