@@ -40,6 +40,8 @@ dependencies:
   protobuffers:
     path: third_party/protocolbuffers
   web: ^1.1.1
+  html: ^0.15.5
+  dio: ^5.8.0+1
 
 dev_dependencies:
   flutter_test:
@@ -65,17 +67,18 @@ flutter:
   fonts:
     - family: Menlo
       fonts:
-        - asset: fonts/Menlo-Regular.ttf
-        - asset: fonts/Menlo-Bold.ttf
+        - asset: assets/font/Menlo-Regular.ttf
+        - asset: assets/font/Menlo-Bold.ttf
           weight: 700
     - family: Roboto
       fonts:
-        - asset: fonts/Roboto-Regular.ttf
+        - asset: assets/font/Roboto-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   assets:
     - items.pb
-    - img/wallpaper.jpg
+    - assets/img/
+    - assets/svg/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

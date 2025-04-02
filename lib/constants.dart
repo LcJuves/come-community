@@ -7,6 +7,11 @@ abstract final class Constants {
   static const double titleLeftPadding = 15;
   static const double urlBoxTopPadding = 4;
   static const double urlBoxWidth = 270;
+  static const double captivePortalSvgIconSize = 12;
+  static const double captivePortalSvgIconMarginRight =
+      urlBoxTopPadding + (urlBoxTopPadding * goldenRatio);
+  static const double goldenRatio = 0.618;
+  static const int httpOk = 200;
   static const String svgCommonUrlPrefix = "https://web.lcjuves.com/assets/svg";
   static final String searchBarHintText = isRunOnMobileWebViewOrBrowser()
       ? "Enter the search here"

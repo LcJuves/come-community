@@ -25,7 +25,7 @@ class _AnimatedWallpaperContainerState
         decoration: const BoxDecoration(
           color: Colors.black,
           image: DecorationImage(
-            image: AssetImage('img/wallpaper.jpg'),
+            image: AssetImage('assets/img/wallpaper.jpg'),
             fit: BoxFit.cover,
           ),
         ),
