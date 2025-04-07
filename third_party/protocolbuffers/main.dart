@@ -3958,6 +3958,31 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Rust.svg",
+      title: "bitflags",
+      enurl: "#",
+      cnurl: "https://github.com/bitflags/bitflags?tab=readme-ov-file#usage",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "flate2",
+      enurl: "#",
+      cnurl:
+          "https://github.com/rust-lang/flate2-rs/tree/main?tab=readme-ov-file#compression",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/FUTURES-RS.svg",
+      title: "futures",
+      enurl: "#",
+      cnurl: "https://docs.rs/futures/latest/futures",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/ZIG.svg",
       title: "Zig LangRef",
       enurl: "#",
