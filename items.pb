@@ -116,6 +116,8 @@ A
 /Atlassian%20Bitbucket.svgBitbucket Pipelines"#*Whttps://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines
 M
 /Bitcoin.svgBitcoin"#*1https://developer.bitcoin.org/devguide/index.html
+W
+	/Rust.svgbitflags"#*=https://github.com/bitflags/bitflags?tab=readme-ov-file#usage
 ¾
 /Blender.svgBlender"Ohttps://docs.blender.org/manual/en/latest/getting_started/installing/index.html*Thttps://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html
 Q
@@ -362,6 +364,8 @@ g
 /DeepSeek-V3.svgFlashMLA"#*Fhttps://github.com/deepseek-ai/FlashMLA?tab=readme-ov-file#quick-start
 G
 /FlatBuffers.svgFlatBuffers"#*#https://flatbuffers.dev/quick_start
+g
+	/Rust.svgflate2"#*Ohttps://github.com/rust-lang/flate2-rs/tree/main?tab=readme-ov-file#compression
 Â
 
 /Flink.svgFlink"Thttps://nightlies.apache.org/flink/flink-docs-release-1.20/docs/learn-flink/overview*Whttps://nightlies.apache.org/flink/flink-docs-release-1.20/zh/docs/learn-flink/overview
@@ -373,6 +377,8 @@ q
 /freeCodeCamp.svgfreeCodeCamp""https://www.freecodecamp.org/learn**https://www.freecodecamp.org/chinese/learn
 €
 /Fuchsia.svgFuchsia"1https://fuchsia.dev/fuchsia-src/get-started?hl=en*4https://fuchsia.dev/fuchsia-src/get-started?hl=zh-cn
+E
+/FUTURES-RS.svgfutures"#*&https://docs.rs/futures/latest/futures
 G
 /FVM.svgFVM"#*3https://fvm.app/documentation/guides/basic-commands
 d
@@ -819,11 +825,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
