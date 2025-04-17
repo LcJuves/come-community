@@ -34,6 +34,31 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/hex-rays.svg",
+      title: "hex-rays",
+      enurl: "https://docs.hex-rays.com/getting-started/install-ida",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+        imgUrl: "/e-CNY.svg",
+        title: "How To Cook",
+        enurl:
+            "https://cook.aiursoft.cn/tips/%E5%8E%A8%E6%88%BF%E5%87%86%E5%A4%87",
+        cnurl: "#",
+        currentlyOnlySupportsChinese: true),
+  );
+  // itemList.add(
+  //   Item(
+  //     imgUrl: "/Apktool.svg",
+  //     title: "Apktool",
+  //     enurl: "https://apktool.org/docs/the-basics/intro",
+  //     cnurl: "#",
+  //   ),
+  // );
+  itemList.add(
+    Item(
       imgUrl: "/Android.svg",
       title: "CameraX",
       enurl:
@@ -2520,6 +2545,74 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/wgpu.svg",
+      title: "wgpu",
+      enurl: "https://docs.rs/wgpu/latest/wgpu",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "WRKFLW",
+      enurl:
+          "https://github.com/bahdotsh/wrkflw?tab=readme-ov-file#installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Bake",
+      enurl:
+          "https://github.com/ali77gh/bake-rs?tab=readme-ov-file#installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/jnv.svg",
+      title: "jnv",
+      enurl: "https://github.com/ynqa/jnv",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/tonic.svg",
+      title: "tonic",
+      enurl: "https://github.com/ynqa/jnv",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "axum",
+      enurl: "https://docs.rs/axum/latest/axum/#example",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "uniocr",
+      enurl:
+          "https://github.com/mediar-ai/uniOCR?tab=readme-ov-file#quickstart-",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MinIO.svg",
+      title: "MinIO",
+      enurl:
+          "https://min.io/docs/minio/container/operations/installation.html#install-and-deploy-minio",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GTK.svg",
       title: "GTK",
       enurl: "#",
@@ -2820,6 +2913,33 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl: "https://gitee.com/help/articles/4357#article-header0",
       currentlyOnlySupportsChinese: true,
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/gitee.svg",
+      title: "Gitee MCP Server",
+      enurl: "#",
+      cnurl: "https://gitee.com/oschina/mcp-gitee#%E5%AE%89%E8%A3%85",
+      currentlyOnlySupportsChinese: true,
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub MCP Server",
+      enurl:
+          "https://github.com/github/github-mcp-server?tab=readme-ov-file#usage-with-vs-code",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Playwright.svg",
+      title: "Playwright MCP",
+      enurl:
+          "https://github.com/microsoft/playwright-mcp?tab=readme-ov-file#installation-in-vs-code",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3967,6 +4087,22 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "facet",
+      enurl: "https://docs.rs/facet/latest/facet",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "unsynn",
+      enurl: "https://docs.rs/unsynn/latest/unsynn",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "flate2",
       enurl: "#",
       cnurl:
@@ -4007,6 +4143,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Microsoft.svg",
+      title: "BitNet",
+      enurl: "https://github.com/microsoft/BitNet?tab=readme-ov-file#usage",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Rust.svg",
       title: "UniFFI",
       enurl: "#",
@@ -4029,6 +4173,15 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/oxideai/mlx-rs?tab=readme-ov-file#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "windows-drivers-rs",
+      enurl:
+          "https://github.com/microsoft/windows-drivers-rs?tab=readme-ov-file#getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -4089,6 +4242,14 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/jaads/cargo-workspace-analyzer?tab=readme-ov-file#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Cargo.svg",
+      title: "Cargo Make",
+      enurl: "https://sagiegurari.github.io/cargo-make",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -4159,6 +4320,15 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/deepseek-ai/FlashMLA?tab=readme-ov-file#quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/DeepSeek-V3.svg",
+      title: "DeepSeek-VL2",
+      enurl:
+          "https://github.com/deepseek-ai/DeepSeek-VL2?tab=readme-ov-file#4-quick-start",
+      cnurl: "#",
     ),
   );
   itemList.add(

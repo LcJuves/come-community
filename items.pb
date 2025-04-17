@@ -84,6 +84,8 @@ I
 	/AVIF.svgAVIF"#*'https://aomediacodec.github.io/av1-avif
 W
 /AWK.svgAWK"#*Chttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/awk.html
+?
+	/Rust.svgaxum")https://docs.rs/axum/latest/axum/#example*#
 ‡
 
 /Azure.svgAzure Linux"#*ihttps://github.com/microsoft/azurelinux/blob/3.0/toolkit/docs/quick_start/quickstart.md#quick-start-guide
@@ -99,6 +101,8 @@ W
 /BaiduKaifa.svgBaidu Kaifa"#*https://kaifa.baidu.com0
 L
 /BaiduOCR.svg	Baidu OCR"#*+https://cloud.baidu.com/doc/OCR/s/dk3iqnq510
+X
+	/Rust.svgBake"Bhttps://github.com/ali77gh/bake-rs?tab=readme-ov-file#installation*#
 S
 	/Bash.svgBash"#*=https://www.gnu.org/software/bash/manual/html_node/index.html
 `
@@ -118,6 +122,8 @@ M
 /Bitcoin.svgBitcoin"#*1https://developer.bitcoin.org/devguide/index.html
 W
 	/Rust.svgbitflags"#*=https://github.com/bitflags/bitflags?tab=readme-ov-file#usage
+Y
+/Microsoft.svgBitNet"<https://github.com/microsoft/BitNet?tab=readme-ov-file#usage*#
 ¾
 /Blender.svgBlender"Ohttps://docs.blender.org/manual/en/latest/getting_started/installing/index.html*Thttps://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html
 Q
@@ -170,6 +176,10 @@ _
 
 /Cargo.svg
 Cargo Lipo"#*Chttps://github.com/TimNN/cargo-lipo?tab=readme-ov-file#cargo-lipo--
+E
+
+/Cargo.svg
+Cargo Make"(https://sagiegurari.github.io/cargo-make*#
 z
 
 /Cargo.svg	Cargo NDK"#*^https://github.com/bbqsrc/cargo-ndk?tab=readme-ov-file#cargo-ndk---build-rust-code-for-android
@@ -287,6 +297,8 @@ s
 /DeepSeek-V3.svgDeepSeek"#*Rhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
 r
 /DeepSeek-V3.svgDeepSeek 3FS"#*Mhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide
+q
+/DeepSeek-V3.svgDeepSeek-VL2"Lhttps://github.com/deepseek-ai/DeepSeek-VL2?tab=readme-ov-file#4-quick-start*#
 W
 /DeltaLake.svg
 Delta Lake"#*6https://delta-io.github.io/delta-rs/usage/installation
@@ -343,6 +355,8 @@ T
 /Android.svg	ExoPlayer">https://developer.android.com/codelabs/exoplayer-intro?hl=en#0*Ghttps://developer.android.google.cn/codelabs/exoplayer-intro?hl=zh-cn#0
 H
 	/Expo.svgExpo"#*2https://docs.expo.dev/get-started/create-a-project
+9
+	/Rust.svgfacet""https://docs.rs/facet/latest/facet*#
 &
 	/FAST.svgFAST"#*https://fast.com
 ‘
@@ -409,6 +423,9 @@ O
 Q
 
 /gitee.svgGitee Go"#*4https://gitee.com/help/articles/4357#article-header00
+[
+
+/gitee.svgGitee MCP Server"#*6https://gitee.com/oschina/mcp-gitee#%E5%AE%89%E8%A3%850
 Ÿ
 /GitHub.svgGitHub Actions"?https://docs.github.com/en/actions/writing-workflows/quickstart*?https://docs.github.com/zh/actions/writing-workflows/quickstart
 “
@@ -418,6 +435,8 @@ GitHub CLI";https://docs.github.com/en/github-cli/github-cli/quickstart*;https:/
 /GitHub.svgGitHub Codespaces"0https://docs.github.com/en/codespaces/quickstart*0https://docs.github.com/zh/codespaces/quickstart
 ¿
 /GitHub.svgGitHub Desktop"Ohttps://docs.github.com/en/desktop/overview/getting-started-with-github-desktop*Ohttps://docs.github.com/zh/desktop/overview/getting-started-with-github-desktop
+v
+/GitHub.svgGitHub MCP Server"Qhttps://github.com/github/github-mcp-server?tab=readme-ov-file#usage-with-vs-code*#
 ~
 /GitHub.svgGitHub Packages".https://docs.github.com/en/packages/quickstart*.https://docs.github.com/zh/packages/quickstart
 ¢
@@ -503,6 +522,8 @@ D
 }
 /HelloAlgo.svg
 Hello Algo"0https://www.hello-algo.com/en/chapter_hello_algo*-https://www.hello-algo.com/chapter_hello_algo
+S
+/hex-rays.svghex-rays"5https://docs.hex-rays.com/getting-started/install-ida*#
 T
 	/Hexo.svgHexo"https://hexo.io/docs/setup.html* https://hexo.io/zh-cn/docs/setup
 I
@@ -517,6 +538,9 @@ I
 /Homebrew.svgHomebrew"#*!https://docs.brew.sh/Installation
 I
 	/Hono.svgHono"#*3https://hono.dev/docs/getting-started/basic#starter
+b
+
+/e-CNY.svgHow To Cook"Bhttps://cook.aiursoft.cn/tips/%E5%8E%A8%E6%88%BF%E5%87%86%E5%A4%87*#0
 x
 
 /HTML5.svgHTML"1https://developer.mozilla.org/en-US/docs/Web/HTML*1https://developer.mozilla.org/zh-CN/docs/Web/HTML
@@ -598,6 +622,8 @@ Y
 I
 
 /Jetty.svgJetty"#*1https://jetty.org/docs/jetty/12/programming-guide
+/
+/jnv.svgjnv"https://github.com/ynqa/jnv*#
 a
 /GNU.svgJobserver Protocol"#*>https://make.mad-scientist.net/papers/jobserver-implementation
 d
@@ -759,6 +785,9 @@ B
 /conda-forge.svg	Miniforge"#* https://conda-forge.org/download
 E
 /minikube.svgminikube"#*'https://minikube.sigs.k8s.io/docs/start
+q
+
+/MinIO.svgMinIO"Yhttps://min.io/docs/minio/container/operations/installation.html#install-and-deploy-minio*#
 @
 /Mintty.svgMintty"#*&https://mintty.github.io/mintty.1.html
 S
@@ -929,6 +958,8 @@ U
 Y
 /Playwright.svg
 Playwright"#*7https://playwright.dev/docs/intro#installing-playwright
+|
+/Playwright.svgPlaywright MCP"Vhttps://github.com/microsoft/playwright-mcp?tab=readme-ov-file#installation-in-vs-code*#
 =
 /podman.svgpodman"#*#https://podman.io/docs/installation
 d
@@ -1177,6 +1208,9 @@ L
 /Apache%20Tomcat.svgTomcat"#*)https://tomcat.apache.org/tomcat-11.0-doc
 9
 	/TOML.svgTOML"https://toml.io/en*https://toml.io/cn
+3
+
+/tonic.svgtonic"https://github.com/ynqa/jnv*#
 U
 /Tor.svgTor"https://support.torproject.org*$https://support.torproject.org/zh-CN
 q
@@ -1199,6 +1233,8 @@ J
 /Unicode.svgUnicode"#*.https://www.unicode.org/versions/Unicode16.0.0
 W
 	/Rust.svgUniFFI"#*?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html
+Z
+	/Rust.svguniocr"Bhttps://github.com/mediar-ai/uniOCR?tab=readme-ov-file#quickstart-*#
 –
 /_Unity.svgUnity"Fhttps://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html*8https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html
 Ë
@@ -1211,6 +1247,8 @@ i
 	/UNIX.svgUnix ELF"<https://en.wikipedia.org/wiki/Executable_and_Linkable_Format*phttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
 ó
 /Unreal%20Engine.svgUnreal Engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine*ehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine
+<
+	/Rust.svgunsynn"$https://docs.rs/unsynn/latest/unsynn*#
 1
 /UUP-dump.svgUUP dump"#*https://uupdump.net
 c
@@ -1277,6 +1315,8 @@ U
 /WebXR.svgWebXR"#*=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite
 Ð
 /_WeChat.svgWeChat Mini Program"Vhttps://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html*Shttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html
+6
+	/wgpu.svgwgpu" https://docs.rs/wgpu/latest/wgpu*#
 ¥
 /Microsoft.svg	Win32 API"Chttps://learn.microsoft.com/en-us/windows/win32/desktop-programming*Chttps://learn.microsoft.com/zh-cn/windows/win32/desktop-programming
 ¬
@@ -1287,6 +1327,8 @@ U
 /Windows_11.svgWindows PE Format"?https://learn.microsoft.com/en-us/windows/win32/debug/pe-format*?https://learn.microsoft.com/zh-cn/windows/win32/debug/pe-format
 ‘
 /Windows_Terminal.svgWindows Terminal"2https://learn.microsoft.com/en-us/windows/terminal*2https://learn.microsoft.com/zh-cn/windows/terminal
+v
+	/Rust.svgwindows-drivers-rs"Rhttps://github.com/microsoft/windows-drivers-rs?tab=readme-ov-file#getting-started*#
 O
 /Windsurf.svgWindsurf"#*1https://docs.codeium.com/windsurf/getting-started
 m
@@ -1307,6 +1349,8 @@ Y
 /World.svgWorld Mini Apps"#*7https://docs.world.org/mini-apps/quick-start/installing
 L
 /WrenAI.svgWren AI"#*1https://docs.getwren.ai/oss/overview/introduction
+Z
+	/Rust.svgWRKFLW"Bhttps://github.com/bahdotsh/wrkflw?tab=readme-ov-file#installation*#
 ƒ
 /Microsoft.svgWSL"5https://learn.microsoft.com/en-us/windows/wsl/install*5https://learn.microsoft.com/zh-cn/windows/wsl/install
 R
