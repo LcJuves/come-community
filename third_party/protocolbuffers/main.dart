@@ -1207,6 +1207,23 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/CVE.svg",
+      title: "CVE List V5",
+      enurl:
+          "https://github.com/CVEProject/cvelistV5?tab=readme-ov-file#cve-list-v5",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/CodeCrafters.svg",
+      title: "CodeCrafters Challenges",
+      enurl: "https://app.codecrafters.io/catalog",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Google.svg",
       title: "ANGLE",
       enurl: "#",

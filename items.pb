@@ -222,6 +222,8 @@ W
 /CocoaPods.svg	CocoaPods"#*7https://guides.cocoapods.org/using/getting-started.html
 W
 /__CodeOSS.svgCode OSS"#*8https://github.com/LcJuves/vscode/wiki/How-to-Contribute
+T
+/CodeCrafters.svgCodeCrafters Challenges"#https://app.codecrafters.io/catalog*#
 Œ
 /CodeGeeX.svgCodeGeeX"6https://github.com/THUDM/CodeGeeX4/blob/main/README.md*9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 T
@@ -272,6 +274,8 @@ K
 /_cURL.svgcURL"#*"https://curl.se/docs/tutorial.html
 Q
 /Cursor.svgCursor"#*7https://docs.cursor.com/get-started/welcome#get-started
+b
+/CVE.svgCVE List V5"Fhttps://github.com/CVEProject/cvelistV5?tab=readme-ov-file#cve-list-v5*#
 #
 	/Rust.svgCXX"#*https://cxx.rs
 M
