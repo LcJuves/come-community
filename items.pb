@@ -133,6 +133,8 @@ Q
 /Bonjour.svgBonjour"#*hhttps://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/NetServices/Introduction.html
 k
 /Bootstrap.svg	Bootstrap"#*Khttps://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start
+Z
+/Brotli.svgBrotli"@https://github.com/google/brotli?tab=readme-ov-file#introduction*#
 V
 /Browserless.svgBrowserless"#*2https://docs.browserless.io/baas/docker/quickstart
 F
@@ -310,12 +312,16 @@ B
 /Diesel.svgDiesel"#*(https://diesel.rs/guides/getting-started
 †
 /Django.svgDjango"4https://docs.djangoproject.com/en/5.1/intro/overview*9https://docs.djangoproject.com/zh-hans/5.1/intro/overview
+ˆ
+	/IANA.svgDNSSEC Alg Numbers"dhttps://www.iana.org/assignments/dns-sec-alg-numbers/dns-sec-alg-numbers.xhtml#dns-sec-alg-numbers-1*#
 1
 /Docker.svgDocker"#*https://docs.docker.com
 ^
 /DocsyJekyll.svgDocsy Jekyll"#*9https://vsoch.github.io/docsy-jekyll/docs/getting-started
 o
 )https://web.lcjuves.com/donate/Alipay.svgDonate to the author"#*)https://web.lcjuves.com/donate/Alipay.svg
+z
+	/IANA.svgDoQ Error Codes"Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes*#
 A
 /dotNET.svgdotNET"#*'https://docs.microsoft.com/zh-cn/dotnet
 ª
@@ -370,6 +376,8 @@ C
 /Figma.svgFigma Developers"#* https://www.figma.com/developers
 Z
 /FingerprintJS.svgFingerprintJS"#*2https://dev.fingerprint.com/docs/quick-start-guide
+Ÿ
+/FirebaseStudio.svgFirebase Studio"9https://firebase.google.com/docs/studio/get-started?hl=en*<https://firebase.google.com/docs/studio/get-started?hl=zh-cn
 B
 	/Mojo.svg	Firecrawl"#*'https://docs.firecrawl.dev/introduction
 L
@@ -414,6 +422,8 @@ B
 	/GIMP.svgGIMP"#*,https://www.gimp.org/tutorials/GIMP_Quickies
 Œ
 /GitLFS.svgGit LFS"#*qhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
+]
+/MCP.svgGit MCP"Ehttps://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started*#
 ^
 /git-scm.svgGit SCM"https://git-scm.com/docs/git*'https://git-scm.com/docs/git/zh_HANS-CN
 9
@@ -423,9 +433,9 @@ O
 Q
 
 /gitee.svgGitee Go"#*4https://gitee.com/help/articles/4357#article-header00
-[
+œ
 
-/gitee.svgGitee MCP Server"#*6https://gitee.com/oschina/mcp-gitee#%E5%AE%89%E8%A3%850
+/gitee.svgGitee MCP Server"Dhttps://github.com/oschina/mcp-gitee?tab=readme-ov-file#installation*6https://gitee.com/oschina/mcp-gitee#%E5%AE%89%E8%A3%85
 Ÿ
 /GitHub.svgGitHub Actions"?https://docs.github.com/en/actions/writing-workflows/quickstart*?https://docs.github.com/zh/actions/writing-workflows/quickstart
 “
@@ -450,6 +460,8 @@ C
 /GitLab.svgGitLab REST API"#* https://docs.gitlab.com/api/rest
 K
 /GitLens.svgGitLens"#*/https://help.gitkraken.com/gitlens/gitlens-home
+]
+	/Rust.svgGitMCP"Ehttps://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started*#
 e
 /Gitpod.svgGitpod"#*Khttps://www.gitpod.io/docs/introduction/getting-started#a-gitpodyml-example
 >
@@ -546,6 +558,8 @@ x
 /HTML5.svgHTML"1https://developer.mozilla.org/en-US/docs/Web/HTML*1https://developer.mozilla.org/zh-CN/docs/Web/HTML
 w
 	/HTTP.svgHTTP"1https://developer.mozilla.org/en-US/docs/Web/HTTP*1https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+œ
+/MDN.svgHTTP cookies"@https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies*@https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Cookies
 [
 	/IANA.svgHTTP Fields"#*>https://www.iana.org/assignments/http-fields/http-fields.xhtml
 ^
@@ -556,6 +570,14 @@ R
 /HTTP_Toolkit.svgHTTP Toolkit"#*,https://httptoolkit.com/docs/getting-started
 <
 /HTTP_3_Check.svgHTTP/3 Check"#*https://http3check.net
+‰
+	/IANA.svgHTTP/3 Error Codes"ehttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-error-codes*#
+‰
+	/IANA.svgHTTP/3 Frame Types"ehttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-frame-types*#
+ƒ
+	/IANA.svgHTTP/3 Settings"bhttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-settings*#
+‹
+	/IANA.svgHTTP/3 Stream Types"fhttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-stream-types*#
 H
 /HTTPieCLI.svg
 HTTPie CLI"#*'https://httpie.io/docs/cli/installation
@@ -745,12 +767,15 @@ C
 /MAX.svgMAX"#*/https://docs.modular.com/stable/max/get-started
 N
 /MCP.svgMCP Java"#*5https://modelcontextprotocol.io/sdk/java/mcp-overview
+l
+/MCP.svg
+MCP Kotlin"Qhttps://github.com/modelcontextprotocol/kotlin-sdk?tab=readme-ov-file#quick-start*#
 t
 /MCP.svgMCP TypeScript"#*Uhttps://github.com/modelcontextprotocol/typescript-sdk?tab=readme-ov-file#quick-start
 V
 	/Rust.svgMCPR"#*@https://github.com/conikeec/mcpr?tab=readme-ov-file#installation
-@
-/MDN.svgMDN Web"#*(https://developer.mozilla.org/zh-CN/docs
+o
+/MDN.svgMDN Web",https://developer.mozilla.org/en-US/docs/Web*,https://developer.mozilla.org/zh-CN/docs/Web
 [
 	/IANA.svgMedia Types"#*>https://www.iana.org/assignments/media-types/media-types.xhtml
 ?
@@ -1011,6 +1036,8 @@ m
 /Raspberrypi.svgRaspberry Pi"#*Hhttps://www.raspberrypi.com/documentation/computers/getting-started.html
 `
 /Ray.svgRay Core"#*Ghttps://docs.ray.io/en/latest/ray-core/walkthrough.html#getting-started
+5
+	/Rust.svgRayon"https://crates.io/crates/rayon*#
 S
 /ReactNative.svgReact Native"#*.https://reactnative.dev/docs/environment-setup
 T
@@ -1220,6 +1247,8 @@ q
 <
 
 /Trunk.svgTrunk"#*$https://trunkrs.dev/#getting-started
+¬
+/MDN.svgTypes of attacks"Fhttps://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks*Fhttps://developer.mozilla.org/zh-CN/docs/Web/Security/Types_of_attacks
 n
 /TypeScript.svg
 TypeScript"#*Lhttps://www.typescriptlang.org/zh/docs/handbook/typescript-from-scratch.html
