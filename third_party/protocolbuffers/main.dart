@@ -236,8 +236,26 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/MDN.svg",
       title: "MDN Web",
-      enurl: "#",
-      cnurl: "https://developer.mozilla.org/zh-CN/docs",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web",
+      cnurl: "https://developer.mozilla.org/zh-CN/docs/Web",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
+      title: "HTTP cookies",
+      enurl: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
+      cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Cookies",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
+      title: "Types of attacks",
+      enurl:
+          "https://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks",
+      cnurl:
+          "https://developer.mozilla.org/zh-CN/docs/Web/Security/Types_of_attacks",
     ),
   );
   itemList.add(
@@ -436,6 +454,15 @@ Future main(List<String> args) async {
       title: "MCP Java",
       enurl: "#",
       cnurl: "https://modelcontextprotocol.io/sdk/java/mcp-overview",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MCP.svg",
+      title: "MCP Kotlin",
+      enurl:
+          "https://github.com/modelcontextprotocol/kotlin-sdk?tab=readme-ov-file#quick-start",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1168,6 +1195,14 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/google/j2cl/blob/master/docs/getting-started-j2wasm.md",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Brotli.svg",
+      title: "Brotli",
+      enurl: "https://github.com/google/brotli?tab=readme-ov-file#introduction",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -2061,6 +2096,60 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/IANA.svg",
+      title: "DoQ Error Codes",
+      enurl:
+          "https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/IANA.svg",
+      title: "DNSSEC Alg Numbers",
+      enurl:
+          "https://www.iana.org/assignments/dns-sec-alg-numbers/dns-sec-alg-numbers.xhtml#dns-sec-alg-numbers-1",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/IANA.svg",
+      title: "HTTP/3 Error Codes",
+      enurl:
+          "https://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-error-codes",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/IANA.svg",
+      title: "HTTP/3 Frame Types",
+      enurl:
+          "https://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-frame-types",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/IANA.svg",
+      title: "HTTP/3 Settings",
+      enurl:
+          "https://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-settings",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/IANA.svg",
+      title: "HTTP/3 Stream Types",
+      enurl:
+          "https://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-stream-types",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/ACME.svg",
       title: "ACME",
       enurl: "#",
@@ -2919,9 +3008,9 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/gitee.svg",
       title: "Gitee MCP Server",
-      enurl: "#",
+      enurl:
+          "https://github.com/oschina/mcp-gitee?tab=readme-ov-file#installation",
       cnurl: "https://gitee.com/oschina/mcp-gitee#%E5%AE%89%E8%A3%85",
-      currentlyOnlySupportsChinese: true,
     ),
   );
   itemList.add(
@@ -2939,6 +3028,15 @@ Future main(List<String> args) async {
       title: "Playwright MCP",
       enurl:
           "https://github.com/microsoft/playwright-mcp?tab=readme-ov-file#installation-in-vs-code",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MCP.svg",
+      title: "Git MCP",
+      enurl:
+          "https://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started",
       cnurl: "#",
     ),
   );
@@ -4823,6 +4921,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/FirebaseStudio.svg",
+      title: "Firebase Studio",
+      enurl: "https://firebase.google.com/docs/studio/get-started?hl=en",
+      cnurl: "https://firebase.google.com/docs/studio/get-started?hl=zh-cn",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/qwik.svg",
       title: "qwik",
       enurl: "#",
@@ -4955,6 +5061,23 @@ Future main(List<String> args) async {
       title: "rustdoc",
       enurl: "#",
       cnurl: "https://doc.rust-lang.org/rustdoc",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Rayon",
+      enurl: "https://crates.io/crates/rayon",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "GitMCP",
+      enurl:
+          "https://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
