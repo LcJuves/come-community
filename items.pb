@@ -26,6 +26,8 @@ R
 /Alibaba.svgAliDNS"#*7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
 f
 /Alpine.svgAlpine Linux"#*Fhttps://docs.alpinelinux.org/user-handbook/0.1a/Installing/medium.html
+µ
+/aws.svg	Amazon S3"Khttps://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html*Qhttps://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/GetStartedWithS3.html
 P
 /Anaconda.svgAnaconda"#*2https://docs.anaconda.com/anaconda/getting-started
 Î
