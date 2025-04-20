@@ -916,10 +916,6 @@ Future main(List<String> args) async {
       cnurl: "https://colossalai.org/zh-Hans/docs/get_started/installation",
     ),
   );
-  // itemList.add(Item(
-  //     imgUrl: "/LLMCompressor.svg",
-  //     title: "LLM Compressor",
-  //     cnurl: "https://github.com/vllm-project/llm-compressor"));
   itemList.add(
     Item(
       imgUrl: "/PHP.svg",
@@ -1305,6 +1301,14 @@ Future main(List<String> args) async {
       title: "Git SCM",
       enurl: "https://git-scm.com/docs/git",
       cnurl: "https://git-scm.com/docs/git/zh_HANS-CN",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitButler.svg",
+      title: "GitButler",
+      enurl: "https://docs.gitbutler.com/guide",
+      cnurl: "#",
     ),
   );
   // itemList.add(Item(
@@ -2647,10 +2651,11 @@ Future main(List<String> args) async {
       cnurl: "https://docs.sentry.io/platforms",
     ),
   );
-  // itemList.add(Item(
-  //     imgUrl: "/ReactFlow.svg",
-  //     title: "React Flow",
-  //     cnurl: "https://reactflow.dev/learn"));
+  itemList.add(Item(
+      imgUrl: "/ReactFlow.svg",
+      title: "React Flow",
+      enurl: "https://reactflow.dev/learn",
+      cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/WebGPU.svg",
@@ -5418,14 +5423,16 @@ Future main(List<String> args) async {
   //     imgUrl: "/OpenGL.svg",
   //     title: "OpenGL",
   //     cnurl: "https://www.khronos.org/opengl/wiki/Getting_Started"));
-  // itemList.add(Item(
-  //     imgUrl: "/OpenSSH.svg",
-  //     title: "OpenSSH",
-  //     cnurl: "https://www.openssh.com/manual.html"));
-  // itemList.add(Item(
-  //     imgUrl: "/RocketMQ.svg",
-  //     title: "RocketMQ",
-  //     cnurl: "https://rocketmq.apache.org/zh/docs/quickStart/01quickstart"));
+  itemList.add(Item(
+      imgUrl: "/Unofficial_SSH_Logo.svg",
+      title: "OpenSSH",
+      enurl: "https://www.openssh.com/manual.html",
+      cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/RocketMQ.svg",
+      title: "RocketMQ",
+      enurl: "https://rocketmq.apache.org/docs/quickStart/01quickstart",
+      cnurl: "https://rocketmq.apache.org/zh/docs/quickStart/01quickstart"));
   itemList.add(
     Item(
       imgUrl: "/Aider.svg",
