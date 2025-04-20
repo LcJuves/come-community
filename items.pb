@@ -440,6 +440,8 @@ B
 	/Rust.svggit2-rs"#* https://docs.rs/git2/latest/git2
 O
 /GitBook.svgGitBook"#*3https://docs.gitbook.com/getting-started/quickstart
+@
+/GitButler.svg	GitButler" https://docs.gitbutler.com/guide*#
 Q
 
 /gitee.svgGitee Go"#*4https://gitee.com/help/articles/4357#article-header00
@@ -891,11 +893,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -954,6 +956,8 @@ i
 G
 /OpenRouter.svg
 OpenRouter"#*%https://openrouter.ai/docs/quickstart
+K
+/Unofficial_SSH_Logo.svgOpenSSH"#https://www.openssh.com/manual.html*#
 I
 /OpenSSL.svgOpenSSL commands"#*$https://docs.openssl.org/master/man1
 T
@@ -1050,6 +1054,9 @@ m
 /Ray.svgRay Core"#*Ghttps://docs.ray.io/en/latest/ray-core/walkthrough.html#getting-started
 5
 	/Rust.svgRayon"https://crates.io/crates/rayon*#
+<
+/ReactFlow.svg
+React Flow"https://reactflow.dev/learn*#
 S
 /ReactNative.svgReact Native"#*.https://reactnative.dev/docs/environment-setup
 T
@@ -1079,6 +1086,8 @@ Z
 /robot.svgRobot Framework"#*8https://docs.robotframework.org/docs/getting_started/rpa
 W
 /Rocket.svgRocket"#*=https://rocket.rs/guide/v0.5/getting-started/#getting-started
+
+/RocketMQ.svgRocketMQ"8https://rocketmq.apache.org/docs/quickStart/01quickstart*;https://rocketmq.apache.org/zh/docs/quickStart/01quickstart
 ƒ
 /RockyLinux.svgRocky Linux"/https://docs.rockylinux.org/guides/installation*2https://docs.rockylinux.org/zh/guides/installation
 G
