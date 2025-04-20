@@ -2825,6 +2825,14 @@ Future main(List<String> args) async {
       cnurl: "#",
     ),
   );
+  itemList.add(
+    Item(
+      imgUrl: "/Langflow.svg",
+      title: "Langflow",
+      enurl: "https://docs.langflow.org/get-started-quickstart",
+      cnurl: "#",
+    ),
+  );
   // itemList.add(
   //   Item(
   //     imgUrl: "/GitLocalize.svg",
