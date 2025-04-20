@@ -1217,7 +1217,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/CodeCrafters.svg",
-      title: "CodeCrafters Challenges",
+      title: "CodeCrafters",
       enurl: "https://app.codecrafters.io/catalog",
       cnurl: "#",
     ),
@@ -1796,6 +1796,16 @@ Future main(List<String> args) async {
       title: "Tokio",
       enurl: "#",
       cnurl: "https://tokio.rs/tokio/tutorial/hello-tokio",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ByteDance.svg",
+      title: "Monoio",
+      enurl:
+          "https://github.com/bytedance/monoio?tab=readme-ov-file#quick-start",
+      cnurl:
+          "https://github.com/bytedance/monoio/blob/master/README-zh.md#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B",
     ),
   );
   itemList.add(
@@ -2761,6 +2771,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Huawei%20DevEco%20Studio.svg",
+      title: "DevEco Studio",
+      enurl:
+          "https://developer.huawei.com/consumer/en/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2",
+      cnurl:
+          "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/_Xiaomi.svg",
       title: "Home Integration",
       enurl: "https://github.com/XiaoMi/ha_xiaomi_home/blob/main/README.md",
@@ -2784,6 +2804,22 @@ Future main(List<String> args) async {
       cnurl: "https://www.json.org/json-zh.html",
     ),
   );
+  itemList.add(
+    Item(
+      imgUrl: "/BSON.svg",
+      title: "BSON",
+      enurl: "https://bsonspec.org/spec.html",
+      cnurl: "#",
+    ),
+  );
+  // itemList.add(
+  //   Item(
+  //     imgUrl: "/GitLocalize.svg",
+  //     title: "GitLocalize",
+  //     enurl: "https://docs.gitlocalize.com/getting_started.html",
+  //     cnurl: "#",
+  //   ),
+  // );
   itemList.add(
     Item(
       imgUrl: "/JSONSchema.svg",
@@ -3812,6 +3848,22 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/OpenAIPlatform.svg",
+      title: "Codex CLI",
+      enurl: "https://github.com/openai/codex?tab=readme-ov-file#quickstart",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OpenAIPlatform.svg",
+      title: "typst",
+      enurl: "https://typst.app/docs/guides/page-setup-guide",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/OpenHands.svg",
       title: "OpenHands",
       enurl: "#",
@@ -3952,6 +4004,16 @@ Future main(List<String> args) async {
           "https://learn.microsoft.com/en-us/windows/win32/desktop-programming",
       cnurl:
           "https://learn.microsoft.com/zh-cn/windows/win32/desktop-programming",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Microsoft.svg",
+      title: "UWP",
+      enurl:
+          "https://learn.microsoft.com/zh-cn/windows/uwp/get-started/create-a-hello-world-app-xaml-universal",
+      cnurl:
+          "https://learn.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-xaml-universal",
     ),
   );
   itemList.add(
