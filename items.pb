@@ -152,6 +152,8 @@ F
 /Bun.svgBun"#*https://bun.sh/docs/quickstart
 g
 /Bytebase.svgBytebase"#*Ihttps://www.bytebase.com/docs/get-started/step-by-step/deploy-with-docker
+¼
+/ByteDance.svgByteX"Ahttps://github.com/bytedance/ByteX?tab=readme-ov-file#quick-start*`https://github.com/bytedance/ByteX/blob/master/README_zh.md#%E5%BF%AB%E9%80%9F%E6%8E%A5%E5%85%A5
 û
 /C%2B%2B.svg	C++/WinRT"ohttps://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start*ohttps://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start
 5

@@ -1822,6 +1822,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ByteDance.svg",
+      title: "ByteX",
+      enurl:
+          "https://github.com/bytedance/ByteX?tab=readme-ov-file#quick-start",
+      cnurl:
+          "https://github.com/bytedance/ByteX/blob/master/README_zh.md#%E5%BF%AB%E9%80%9F%E6%8E%A5%E5%85%A5",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/hyper.svg",
       title: "hyper",
       enurl: "#",
