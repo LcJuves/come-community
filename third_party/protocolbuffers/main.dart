@@ -4551,6 +4551,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/aws.svg",
+      title: "Amazon S3",
+      enurl:
+          "https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html",
+      cnurl:
+          "https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/GetStartedWithS3.html",
+    ),
+  );
+  itemList.add(
+    Item(
         imgUrl: "/BaiduOCR.svg",
         title: "Baidu OCR",
         enurl: "#",
