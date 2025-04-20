@@ -374,6 +374,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+        imgUrl: "/Dart.svg",
+        title: "dio",
+        enurl: "https://pub.dev/packages/dio#get-started",
+        cnurl:
+            "https://github.com/cfug/dio/blob/main/dio/README-ZH.md#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8"),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Dart.svg",
       title: "Dart DevTools",
       enurl: "#",
