@@ -2674,6 +2674,12 @@ Future main(List<String> args) async {
       title: "React Flow",
       enurl: "https://reactflow.dev/learn",
       cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/AppVeyor.svg",
+      title: "AppVeyor",
+      enurl:
+          "https://www.appveyor.com/docs/getting-started-with-appveyor-for-linux/#quick-start",
+      cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/WebGPU.svg",

@@ -56,6 +56,8 @@ o
 K
 
 /Apple.svgApple Developer"#*)https://developer.apple.com/documentation
+p
+/AppVeyor.svgAppVeyor"Rhttps://www.appveyor.com/docs/getting-started-with-appveyor-for-linux/#quick-start*#
 Å
 /Arch%20Linux.svg
 Arch Linux"*https://wiki.archlinux.org/title/Main_page*4https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5
@@ -901,11 +903,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
