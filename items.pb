@@ -1330,6 +1330,8 @@ d
 /VS Code.svgVisual Studio Code"#*=https://code.visualstudio.com/docs/getstarted/getting-started
 D
 	/Vite.svgVite"https://vite.dev/guide*https://cn.vite.dev/guide
+T
+	/vLLM.svgvLLM">https://docs.vllm.ai/en/stable/getting_started/quickstart.html*#
 W
 /VS Code.svgVS Code API"#*7https://code.visualstudio.com/api/references/vscode-api
 h
