@@ -712,6 +712,8 @@ H
 Kubernetes"#*&https://kubernetes.io/zh-cn/docs/setup
 D
 /LangChain.svg	LangChain"#*$https://js.langchain.com/docs/how_to
+N
+/Langflow.svgLangflow"0https://docs.langflow.org/get-started-quickstart*#
 T
 /Laravel.svgLaravel"#*8https://laravel.com/docs/12.x#creating-a-laravel-project
 H
@@ -897,11 +899,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
