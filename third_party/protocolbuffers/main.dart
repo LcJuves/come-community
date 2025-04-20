@@ -2971,6 +2971,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/vLLM.svg",
+      title: "vLLM",
+      enurl: "https://docs.vllm.ai/en/stable/getting_started/quickstart.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/NVIDIA.svg",
       title: "CUDA-GDB",
       enurl: "#",
