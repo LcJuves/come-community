@@ -56,6 +56,8 @@ o
 K
 
 /Apple.svgApple Developer"#*)https://developer.apple.com/documentation
+p
+/AppVeyor.svgAppVeyor"Rhttps://www.appveyor.com/docs/getting-started-with-appveyor-for-linux/#quick-start*#
 Å
 /Arch%20Linux.svg
 Arch Linux"*https://wiki.archlinux.org/title/Main_page*4https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5
@@ -152,6 +154,8 @@ F
 /Bun.svgBun"#*https://bun.sh/docs/quickstart
 g
 /Bytebase.svgBytebase"#*Ihttps://www.bytebase.com/docs/get-started/step-by-step/deploy-with-docker
+º
+/ByteDance.svgByteX"Ahttps://github.com/bytedance/ByteX?tab=readme-ov-file#quick-start*`https://github.com/bytedance/ByteX/blob/master/README_zh.md#%E5%BF%AB%E9%80%9F%E6%8E%A5%E5%85%A5
 ˚
 /C%2B%2B.svg	C++/WinRT"ohttps://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start*ohttps://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start
 5
@@ -899,11 +903,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
