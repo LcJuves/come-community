@@ -137,6 +137,8 @@ Z
 /Brotli.svgBrotli"@https://github.com/google/brotli?tab=readme-ov-file#introduction*#
 V
 /Browserless.svgBrowserless"#*2https://docs.browserless.io/baas/docker/quickstart
+4
+	/BSON.svgBSON"https://bsonspec.org/spec.html*#
 F
 
 /Buck2.svgBuck2"#*.https://buck2.build/docs/about/getting_started
@@ -222,12 +224,14 @@ W
 /CocoaPods.svg	CocoaPods"#*7https://guides.cocoapods.org/using/getting-started.html
 W
 /__CodeOSS.svgCode OSS"#*8https://github.com/LcJuves/vscode/wiki/How-to-Contribute
-T
-/CodeCrafters.svgCodeCrafters Challenges"#https://app.codecrafters.io/catalog*#
+I
+/CodeCrafters.svgCodeCrafters"#https://app.codecrafters.io/catalog*#
 Œ
 /CodeGeeX.svgCodeGeeX"6https://github.com/THUDM/CodeGeeX4/blob/main/README.md*9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 T
 /codeium.svgcodeium"#*8https://docs.codeium.com/getstarted/overview#get-started
+b
+/OpenAIPlatform.svg	Codex CLI"=https://github.com/openai/codex?tab=readme-ov-file#quickstart*#
 “
 /Colossal-AI.svgColossal-AI"4https://colossalai.org/docs/get_started/installation*<https://colossalai.org/zh-Hans/docs/get_started/installation
 B
@@ -312,6 +316,8 @@ Delta Lake"#*6https://delta-io.github.io/delta-rs/usage/installation
 	/Deno.svgDeno"#*https://docs.deno.com/runtime
 U
 /DevContainer.svgDev Containers"#*-https://containers.dev/implementors/templates
+„
+/Huawei%20DevEco%20Studio.svgDevEco Studio"ihttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2*ihttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2
 B
 /Diesel.svgDiesel"#*(https://diesel.rs/guides/getting-started
 †
@@ -841,6 +847,8 @@ M
 /__CodeOSS.svgMonaco Editor"#*)https://microsoft.github.io/monaco-editor
 ™
 /mongoDB.svgMongoDB"<https://www.mongodb.com/docs/manual/tutorial/getting-started*Bhttps://www.mongodb.com/zh-cn/docs/manual/tutorial/getting-started
+¿
+/ByteDance.svgMonoio"Bhttps://github.com/bytedance/monoio?tab=readme-ov-file#quick-start*ahttps://github.com/bytedance/monoio/blob/master/README-zh.md#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B
 
 /MoonBit.svgMoonBit"9https://docs.moonbitlang.com/en/latest/tutorial/tour.html*<https://docs.moonbitlang.com/zh-cn/latest/tutorial/tour.html
 6
@@ -883,11 +891,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -1256,6 +1264,8 @@ q
 n
 /TypeScript.svg
 TypeScript"#*Lhttps://www.typescriptlang.org/zh/docs/handbook/typescript-from-scratch.html
+O
+/OpenAIPlatform.svgtypst".https://typst.app/docs/guides/page-setup-guide*#
 9
 /u-root.svgu-root"#*https://u-root.org/#get-started
 ~
@@ -1288,6 +1298,8 @@ c
 /uutils.svguutils coreutils"#*?https://uutils.github.io/coreutils/docs/installation.html#cargo
 H
 /uv.svguv"#*6https://docs.astral.sh/uv/getting-started/installation
+Û
+/Microsoft.svgUWP"ahttps://learn.microsoft.com/zh-cn/windows/uwp/get-started/create-a-hello-world-app-xaml-universal*ahttps://learn.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-xaml-universal
 >
 	/Vala.svgVala"#*(https://docs.vala.dev/installation-guide
 L
