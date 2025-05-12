@@ -26,6 +26,8 @@ R
 /Alibaba.svgAliDNS"#*7https://www.alidns.com/knowledge?type=SETTING_DOCS#user
 f
 /Alpine.svgAlpine Linux"#*Fhttps://docs.alpinelinux.org/user-handbook/0.1a/Installing/medium.html
+µ
+/aws.svg	Amazon S3"Khttps://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html*Qhttps://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/GetStartedWithS3.html
 P
 /Anaconda.svgAnaconda"#*2https://docs.anaconda.com/anaconda/getting-started
 Œ
@@ -54,6 +56,8 @@ o
 K
 
 /Apple.svgApple Developer"#*)https://developer.apple.com/documentation
+p
+/AppVeyor.svgAppVeyor"Rhttps://www.appveyor.com/docs/getting-started-with-appveyor-for-linux/#quick-start*#
 Å
 /Arch%20Linux.svg
 Arch Linux"*https://wiki.archlinux.org/title/Main_page*4https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5
@@ -66,7 +70,7 @@ q
 @
 /arroyo.svgarroyo"#*&https://doc.arroyo.dev/getting-started
 M
-/Asahi%20Linux.svgAsahi Linux"#*'https://github.com/asahilinux/docs/wiki
+/Asahi%20Linux.svgAsahi Linux"'https://asahilinux.org/docs/#developers*#
 7
 /AsciiDoc.svgAsciiDoc"#*https://asciidoc.org/#try
 b
@@ -84,6 +88,8 @@ I
 	/AVIF.svgAVIF"#*'https://aomediacodec.github.io/av1-avif
 W
 /AWK.svgAWK"#*Chttps://pubs.opengroup.org/onlinepubs/9799919799/utilities/awk.html
+?
+	/Rust.svgaxum")https://docs.rs/axum/latest/axum/#example*#
 á
 
 /Azure.svgAzure Linux"#*ihttps://github.com/microsoft/azurelinux/blob/3.0/toolkit/docs/quick_start/quickstart.md#quick-start-guide
@@ -99,6 +105,8 @@ W
 /BaiduKaifa.svgBaidu Kaifa"#*https://kaifa.baidu.com0
 L
 /BaiduOCR.svg	Baidu OCR"#*+https://cloud.baidu.com/doc/OCR/s/dk3iqnq510
+X
+	/Rust.svgBake"Bhttps://github.com/ali77gh/bake-rs?tab=readme-ov-file#installation*#
 S
 	/Bash.svgBash"#*=https://www.gnu.org/software/bash/manual/html_node/index.html
 `
@@ -116,6 +124,10 @@ A
 /Atlassian%20Bitbucket.svgBitbucket Pipelines"#*Whttps://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines
 M
 /Bitcoin.svgBitcoin"#*1https://developer.bitcoin.org/devguide/index.html
+W
+	/Rust.svgbitflags"#*=https://github.com/bitflags/bitflags?tab=readme-ov-file#usage
+Y
+/Microsoft.svgBitNet"<https://github.com/microsoft/BitNet?tab=readme-ov-file#usage*#
 æ
 /Blender.svgBlender"Ohttps://docs.blender.org/manual/en/latest/getting_started/installing/index.html*Thttps://docs.blender.org/manual/zh-hans/latest/getting_started/installing/index.html
 Q
@@ -125,8 +137,12 @@ Q
 /Bonjour.svgBonjour"#*hhttps://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/NetServices/Introduction.html
 k
 /Bootstrap.svg	Bootstrap"#*Khttps://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start
+Z
+/Brotli.svgBrotli"@https://github.com/google/brotli?tab=readme-ov-file#introduction*#
 V
 /Browserless.svgBrowserless"#*2https://docs.browserless.io/baas/docker/quickstart
+4
+	/BSON.svgBSON"https://bsonspec.org/spec.html*#
 F
 
 /Buck2.svgBuck2"#*.https://buck2.build/docs/about/getting_started
@@ -138,6 +154,8 @@ F
 /Bun.svgBun"#*https://bun.sh/docs/quickstart
 g
 /Bytebase.svgBytebase"#*Ihttps://www.bytebase.com/docs/get-started/step-by-step/deploy-with-docker
+º
+/ByteDance.svgByteX"Ahttps://github.com/bytedance/ByteX?tab=readme-ov-file#quick-start*`https://github.com/bytedance/ByteX/blob/master/README_zh.md#%E5%BF%AB%E9%80%9F%E6%8E%A5%E5%85%A5
 ˚
 /C%2B%2B.svg	C++/WinRT"ohttps://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start*ohttps://learn.microsoft.com/zh-cn/windows/uwp/cpp-and-winrt-apis/get-started?view=msvc-170#a-cwinrt-quick-start
 5
@@ -168,6 +186,10 @@ _
 
 /Cargo.svg
 Cargo Lipo"#*Chttps://github.com/TimNN/cargo-lipo?tab=readme-ov-file#cargo-lipo--
+E
+
+/Cargo.svg
+Cargo Make"(https://sagiegurari.github.io/cargo-make*#
 z
 
 /Cargo.svg	Cargo NDK"#*^https://github.com/bbqsrc/cargo-ndk?tab=readme-ov-file#cargo-ndk---build-rust-code-for-android
@@ -208,10 +230,14 @@ W
 /CocoaPods.svg	CocoaPods"#*7https://guides.cocoapods.org/using/getting-started.html
 W
 /__CodeOSS.svgCode OSS"#*8https://github.com/LcJuves/vscode/wiki/How-to-Contribute
+I
+/CodeCrafters.svgCodeCrafters"#https://app.codecrafters.io/catalog*#
 å
 /CodeGeeX.svgCodeGeeX"6https://github.com/THUDM/CodeGeeX4/blob/main/README.md*9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 T
 /codeium.svgcodeium"#*8https://docs.codeium.com/getstarted/overview#get-started
+b
+/OpenAIPlatform.svg	Codex CLI"=https://github.com/openai/codex?tab=readme-ov-file#quickstart*#
 ì
 /Colossal-AI.svgColossal-AI"4https://colossalai.org/docs/get_started/installation*<https://colossalai.org/zh-Hans/docs/get_started/installation
 B
@@ -258,6 +284,8 @@ K
 /_cURL.svgcURL"#*"https://curl.se/docs/tutorial.html
 Q
 /Cursor.svgCursor"#*7https://docs.cursor.com/get-started/welcome#get-started
+b
+/CVE.svgCVE List V5"Fhttps://github.com/CVEProject/cvelistV5?tab=readme-ov-file#cve-list-v5*#
 #
 	/Rust.svgCXX"#*https://cxx.rs
 M
@@ -268,6 +296,9 @@ F
 	/Dart.svgDart"https://dart.dev/language*https://dart.cn/language
 C
 	/Dart.svgDart DevTools"#*$https://dart.dev/tools/dart-devtools
+P
+/U-Boot.svg
+Das U-Boot"2https://docs.u-boot.org/en/latest/usage/index.html*#
 R
 /Datadog.svgDatadog"#*6https://docs.datadoghq.com/getting_started/application
 D
@@ -285,6 +316,8 @@ s
 /DeepSeek-V3.svgDeepSeek"#*Rhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally
 r
 /DeepSeek-V3.svgDeepSeek 3FS"#*Mhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide
+q
+/DeepSeek-V3.svgDeepSeek-VL2"Lhttps://github.com/deepseek-ai/DeepSeek-VL2?tab=readme-ov-file#4-quick-start*#
 W
 /DeltaLake.svg
 Delta Lake"#*6https://delta-io.github.io/delta-rs/usage/installation
@@ -292,16 +325,24 @@ Delta Lake"#*6https://delta-io.github.io/delta-rs/usage/installation
 	/Deno.svgDeno"#*https://docs.deno.com/runtime
 U
 /DevContainer.svgDev Containers"#*-https://containers.dev/implementors/templates
+Ñ
+/Huawei%20DevEco%20Studio.svgDevEco Studio"ihttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2*ihttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2
 B
 /Diesel.svgDiesel"#*(https://diesel.rs/guides/getting-started
+ó
+	/Dart.svgdio"(https://pub.dev/packages/dio#get-started*[https://github.com/cfug/dio/blob/main/dio/README-ZH.md#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8
 Ü
 /Django.svgDjango"4https://docs.djangoproject.com/en/5.1/intro/overview*9https://docs.djangoproject.com/zh-hans/5.1/intro/overview
+à
+	/IANA.svgDNSSEC Alg Numbers"dhttps://www.iana.org/assignments/dns-sec-alg-numbers/dns-sec-alg-numbers.xhtml#dns-sec-alg-numbers-1*#
 1
 /Docker.svgDocker"#*https://docs.docker.com
 ^
 /DocsyJekyll.svgDocsy Jekyll"#*9https://vsoch.github.io/docsy-jekyll/docs/getting-started
 o
 )https://web.lcjuves.com/donate/Alipay.svgDonate to the author"#*)https://web.lcjuves.com/donate/Alipay.svg
+z
+	/IANA.svgDoQ Error Codes"Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes*#
 A
 /dotNET.svgdotNET"#*'https://docs.microsoft.com/zh-cn/dotnet
 ™
@@ -341,6 +382,8 @@ T
 /Android.svg	ExoPlayer">https://developer.android.com/codelabs/exoplayer-intro?hl=en#0*Ghttps://developer.android.google.cn/codelabs/exoplayer-intro?hl=zh-cn#0
 H
 	/Expo.svgExpo"#*2https://docs.expo.dev/get-started/create-a-project
+9
+	/Rust.svgfacet""https://docs.rs/facet/latest/facet*#
 &
 	/FAST.svgFAST"#*https://fast.com
 ë
@@ -354,6 +397,8 @@ C
 /Figma.svgFigma Developers"#* https://www.figma.com/developers
 Z
 /FingerprintJS.svgFingerprintJS"#*2https://dev.fingerprint.com/docs/quick-start-guide
+ü
+/FirebaseStudio.svgFirebase Studio"9https://firebase.google.com/docs/studio/get-started?hl=en*<https://firebase.google.com/docs/studio/get-started?hl=zh-cn
 B
 	/Mojo.svg	Firecrawl"#*'https://docs.firecrawl.dev/introduction
 L
@@ -362,6 +407,8 @@ g
 /DeepSeek-V3.svgFlashMLA"#*Fhttps://github.com/deepseek-ai/FlashMLA?tab=readme-ov-file#quick-start
 G
 /FlatBuffers.svgFlatBuffers"#*#https://flatbuffers.dev/quick_start
+g
+	/Rust.svgflate2"#*Ohttps://github.com/rust-lang/flate2-rs/tree/main?tab=readme-ov-file#compression
 ¬
 
 /Flink.svgFlink"Thttps://nightlies.apache.org/flink/flink-docs-release-1.20/docs/learn-flink/overview*Whttps://nightlies.apache.org/flink/flink-docs-release-1.20/zh/docs/learn-flink/overview
@@ -373,6 +420,8 @@ q
 /freeCodeCamp.svgfreeCodeCamp""https://www.freecodecamp.org/learn**https://www.freecodecamp.org/chinese/learn
 Ä
 /Fuchsia.svgFuchsia"1https://fuchsia.dev/fuchsia-src/get-started?hl=en*4https://fuchsia.dev/fuchsia-src/get-started?hl=zh-cn
+E
+/FUTURES-RS.svgfutures"#*&https://docs.rs/futures/latest/futures
 G
 /FVM.svgFVM"#*3https://fvm.app/documentation/guides/basic-commands
 d
@@ -394,15 +443,22 @@ B
 	/GIMP.svgGIMP"#*,https://www.gimp.org/tutorials/GIMP_Quickies
 å
 /GitLFS.svgGit LFS"#*qhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
+]
+/MCP.svgGit MCP"Ehttps://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started*#
 ^
 /git-scm.svgGit SCM"https://git-scm.com/docs/git*'https://git-scm.com/docs/git/zh_HANS-CN
 9
 	/Rust.svggit2-rs"#* https://docs.rs/git2/latest/git2
 O
 /GitBook.svgGitBook"#*3https://docs.gitbook.com/getting-started/quickstart
+@
+/GitButler.svg	GitButler" https://docs.gitbutler.com/guide*#
 Q
 
 /gitee.svgGitee Go"#*4https://gitee.com/help/articles/4357#article-header00
+ú
+
+/gitee.svgGitee MCP Server"Dhttps://github.com/oschina/mcp-gitee?tab=readme-ov-file#installation*6https://gitee.com/oschina/mcp-gitee#%E5%AE%89%E8%A3%85
 ü
 /GitHub.svgGitHub Actions"?https://docs.github.com/en/actions/writing-workflows/quickstart*?https://docs.github.com/zh/actions/writing-workflows/quickstart
 ì
@@ -412,6 +468,8 @@ GitHub CLI";https://docs.github.com/en/github-cli/github-cli/quickstart*;https:/
 /GitHub.svgGitHub Codespaces"0https://docs.github.com/en/codespaces/quickstart*0https://docs.github.com/zh/codespaces/quickstart
 ø
 /GitHub.svgGitHub Desktop"Ohttps://docs.github.com/en/desktop/overview/getting-started-with-github-desktop*Ohttps://docs.github.com/zh/desktop/overview/getting-started-with-github-desktop
+v
+/GitHub.svgGitHub MCP Server"Qhttps://github.com/github/github-mcp-server?tab=readme-ov-file#usage-with-vs-code*#
 ~
 /GitHub.svgGitHub Packages".https://docs.github.com/en/packages/quickstart*.https://docs.github.com/zh/packages/quickstart
 ¢
@@ -425,6 +483,8 @@ C
 /GitLab.svgGitLab REST API"#* https://docs.gitlab.com/api/rest
 K
 /GitLens.svgGitLens"#*/https://help.gitkraken.com/gitlens/gitlens-home
+]
+	/Rust.svgGitMCP"Ehttps://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started*#
 e
 /Gitpod.svgGitpod"#*Khttps://www.gitpod.io/docs/introduction/getting-started#a-gitpodyml-example
 >
@@ -497,6 +557,8 @@ D
 }
 /HelloAlgo.svg
 Hello Algo"0https://www.hello-algo.com/en/chapter_hello_algo*-https://www.hello-algo.com/chapter_hello_algo
+S
+/hex-rays.svghex-rays"5https://docs.hex-rays.com/getting-started/install-ida*#
 T
 	/Hexo.svgHexo"https://hexo.io/docs/setup.html* https://hexo.io/zh-cn/docs/setup
 I
@@ -511,11 +573,16 @@ I
 /Homebrew.svgHomebrew"#*!https://docs.brew.sh/Installation
 I
 	/Hono.svgHono"#*3https://hono.dev/docs/getting-started/basic#starter
+b
+
+/e-CNY.svgHow To Cook"Bhttps://cook.aiursoft.cn/tips/%E5%8E%A8%E6%88%BF%E5%87%86%E5%A4%87*#0
 x
 
 /HTML5.svgHTML"1https://developer.mozilla.org/en-US/docs/Web/HTML*1https://developer.mozilla.org/zh-CN/docs/Web/HTML
 w
 	/HTTP.svgHTTP"1https://developer.mozilla.org/en-US/docs/Web/HTTP*1https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+ú
+/MDN.svgHTTP cookies"@https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies*@https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Cookies
 [
 	/IANA.svgHTTP Fields"#*>https://www.iana.org/assignments/http-fields/http-fields.xhtml
 ^
@@ -526,6 +593,14 @@ R
 /HTTP_Toolkit.svgHTTP Toolkit"#*,https://httptoolkit.com/docs/getting-started
 <
 /HTTP_3_Check.svgHTTP/3 Check"#*https://http3check.net
+â
+	/IANA.svgHTTP/3 Error Codes"ehttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-error-codes*#
+â
+	/IANA.svgHTTP/3 Frame Types"ehttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-frame-types*#
+É
+	/IANA.svgHTTP/3 Settings"bhttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-settings*#
+ã
+	/IANA.svgHTTP/3 Stream Types"fhttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-stream-types*#
 H
 /HTTPieCLI.svg
 HTTPie CLI"#*'https://httpie.io/docs/cli/installation
@@ -536,8 +611,14 @@ W
 <
 
 /hyper.svghyper"#*$https://hyper.rs/guides/1/init/setup
+9
+	/Rust.svgi24"$https://docs.rs/i24/2.1.0/i24/#usage*#
 ;
 	/iced.svgiced"#*%https://book.iced.rs/first-steps.html
+À
+/Wikipedia.svgICMPv6"$https://en.wikipedia.org/wiki/ICMPv6*ähttps://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B6%88%E6%81%AF%E5%8D%8F%E8%AE%AE%E7%AC%AC%E5%85%AD%E7%89%88
+m
+	/IANA.svgICMPv6 Parameters"Jhttps://www.iana.org/assignments/icmpv6-parameters/icmpv6-parameters.xhtml*#
 f
 /XunFeiOpenPlatform.svgiFLYTEK Open Platform"#*1https://www.xfyun.cn/doc/platform/quickguide.html
 ù
@@ -592,6 +673,8 @@ Y
 I
 
 /Jetty.svgJetty"#*1https://jetty.org/docs/jetty/12/programming-guide
+/
+/jnv.svgjnv"https://github.com/ynqa/jnv*#
 a
 /GNU.svgJobserver Protocol"#*>https://make.mad-scientist.net/papers/jobserver-implementation
 d
@@ -642,6 +725,8 @@ H
 Kubernetes"#*&https://kubernetes.io/zh-cn/docs/setup
 D
 /LangChain.svg	LangChain"#*$https://js.langchain.com/docs/how_to
+N
+/Langflow.svgLangflow"0https://docs.langflow.org/get-started-quickstart*#
 T
 /Laravel.svgLaravel"#*8https://laravel.com/docs/12.x#creating-a-laravel-project
 H
@@ -713,12 +798,15 @@ C
 /MAX.svgMAX"#*/https://docs.modular.com/stable/max/get-started
 N
 /MCP.svgMCP Java"#*5https://modelcontextprotocol.io/sdk/java/mcp-overview
+l
+/MCP.svg
+MCP Kotlin"Qhttps://github.com/modelcontextprotocol/kotlin-sdk?tab=readme-ov-file#quick-start*#
 t
 /MCP.svgMCP TypeScript"#*Uhttps://github.com/modelcontextprotocol/typescript-sdk?tab=readme-ov-file#quick-start
 V
 	/Rust.svgMCPR"#*@https://github.com/conikeec/mcpr?tab=readme-ov-file#installation
-@
-/MDN.svgMDN Web"#*(https://developer.mozilla.org/zh-CN/docs
+o
+/MDN.svgMDN Web",https://developer.mozilla.org/en-US/docs/Web*,https://developer.mozilla.org/zh-CN/docs/Web
 [
 	/IANA.svgMedia Types"#*>https://www.iana.org/assignments/media-types/media-types.xhtml
 ?
@@ -753,6 +841,9 @@ B
 /conda-forge.svg	Miniforge"#* https://conda-forge.org/download
 E
 /minikube.svgminikube"#*'https://minikube.sigs.k8s.io/docs/start
+q
+
+/MinIO.svgMinIO"Yhttps://min.io/docs/minio/container/operations/installation.html#install-and-deploy-minio*#
 @
 /Mintty.svgMintty"#*&https://mintty.github.io/mintty.1.html
 S
@@ -777,6 +868,8 @@ M
 /__CodeOSS.svgMonaco Editor"#*)https://microsoft.github.io/monaco-editor
 ô
 /mongoDB.svgMongoDB"<https://www.mongodb.com/docs/manual/tutorial/getting-started*Bhttps://www.mongodb.com/zh-cn/docs/manual/tutorial/getting-started
+ø
+/ByteDance.svgMonoio"Bhttps://github.com/bytedance/monoio?tab=readme-ov-file#quick-start*ahttps://github.com/bytedance/monoio/blob/master/README-zh.md#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B
 ê
 /MoonBit.svgMoonBit"9https://docs.moonbitlang.com/en/latest/tutorial/tour.html*<https://docs.moonbitlang.com/zh-cn/latest/tutorial/tour.html
 6
@@ -882,6 +975,8 @@ i
 G
 /OpenRouter.svg
 OpenRouter"#*%https://openrouter.ai/docs/quickstart
+K
+/Unofficial_SSH_Logo.svgOpenSSH"#https://www.openssh.com/manual.html*#
 I
 /OpenSSL.svgOpenSSL commands"#*$https://docs.openssl.org/master/man1
 T
@@ -923,6 +1018,8 @@ U
 Y
 /Playwright.svg
 Playwright"#*7https://playwright.dev/docs/intro#installing-playwright
+|
+/Playwright.svgPlaywright MCP"Vhttps://github.com/microsoft/playwright-mcp?tab=readme-ov-file#installation-in-vs-code*#
 =
 /podman.svgpodman"#*#https://podman.io/docs/installation
 d
@@ -974,6 +1071,11 @@ m
 /Raspberrypi.svgRaspberry Pi"#*Hhttps://www.raspberrypi.com/documentation/computers/getting-started.html
 `
 /Ray.svgRay Core"#*Ghttps://docs.ray.io/en/latest/ray-core/walkthrough.html#getting-started
+5
+	/Rust.svgRayon"https://crates.io/crates/rayon*#
+<
+/ReactFlow.svg
+React Flow"https://reactflow.dev/learn*#
 S
 /ReactNative.svgReact Native"#*.https://reactnative.dev/docs/environment-setup
 T
@@ -1003,6 +1105,8 @@ Z
 /robot.svgRobot Framework"#*8https://docs.robotframework.org/docs/getting_started/rpa
 W
 /Rocket.svgRocket"#*=https://rocket.rs/guide/v0.5/getting-started/#getting-started
+ê
+/RocketMQ.svgRocketMQ"8https://rocketmq.apache.org/docs/quickStart/01quickstart*;https://rocketmq.apache.org/zh/docs/quickStart/01quickstart
 É
 /RockyLinux.svgRocky Linux"/https://docs.rockylinux.org/guides/installation*2https://docs.rockylinux.org/zh/guides/installation
 G
@@ -1171,6 +1275,9 @@ L
 /Apache%20Tomcat.svgTomcat"#*)https://tomcat.apache.org/tomcat-11.0-doc
 9
 	/TOML.svgTOML"https://toml.io/en*https://toml.io/cn
+3
+
+/tonic.svgtonic"https://github.com/ynqa/jnv*#
 U
 /Tor.svgTor"https://support.torproject.org*$https://support.torproject.org/zh-CN
 q
@@ -1180,9 +1287,13 @@ q
 <
 
 /Trunk.svgTrunk"#*$https://trunkrs.dev/#getting-started
+¨
+/MDN.svgTypes of attacks"Fhttps://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks*Fhttps://developer.mozilla.org/zh-CN/docs/Web/Security/Types_of_attacks
 n
 /TypeScript.svg
 TypeScript"#*Lhttps://www.typescriptlang.org/zh/docs/handbook/typescript-from-scratch.html
+O
+/OpenAIPlatform.svgtypst".https://typst.app/docs/guides/page-setup-guide*#
 9
 /u-root.svgu-root"#*https://u-root.org/#get-started
 ~
@@ -1193,6 +1304,8 @@ J
 /Unicode.svgUnicode"#*.https://www.unicode.org/versions/Unicode16.0.0
 W
 	/Rust.svgUniFFI"#*?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html
+Z
+	/Rust.svguniocr"Bhttps://github.com/mediar-ai/uniOCR?tab=readme-ov-file#quickstart-*#
 ñ
 /_Unity.svgUnity"Fhttps://docs.unity3d.com/2022.3/Documentation/Manual/Quickstart3D.html*8https://docs.unity.cn/cn/2022.3/Manual/Quickstart3D.html
 À
@@ -1205,12 +1318,16 @@ i
 	/UNIX.svgUnix ELF"<https://en.wikipedia.org/wiki/Executable_and_Linkable_Format*phttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
 Û
 /Unreal%20Engine.svgUnreal Engine"ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine*ehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine
+<
+	/Rust.svgunsynn"$https://docs.rs/unsynn/latest/unsynn*#
 1
 /UUP-dump.svgUUP dump"#*https://uupdump.net
 c
 /uutils.svguutils coreutils"#*?https://uutils.github.io/coreutils/docs/installation.html#cargo
 H
 /uv.svguv"#*6https://docs.astral.sh/uv/getting-started/installation
+€
+/Microsoft.svgUWP"ahttps://learn.microsoft.com/zh-cn/windows/uwp/get-started/create-a-hello-world-app-xaml-universal*ahttps://learn.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-xaml-universal
 >
 	/Vala.svgVala"#*(https://docs.vala.dev/installation-guide
 L
@@ -1228,6 +1345,8 @@ d
 /VS Code.svgVisual Studio Code"#*=https://code.visualstudio.com/docs/getstarted/getting-started
 D
 	/Vite.svgVite"https://vite.dev/guide*https://cn.vite.dev/guide
+T
+	/vLLM.svgvLLM">https://docs.vllm.ai/en/stable/getting_started/quickstart.html*#
 W
 /VS Code.svgVS Code API"#*7https://code.visualstudio.com/api/references/vscode-api
 h
@@ -1271,6 +1390,8 @@ U
 /WebXR.svgWebXR"#*=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite
 –
 /_WeChat.svgWeChat Mini Program"Vhttps://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html*Shttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html
+6
+	/wgpu.svgwgpu" https://docs.rs/wgpu/latest/wgpu*#
 •
 /Microsoft.svg	Win32 API"Chttps://learn.microsoft.com/en-us/windows/win32/desktop-programming*Chttps://learn.microsoft.com/zh-cn/windows/win32/desktop-programming
 ¨
@@ -1281,6 +1402,8 @@ U
 /Windows_11.svgWindows PE Format"?https://learn.microsoft.com/en-us/windows/win32/debug/pe-format*?https://learn.microsoft.com/zh-cn/windows/win32/debug/pe-format
 ë
 /Windows_Terminal.svgWindows Terminal"2https://learn.microsoft.com/en-us/windows/terminal*2https://learn.microsoft.com/zh-cn/windows/terminal
+v
+	/Rust.svgwindows-drivers-rs"Rhttps://github.com/microsoft/windows-drivers-rs?tab=readme-ov-file#getting-started*#
 O
 /Windsurf.svgWindsurf"#*1https://docs.codeium.com/windsurf/getting-started
 m
@@ -1301,6 +1424,8 @@ Y
 /World.svgWorld Mini Apps"#*7https://docs.world.org/mini-apps/quick-start/installing
 L
 /WrenAI.svgWren AI"#*1https://docs.getwren.ai/oss/overview/introduction
+Z
+	/Rust.svgWRKFLW"Bhttps://github.com/bahdotsh/wrkflw?tab=readme-ov-file#installation*#
 É
 /Microsoft.svgWSL"5https://learn.microsoft.com/en-us/windows/wsl/install*5https://learn.microsoft.com/zh-cn/windows/wsl/install
 R
