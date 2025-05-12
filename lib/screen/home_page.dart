@@ -40,7 +40,7 @@ class HomePage extends StatefulWidget {
     final futureItems = await _initFutureItems();
     final futureGeoInfo = await getGeoInfo();
     final captivePortalSvg =
-        await rootBundle.loadString("assets/svg/captive-portal.svg");
+        await rootBundle.loadString("res/svg/captive-portal.svg");
     final futureData = FutureData(
         items: futureItems,
         geoInfo: futureGeoInfo,

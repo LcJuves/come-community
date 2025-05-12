@@ -67,18 +67,18 @@ flutter:
   fonts:
     - family: Menlo
       fonts:
-        - asset: assets/font/Menlo-Regular.ttf
-        - asset: assets/font/Menlo-Bold.ttf
+        - asset: res/font/Menlo-Regular.ttf
+        - asset: res/font/Menlo-Bold.ttf
           weight: 700
     - family: Roboto
       fonts:
-        - asset: assets/font/Roboto-Regular.ttf
+        - asset: res/font/Roboto-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   assets:
     - items.pb
-    - assets/img/
-    - assets/svg/
+    - res/img/
+    - res/svg/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
