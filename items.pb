@@ -70,7 +70,7 @@ q
 @
 /arroyo.svgarroyo"#*&https://doc.arroyo.dev/getting-started
 M
-/Asahi%20Linux.svgAsahi Linux"#*'https://github.com/asahilinux/docs/wiki
+/Asahi%20Linux.svgAsahi Linux"'https://asahilinux.org/docs/#developers*#
 7
 /AsciiDoc.svgAsciiDoc"#*https://asciidoc.org/#try
 b
@@ -610,6 +610,8 @@ W
 /hyper.svghyper"#*$https://hyper.rs/guides/1/init/setup
 ;
 	/iced.svgiced"#*%https://book.iced.rs/first-steps.html
+m
+	/IANA.svgICMPv6 Parameters"Jhttps://www.iana.org/assignments/icmpv6-parameters/icmpv6-parameters.xhtml*#
 f
 /XunFeiOpenPlatform.svgiFLYTEK Open Platform"#*1https://www.xfyun.cn/doc/platform/quickguide.html
 ù
