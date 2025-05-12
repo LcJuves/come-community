@@ -296,6 +296,9 @@ F
 	/Dart.svgDart"https://dart.dev/language*https://dart.cn/language
 C
 	/Dart.svgDart DevTools"#*$https://dart.dev/tools/dart-devtools
+P
+/U-Boot.svg
+Das U-Boot"2https://docs.u-boot.org/en/latest/usage/index.html*#
 R
 /Datadog.svgDatadog"#*6https://docs.datadoghq.com/getting_started/application
 D
@@ -608,8 +611,12 @@ W
 <
 
 /hyper.svghyper"#*$https://hyper.rs/guides/1/init/setup
+9
+	/Rust.svgi24"$https://docs.rs/i24/2.1.0/i24/#usage*#
 ;
 	/iced.svgiced"#*%https://book.iced.rs/first-steps.html
+Ë
+/Wikipedia.svgICMPv6"$https://en.wikipedia.org/wiki/ICMPv6*Šhttps://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B6%88%E6%81%AF%E5%8D%8F%E8%AE%AE%E7%AC%AC%E5%85%AD%E7%89%88
 m
 	/IANA.svgICMPv6 Parameters"Jhttps://www.iana.org/assignments/icmpv6-parameters/icmpv6-parameters.xhtml*#
 f
@@ -905,11 +912,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html

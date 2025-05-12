@@ -2163,6 +2163,23 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Wikipedia.svg",
+      title: "ICMPv6",
+      enurl: "https://en.wikipedia.org/wiki/ICMPv6",
+      cnurl:
+          "https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B6%88%E6%81%AF%E5%8D%8F%E8%AE%AE%E7%AC%AC%E5%85%AD%E7%89%88",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/U-Boot.svg",
+      title: "Das U-Boot",
+      enurl: "https://docs.u-boot.org/en/latest/usage/index.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/IANA.svg",
       title: "DNSSEC Alg Numbers",
       enurl:
@@ -2465,6 +2482,14 @@ Future main(List<String> args) async {
       title: "SIMD JSON for Rust",
       enurl: "#",
       cnurl: "https://docs.rs/simd-json/latest/simd_json/#usage",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "i24",
+      enurl: "https://docs.rs/i24/2.1.0/i24/#usage",
+      cnurl: "#",
     ),
   );
   // itemList.add(Item(
