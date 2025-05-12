@@ -2155,6 +2155,15 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/IANA.svg",
+      title: "ICMPv6 Parameters",
+      enurl:
+          "https://www.iana.org/assignments/icmpv6-parameters/icmpv6-parameters.xhtml",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/IANA.svg",
       title: "DNSSEC Alg Numbers",
       enurl:
           "https://www.iana.org/assignments/dns-sec-alg-numbers/dns-sec-alg-numbers.xhtml#dns-sec-alg-numbers-1",
@@ -2911,8 +2920,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Asahi%20Linux.svg",
       title: "Asahi Linux",
-      enurl: "#",
-      cnurl: "https://github.com/asahilinux/docs/wiki",
+      enurl: "https://asahilinux.org/docs/#developers",
+      cnurl: "#",
     ),
   );
   itemList.add(
