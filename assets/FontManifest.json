@@ -1,1 +1,1 @@
-[{"family":"MaterialIcons","fonts":[{"asset":"fonts/MaterialIcons-Regular.otf"}]},{"family":"Menlo","fonts":[{"asset":"fonts/Menlo-Regular.ttf"},{"weight":700,"asset":"fonts/Menlo-Bold.ttf"}]},{"family":"Roboto","fonts":[{"asset":"fonts/Roboto-Regular.ttf"}]}]
+[{"family":"MaterialIcons","fonts":[{"asset":"fonts/MaterialIcons-Regular.otf"}]},{"family":"Menlo","fonts":[{"asset":"res/font/Menlo-Regular.ttf"},{"weight":700,"asset":"res/font/Menlo-Bold.ttf"}]},{"family":"Roboto","fonts":[{"asset":"res/font/Roboto-Regular.ttf"}]}]
