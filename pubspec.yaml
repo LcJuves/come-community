@@ -73,6 +73,9 @@ flutter:
     - family: Roboto
       fonts:
         - asset: res/font/Roboto-Regular.ttf
+    - family: AlibabaPuHuiTi
+      fonts:
+        - asset: res/font/AlibabaPuHuiTi-3-55-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   assets:
