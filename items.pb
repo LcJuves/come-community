@@ -271,6 +271,8 @@ c
 /CRDTs.svgCRDTs*https://crdt.tech
 [
 	/Rust.svgCrubit"#*Chttps://github.com/google/crubit?tab=readme-ov-file#getting-started
+a
+	/crun.svgcrun"Khttps://github.com/containers/crun/tree/main?tab=readme-ov-file#performance*#
 S
 /Crystal.svgCrystal"#*7https://crystal-lang.org/reference/1.14/getting_started
 s
@@ -386,6 +388,9 @@ H
 	/Rust.svgfacet""https://docs.rs/facet/latest/facet*#
 &
 	/FAST.svgFAST"#*https://fast.com
+`
+
+/Apple.svgFastVLM"Fhttps://github.com/apple/ml-fastvlm?tab=readme-ov-file#getting-started*#
 ‘
 /Fedora.svgFedora Workstation"5https://docs.fedoraproject.org/en-US/workstation-docs*7https://docs.fedoraproject.org/zh_Hans/workstation-docs
 _
@@ -787,8 +792,8 @@ LSP / LSIF"#*Zhttps://microsoft.github.io/language-server-protocol/specificatio
 /Magic.svgMagic"#*%https://docs.modular.com/stable/magic
 r
 /MariaDB.svgMariaDB"*https://mariadb.com/kb/en/a-mariadb-primer*-https://mariadb.com/kb/zh-cn/a-mariadb-primer
-G
-/_Markdown.svgMarkdown"#*(https://www.markdown.xyz/getting-started
+s
+/_Markdown.svgMarkdown"-https://www.markdownguide.org/getting-started*(https://www.markdown.xyz/getting-started
 O
 /MaterialWeb.svgMaterial Web"#**https://material-web.dev/about/quick-start
 <
@@ -912,11 +917,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -941,6 +946,8 @@ Z
 /OCaml.svgOCaml"#*'https://ocaml.org/docs/installing-ocaml
 ´
 /OceanBase.svg	OceanBase"Ihttps://en.oceanbase.com/docs/common-oceanbase-database-10000000001970931*Lhttps://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002012693
+…
+/OCI.svgOCI Runtime Spec"dhttps://opencontainers.org/posts/blog/2024-02-18-oci-runtime-spec-v1-2/#what-is-the-oci-runtime-spec*#
 f
 /OctoTools.svg	OctoTools"#*Fhttps://github.com/octotools/octotools?tab=readme-ov-file#installation
 5
@@ -1443,6 +1450,8 @@ s
 /XML.svgXML"0https://developer.mozilla.org/en-US/docs/Web/XML*0https://developer.mozilla.org/zh-CN/docs/Web/XML
 #
 	/YAML.svgYAML*https://yaml.org
+h
+/youki_flat.svgyouki"Khttps://github.com/containers/crun/tree/main?tab=readme-ov-file#performance*#
 9
 /Zed.svgZed"#*%https://zed.dev/docs/#getting-started
 U
