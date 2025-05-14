@@ -618,7 +618,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/_Markdown.svg",
       title: "Markdown",
-      enurl: "#",
+      enurl: "https://www.markdownguide.org/getting-started",
       cnurl: "https://www.markdown.xyz/getting-started",
     ),
   );
@@ -1148,6 +1148,15 @@ Future main(List<String> args) async {
       title: "Objective-C Runtime",
       enurl: "#",
       cnurl: "https://developer.apple.com/documentation/objectivec",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Apple.svg",
+      title: "FastVLM",
+      enurl:
+          "https://github.com/apple/ml-fastvlm?tab=readme-ov-file#getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3742,6 +3751,33 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/opencontainers/runc?tab=readme-ov-file#using-runc",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OCI.svg",
+      title: "OCI Runtime Spec",
+      enurl:
+          "https://opencontainers.org/posts/blog/2024-02-18-oci-runtime-spec-v1-2/#what-is-the-oci-runtime-spec",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/youki_flat.svg",
+      title: "youki",
+      enurl:
+          "https://github.com/containers/crun/tree/main?tab=readme-ov-file#performance",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/crun.svg",
+      title: "crun",
+      enurl:
+          "https://github.com/containers/crun/tree/main?tab=readme-ov-file#performance",
+      cnurl: "#",
     ),
   );
   itemList.add(
