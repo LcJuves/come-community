@@ -269,6 +269,8 @@ c
 &
 
 /CRDTs.svgCRDTs*https://crdt.tech
+Q
+	/Rust.svgcross":https://github.com/cross-rs/cross?tab=readme-ov-file#usage*#
 [
 	/Rust.svgCrubit"#*Chttps://github.com/google/crubit?tab=readme-ov-file#getting-started
 a
@@ -277,6 +279,8 @@ S
 /Crystal.svgCrystal"#*7https://crystal-lang.org/reference/1.14/getting_started
 s
 /CSS.svgCSS"0https://developer.mozilla.org/en-US/docs/Web/CSS*0https://developer.mozilla.org/zh-CN/docs/Web/CSS
+’
+/CSV.svgCSV"4https://en.wikipedia.org/wiki/Comma-separated_values*Khttps://zh.wikipedia.org/wiki/%E9%80%97%E5%8F%B7%E5%88%86%E9%9A%94%E5%80%BC
 K
 /NVIDIA.svgCUDA"#*3https://docs.nvidia.com/cuda/cuda-quick-start-guide
 \
@@ -634,6 +638,8 @@ f
 /IntelliJ_IDEA.svgIntelliJ IDEA"#*8https://www.jetbrains.com/help/idea/getting-started.html
 ~
 /IntelliJ_Platform_Plugin.svgIntelliJ Plugins"#*Hhttps://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html
+d
+/InternVL.svgInternVL"Fhttps://internvl.readthedocs.io/en/latest/internvl2.5/quick_start.html*#
 f
 
 /Ionic.svgIonic React"#*Hhttps://ionicframework.com/docs/react/quickstart#what-is-ionic-framework
@@ -917,11 +923,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -1289,6 +1295,9 @@ U
 /Tor.svgTor"https://support.torproject.org*$https://support.torproject.org/zh-CN
 q
 	/Trae.svgTrae".https://docs.trae.ai/docs/set-up-trae?_lang=en*.https://docs.trae.ai/docs/set-up-trae?_lang=zh
+7
+/Trendshift.svg
+Trendshift"https://trendshift.io*#
 ?
 /Tribuo.svgTribuo"#*%https://tribuo.org/learn/4.3/docs/#h1
 <
@@ -1450,8 +1459,8 @@ s
 /XML.svgXML"0https://developer.mozilla.org/en-US/docs/Web/XML*0https://developer.mozilla.org/zh-CN/docs/Web/XML
 #
 	/YAML.svgYAML*https://yaml.org
-h
-/youki_flat.svgyouki"Khttps://github.com/containers/crun/tree/main?tab=readme-ov-file#performance*#
+T
+/youki_flat.svgyouki"7https://youki-dev.github.io/youki/user/basic_setup.html*#
 9
 /Zed.svgZed"#*%https://zed.dev/docs/#getting-started
 U

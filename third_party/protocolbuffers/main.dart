@@ -3766,8 +3766,33 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/youki_flat.svg",
       title: "youki",
+      enurl: "https://youki-dev.github.io/youki/user/basic_setup.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/CSV.svg",
+      title: "CSV",
+      enurl: "https://en.wikipedia.org/wiki/Comma-separated_values",
+      cnurl:
+          "https://zh.wikipedia.org/wiki/%E9%80%97%E5%8F%B7%E5%88%86%E9%9A%94%E5%80%BC",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/InternVL.svg",
+      title: "InternVL",
       enurl:
-          "https://github.com/containers/crun/tree/main?tab=readme-ov-file#performance",
+          "https://internvl.readthedocs.io/en/latest/internvl2.5/quick_start.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Trendshift.svg",
+      title: "Trendshift",
+      enurl: "https://trendshift.io",
       cnurl: "#",
     ),
   );
@@ -4381,6 +4406,14 @@ Future main(List<String> args) async {
       imgUrl: "/Rust.svg",
       title: "facet",
       enurl: "https://docs.rs/facet/latest/facet",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "cross",
+      enurl: "https://github.com/cross-rs/cross?tab=readme-ov-file#usage",
       cnurl: "#",
     ),
   );
