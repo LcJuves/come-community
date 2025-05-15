@@ -3,8 +3,6 @@ N
 /Cloudflare.svg1.1.1.1"#*/https://developers.cloudflare.com/1.1.1.1/setup
 I
 /996.ICU.svg996.ICU"https://996.icu/#/en_US*https://996.icu/#/zh_CN
-P
-/A2A.svgA2A"<https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a*#
 C
 	/ACME.svgACME"#*-https://datatracker.ietf.org/doc/html/rfc8555
 ¡
@@ -15,6 +13,8 @@ D
 /Android.svgADPF"7https://developer.android.com/games/optimize/adpf?hl=en*@https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn
 N
 /AFFiNE.svgAFFiNE"#*4https://docs.affine.pro/docs/development/quick-start
+X
+/A2A.svgAgent2Agent"<https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a*#
 ;
 
 /Aider.svgAider"#*#https://aider.chat/#getting-started
@@ -688,8 +688,8 @@ I
 /Jetty.svgJetty"#*1https://jetty.org/docs/jetty/12/programming-guide
 /
 /jnv.svgjnv"https://github.com/ynqa/jnv*#
-a
-/GNU.svgJobserver Protocol"#*>https://make.mad-scientist.net/papers/jobserver-implementation
+X
+/GNU.svg	Jobserver"#*>https://make.mad-scientist.net/papers/jobserver-implementation
 d
 /TypeScript.svgJSDoc"#*Ghttps://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
 W
