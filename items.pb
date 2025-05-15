@@ -3,6 +3,8 @@ N
 /Cloudflare.svg1.1.1.1"#*/https://developers.cloudflare.com/1.1.1.1/setup
 I
 /996.ICU.svg996.ICU"https://996.icu/#/en_US*https://996.icu/#/zh_CN
+P
+/A2A.svgA2A"<https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a*#
 C
 	/ACME.svgACME"#*-https://datatracker.ietf.org/doc/html/rfc8555
 ¡
@@ -1221,6 +1223,8 @@ e
 /SpringBoot.svgSpring Boot"#*Bhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
 @
 /SQLite.svgSQLite"#*&https://www.sqlite.org/quickstart.html
+Ë
+/MDN.svgSSE"\https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events*\https://developer.mozilla.org/zh-CN/docs/Web/API/Server-sent_events/Using_server-sent_events
 „
 /StirlingPDF.svgStirling PDF"#*_https://docs.stirlingpdf.com/Installation/Docker%20Install#run-docker-container-with-docker-run
 a
