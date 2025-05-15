@@ -1212,6 +1212,24 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/A2A.svg",
+      title: "A2A",
+      enurl: "https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
+      title: "SSE",
+      enurl:
+          "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+      cnurl:
+          "https://developer.mozilla.org/zh-CN/docs/Web/API/Server-sent_events/Using_server-sent_events",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Brotli.svg",
       title: "Brotli",
       enurl: "https://github.com/google/brotli?tab=readme-ov-file#introduction",
