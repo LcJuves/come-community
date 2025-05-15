@@ -1213,7 +1213,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/A2A.svg",
-      title: "A2A",
+      title: "Agent2Agent",
       enurl: "https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a",
       cnurl: "#",
     ),
@@ -5005,7 +5005,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/GNU.svg",
-      title: "Jobserver Protocol",
+      title: "Jobserver",
       enurl: "#",
       cnurl: "https://make.mad-scientist.net/papers/jobserver-implementation",
     ),
