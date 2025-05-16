@@ -125,7 +125,9 @@ class _HomePageState extends State<HomePage> {
                             onChanged: (value) async {
                               final filteredItemsIterable = _loadedItems!.where(
                                   (item) =>
-                                      item.title.contains(value) ||
+                                      item.title
+                                          .toLowerCase()
+                                          .contains(value.toLowerCase()) ||
                                       item.enurl.contains(value) ||
                                       item.cnurl.contains(value));
                               setState(() {
