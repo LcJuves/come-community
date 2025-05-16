@@ -13,6 +13,8 @@ D
 /Android.svgADPF"7https://developer.android.com/games/optimize/adpf?hl=en*@https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn
 N
 /AFFiNE.svgAFFiNE"#*4https://docs.affine.pro/docs/development/quick-start
+X
+/A2A.svgAgent2Agent"<https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a*#
 ;
 
 /Aider.svgAider"#*#https://aider.chat/#getting-started
@@ -269,12 +271,18 @@ c
 &
 
 /CRDTs.svgCRDTs*https://crdt.tech
+Q
+	/Rust.svgcross":https://github.com/cross-rs/cross?tab=readme-ov-file#usage*#
 [
 	/Rust.svgCrubit"#*Chttps://github.com/google/crubit?tab=readme-ov-file#getting-started
+a
+	/crun.svgcrun"Khttps://github.com/containers/crun/tree/main?tab=readme-ov-file#performance*#
 S
 /Crystal.svgCrystal"#*7https://crystal-lang.org/reference/1.14/getting_started
 s
 /CSS.svgCSS"0https://developer.mozilla.org/en-US/docs/Web/CSS*0https://developer.mozilla.org/zh-CN/docs/Web/CSS
+’
+/CSV.svgCSV"4https://en.wikipedia.org/wiki/Comma-separated_values*Khttps://zh.wikipedia.org/wiki/%E9%80%97%E5%8F%B7%E5%88%86%E9%9A%94%E5%80%BC
 K
 /NVIDIA.svgCUDA"#*3https://docs.nvidia.com/cuda/cuda-quick-start-guide
 \
@@ -386,6 +394,9 @@ H
 	/Rust.svgfacet""https://docs.rs/facet/latest/facet*#
 &
 	/FAST.svgFAST"#*https://fast.com
+`
+
+/Apple.svgFastVLM"Fhttps://github.com/apple/ml-fastvlm?tab=readme-ov-file#getting-started*#
 ‘
 /Fedora.svgFedora Workstation"5https://docs.fedoraproject.org/en-US/workstation-docs*7https://docs.fedoraproject.org/zh_Hans/workstation-docs
 _
@@ -629,6 +640,8 @@ f
 /IntelliJ_IDEA.svgIntelliJ IDEA"#*8https://www.jetbrains.com/help/idea/getting-started.html
 ~
 /IntelliJ_Platform_Plugin.svgIntelliJ Plugins"#*Hhttps://plugins.jetbrains.com/docs/intellij/creating-plugin-project.html
+d
+/InternVL.svgInternVL"Fhttps://internvl.readthedocs.io/en/latest/internvl2.5/quick_start.html*#
 f
 
 /Ionic.svgIonic React"#*Hhttps://ionicframework.com/docs/react/quickstart#what-is-ionic-framework
@@ -675,8 +688,8 @@ I
 /Jetty.svgJetty"#*1https://jetty.org/docs/jetty/12/programming-guide
 /
 /jnv.svgjnv"https://github.com/ynqa/jnv*#
-a
-/GNU.svgJobserver Protocol"#*>https://make.mad-scientist.net/papers/jobserver-implementation
+X
+/GNU.svg	Jobserver"#*>https://make.mad-scientist.net/papers/jobserver-implementation
 d
 /TypeScript.svgJSDoc"#*Ghttps://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
 W
@@ -787,8 +800,8 @@ LSP / LSIF"#*Zhttps://microsoft.github.io/language-server-protocol/specificatio
 /Magic.svgMagic"#*%https://docs.modular.com/stable/magic
 r
 /MariaDB.svgMariaDB"*https://mariadb.com/kb/en/a-mariadb-primer*-https://mariadb.com/kb/zh-cn/a-mariadb-primer
-G
-/_Markdown.svgMarkdown"#*(https://www.markdown.xyz/getting-started
+s
+/_Markdown.svgMarkdown"-https://www.markdownguide.org/getting-started*(https://www.markdown.xyz/getting-started
 O
 /MaterialWeb.svgMaterial Web"#**https://material-web.dev/about/quick-start
 <
@@ -941,6 +954,8 @@ Z
 /OCaml.svgOCaml"#*'https://ocaml.org/docs/installing-ocaml
 ´
 /OceanBase.svg	OceanBase"Ihttps://en.oceanbase.com/docs/common-oceanbase-database-10000000001970931*Lhttps://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002012693
+…
+/OCI.svgOCI Runtime Spec"dhttps://opencontainers.org/posts/blog/2024-02-18-oci-runtime-spec-v1-2/#what-is-the-oci-runtime-spec*#
 f
 /OctoTools.svg	OctoTools"#*Fhttps://github.com/octotools/octotools?tab=readme-ov-file#installation
 5
@@ -1208,6 +1223,8 @@ e
 /SpringBoot.svgSpring Boot"#*Bhttps://docs.spring.io/spring-boot/3.4-SNAPSHOT/documentation.html
 @
 /SQLite.svgSQLite"#*&https://www.sqlite.org/quickstart.html
+Ë
+/MDN.svgSSE"\https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events*\https://developer.mozilla.org/zh-CN/docs/Web/API/Server-sent_events/Using_server-sent_events
 „
 /StirlingPDF.svgStirling PDF"#*_https://docs.stirlingpdf.com/Installation/Docker%20Install#run-docker-container-with-docker-run
 a
@@ -1282,6 +1299,9 @@ U
 /Tor.svgTor"https://support.torproject.org*$https://support.torproject.org/zh-CN
 q
 	/Trae.svgTrae".https://docs.trae.ai/docs/set-up-trae?_lang=en*.https://docs.trae.ai/docs/set-up-trae?_lang=zh
+7
+/Trendshift.svg
+Trendshift"https://trendshift.io*#
 ?
 /Tribuo.svgTribuo"#*%https://tribuo.org/learn/4.3/docs/#h1
 <
@@ -1443,6 +1463,8 @@ s
 /XML.svgXML"0https://developer.mozilla.org/en-US/docs/Web/XML*0https://developer.mozilla.org/zh-CN/docs/Web/XML
 #
 	/YAML.svgYAML*https://yaml.org
+T
+/youki_flat.svgyouki"7https://youki-dev.github.io/youki/user/basic_setup.html*#
 9
 /Zed.svgZed"#*%https://zed.dev/docs/#getting-started
 U
