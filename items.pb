@@ -452,8 +452,8 @@ Gemini API"@https://ai.google.dev/gemini-api/docs/quickstart?hl=en&lang=rest*Cht
 /Ghostty.svgGhostty"#*$https://ghostty.org/docs#get-started
 B
 	/GIMP.svgGIMP"#*,https://www.gimp.org/tutorials/GIMP_Quickies
-Œ
-/GitLFS.svgGit LFS"#*qhttps://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs
+^
+/GitLFS.svgGit LFS"Chttps://github.com/git-lfs/git-lfs?tab=readme-ov-file#example-usage*#
 ]
 /MCP.svgGit MCP"Ehttps://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started*#
 ^

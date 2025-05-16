@@ -3510,9 +3510,9 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GitLFS.svg",
       title: "Git LFS",
-      enurl: "#",
-      cnurl:
-          "https://github.com/git-lfs/git-lfs/tree/main/docs?utm_source=gitlfs_site&utm_medium=docs_link&utm_campaign=gitlfs",
+      enurl:
+          "https://github.com/git-lfs/git-lfs?tab=readme-ov-file#example-usage",
+      cnurl: "#",
     ),
   );
   itemList.add(
