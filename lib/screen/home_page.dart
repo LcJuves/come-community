@@ -1,10 +1,9 @@
-import 'dart:ui';
-
 import 'package:devfans/constants.dart';
 import 'package:devfans/future_data.dart';
 import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
 import 'package:devfans/widget/base_container.dart';
+import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:devfans/widget/snapshot_error_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -68,36 +67,37 @@ class _HomePageState extends State<HomePage> {
     return Stack(
       children: [
         AnimatedWallpaperContainer(),
-        BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 6.3, sigmaY: 6.3),
-          child: Scaffold(
-            backgroundColor: Colors.transparent,
-            body: FutureBuilder<FutureData>(
-              future: futureData,
-              builder: (context, snapshot) {
-                if (snapshot.hasError) {
-                  return SnapshotErrorText(
-                    asyncSnapshot: snapshot,
-                  );
-                }
-                if (snapshot.hasData) {
-                  final fetchedData = snapshot.data!;
-                  final filteredFetchedItems =
-                      List.of(fetchedData.fetchedItems.where((item) {
-                    if (item.currentlyOnlySupportsChinese &&
-                        fetchedData.fetchedGeoInfo['country_code'] != "CN") {
-                      // Let people who know English gradually understand Chinese culture
-                      return fetchedData.fetchedGeoInfo['country_code'] == "EN";
-                    }
-                    return true;
-                  }));
-                  _loadedItems ??= filteredFetchedItems;
-                  return SingleChildScrollView(
-                      scrollDirection: Axis.vertical,
-                      padding: const EdgeInsets.all(Constants.edgePadding),
-                      child: Column(
-                        children: [
-                          SearchBar(
+        Scaffold(
+          backgroundColor: Colors.transparent,
+          body: FutureBuilder<FutureData>(
+            future: futureData,
+            builder: (context, snapshot) {
+              if (snapshot.hasError) {
+                return SnapshotErrorText(
+                  asyncSnapshot: snapshot,
+                );
+              }
+              if (snapshot.hasData) {
+                final fetchedData = snapshot.data!;
+                final filteredFetchedItems =
+                    List.of(fetchedData.fetchedItems.where((item) {
+                  if (item.currentlyOnlySupportsChinese &&
+                      fetchedData.fetchedGeoInfo['country_code'] != "CN") {
+                    // Let people who know English gradually understand Chinese culture
+                    return fetchedData.fetchedGeoInfo['country_code'] == "EN";
+                  }
+                  return true;
+                }));
+                _loadedItems ??= filteredFetchedItems;
+                return SingleChildScrollView(
+                    scrollDirection: Axis.vertical,
+                    padding: const EdgeInsets.all(Constants.edgePadding),
+                    child: Column(
+                      children: [
+                        ClipRRrectBackdropFilter(
+                          borderRadius: BorderRadius.circular(double.maxFinite),
+                          child: SearchBar(
+                            elevation: const WidgetStatePropertyAll(1),
                             autoFocus: true,
                             surfaceTintColor:
                                 const WidgetStatePropertyAll(Colors.black),
@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> {
                                   10, 10, 10 * Constants.goldenRatio, 10),
                               child: Icon(
                                 Icons.search_rounded,
-                                color: Colors.black.withAlpha(102),
+                                color: Constants.primaryColor,
                               ),
                             ),
                             overlayColor:
@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage> {
                                 Colors.white.withAlpha(204)),
                             hintText: Constants.searchBarHintText,
                             hintStyle: WidgetStatePropertyAll(
-                                TextStyle(color: Colors.black.withAlpha(102))),
+                                TextStyle(color: Constants.primaryColor)),
                             textStyle: const WidgetStatePropertyAll(TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.w500)),
@@ -139,32 +139,34 @@ class _HomePageState extends State<HomePage> {
                               });
                             },
                           ),
-                          const SizedBox(
-                            height: Constants.edgePadding,
-                          ),
-                          Center(
-                              child: Wrap(
-                            spacing: Constants.edgePadding +
-                                (Constants.edgePadding * Constants.goldenRatio),
-                            runSpacing: Constants.edgePadding,
-                            direction: Axis.horizontal,
-                            children: filteredFetchedItems
-                                .map((i) => BaseContainer(
-                                      item: i,
-                                      geoInfo: fetchedData.fetchedGeoInfo,
-                                      captivePortalSvg:
-                                          fetchedData.captivePortalSvg,
-                                    ))
-                                .toList(),
-                          ))
-                        ],
-                      ));
-                }
+                        ),
+                        const SizedBox(
+                          height: Constants.edgePadding,
+                        ),
+                        Center(
+                            child: Wrap(
+                          spacing: Constants.edgePadding +
+                              (Constants.edgePadding * Constants.goldenRatio),
+                          runSpacing: Constants.edgePadding,
+                          direction: Axis.horizontal,
+                          children: filteredFetchedItems
+                              .map(
+                                (i) => BaseContainer(
+                                  item: i,
+                                  geoInfo: fetchedData.fetchedGeoInfo,
+                                  captivePortalSvg:
+                                      fetchedData.captivePortalSvg,
+                                ),
+                              )
+                              .toList(),
+                        ))
+                      ],
+                    ));
+              }
 
-                // By default, show a loading circular progress bar.
-                return const AdaptiveCircularProgressBar();
-              },
-            ),
+              // By default, show a loading circular progress bar.
+              return const AdaptiveCircularProgressBar();
+            },
           ),
         )
       ],

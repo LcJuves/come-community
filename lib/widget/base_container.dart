@@ -1,3 +1,4 @@
+import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:protobuffers/items.pb.dart';
@@ -55,7 +56,9 @@ class _BaseContainerState extends State<BaseContainer> {
   @override
   Widget build(BuildContext context) {
     final launchUri = Uri.parse(widget._getLaunchUrl());
-    return InkWellContainer(
+    return ClipRRrectBackdropFilter(
+      borderRadius: BorderRadius.circular(15),
+      child: InkWellContainer(
         key: GlobalObjectKey(widget.item),
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
@@ -89,9 +92,8 @@ class _BaseContainerState extends State<BaseContainer> {
                       SizedBox.square(
                         dimension: Constants.captivePortalSvgIconSize,
                         child: SvgPicture.string(
-                            colorFilter: const ColorFilter.mode(
-                                Color.fromARGB(255, 100, 100, 100),
-                                BlendMode.srcIn),
+                            colorFilter: ColorFilter.mode(
+                                Constants.primaryColor, BlendMode.srcIn),
                             widget.captivePortalSvg),
                       ),
                       const SizedBox.square(
@@ -109,9 +111,9 @@ class _BaseContainerState extends State<BaseContainer> {
                           exitDuration: const Duration(),
                           child: Text(
                             launchUri.host,
-                            style: const TextStyle(
+                            style: TextStyle(
                                 fontSize: Constants.captivePortalSvgIconSize,
-                                color: Color.fromARGB(255, 100, 100, 100),
+                                color: Constants.primaryColor,
                                 fontWeight: FontWeight.w500),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
@@ -124,6 +126,8 @@ class _BaseContainerState extends State<BaseContainer> {
               ],
             ),
           )
-        ]));
+        ]),
+      ),
+    );
   }
 }

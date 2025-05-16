@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 import 'webspec.dart';
 
 abstract final class Constants {
@@ -16,4 +18,5 @@ abstract final class Constants {
   static final String searchBarHintText = isRunOnMobileWebViewOrBrowser()
       ? "Enter the search here"
       : "Please enter some information for search";
+  static final Color primaryColor = Colors.black.withAlpha(102);
 }
