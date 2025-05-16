@@ -2,6 +2,7 @@ import 'package:devfans/constants.dart';
 import 'package:devfans/future_data.dart';
 import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
+import 'package:devfans/widget/backdrop_filter_scaffold.dart';
 import 'package:devfans/widget/base_container.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:devfans/widget/snapshot_error_text.dart';
@@ -67,7 +68,7 @@ class _HomePageState extends State<HomePage> {
     return Stack(
       children: [
         AnimatedWallpaperContainer(),
-        Scaffold(
+        BackdropFilterScaffold(
           backgroundColor: Colors.transparent,
           body: FutureBuilder<FutureData>(
             future: futureData,
@@ -97,7 +98,7 @@ class _HomePageState extends State<HomePage> {
                         ClipRRrectBackdropFilter(
                           borderRadius: BorderRadius.circular(double.maxFinite),
                           child: SearchBar(
-                            elevation: const WidgetStatePropertyAll(1),
+                            elevation: const WidgetStatePropertyAll(2),
                             autoFocus: true,
                             surfaceTintColor:
                                 const WidgetStatePropertyAll(Colors.black),

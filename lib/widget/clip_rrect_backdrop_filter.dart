@@ -15,12 +15,12 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
     return Card(
       color: Colors.transparent,
       clipBehavior: Clip.none,
-      elevation: 1,
+      elevation: 3,
       child: ClipRRect(
         borderRadius: borderRadius,
         clipBehavior: Clip.antiAlias,
         child: BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 6.18, sigmaY: 6.18), child: child),
+            filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5), child: child),
       ),
     );
   }
