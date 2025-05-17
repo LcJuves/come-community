@@ -41,7 +41,9 @@ class BaseContainer extends StatefulWidget {
   String _getLaunchUrl() {
     if (geoInfo['country_code'] == "CN" &&
         (item.cnurl != "#" || item.cnurl.isNotEmpty)) {
-      return item.cnurl;
+      return (item.cnurl.isNotEmpty && item.cnurl != "#")
+          ? item.cnurl
+          : item.enurl;
     }
     return (item.enurl.isNotEmpty && item.enurl != "#")
         ? item.enurl
