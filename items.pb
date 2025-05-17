@@ -736,6 +736,8 @@ X
 H
 /Kubernetes.svg
 Kubernetes"#*&https://kubernetes.io/zh-cn/docs/setup
+Ý
+/Kuikly.svgKuikly"Jhttps://github.com/Tencent-TDS/KuiklyUI?tab=readme-ov-file#getting-started*zhttps://kuikly.tds.qq.com/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/hello-world.html#%E6%96%B0%E5%BB%BAkuikly%E5%B7%A5%E7%A8%8B
 D
 /LangChain.svg	LangChain"#*$https://js.langchain.com/docs/how_to
 N
@@ -925,11 +927,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
