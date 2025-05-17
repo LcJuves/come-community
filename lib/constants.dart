@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'webspec.dart';
 
 abstract final class Constants {
-  static const double edgePadding = 35;
-  static const double baseContainerPadding = 15;
+  static const double goldenRatio = 0.618;
+  static const double edgePadding = 22;
+  static const double baseContainerPadding = edgePadding * goldenRatio;
   static const double svgIconSize = 55.2;
   static const double titleLeftPadding = 15;
   static const double urlBoxTopPadding = 4;
@@ -12,7 +13,6 @@ abstract final class Constants {
   static const double captivePortalSvgIconSize = 12;
   static const double captivePortalSvgIconMarginRight =
       urlBoxTopPadding + (urlBoxTopPadding * goldenRatio);
-  static const double goldenRatio = 0.618;
   static const int httpOk = 200;
   static const String svgCommonUrlPrefix = "https://web.lcjuves.com/assets/svg";
   static final String searchBarHintText = isRunOnMobileWebViewOrBrowser()

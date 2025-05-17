@@ -65,6 +65,10 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    const singleChildScrollViewSpacing =
+        ((Constants.edgePadding + Constants.baseContainerPadding) *
+                Constants.goldenRatio) +
+            (Constants.titleLeftPadding * Constants.goldenRatio);
     return Stack(
       children: [
         AnimatedWallpaperContainer(),
@@ -92,7 +96,11 @@ class _HomePageState extends State<HomePage> {
                 _loadedItems ??= filteredFetchedItems;
                 return SingleChildScrollView(
                     scrollDirection: Axis.vertical,
-                    padding: const EdgeInsets.all(Constants.edgePadding),
+                    padding: const EdgeInsets.fromLTRB(
+                        Constants.edgePadding,
+                        singleChildScrollViewSpacing,
+                        Constants.edgePadding,
+                        singleChildScrollViewSpacing),
                     child: Column(
                       children: [
                         ClipRRrectBackdropFilter(
@@ -142,13 +150,12 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         const SizedBox(
-                          height: Constants.edgePadding,
+                          height: singleChildScrollViewSpacing,
                         ),
                         Center(
                             child: Wrap(
-                          spacing: Constants.edgePadding +
-                              (Constants.edgePadding * Constants.goldenRatio),
-                          runSpacing: Constants.edgePadding,
+                          spacing: singleChildScrollViewSpacing,
+                          runSpacing: singleChildScrollViewSpacing,
                           direction: Axis.horizontal,
                           children: filteredFetchedItems
                               .map(

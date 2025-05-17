@@ -32,7 +32,7 @@ class BaseContainer extends StatefulWidget {
         (Constants.edgePadding * 2) -
         (Constants.baseContainerPadding * 2) -
         Constants.svgIconSize -
-        Constants.titleLeftPadding;
+        (Constants.titleLeftPadding * 2);
     return usableWidth < Constants.urlBoxWidth
         ? usableWidth
         : Constants.urlBoxWidth;
