@@ -1,4 +1,5 @@
 import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
+import 'package:devfans/future_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:protobuffers/items.pb.dart';
@@ -88,42 +89,54 @@ class _BaseContainerState extends State<BaseContainer> {
                 Padding(
                   padding:
                       const EdgeInsets.only(top: Constants.urlBoxTopPadding),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      SizedBox.square(
-                        dimension: Constants.captivePortalSvgIconSize,
-                        child: SvgPicture.string(
-                            colorFilter: ColorFilter.mode(
-                                Constants.primaryColor, BlendMode.srcIn),
-                            widget.captivePortalSvg),
-                      ),
-                      const SizedBox.square(
-                        dimension: 5,
-                      ),
-                      SizedBox(
-                        width: widget._textBoxDynamicWidth(context) -
-                            Constants.captivePortalSvgIconSize -
-                            Constants.captivePortalSvgIconMarginRight,
-                        child: Tooltip(
-                          triggerMode: TooltipTriggerMode.manual,
-                          margin: const EdgeInsets.all(4),
-                          message: Uri.decodeComponent(launchUri.toString()),
-                          waitDuration: const Duration(milliseconds: 1200),
-                          exitDuration: const Duration(),
-                          child: Text(
-                            launchUri.host,
-                            style: TextStyle(
-                                fontSize: Constants.captivePortalSvgIconSize,
-                                color: Constants.primaryColor,
-                                fontWeight: FontWeight.w500),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                      )
-                    ],
-                  ),
+                  child: FutureBuilder<FutureDesc>(
+                      future: fetchDesc(launchUri.toString()),
+                      builder: (context, snapshot) {
+                        final FutureDesc futureDesc = snapshot.data!;
+                        return Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            SizedBox.square(
+                              dimension: Constants.captivePortalSvgIconSize,
+                              child: SvgPicture.string(
+                                  colorFilter: const ColorFilter.mode(
+                                      Color.fromARGB(255, 100, 100, 100),
+                                      BlendMode.srcIn),
+                                  widget.captivePortalSvg),
+                            ),
+                            const SizedBox.square(
+                              dimension: 5,
+                            ),
+                            SizedBox(
+                              width: widget._textBoxDynamicWidth(context) -
+                                  Constants.captivePortalSvgIconSize -
+                                  Constants.captivePortalSvgIconMarginRight,
+                              child: Tooltip(
+                                triggerMode: TooltipTriggerMode.manual,
+                                margin: const EdgeInsets.all(4),
+                                message: futureDesc.msgDesc.isNotEmpty
+                                    ? futureDesc.msgDesc
+                                    : Uri.decodeComponent(launchUri.toString()),
+                                waitDuration:
+                                    const Duration(milliseconds: 1200),
+                                exitDuration: const Duration(),
+                                child: Text(
+                                  futureDesc.desc.isNotEmpty
+                                      ? futureDesc.desc
+                                      : launchUri.host,
+                                  style: const TextStyle(
+                                      fontSize:
+                                          Constants.captivePortalSvgIconSize,
+                                      color: Color.fromARGB(255, 100, 100, 100),
+                                      fontWeight: FontWeight.w500),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                              ),
+                            )
+                          ],
+                        );
+                      }),
                 ),
               ],
             ),
