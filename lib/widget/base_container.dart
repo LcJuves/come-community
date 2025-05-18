@@ -1,8 +1,9 @@
-import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:devfans/future_data.dart';
+import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:protobuffers/items.pb.dart';
+import 'package:text_marquee/text_marquee.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../constants.dart';
@@ -91,6 +92,7 @@ class _BaseContainerState extends State<BaseContainer> {
                       const EdgeInsets.only(top: Constants.urlBoxTopPadding),
                   child: FutureBuilder<FutureDesc>(
                       future: fetchDesc(launchUri.toString()),
+                      initialData: FutureDesc(desc: "", msgDesc: ""),
                       builder: (context, snapshot) {
                         final FutureDesc futureDesc = snapshot.data!;
                         return Row(
@@ -120,7 +122,9 @@ class _BaseContainerState extends State<BaseContainer> {
                                 waitDuration:
                                     const Duration(milliseconds: 1200),
                                 exitDuration: const Duration(),
-                                child: Text(
+                                child: TextMarquee(
+                                  spaceSize: (Constants.urlBoxWidth / 2) *
+                                      Constants.goldenRatio,
                                   futureDesc.desc.isNotEmpty
                                       ? futureDesc.desc
                                       : launchUri.host,
@@ -129,8 +133,6 @@ class _BaseContainerState extends State<BaseContainer> {
                                           Constants.captivePortalSvgIconSize,
                                       color: Color.fromARGB(255, 100, 100, 100),
                                       fontWeight: FontWeight.w500),
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
                                 ),
                               ),
                             )
