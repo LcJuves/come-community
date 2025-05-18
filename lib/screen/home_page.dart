@@ -4,7 +4,7 @@ import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
 import 'package:devfans/widget/base_container.dart';
-import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
+import 'package:devfans/widget/clip_rrect_backdrop_filter_search_bar.dart';
 import 'package:devfans/widget/snapshot_error_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -103,55 +103,25 @@ class _HomePageState extends State<HomePage> {
                         singleChildScrollViewSpacing),
                     child: Column(
                       children: [
-                        ClipRRrectBackdropFilter(
-                          borderRadius: BorderRadius.circular(double.maxFinite),
-                          child: Padding(
-                            padding: const EdgeInsets.only(right: 10),
-                            child: SearchBar(
-                              keyboardType: TextInputType.text,
-                              elevation: const WidgetStatePropertyAll(2),
-                              autoFocus: true,
-                              surfaceTintColor:
-                                  const WidgetStatePropertyAll(Colors.black),
-                              leading: Padding(
-                                padding: const EdgeInsets.fromLTRB(
-                                    10, 10, 10 * Constants.goldenRatio, 10),
-                                child: Icon(
-                                  Icons.search_rounded,
-                                  color: Constants.primaryColor,
-                                ),
-                              ),
-                              overlayColor:
-                                  const WidgetStatePropertyAll(Colors.white),
-                              textInputAction: TextInputAction.search,
-                              shadowColor: const WidgetStatePropertyAll(
-                                  Colors.transparent),
-                              backgroundColor: WidgetStatePropertyAll(
-                                  Colors.white.withAlpha(204)),
-                              hintText: Constants.searchBarHintText,
-                              hintStyle: WidgetStatePropertyAll(
-                                  TextStyle(color: Constants.primaryColor)),
-                              textStyle: const WidgetStatePropertyAll(TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w500)),
-                              onChanged: (value) async {
-                                final filteredItemsIterable = _loadedItems!
-                                    .where((item) =>
-                                        item.title
-                                            .toLowerCase()
-                                            .contains(value.toLowerCase()) ||
-                                        item.enurl.contains(value) ||
-                                        item.cnurl.contains(value));
-                                setState(() {
-                                  futureData = Future.value(FutureData(
-                                      items: List.of(filteredItemsIterable),
-                                      geoInfo: fetchedData.fetchedGeoInfo,
-                                      captivePortalSvg:
-                                          fetchedData.captivePortalSvg));
-                                });
-                              },
-                            ),
-                          ),
+                        ClipRRrectBackdropFilterSearchBar(
+                          singleChildScrollViewSpacing:
+                              singleChildScrollViewSpacing,
+                          onChanged: (value) async {
+                            final filteredItemsIterable = _loadedItems!.where(
+                                (item) =>
+                                    item.title
+                                        .toLowerCase()
+                                        .contains(value.toLowerCase()) ||
+                                    item.enurl.contains(value) ||
+                                    item.cnurl.contains(value));
+                            setState(() {
+                              futureData = Future.value(FutureData(
+                                  items: List.of(filteredItemsIterable),
+                                  geoInfo: fetchedData.fetchedGeoInfo,
+                                  captivePortalSvg:
+                                      fetchedData.captivePortalSvg));
+                            });
+                          },
                         ),
                         const SizedBox(
                           height: singleChildScrollViewSpacing,

@@ -12,12 +12,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          primaryColor: Colors.white,
-          useMaterial3: true,
-          fontFamily: 'Menlo',
-          textSelectionTheme: TextSelectionThemeData(
-              cursorColor: Colors.black.withAlpha(180),
-              selectionColor: const Color(0xFFB4D7FF))),
+        indicatorColor: const Color.fromARGB(255, 60, 198, 123),
+        primaryColor: Colors.white,
+        useMaterial3: true,
+        fontFamily: 'Menlo',
+        textSelectionTheme: TextSelectionThemeData(
+            selectionHandleColor: const Color.fromARGB(255, 60, 198, 123),
+            cursorColor: Colors.black.withAlpha(180),
+            selectionColor: const Color(0xFFB4D7FF)),
+      ),
       home: const HomePage(),
     );
   }
