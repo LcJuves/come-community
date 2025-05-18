@@ -497,6 +497,22 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/MCP.svg",
+      title: "Open MCP",
+      enurl: "https://www.open-mcp.org/servers/creating-a-server",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Mem0.svg",
+      title: "OpenMemory",
+      enurl: "https://docs.mem0.ai/openmemory/quickstart",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/_Unity.svg",
       title: "Unity",
       enurl:
@@ -1020,6 +1036,14 @@ Future main(List<String> args) async {
       title: "ZIG",
       enurl: "#",
       cnurl: "https://zig.guide/getting-started/installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ZLS.svg",
+      title: "ZLS",
+      enurl: "https://zigtools.org/zls/install",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1556,6 +1580,22 @@ Future main(List<String> args) async {
       enurl: "#",
       cnurl:
           "https://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "vy",
+      enurl: "https://github.com/jonahlund/vy?tab=readme-ov-file#usage",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Plotlars",
+      enurl: "https://github.com/alceal/plotlars?tab=readme-ov-file#motivation",
+      cnurl: "#",
     ),
   );
   itemList.add(
