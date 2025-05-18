@@ -927,11 +927,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -971,6 +971,8 @@ X
 /ONNXRuntime.svgONNX Runtime"#*3https://onnxruntime.ai/docs/get-started/with-c.html
 ò
 /OpenInterpreter.svgOpen Interpreter"Rhttps://github.com/OpenInterpreter/open-interpreter?tab=readme-ov-file#quick-start*thttps://github.com/OpenInterpreter/open-interpreter/blob/main/docs/README_ZH.md#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B
+K
+/MCP.svgOpen MCP"2https://www.open-mcp.org/servers/creating-a-server*#
 L
 /OpenUSD.svgOpen USD"#*/https://openusd.org/release/tut_helloworld.html
 j
@@ -989,6 +991,9 @@ i
 /OpenHarmony.svgOpenHarmony"Whttps://docs.openharmony.cn/pages/v5.0/en/device-dev/quick-start/quickstart-overview.md*Zhttps://docs.openharmony.cn/pages/v5.0/zh-cn/device-dev/quick-start/quickstart-overview.md
 9
 /Duke%20Hips.svgOpenJDK"#*https://openjdk.org/guide
+F
+	/Mem0.svg
+OpenMemory"*https://docs.mem0.ai/openmemory/quickstart*#
 G
 /OpenRouter.svg
 OpenRouter"#*%https://openrouter.ai/docs/quickstart
@@ -1037,6 +1042,8 @@ Y
 Playwright"#*7https://playwright.dev/docs/intro#installing-playwright
 |
 /Playwright.svgPlaywright MCP"Vhttps://github.com/microsoft/playwright-mcp?tab=readme-ov-file#installation-in-vs-code*#
+Z
+	/Rust.svgPlotlars"@https://github.com/alceal/plotlars?tab=readme-ov-file#motivation*#
 =
 /podman.svgpodman"#*#https://podman.io/docs/installation
 d
@@ -1377,6 +1384,8 @@ h
 /VSCodium.svgVSCodium"#*>https://github.com/VSCodium/vscodium/blob/master/docs/index.md
 A
 /Vue.svgVueJS"#*+https://cn.vuejs.org/guide/quick-start.html
+L
+	/Rust.svgvy"8https://github.com/jonahlund/vy?tab=readme-ov-file#usage*#
 T
 /WebAssembly.svgWAMR"#*7https://wamr.gitbook.io/document/basics/getting-started
 O
@@ -1478,5 +1487,7 @@ D
 G
 /ZIG.svg
 Zig StdLib"#*,https://ziglang.org/documentation/0.14.0/std
+4
+/ZLS.svgZLS" https://zigtools.org/zls/install*#
 ¤
 /Zookeeper.svg	Zookeeper"#*ƒhttps://zookeeper.apache.org/doc/current/zookeeperStarted.html#getting-started-coordinating-distributed-applications-with-zooKeeper
