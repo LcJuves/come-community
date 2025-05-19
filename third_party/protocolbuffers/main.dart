@@ -386,6 +386,32 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Google.svg",
+      title: "MediaPipe",
+      enurl:
+          "https://ai.google.dev/edge/mediapipe/solutions/guide?hl=en#get_started",
+      cnurl:
+          "https://ai.google.dev/edge/mediapipe/solutions/guide?hl=zh-cn#get_started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Passkeys.svg",
+      title: "Passkeys",
+      enurl: "https://passkeys.dev/docs/intro/what-are-passkeys",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/WebAuthn.svg",
+      title: "WebAuthn",
+      enurl: "https://webauthn.guide/#about-webauthn",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Dart.svg",
       title: "dio",
       enurl: "https://pub.dev/packages/dio#get-started",
