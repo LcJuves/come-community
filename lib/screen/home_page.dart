@@ -138,6 +138,8 @@ class _HomePageState extends State<HomePage> {
                                   geoInfo: fetchedData.fetchedGeoInfo,
                                   captivePortalSvg:
                                       fetchedData.captivePortalSvg,
+                                  singleChildScrollViewSpacing:
+                                      singleChildScrollViewSpacing,
                                 ),
                               )
                               .toList(),

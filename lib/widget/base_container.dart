@@ -17,11 +17,13 @@ class BaseContainer extends StatefulWidget {
   final Item item;
   final dynamic geoInfo;
   final String captivePortalSvg;
+  final double singleChildScrollViewSpacing;
   BaseContainer(
       {super.key,
       required this.item,
       required this.geoInfo,
-      required this.captivePortalSvg}) {
+      required this.captivePortalSvg,
+      required this.singleChildScrollViewSpacing}) {
     _imgUrl = item.imgUrl;
     if (_imgUrl.startsWith('/')) {
       _imgUrl = _commonUrlPrefix + _imgUrl;
@@ -114,8 +116,25 @@ class _BaseContainerState extends State<BaseContainer> {
                                   Constants.captivePortalSvgIconSize -
                                   Constants.captivePortalSvgIconMarginRight,
                               child: Tooltip(
+                                padding: const EdgeInsets.all(
+                                    (Constants.goldenRatio * 10) * 2),
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  shape: BoxShape.rectangle,
+                                  borderRadius: BorderRadius.circular(
+                                      (Constants.goldenRatio * 10) * 2),
+                                ),
+                                textStyle: const TextStyle(
+                                    fontSize:
+                                        Constants.captivePortalSvgIconSize,
+                                    color: Color.fromARGB(255, 100, 100, 100),
+                                    fontWeight: FontWeight.w500),
                                 triggerMode: TooltipTriggerMode.manual,
-                                margin: const EdgeInsets.all(4),
+                                margin: EdgeInsets.fromLTRB(
+                                    widget.singleChildScrollViewSpacing,
+                                    4,
+                                    widget.singleChildScrollViewSpacing,
+                                    4),
                                 message: futureDesc.msgDesc.isNotEmpty
                                     ? futureDesc.msgDesc
                                     : Uri.decodeComponent(launchUri.toString()),
