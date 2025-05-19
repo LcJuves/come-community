@@ -824,6 +824,8 @@ o
 /MDN.svgMDN Web",https://developer.mozilla.org/en-US/docs/Web*,https://developer.mozilla.org/zh-CN/docs/Web
 [
 	/IANA.svgMedia Types"#*>https://www.iana.org/assignments/media-types/media-types.xhtml
+«
+/Google.svg	MediaPipe"Fhttps://ai.google.dev/edge/mediapipe/solutions/guide?hl=en#get_started*Ihttps://ai.google.dev/edge/mediapipe/solutions/guide?hl=zh-cn#get_started
 ?
 	/Rust.svgMelior"#*'https://mlir-rs.github.io/melior/melior
 E
@@ -927,11 +929,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -1017,6 +1019,8 @@ f
 	/Oxen.svgOxen"#*qhttps://docs.oxen.io/oxen-docs/using-the-oxen-blockchain/oxen-service-node-guides/setting-up-an-oxen-service-node
 u
 /Packer.svgPacker"#*[https://developer.hashicorp.com/packer/tutorials/docker-get-started/get-started-install-cli
+O
+/Passkeys.svgPasskeys"1https://passkeys.dev/docs/intro/what-are-passkeys*#
 H
 
 /PDFJS.svgPDFJS"#*0https://mozilla.github.io/pdf.js/getting_started
@@ -1402,6 +1406,8 @@ E
 /Wayland.svgWayland"#*)https://wayland.freedesktop.org/docs/html
 \
 /WebAssembly.svgWebAssembly"#*8https://webassembly.org/getting-started/developers-guide
+D
+/WebAuthn.svgWebAuthn"&https://webauthn.guide/#about-webauthn*#
 C
 /W3C.svgWebDriver BiDi"#*$https://w3c.github.io/webdriver-bidi
 L
