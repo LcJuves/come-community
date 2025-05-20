@@ -42,10 +42,10 @@ class FutureDesc {
 
 Future<String> httpRead(Uri uri) async {
   try {
-    final dio = Dio(BaseOptions(
-        connectTimeout: const Duration(milliseconds: 600),
-        receiveTimeout: const Duration(milliseconds: 600),
-        sendTimeout: const Duration(milliseconds: 600)));
+    final dio = Dio(/* BaseOptions(
+        connectTimeout: const Duration(milliseconds: 800),
+        receiveTimeout: const Duration(milliseconds: 800),
+        sendTimeout: const Duration(milliseconds: 800)) */);
     final response = await dio.get(uri.toString());
     return response.data.toString();
   } catch (_) {
