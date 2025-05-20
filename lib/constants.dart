@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'webspec.dart';
 
@@ -20,4 +21,14 @@ abstract final class Constants {
       ? "Enter the search here"
       : "Please enter some information for search";
   static final Color primaryColor = Colors.black.withAlpha(102);
+  static const Color themeColor = Colors.black;
+  static const SystemUiOverlayStyle defaultSystemUiOverlayStyle =
+      SystemUiOverlayStyle(
+          statusBarColor: Colors.transparent,
+          statusBarIconBrightness: Brightness.light,
+          statusBarBrightness: Brightness.light,
+          systemNavigationBarColor: themeColor,
+          systemNavigationBarContrastEnforced: false,
+          systemNavigationBarIconBrightness: Brightness.light,
+          systemStatusBarContrastEnforced: false);
 }

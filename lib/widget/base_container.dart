@@ -1,5 +1,7 @@
 import 'package:devfans/future_data.dart';
+import 'package:devfans/screen/preview_page.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:protobuffers/items.pb.dart';
@@ -62,6 +64,8 @@ class _BaseContainerState extends State<BaseContainer> {
   @override
   Widget build(BuildContext context) {
     final launchUri = Uri.parse(widget._getLaunchUrl());
+    final svgNetworkIcon =
+        SvgNetworkIcon(url: widget._imgUrl, size: Constants.svgIconSize);
     return ClipRRrectBackdropFilter(
       borderRadius: BorderRadius.circular(15),
       child: InkWellContainer(
@@ -69,10 +73,24 @@ class _BaseContainerState extends State<BaseContainer> {
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
         color: Colors.white.withAlpha(204),
-        onTap: () async =>
-            await launchUrl(launchUri, mode: LaunchMode.inAppWebView),
+        onTap: () async {
+          try {
+            if (kIsWeb) {
+              await launchUrl(launchUri, mode: LaunchMode.inAppWebView);
+              return;
+            }
+            await Navigator.of(context).push(MaterialPageRoute(
+              builder: (context) => PreviewPage(
+                  previewUrl: widget._getLaunchUrl(),
+                  svgNetworkIcon: svgNetworkIcon,
+                  title: widget.item.title),
+            ));
+          } catch (_) {
+            await launchUrl(launchUri, mode: LaunchMode.inAppWebView);
+          }
+        },
         child: Row(mainAxisSize: MainAxisSize.min, children: [
-          SvgNetworkIcon(url: widget._imgUrl, size: Constants.svgIconSize),
+          svgNetworkIcon,
           Padding(
             padding: const EdgeInsets.only(left: Constants.titleLeftPadding),
             child: Column(

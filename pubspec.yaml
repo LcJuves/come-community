@@ -43,6 +43,7 @@ dependencies:
   html: ^0.15.5
   dio: ^5.8.0+1
   text_marquee: ^0.0.2
+  webview_all: ^0.5.2
 
 dev_dependencies:
   flutter_test:
