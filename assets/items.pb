@@ -347,6 +347,8 @@ B
 /Docker.svgDocker"#*https://docs.docker.com
 ^
 /DocsyJekyll.svgDocsy Jekyll"#*9https://vsoch.github.io/docsy-jekyll/docs/getting-started
+¹
+/MDN.svgDOM"Shttps://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction*Shttps://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction
 o
 )https://web.lcjuves.com/donate/Alipay.svgDonate to the author"#*)https://web.lcjuves.com/donate/Alipay.svg
 z
@@ -425,6 +427,8 @@ g
 /Flink.svgFlink"Thttps://nightlies.apache.org/flink/flink-docs-release-1.20/docs/learn-flink/overview*Whttps://nightlies.apache.org/flink/flink-docs-release-1.20/zh/docs/learn-flink/overview
 –
 /Flutter.svgFlutter"Ahttps://docs.flutter.dev/get-started/install/macos/mobile-android*:https://docs.flutter.cn/get-started/install/windows/mobile
+J
+/FlutterFlow.svgFlutterFlow"&https://docs.flutterflow.io/quickstart*#
 €
 /FreeBSD.svgFreeBSD"1https://docs.freebsd.org/en/books/handbook/basics*4https://docs.freebsd.org/zh-cn/books/handbook/basics
 q
@@ -683,6 +687,8 @@ Y
 /Space.svgJetBrains Space"#*9https://www.jetbrains.com/help/space/getting-started.html
 »
 /JetpackCompose.svgJetpack Compose"Dhttps://developer.android.com/develop/ui/compose/documentation?hl=en*Mhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
+¦
+/JetpackCompose.svgJetpack XR SDK"=https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=en*@https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=zh-cn
 I
 
 /Jetty.svgJetty"#*1https://jetty.org/docs/jetty/12/programming-guide
@@ -727,6 +733,9 @@ J
 /Kotlin.svgKotlin"#*0https://kotlinlang.org/docs/getting-started.html
 }
 /KotlinMultiplatform.svgKotlin Multiplatform"#*Hhttps://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html
+l
+/Kotlin.svg
+kotlinx-io"Nhttps://github.com/Kotlin/kotlinx-io?tab=readme-ov-file#using-in-your-projects*#
 K
 	/kRPC.svgkRPC"#*5https://kotlin.github.io/kotlinx-rpc/get-started.html
 '
@@ -758,6 +767,8 @@ K
 /Let's%20Encrypt.svgLet's Encrypt"'https://letsencrypt.org/getting-started*-https://letsencrypt.org/zh-cn/getting-started
 S
 /Linux%20Foundation.svgLF Projects"#*(https://www.linuxfoundation.org/projects
+H
+/Liam_ERD.svgLiam ERD"*https://liambx.com/docs#how-to-get-started*#
 6
 	/Rust.svglibc"#* https://docs.rs/libc/latest/libc
 W
@@ -929,11 +940,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
