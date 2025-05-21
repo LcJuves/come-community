@@ -4,24 +4,32 @@ import 'package:flutter/material.dart';
 
 class ClipRRrectBackdropFilter extends StatelessWidget {
   const ClipRRrectBackdropFilter(
-      {super.key, this.child, this.borderRadius = BorderRadius.zero});
+      {super.key,
+      this.child,
+      this.borderRadius = BorderRadius.zero,
+      this.clipper,
+      this.elevation = 3});
 
   final Widget? child;
 
   final BorderRadiusGeometry borderRadius;
+
+  final double? elevation;
+
+  /// If non-null, determines which clip to use.
+  final CustomClipper<RRect>? clipper;
 
   @override
   Widget build(BuildContext context) {
     return Card(
       color: Colors.transparent,
       clipBehavior: Clip.none,
-      elevation: 3,
+      elevation: elevation,
       child: ClipRRect(
-        borderRadius: borderRadius,
-        clipBehavior: Clip.antiAlias,
-        child: BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5), child: child),
-      ),
+          clipper: clipper,
+          borderRadius: borderRadius,
+          child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5), child: child)),
     );
   }
 }

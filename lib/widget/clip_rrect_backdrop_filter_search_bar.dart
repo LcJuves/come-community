@@ -19,43 +19,46 @@ class _ClipRRectBackdropFilterSearchBarState
     extends State<ClipRRrectBackdropFilterSearchBar> {
   @override
   Widget build(BuildContext context) {
-    return ClipRRrectBackdropFilter(
-      borderRadius: BorderRadius.circular(double.maxFinite),
-      child: Padding(
-        padding: const EdgeInsets.only(right: 10),
-        child: Container(
-          constraints: BoxConstraints(
-              maxWidth: ((Constants.urlBoxWidth +
-                          (Constants.baseContainerPadding * 2) +
-                          Constants.titleLeftPadding +
-                          Constants.svgIconSize) *
-                      2) +
-                  widget.singleChildScrollViewSpacing),
-          child: SearchBar(
-            keyboardType: TextInputType.webSearch,
-            elevation: const WidgetStatePropertyAll(2),
-            autoFocus: true,
-            surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
-            leading: Padding(
-              padding: const EdgeInsets.fromLTRB(
-                  10, 10, 10 * Constants.goldenRatio, 10),
-              child: Icon(
-                Icons.search_rounded,
-                color: Constants.primaryColor,
-              ),
+    return Container(
+      decoration: BoxDecoration(
+          color: Colors.transparent,
+          shape: BoxShape.rectangle,
+          borderRadius: BorderRadius.circular(double.maxFinite)),
+      constraints: BoxConstraints(
+          maxWidth: ((Constants.urlBoxWidth +
+                      (Constants.baseContainerPadding * 2) +
+                      Constants.titleLeftPadding +
+                      Constants.svgIconSize +
+                      5) *
+                  2) +
+              widget.singleChildScrollViewSpacing),
+      child: ClipRRrectBackdropFilter(
+        borderRadius:
+            BorderRadius.circular(MediaQuery.of(context).size.longestSide),
+        elevation: 3,
+        child: SearchBar(
+          elevation: const WidgetStatePropertyAll(0),
+          keyboardType: TextInputType.webSearch,
+          autoFocus: true,
+          surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
+          leading: Padding(
+            padding: const EdgeInsets.fromLTRB(
+                10, 10, 10 * Constants.goldenRatio, 10),
+            child: Icon(
+              Icons.search_rounded,
+              color: Constants.primaryColor,
             ),
-            overlayColor: const WidgetStatePropertyAll(Colors.white),
-            textInputAction: TextInputAction.search,
-            shadowColor: const WidgetStatePropertyAll(Colors.transparent),
-            backgroundColor:
-                WidgetStatePropertyAll(Colors.white.withAlpha(204)),
-            hintText: Constants.searchBarHintText,
-            hintStyle: WidgetStatePropertyAll(
-                TextStyle(color: Constants.primaryColor)),
-            textStyle: const WidgetStatePropertyAll(
-                TextStyle(color: Colors.black, fontWeight: FontWeight.w500)),
-            onChanged: widget.onChanged,
           ),
+          overlayColor: const WidgetStatePropertyAll(Colors.white),
+          textInputAction: TextInputAction.search,
+          shadowColor: const WidgetStatePropertyAll(Colors.transparent),
+          backgroundColor: WidgetStatePropertyAll(Colors.white.withAlpha(204)),
+          hintText: Constants.searchBarHintText,
+          hintStyle:
+              WidgetStatePropertyAll(TextStyle(color: Constants.primaryColor)),
+          textStyle: const WidgetStatePropertyAll(
+              TextStyle(color: Colors.black, fontWeight: FontWeight.w500)),
+          onChanged: widget.onChanged,
         ),
       ),
     );

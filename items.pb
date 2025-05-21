@@ -347,6 +347,8 @@ B
 /Docker.svgDocker"#*https://docs.docker.com
 ^
 /DocsyJekyll.svgDocsy Jekyll"#*9https://vsoch.github.io/docsy-jekyll/docs/getting-started
+¹
+/MDN.svgDOM"Shttps://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction*Shttps://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction
 o
 )https://web.lcjuves.com/donate/Alipay.svgDonate to the author"#*)https://web.lcjuves.com/donate/Alipay.svg
 z
@@ -938,11 +940,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html

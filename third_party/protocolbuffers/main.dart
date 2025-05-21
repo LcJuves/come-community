@@ -260,6 +260,16 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/MDN.svg",
+      title: "DOM",
+      enurl:
+          "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
+      cnurl:
+          "https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
       title: "HTTP cookies",
       enurl: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Cookies",
