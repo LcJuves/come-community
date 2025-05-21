@@ -218,6 +218,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/JetpackCompose.svg",
+      title: "Jetpack XR SDK",
+      enurl: "https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=en",
+      cnurl: "https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=zh-cn",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Apache%20Groovy.svg",
       title: "Groovy",
       enurl: "#",

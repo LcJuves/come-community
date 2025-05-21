@@ -685,6 +685,8 @@ Y
 /Space.svgJetBrains Space"#*9https://www.jetbrains.com/help/space/getting-started.html
 »
 /JetpackCompose.svgJetpack Compose"Dhttps://developer.android.com/develop/ui/compose/documentation?hl=en*Mhttps://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn
+¦
+/JetpackCompose.svgJetpack XR SDK"=https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=en*@https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=zh-cn
 I
 
 /Jetty.svgJetty"#*1https://jetty.org/docs/jetty/12/programming-guide
