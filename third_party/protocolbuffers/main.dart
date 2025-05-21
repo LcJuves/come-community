@@ -15,6 +15,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/FlutterFlow.svg",
+      title: "FlutterFlow",
+      enurl: "https://docs.flutterflow.io/quickstart",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Gitpod.svg",
       title: "Gitpod",
       enurl: "#",
@@ -265,6 +273,23 @@ Future main(List<String> args) async {
       title: "Kotlin",
       enurl: "#",
       cnurl: "https://kotlinlang.org/docs/getting-started.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Kotlin.svg",
+      title: "kotlinx-io",
+      enurl:
+          "https://github.com/Kotlin/kotlinx-io?tab=readme-ov-file#using-in-your-projects",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Liam_ERD.svg",
+      title: "Liam ERD",
+      enurl: "https://liambx.com/docs#how-to-get-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
