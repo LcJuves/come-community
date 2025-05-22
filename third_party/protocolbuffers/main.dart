@@ -412,6 +412,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Rust.svg",
+      title: "Miri",
+      enurl: "https://github.com/rust-lang/miri?tab=readme-ov-file#using-miri",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Ray.svg",
       title: "Ray Core",
       enurl: "#",

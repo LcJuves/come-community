@@ -874,6 +874,8 @@ q
 /MinIO.svgMinIO"Yhttps://min.io/docs/minio/container/operations/installation.html#install-and-deploy-minio*#
 @
 /Mintty.svgMintty"#*&https://mintty.github.io/mintty.1.html
+U
+	/Rust.svgMiri"?https://github.com/rust-lang/miri?tab=readme-ov-file#using-miri*#
 S
 /MistralAI.svg
 Mistral AI"#*2https://docs.mistral.ai/getting-started/quickstart
