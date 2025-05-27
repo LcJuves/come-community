@@ -1415,11 +1415,19 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/HMOS.svg",
-      title: "HarmonyOS Developer",
+      title: "HarmonyOS NEXT",
       enurl:
           "https://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5",
       cnurl:
           "https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Coder.svg",
+      title: "Coder",
+      enurl: "https://coder.com/docs/tutorials/quickstart",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1476,6 +1484,23 @@ Future main(List<String> args) async {
       cnurl: "https://docs.rs/git2/latest/git2",
     ),
   );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "vk-video",
+      enurl:
+          "https://github.com/software-mansion/smelter/tree/master/vk-video#usage",
+      cnurl: "#",
+    ),
+  );
+  // itemList.add(
+  //   Item(
+  //     imgUrl: "/Nature.svg",
+  //     title: "Nature",
+  //     enurl: "https://nature-lang.org/docs/get-started",
+  //     cnurl: "https://nature-lang.cn/docs/get-started",
+  //   ),
+  // );
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",

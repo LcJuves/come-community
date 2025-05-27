@@ -238,6 +238,9 @@ I
 /CodeGeeX.svgCodeGeeX"6https://github.com/THUDM/CodeGeeX4/blob/main/README.md*9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 T
 /codeium.svgcodeium"#*8https://docs.codeium.com/getstarted/overview#get-started
+C
+
+/Coder.svgCoder"+https://coder.com/docs/tutorials/quickstart*#
 b
 /OpenAIPlatform.svg	Codex CLI"=https://github.com/openai/codex?tab=readme-ov-file#quickstart*#
 “
@@ -565,8 +568,8 @@ D
 /gVisor.svggVisor"#**https://gvisor.dev/docs/user_guide/install
 µ
 /Apache%20Hadoop.svgHadoop"[https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html*8https://hadoop.apache.org/docs/r1.0.4/cn/quickstart.html
-È
-	/HMOS.svgHarmonyOS Developer"Rhttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5*Rhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5
+Ã
+	/HMOS.svgHarmonyOS NEXT"Rhttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5*Rhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5
 ?
 /Haskell.svgHaskell"#*#https://www.haskell.org/get-started
 }
@@ -942,11 +945,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -1391,6 +1394,8 @@ d
 /VS Code.svgVisual Studio Code"#*=https://code.visualstudio.com/docs/getstarted/getting-started
 D
 	/Vite.svgVite"https://vite.dev/guide*https://cn.vite.dev/guide
+`
+	/Rust.svgvk-video"Fhttps://github.com/software-mansion/smelter/tree/master/vk-video#usage*#
 T
 	/vLLM.svgvLLM">https://docs.vllm.ai/en/stable/getting_started/quickstart.html*#
 W
