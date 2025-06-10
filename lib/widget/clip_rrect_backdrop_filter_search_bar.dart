@@ -1,5 +1,6 @@
 import 'package:devfans/constants.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
+import 'package:devfans/widget/gradient_icon.dart';
 import 'package:flutter/material.dart';
 
 class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
@@ -41,12 +42,11 @@ class _ClipRRectBackdropFilterSearchBarState
           keyboardType: TextInputType.webSearch,
           autoFocus: true,
           surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
-          leading: Padding(
-            padding: const EdgeInsets.fromLTRB(
-                10, 10, 10 * Constants.goldenRatio, 10),
-            child: Icon(
+          leading: const Padding(
+            padding:
+                EdgeInsets.fromLTRB(10, 10, 10 * Constants.goldenRatio, 10),
+            child: GradientIcon(
               Icons.search_rounded,
-              color: Constants.primaryColor,
             ),
           ),
           overlayColor: const WidgetStatePropertyAll(Colors.white),
