@@ -146,7 +146,8 @@ class _BaseContainerState extends State<BaseContainer> {
                                     fontSize:
                                         Constants.captivePortalSvgIconSize,
                                     color: Color.fromARGB(255, 100, 100, 100),
-                                    fontWeight: FontWeight.w500),
+                                    fontWeight: FontWeight.w500,
+                                    fontFamily: "Menlo"),
                                 triggerMode: TooltipTriggerMode.manual,
                                 margin: EdgeInsets.fromLTRB(
                                     widget.singleChildScrollViewSpacing,
