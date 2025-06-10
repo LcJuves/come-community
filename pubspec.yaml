@@ -39,11 +39,11 @@ dependencies:
   url_launcher: ^6.1.12
   protobuffers:
     path: third_party/protocolbuffers
-  web: ^1.1.1
   html: ^0.15.5
   dio: ^5.8.0+1
   text_marquee: ^0.0.2
   webview_all: ^0.5.2
+  universal_web: ^1.1.0+2
 
 dev_dependencies:
   flutter_test:

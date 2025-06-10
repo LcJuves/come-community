@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -16,8 +18,12 @@ abstract final class Constants {
   static const double captivePortalSvgIconMarginRight =
       urlBoxTopPadding + (urlBoxTopPadding * goldenRatio);
   static const int httpOk = 200;
-  static const String svgCommonUrlPrefix = "https://web.lcjuves.com/assets/svg";
-  static final String searchBarHintText = isRunOnMobileWebViewOrBrowser()
+  static const String svgCommonUrlPrefix =
+      "https://fastweb.lcjuves.com/assets/svg";
+  static final String searchBarHintText = (Platform.isAndroid ||
+          Platform.isIOS ||
+          Platform.isFuchsia ||
+          isRunOnMobileWebViewOrBrowser())
       ? "Enter the search here"
       : "Please enter some information for search";
   static final Color primaryColor = Colors.black.withAlpha(102);

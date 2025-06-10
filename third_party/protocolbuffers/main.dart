@@ -1495,6 +1495,15 @@ Future main(List<String> args) async {
   );
   // itemList.add(
   //   Item(
+  //     imgUrl: "/Veryl.svg",
+  //     title: "Veryl",
+  //     enurl:
+  //         "https://doc.veryl-lang.org/book/03_getting_started/01_installation.html",
+  //     cnurl: "#",
+  //   ),
+  // );
+  // itemList.add(
+  //   Item(
   //     imgUrl: "/Nature.svg",
   //     title: "Nature",
   //     enurl: "https://nature-lang.org/docs/get-started",
@@ -1556,6 +1565,14 @@ Future main(List<String> args) async {
       title: "gh-card",
       enurl: "#",
       cnurl: "https://gh-card.dev",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/CodeConvert.svg",
+      title: "CodeConvert",
+      enurl: "https://www.codeconvert.ai/free-converter",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5199,7 +5216,7 @@ Future main(List<String> args) async {
   //     title: "Motion",
   //     cnurl: "https://motion.dev/docs/react-quick-start"));
   // itemList.add(Item(
-  //     imgUrl: "https://web.lcjuves.com/Material-for-MkDocs-Icon.svg",
+  //     imgUrl: "https://fastweb.lcjuves.com/Material-for-MkDocs-Icon.svg",
   //     title: "Material for MkDocs",
   //     cnurl: "https://squidfunk.github.io/mkdocs-material/getting-started"));
   itemList.add(
@@ -5668,10 +5685,10 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "https://web.lcjuves.com/donate/Alipay.svg",
+      imgUrl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
       title: "Donate to the author",
       enurl: "#",
-      cnurl: "https://web.lcjuves.com/donate/Alipay.svg",
+      cnurl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
     ),
   );
   itemList.add(

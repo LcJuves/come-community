@@ -1,22 +1,27 @@
-import 'package:web/web.dart';
+import 'package:flutter/foundation.dart';
+import 'package:universal_web/web.dart';
 
 String getUserAgent() {
   return window.navigator.userAgent.toLowerCase();
 }
 
 bool isRunOnAndroidWebViewOrBrowser() {
-  return getUserAgent().contains("android");
+  return kIsWeb && getUserAgent().contains("android");
 }
 
 bool isRunOnIOSWebViewOrBrowser() {
-  return RegExp(r'iphone|ipad|ipod|ios').hasMatch(getUserAgent());
+  return kIsWeb && RegExp(r'iphone|ipad|ipod|ios').hasMatch(getUserAgent());
 }
 
 bool isRunOnMobileWebViewOrBrowser() {
-  return isRunOnAndroidWebViewOrBrowser() || isRunOnIOSWebViewOrBrowser();
+  return (kIsWeb) &&
+      (isRunOnAndroidWebViewOrBrowser() || isRunOnIOSWebViewOrBrowser());
 }
 
 Future<dynamic> navLangGeoInfo() async {
+  if (!kIsWeb) {
+    return Future.value({'country_code': 'CN'});
+  }
   var language = window.navigator.language;
   if (language.isEmpty || language.toLowerCase().endsWith("cn")) {
     return Future.value({'country_code': 'CN'});
