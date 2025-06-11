@@ -1,14 +1,11 @@
 #!/bin/sh
 
 minify_js() {
-    # bun build "$1" --minify-syntax --minify-whitespace --target browser --outfile "$1"
-    esbuild --minify --loader=js <"$1" >"$1.out"
-    mv "$1.out" "$1"
+    bun build "$1" --minify-syntax --minify-whitespace --target browser --outfile "$1"
 }
 
 minify_css() {
-    esbuild --minify --loader=css <"$1" >"$1.out"
-    mv "$1.out" "$1"
+    bun build "$1" --minify --css-chunking --target browser --outfile "$1"
 }
 
 minify_html() {
@@ -39,7 +36,6 @@ flutter build web --wasm --no-tree-shake-icons --no-native-null-assertions --no-
 
     cd canvaskit || exit
     minify_js canvaskit.js
-    minify_js skwasm_st.js
     minify_js skwasm.js
 
     cd chromium || exit
