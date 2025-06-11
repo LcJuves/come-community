@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -20,9 +21,8 @@ abstract final class Constants {
   static const int httpOk = 200;
   static const String svgCommonUrlPrefix =
       "https://fastweb.lcjuves.com/assets/svg";
-  static final String searchBarHintText = (Platform.isAndroid ||
-          Platform.isIOS ||
-          Platform.isFuchsia ||
+  static final String searchBarHintText = ((!kIsWeb &&
+              (Platform.isAndroid || Platform.isIOS || Platform.isFuchsia)) ||
           isRunOnMobileWebViewOrBrowser())
       ? "Enter the search here"
       : "Please enter some information for search";
@@ -31,10 +31,10 @@ abstract final class Constants {
   static const SystemUiOverlayStyle defaultSystemUiOverlayStyle =
       SystemUiOverlayStyle(
           statusBarColor: Colors.transparent,
-          statusBarIconBrightness: Brightness.light,
-          statusBarBrightness: Brightness.light,
+          statusBarIconBrightness: Brightness.dark,
+          statusBarBrightness: Brightness.dark,
           systemNavigationBarColor: themeColor,
           systemNavigationBarContrastEnforced: false,
-          systemNavigationBarIconBrightness: Brightness.light,
+          systemNavigationBarIconBrightness: Brightness.dark,
           systemStatusBarContrastEnforced: false);
 }

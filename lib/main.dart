@@ -11,9 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
       theme: ThemeData(
-        indicatorColor: const Color.fromARGB(255, 60, 198, 123),
         primaryColor: Colors.white,
         useMaterial3: true,
         fontFamily: 'Menlo',
@@ -21,6 +19,8 @@ class MyApp extends StatelessWidget {
             selectionHandleColor: const Color.fromARGB(255, 60, 198, 123),
             cursorColor: Colors.black.withAlpha(180),
             selectionColor: const Color(0xFFB4D7FF)),
+        tabBarTheme: const TabBarThemeData(
+            indicatorColor: Color.fromARGB(255, 60, 198, 123)),
       ),
       home: const HomePage(),
     );

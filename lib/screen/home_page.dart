@@ -1,6 +1,11 @@
 import 'package:devfans/constants.dart';
 import 'package:devfans/future_data.dart';
+import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
+import 'package:devfans/widget/backdrop_filter_scaffold.dart';
+import 'package:devfans/widget/base_container.dart';
+import 'package:devfans/widget/clip_rrect_backdrop_filter_search_bar.dart';
+import 'package:devfans/widget/snapshot_error_text.dart';
 import 'package:devfans/widget/temp_tip.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -50,6 +55,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   late Future<FutureData> futureData;
+  List<Item>? _loadedItems;
 
   @override
   void initState() {
@@ -67,10 +73,7 @@ class _HomePageState extends State<HomePage> {
     return Stack(
       children: [
         AnimatedWallpaperContainer(),
-        const TempTip(
-          singleChildScrollViewSpacing: singleChildScrollViewSpacing,
-        )
-        /* BackdropFilterScaffold(
+        BackdropFilterScaffold(
           backgroundColor: Colors.transparent,
           body: FutureBuilder<FutureData>(
             future: futureData,
@@ -150,7 +153,11 @@ class _HomePageState extends State<HomePage> {
               return const AdaptiveCircularProgressBar();
             },
           ),
-        ) */
+        ),
+        const Visibility(
+            child: TempTip(
+          singleChildScrollViewSpacing: singleChildScrollViewSpacing,
+        ))
       ],
     );
   }

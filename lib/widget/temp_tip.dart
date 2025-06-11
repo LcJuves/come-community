@@ -1,6 +1,9 @@
 import 'dart:ui';
 
+import 'package:devfans/constants.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class TempTip extends StatelessWidget {
   const TempTip(
@@ -19,6 +22,10 @@ class TempTip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (!kIsWeb) {
+      SystemChrome.setSystemUIOverlayStyle(
+          Constants.defaultSystemUiOverlayStyle);
+    }
     return BackdropFilter(
         filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
         child: Scaffold(
@@ -36,7 +43,7 @@ class TempTip extends StatelessWidget {
                           color: Colors.white)),
                   Text("How are you?",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 25,
                           fontWeight: FontWeight.bold,
                           color: Colors.white))
                 ],
