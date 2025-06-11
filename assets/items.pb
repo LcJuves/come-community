@@ -232,12 +232,17 @@ W
 /CocoaPods.svg	CocoaPods"#*7https://guides.cocoapods.org/using/getting-started.html
 W
 /__CodeOSS.svgCode OSS"#*8https://github.com/LcJuves/vscode/wiki/How-to-Contribute
+M
+/CodeConvert.svgCodeConvert")https://www.codeconvert.ai/free-converter*#
 I
 /CodeCrafters.svgCodeCrafters"#https://app.codecrafters.io/catalog*#
 Œ
 /CodeGeeX.svgCodeGeeX"6https://github.com/THUDM/CodeGeeX4/blob/main/README.md*9https://github.com/THUDM/CodeGeeX4/blob/main/README_zh.md
 T
 /codeium.svgcodeium"#*8https://docs.codeium.com/getstarted/overview#get-started
+C
+
+/Coder.svgCoder"+https://coder.com/docs/tutorials/quickstart*#
 b
 /OpenAIPlatform.svg	Codex CLI"=https://github.com/openai/codex?tab=readme-ov-file#quickstart*#
 “
@@ -349,8 +354,8 @@ B
 /DocsyJekyll.svgDocsy Jekyll"#*9https://vsoch.github.io/docsy-jekyll/docs/getting-started
 ¹
 /MDN.svgDOM"Shttps://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction*Shttps://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction
-o
-)https://web.lcjuves.com/donate/Alipay.svgDonate to the author"#*)https://web.lcjuves.com/donate/Alipay.svg
+w
+-https://fastweb.lcjuves.com/donate/Alipay.svgDonate to the author"#*-https://fastweb.lcjuves.com/donate/Alipay.svg
 z
 	/IANA.svgDoQ Error Codes"Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes*#
 A
@@ -565,8 +570,8 @@ D
 /gVisor.svggVisor"#**https://gvisor.dev/docs/user_guide/install
 µ
 /Apache%20Hadoop.svgHadoop"[https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html*8https://hadoop.apache.org/docs/r1.0.4/cn/quickstart.html
-È
-	/HMOS.svgHarmonyOS Developer"Rhttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5*Rhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5
+Ã
+	/HMOS.svgHarmonyOS NEXT"Rhttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5*Rhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5
 ?
 /Haskell.svgHaskell"#*#https://www.haskell.org/get-started
 }
@@ -874,6 +879,8 @@ q
 /MinIO.svgMinIO"Yhttps://min.io/docs/minio/container/operations/installation.html#install-and-deploy-minio*#
 @
 /Mintty.svgMintty"#*&https://mintty.github.io/mintty.1.html
+U
+	/Rust.svgMiri"?https://github.com/rust-lang/miri?tab=readme-ov-file#using-miri*#
 S
 /MistralAI.svg
 Mistral AI"#*2https://docs.mistral.ai/getting-started/quickstart
@@ -1389,6 +1396,8 @@ d
 /VS Code.svgVisual Studio Code"#*=https://code.visualstudio.com/docs/getstarted/getting-started
 D
 	/Vite.svgVite"https://vite.dev/guide*https://cn.vite.dev/guide
+`
+	/Rust.svgvk-video"Fhttps://github.com/software-mansion/smelter/tree/master/vk-video#usage*#
 T
 	/vLLM.svgvLLM">https://docs.vllm.ai/en/stable/getting_started/quickstart.html*#
 W
