@@ -41,7 +41,7 @@ class TempTip extends StatelessWidget {
                           fontSize: 80,
                           fontWeight: FontWeight.bold,
                           color: Colors.white)),
-                  Text("How are you?",
+                  Text("What's wrong with you?",
                       style: TextStyle(
                           fontSize: 25,
                           fontWeight: FontWeight.bold,
@@ -53,3 +53,4 @@ class TempTip extends StatelessWidget {
         ));
   }
 }
+
