@@ -947,11 +947,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -1381,6 +1381,8 @@ H
 /Microsoft.svgUWP"ahttps://learn.microsoft.com/zh-cn/windows/uwp/get-started/create-a-hello-world-app-xaml-universal*ahttps://learn.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-xaml-universal
 >
 	/Vala.svgVala"#*(https://docs.vala.dev/installation-guide
+=
+/Valkey.svgValkey"#https://valkey.io/topics/quickstart*#
 L
 
 /Vapor.svgVapor"#*4https://docs.vapor.codes/getting-started/hello-world

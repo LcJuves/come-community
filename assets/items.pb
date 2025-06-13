@@ -1381,6 +1381,8 @@ H
 /Microsoft.svgUWP"ahttps://learn.microsoft.com/zh-cn/windows/uwp/get-started/create-a-hello-world-app-xaml-universal*ahttps://learn.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-xaml-universal
 >
 	/Vala.svgVala"#*(https://docs.vala.dev/installation-guide
+=
+/Valkey.svgValkey"#https://valkey.io/topics/quickstart*#
 L
 
 /Vapor.svgVapor"#*4https://docs.vapor.codes/getting-started/hello-world
