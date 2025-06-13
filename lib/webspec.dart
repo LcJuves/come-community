@@ -18,6 +18,17 @@ bool isRunOnMobileWebViewOrBrowser() {
       (isRunOnAndroidWebViewOrBrowser() || isRunOnIOSWebViewOrBrowser());
 }
 
+Uri getWindowLocationUri() {
+  return Uri.parse(window.location.href);
+}
+
+bool letTempTipVisible() {
+  if (!kIsWeb) {
+    return false;
+  }
+  return !(getWindowLocationUri().host.endsWith("lcjuves.com"));
+}
+
 Future<dynamic> navLangGeoInfo() async {
   if (!kIsWeb) {
     return Future.value({'country_code': 'CN'});

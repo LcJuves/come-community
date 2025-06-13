@@ -1,5 +1,6 @@
 import 'package:devfans/constants.dart';
 import 'package:devfans/future_data.dart';
+import 'package:devfans/webspec.dart';
 import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
@@ -157,9 +158,9 @@ class _HomePageState extends State<HomePage> {
             },
           ),
         ),
-        const Visibility(
-            visible: !kDebugMode,
-            child: TempTip(
+        Visibility(
+            visible: !kDebugMode && letTempTipVisible(),
+            child: const TempTip(
               singleChildScrollViewSpacing: singleChildScrollViewSpacing,
             ))
       ],
