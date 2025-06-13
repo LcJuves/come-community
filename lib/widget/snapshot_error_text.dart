@@ -13,17 +13,14 @@ class SnapshotErrorText extends StatelessWidget {
   Widget build(BuildContext context) {
     return BackdropFilter(
       filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
-      child: SizedBox(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
+      child: OverflowBox(
+        alignment: Alignment.topLeft,
         child: Padding(
           padding: const EdgeInsets.all(Constants.edgePadding),
-          child: SelectionArea(
-              child: Text(
-            '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
-            textAlign: TextAlign.center,
-            style: const TextStyle(color: Colors.white, fontSize: 18),
-          )),
+          child: SelectableText(
+              '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
+              textAlign: TextAlign.start,
+              style: const TextStyle(color: Colors.white, fontSize: 18)),
         ),
       ),
     );

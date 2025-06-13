@@ -25,24 +25,24 @@ class _ClipRRectBackdropFilterSearchBarState
     extends State<ClipRRrectBackdropFilterSearchBar> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: widget.margin,
-      decoration: BoxDecoration(
-          color: Colors.transparent,
-          shape: BoxShape.rectangle,
-          borderRadius: BorderRadius.circular(double.maxFinite)),
-      constraints: BoxConstraints(
-          maxWidth: ((Constants.urlBoxWidth +
-                      (Constants.baseContainerPadding * 2) +
-                      Constants.titleLeftPadding +
-                      Constants.svgIconSize +
-                      5) *
-                  2) +
-              widget.singleChildScrollViewSpacing),
-      child: ClipRRrectBackdropFilter(
-        borderRadius:
-            BorderRadius.circular(MediaQuery.of(context).size.longestSide),
-        elevation: 0,
+    final searchBarMaxWidth = ((Constants.urlBoxWidth +
+                (Constants.baseContainerPadding * 2) +
+                Constants.titleLeftPadding +
+                Constants.svgIconSize +
+                5) *
+            2) +
+        widget.singleChildScrollViewSpacing;
+    return ClipRRrectBackdropFilter(
+      margin: EdgeInsets.only(
+          left: widget.singleChildScrollViewSpacing,
+          right: widget.singleChildScrollViewSpacing),
+      borderRadius:
+          BorderRadius.circular(MediaQuery.of(context).size.longestSide),
+      elevation: 0,
+      child: Container(
+        margin:
+            const EdgeInsets.all(Constants.edgePadding * Constants.goldenRatio),
+        constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
         child: SearchBar(
           elevation: const WidgetStatePropertyAll(0),
           keyboardType: TextInputType.webSearch,
