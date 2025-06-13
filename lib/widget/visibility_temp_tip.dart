@@ -1,18 +1,17 @@
-import 'dart:ui';
-
 import 'package:devfans/constants.dart';
+import 'package:devfans/webspec.dart';
+import 'package:devfans/widget/backdrop_filter_scaffold.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class TempTip extends StatelessWidget {
-  const TempTip(
+class VisibilityTempTip extends StatelessWidget {
+  const VisibilityTempTip(
       {super.key,
       this.body,
       this.backgroundColor = Colors.transparent,
-      this.singleChildScrollViewSpacing = 0});
-
-  final double sigma = 6.18;
+      this.singleChildScrollViewSpacing = 0,
+      this.fetchedGeoInfo});
 
   final Widget? body;
 
@@ -20,15 +19,23 @@ class TempTip extends StatelessWidget {
 
   final double singleChildScrollViewSpacing;
 
+  final dynamic fetchedGeoInfo;
+
   @override
   Widget build(BuildContext context) {
     if (!kIsWeb) {
       SystemChrome.setSystemUIOverlayStyle(
           Constants.defaultSystemUiOverlayStyle);
     }
-    return BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
-        child: Scaffold(
+    return Visibility(
+        visible: (fetchedGeoInfo != null &&
+                ("${fetchedGeoInfo['region']}".toLowerCase() ==
+                        "Shandong".toLowerCase() ||
+                    "${fetchedGeoInfo['region']}".toLowerCase() ==
+                        "Jiangxi".toLowerCase())) ||
+            (!kDebugMode && letTempTipVisible()),
+        child: BackdropFilterScaffold(
+          sigma: 6.18,
           backgroundColor: backgroundColor,
           body: Container(
             padding: EdgeInsets.all(singleChildScrollViewSpacing),
@@ -53,4 +60,3 @@ class TempTip extends StatelessWidget {
         ));
   }
 }
-

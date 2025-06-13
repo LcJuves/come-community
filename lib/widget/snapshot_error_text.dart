@@ -1,23 +1,30 @@
+import 'dart:ui';
+
 import 'package:devfans/constants.dart';
 import 'package:flutter/material.dart';
 
 class SnapshotErrorText extends StatelessWidget {
   final AsyncSnapshot asyncSnapshot;
-  const SnapshotErrorText({super.key, required this.asyncSnapshot});
+  final double sigma;
+  const SnapshotErrorText(
+      {super.key, required this.asyncSnapshot, this.sigma = 6.18});
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height,
-      child: Padding(
-        padding: const EdgeInsets.all(Constants.edgePadding),
-        child: SelectionArea(
-            child: Text(
-          '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
-          textAlign: TextAlign.center,
-          style: const TextStyle(color: Colors.white, fontSize: 18),
-        )),
+    return BackdropFilter(
+      filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
+      child: SizedBox(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        child: Padding(
+          padding: const EdgeInsets.all(Constants.edgePadding),
+          child: SelectionArea(
+              child: Text(
+            '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
+            textAlign: TextAlign.center,
+            style: const TextStyle(color: Colors.white, fontSize: 18),
+          )),
+        ),
       ),
     );
   }

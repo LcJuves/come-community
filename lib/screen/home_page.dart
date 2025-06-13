@@ -7,7 +7,7 @@ import 'package:devfans/widget/backdrop_filter_scaffold.dart';
 import 'package:devfans/widget/base_container.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter_search_bar.dart';
 import 'package:devfans/widget/snapshot_error_text.dart';
-import 'package:devfans/widget/temp_tip.dart';
+import 'package:devfans/widget/visibility_temp_tip.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -86,12 +86,13 @@ class _HomePageState extends State<HomePage> {
               }
               if (snapshot.hasData) {
                 final fetchedData = snapshot.data!;
+                final fetchedGeoInfo = fetchedData.fetchedGeoInfo;
                 final filteredFetchedItems =
                     List.of(fetchedData.fetchedItems.where((item) {
                   if (item.currentlyOnlySupportsChinese &&
-                      fetchedData.fetchedGeoInfo['country_code'] != "CN") {
+                      fetchedGeoInfo['country_code'] != "CN") {
                     // Let people who know English gradually understand Chinese culture
-                    return fetchedData.fetchedGeoInfo['country_code'] == "EN";
+                    return fetchedGeoInfo['country_code'] == "EN";
                   }
                   return true;
                 }));
@@ -149,6 +150,11 @@ class _HomePageState extends State<HomePage> {
                         },
                       ),
                     ),
+                    VisibilityTempTip(
+                      fetchedGeoInfo: fetchedGeoInfo,
+                      singleChildScrollViewSpacing:
+                          singleChildScrollViewSpacing,
+                    )
                   ],
                 );
               }
@@ -157,12 +163,7 @@ class _HomePageState extends State<HomePage> {
               return const AdaptiveCircularProgressBar();
             },
           ),
-        ),
-        Visibility(
-            visible: !kDebugMode && letTempTipVisible(),
-            child: const TempTip(
-              singleChildScrollViewSpacing: singleChildScrollViewSpacing,
-            ))
+        )
       ],
     );
   }

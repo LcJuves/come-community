@@ -4,7 +4,8 @@ import 'package:devfans/constants.dart';
 import 'package:flutter/material.dart';
 
 class AdaptiveCircularProgressBar extends StatelessWidget {
-  const AdaptiveCircularProgressBar({super.key});
+  final double sigma;
+  const AdaptiveCircularProgressBar({super.key, this.sigma = 6.18});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +16,7 @@ class AdaptiveCircularProgressBar extends StatelessWidget {
     final circularProgressEdgePadding =
         circularProgressSize - (circularProgressSize * Constants.goldenRatio);
     return BackdropFilter(
-      filter: ImageFilter.blur(sigmaX: 6.18, sigmaY: 6.18),
+      filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
       child: Center(
           child: SizedBox(
         width: circularProgressSize,
