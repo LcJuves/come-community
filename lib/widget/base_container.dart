@@ -35,7 +35,7 @@ class BaseContainer extends StatefulWidget {
   double _textBoxDynamicWidth(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     final usableWidth = screenWidth -
-        (Constants.edgePadding * 2) -
+        (singleChildScrollViewSpacing * 2) -
         (Constants.baseContainerPadding * 2) -
         Constants.svgIconSize -
         (Constants.titleLeftPadding * 2);

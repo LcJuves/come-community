@@ -5,11 +5,16 @@ import 'package:flutter/material.dart';
 
 class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
   const ClipRRrectBackdropFilterSearchBar(
-      {super.key, this.onChanged, required this.singleChildScrollViewSpacing});
+      {super.key,
+      this.onChanged,
+      required this.singleChildScrollViewSpacing,
+      this.margin});
 
   final ValueChanged<String>? onChanged;
 
   final double singleChildScrollViewSpacing;
+
+  final EdgeInsetsGeometry? margin;
 
   @override
   State<ClipRRrectBackdropFilterSearchBar> createState() =>
@@ -21,6 +26,7 @@ class _ClipRRectBackdropFilterSearchBarState
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: widget.margin,
       decoration: BoxDecoration(
           color: Colors.transparent,
           shape: BoxShape.rectangle,
@@ -36,7 +42,7 @@ class _ClipRRectBackdropFilterSearchBarState
       child: ClipRRrectBackdropFilter(
         borderRadius:
             BorderRadius.circular(MediaQuery.of(context).size.longestSide),
-        elevation: 3,
+        elevation: 0,
         child: SearchBar(
           elevation: const WidgetStatePropertyAll(0),
           keyboardType: TextInputType.webSearch,

@@ -94,59 +94,62 @@ class _HomePageState extends State<HomePage> {
                   }
                   return true;
                 }));
+
                 _loadedItems ??= filteredFetchedItems;
-                return SingleChildScrollView(
-                    scrollDirection: Axis.vertical,
-                    padding: const EdgeInsets.fromLTRB(
-                        Constants.edgePadding,
-                        singleChildScrollViewSpacing,
-                        Constants.edgePadding,
-                        singleChildScrollViewSpacing),
-                    child: Column(
-                      children: [
-                        ClipRRrectBackdropFilterSearchBar(
-                          singleChildScrollViewSpacing:
-                              singleChildScrollViewSpacing,
-                          onChanged: (value) async {
-                            final filteredItemsIterable = _loadedItems!.where(
-                                (item) =>
-                                    item.title
-                                        .toLowerCase()
-                                        .contains(value.toLowerCase()) ||
-                                    item.enurl.contains(value) ||
-                                    item.cnurl.contains(value));
-                            setState(() {
-                              futureData = Future.value(FutureData(
-                                  items: List.of(filteredItemsIterable),
-                                  geoInfo: fetchedData.fetchedGeoInfo,
-                                  captivePortalSvg:
-                                      fetchedData.captivePortalSvg));
-                            });
-                          },
+                return Stack(
+                  children: [
+                    SingleChildScrollView(
+                      scrollDirection: Axis.vertical,
+                      padding:
+                          const EdgeInsets.all(singleChildScrollViewSpacing),
+                      child: Center(
+                          child: Wrap(
+                        spacing: singleChildScrollViewSpacing,
+                        runSpacing: singleChildScrollViewSpacing,
+                        direction: Axis.horizontal,
+                        children: filteredFetchedItems
+                            .map(
+                              (i) => BaseContainer(
+                                item: i,
+                                geoInfo: fetchedData.fetchedGeoInfo,
+                                captivePortalSvg: fetchedData.captivePortalSvg,
+                                singleChildScrollViewSpacing:
+                                    singleChildScrollViewSpacing,
+                              ),
+                            )
+                            .toList(),
+                      )),
+                    ),
+                    Align(
+                      alignment: Alignment.bottomCenter,
+                      child: ClipRRrectBackdropFilterSearchBar(
+                        margin: const EdgeInsets.only(
+                          left: singleChildScrollViewSpacing,
+                          right: singleChildScrollViewSpacing,
+                          bottom: Constants.edgePadding,
                         ),
-                        const SizedBox(
-                          height: singleChildScrollViewSpacing,
-                        ),
-                        Center(
-                            child: Wrap(
-                          spacing: singleChildScrollViewSpacing,
-                          runSpacing: singleChildScrollViewSpacing,
-                          direction: Axis.horizontal,
-                          children: filteredFetchedItems
-                              .map(
-                                (i) => BaseContainer(
-                                  item: i,
-                                  geoInfo: fetchedData.fetchedGeoInfo,
-                                  captivePortalSvg:
-                                      fetchedData.captivePortalSvg,
-                                  singleChildScrollViewSpacing:
-                                      singleChildScrollViewSpacing,
-                                ),
-                              )
-                              .toList(),
-                        ))
-                      ],
-                    ));
+                        singleChildScrollViewSpacing:
+                            singleChildScrollViewSpacing,
+                        onChanged: (value) async {
+                          final filteredItemsIterable = _loadedItems!.where(
+                              (item) =>
+                                  item.title
+                                      .toLowerCase()
+                                      .contains(value.toLowerCase()) ||
+                                  item.enurl.contains(value) ||
+                                  item.cnurl.contains(value));
+                          setState(() {
+                            futureData = Future.value(FutureData(
+                                items: List.of(filteredItemsIterable),
+                                geoInfo: fetchedData.fetchedGeoInfo,
+                                captivePortalSvg:
+                                    fetchedData.captivePortalSvg));
+                          });
+                        },
+                      ),
+                    ),
+                  ],
+                );
               }
 
               // By default, show a loading circular progress bar.
@@ -155,9 +158,10 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         const Visibility(
+            visible: !kDebugMode,
             child: TempTip(
-          singleChildScrollViewSpacing: singleChildScrollViewSpacing,
-        ))
+              singleChildScrollViewSpacing: singleChildScrollViewSpacing,
+            ))
       ],
     );
   }
