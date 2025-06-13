@@ -1825,6 +1825,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Valkey.svg",
+      title: "Valkey",
+      enurl: "https://valkey.io/topics/quickstart",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/LLVM.svg",
       title: "LLVM",
       enurl: "#",
