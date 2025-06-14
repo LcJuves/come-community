@@ -112,21 +112,29 @@ class _HomePageState extends State<HomePage> {
                       padding:
                           const EdgeInsets.all(singleChildScrollViewSpacing),
                       child: Center(
-                          child: Wrap(
-                        spacing: singleChildScrollViewSpacing,
-                        runSpacing: singleChildScrollViewSpacing,
-                        direction: Axis.horizontal,
-                        children: filteredFetchedItems
-                            .map(
-                              (i) => BaseContainer(
-                                item: i,
-                                geoInfo: fetchedData.fetchedGeoInfo,
-                                captivePortalSvg: fetchedData.captivePortalSvg,
-                                singleChildScrollViewSpacing:
-                                    singleChildScrollViewSpacing,
-                              ),
-                            )
-                            .toList(),
+                          child: Padding(
+                        padding: const EdgeInsets.only(
+                            bottom: ((singleChildScrollViewSpacing * 3) *
+                                    Constants.goldenRatio) +
+                                (Constants.edgePadding *
+                                    Constants.goldenRatio)),
+                        child: Wrap(
+                          spacing: singleChildScrollViewSpacing,
+                          runSpacing: singleChildScrollViewSpacing,
+                          direction: Axis.horizontal,
+                          children: filteredFetchedItems
+                              .map(
+                                (i) => BaseContainer(
+                                  item: i,
+                                  geoInfo: fetchedData.fetchedGeoInfo,
+                                  captivePortalSvg:
+                                      fetchedData.captivePortalSvg,
+                                  singleChildScrollViewSpacing:
+                                      singleChildScrollViewSpacing,
+                                ),
+                              )
+                              .toList(),
+                        ),
                       )),
                     ),
                     Align(
