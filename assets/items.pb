@@ -11,8 +11,8 @@ D
 /ActixWeb.svg	Actix Web"#*%https://actix.rs/docs/getting-started
 è
 /Android.svgADPF"7https://developer.android.com/games/optimize/adpf?hl=en*@https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn
-N
-/AFFiNE.svgAFFiNE"#*4https://docs.affine.pro/docs/development/quick-start
+|
+/AFFiNE.svgAFFiNE"bhttps://docs.affine.pro/self-host-affine/install/docker-compose-recommend#docker-compose-recommend*#
 X
 /A2A.svgAgent2Agent"<https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a*#
 ;
@@ -340,6 +340,8 @@ U
 /DevContainer.svgDev Containers"#*-https://containers.dev/implementors/templates
 Ñ
 /Huawei%20DevEco%20Studio.svgDevEco Studio"ihttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2*ihttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/installation_process-0000001071425528-V2
+z
+/DevToys.svgDevToys"^https://devtoys.app/doc/articles/extension-development/getting-started/setup.html?tabs=windows*#
 B
 /Diesel.svgDiesel"#*(https://diesel.rs/guides/getting-started
 ó
