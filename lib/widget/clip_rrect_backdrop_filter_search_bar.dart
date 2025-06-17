@@ -1,6 +1,9 @@
+import 'dart:io';
+
 import 'package:devfans/constants.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:devfans/widget/gradient_icon.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
@@ -28,14 +31,17 @@ class _ClipRRectBackdropFilterSearchBarState
     final searchBarMaxWidth = ((Constants.urlBoxWidth +
                 (Constants.baseContainerPadding * 2) +
                 Constants.titleLeftPadding +
-                Constants.svgIconSize +
-                5) *
+                Constants.svgIconSize -
+                (Constants.edgePadding * Constants.goldenRatio)) *
             2) +
         widget.singleChildScrollViewSpacing;
     return ClipRRrectBackdropFilter(
       margin: EdgeInsets.only(
           left: widget.singleChildScrollViewSpacing,
-          right: widget.singleChildScrollViewSpacing),
+          right: widget.singleChildScrollViewSpacing,
+          bottom: !kIsWeb && Platform.isIOS
+              ? (Constants.edgePadding * Constants.goldenRatio)
+              : MediaQuery.of(context).padding.bottom),
       borderRadius:
           BorderRadius.circular(MediaQuery.of(context).size.longestSide),
       elevation: 0,

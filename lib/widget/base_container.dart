@@ -100,10 +100,11 @@ class _BaseContainerState extends State<BaseContainer> {
                 SizedBox(
                   width: widget._textBoxDynamicWidth(context),
                   child: Text(widget.item.title,
-                      style: const TextStyle(
-                          fontSize: 18.84,
+                      style: TextStyle(
+                          fontSize:
+                              MediaQuery.textScalerOf(context).scale(18.84),
                           fontWeight: FontWeight.bold,
-                          color: Color.fromARGB(255, 60, 60, 60)),
+                          color: const Color.fromARGB(255, 60, 60, 60)),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis),
                 ),

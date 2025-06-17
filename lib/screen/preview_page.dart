@@ -1,6 +1,8 @@
 import 'package:devfans/constants.dart';
 import 'package:devfans/widget/svg_network_icon.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:webview_all/webview_all.dart';
 
 class PreviewPage extends StatefulWidget {
@@ -20,9 +22,18 @@ class PreviewPage extends StatefulWidget {
 class _PreviewPageState extends State<PreviewPage> {
   @override
   Widget build(BuildContext context) {
+    if (!kIsWeb) {
+      SystemChrome.setSystemUIOverlayStyle(
+          Constants.defaultSystemUiOverlayStyle.copyWith(
+        statusBarBrightness: Brightness.light,
+        statusBarIconBrightness: Brightness.light,
+        systemNavigationBarColor: Colors.white,
+        systemNavigationBarIconBrightness: Brightness.light,
+      ));
+    }
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(
+      /* appBar: AppBar(
         backgroundColor: Colors.white,
         leading: IconButton(
             onPressed: () async => await Navigator.maybePop(context),
@@ -61,8 +72,13 @@ class _PreviewPageState extends State<PreviewPage> {
             onPressed: () {},
           ), */
         ],
+      ), */
+      body: Padding(
+        padding: EdgeInsets.only(
+            top: MediaQuery.of(context).padding.top,
+            bottom: MediaQuery.of(context).padding.bottom),
+        child: Webview(url: widget.previewUrl),
       ),
-      body: Webview(url: widget.previewUrl),
     );
   }
 }

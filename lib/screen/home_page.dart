@@ -4,6 +4,7 @@ import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
 import 'package:devfans/widget/base_container.dart';
+import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter_search_bar.dart';
 import 'package:devfans/widget/snapshot_error_text.dart';
 import 'package:devfans/widget/visibility_temp_tip.dart';
@@ -113,7 +114,8 @@ class _HomePageState extends State<HomePage> {
                           const EdgeInsets.all(singleChildScrollViewSpacing),
                       child: Center(
                           child: Padding(
-                        padding: const EdgeInsets.only(
+                        padding: EdgeInsets.only(
+                            top: MediaQuery.of(context).padding.top,
                             bottom: ((singleChildScrollViewSpacing * 3) *
                                     Constants.goldenRatio) +
                                 (Constants.edgePadding *
@@ -165,11 +167,24 @@ class _HomePageState extends State<HomePage> {
                         },
                       ),
                     ),
+                    Align(
+                      alignment: Alignment.topCenter,
+                      child: ClipRRrectBackdropFilter(
+                        elevation: 0,
+                        width: MediaQuery.of(context).size.width,
+                        height: MediaQuery.of(context).padding.top,
+                        child: OverflowBox(
+                          child: Container(
+                            color: Colors.black.withAlpha(20),
+                          ),
+                        ),
+                      ),
+                    ),
                     VisibilityTempTip(
                       fetchedGeoInfo: fetchedGeoInfo,
                       singleChildScrollViewSpacing:
                           singleChildScrollViewSpacing,
-                    )
+                    ),
                   ],
                 );
               }

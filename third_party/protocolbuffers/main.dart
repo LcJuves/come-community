@@ -5016,8 +5016,9 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/AFFiNE.svg",
       title: "AFFiNE",
-      enurl: "#",
-      cnurl: "https://docs.affine.pro/docs/development/quick-start",
+      enurl:
+          "https://docs.affine.pro/self-host-affine/install/docker-compose-recommend#docker-compose-recommend",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5716,6 +5717,15 @@ Future main(List<String> args) async {
       title: "IT - TOOLS",
       enurl: "#",
       cnurl: "https://it-tools.tech",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/DevToys.svg",
+      title: "DevToys",
+      enurl:
+          "https://devtoys.app/doc/articles/extension-development/getting-started/setup.html?tabs=windows",
+      cnurl: "#",
     ),
   );
   itemList.add(

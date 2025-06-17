@@ -25,7 +25,7 @@ abstract final class Constants {
               (Platform.isAndroid || Platform.isIOS || Platform.isFuchsia)) ||
           isRunOnMobileWebViewOrBrowser())
       ? "Enter the search here"
-      : "Please enter some information for search";
+      : "Please enter some information here for search";
   static final Color primaryColor = Colors.black.withAlpha(102);
   static const Color themeColor = Colors.black;
   static const SystemUiOverlayStyle defaultSystemUiOverlayStyle =
