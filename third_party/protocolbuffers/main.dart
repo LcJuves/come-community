@@ -1171,6 +1171,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Tombi.svg",
+      title: "Tombi",
+      enurl: "https://tombi-toml.github.io/tombi/docs/installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Swift.svg",
       title: "Swift",
       enurl:
