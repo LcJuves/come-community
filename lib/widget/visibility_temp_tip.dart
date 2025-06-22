@@ -32,7 +32,9 @@ class VisibilityTempTip extends StatelessWidget {
                 ("${fetchedGeoInfo['region']}".toLowerCase() ==
                         "Shandong".toLowerCase() ||
                     "${fetchedGeoInfo['region']}".toLowerCase() ==
-                        "Jiangxi".toLowerCase())) ||
+                        "Jiangxi".toLowerCase() ||
+                    "${fetchedGeoInfo['region']}".toLowerCase() ==
+                        "Guangdong".toLowerCase())) ||
             (!kDebugMode && letTempTipVisible()),
         child: BackdropFilterScaffold(
           sigma: 6.18,
