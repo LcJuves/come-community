@@ -1322,6 +1322,9 @@ C
 
 /tokio.svgTokio"#*+https://tokio.rs/tokio/tutorial/hello-tokio
 L
+
+/Tombi.svgTombi"4https://tombi-toml.github.io/tombi/docs/installation*#
+L
 /Apache%20Tomcat.svgTomcat"#*)https://tomcat.apache.org/tomcat-11.0-doc
 9
 	/TOML.svgTOML"https://toml.io/en*https://toml.io/cn
