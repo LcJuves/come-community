@@ -949,11 +949,11 @@ F
 /Nim.svgNim"#*'https://nim-lang.org/documentation.html
 _
 /NodeJS.svgNodeJS"#*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 Z
 
 /NumPy.svgNumPy"#*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart
+9
+	/Rust.svgnumpy"#*"https://docs.rs/numpy/latest/numpy
 T
 
 /NuttX.svgNuttX"#*<https://nuttx.apache.org/docs/latest/quickstart/install.html
@@ -1144,6 +1144,8 @@ J
 	/Rust.svgreqwest"#*https://docs.rs/reqwest/latest
 @
 /linebender.svgresvg"#*#https://github.com/linebender/resvg
+G
+/Rig.svgRig"3https://docs.rig.rs/docs/quickstart/getting_started*#
 6
 /RISC-V.svgRISC-V"#*https://riscv.org/developers
 j
