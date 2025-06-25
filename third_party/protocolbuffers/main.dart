@@ -1601,6 +1601,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Rig.svg",
+      title: "Rig",
+      enurl: "https://docs.rig.rs/docs/quickstart/getting_started",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Packer.svg",
       title: "Packer",
       enurl: "#",
