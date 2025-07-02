@@ -42,8 +42,6 @@ class VisibilityTempTip extends StatelessWidget {
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Liaoning".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Henan".toLowerCase() ||
-                  "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Shanghai".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Beijing".toLowerCase())) ||
