@@ -51,14 +51,16 @@ class _ClipRRectBackdropFilterSearchBarState
             2) +
         widget.singleChildScrollViewSpacing;
     final screenWidth = MediaQuery.of(context).size.width;
-    final oneCardWidth =
-        _textBoxDynamicWidth(context, widget.singleChildScrollViewSpacing) +
-            (Constants.baseContainerPadding * 2) +
-            Constants.titleLeftPadding +
-            Constants.svgIconSize -
-            (Constants.edgePadding * Constants.goldenRatio);
-    final marginHorizontal =
-        (screenWidth - oneCardWidth - widget.blurContainerPadding) / 2;
+    final textBoxDynamicWidth =
+        _textBoxDynamicWidth(context, widget.singleChildScrollViewSpacing);
+    final oneCardWidth = textBoxDynamicWidth +
+        (Constants.baseContainerPadding * 2) +
+        Constants.titleLeftPadding +
+        Constants.svgIconSize -
+        (Constants.edgePadding * Constants.goldenRatio);
+    final double marginHorizontal = textBoxDynamicWidth == Constants.urlBoxWidth
+        ? widget.singleChildScrollViewSpacing
+        : (screenWidth - oneCardWidth - widget.blurContainerPadding) / 2;
     return ClipRRrectBackdropFilter(
       margin: widget.margin ??
           EdgeInsets.only(

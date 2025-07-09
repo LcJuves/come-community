@@ -111,9 +111,8 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     SingleChildScrollView(
                       scrollDirection: Axis.vertical,
-                      padding: const EdgeInsets.only(
-                          top: singleChildScrollViewSpacing,
-                          bottom: singleChildScrollViewSpacing),
+                      padding:
+                          const EdgeInsets.all(singleChildScrollViewSpacing),
                       child: Center(
                           child: Padding(
                         padding: EdgeInsets.only(
