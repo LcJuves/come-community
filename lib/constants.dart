@@ -8,8 +8,10 @@ import 'webspec.dart';
 
 abstract final class Constants {
   static const double goldenRatio = 0.618;
-  static const double edgePadding = 22;
-  static const double baseContainerPadding = edgePadding * goldenRatio;
+  static const double balancePadding = 4;
+  static const double edgePadding = 20 - balancePadding;
+  static const double baseContainerPadding =
+      (edgePadding + balancePadding) * goldenRatio;
   static const double svgIconSize = 55.2;
   static const double titleLeftPadding = baseContainerPadding * 2 * goldenRatio;
   static const double urlBoxTopPadding =

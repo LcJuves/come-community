@@ -13,6 +13,8 @@ class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
       required this.singleChildScrollViewSpacing,
       this.margin});
 
+  final blurContainerPadding = Constants.edgePadding * Constants.goldenRatio;
+
   final ValueChanged<String>? onChanged;
 
   final double singleChildScrollViewSpacing;
@@ -22,6 +24,19 @@ class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
   @override
   State<ClipRRrectBackdropFilterSearchBar> createState() =>
       _ClipRRectBackdropFilterSearchBarState();
+}
+
+double _textBoxDynamicWidth(
+    BuildContext context, double singleChildScrollViewSpacing) {
+  final screenWidth = MediaQuery.of(context).size.width;
+  final usableWidth = screenWidth -
+      (singleChildScrollViewSpacing * 2) -
+      (Constants.baseContainerPadding * 2) -
+      Constants.svgIconSize -
+      (Constants.titleLeftPadding * 2);
+  return usableWidth < Constants.urlBoxWidth
+      ? usableWidth
+      : Constants.urlBoxWidth;
 }
 
 class _ClipRRectBackdropFilterSearchBarState
@@ -35,19 +50,28 @@ class _ClipRRectBackdropFilterSearchBarState
                 (Constants.edgePadding * Constants.goldenRatio)) *
             2) +
         widget.singleChildScrollViewSpacing;
+    final screenWidth = MediaQuery.of(context).size.width;
+    final oneCardWidth =
+        _textBoxDynamicWidth(context, widget.singleChildScrollViewSpacing) +
+            (Constants.baseContainerPadding * 2) +
+            Constants.titleLeftPadding +
+            Constants.svgIconSize -
+            (Constants.edgePadding * Constants.goldenRatio);
+    final marginHorizontal =
+        (screenWidth - oneCardWidth - widget.blurContainerPadding) / 2;
     return ClipRRrectBackdropFilter(
-      margin: EdgeInsets.only(
-          left: widget.singleChildScrollViewSpacing,
-          right: widget.singleChildScrollViewSpacing,
-          bottom: !kIsWeb && Platform.isIOS
-              ? (Constants.edgePadding * Constants.goldenRatio)
-              : MediaQuery.of(context).padding.bottom),
+      margin: widget.margin ??
+          EdgeInsets.only(
+              left: marginHorizontal,
+              right: marginHorizontal,
+              bottom: !kIsWeb && Platform.isIOS
+                  ? widget.blurContainerPadding
+                  : MediaQuery.of(context).padding.bottom),
       borderRadius:
           BorderRadius.circular(MediaQuery.of(context).size.longestSide),
       elevation: 0,
       child: Container(
-        margin:
-            const EdgeInsets.all(Constants.edgePadding * Constants.goldenRatio),
+        margin: EdgeInsets.all(widget.blurContainerPadding),
         constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
         child: SearchBar(
           elevation: const WidgetStatePropertyAll(0),

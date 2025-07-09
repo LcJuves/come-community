@@ -26,7 +26,8 @@ bool letTempTipVisible() {
   if (!kIsWeb) {
     return false;
   }
-  return !(getWindowLocationUri().host.endsWith("lcjuves.com"));
+  return !(getWindowLocationUri().host.startsWith(RegExp("[0-9]"))) &&
+      !(getWindowLocationUri().host.endsWith("lcjuves.com"));
 }
 
 Future<dynamic> navLangGeoInfo() async {

@@ -67,10 +67,11 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    const singleChildScrollViewSpacing =
-        ((Constants.edgePadding + Constants.baseContainerPadding) *
-                Constants.goldenRatio) +
-            (Constants.titleLeftPadding * Constants.goldenRatio);
+    const singleChildScrollViewSpacing = ((Constants.edgePadding +
+                Constants.balancePadding +
+                Constants.baseContainerPadding) *
+            Constants.goldenRatio) +
+        (Constants.titleLeftPadding * Constants.goldenRatio);
     return Stack(
       children: [
         AnimatedWallpaperContainer(),
@@ -110,8 +111,9 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     SingleChildScrollView(
                       scrollDirection: Axis.vertical,
-                      padding:
-                          const EdgeInsets.all(singleChildScrollViewSpacing),
+                      padding: const EdgeInsets.only(
+                          top: singleChildScrollViewSpacing,
+                          bottom: singleChildScrollViewSpacing),
                       child: Center(
                           child: Padding(
                         padding: EdgeInsets.only(
@@ -142,11 +144,6 @@ class _HomePageState extends State<HomePage> {
                     Align(
                       alignment: Alignment.bottomCenter,
                       child: ClipRRrectBackdropFilterSearchBar(
-                        margin: const EdgeInsets.only(
-                          left: singleChildScrollViewSpacing,
-                          right: singleChildScrollViewSpacing,
-                          bottom: Constants.edgePadding,
-                        ),
                         singleChildScrollViewSpacing:
                             singleChildScrollViewSpacing,
                         onChanged: (value) async {
