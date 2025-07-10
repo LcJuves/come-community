@@ -99,14 +99,15 @@ class _BaseContainerState extends State<BaseContainer> {
               children: [
                 SizedBox(
                   width: widget._textBoxDynamicWidth(context),
-                  child: Text(widget.item.title,
-                      style: TextStyle(
-                          fontSize:
-                              MediaQuery.textScalerOf(context).scale(18.84),
-                          fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 60, 60, 60)),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis),
+                  child: TextMarquee(
+                    widget.item.title,
+                    style: TextStyle(
+                        fontSize: MediaQuery.textScalerOf(context).scale(18.84),
+                        fontWeight: FontWeight.bold,
+                        foreground: Paint()
+                          ..blendMode = BlendMode.dstOut
+                          ..color = const Color.fromARGB(255, 60, 60, 60)),
+                  ),
                 ),
                 Padding(
                   padding:
@@ -124,7 +125,7 @@ class _BaseContainerState extends State<BaseContainer> {
                               child: SvgPicture.string(
                                   colorFilter: const ColorFilter.mode(
                                       Color.fromARGB(255, 100, 100, 100),
-                                      BlendMode.srcIn),
+                                      BlendMode.srcATop),
                                   widget.captivePortalSvg),
                             ),
                             const SizedBox.square(
@@ -143,12 +144,15 @@ class _BaseContainerState extends State<BaseContainer> {
                                   borderRadius: BorderRadius.circular(
                                       (Constants.goldenRatio * 10) * 2),
                                 ),
-                                textStyle: const TextStyle(
+                                textStyle: TextStyle(
                                     fontSize:
                                         Constants.captivePortalSvgIconSize,
-                                    color: Color.fromARGB(255, 100, 100, 100),
                                     fontWeight: FontWeight.w500,
-                                    fontFamily: "Menlo"),
+                                    fontFamily: "Menlo",
+                                    foreground: Paint()
+                                      ..blendMode = BlendMode.srcOut
+                                      ..color = const Color.fromARGB(
+                                          255, 100, 100, 100)),
                                 triggerMode: TooltipTriggerMode.manual,
                                 margin: EdgeInsets.fromLTRB(
                                     widget.singleChildScrollViewSpacing,
@@ -167,11 +171,14 @@ class _BaseContainerState extends State<BaseContainer> {
                                   futureDesc.desc.isNotEmpty
                                       ? futureDesc.desc
                                       : launchUri.host,
-                                  style: const TextStyle(
+                                  style: TextStyle(
                                       fontSize:
                                           Constants.captivePortalSvgIconSize,
-                                      color: Color.fromARGB(255, 100, 100, 100),
-                                      fontWeight: FontWeight.w500),
+                                      fontWeight: FontWeight.w500,
+                                      foreground: Paint()
+                                        ..blendMode = BlendMode.dstOut
+                                        ..color = const Color.fromARGB(
+                                            255, 100, 100, 100)),
                                 ),
                               ),
                             )

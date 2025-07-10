@@ -8,7 +8,7 @@ import 'webspec.dart';
 
 abstract final class Constants {
   static const double goldenRatio = 0.618;
-  static const double balancePadding = 4;
+  static const double balancePadding = 4.5;
   static const double edgePadding = 20 - balancePadding;
   static const double baseContainerPadding =
       (edgePadding + balancePadding) * goldenRatio;

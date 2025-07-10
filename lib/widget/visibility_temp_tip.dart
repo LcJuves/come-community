@@ -1,5 +1,7 @@
 import 'package:devfans/constants.dart';
+import 'package:devfans/webspec.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
+import 'package:devfans/widget/blend_mode_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -8,7 +10,7 @@ class VisibilityTempTip extends StatelessWidget {
   const VisibilityTempTip({
     super.key,
     this.body,
-    this.backgroundColor = Colors.transparent,
+    this.backgroundColor,
     this.singleChildScrollViewSpacing = 0,
     this.fetchedGeoInfo,
   });
@@ -29,7 +31,7 @@ class VisibilityTempTip extends StatelessWidget {
       );
     }
     return Visibility(
-      visible: (fetchedGeoInfo != null &&
+      visible: (fetchedGeoInfo == null ||
               ("${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Shandong".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
@@ -44,67 +46,78 @@ class VisibilityTempTip extends StatelessWidget {
                       "Shanghai".toLowerCase())) ||
           (!kDebugMode && letTempTipVisible()),
       child: BackdropFilterScaffold(
-        sigma: 6.18,
-        backgroundColor: backgroundColor,
-        body: Container(
-          padding: EdgeInsets.all(singleChildScrollViewSpacing),
-          child: const Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "Hello",
-                  style: TextStyle(
-                    fontSize: 80,
+        sigma: 6.18 / 2,
+        backgroundColor: backgroundColor ?? Colors.white.withAlpha(132),
+        body: Center(
+          child: SingleChildScrollView(
+            scrollDirection: Axis.vertical,
+            padding: EdgeInsets.all(singleChildScrollViewSpacing),
+            child: const Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  BlendModeText(
+                    "Hello",
+                    fontSize: 75,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    blendMode: BlendMode.difference,
+                    foregroundPaintColor: Colors.white,
                   ),
-                ),
-                Text(
-                  "What's wrong with you?",
-                  style: TextStyle(
-                    fontSize: 25,
+                  BlendModeText(
+                    "What's wrong with you?",
+                    fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    blendMode: BlendMode.difference,
+                    foregroundPaintColor: Colors.white,
                   ),
-                ),
-                Text(
-                  """People in a simulation game, 8 billion people around the world only need to pay the author enough money for financial freedom, and the author will solve it!
+                  BlendModeText(
+                    """People in a simulation game, 8 billion people around the world only need to pay the author enough money for financial freedom, and the author will solve it!
 This may be considered as the best solution at present. Please use your VISA card to transfer money directly to the number `881017378957`, get rid of it~
 
 Or you can scan the following QR code with Alipay, thank you:
 
-
-    █▀▀▀▀▀█ █▄█▄ █▄ ▀ █▄▄ ▄  █  █▀▀▄▄ █▀▀▀▀▀█
-    █ ███ █ ██▀▄  ▀▀▄█▀█ ▄ ▄██ ▀ ▀▀ ▄ █ ███ █
-    █ ▀▀▀ █ ▄▀ ▄█▀▄▄▀▄▄▀▄███▄ █▀  █▄▀ █ ▀▀▀ █
-    ▀▀▀▀▀▀▀ ▀▄█ █ ▀ ▀▄▀▄█▄█▄▀ ▀▄█▄█ █ ▀▀▀▀▀▀▀
-    ██▄ ▀█▀▄▄█ ▄▀▀▄█ █▀ ▀██▀▀▀ ▄▀█    ▄█▄▀███
-    █   █ ▀██▄▀███▀▀▀ ▀ █▀█▀ ▀██ █▀ ▀▀▄  ▄ ██
-     ▄▀▀█▀▀▀█  ▀▄█▄ ▀ ▄█▄ ▀  ██▀▀▄▄ ▄▀ ▄█  █▄
-    █▄  █▀▀  ▄▄█▀ ██▄▄  ▀█▀▄▀▀██ █▄ ▀ ▄▀▄▀ ▄█
-    ▀█▀ ▀█▀ ▄▄▄▄██  ▄▀▀▀▄▀▀█▀ ▀█▄██▀▀▀▄▄▄█▄█▄
-    ▄ ▄▀▄▀▀█▄▄▄██ ▄█▀█▄ ▀▀▄█▀▀▀▀ █▄ ▄▀██▀▄ ██
-    █▀██▀█▀▄▄▀▄▀▀█▀▀▄ ▀▄▀▀▄ ▄▄▄█▀▄▄▄▀▄▄ ▄  ▄▄
-    ▄█  ▀█▀▀▀██ ▄▀▀ ▀█ █▄█▄▄▄ ▄█▀▄▀ ▀▀▄ ▄▄ ▄█
-    ▄▄▄▄▀█▀  ▄▄█▄▀▄█▄█▀  ▄█▀▀▄▄▄▀▀▄ ▀█▄█▄██▄█
-    ▀ ▀█▀▄▀▀▀▄▄███▀▀▄ ▀▄▀▀██  █▀ █▄ ▀ ▄ █▀▀▀█
-    ▄▄ ▀█▄▀    ▀▄▀▄▀▀▄▄█▄▄▀▀▄  █▄▀▀█▀▄▄▀▄▄  ▄
-      ▀▀  ▀ ██▄█▀▀██▄██ ▀███   ▀▀▄▄ ▄▄█ ▄█ ▄▀
-    ▀▀▀▀ ▀▀▀▄▄▀▄▄█ ▄▄▀█▀▀ █▄ ▄▄▄ █▄▄█▀▀▀██▀█▀
-    █▀▀▀▀▀█ ▄▄▀▀█ ▄▀▄█▄ ▄██▀█ ▀█ ████ ▀ █ ▀▄█
-    █ ███ █ ▀█▀ ▀█▀ ▄▄▀▄▀▄   ▄██ █▀█▀▀▀▀▀█▄█▀
-    █ ▀▀▀ █ ▄▀▄ ▄▀  ▀█▀█▄▄██▀ ▄█ ▄█▀█▀ ▀▄▀ ▄█
-    ▀▀▀▀▀▀▀ ▀ ▀▀   ▀▀   ▀▀▀  ▀ ▀ ▀ ▀▀▀ ▀   ▀
-
 """,
-                  style: TextStyle(
-                    fontSize: 11,
+                    fontSize: 13,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    blendMode: BlendMode.difference,
+                    foregroundPaintColor: Colors.white,
                   ),
-                )
-              ],
+                  BlendModeText(
+                    """
+█▀▀▀▀▀█ █▄█▄ █▄ ▀ █▄▄ ▄  █  █▀▀▄▄ █▀▀▀▀▀█
+█ ███ █ ██▀▄  ▀▀▄█▀█ ▄ ▄██ ▀ ▀▀ ▄ █ ███ █
+█ ▀▀▀ █ ▄▀ ▄█▀▄▄▀▄▄▀▄███▄ █▀  █▄▀ █ ▀▀▀ █
+▀▀▀▀▀▀▀ ▀▄█ █ ▀ ▀▄▀▄█▄█▄▀ ▀▄█▄█ █ ▀▀▀▀▀▀▀
+██▄ ▀█▀▄▄█ ▄▀▀▄█ █▀ ▀██▀▀▀ ▄▀█    ▄█▄▀███
+█   █ ▀██▄▀███▀▀▀ ▀ █▀█▀ ▀██ █▀ ▀▀▄  ▄ ██
+ ▄▀▀█▀▀▀█  ▀▄█▄ ▀ ▄█▄ ▀  ██▀▀▄▄ ▄▀ ▄█  █▄
+█▄  █▀▀  ▄▄█▀ ██▄▄  ▀█▀▄▀▀██ █▄ ▀ ▄▀▄▀ ▄█
+▀█▀ ▀█▀ ▄▄▄▄██  ▄▀▀▀▄▀▀█▀ ▀█▄██▀▀▀▄▄▄█▄█▄
+▄ ▄▀▄▀▀█▄▄▄██ ▄█▀█▄ ▀▀▄█▀▀▀▀ █▄ ▄▀██▀▄ ██
+█▀██▀█▀▄▄▀▄▀▀█▀▀▄ ▀▄▀▀▄ ▄▄▄█▀▄▄▄▀▄▄ ▄  ▄▄
+▄█  ▀█▀▀▀██ ▄▀▀ ▀█ █▄█▄▄▄ ▄█▀▄▀ ▀▀▄ ▄▄ ▄█
+▄▄▄▄▀█▀  ▄▄█▄▀▄█▄█▀  ▄█▀▀▄▄▄▀▀▄ ▀█▄█▄██▄█
+▀ ▀█▀▄▀▀▀▄▄███▀▀▄ ▀▄▀▀██  █▀ █▄ ▀ ▄ █▀▀▀█
+▄▄ ▀█▄▀    ▀▄▀▄▀▀▄▄█▄▄▀▀▄  █▄▀▀█▀▄▄▀▄▄  ▄
+  ▀▀  ▀ ██▄█▀▀██▄██ ▀███   ▀▀▄▄ ▄▄█ ▄█ ▄▀
+▀▀▀▀ ▀▀▀▄▄▀▄▄█ ▄▄▀█▀▀ █▄ ▄▄▄ █▄▄█▀▀▀██▀█▀
+█▀▀▀▀▀█ ▄▄▀▀█ ▄▀▄█▄ ▄██▀█ ▀█ ████ ▀ █ ▀▄█
+█ ███ █ ▀█▀ ▀█▀ ▄▄▀▄▀▄   ▄██ █▀█▀▀▀▀▀█▄█▀
+█ ▀▀▀ █ ▄▀▄ ▄▀  ▀█▀█▄▄██▀ ▄█ ▄█▀█▀ ▀▄▀ ▄█
+▀▀▀▀▀▀▀ ▀ ▀▀   ▀▀   ▀▀▀  ▀ ▀ ▀ ▀▀▀ ▀   ▀
+
+                                                 
+""",
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    height: 0,
+                    wordSpacing: 0,
+                    letterSpacing: 0,
+                    blendMode: BlendMode.difference,
+                    foregroundPaintColor: Colors.white,
+                  )
+                ],
+              ),
             ),
           ),
         ),

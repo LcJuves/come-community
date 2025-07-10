@@ -7,6 +7,7 @@ class BackdropFilterScaffold extends StatelessWidget {
       {super.key,
       this.body,
       this.backgroundColor = Colors.transparent,
+      this.blendMode = BlendMode.srcOver,
       this.sigma = 0.3,
       this.appBar});
 
@@ -16,6 +17,8 @@ class BackdropFilterScaffold extends StatelessWidget {
 
   final Color? backgroundColor;
 
+  final BlendMode blendMode;
+
   /// An app bar to display at the top of the scaffold.
   final PreferredSizeWidget? appBar;
 
@@ -23,6 +26,7 @@ class BackdropFilterScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     return BackdropFilter(
         filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
+        blendMode: blendMode,
         child: Scaffold(
           appBar: appBar,
           backgroundColor: backgroundColor,

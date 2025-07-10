@@ -44,6 +44,7 @@ dependencies:
   text_marquee: ^0.0.2
   webview_all: ^0.5.2
   universal_web: ^1.1.0+2
+  amicons: ^1.0.1
 
 dev_dependencies:
   flutter_test:

@@ -92,10 +92,15 @@ class _ClipRRectBackdropFilterSearchBarState
           shadowColor: const WidgetStatePropertyAll(Colors.transparent),
           backgroundColor: WidgetStatePropertyAll(Colors.white.withAlpha(204)),
           hintText: Constants.searchBarHintText,
-          hintStyle:
-              WidgetStatePropertyAll(TextStyle(color: Constants.primaryColor)),
-          textStyle: const WidgetStatePropertyAll(
-              TextStyle(color: Colors.black, fontWeight: FontWeight.w500)),
+          hintStyle: WidgetStatePropertyAll(TextStyle(
+              foreground: Paint()
+                ..blendMode = BlendMode.multiply
+                ..color = Constants.primaryColor)),
+          textStyle: WidgetStatePropertyAll(TextStyle(
+              fontWeight: FontWeight.w500,
+              foreground: Paint()
+                ..blendMode = BlendMode.multiply
+                ..color = Colors.black)),
           onChanged: widget.onChanged,
         ),
       ),
