@@ -1231,33 +1231,33 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Swift.svg",
       title: "SwiftPM",
-      enurl: "#",
-      cnurl: "https://www.swift.org/getting-started/cli-swiftpm",
+      enurl: "https://www.swift.org/getting-started/cli-swiftpm",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Swift.svg",
       title: "Swift for TensorFlow",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://github.com/tensorflow/swift/blob/main/README.md#getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Elixir.svg",
       title: "Elixir",
-      enurl: "#",
-      cnurl: "https://hexdocs.pm/elixir/introduction.html",
+      enurl: "https://hexdocs.pm/elixir/introduction.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Bun.svg",
       title: "Bun",
-      enurl: "#",
-      cnurl: "https://bun.sh/docs/quickstart",
+      enurl: "https://bun.sh/docs/quickstart",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1272,8 +1272,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Apple.svg",
       title: "Objective-C Runtime",
-      enurl: "#",
-      cnurl: "https://developer.apple.com/documentation/objectivec",
+      enurl: "https://developer.apple.com/documentation/objectivec",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1289,51 +1289,60 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/WebAssembly.svg",
       title: "WebAssembly",
-      enurl: "#",
-      cnurl: "https://webassembly.org/getting-started/developers-guide",
+      enurl: "https://webassembly.org/getting-started/developers-guide",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/WebAssembly.svg",
       title: "WAMR",
-      enurl: "#",
-      cnurl: "https://wamr.gitbook.io/document/basics/getting-started",
+      enurl: "https://wamr.gitbook.io/document/basics/getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/BytecodeAlliance.svg",
       title: "wasm-tools",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://github.com/bytecodealliance/wasm-tools?tab=readme-ov-file#wasm-tools",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Slint.svg",
       title: "Slint",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://docs.slint.dev/latest/docs/slint/tutorial/getting_started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Java.svg",
       title: "TeaVM",
-      enurl: "#",
-      cnurl: "https://teavm.org/docs/intro/getting-started.html",
+      enurl: "https://teavm.org/docs/intro/getting-started.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Google.svg",
       title: "J2CL/Wasm",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://github.com/google/j2cl/blob/master/docs/getting-started-j2wasm.md",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Google.svg",
+      title: "Gemini CLI",
+      enurl:
+          "https://github.com/google-gemini/gemini-cli?tab=readme-ov-file#quickstart",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1383,8 +1392,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Google.svg",
       title: "ANGLE",
-      enurl: "#",
-      cnurl: "https://chromium.googlesource.com/angle/angle/+/main/README.md",
+      enurl: "https://chromium.googlesource.com/angle/angle/+/main/README.md",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1408,16 +1417,16 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/reactbits.svg",
       title: "reactbits",
-      enurl: "#",
-      cnurl: "https://www.reactbits.dev/text-animations/split-text",
+      enurl: "https://www.reactbits.dev/text-animations/split-text",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/ContainerSSH.svg",
       title: "ContainerSSH",
-      enurl: "#",
-      cnurl: "https://containerssh.io/v0.5/getting-started",
+      enurl: "https://containerssh.io/v0.5/getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1460,8 +1469,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Nginx.svg",
       title: "Nginx",
-      enurl: "#",
-      cnurl: "https://nginx.org/en/docs/beginners_guide.html",
+      enurl: "https://nginx.org/en/docs/beginners_guide.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1483,13 +1492,14 @@ Future main(List<String> args) async {
   // itemList.add(Item(
   //     imgUrl: "/libgit2.svg",
   //     title: "libgit2",
-  //     cnurl: "https://libgit2.org/docs/reference/main"));
+  //     enurl: "https://libgit2.org/docs/reference/main",
+  //     cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
       title: "git2-rs",
-      enurl: "#",
-      cnurl: "https://docs.rs/git2/latest/git2",
+      enurl: "https://docs.rs/git2/latest/git2",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1522,16 +1532,16 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "capnpc",
-      enurl: "#",
-      cnurl: "https://docs.rs/capnpc/latest/capnpc",
+      enurl: "https://docs.rs/capnpc/latest/capnpc",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
       title: "Cap’n Proto Runtime",
-      enurl: "#",
-      cnurl: "https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library",
+      enurl: "https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1562,17 +1572,17 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GitHub.svg",
       title: "Actions Runner Images",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://github.com/actions/runner-images/blob/main/docs/create-image-and-azure-resources.md#github-actions-runner-images",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/GitHub.svg",
       title: "gh-card",
-      enurl: "#",
-      cnurl: "https://gh-card.dev",
+      enurl: "https://gh-card.dev",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3027,6 +3037,14 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GTK.svg",
       title: "GTK",
+      enurl: "https://www.gtk.org/docs/getting-started",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GTK.svg",
+      title: "gtk-kn",
       enurl: "#",
       cnurl: "https://www.gtk.org/docs/getting-started",
     ),
@@ -3051,8 +3069,41 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Servo.svg",
       title: "Servo",
-      enurl: "#",
-      cnurl: "https://book.servo.org/getting-servo.html",
+      enurl: "https://book.servo.org/getting-servo.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Wa.svg",
+      title: "Wa",
+      enurl: "https://wa-lang.org/tutorial",
+      cnurl: "https://wa-lang.org/tutorial",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "ZLUDA",
+      enurl: "https://github.com/vosen/ZLUDA?tab=readme-ov-file#usage",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "shields.rs",
+      enurl:
+          "https://github.com/Jannchie/shields.rs?tab=readme-ov-file#usage-example",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Pot.svg",
+      title: "Pot",
+      enurl: "https://pot-app.com/en/docs/#user-guide",
+      cnurl: "https://pot-app.com/docs/#%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97",
     ),
   );
   itemList.add(
@@ -3063,6 +3114,15 @@ Future main(List<String> args) async {
           "https://docs.openharmony.cn/pages/v5.0/en/device-dev/quick-start/quickstart-overview.md",
       cnurl:
           "https://docs.openharmony.cn/pages/v5.0/zh-cn/device-dev/quick-start/quickstart-overview.md",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OpenHarmony.svg",
+      title: "Flutter for OpenHarmony",
+      enurl:
+          "https://gitcode.com/openharmony-tpc/flutter_samples/blob/master/ohos/docs/03_environment/openHarmony-flutter%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E6%8C%87%E5%AF%BC.md",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3203,62 +3263,76 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Deepin.svg",
+      title: "linyaps",
+      enurl:
+          "https://linyaps.org.cn/en/guide/start/install.html#install-linyaps",
+      cnurl:
+          "https://linyaps.org.cn/guide/start/install.html#%E5%AE%89%E8%A3%85%E5%A6%82%E6%84%8F%E7%8E%B2%E7%8F%91",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/QEMU.svg",
       title: "QEMU",
-      enurl: "#",
-      cnurl: "https://www.qemu.org/docs/master",
+      enurl: "https://www.qemu.org/docs/master",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/NVIDIA.svg",
       title: "NVVM IR",
-      enurl: "#",
-      cnurl: "https://docs.nvidia.com/cuda/nvvm-ir-spec",
+      enurl: "https://docs.nvidia.com/cuda/nvvm-ir-spec",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/NVIDIA.svg",
       title: "NVVM ABI for PTX",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://docs.nvidia.com/cuda/nvvm-ir-spec/index.html#nvvm-abi-for-ptx",
+      cnurl: "#",
     ),
   );
   itemList.add(
-    Item(imgUrl: "/UEFI.svg", title: "UEFI", cnurl: "https://uefi.org/uefi"),
+    Item(
+        imgUrl: "/UEFI.svg",
+        title: "UEFI",
+        enurl: "https://uefi.org/uefi",
+        cnurl: "#"),
   );
   itemList.add(
     Item(
       imgUrl: "/Grok.svg",
       title: "xAI Grok",
-      enurl: "#",
-      cnurl: "https://github.com/xai-org/grok-1",
+      enurl: "https://github.com/xai-org/grok-1",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/LangChain.svg",
       title: "LangChain",
-      enurl: "#",
-      cnurl: "https://js.langchain.com/docs/how_to",
+      enurl: "https://js.langchain.com/docs/how_to",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/NVIDIA.svg",
       title: "CUDA",
-      enurl: "#",
-      cnurl: "https://docs.nvidia.com/cuda/cuda-quick-start-guide",
+      enurl: "https://docs.nvidia.com/cuda/cuda-quick-start-guide",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/MooreThreads.svg",
       title: "MT-Transformer-vLLM",
-      enurl: "#",
-      cnurl: "https://docs.mthreads.com/mtt/mtt-doc-online/quick_start",
+      enurl: "https://docs.mthreads.com/mtt/mtt-doc-online/quick_start",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3273,33 +3347,33 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/NVIDIA.svg",
       title: "CUDA-GDB",
-      enurl: "#",
-      cnurl: "https://docs.nvidia.com/cuda/cuda-gdb/index.html#getting-started",
+      enurl: "https://docs.nvidia.com/cuda/cuda-gdb/index.html#getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/NVIDIA.svg",
       title: "Cosmos",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/KasmWorkspaces.svg",
       title: "Kasm Workspaces",
-      enurl: "#",
-      cnurl: "https://kasmweb.com/docs/latest/index.html#getting-started",
+      enurl: "https://kasmweb.com/docs/latest/index.html#getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/WireGuard.svg",
       title: "WireGuard",
-      enurl: "#",
-      cnurl: "https://www.wireguard.com/quickstart",
+      enurl: "https://www.wireguard.com/quickstart",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3311,7 +3385,11 @@ Future main(List<String> args) async {
     ),
   );
   itemList.add(
-    Item(imgUrl: "/YAML.svg", title: "YAML", cnurl: "https://yaml.org"),
+    Item(
+        imgUrl: "/YAML.svg",
+        title: "YAML",
+        enurl: "https://yaml.org",
+        cnurl: "#"),
   );
   itemList.add(
     Item(
@@ -3325,40 +3403,40 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Nim.svg",
       title: "Nim",
-      enurl: "#",
-      cnurl: "https://nim-lang.org/documentation.html",
+      enurl: "https://nim-lang.org/documentation.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Haskell.svg",
       title: "Haskell",
-      enurl: "#",
-      cnurl: "https://www.haskell.org/get-started",
+      enurl: "https://www.haskell.org/get-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Bitcoin.svg",
       title: "Bitcoin",
-      enurl: "#",
-      cnurl: "https://developer.bitcoin.org/devguide/index.html",
+      enurl: "https://developer.bitcoin.org/devguide/index.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/WinterCG.svg",
       title: "WinterTC",
-      enurl: "#",
-      cnurl: "https://wintertc.org/work",
+      enurl: "https://wintertc.org/work",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Exercism.svg",
       title: "Exercism",
-      enurl: "#",
-      cnurl: "https://exercism.org/tracks",
+      enurl: "https://exercism.org/tracks",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3390,6 +3468,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/GitHub.svg",
+      title: "Karakum",
+      enurl:
+          "https://github.com/karakum-team/karakum/blob/master/docs/guides/Basic_usage.md",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Playwright.svg",
       title: "Playwright MCP",
       enurl:
@@ -3410,8 +3497,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Flameshot.svg",
       title: "Flameshot",
-      enurl: "#",
-      cnurl: "https://flameshot.org/docs/overview/overview",
+      enurl: "https://flameshot.org/docs/overview/overview",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -3522,6 +3609,15 @@ Future main(List<String> args) async {
           "https://learn.microsoft.com/en-us/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170",
       cnurl:
           "https://learn.microsoft.com/zh-cn/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Microsoft.svg",
+      title: "Injectorpp for rust",
+      enurl:
+          "https://github.com/microsoft/injectorppforrust?tab=readme-ov-file#usage",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -4147,6 +4243,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Geany.svg",
+      title: "Geany",
+      enurl: "https://www.geany.org/manual/current/index.html#getting-started",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Prometheus.svg",
       title: "Prometheus",
       enurl: "#",
@@ -4621,6 +4725,31 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "extfn",
+      enurl: "https://docs.rs/extfn/latest/extfn",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "thread-priority",
+      enurl: "https://docs.rs/thread-priority/latest/thread_priority/#usage",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Haylxon",
+      enurl:
+          "https://github.com/pwnwriter/haylxon/?tab=readme-ov-file#hxn-in-action-",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "bitflags",
       enurl: "#",
       cnurl: "https://github.com/bitflags/bitflags?tab=readme-ov-file#usage",
@@ -4681,6 +4810,14 @@ Future main(List<String> args) async {
       title: "Zig StdLib",
       enurl: "#",
       cnurl: "https://ziglang.org/documentation/0.14.0/std",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ZIG.svg",
+      title: "zigup",
+      enurl: "https://github.com/marler8997/zigup?tab=readme-ov-file#usage",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5066,8 +5203,16 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/FVM.svg",
       title: "FVM",
-      enurl: "#",
-      cnurl: "https://fvm.app/documentation/guides/basic-commands",
+      enurl: "https://fvm.app/documentation/guides/basic-commands",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Puro.svg",
+      title: "Puro",
+      enurl: "https://puro.dev/#quick-start",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5082,8 +5227,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Continue.svg",
       title: "Continue",
-      enurl: "#",
-      cnurl: "https://docs.continue.dev/getting-started",
+      enurl: "https://docs.continue.dev/getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5122,25 +5267,25 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/LOKINET.svg",
       title: "LOKINET",
-      enurl: "#",
-      cnurl: "https://www.lokinet.org/faq",
+      enurl: "https://www.lokinet.org/faq",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Oxen.svg",
       title: "Oxen",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://docs.oxen.io/oxen-docs/using-the-oxen-blockchain/oxen-service-node-guides/setting-up-an-oxen-service-node",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/SESSION.svg",
       title: "SESSION",
-      enurl: "#",
-      cnurl: "https://getsession.org/faq",
+      enurl: "https://getsession.org/faq",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5155,8 +5300,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/uutils.svg",
       title: "uutils coreutils",
-      enurl: "#",
-      cnurl: "https://uutils.github.io/coreutils/docs/installation.html#cargo",
+      enurl: "https://uutils.github.io/coreutils/docs/installation.html#cargo",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5232,83 +5377,85 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Serverpod.svg",
       title: "Serverpod",
-      enurl: "#",
-      cnurl: "https://docs.serverpod.dev/#command-line-tools",
+      enurl: "https://docs.serverpod.dev/#command-line-tools",
+      cnurl: "#",
     ),
   );
   // itemList.add(Item(
   //     imgUrl: "/Motion.svg",
   //     title: "Motion",
-  //     cnurl: "https://motion.dev/docs/react-quick-start"));
+  //     enurl: "https://motion.dev/docs/react-quick-start",
+  //     cnurl: "#"));
   // itemList.add(Item(
   //     imgUrl: "https://fastweb.lcjuves.com/Material-for-MkDocs-Icon.svg",
   //     title: "Material for MkDocs",
-  //     cnurl: "https://squidfunk.github.io/mkdocs-material/getting-started"));
+  //     enurl: "https://squidfunk.github.io/mkdocs-material/getting-started",
+  //     cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/GitBook.svg",
       title: "GitBook",
-      enurl: "#",
-      cnurl: "https://docs.gitbook.com/getting-started/quickstart",
+      enurl: "https://docs.gitbook.com/getting-started/quickstart",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/GCC.svg",
       title: "GCC",
-      enurl: "#",
-      cnurl: "https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc",
+      enurl: "https://gcc.gnu.org/onlinedocs/gcc-15.1.0/gcc/#Introduction",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/GDB.svg",
       title: "GDB",
-      enurl: "#",
-      cnurl: "https://sourceware.org/gdb/download/onlinedocs/gdb.html",
+      enurl: "https://sourceware.org/gdb/download/onlinedocs/gdb.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/emoji_u1f41b.svg",
       title: "LLDB",
-      enurl: "#",
-      cnurl: "https://lldb.llvm.org/use/tutorial.html",
+      enurl: "https://lldb.llvm.org/use/tutorial.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Buildah.svg",
       title: "Buildah",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html#building-oci-container-images",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Meson.svg",
       title: "Meson",
-      enurl: "#",
-      cnurl: "https://mesonbuild.com/Quick-guide.html#requirements",
+      enurl: "https://mesonbuild.com/Quick-guide.html#requirements",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Ionic.svg",
       title: "Ionic React",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://ionicframework.com/docs/react/quickstart#what-is-ionic-framework",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Ionic.svg",
       title: "Ionic Vue",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://ionicframework.com/docs/vue/quickstart#what-is-ionic-framework",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5323,8 +5470,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/FlatBuffers.svg",
       title: "FlatBuffers",
-      enurl: "#",
-      cnurl: "https://flatbuffers.dev/quick_start",
+      enurl: "https://flatbuffers.dev/quick_start",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5355,33 +5502,33 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/DeltaLake.svg",
       title: "Delta Lake",
-      enurl: "#",
-      cnurl: "https://delta-io.github.io/delta-rs/usage/installation",
+      enurl: "https://delta-io.github.io/delta-rs/usage/installation",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/StirlingPDF.svg",
       title: "Stirling PDF",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://docs.stirlingpdf.com/Installation/Docker%20Install#run-docker-container-with-docker-run",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/GN.svg",
       title: "GN",
-      enurl: "#",
-      cnurl: "https://gn.googlesource.com/gn/+/main/docs/quick_start.md",
+      enurl: "https://gn.googlesource.com/gn/+/main/docs/quick_start.md",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Mojo.svg",
       title: "Firecrawl",
-      enurl: "#",
-      cnurl: "https://docs.firecrawl.dev/introduction",
+      enurl: "https://docs.firecrawl.dev/introduction",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5396,33 +5543,38 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/qwik.svg",
       title: "qwik",
-      enurl: "#",
-      cnurl: "https://qwik.dev/docs/getting-started",
+      enurl: "https://qwik.dev/docs/getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Nuxt.svg",
       title: "Nuxt",
-      enurl: "#",
-      cnurl: "https://nuxt.com/docs/getting-started",
+      enurl: "https://nuxt.com/docs/getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
-    Item(imgUrl: "/OAuth.svg", title: "OAuth 2", cnurl: "https://oauth.net/2"),
+    Item(
+        imgUrl: "/OAuth.svg",
+        title: "OAuth 2",
+        enurl: "https://oauth.net/2",
+        cnurl: "#"),
   );
   itemList.add(
     Item(
       imgUrl: "/OAuth.svg",
       title: "OAuth PKCE",
-      enurl: "#",
-      cnurl: "https://oauth.net/2/pkce",
+      enurl: "https://oauth.net/2/pkce",
+      cnurl: "#",
     ),
   );
   // itemList.add(Item(
   //     imgUrl: "/SDKMAN.svg",
   //     title: "SDKMAN",
-  //     cnurl: "https://sdkman.io/install"));
+  //     enurl: "https://sdkman.io/install",
+  //     cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/MindSpore.svg",
@@ -5444,40 +5596,42 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/WebXR.svg",
       title: "WebXR",
-      enurl: "#",
-      cnurl: "https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite",
+      enurl: "https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Buck2.svg",
       title: "Buck2",
-      enurl: "#",
-      cnurl: "https://buck2.build/docs/about/getting_started",
+      enurl: "https://buck2.build/docs/about/getting_started",
+      cnurl: "#",
     ),
   );
   // itemList.add(Item(
   //     imgUrl: "/OpenWebUI.svg",
   //     title: "Open WebUI",
-  //     cnurl: "https://docs.openwebui.com/getting-started/quick-start"));
-  // itemList.add(Item(
-  //     imgUrl: "/Carbon.svg",
-  //     title: "Carbon",
-  //     cnurl: "https://docs.carbon-lang.dev/#getting-started"));
+  //     enurl: "https://docs.openwebui.com/getting-started/quick-start",
+  //     cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/Google.svg",
+      title: "Carbon",
+      enurl: "https://docs.carbon-lang.dev/#getting-started",
+      cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/NextJS.svg",
       title: "NextJS",
-      enurl: "#",
-      cnurl: "https://nextjs.org/docs/app/getting-started/installation",
+      enurl: "https://nextjs.org/docs/app/getting-started/installation",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Mercurial.svg",
       title: "Mercurial",
-      enurl: "#",
-      cnurl: "https://www.mercurial-scm.org/install",
+      enurl: "https://www.mercurial-scm.org/install",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5492,24 +5646,24 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/LLVM.svg",
       title: "Clang",
-      enurl: "#",
-      cnurl: "https://clang.llvm.org/get_started.html",
+      enurl: "https://clang.llvm.org/get_started.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/clangd.svg",
       title: "clangd",
-      enurl: "#",
-      cnurl: "https://clangd.llvm.org/installation",
+      enurl: "https://clangd.llvm.org/installation",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Windsurf.svg",
       title: "Windsurf",
-      enurl: "#",
-      cnurl: "https://docs.codeium.com/windsurf/getting-started",
+      enurl: "https://docs.codeium.com/windsurf/getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5524,8 +5678,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "rustdoc",
-      enurl: "#",
-      cnurl: "https://doc.rust-lang.org/rustdoc",
+      enurl: "https://doc.rust-lang.org/rustdoc",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5549,16 +5703,16 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "Rust up",
-      enurl: "#",
-      cnurl: "https://rust-lang.github.io/rustup/basics.html",
+      enurl: "https://rust-lang.github.io/rustup/basics.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
       title: "reqwest",
-      enurl: "#",
-      cnurl: "https://docs.rs/reqwest/latest",
+      enurl: "https://docs.rs/reqwest/latest",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5573,32 +5727,32 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/sbt.svg",
       title: "sbt",
-      enurl: "#",
-      cnurl: "https://www.scala-sbt.org/1.x/docs/sbt-by-example.html",
+      enurl: "https://www.scala-sbt.org/1.x/docs/sbt-by-example.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Java_with_Ant.svg",
       title: "Ant",
-      enurl: "#",
-      cnurl: "https://ant.apache.org/manual/install.html#getting",
+      enurl: "https://ant.apache.org/manual/install.html#getting",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/MistralAI.svg",
       title: "Mistral AI",
-      enurl: "#",
-      cnurl: "https://docs.mistral.ai/getting-started/quickstart",
+      enurl: "https://docs.mistral.ai/getting-started/quickstart",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Metaflow.svg",
       title: "Metaflow",
-      enurl: "#",
-      cnurl: "https://docs.metaflow.org/getting-started/install",
+      enurl: "https://docs.metaflow.org/getting-started/install",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5625,8 +5779,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/World.svg",
       title: "World Mini Apps",
-      enurl: "#",
-      cnurl: "https://docs.world.org/mini-apps/quick-start/installing",
+      enurl: "https://docs.world.org/mini-apps/quick-start/installing",
+      cnurl: "#",
     ),
   );
   // itemList.add(Item(
@@ -5638,32 +5792,32 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/u-root.svg",
       title: "u-root",
-      enurl: "#",
-      cnurl: "https://u-root.org/#get-started",
+      enurl: "https://u-root.org/#get-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
       title: "Rust UEFI",
-      enurl: "#",
-      cnurl: "https://rust-osdev.github.io/uefi-rs/tutorial/app.html",
+      enurl: "https://rust-osdev.github.io/uefi-rs/tutorial/app.html",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/iroh.svg",
       title: "iroh",
-      enurl: "#",
-      cnurl: "https://www.iroh.computer/docs/quickstart",
+      enurl: "https://www.iroh.computer/docs/quickstart",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/Bazzite.svg",
       title: "Bazzite",
-      enurl: "#",
-      cnurl: "https://docs.bazzite.gg/General/Installation_Guide",
+      enurl: "https://docs.bazzite.gg/General/Installation_Guide",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -5688,50 +5842,54 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/AsciiDoc.svg",
       title: "AsciiDoc",
-      enurl: "#",
-      cnurl: "https://asciidoc.org/#try",
+      enurl: "https://asciidoc.org/#try",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/ktunnel.svg",
       title: "ktunnel",
-      enurl: "#",
-      cnurl: "https://github.com/omrikiei/ktunnel?tab=readme-ov-file#usage",
+      enurl: "https://github.com/omrikiei/ktunnel?tab=readme-ov-file#usage",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/UNIX.svg",
       title: "The UNIX® Standard",
-      enurl: "#",
-      cnurl: "https://www.opengroup.org/membership/forums/platform/unix",
+      enurl: "https://www.opengroup.org/membership/forums/platform/unix",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
       title: "Donate to the author",
-      enurl: "#",
-      cnurl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
+      enurl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
+      cnurl: "#",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/musl-libc.svg",
       title: "musl libc",
-      enurl: "#",
-      cnurl: "https://wiki.musl-libc.org/getting-started",
+      enurl: "https://wiki.musl-libc.org/getting-started",
+      cnurl: "#",
     ),
   );
   itemList.add(
-    Item(imgUrl: "/systemd.svg", title: "systemd", cnurl: "https://systemd.io"),
+    Item(
+        imgUrl: "/systemd.svg",
+        title: "systemd",
+        enurl: "https://systemd.io",
+        cnurl: "#"),
   );
   itemList.add(
     Item(
       imgUrl: "/IT-Tools.svg",
       title: "IT - TOOLS",
-      enurl: "#",
+      enurl: "https://it-tools.tech",
       cnurl: "https://it-tools.tech",
     ),
   );
@@ -5800,9 +5958,18 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Apple.svg",
       title: "Mach-O EF",
-      enurl: "#",
-      cnurl:
+      enurl:
           "https://developer.apple.com/library/archive/documentation/Performance/Conceptual/CodeFootprint/Articles/MachOOverview.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Apple.svg",
+      title: "container",
+      enurl:
+          "https://github.com/apple/container?tab=readme-ov-file#get-started",
+      cnurl: "#",
     ),
   );
   // itemList.add(Item(
