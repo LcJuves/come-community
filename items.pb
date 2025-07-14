@@ -112,6 +112,8 @@ L
 /BaiduOCR.svg	Baidu OCR"#*+https://cloud.baidu.com/doc/OCR/s/dk3iqnq510
 X
 	/Rust.svgBake"Bhttps://github.com/ali77gh/bake-rs?tab=readme-ov-file#installation*#
+H
+/BarbaJS.svgBarbaJS",https://barba.js.org/docs/getstarted/install*#
 S
 	/Bash.svgBash"=https://www.gnu.org/software/bash/manual/html_node/index.html*#
 `
@@ -223,6 +225,8 @@ K
 	/LLVM.svgClang"'https://clang.llvm.org/get_started.html*#
 >
 /clangd.svgclangd"$https://clangd.llvm.org/installation*#
+–
+/Anthropic.svgClaude Code"9https://docs.anthropic.com/en/docs/claude-code/quickstart*<https://docs.anthropic.com/zh-CN/docs/claude-code/quickstart
 i
 /ClearLinux.svgClear Linux"Fhttps://www.clearlinux.org/clear-linux-documentation/guides/index.html*#
 •
@@ -378,6 +382,8 @@ O
 /Dragonfly.svg	Dragonfly"/https://www.dragonflydb.io/docs/getting-started*#
 »
 /Apache%20Dubbo.svgDubbo"Lhttps://cn.dubbo.apache.org/en/overview/mannual/java-sdk/quick-start/starter*Ohttps://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/quick-start/starter
+?
+/EasingWizard.svgEasing Wizard"https://easingwizard.com*#
 U
 	/eBPF.svgeBPF"https://ebpf.io/what-is-ebpf*$https://ebpf.io/zh-hans/what-is-ebpf
 9
@@ -429,6 +435,9 @@ E
 _
 
 /Figma.svgFigma Code Layer"<https://www.figma.com/code-docs/create-your-first-code-layer*#
+À
+
+/e-CNY.svgFinClip"Yhttps://www.finclip.com/mop-en/document/for-developer/quick-start/build-mini-program.html*Nhttps://www.finclip.com/mop/document/develop/guide/start/host-environment.html
 Z
 /FingerprintJS.svgFingerprintJS"2https://dev.fingerprint.com/docs/quick-start-guide*#
 Ÿ
@@ -481,6 +490,8 @@ Gemini API"@https://ai.google.dev/gemini-api/docs/quickstart?hl=en&lang=rest*Cht
 g
 /Google.svg
 Gemini CLI"Ihttps://github.com/google-gemini/gemini-cli?tab=readme-ov-file#quickstart*#
+|
+/GeoGebra_Graphing.svgGeoGebra Graphing Calculator"!https://www.geogebra.org/graphing*!https://www.geogebra.org/graphing
 .
 /GitHub.svggh-card"https://gh-card.dev*#
 @
@@ -613,6 +624,8 @@ T
 	/Hexo.svgHexo"https://hexo.io/docs/setup.html* https://hexo.io/zh-cn/docs/setup
 I
 	/HHVM.svgHHVM"3https://docs.hhvm.com/hhvm/basic-usage/introduction*#
+`
+/Higress.svgHigress"$https://higress.cn/en/ai/quick-start*!https://higress.cn/ai/quick-start
 ^
 /Apache%20Hive.svgHive"?https://cwiki.apache.org/confluence/display/Hive/GettingStarted*#
 ƒ
@@ -742,6 +755,8 @@ W
 JSON Crack"https://todiagram.com/editor*#
 ]
 /JSONSchema.svgJSON Schema":https://json-schema.org/learn/getting-started-step-by-step*#
+>
+	/JSON.svgJSON Schema Store"https://www.schemastore.org*#
 D
 /Jupyter.svgJupyter"(https://docs.jupyter.org/en/latest/start*#
 /
@@ -826,6 +841,10 @@ W
 /LinuxBoot.svg	LinuxBoot"https://www.linuxboot.org*#
 Â
 /Deepin.svglinyaps"Bhttps://linyaps.org.cn/en/guide/start/install.html#install-linyaps*fhttps://linyaps.org.cn/guide/start/install.html#%E5%AE%89%E8%A3%85%E5%A6%82%E6%84%8F%E7%8E%B2%E7%8F%91
+k
+/ReactJS.svgLiquid Glass React"Dhttps://github.com/rdev/liquid-glass-react?tab=readme-ov-file#-usage*#
+•
+/Flutter.svgLiquid Glass Renderer"khttps://github.com/whynotmake-it/flutter_liquid_glass/tree/main/packages/liquid_glass_renderer#installation*#
 E
 /emoji_u1f41b.svgLLDB"'https://lldb.llvm.org/use/tutorial.html*#
 ?
@@ -992,11 +1011,11 @@ F
 /Nim.svgNim"'https://nim-lang.org/documentation.html*#
  
 /NodeJS.svgNodeJS"Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 Z
 
 /NumPy.svgNumPy"Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart*#
-9
-	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 T
 
 /NuttX.svgNuttX"<https://nuttx.apache.org/docs/latest/quickstart/install.html*#
@@ -1074,6 +1093,9 @@ L
 /OpenWrt.svgOpenWrt"0https://openwrt.org/docs/guide-quick-start/start*3https://openwrt.org/zh/docs/guide-quick-start/start
 f
 /OpenZFS.svgOpenZFS"Jhttps://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/index.html*#
+š
+/Orillusion.svg
+Orillusion">https://www.orillusion.com/en/guide/getting_start/install.html*;https://www.orillusion.com/guide/getting_start/install.html
 (
 	/Rust.svgort"https://ort.pyke.io*#
 .
@@ -1130,6 +1152,8 @@ PowerShell"ihttps://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/0
 U
 /Prometheus.svg
 Prometheus"3https://prometheus.io/docs/introduction/first_steps*#
+t
+/ByteDance%20Feishu.svgProtoc Gen ArkTS"Dhttps://github.com/larksuite/protoc-gen-ets?tab=readme-ov-file#usage*#
 W
 /DocsyJekyll.svgProtocol Buffers".https://protobuf.dev/programming-guides/proto3*#
 U
@@ -1150,6 +1174,8 @@ F
 /Qdrant.svgQdrant",https://qdrant.tech/documentation/quickstart*#
 6
 	/QEMU.svgQEMU" https://www.qemu.org/docs/master*#
+f
+/Quarkdown.svg	Quarkdown"Fhttps://github.com/iamgio/quarkdown?tab=readme-ov-file#getting-started*#
 7
 /quiche.svgquiche"https://docs.quic.tech/quiche*#
 S
@@ -1191,6 +1217,8 @@ Q
 	/Rust.svgreqwest"https://docs.rs/reqwest/latest*#
 @
 /linebender.svgresvg"#https://github.com/linebender/resvg*#
+ˆ
+/RevyOS.svgRevyOS"9https://docs.revyos.dev/en/docs/desktop/revyos-use-docker*6https://docs.revyos.dev/docs/desktop/revyos-use-docker
 G
 /Rig.svgRig"3https://docs.rig.rs/docs/quickstart/getting_started*#
 6
@@ -1220,6 +1248,8 @@ _
 /Ruby%20on%20Ralis.svgRuby on Rails"3https://guides.rubyonrails.org/getting_started.html*#
 Y
 /OCI.svgrunc"Dhttps://github.com/opencontainers/runc?tab=readme-ov-file#using-runc*#
+:
+	/Rust.svgrusotp""https://eendroroy.github.io/rusotp*#
 q
 	/Rust.svgRust"+https://www.rust-lang.org/learn/get-started*1https://www.rust-lang.org/zh-CN/learn/get-started
 b
@@ -1302,6 +1332,8 @@ o
 /DeepSeek-V3.svg	Smallpond"Mhttps://github.com/deepseek-ai/smallpond/blob/main/docs/source/getstarted.rst*#
 X
 /snowflake.svg	snowflake"8https://docs.snowflake.com/en/user-guide-getting-started*#
+M
+/Datatracker.svgSOCKS 5"-https://datatracker.ietf.org/doc/html/rfc1928*#
 P
 /SpiderMonkey.svgSpiderMonkey"*https://firefox-source-docs.mozilla.org/js*#
 6
@@ -1343,6 +1375,11 @@ K
 /Tabby.svgTabby"https://tabby.sh*#
 T
 /Tabnine.svgTabnine"8https://docs.tabnine.com/main/getting-started/quickstart*#
+o
+
+/e-CNY.svgTaro".https://docs.taro.zone/en/docs/GETTING-STARTED*+https://docs.taro.zone/docs/GETTING-STARTED
+„
+	/HMOS.svgTaro on HarmonyOS"_https://github.com/NervJS/taro-harmony-capi-library?tab=readme-ov-file#taro-harmony-cpp-library*#0
 K
 
 /TAURI.svgTAURI"https://tauri.app/start*https://tauri.app/zh-cn/start
@@ -1371,6 +1408,8 @@ q
 /ThreeJS.svgThreeJS"+https://threejs.org/manual/#en/installation*+https://threejs.org/manual/#zh/fundamentals
 L
 /TigerBeetle.svgTigerBeetle"(https://docs.tigerbeetle.com/quick-start*#
+/
+/TinyWow.svgTinyWow"https://tinywow.com*#
 ?
 
 /TIOBE.svgTIOBE Index"!https://www.tiobe.com/tiobe-index*#
@@ -1396,12 +1435,16 @@ q
 Trendshift"https://trendshift.io*#
 ?
 /Tribuo.svgTribuo"%https://tribuo.org/learn/4.3/docs/#h1*#
+K
+/DocsyJekyll.svgtrojan",https://trojan-gfw.github.io/trojan/protocol*#
 <
 
 /Trunk.svgTrunk"$https://trunkrs.dev/#getting-started*#
 >
 
 /TSDoc.svgTSDoc"&https://tsdoc.org/pages/spec/tag_kinds*#
+j
+/GitHub.svgTypeinc"Ohttps://github.com/AnirudhG07/Typeinc?tab=readme-ov-file#-homebrew-installation*#
 ¬
 /MDN.svgTypes of attacks"Fhttps://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks*Fhttps://developer.mozilla.org/zh-CN/docs/Web/Security/Types_of_attacks
 ¶
@@ -1447,6 +1490,8 @@ H
 	/Vala.svgVala"(https://docs.vala.dev/installation-guide*#
 =
 /Valkey.svgValkey"#https://valkey.io/topics/quickstart*#
+f
+/Valkyrie.svgValkyrie CLI"Dhttps://github.com/ComposeGears/Valkyrie?tab=readme-ov-file#cli-tool*#
 L
 
 /Vapor.svgVapor"4https://docs.vapor.codes/getting-started/hello-world*#
@@ -1532,8 +1577,8 @@ U
 /Windows_Terminal.svgWindows Terminal"2https://learn.microsoft.com/en-us/windows/terminal*2https://learn.microsoft.com/zh-cn/windows/terminal
 v
 	/Rust.svgwindows-drivers-rs"Rhttps://github.com/microsoft/windows-drivers-rs?tab=readme-ov-file#getting-started*#
-O
-/Windsurf.svgWindsurf"1https://docs.codeium.com/windsurf/getting-started*#
+W
+/Windsurf.svgWindsurf"9https://docs.windsurf.com/windsurf/getting-started#set-up*#
 m
 /Wasmer.svgWinterJS"Qhttps://github.com/wasmerio/winterjs?tab=readme-ov-file#running-winterjs-natively*#
 7

@@ -99,7 +99,7 @@ class _BaseContainerState extends State<BaseContainer> {
               children: [
                 SizedBox(
                   width: widget._textBoxDynamicWidth(context),
-                  child: TextMarquee(
+                  child: Text(
                     widget.item.title,
                     style: TextStyle(
                         fontSize: MediaQuery.textScalerOf(context).scale(18.84),
@@ -107,6 +107,8 @@ class _BaseContainerState extends State<BaseContainer> {
                         foreground: Paint()
                           ..blendMode = BlendMode.dstOut
                           ..color = const Color.fromARGB(255, 60, 60, 60)),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
                 Padding(
@@ -123,10 +125,10 @@ class _BaseContainerState extends State<BaseContainer> {
                             SizedBox.square(
                               dimension: Constants.captivePortalSvgIconSize,
                               child: SvgPicture.string(
-                                  colorFilter: const ColorFilter.mode(
-                                      Color.fromARGB(255, 100, 100, 100),
-                                      BlendMode.srcATop),
-                                  widget.captivePortalSvg),
+                                widget.captivePortalSvg,
+                                colorFilter: const ColorFilter.mode(
+                                    Colors.grey, BlendMode.srcATop),
+                              ),
                             ),
                             const SizedBox.square(
                               dimension: 5,

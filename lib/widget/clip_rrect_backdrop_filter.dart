@@ -17,7 +17,7 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
 
   final Widget? child;
 
-  final BorderRadiusGeometry borderRadius;
+  final BorderRadius? borderRadius;
 
   final double elevation;
 
@@ -40,12 +40,12 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
       width: width,
       height: height,
       margin: margin,
-      child: Material(
+      child: PhysicalModel(
+        borderRadius: borderRadius,
         elevation: elevation,
-        borderOnForeground: false,
         color: Colors.transparent,
         child: ClipRRect(
-            borderRadius: borderRadius,
+            borderRadius: borderRadius ?? BorderRadius.zero,
             child: BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
                 child: child)),

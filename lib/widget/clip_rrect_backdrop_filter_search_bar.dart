@@ -75,33 +75,40 @@ class _ClipRRectBackdropFilterSearchBarState
       child: Container(
         margin: EdgeInsets.all(widget.blurContainerPadding),
         constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
-        child: SearchBar(
-          elevation: const WidgetStatePropertyAll(0),
-          keyboardType: TextInputType.webSearch,
-          autoFocus: true,
-          surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
-          leading: const Padding(
-            padding:
-                EdgeInsets.fromLTRB(10, 10, 10 * Constants.goldenRatio, 10),
-            child: GradientIcon(
-              Icons.search_rounded,
+        child: PhysicalModel(
+          color: Colors.transparent,
+          borderRadius:
+              BorderRadius.circular(MediaQuery.of(context).size.longestSide),
+          elevation: Constants.goldenRatio,
+          child: SearchBar(
+            elevation: const WidgetStatePropertyAll(0),
+            keyboardType: TextInputType.webSearch,
+            autoFocus: true,
+            surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
+            leading: const Padding(
+              padding:
+                  EdgeInsets.fromLTRB(10, 10, 10 * Constants.goldenRatio, 10),
+              child: GradientIcon(
+                Icons.search_rounded,
+              ),
             ),
+            overlayColor: const WidgetStatePropertyAll(Colors.white),
+            textInputAction: TextInputAction.search,
+            shadowColor: const WidgetStatePropertyAll(Colors.transparent),
+            backgroundColor:
+                WidgetStatePropertyAll(Colors.white.withAlpha(204)),
+            hintText: Constants.searchBarHintText,
+            hintStyle: WidgetStatePropertyAll(TextStyle(
+                foreground: Paint()
+                  ..blendMode = BlendMode.multiply
+                  ..color = Constants.primaryColor)),
+            textStyle: WidgetStatePropertyAll(TextStyle(
+                fontWeight: FontWeight.w500,
+                foreground: Paint()
+                  ..blendMode = BlendMode.multiply
+                  ..color = Colors.black)),
+            onChanged: widget.onChanged,
           ),
-          overlayColor: const WidgetStatePropertyAll(Colors.white),
-          textInputAction: TextInputAction.search,
-          shadowColor: const WidgetStatePropertyAll(Colors.transparent),
-          backgroundColor: WidgetStatePropertyAll(Colors.white.withAlpha(204)),
-          hintText: Constants.searchBarHintText,
-          hintStyle: WidgetStatePropertyAll(TextStyle(
-              foreground: Paint()
-                ..blendMode = BlendMode.multiply
-                ..color = Constants.primaryColor)),
-          textStyle: WidgetStatePropertyAll(TextStyle(
-              fontWeight: FontWeight.w500,
-              foreground: Paint()
-                ..blendMode = BlendMode.multiply
-                ..color = Colors.black)),
-          onChanged: widget.onChanged,
         ),
       ),
     );

@@ -21,6 +21,7 @@ abstract final class Constants {
   static const double captivePortalSvgIconMarginRight =
       urlBoxTopPadding + (urlBoxTopPadding * goldenRatio);
   static const int httpOk = 200;
+  static const int colorMaxRangeValue = 255;
   static const String svgCommonUrlPrefix =
       "https://fastweb.lcjuves.com/assets/svg";
   static final String searchBarHintText = ((!kIsWeb &&

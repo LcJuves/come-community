@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:devfans/widget/devfans_circular_progress_bar.dart';
 
 class SvgNetworkIcon extends StatelessWidget {
   final String url;
@@ -8,6 +9,15 @@ class SvgNetworkIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const circularProgressIndicator = Padding(
+      padding: EdgeInsets.all(10),
+      child: DevFansCircularProgressIndicator(
+        strokeCap: StrokeCap.round,
+        strokeWidth: 3,
+        color: Color.fromARGB(127, 255, 255, 255),
+        blendMode: BlendMode.dstOut,
+      ),
+    );
     return SizedBox(
       width: size,
       height: size,
@@ -16,13 +26,7 @@ class SvgNetworkIcon extends StatelessWidget {
         // semanticsLabel: 'A shark?!',
         width: size,
         height: size,
-        placeholderBuilder: (BuildContext context) => const Padding(
-          padding: EdgeInsets.all(10),
-          child: CircularProgressIndicator(
-            strokeWidth: 3,
-            color: Color.fromARGB(127, 255, 255, 255),
-          ),
-        ),
+        placeholderBuilder: (BuildContext context) => circularProgressIndicator,
       ),
     );
   }

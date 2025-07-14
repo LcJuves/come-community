@@ -20,7 +20,11 @@ class SnapshotErrorText extends StatelessWidget {
           child: SelectableText(
               '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
               textAlign: TextAlign.start,
-              style: const TextStyle(color: Colors.white, fontSize: 18)),
+              style: TextStyle(
+                  fontSize: 20,
+                  foreground: Paint()
+                    ..blendMode = BlendMode.difference
+                    ..color = Colors.white)),
         ),
       ),
     );
