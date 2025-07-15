@@ -459,8 +459,8 @@ g
 /FluentUI.svgFluentUI React Native"Uhttps://github.com/microsoft/fluentui-react-native?tab=readme-ov-file#getting-started*#
 –
 /Flutter.svgFlutter"Ahttps://docs.flutter.dev/get-started/install/macos/mobile-android*:https://docs.flutter.cn/get-started/install/windows/mobile
-Ö
-/OpenHarmony.svgFlutter for OpenHarmony"¥https://gitcode.com/openharmony-tpc/flutter_samples/blob/master/ohos/docs/03_environment/openHarmony-flutter%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E6%8C%87%E5%AF%BC.md*#
+Ï
+/OpenHarmony.svgFlutter for OHOS"¥https://gitcode.com/openharmony-tpc/flutter_samples/blob/master/ohos/docs/03_environment/openHarmony-flutter%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E6%8C%87%E5%AF%BC.md*#
 J
 /FlutterFlow.svgFlutterFlow"&https://docs.flutterflow.io/quickstart*#
 €
@@ -490,8 +490,8 @@ Gemini API"@https://ai.google.dev/gemini-api/docs/quickstart?hl=en&lang=rest*Cht
 g
 /Google.svg
 Gemini CLI"Ihttps://github.com/google-gemini/gemini-cli?tab=readme-ov-file#quickstart*#
-|
-/GeoGebra_Graphing.svgGeoGebra Graphing Calculator"!https://www.geogebra.org/graphing*!https://www.geogebra.org/graphing
+q
+/GeoGebra_Graphing.svgGeoGebra Graphing"!https://www.geogebra.org/graphing*!https://www.geogebra.org/graphing
 .
 /GitHub.svggh-card"https://gh-card.dev*#
 @
