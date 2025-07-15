@@ -92,7 +92,8 @@ class _ClipRRectBackdropFilterSearchBarState
                 Icons.search_rounded,
               ),
             ),
-            overlayColor: const WidgetStatePropertyAll(Colors.white),
+            overlayColor: WidgetStatePropertyAll(
+                Colors.white.withAlpha(255 - (255 - 204))),
             textInputAction: TextInputAction.search,
             shadowColor: const WidgetStatePropertyAll(Colors.transparent),
             backgroundColor:
@@ -100,12 +101,12 @@ class _ClipRRectBackdropFilterSearchBarState
             hintText: Constants.searchBarHintText,
             hintStyle: WidgetStatePropertyAll(TextStyle(
                 foreground: Paint()
-                  ..blendMode = BlendMode.multiply
+                  ..blendMode = BlendMode.modulate
                   ..color = Constants.primaryColor)),
             textStyle: WidgetStatePropertyAll(TextStyle(
                 fontWeight: FontWeight.w500,
                 foreground: Paint()
-                  ..blendMode = BlendMode.multiply
+                  ..blendMode = BlendMode.modulate
                   ..color = Colors.black)),
             onChanged: widget.onChanged,
           ),

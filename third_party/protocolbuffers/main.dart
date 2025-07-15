@@ -1661,7 +1661,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/GeoGebra_Graphing.svg",
-      title: "GeoGebra Graphing Calculator",
+      title: "GeoGebra Graphing",
       enurl: "https://www.geogebra.org/graphing",
       cnurl: "https://www.geogebra.org/graphing",
     ),
@@ -3281,7 +3281,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/OpenHarmony.svg",
-      title: "Flutter for OpenHarmony",
+      title: "Flutter for OHOS",
       enurl:
           "https://gitcode.com/openharmony-tpc/flutter_samples/blob/master/ohos/docs/03_environment/openHarmony-flutter%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E6%8C%87%E5%AF%BC.md",
       cnurl: "#",

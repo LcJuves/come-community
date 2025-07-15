@@ -1,5 +1,8 @@
 #!/bin/sh
 
+flutter clean
+flutter build web --wasm --no-tree-shake-icons --no-native-null-assertions --no-web-resources-cdn --release
+
 minify_js() {
     bun build "$1" --minify-syntax --minify-whitespace --target browser --outfile "$1"
 }
@@ -22,8 +25,6 @@ minify_json() {
     mv "$1.out" "$1"
 }
 
-flutter clean
-flutter build web --wasm --no-tree-shake-icons --no-native-null-assertions --no-web-resources-cdn --release
 (
     cd build/web || exit
     minify_js flutter_bootstrap.js

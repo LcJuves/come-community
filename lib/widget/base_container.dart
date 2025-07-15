@@ -152,7 +152,7 @@ class _BaseContainerState extends State<BaseContainer> {
                                     fontWeight: FontWeight.w500,
                                     fontFamily: "Menlo",
                                     foreground: Paint()
-                                      ..blendMode = BlendMode.srcOut
+                                      ..blendMode = BlendMode.srcOver
                                       ..color = const Color.fromARGB(
                                           255, 100, 100, 100)),
                                 triggerMode: TooltipTriggerMode.manual,
