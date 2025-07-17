@@ -31,7 +31,7 @@ class VisibilityTempTip extends StatelessWidget {
       );
     }
     return Visibility(
-      visible: (fetchedGeoInfo == null ||
+      visible: /* (fetchedGeoInfo == null ||
               ("${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Shandong".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
@@ -43,7 +43,7 @@ class VisibilityTempTip extends StatelessWidget {
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Liaoning".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Shanghai".toLowerCase())) ||
+                      "Shanghai".toLowerCase())) || */
           (!kDebugMode && letTempTipVisible()),
       child: BackdropFilterScaffold(
         sigma: 6.18 / 2,

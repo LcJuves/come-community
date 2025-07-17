@@ -463,6 +463,38 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/InAppWebView.svg",
+      title: "InAppWebView",
+      enurl: "https://inappwebview.dev/docs/intro#installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/appwrite.svg",
+      title: "appwrite",
+      enurl: "https://appwrite.io/docs/quick-starts/kotlin",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Isar.svg",
+      title: "Isar",
+      enurl: "https://isar.dev/tutorials/quickstart.html",
+      cnurl: "https://isar.dev/zh/tutorials/quickstart.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rive.svg",
+      title: "Rive",
+      enurl: "https://rive.app/docs/runtimes/flutter/flutter#quick-start",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/RevyOS.svg",
       title: "RevyOS",
       enurl: "https://docs.revyos.dev/en/docs/desktop/revyos-use-docker",
@@ -1721,6 +1753,14 @@ Future main(List<String> args) async {
       title: "freeCodeCamp",
       enurl: "https://www.freecodecamp.org/learn",
       cnurl: "https://www.freecodecamp.org/chinese/learn",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/freeCodeCamp.svg",
+      title: "freeCodeCamp DevDocs",
+      enurl: "https://devdocs.io/rust",
+      cnurl: "#",
     ),
   );
   itemList.add(

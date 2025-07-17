@@ -63,6 +63,8 @@ K
 /Apple.svgApple Open Projects"%https://opensource.apple.com/projects*#
 p
 /AppVeyor.svgAppVeyor"Rhttps://www.appveyor.com/docs/getting-started-with-appveyor-for-linux/#quick-start*#
+J
+/appwrite.svgappwrite",https://appwrite.io/docs/quick-starts/kotlin*#
 Å
 /Arch%20Linux.svg
 Arch Linux"*https://wiki.archlinux.org/title/Main_page*4https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5
@@ -467,6 +469,8 @@ J
 /FreeBSD.svgFreeBSD"1https://docs.freebsd.org/en/books/handbook/basics*4https://docs.freebsd.org/zh-cn/books/handbook/basics
 q
 /freeCodeCamp.svgfreeCodeCamp""https://www.freecodecamp.org/learn**https://www.freecodecamp.org/chinese/learn
+E
+/freeCodeCamp.svgfreeCodeCamp DevDocs"https://devdocs.io/rust*#
 Ä
 /Fuchsia.svgFuchsia"1https://fuchsia.dev/fuchsia-src/get-started?hl=en*4https://fuchsia.dev/fuchsia-src/get-started?hl=zh-cn
 E
@@ -684,6 +688,8 @@ m
 	/IANA.svgICMPv6 Parameters"Jhttps://www.iana.org/assignments/icmpv6-parameters/icmpv6-parameters.xhtml*#
 h
 /XunFeiOpenPlatform.svgiFLYTEK Open Platform"#*1https://www.xfyun.cn/doc/platform/quickguide.html0
+V
+/InAppWebView.svgInAppWebView"0https://inappwebview.dev/docs/intro#installation*#
 q
 /Microsoft.svgInjectorpp for rust"Ghttps://github.com/microsoft/injectorppforrust?tab=readme-ov-file#usage*#
 ù
@@ -706,6 +712,8 @@ b
 	/IPFS.svgIPFS"https://docs.ipfs.tech/install*#
 ?
 	/iroh.svgiroh")https://www.iroh.computer/docs/quickstart*#
+l
+	/Isar.svgIsar"*https://isar.dev/tutorials/quickstart.html*-https://isar.dev/zh/tutorials/quickstart.html
 :
 /C%2B%2B.svgISO C++"https://isocpp.org/get-started*#
 I
@@ -1225,6 +1233,8 @@ G
 /RISC-V.svgRISC-V"https://riscv.org/developers*#
 j
 /RISC-V.svgRISCV Sail Model"Fhttps://github.com/riscv/sail-riscv?tab=readme-ov-file#getting-started*#
+P
+	/Rive.svgRive":https://rive.app/docs/runtimes/flutter/flutter#quick-start*#
 Z
 
 /robot.svgRobot Framework"8https://docs.robotframework.org/docs/getting_started/rpa*#
