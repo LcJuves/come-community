@@ -174,8 +174,8 @@ Y
 Camel Core"3https://camel.apache.org/camel-core/getting-started*#
 °
 /Android.svgCameraX"Fhttps://developer.android.com/codelabs/camerax-getting-started?hl=en#0*Ohttps://developer.android.google.cn/codelabs/camerax-getting-started?hl=zh-cn#0
-ñ
-/Cangjie.svgCangjie"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html*khttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
+ï
+/Cangjie.svgCangjie"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html*ihttps://cangjie-lang.cn/docs?url=%2F1.0.0%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
 H
 	/Skia.svg	CanvasKit"-https://skia.org/docs/user/modules/quickstart*#
 <
@@ -223,6 +223,9 @@ m
 /Chromium.svgChromium"Ohttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md*#
 K
 /Cilium.svgCilium"1https://docs.cilium.io/en/stable/#getting-started*#
+B
+
+/CIRCT.svgCIRCT"*https://circt.llvm.org/docs/GettingStarted*#
 >
 	/LLVM.svgClang"'https://clang.llvm.org/get_started.html*#
 >
@@ -345,6 +348,9 @@ r
 /DeepSeek-V3.svgDeepSeek 3FS"Mhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide*#
 q
 /DeepSeek-V3.svgDeepSeek-VL2"Lhttps://github.com/deepseek-ai/DeepSeek-VL2?tab=readme-ov-file#4-quick-start*#
+/
+
+/Devin.svgDeepWiki"https://deepwiki.com*#
 W
 /DeltaLake.svg
 Delta Lake"6https://delta-io.github.io/delta-rs/usage/installation*#
@@ -446,6 +452,8 @@ Z
 /FirebaseStudio.svgFirebase Studio"9https://firebase.google.com/docs/studio/get-started?hl=en*<https://firebase.google.com/docs/studio/get-started?hl=zh-cn
 B
 	/Mojo.svg	Firecrawl"'https://docs.firecrawl.dev/introduction*#
+J
+/Flutter.svgFlame"0https://docs.flame-engine.org/latest/README.html*#
 L
 /Flameshot.svg	Flameshot",https://flameshot.org/docs/overview/overview*#
 g
@@ -678,6 +686,8 @@ W
 <
 
 /hyper.svghyper"$https://hyper.rs/guides/1/init/setup*#
+Q
+/Hyprland.svgHyprland"3https://wiki.hypr.land/Getting-Started/Installation*#
 9
 	/Rust.svgi24"$https://docs.rs/i24/2.1.0/i24/#usage*#
 ;
@@ -793,8 +803,8 @@ D
 	/kind.svgkind".https://kind.sigs.k8s.io/docs/user/quick-start*#
 J
 /Kotlin.svgKotlin"0https://kotlinlang.org/docs/getting-started.html*#
-}
-/KotlinMultiplatform.svgKotlin Multiplatform"Hhttps://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html*#
+|
+/KotlinMultiplatform.svgKotlin Multiplatform"Ghttps://www.jetbrains.com/help/kotlin-multiplatform-dev/quickstart.html*#
 l
 /Kotlin.svg
 kotlinx-io"Nhttps://github.com/Kotlin/kotlinx-io?tab=readme-ov-file#using-in-your-projects*#
@@ -825,6 +835,8 @@ H
 U
 /LeakCanary.svg
 LeakCanary"3https://square.github.io/leakcanary/getting_started*#
+
+	/Lean.svgLean"khttps://lean-lang.org/functional_programming_in_lean/Hello___-World___/Running-a-Program/#running-a-program*#
 K
 /LcJuvesBlog.svgLearn X in Y minutes"https://learnxinyminutes.com/c*#
 }
@@ -1019,11 +1031,11 @@ F
 /Nim.svgNim"'https://nim-lang.org/documentation.html*#
  
 /NodeJS.svgNodeJS"Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 Z
 
 /NumPy.svgNumPy"Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart*#
+9
+	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 T
 
 /NuttX.svgNuttX"<https://nuttx.apache.org/docs/latest/quickstart/install.html*#
@@ -1469,7 +1481,7 @@ O
 +
 	/UEFI.svgUEFI"https://uefi.org/uefi*#
 J
-/Unicode.svgUnicode".https://www.unicode.org/versions/Unicode16.0.0*#
+/Unicode.svgUnicode".https://www.unicode.org/versions/Unicode17.0.0*#
 W
 	/Rust.svgUniFFI"?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html*#
 Z

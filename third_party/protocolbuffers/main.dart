@@ -15,6 +15,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Flutter.svg",
+      title: "Flame",
+      enurl: "https://docs.flame-engine.org/latest/README.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/FlutterFlow.svg",
       title: "FlutterFlow",
       enurl: "https://docs.flutterflow.io/quickstart",
@@ -331,7 +339,7 @@ Future main(List<String> args) async {
       imgUrl: "/KotlinMultiplatform.svg",
       title: "Kotlin Multiplatform",
       enurl:
-          "https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html",
+          "https://www.jetbrains.com/help/kotlin-multiplatform-dev/quickstart.html",
       cnurl: "#",
     ),
   );
@@ -1502,6 +1510,31 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Devin.svg",
+      title: "DeepWiki",
+      enurl: "https://deepwiki.com",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Hyprland.svg",
+      title: "Hyprland",
+      enurl: "https://wiki.hypr.land/Getting-Started/Installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Lean.svg",
+      title: "Lean",
+      enurl:
+          "https://lean-lang.org/functional_programming_in_lean/Hello___-World___/Running-a-Program/#running-a-program",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Google.svg",
       title: "ANGLE",
       enurl: "https://chromium.googlesource.com/angle/angle/+/main/README.md",
@@ -1574,8 +1607,9 @@ Future main(List<String> args) async {
       title: "Cangjie",
       enurl:
           "https://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html",
+
       cnurl:
-          "https://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html",
+          "https://cangjie-lang.cn/docs?url=%2F1.0.0%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html",
     ),
   );
   itemList.add(
@@ -1975,10 +2009,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/GNU.svg",
-        title: "GNU",
-        enurl: "https://www.gnu.org/doc",
-        cnurl: "#"),
+      imgUrl: "/GNU.svg",
+      title: "GNU",
+      enurl: "https://www.gnu.org/doc",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -1998,16 +2033,20 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/JWT.svg",
-        title: "JWT",
-        enurl: "https://jwt.io/introduction",
-        cnurl: "#"),
+      imgUrl: "/JWT.svg",
+      title: "JWT",
+      enurl: "https://jwt.io/introduction",
+      cnurl: "#",
+    ),
   );
-  itemList.add(Item(
+  itemList.add(
+    Item(
       imgUrl: "/e-CNY.svg",
       title: "emscripten",
       enurl: "https://emscripten.org/docs/getting_started",
-      cnurl: "#"));
+      cnurl: "#",
+    ),
+  );
   itemList.add(
     Item(
       imgUrl: "/podman.svg",
@@ -2037,6 +2076,14 @@ Future main(List<String> args) async {
       imgUrl: "/LLVM.svg",
       title: "LLVM",
       enurl: "https://llvm.org/docs/GettingStarted.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/CIRCT.svg",
+      title: "CIRCT",
+      enurl: "https://circt.llvm.org/docs/GettingStarted",
       cnurl: "#",
     ),
   );
@@ -2764,11 +2811,12 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/GEETEST.svg",
-        title: "GEETEST OneLogin",
-        enurl: "#",
-        cnurl: "https://docs.geetest.com/onelogin/overview/start",
-        currentlyOnlySupportsChinese: true),
+      imgUrl: "/GEETEST.svg",
+      title: "GEETEST OneLogin",
+      enurl: "#",
+      cnurl: "https://docs.geetest.com/onelogin/overview/start",
+      currentlyOnlySupportsChinese: true,
+    ),
   );
   itemList.add(
     Item(
@@ -2889,10 +2937,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/Tabby.svg",
-        title: "Tabby",
-        enurl: "https://tabby.sh",
-        cnurl: "#"),
+      imgUrl: "/Tabby.svg",
+      title: "Tabby",
+      enurl: "https://tabby.sh",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -3508,10 +3557,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/UEFI.svg",
-        title: "UEFI",
-        enurl: "https://uefi.org/uefi",
-        cnurl: "#"),
+      imgUrl: "/UEFI.svg",
+      title: "UEFI",
+      enurl: "https://uefi.org/uefi",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -3596,10 +3646,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/YAML.svg",
-        title: "YAML",
-        enurl: "https://yaml.org",
-        cnurl: "#"),
+      imgUrl: "/YAML.svg",
+      title: "YAML",
+      enurl: "https://yaml.org",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -4051,18 +4102,20 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/Ktor.svg",
-        title: "Ktor Client",
-        enurl: "https://ktor.io/docs/client-create-new-application.html",
-        cnurl: "#"),
+      imgUrl: "/Ktor.svg",
+      title: "Ktor Client",
+      enurl: "https://ktor.io/docs/client-create-new-application.html",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
-        imgUrl: "/Ktor.svg",
-        title: "Ktor Server",
-        enurl:
-            "https://ktor.io/docs/server-create-a-new-project.html#create-project-with-the-ktor-project-generator",
-        cnurl: "#"),
+      imgUrl: "/Ktor.svg",
+      title: "Ktor Server",
+      enurl:
+          "https://ktor.io/docs/server-create-a-new-project.html#create-project-with-the-ktor-project-generator",
+      cnurl: "#",
+    ),
   );
 
   itemList.add(
@@ -4106,10 +4159,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/KateX.svg",
-        title: "KateX",
-        enurl: "https://katex.org/docs",
-        cnurl: "#"),
+      imgUrl: "/KateX.svg",
+      title: "KateX",
+      enurl: "https://katex.org/docs",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -4129,11 +4183,14 @@ Future main(List<String> args) async {
     ),
   );
 
-  itemList.add(Item(
+  itemList.add(
+    Item(
       imgUrl: "/Rust.svg",
       title: "Rust and WebAssembly",
       enurl: "https://rustwasm.github.io/docs/book/game-of-life/setup.html",
-      cnurl: "#"));
+      cnurl: "#",
+    ),
+  );
   itemList.add(
     Item(
       imgUrl: "/FFmpeg.svg",
@@ -4222,10 +4279,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/OW2_ASM.svg",
-        title: "OW2 ASM",
-        enurl: "https://asm.ow2.io",
-        cnurl: "#"),
+      imgUrl: "/OW2_ASM.svg",
+      title: "OW2 ASM",
+      enurl: "https://asm.ow2.io",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -4263,7 +4321,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Unicode.svg",
       title: "Unicode",
-      enurl: "https://www.unicode.org/versions/Unicode16.0.0",
+      enurl: "https://www.unicode.org/versions/Unicode17.0.0",
+      // enurl: "https://www.unicode.org/versions/latest",
       cnurl: "#",
     ),
   );
@@ -4650,11 +4709,12 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/Alibaba.svg",
-        title: "AliDNS",
-        enurl: "#",
-        cnurl: "https://www.alidns.com/knowledge?type=SETTING_DOCS#user",
-        currentlyOnlySupportsChinese: true),
+      imgUrl: "/Alibaba.svg",
+      title: "AliDNS",
+      enurl: "#",
+      cnurl: "https://www.alidns.com/knowledge?type=SETTING_DOCS#user",
+      currentlyOnlySupportsChinese: true,
+    ),
   );
   itemList.add(
     Item(
@@ -4874,10 +4934,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/Skia.svg",
-        title: "Skia",
-        enurl: "https://skia.org/docs",
-        cnurl: "#"),
+      imgUrl: "/Skia.svg",
+      title: "Skia",
+      enurl: "https://skia.org/docs",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -5387,10 +5448,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/OpenStack.svg",
-        title: "OpenStack",
-        enurl: "https://docs.openstack.org/devstack/latest/#quick-start",
-        cnurl: "#"),
+      imgUrl: "/OpenStack.svg",
+      title: "OpenStack",
+      enurl: "https://docs.openstack.org/devstack/latest/#quick-start",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -5666,11 +5728,14 @@ Future main(List<String> args) async {
   //     title: "Motion",
   //     enurl: "https://motion.dev/docs/react-quick-start",
   //     cnurl: "#"));
-  itemList.add(Item(
+  itemList.add(
+    Item(
       imgUrl: "/_Material-for-MkDocs-Icon.svg",
       title: "Material for MkDocs",
       enurl: "https://squidfunk.github.io/mkdocs-material/getting-started",
-      cnurl: "#"));
+      cnurl: "#",
+    ),
+  );
   itemList.add(
     Item(
       imgUrl: "/GitBook.svg",
@@ -5837,10 +5902,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/OAuth.svg",
-        title: "OAuth 2",
-        enurl: "https://oauth.net/2",
-        cnurl: "#"),
+      imgUrl: "/OAuth.svg",
+      title: "OAuth 2",
+      enurl: "https://oauth.net/2",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -5893,11 +5959,14 @@ Future main(List<String> args) async {
   //     title: "Open WebUI",
   //     enurl: "https://docs.openwebui.com/getting-started/quick-start",
   //     cnurl: "#"));
-  itemList.add(Item(
+  itemList.add(
+    Item(
       imgUrl: "/Google.svg",
       title: "Carbon",
       enurl: "https://docs.carbon-lang.dev/#getting-started",
-      cnurl: "#"));
+      cnurl: "#",
+    ),
+  );
   itemList.add(
     Item(
       imgUrl: "/NextJS.svg",
@@ -6063,25 +6132,34 @@ Future main(List<String> args) async {
       cnurl: "#",
     ),
   );
-  itemList.add(Item(
+  itemList.add(
+    Item(
       imgUrl: "/e-CNY.svg",
       title: "Taro",
       enurl: "https://docs.taro.zone/en/docs/GETTING-STARTED",
-      cnurl: "https://docs.taro.zone/docs/GETTING-STARTED"));
-  itemList.add(Item(
+      cnurl: "https://docs.taro.zone/docs/GETTING-STARTED",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/HMOS.svg",
       title: "Taro on HarmonyOS",
       enurl:
           "https://github.com/NervJS/taro-harmony-capi-library?tab=readme-ov-file#taro-harmony-cpp-library",
       cnurl: "#",
-      currentlyOnlySupportsChinese: true));
-  itemList.add(Item(
+      currentlyOnlySupportsChinese: true,
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/e-CNY.svg",
       title: "FinClip",
       enurl:
           "https://www.finclip.com/mop-en/document/for-developer/quick-start/build-mini-program.html",
       cnurl:
-          "https://www.finclip.com/mop/document/develop/guide/start/host-environment.html"));
+          "https://www.finclip.com/mop/document/develop/guide/start/host-environment.html",
+    ),
+  );
   itemList.add(
     Item(
       imgUrl: "/u-root.svg",
@@ -6174,10 +6252,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/systemd.svg",
-        title: "systemd",
-        enurl: "https://systemd.io",
-        cnurl: "#"),
+      imgUrl: "/systemd.svg",
+      title: "systemd",
+      enurl: "https://systemd.io",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -6198,10 +6277,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/CRDTs.svg",
-        title: "CRDTs",
-        enurl: "https://crdt.tech",
-        cnurl: "#"),
+      imgUrl: "/CRDTs.svg",
+      title: "CRDTs",
+      enurl: "https://crdt.tech",
+      cnurl: "#",
+    ),
   );
   itemList.add(
     Item(
@@ -6246,11 +6326,12 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-        imgUrl: "/XunFeiOpenPlatform.svg",
-        title: "iFLYTEK Open Platform",
-        enurl: "#",
-        cnurl: "https://www.xfyun.cn/doc/platform/quickguide.html",
-        currentlyOnlySupportsChinese: true),
+      imgUrl: "/XunFeiOpenPlatform.svg",
+      title: "iFLYTEK Open Platform",
+      enurl: "#",
+      cnurl: "https://www.xfyun.cn/doc/platform/quickguide.html",
+      currentlyOnlySupportsChinese: true,
+    ),
   );
   itemList.add(
     Item(
