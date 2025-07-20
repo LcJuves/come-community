@@ -102,8 +102,8 @@ W
 /Azure.svgAzure Linux"ihttps://github.com/microsoft/azurelinux/blob/3.0/toolkit/docs/quick_start/quickstart.md#quick-start-guide*#
 ’
 /AzurePipelines.svgAzure Pipelines"thttps://learn.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cbrowser*thttps://learn.microsoft.com/zh-cn/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cbrowser
-Ä
-/AzureQuantum.svgAzure Quantum"Ohttps://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals*Ohttps://learn.microsoft.com/zh-cn/training/paths/quantum-computing-fundamentals
+è
+/AzureQuantum.svgAzure Quantum"ahttps://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum*ahttps://learn.microsoft.com/zh-cn/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum
 h
 /BabylonJS.svg	BabylonJS"Hhttps://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step*#
 W
@@ -380,10 +380,10 @@ w
 -https://fastweb.lcjuves.com/donate/Alipay.svgDonate to the author"-https://fastweb.lcjuves.com/donate/Alipay.svg*#
 z
 	/IANA.svgDoQ Error Codes"Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes*#
-¹
-/dotNET.svgdotNET"Phttps://learn.microsoft.com/en-us/dotnet/core/get-started?source=recommendations*Phttps://learn.microsoft.com/zh-cn/dotnet/core/get-started?source=recommendations
-ª
-/dotNET.svgdotNET MAUI"Fhttps://learn.microsoft.com/en-us/dotnet/maui/get-started/installation*Fhttps://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation
+·
+/dotNET.svgdotNET"Ohttps://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code*Ohttps://learn.microsoft.com/zh-cn/dotnet/core/tutorials/with-visual-studio-code
+þ
+/dotNET.svgdotNET MAUI"phttps://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code*phttps://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code
 Ñ
 /Douyin.svgDouyin Mini App"Ehttps://developers.tiktok.com/doc/our-guidelines-developer-guidelines*jhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev
 O
@@ -819,8 +819,8 @@ X
 g
 /Kubernetes.svg
 Kubernetes" https://kubernetes.io/docs/setup*&https://kubernetes.io/zh-cn/docs/setup
-Ý
-/Kuikly.svgKuikly"Jhttps://github.com/Tencent-TDS/KuiklyUI?tab=readme-ov-file#getting-started*zhttps://kuikly.tds.qq.com/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/hello-world.html#%E6%96%B0%E5%BB%BAkuikly%E5%B7%A5%E7%A8%8B
+°
+/Kuikly.svgKuikly"Jhttps://github.com/Tencent-TDS/KuiklyUI?tab=readme-ov-file#getting-started*Mhttps://kuikly.tds.qq.com/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/env-setup.html
 D
 /LangChain.svg	LangChain"$https://js.langchain.com/docs/how_to*#
 N
@@ -1325,6 +1325,8 @@ S
 /GNU.svgsed"Ihttps://www.gnu.org/software/sed/manual/sed.html#Command_002dLine-Options*#
 ^
 /Selenium.svgSelenium"@https://www.selenium.dev/documentation/webdriver/getting_started*#
+U
+/GitHub.svgSemantic Versioning"https://semver.org*https://semver.org/lang/zh-CN
 :
 /Sentry.svgSentry" https://docs.sentry.io/platforms*#
 N

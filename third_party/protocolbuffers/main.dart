@@ -350,7 +350,7 @@ Future main(List<String> args) async {
       enurl:
           "https://github.com/Tencent-TDS/KuiklyUI?tab=readme-ov-file#getting-started",
       cnurl:
-          "https://kuikly.tds.qq.com/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/hello-world.html#%E6%96%B0%E5%BB%BAkuikly%E5%B7%A5%E7%A8%8B",
+          "https://kuikly.tds.qq.com/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/env-setup.html",
     ),
   );
   itemList.add(
@@ -738,9 +738,9 @@ Future main(List<String> args) async {
       imgUrl: "/dotNET.svg",
       title: "dotNET",
       enurl:
-          "https://learn.microsoft.com/en-us/dotnet/core/get-started?source=recommendations",
+          "https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code",
       cnurl:
-          "https://learn.microsoft.com/zh-cn/dotnet/core/get-started?source=recommendations",
+          "https://learn.microsoft.com/zh-cn/dotnet/core/tutorials/with-visual-studio-code",
     ),
   );
   itemList.add(
@@ -748,9 +748,9 @@ Future main(List<String> args) async {
       imgUrl: "/dotNET.svg",
       title: "dotNET MAUI",
       enurl:
-          "https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation",
+          "https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code",
       cnurl:
-          "https://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation",
+          "https://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code",
     ),
   );
   itemList.add(
@@ -1717,6 +1717,14 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/GitHub.svg",
+      title: "Semantic Versioning",
+      enurl: "https://semver.org",
+      cnurl: "https://semver.org/lang/zh-CN",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
       title: "Typeinc",
       enurl:
           "https://github.com/AnirudhG07/Typeinc?tab=readme-ov-file#-homebrew-installation",
@@ -2572,9 +2580,9 @@ Future main(List<String> args) async {
       imgUrl: "/AzureQuantum.svg",
       title: "Azure Quantum",
       enurl:
-          "https://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals",
+          "https://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum",
       cnurl:
-          "https://learn.microsoft.com/zh-cn/training/paths/quantum-computing-fundamentals",
+          "https://learn.microsoft.com/zh-cn/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum",
     ),
   );
   itemList.add(
