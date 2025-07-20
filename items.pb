@@ -174,15 +174,15 @@ Y
 Camel Core"3https://camel.apache.org/camel-core/getting-started*#
 °
 /Android.svgCameraX"Fhttps://developer.android.com/codelabs/camerax-getting-started?hl=en#0*Ohttps://developer.android.google.cn/codelabs/camerax-getting-started?hl=zh-cn#0
-ñ
-/Cangjie.svgCangjie"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html*khttps://cangjie-lang.cn/docs?url=%2F0.53.18%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
+ï
+/Cangjie.svgCangjie"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html*ihttps://cangjie-lang.cn/docs?url=%2F1.0.0%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
 H
 	/Skia.svg	CanvasKit"-https://skia.org/docs/user/modules/quickstart*#
 <
 	/Rust.svgcapnpc"$https://docs.rs/capnpc/latest/capnpc*#
 C
 
-/e-CNY.svgCapâ€™n Proto"#https://capnproto.org/language.html*#
+/Meyou.svgCapâ€™n Proto"#https://capnproto.org/language.html*#
 e
 	/Rust.svgCapâ€™n Proto Runtime">https://docs.rs/capnp/latest/capnp/#capn-proto-runtime-library*#
 G
@@ -223,6 +223,9 @@ m
 /Chromium.svgChromium"Ohttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/README.md*#
 K
 /Cilium.svgCilium"1https://docs.cilium.io/en/stable/#getting-started*#
+B
+
+/CIRCT.svgCIRCT"*https://circt.llvm.org/docs/GettingStarted*#
 >
 	/LLVM.svgClang"'https://clang.llvm.org/get_started.html*#
 >
@@ -345,6 +348,9 @@ r
 /DeepSeek-V3.svgDeepSeek 3FS"Mhttps://github.com/deepseek-ai/3FS/blob/main/deploy/README.md#3fs-setup-guide*#
 q
 /DeepSeek-V3.svgDeepSeek-VL2"Lhttps://github.com/deepseek-ai/DeepSeek-VL2?tab=readme-ov-file#4-quick-start*#
+/
+
+/Devin.svgDeepWiki"https://deepwiki.com*#
 W
 /DeltaLake.svg
 Delta Lake"6https://delta-io.github.io/delta-rs/usage/installation*#
@@ -401,7 +407,7 @@ S
 	/Rust.svgempiriqa"9https://github.com/ynqa/empiriqa?tab=readme-ov-file#usage*#
 H
 
-/e-CNY.svg
+/Meyou.svg
 emscripten"+https://emscripten.org/docs/getting_started*#
 E
 /esbuild.svgesbuild")https://esbuild.github.io/getting-started*#
@@ -439,13 +445,15 @@ _
 /Figma.svgFigma Code Layer"<https://www.figma.com/code-docs/create-your-first-code-layer*#
 À
 
-/e-CNY.svgFinClip"Yhttps://www.finclip.com/mop-en/document/for-developer/quick-start/build-mini-program.html*Nhttps://www.finclip.com/mop/document/develop/guide/start/host-environment.html
+/Meyou.svgFinClip"Yhttps://www.finclip.com/mop-en/document/for-developer/quick-start/build-mini-program.html*Nhttps://www.finclip.com/mop/document/develop/guide/start/host-environment.html
 Z
 /FingerprintJS.svgFingerprintJS"2https://dev.fingerprint.com/docs/quick-start-guide*#
 Ÿ
 /FirebaseStudio.svgFirebase Studio"9https://firebase.google.com/docs/studio/get-started?hl=en*<https://firebase.google.com/docs/studio/get-started?hl=zh-cn
 B
 	/Mojo.svg	Firecrawl"'https://docs.firecrawl.dev/introduction*#
+J
+/Flutter.svgFlame"0https://docs.flame-engine.org/latest/README.html*#
 L
 /Flameshot.svg	Flameshot",https://flameshot.org/docs/overview/overview*#
 g
@@ -642,7 +650,7 @@ I
 	/Hono.svgHono"3https://hono.dev/docs/getting-started/basic#starter*#
 b
 
-/e-CNY.svgHow To Cook"Bhttps://cook.aiursoft.cn/tips/%E5%8E%A8%E6%88%BF%E5%87%86%E5%A4%87*#0
+/Meyou.svgHow To Cook"Bhttps://cook.aiursoft.cn/tips/%E5%8E%A8%E6%88%BF%E5%87%86%E5%A4%87*#0
 x
 
 /HTML5.svgHTML"1https://developer.mozilla.org/en-US/docs/Web/HTML*1https://developer.mozilla.org/zh-CN/docs/Web/HTML
@@ -678,6 +686,8 @@ W
 <
 
 /hyper.svghyper"$https://hyper.rs/guides/1/init/setup*#
+Q
+/Hyprland.svgHyprland"3https://wiki.hypr.land/Getting-Started/Installation*#
 9
 	/Rust.svgi24"$https://docs.rs/i24/2.1.0/i24/#usage*#
 ;
@@ -793,8 +803,8 @@ D
 	/kind.svgkind".https://kind.sigs.k8s.io/docs/user/quick-start*#
 J
 /Kotlin.svgKotlin"0https://kotlinlang.org/docs/getting-started.html*#
-}
-/KotlinMultiplatform.svgKotlin Multiplatform"Hhttps://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html*#
+|
+/KotlinMultiplatform.svgKotlin Multiplatform"Ghttps://www.jetbrains.com/help/kotlin-multiplatform-dev/quickstart.html*#
 l
 /Kotlin.svg
 kotlinx-io"Nhttps://github.com/Kotlin/kotlinx-io?tab=readme-ov-file#using-in-your-projects*#
@@ -825,8 +835,12 @@ H
 U
 /LeakCanary.svg
 LeakCanary"3https://square.github.io/leakcanary/getting_started*#
+
+	/Lean.svgLean"khttps://lean-lang.org/functional_programming_in_lean/Hello___-World___/Running-a-Program/#running-a-program*#
 K
 /LcJuvesBlog.svgLearn X in Y minutes"https://learnxinyminutes.com/c*#
+P
+	/Rust.svgLearning Rust"1https://learning-rust.github.io/docs/installation*#
 }
 /Let's%20Encrypt.svgLet's Encrypt"'https://letsencrypt.org/getting-started*-https://letsencrypt.org/zh-cn/getting-started
 S
@@ -869,7 +883,7 @@ T
 /LOKINET.svgLOKINET"https://www.lokinet.org/faq*#
 ¼
 
-/e-CNY.svg	LoongArch"Rhttps://loongson.github.io/LoongArch-Documentation/README-EN.html#_getting_started*Ohttps://loongson.github.io/LoongArch-Documentation/README-CN.html#getting-start
+/Meyou.svg	LoongArch"Rhttps://loongson.github.io/LoongArch-Documentation/README-EN.html#_getting_started*Ohttps://loongson.github.io/LoongArch-Documentation/README-CN.html#getting-start
 u
 /LSP.svg
 LSP / LSIF"Zhttps://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification*#
@@ -1001,7 +1015,7 @@ K
 /NanoID.svgNanoID"#https://zelark.github.io/nano-id-cc*#
 g
 
-/e-CNY.svgNature"(https://nature-lang.org/docs/get-started*'https://nature-lang.cn/docs/get-started
+/Meyou.svgNature"(https://nature-lang.org/docs/get-started*'https://nature-lang.cn/docs/get-started
 9
 /Microsoft.svgNatureLM"https://naturelm.github.io*#
 c
@@ -1387,7 +1401,7 @@ T
 /Tabnine.svgTabnine"8https://docs.tabnine.com/main/getting-started/quickstart*#
 o
 
-/e-CNY.svgTaro".https://docs.taro.zone/en/docs/GETTING-STARTED*+https://docs.taro.zone/docs/GETTING-STARTED
+/Meyou.svgTaro".https://docs.taro.zone/en/docs/GETTING-STARTED*+https://docs.taro.zone/docs/GETTING-STARTED
 „
 	/HMOS.svgTaro on HarmonyOS"_https://github.com/NervJS/taro-harmony-capi-library?tab=readme-ov-file#taro-harmony-cpp-library*#0
 K
@@ -1469,7 +1483,7 @@ O
 +
 	/UEFI.svgUEFI"https://uefi.org/uefi*#
 J
-/Unicode.svgUnicode".https://www.unicode.org/versions/Unicode16.0.0*#
+/Unicode.svgUnicode".https://www.unicode.org/versions/Unicode17.0.0*#
 W
 	/Rust.svgUniFFI"?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html*#
 Z
@@ -1510,7 +1524,7 @@ L
 /vcpkg.svgvcpkg"Qhttps://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash*Qhttps://learn.microsoft.com/zh-cn/vcpkg/get_started/get-started?pivots=shell-bash
 _
 
-/e-CNY.svgVeryl"Ghttps://doc.veryl-lang.org/book/03_getting_started/01_installation.html*#
+/Meyou.svgVeryl"Ghttps://doc.veryl-lang.org/book/03_getting_started/01_installation.html*#
 
 %/The%20C%20Programming%20Language.svgVisual C"mhttps://learn.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-170*mhttps://learn.microsoft.com/zh-cn/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-170
 ¸
