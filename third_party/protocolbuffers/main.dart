@@ -66,7 +66,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "How To Cook",
       enurl:
           "https://cook.aiursoft.cn/tips/%E5%8E%A8%E6%88%BF%E5%87%86%E5%A4%87",
@@ -1668,7 +1668,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "Veryl",
       enurl:
           "https://doc.veryl-lang.org/book/03_getting_started/01_installation.html",
@@ -1677,7 +1677,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "Nature",
       enurl: "https://nature-lang.org/docs/get-started",
       cnurl: "https://nature-lang.cn/docs/get-started",
@@ -2041,7 +2041,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "emscripten",
       enurl: "https://emscripten.org/docs/getting_started",
       cnurl: "#",
@@ -2953,7 +2953,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "Cap’n Proto",
       enurl: "https://capnproto.org/language.html",
       cnurl: "#",
@@ -6134,7 +6134,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "Taro",
       enurl: "https://docs.taro.zone/en/docs/GETTING-STARTED",
       cnurl: "https://docs.taro.zone/docs/GETTING-STARTED",
@@ -6152,7 +6152,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "FinClip",
       enurl:
           "https://www.finclip.com/mop-en/document/for-developer/quick-start/build-mini-program.html",
@@ -6445,7 +6445,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/e-CNY.svg",
+      imgUrl: "/Meyou.svg",
       title: "LoongArch",
       enurl:
           "https://loongson.github.io/LoongArch-Documentation/README-EN.html#_getting_started",
