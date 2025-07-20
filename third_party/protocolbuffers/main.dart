@@ -294,6 +294,16 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/MDN.svg",
+      title: "Secure contexts",
+      enurl:
+          "https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts",
+      cnurl:
+          "https://developer.mozilla.org/zh-CN/docs/Web/Security/Secure_Contexts",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
       title: "Types of attacks",
       enurl:
           "https://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks",
@@ -407,6 +417,15 @@ Future main(List<String> args) async {
       imgUrl: "/Rust.svg",
       title: "numpy",
       enurl: "https://docs.rs/numpy/latest/numpy",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "rustix",
+      enurl:
+          "https://github.com/bytecodealliance/rustix?tab=readme-ov-file#rustix",
       cnurl: "#",
     ),
   );
@@ -2199,11 +2218,11 @@ Future main(List<String> args) async {
       cnurl: "#",
     ),
   );
-  // itemList.add(Item(
-  //     imgUrl: "/JSON5.svg",
-  //     title: "JSON5",
-  //     enurl: "https://json5.org",
-  //     cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/JSON.svg",
+      title: "JSON5",
+      enurl: "https://json5.org",
+      cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/Datatracker.svg",
@@ -4320,7 +4339,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OCaml.svg",
       title: "OCaml",
-      enurl: "https://ocaml.org/docs/installing-ocaml",
+      enurl: "https://ocaml.org/docs/your-first-program",
       cnurl: "#",
     ),
   );

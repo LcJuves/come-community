@@ -1302,6 +1302,8 @@ A
 	/Rust.svgrustc"*https://doc.rust-lang.org/rustc/index.html*#
 :
 	/Rust.svgrustdoc"!https://doc.rust-lang.org/rustdoc*#
+\
+	/Rust.svgrustix"Dhttps://github.com/bytecodealliance/rustix?tab=readme-ov-file#rustix*#
 Z
 	/Rust.svgRustOwl"Ahttps://github.com/cordx56/rustowl?tab=readme-ov-file#quick-start*#
 )
@@ -1321,6 +1323,8 @@ S
 /ScalaJS.svgScalaJS"7https://www.scala-js.org/doc/tutorial/scalajs-vite.html*#
 €
 /Android.svgSDK CmdLine Tools")https://developer.android.com/tools?hl=en*2https://developer.android.google.cn/tools?hl=zh-cn
+©
+/MDN.svgSecure contexts"Ehttps://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts*Ehttps://developer.mozilla.org/zh-CN/docs/Web/Security/Secure_Contexts
 ]
 /GNU.svgsed"Ihttps://www.gnu.org/software/sed/manual/sed.html#Command_002dLine-Options*#
 ^
