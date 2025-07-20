@@ -31,7 +31,7 @@ class VisibilityTempTip extends StatelessWidget {
       );
     }
     // I need international law.
-    // Let's f**k the person who violates privacy together.
+    // Let's f**k the guy who violates privacy together.
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
       visible: (fetchedGeoInfo == null ||
