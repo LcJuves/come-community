@@ -839,6 +839,8 @@ LeakCanary"3https://square.github.io/leakcanary/getting_started*#
 	/Lean.svgLean"khttps://lean-lang.org/functional_programming_in_lean/Hello___-World___/Running-a-Program/#running-a-program*#
 K
 /LcJuvesBlog.svgLearn X in Y minutes"https://learnxinyminutes.com/c*#
+P
+	/Rust.svgLearning Rust"1https://learning-rust.github.io/docs/installation*#
 }
 /Let's%20Encrypt.svgLet's Encrypt"'https://letsencrypt.org/getting-started*-https://letsencrypt.org/zh-cn/getting-started
 S
@@ -1031,11 +1033,11 @@ F
 /Nim.svgNim"'https://nim-lang.org/documentation.html*#
  
 /NodeJS.svgNodeJS"Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 Z
 
 /NumPy.svgNumPy"Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart*#
-9
-	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 T
 
 /NuttX.svgNuttX"<https://nuttx.apache.org/docs/latest/quickstart/install.html*#

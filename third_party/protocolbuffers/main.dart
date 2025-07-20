@@ -883,6 +883,14 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "Learning Rust",
+      enurl: "https://learning-rust.github.io/docs/installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "Rust MIR",
       enurl: "https://rustc-dev-guide.rust-lang.org/mir",
       cnurl: "#",
@@ -1607,7 +1615,6 @@ Future main(List<String> args) async {
       title: "Cangjie",
       enurl:
           "https://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html",
-
       cnurl:
           "https://cangjie-lang.cn/docs?url=%2F1.0.0%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html",
     ),
