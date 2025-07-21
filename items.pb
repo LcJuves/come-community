@@ -91,6 +91,8 @@ W
 	/Rust.svgaudionimbus-sys"6https://docs.rs/audionimbus-sys/latest/audionimbus_sys*#
 A
 /Automa.svgAutoma"'https://docs.automa.site/rpa/quickstart*#
+µ
+/Avalonia.svgAvalonia"Hhttps://docs.avaloniaui.net/docs/get-started/test-drive/create-a-project*Phttps://docs.avaloniaui.net/zh-Hans/docs/get-started/test-drive/create-a-project
 =
 	/AVIF.svgAVIF"'https://aomediacodec.github.io/av1-avif*#
 W
@@ -102,8 +104,8 @@ W
 /Azure.svgAzure Linux"ihttps://github.com/microsoft/azurelinux/blob/3.0/toolkit/docs/quick_start/quickstart.md#quick-start-guide*#
 ’
 /AzurePipelines.svgAzure Pipelines"thttps://learn.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cbrowser*thttps://learn.microsoft.com/zh-cn/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=java%2Cbrowser
-Ä
-/AzureQuantum.svgAzure Quantum"Ohttps://learn.microsoft.com/en-us/training/paths/quantum-computing-fundamentals*Ohttps://learn.microsoft.com/zh-cn/training/paths/quantum-computing-fundamentals
+è
+/AzureQuantum.svgAzure Quantum"ahttps://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum*ahttps://learn.microsoft.com/zh-cn/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum
 h
 /BabylonJS.svg	BabylonJS"Hhttps://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step*#
 W
@@ -282,6 +284,8 @@ R
 /ContainerSSH.svgContainerSSH",https://containerssh.io/v0.5/getting-started*#
 G
 /Continue.svgContinue")https://docs.continue.dev/getting-started*#
+Ñ
+/GitHub.svgConventional Commits"6https://www.conventionalcommits.org/en/v1.0.0/#summary*thhttps://www.conventionalcommits.org/zh-hans/v1.0.0/#%e7%ba%a6%e5%ae%9a%e5%bc%8f%e6%8f%90%e4%ba%a4%e8%a7%84%e8%8c%83
 j
 /Apache%20Cordova.svgCordova"Ehttps://cordova.apache.org/docs/en/latest/guide/cli/installation.html*#
 Y
@@ -380,10 +384,10 @@ w
 -https://fastweb.lcjuves.com/donate/Alipay.svgDonate to the author"-https://fastweb.lcjuves.com/donate/Alipay.svg*#
 z
 	/IANA.svgDoQ Error Codes"Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes*#
-¹
-/dotNET.svgdotNET"Phttps://learn.microsoft.com/en-us/dotnet/core/get-started?source=recommendations*Phttps://learn.microsoft.com/zh-cn/dotnet/core/get-started?source=recommendations
-ª
-/dotNET.svgdotNET MAUI"Fhttps://learn.microsoft.com/en-us/dotnet/maui/get-started/installation*Fhttps://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation
+·
+/dotNET.svgdotNET"Ohttps://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code*Ohttps://learn.microsoft.com/zh-cn/dotnet/core/tutorials/with-visual-studio-code
+þ
+/dotNET.svgdotNET MAUI"phttps://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code*phttps://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code
 Ñ
 /Douyin.svgDouyin Mini App"Ehttps://developers.tiktok.com/doc/our-guidelines-developer-guidelines*jhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev
 O
@@ -392,6 +396,8 @@ O
 /Apache%20Dubbo.svgDubbo"Lhttps://cn.dubbo.apache.org/en/overview/mannual/java-sdk/quick-start/starter*Ohttps://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/quick-start/starter
 ?
 /EasingWizard.svgEasing Wizard"https://easingwizard.com*#
+^
+/GitHub.svgeasyWSL"Chttps://github.com/redcode-labs/easyWSL?tab=readme-ov-file#-easywsl*#
 U
 	/eBPF.svgeBPF"https://ebpf.io/what-is-ebpf*$https://ebpf.io/zh-hans/what-is-ebpf
 9
@@ -405,10 +411,10 @@ E
 /Elixir.svgElixir"+https://hexdocs.pm/elixir/introduction.html*#
 S
 	/Rust.svgempiriqa"9https://github.com/ynqa/empiriqa?tab=readme-ov-file#usage*#
-H
+W
 
 /Meyou.svg
-emscripten"+https://emscripten.org/docs/getting_started*#
+emscripten":https://emscripten.org/docs/getting_started/downloads.html*#
 E
 /esbuild.svgesbuild")https://esbuild.github.io/getting-started*#
 …
@@ -563,14 +569,18 @@ K
 j
 
 /Gnome.svgGNOME"Rhttps://developer.gnome.org/documentation/tutorials/beginners/getting_started.html*#
-+
-/GNU.svgGNU"https://www.gnu.org/doc*#
+\
+/GNU.svgGNU"#https://www.gnu.org/doc/doc.en.html*&https://www.gnu.org/doc/doc.zh-cn.html
 U
 /GNU.svgGNU Binutils"8https://sourceware.org/binutils/docs/binutils/index.html*#
 s
 /GNU.svgGNU Coreutils"Uhttps://www.gnu.org/software/coreutils/manual/html_node/index.html#toc-Introduction-1*#
+@
+/GNU.svgGNU FSD"(https://directory.fsf.org/wiki/Main_Page*#
 V
 /GNU.svgGNU make"=https://www.gnu.org/software/make/manual/html_node/index.html*#
+Y
+/GNU.svgGNU Parallel"<https://www.gnu.org/software/parallel/parallel_tutorial.html*#
 V
 /GNU.svgGNU Wget"=https://www.gnu.org/software/wget/manual/html_node/index.html*#
 u
@@ -775,6 +785,8 @@ JSON Crack"https://todiagram.com/editor*#
 /JSONSchema.svgJSON Schema":https://json-schema.org/learn/getting-started-step-by-step*#
 >
 	/JSON.svgJSON Schema Store"https://www.schemastore.org*#
+(
+	/JSON.svgJSON5"https://json5.org*#
 D
 /Jupyter.svgJupyter"(https://docs.jupyter.org/en/latest/start*#
 /
@@ -819,8 +831,8 @@ X
 g
 /Kubernetes.svg
 Kubernetes" https://kubernetes.io/docs/setup*&https://kubernetes.io/zh-cn/docs/setup
-Ý
-/Kuikly.svgKuikly"Jhttps://github.com/Tencent-TDS/KuiklyUI?tab=readme-ov-file#getting-started*zhttps://kuikly.tds.qq.com/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/hello-world.html#%E6%96%B0%E5%BB%BAkuikly%E5%B7%A5%E7%A8%8B
+°
+/Kuikly.svgKuikly"Jhttps://github.com/Tencent-TDS/KuiklyUI?tab=readme-ov-file#getting-started*Mhttps://kuikly.tds.qq.com/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/env-setup.html
 D
 /LangChain.svg	LangChain"$https://js.langchain.com/docs/how_to*#
 N
@@ -998,9 +1010,9 @@ R
 /Microsoft.svgMSFT Open Projects")https://opensource.microsoft.com/projects*#
 Ô
 /Microsoft.svgMSVC"]https://learn.microsoft.com/en-us/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170*]https://learn.microsoft.com/zh-cn/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-170
-@
+;
 
-/MSYS2.svgMSYS2"(https://www.msys2.org/docs/what-is-msys2*#
+/MSYS2.svgMSYS2"#https://www.msys2.org/#installation*#
 e
 /MooreThreads.svgMT-Transformer-vLLM"8https://docs.mthreads.com/mtt/mtt-doc-online/quick_start*#
 J
@@ -1057,9 +1069,9 @@ OAuth PKCE"https://oauth.net/2/pkce*#
 Z
 
 /Apple.svgObjective-C Runtime"4https://developer.apple.com/documentation/objectivec*#
-?
+A
 
-/OCaml.svgOCaml"'https://ocaml.org/docs/installing-ocaml*#
+/OCaml.svgOCaml")https://ocaml.org/docs/your-first-program*#
 ´
 /OceanBase.svg	OceanBase"Ihttps://en.oceanbase.com/docs/common-oceanbase-database-10000000001970931*Lhttps://www.oceanbase.com/docs/common-oceanbase-database-cn-1000000002012693
 …
@@ -1115,6 +1127,9 @@ L
 /OpenWrt.svgOpenWrt"0https://openwrt.org/docs/guide-quick-start/start*3https://openwrt.org/zh/docs/guide-quick-start/start
 f
 /OpenZFS.svgOpenZFS"Jhttps://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/index.html*#
+š
+
+/Meyou.svgOriginQ QPanda3";https://qcloud.originqc.com.cn/document/qpanda-3/index.html*>https://qcloud.originqc.com.cn/document/qpanda-3/cn/index.html
 š
 /Orillusion.svg
 Orillusion">https://www.orillusion.com/en/guide/getting_start/install.html*;https://www.orillusion.com/guide/getting_start/install.html
@@ -1212,6 +1227,8 @@ Y
 /RabbitMQ.svgRabbitMQ";https://www.rabbitmq.com/tutorials/tutorial-one-rust-stream*#
 m
 /Raspberrypi.svgRaspberry Pi"Hhttps://www.raspberrypi.com/documentation/computers/getting-started.html*#
+F
+/Ratatui.svgRatatui"*https://ratatui.rs/tutorials/hello-ratatui*#
 `
 /Ray.svgRay Core"Ghttps://docs.ray.io/en/latest/ray-core/walkthrough.html#getting-started*#
 5
@@ -1227,9 +1244,18 @@ B
 /ReactiveX.svg	ReactiveX""https://reactivex.io/documentation*#
 Q
 /ReactJS.svgReactJS"https://react.dev/learn*https://zh-hans.react.dev/learn
-@
+g
 
-/redis.svgRedis"(https://redis.io/docs/latest/get-started*#
+/redis.svgRedis"Ohttps://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker*#
+^
+
+/redis.svg	Redis CLI"Bhttps://redis.io/docs/latest/develop/tools/cli/#command-line-usage*#
+Y
+
+/redis.svgRedis Client":https://redis.io/docs/latest/develop/clients/jedis/connect*#
+F
+
+/redis.svgRedis Commands"%https://redis.io/docs/latest/commands*#
 ]
 
 /Redox.svgRedox OS"Bhttps://doc.redox-os.org/book/getting-started.html#getting-started*#
@@ -1292,6 +1318,8 @@ H
 	/Rust.svgRust HIR".https://rustc-dev-guide.rust-lang.org/hir.html*#
 C
 	/Rust.svgRust MIR")https://rustc-dev-guide.rust-lang.org/mir*#
+R
+	/Rust.svgRust Project Goals".https://rust-lang.github.io/rust-project-goals*#
 Q
 	/Rust.svg	Rust UEFI"6https://rust-osdev.github.io/uefi-rs/tutorial/app.html*#
 G
@@ -1302,6 +1330,8 @@ A
 	/Rust.svgrustc"*https://doc.rust-lang.org/rustc/index.html*#
 :
 	/Rust.svgrustdoc"!https://doc.rust-lang.org/rustdoc*#
+\
+	/Rust.svgrustix"Dhttps://github.com/bytecodealliance/rustix?tab=readme-ov-file#rustix*#
 Z
 	/Rust.svgRustOwl"Ahttps://github.com/cordx56/rustowl?tab=readme-ov-file#quick-start*#
 )
@@ -1321,10 +1351,14 @@ S
 /ScalaJS.svgScalaJS"7https://www.scala-js.org/doc/tutorial/scalajs-vite.html*#
 €
 /Android.svgSDK CmdLine Tools")https://developer.android.com/tools?hl=en*2https://developer.android.google.cn/tools?hl=zh-cn
+©
+/MDN.svgSecure contexts"Ehttps://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts*Ehttps://developer.mozilla.org/zh-CN/docs/Web/Security/Secure_Contexts
 ]
 /GNU.svgsed"Ihttps://www.gnu.org/software/sed/manual/sed.html#Command_002dLine-Options*#
 ^
 /Selenium.svgSelenium"@https://www.selenium.dev/documentation/webdriver/getting_started*#
+U
+/GitHub.svgSemantic Versioning"https://semver.org*https://semver.org/lang/zh-CN
 :
 /Sentry.svgSentry" https://docs.sentry.io/platforms*#
 N
@@ -1334,6 +1368,8 @@ A
 /Servo.svgServo")https://book.servo.org/getting-servo.html*#
 6
 /SESSION.svgSESSION"https://getsession.org/faq*#
+å
+/MDN.svgSharedArrayBuffer"bhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer*bhttps://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer
 c
 	/Rust.svg
 shields.rs"Ghttps://github.com/Jannchie/shields.rs?tab=readme-ov-file#usage-example*#
@@ -1414,6 +1450,10 @@ H
 ž
 /TensorFlow.svg
 TensorFlow":https://tensorflow.org/tutorials/quickstart/beginner?hl=en*Chttps://tensorflow.google.cn/tutorials/quickstart/beginner?hl=zh-cn
+c
+/NVIDIA.svgTensorRT"Ghttps://developer.nvidia.com/tensorrt#section-get-started-with-tensorrt*#
+¥
+/PyTorch.svgTensorRT through ONNX"{https://github.com/NVIDIA/TensorRT/blob/release/10.12/quickstart/IntroNotebooks/2.%20Using%20PyTorch%20through%20ONNX.ipynb*#
 F
 /Termux.svgTermux",https://wiki.termux.com/wiki/Getting_started*#
 R
@@ -1452,6 +1492,8 @@ L
 /tonic.svgtonic"https://github.com/ynqa/jnv*#
 U
 /Tor.svgTor"https://support.torproject.org*$https://support.torproject.org/zh-CN
+e
+/PyTorch.svgTorch-TensorRT"Bhttps://docs.pytorch.org/TensorRT/getting_started/quick_start.html*#
 q
 	/Trae.svgTrae".https://docs.trae.ai/docs/set-up-trae?_lang=en*.https://docs.trae.ai/docs/set-up-trae?_lang=zh
 7
@@ -1642,6 +1684,9 @@ s
 	/YAML.svgYAML"https://yaml.org*#
 T
 /youki_flat.svgyouki"7https://youki-dev.github.io/youki/user/basic_setup.html*#
+7
+
+/Zapp_.svgZapp!"https://docs.zapp.run/templates*#
 9
 /Zed.svgZed"%https://zed.dev/docs/#getting-started*#
 U
