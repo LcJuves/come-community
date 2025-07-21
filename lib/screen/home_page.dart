@@ -8,26 +8,12 @@ import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter_search_bar.dart';
 import 'package:devfans/widget/snapshot_error_text.dart';
 import 'package:devfans/widget/visibility_temp_tip.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
-
-  Future<List<Item>> _fetchItemsFromUrl() async {
-    final response =
-        await http.get(Uri.parse("https://devfans.lcjuves.com/items.pb"));
-    if (response.statusCode == Constants.httpOk) {
-      return Items.fromBuffer(response.bodyBytes).itemList;
-    } else {
-      // If the server did not return a 200 OK response,
-      // then throw an exception.
-      throw Exception('Failed to load items');
-    }
-  }
 
   Future<List<Item>> _fetchItemsFromBundle() async {
     final buffer = await rootBundle.load('items.pb');
@@ -35,7 +21,7 @@ class HomePage extends StatefulWidget {
   }
 
   Future<List<Item>> _initFutureItems() async {
-    return kDebugMode ? _fetchItemsFromBundle() : _fetchItemsFromUrl();
+    return _fetchItemsFromBundle();
   }
 
   Future<FutureData> _initFutureData() async {
