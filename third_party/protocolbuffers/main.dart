@@ -15,6 +15,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Zapp_.svg",
+      title: "Zapp!",
+      enurl: "https://docs.zapp.run/templates",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Flutter.svg",
       title: "Flame",
       enurl: "https://docs.flame-engine.org/latest/README.html",
@@ -271,6 +279,16 @@ Future main(List<String> args) async {
       title: "MDN Web",
       enurl: "https://developer.mozilla.org/en-US/docs/Web",
       cnurl: "https://developer.mozilla.org/zh-CN/docs/Web",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
+      title: "SharedArrayBuffer",
+      enurl:
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
+      cnurl:
+          "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
     ),
   );
   itemList.add(
@@ -754,12 +772,40 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/PyTorch.svg",
+      title: "Torch-TensorRT",
+      enurl:
+          "https://docs.pytorch.org/TensorRT/getting_started/quick_start.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/PyTorch.svg",
+      title: "TensorRT through ONNX",
+      enurl:
+          "https://github.com/NVIDIA/TensorRT/blob/release/10.12/quickstart/IntroNotebooks/2.%20Using%20PyTorch%20through%20ONNX.ipynb",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/dotNET.svg",
       title: "dotNET",
       enurl:
           "https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code",
       cnurl:
           "https://learn.microsoft.com/zh-cn/dotnet/core/tutorials/with-visual-studio-code",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Avalonia.svg",
+      title: "Avalonia",
+      enurl:
+          "https://docs.avaloniaui.net/docs/get-started/test-drive/create-a-project",
+      cnurl:
+          "https://docs.avaloniaui.net/zh-Hans/docs/get-started/test-drive/create-a-project",
     ),
   );
   itemList.add(
@@ -904,6 +950,14 @@ Future main(List<String> args) async {
       imgUrl: "/Rust.svg",
       title: "Learning Rust",
       enurl: "https://learning-rust.github.io/docs/installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust Project Goals",
+      enurl: "https://rust-lang.github.io/rust-project-goals",
       cnurl: "#",
     ),
   );
@@ -1736,9 +1790,27 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/GitHub.svg",
+      title: "easyWSL",
+      enurl:
+          "https://github.com/redcode-labs/easyWSL?tab=readme-ov-file#-easywsl",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
       title: "Semantic Versioning",
       enurl: "https://semver.org",
       cnurl: "https://semver.org/lang/zh-CN",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "Conventional Commits",
+      enurl: "https://www.conventionalcommits.org/en/v1.0.0/#summary",
+      cnurl:
+          "hhttps://www.conventionalcommits.org/zh-hans/v1.0.0/#%e7%ba%a6%e5%ae%9a%e5%bc%8f%e6%8f%90%e4%ba%a4%e8%a7%84%e8%8c%83",
     ),
   );
   itemList.add(
@@ -2045,7 +2117,23 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GNU.svg",
       title: "GNU",
-      enurl: "https://www.gnu.org/doc",
+      enurl: "https://www.gnu.org/doc/doc.en.html",
+      cnurl: "https://www.gnu.org/doc/doc.zh-cn.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GNU.svg",
+      title: "GNU FSD",
+      enurl: "https://directory.fsf.org/wiki/Main_Page",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GNU.svg",
+      title: "GNU Parallel",
+      enurl: "https://www.gnu.org/software/parallel/parallel_tutorial.html",
       cnurl: "#",
     ),
   );
@@ -2061,7 +2149,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/MSYS2.svg",
       title: "MSYS2",
-      enurl: "https://www.msys2.org/docs/what-is-msys2",
+      enurl: "https://www.msys2.org/#installation",
       cnurl: "#",
     ),
   );
@@ -2077,7 +2165,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Meyou.svg",
       title: "emscripten",
-      enurl: "https://emscripten.org/docs/getting_started",
+      enurl: "https://emscripten.org/docs/getting_started/downloads.html",
       cnurl: "#",
     ),
   );
@@ -2093,7 +2181,33 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/redis.svg",
       title: "Redis",
-      enurl: "https://redis.io/docs/latest/get-started",
+      enurl:
+          "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/redis.svg",
+      title: "Redis Client",
+      enurl: "https://redis.io/docs/latest/develop/clients/jedis/connect",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/redis.svg",
+      title: "Redis CLI",
+      enurl:
+          "https://redis.io/docs/latest/develop/tools/cli/#command-line-usage",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/redis.svg",
+      title: "Redis Commands",
+      enurl: "https://redis.io/docs/latest/commands",
       cnurl: "#",
     ),
   );
@@ -2126,6 +2240,14 @@ Future main(List<String> args) async {
       imgUrl: "/Rust.svg",
       title: "mlir-sys",
       enurl: "https://github.com/mlir-rs/mlir-sys",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Ratatui.svg",
+      title: "Ratatui",
+      enurl: "https://ratatui.rs/tutorials/hello-ratatui",
       cnurl: "#",
     ),
   );
@@ -2602,6 +2724,14 @@ Future main(List<String> args) async {
           "https://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum",
       cnurl:
           "https://learn.microsoft.com/zh-cn/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Meyou.svg",
+      title: "OriginQ QPanda3",
+      enurl: "https://qcloud.originqc.com.cn/document/qpanda-3/index.html",
+      cnurl: "https://qcloud.originqc.com.cn/document/qpanda-3/cn/index.html",
     ),
   );
   itemList.add(
@@ -3577,6 +3707,15 @@ Future main(List<String> args) async {
       imgUrl: "/NVIDIA.svg",
       title: "NVVM IR",
       enurl: "https://docs.nvidia.com/cuda/nvvm-ir-spec",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/NVIDIA.svg",
+      title: "TensorRT",
+      enurl:
+          "https://developer.nvidia.com/tensorrt#section-get-started-with-tensorrt",
       cnurl: "#",
     ),
   );

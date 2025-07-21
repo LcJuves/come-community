@@ -1,7 +1,7 @@
 #!/bin/sh
 
 flutter clean
-flutter build web --wasm --no-tree-shake-icons --no-native-null-assertions --no-web-resources-cdn --release
+flutter build web --wasm --strip-wasm --tree-shake-icons --no-native-null-assertions --no-web-resources-cdn -O 4 --release
 
 minify_js() {
     bun build "$1" --minify-syntax --minify-whitespace --target browser --outfile "$1"
