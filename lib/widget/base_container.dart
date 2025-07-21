@@ -7,6 +7,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:protobuffers/items.pb.dart';
 import 'package:text_marquee/text_marquee.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:widget_marquee/widget_marquee.dart';
 
 import '../constants.dart';
 import 'inkwell_container.dart';
@@ -18,13 +19,11 @@ class BaseContainer extends StatefulWidget {
   late String _imgUrl;
   final Item item;
   final dynamic geoInfo;
-  final String captivePortalSvg;
   final double singleChildScrollViewSpacing;
   BaseContainer(
       {super.key,
       required this.item,
       required this.geoInfo,
-      required this.captivePortalSvg,
       required this.singleChildScrollViewSpacing}) {
     _imgUrl = item.imgUrl;
     if (_imgUrl.startsWith('/')) {
@@ -99,17 +98,19 @@ class _BaseContainerState extends State<BaseContainer> {
               children: [
                 SizedBox(
                   width: widget._textBoxDynamicWidth(context),
-                  child: Text(
-                    widget.item.title,
-                    style: TextStyle(
-                        fontSize: MediaQuery.textScalerOf(context).scale(18.84),
-                        fontWeight: FontWeight.bold,
-                        foreground: Paint()
-                          ..blendMode = BlendMode.dstOut
-                          ..color = const Color.fromARGB(255, 60, 60, 60)),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
+                  child: Marquee(
+                      gap: Constants.edgePadding * 4,
+                      child: Text(
+                        textScaler: TextScaler.noScaling,
+                        widget.item.title,
+                        style: TextStyle(
+                            fontSize:
+                                MediaQuery.textScalerOf(context).scale(18.84),
+                            fontWeight: FontWeight.bold,
+                            foreground: Paint()
+                              ..blendMode = BlendMode.dstOut
+                              ..color = const Color.fromARGB(255, 60, 60, 60)),
+                      )),
                 ),
                 Padding(
                   padding:
@@ -124,8 +125,8 @@ class _BaseContainerState extends State<BaseContainer> {
                           children: [
                             SizedBox.square(
                               dimension: Constants.captivePortalSvgIconSize,
-                              child: SvgPicture.string(
-                                widget.captivePortalSvg,
+                              child: SvgPicture.asset(
+                                "res/svg/captive-portal.svg",
                                 colorFilter: const ColorFilter.mode(
                                     Colors.grey, BlendMode.srcATop),
                               ),
@@ -134,56 +135,56 @@ class _BaseContainerState extends State<BaseContainer> {
                               dimension: 5,
                             ),
                             SizedBox(
-                              width: widget._textBoxDynamicWidth(context) -
-                                  Constants.captivePortalSvgIconSize -
-                                  Constants.captivePortalSvgIconMarginRight,
-                              child: Tooltip(
-                                padding: const EdgeInsets.all(
-                                    (Constants.goldenRatio * 10) * 2),
-                                decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  shape: BoxShape.rectangle,
-                                  borderRadius: BorderRadius.circular(
+                                width: widget._textBoxDynamicWidth(context) -
+                                    Constants.captivePortalSvgIconSize -
+                                    Constants.captivePortalSvgIconMarginRight,
+                                child: Tooltip(
+                                  padding: const EdgeInsets.all(
                                       (Constants.goldenRatio * 10) * 2),
-                                ),
-                                textStyle: TextStyle(
-                                    fontSize:
-                                        Constants.captivePortalSvgIconSize,
-                                    fontWeight: FontWeight.w500,
-                                    fontFamily: "Menlo",
-                                    foreground: Paint()
-                                      ..blendMode = BlendMode.srcOver
-                                      ..color = const Color.fromARGB(
-                                          255, 100, 100, 100)),
-                                triggerMode: TooltipTriggerMode.manual,
-                                margin: EdgeInsets.fromLTRB(
-                                    widget.singleChildScrollViewSpacing,
-                                    4,
-                                    widget.singleChildScrollViewSpacing,
-                                    4),
-                                message: futureDesc.msgDesc.isNotEmpty
-                                    ? futureDesc.msgDesc
-                                    : Uri.decodeComponent(launchUri.toString()),
-                                waitDuration:
-                                    const Duration(milliseconds: 1200),
-                                exitDuration: const Duration(),
-                                child: TextMarquee(
-                                  spaceSize: (Constants.urlBoxWidth / 2) *
-                                      Constants.goldenRatio,
-                                  futureDesc.desc.isNotEmpty
-                                      ? futureDesc.desc
-                                      : launchUri.host,
-                                  style: TextStyle(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    shape: BoxShape.rectangle,
+                                    borderRadius: BorderRadius.circular(
+                                        (Constants.goldenRatio * 10) * 2),
+                                  ),
+                                  textStyle: TextStyle(
                                       fontSize:
                                           Constants.captivePortalSvgIconSize,
                                       fontWeight: FontWeight.w500,
+                                      fontFamily: "Menlo",
                                       foreground: Paint()
-                                        ..blendMode = BlendMode.dstOut
+                                        ..blendMode = BlendMode.srcOver
                                         ..color = const Color.fromARGB(
                                             255, 100, 100, 100)),
-                                ),
-                              ),
-                            )
+                                  triggerMode: TooltipTriggerMode.manual,
+                                  margin: EdgeInsets.fromLTRB(
+                                      widget.singleChildScrollViewSpacing,
+                                      4,
+                                      widget.singleChildScrollViewSpacing,
+                                      4),
+                                  message: futureDesc.msgDesc.isNotEmpty
+                                      ? futureDesc.msgDesc
+                                      : Uri.decodeComponent(
+                                          launchUri.toString()),
+                                  waitDuration:
+                                      const Duration(milliseconds: 1200),
+                                  exitDuration: const Duration(),
+                                  child: TextMarquee(
+                                    spaceSize: (Constants.urlBoxWidth / 2) *
+                                        Constants.goldenRatio,
+                                    futureDesc.desc.isNotEmpty
+                                        ? futureDesc.desc
+                                        : launchUri.host,
+                                    style: TextStyle(
+                                        fontSize:
+                                            Constants.captivePortalSvgIconSize,
+                                        fontWeight: FontWeight.w500,
+                                        foreground: Paint()
+                                          ..blendMode = BlendMode.dstOut
+                                          ..color = const Color.fromARGB(
+                                              255, 100, 100, 100)),
+                                  ),
+                                ))
                           ],
                         );
                       }),

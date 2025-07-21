@@ -41,12 +41,7 @@ class HomePage extends StatefulWidget {
   Future<FutureData> _initFutureData() async {
     final futureItems = await _initFutureItems();
     final futureGeoInfo = await getGeoInfo();
-    final captivePortalSvg =
-        await rootBundle.loadString("res/svg/captive-portal.svg");
-    final futureData = FutureData(
-        items: futureItems,
-        geoInfo: futureGeoInfo,
-        captivePortalSvg: captivePortalSvg);
+    final futureData = FutureData(items: futureItems, geoInfo: futureGeoInfo);
     return Future.value(futureData);
   }
 
@@ -130,8 +125,6 @@ class _HomePageState extends State<HomePage> {
                                 (i) => BaseContainer(
                                   item: i,
                                   geoInfo: fetchedData.fetchedGeoInfo,
-                                  captivePortalSvg:
-                                      fetchedData.captivePortalSvg,
                                   singleChildScrollViewSpacing:
                                       singleChildScrollViewSpacing,
                                 ),
@@ -156,9 +149,7 @@ class _HomePageState extends State<HomePage> {
                           setState(() {
                             futureData = Future.value(FutureData(
                                 items: List.of(filteredItemsIterable),
-                                geoInfo: fetchedData.fetchedGeoInfo,
-                                captivePortalSvg:
-                                    fetchedData.captivePortalSvg));
+                                geoInfo: fetchedData.fetchedGeoInfo));
                           });
                         },
                       ),

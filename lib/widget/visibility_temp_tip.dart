@@ -34,13 +34,19 @@ class VisibilityTempTip extends StatelessWidget {
     // Let's f**k the guy who violates privacy together.
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
-      visible: (fetchedGeoInfo == null ||
+      visible: (!kDebugMode && letTempTipVisible()) ||
+          (fetchedGeoInfo == null ||
+              ("${fetchedGeoInfo['version']}".toLowerCase() == "ipv4" &&
+                  !"${fetchedGeoInfo['ip']}".toLowerCase().startsWith("27")) ||
               ("${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Shandong".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Jiangxi".toLowerCase() ||
-                  "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Guangdong".toLowerCase() ||
+                  ("${fetchedGeoInfo['region']}".toLowerCase() ==
+                          "Guangdong".toLowerCase() &&
+                      !"${fetchedGeoInfo['ip']}"
+                          .toLowerCase()
+                          .startsWith("27")) ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Hubei".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
@@ -48,12 +54,11 @@ class VisibilityTempTip extends StatelessWidget {
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Shanghai".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Beijing".toLowerCase() ||
-                  ("${fetchedGeoInfo['version']}".toLowerCase() == "ipv4" &&
-                      !"${fetchedGeoInfo['ip']}"
-                          .toLowerCase()
-                          .startsWith("23")))) ||
-          (!kDebugMode && letTempTipVisible()),
+                      "Beijing".toLowerCase()) ||
+              ("${fetchedGeoInfo['country_code']}".toLowerCase() ==
+                      "JP".toLowerCase() ||
+                  "${fetchedGeoInfo['country_code']}".toLowerCase() ==
+                      "JPN".toLowerCase())),
       child: BackdropFilterScaffold(
         sigma: 6.18 / 2,
         backgroundColor: backgroundColor ?? Colors.white.withAlpha(132),

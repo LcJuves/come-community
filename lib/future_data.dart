@@ -10,11 +10,7 @@ import 'package:protobuffers/items.pb.dart';
 class FutureData {
   final List<Item> items;
   final dynamic geoInfo;
-  final String captivePortalSvg;
-  const FutureData(
-      {required this.items,
-      required this.geoInfo,
-      required this.captivePortalSvg});
+  const FutureData({required this.items, required this.geoInfo});
 
   List<Item> get fetchedItems => items;
 

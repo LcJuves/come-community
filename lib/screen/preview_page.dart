@@ -3,7 +3,7 @@ import 'package:devfans/widget/svg_network_icon.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:webview_all/webview_all.dart';
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 class PreviewPage extends StatefulWidget {
   final String previewUrl;
@@ -77,7 +77,13 @@ class _PreviewPageState extends State<PreviewPage> {
         padding: EdgeInsets.only(
             top: MediaQuery.of(context).padding.top,
             bottom: MediaQuery.of(context).padding.bottom),
-        child: Webview(url: widget.previewUrl),
+        child: InAppWebView(
+            initialUrlRequest: URLRequest(
+                url: WebUri(widget.previewUrl),
+                assumesHTTP3Capable: true,
+                headers: Map.of(<String, String>{
+                  "Origin": Uri.parse(widget.previewUrl).origin
+                }))),
       ),
     );
   }

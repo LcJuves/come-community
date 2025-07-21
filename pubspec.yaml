@@ -41,9 +41,10 @@ dependencies:
     path: third_party/protocolbuffers
   html: ^0.15.5
   dio: ^5.8.0+1
-  text_marquee: ^0.0.2
-  webview_all: ^0.5.2
   universal_web: ^1.1.0+2
+  flutter_inappwebview: ^6.1.5
+  widget_marquee: ^0.0.8
+  text_marquee: ^0.0.2
   # cached_network_image: ^3.4.1
   # amicons: ^1.0.1
 
