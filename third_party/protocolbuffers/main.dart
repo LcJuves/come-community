@@ -4449,6 +4449,16 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Windows_11.svg",
+      title: "Windows",
+      enurl:
+          "https://learn.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences",
+      cnurl:
+          "https://learn.microsoft.com/zh-cn/windows/console/console-virtual-terminal-sequences",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Windows_11.svg",
       title: "Windows Commands",
       enurl:
           "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands",

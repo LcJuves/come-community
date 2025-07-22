@@ -37,7 +37,8 @@ class VisibilityTempTip extends StatelessWidget {
       visible: (!kDebugMode && letTempTipVisible()) ||
           (fetchedGeoInfo == null ||
               ("${fetchedGeoInfo['version']}".toLowerCase() == "ipv4" &&
-                  !"${fetchedGeoInfo['ip']}".toLowerCase().startsWith("27")) ||
+                  !"${fetchedGeoInfo['ip']}".toLowerCase().startsWith(
+                      "27") /* At present, only IPv6 support is provided. */) ||
               ("${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Shandong".toLowerCase() ||
                   "${fetchedGeoInfo['region']}".toLowerCase() ==

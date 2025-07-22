@@ -1049,11 +1049,11 @@ F
 /Nim.svgNim"'https://nim-lang.org/documentation.html*#
  
 /NodeJS.svgNodeJS"Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9
+	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 Z
 
 /NumPy.svgNumPy"Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart*#
-9
-	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 T
 
 /NuttX.svgNuttX"<https://nuttx.apache.org/docs/latest/quickstart/install.html*#
@@ -1645,6 +1645,8 @@ U
 	/wgpu.svgwgpu" https://docs.rs/wgpu/latest/wgpu*#
 ¥
 /Microsoft.svg	Win32 API"Chttps://learn.microsoft.com/en-us/windows/win32/desktop-programming*Chttps://learn.microsoft.com/zh-cn/windows/win32/desktop-programming
+Æ
+/Windows_11.svgWindows"Thttps://learn.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences*Thttps://learn.microsoft.com/zh-cn/windows/console/console-virtual-terminal-sequences
 ¬
 /Windows_11.svgWindows"Ghttps://learn.microsoft.com/en-us/windows/whats-new/windows-11-overview*Ghttps://learn.microsoft.com/zh-cn/windows/whats-new/windows-11-overview
 é
