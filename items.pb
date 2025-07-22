@@ -1504,6 +1504,8 @@ U
 /Tor.svgTor"https://support.torproject.org*$https://support.torproject.org/zh-CN
 e
 /PyTorch.svgTorch-TensorRT"Bhttps://docs.pytorch.org/TensorRT/getting_started/quick_start.html*#
+i
+/GitHub.svgTrack Weight"Ihttps://github.com/KrishKrosh/TrackWeight?tab=readme-ov-file#installation*#
 q
 	/Trae.svgTrae".https://docs.trae.ai/docs/set-up-trae?_lang=en*.https://docs.trae.ai/docs/set-up-trae?_lang=zh
 7

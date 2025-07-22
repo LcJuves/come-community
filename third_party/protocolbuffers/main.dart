@@ -1824,6 +1824,15 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/GitHub.svg",
+      title: "Track Weight",
+      enurl:
+          "https://github.com/KrishKrosh/TrackWeight?tab=readme-ov-file#installation",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
       title: "Semantic Versioning",
       enurl: "https://semver.org",
       cnurl: "https://semver.org/lang/zh-CN",
