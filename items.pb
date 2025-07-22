@@ -241,6 +241,8 @@ i
 ClickHouse":https://clickhouse.com/docs/en/getting-started/quick-start*:https://clickhouse.com/docs/zh/getting-started/quick-start
 F
 /Clojure.svgClojure"*https://clojure.org/guides/getting_started*#
+i
+/CloudflareWorkers.svgCloudflare Workers"8https://developers.cloudflare.com/workers/languages/rust*#
 l
 
 /CMake.svgCMake"Thttps://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html*#
@@ -787,6 +789,8 @@ JSON Crack"https://todiagram.com/editor*#
 	/JSON.svgJSON Schema Store"https://www.schemastore.org*#
 (
 	/JSON.svgJSON5"https://json5.org*#
+E
+	/JSON.svgJSON5 Data Interchange Format"https://spec.json5.org*#
 D
 /Jupyter.svgJupyter"(https://docs.jupyter.org/en/latest/start*#
 /
@@ -1045,11 +1049,11 @@ F
 /Nim.svgNim"'https://nim-lang.org/documentation.html*#
  
 /NodeJS.svgNodeJS"Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 Z
 
 /NumPy.svgNumPy"Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart*#
+9
+	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 T
 
 /NuttX.svgNuttX"<https://nuttx.apache.org/docs/latest/quickstart/install.html*#
@@ -1304,6 +1308,8 @@ q
 	/Rust.svgRust"+https://www.rust-lang.org/learn/get-started*1https://www.rust-lang.org/zh-CN/learn/get-started
 b
 	/Rust.svgRust and WebAssembly"<https://rustwasm.github.io/docs/book/game-of-life/setup.html*#
+s
+	/Rust.svgRust by Example")https://doc.rust-lang.org/rust-by-example**https://rustwiki.org/zh-CN/rust-by-example
 }
 	/Rust.svg	Rust CUDA"bhttps://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started*#
 X
@@ -1462,6 +1468,10 @@ _
 /GNU.svgThe GNU C Library"=https://www.gnu.org/software/libc/manual/html_node/index.html*#
 f
 	/Rust.svgThe Rust Core Library"?https://doc.rust-lang.org/core/index.html#the-rust-core-library*#
+t
+	/Rust.svgThe Rust Edition Guide"Lhttps://doc.rust-lang.org/edition-guide/editions/creating-a-new-project.html*#
+¤
+	/Rust.svgThe Rust Programming Language"8https://doc.rust-lang.org/book/ch01-01-installation.html*>https://kaisery.github.io/trpl-zh-cn/ch01-01-installation.html
 j
 	/Rust.svgThe Rust Style Guide"Dhttps://doc.rust-lang.org/stable/style-guide/#the-default-rust-style*#
 ^
@@ -1655,6 +1665,10 @@ D
 /WireGuard.svg	WireGuard"$https://www.wireguard.com/quickstart*#
 H
 /Wireshark.svg	Wireshark"(https://www.wireshark.org/docs/wsug_html*#
+f
+
+/Trunk.svg
+workers-rs"Ihttps://github.com/cloudflare/workers-rs?tab=readme-ov-file#example-usage*#
 v
 
 /Cargo.svgWorkspace Analyzer"Qhttps://github.com/jaads/cargo-workspace-analyzer?tab=readme-ov-file#installation*#

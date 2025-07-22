@@ -948,6 +948,31 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "The Rust Programming Language",
+      enurl: "https://doc.rust-lang.org/book/ch01-01-installation.html",
+      cnurl: "https://kaisery.github.io/trpl-zh-cn/ch01-01-installation.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "The Rust Edition Guide",
+      enurl:
+          "https://doc.rust-lang.org/edition-guide/editions/creating-a-new-project.html",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust by Example",
+      enurl: "https://doc.rust-lang.org/rust-by-example",
+      cnurl: "https://rustwiki.org/zh-CN/rust-by-example",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "Learning Rust",
       enurl: "https://learning-rust.github.io/docs/installation",
       cnurl: "#",
@@ -2344,6 +2369,11 @@ Future main(List<String> args) async {
       imgUrl: "/JSON.svg",
       title: "JSON5",
       enurl: "https://json5.org",
+      cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/JSON.svg",
+      title: "JSON5 Data Interchange Format",
+      enurl: "https://spec.json5.org",
       cnurl: "#"));
   itemList.add(
     Item(
@@ -4912,6 +4942,23 @@ Future main(List<String> args) async {
       imgUrl: "/Cloudflare.svg",
       title: "1.1.1.1",
       enurl: "https://developers.cloudflare.com/1.1.1.1/setup",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/CloudflareWorkers.svg",
+      title: "Cloudflare Workers",
+      enurl: "https://developers.cloudflare.com/workers/languages/rust",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Trunk.svg",
+      title: "workers-rs",
+      enurl:
+          "https://github.com/cloudflare/workers-rs?tab=readme-ov-file#example-usage",
       cnurl: "#",
     ),
   );
