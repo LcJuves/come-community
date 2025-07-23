@@ -1,9 +1,9 @@
 import 'package:devfans/future_data.dart';
 import 'package:devfans/screen/preview_page.dart';
+import 'package:devfans/widget/captive_portal_svg_picture.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:protobuffers/items.pb.dart';
 import 'package:text_marquee/text_marquee.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -123,14 +123,7 @@ class _BaseContainerState extends State<BaseContainer> {
                         return Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            SizedBox.square(
-                              dimension: Constants.captivePortalSvgIconSize,
-                              child: SvgPicture.asset(
-                                "res/svg/captive-portal.svg",
-                                colorFilter: const ColorFilter.mode(
-                                    Colors.grey, BlendMode.srcATop),
-                              ),
-                            ),
+                            const CaptivePortalSvgPicture(),
                             const SizedBox.square(
                               dimension: 5,
                             ),

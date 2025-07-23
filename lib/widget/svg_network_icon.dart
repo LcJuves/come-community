@@ -18,9 +18,8 @@ class SvgNetworkIcon extends StatelessWidget {
         blendMode: BlendMode.dstOut,
       ),
     );
-    return SizedBox(
-      width: size,
-      height: size,
+    return SizedBox.square(
+      dimension: size,
       child: SvgPicture.network(
         url,
         // semanticsLabel: 'A shark?!',

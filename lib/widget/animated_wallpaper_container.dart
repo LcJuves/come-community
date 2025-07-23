@@ -27,6 +27,7 @@ class _AnimatedWallpaperContainerState
           image: DecorationImage(
             image: AssetImage('res/img/wallpaper.jpg'),
             fit: BoxFit.cover,
+            isAntiAlias: true,
           ),
         ),
       ),

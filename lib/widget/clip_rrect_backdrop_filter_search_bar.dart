@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:devfans/constants.dart';
 import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
-import 'package:devfans/widget/gradient_icon.dart';
+import 'package:devfans/widget/linear_gradient_icon.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -88,7 +88,7 @@ class _ClipRRectBackdropFilterSearchBarState
             leading: const Padding(
               padding:
                   EdgeInsets.fromLTRB(10, 10, 10 * Constants.goldenRatio, 10),
-              child: GradientIcon(
+              child: LinearGradientIcon(
                 Icons.search_rounded,
               ),
             ),

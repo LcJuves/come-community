@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:devfans/constants.dart';
+import 'package:devfans/widget/devfans_text.dart';
 import 'package:flutter/material.dart';
 
 class SnapshotErrorText extends StatelessWidget {
@@ -17,14 +18,14 @@ class SnapshotErrorText extends StatelessWidget {
         alignment: Alignment.topLeft,
         child: Padding(
           padding: const EdgeInsets.all(Constants.edgePadding),
-          child: SelectableText(
-              '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
-              textAlign: TextAlign.start,
-              style: TextStyle(
-                  fontSize: 20,
-                  foreground: Paint()
-                    ..blendMode = BlendMode.difference
-                    ..color = Colors.white)),
+          child: DevFansText(
+            selectable: true,
+            '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
+            textAlign: TextAlign.start,
+            fontSize: 20,
+            foregroundPaintColor: Colors.white,
+            blendMode: BlendMode.difference,
+          ),
         ),
       ),
     );

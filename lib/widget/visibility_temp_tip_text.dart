@@ -1,17 +1,22 @@
+import 'package:devfans/widget/devfans_text.dart';
+import 'package:devfans/widget/linear_gradient_shader_mask.dart';
 import 'package:flutter/material.dart';
 
-class BlendModeText extends StatelessWidget {
-  const BlendModeText(String this.data,
+class VisibilityTempTipText extends StatelessWidget {
+  const VisibilityTempTipText(String this.data,
       {super.key,
       this.fontSize,
-      this.fontWeight,
-      this.fontStyle,
       this.letterSpacing,
       this.wordSpacing,
-      this.textBaseline,
       this.height,
-      this.blendMode,
-      this.foregroundPaintColor});
+      this.selectable = true,
+      this.backgroundPaint,
+      this.sigma = 0});
+
+  /// The text to display.
+  ///
+  /// This will be null if a [textSpan] is provided instead.
+  final String? data;
 
   /// The size of fonts (in logical pixels) to use when painting the text.
   ///
@@ -28,12 +33,6 @@ class BlendModeText extends StatelessWidget {
   /// is set to null.
   final double? fontSize;
 
-  /// The typeface thickness to use when painting the text (e.g., bold).
-  final FontWeight? fontWeight;
-
-  /// The typeface variant to use when drawing the letters (e.g., italics).
-  final FontStyle? fontStyle;
-
   /// The amount of space (in logical pixels) to add between each letter.
   /// A negative value can be used to bring the letters closer.
   final double? letterSpacing;
@@ -42,10 +41,6 @@ class BlendModeText extends StatelessWidget {
   /// white-space (i.e. between each word). A negative value can be used to
   /// bring the words closer.
   final double? wordSpacing;
-
-  /// The common baseline that should be aligned between this text span and its
-  /// parent text span, or, for the root text spans, with the line box.
-  final TextBaseline? textBaseline;
 
   /// The height of this text span, as a multiple of the font size.
   ///
@@ -71,31 +66,43 @@ class BlendModeText extends StatelessWidget {
   /// height at the paragraph level.
   final double? height;
 
-  // The text to display.
-  ///
-  /// This will be null if a [textSpan] is provided instead.
-  final String? data;
+  final bool selectable;
 
-  final BlendMode? blendMode;
+  final Paint? backgroundPaint;
 
-  final Color? foregroundPaintColor;
+  final double sigma;
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      data ?? "",
-      style: TextStyle(
-        fontSize: fontSize,
-        fontWeight: fontWeight,
-        fontStyle: fontStyle,
-        letterSpacing: letterSpacing,
-        wordSpacing: wordSpacing,
-        textBaseline: textBaseline,
-        height: height,
-        foreground: Paint()
-          ..blendMode = blendMode ?? BlendMode.difference
-          ..color = foregroundPaintColor ?? Colors.white,
-      ),
+    return Stack(
+      children: [
+        LinearGradientShaderMask(
+            blendMode: BlendMode.srcATop,
+            child: Padding(
+                padding: const EdgeInsets.all(0.5),
+                child: DevFansText(
+                  data ?? "",
+                  selectable: selectable,
+                  fontSize: fontSize,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: letterSpacing,
+                  wordSpacing: wordSpacing,
+                  height: height,
+                  maskFilter: MaskFilter.blur(BlurStyle.solid, sigma * 1.5),
+                ))),
+        DevFansText(
+          data ?? "",
+          selectable: selectable,
+          fontSize: fontSize,
+          fontWeight: FontWeight.bold,
+          letterSpacing: letterSpacing,
+          wordSpacing: wordSpacing,
+          height: height,
+          foregroundPaintColor: Colors.blueGrey,
+          blendMode: BlendMode.plus,
+          backgroundPaint: backgroundPaint,
+        )
+      ],
     );
   }
 }

@@ -1,10 +1,12 @@
 import 'package:devfans/constants.dart';
 import 'package:devfans/webspec.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
-import 'package:devfans/widget/blend_mode_text.dart';
+import 'package:devfans/widget/visibility_temp_tip_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+const double sigma = 6.18 / 4;
 
 class VisibilityTempTip extends StatelessWidget {
   const VisibilityTempTip({
@@ -30,6 +32,7 @@ class VisibilityTempTip extends StatelessWidget {
         Constants.defaultSystemUiOverlayStyle,
       );
     }
+
     // I need international law.
     // Let's f**k the guy who violates privacy together.
     // And it is not allowed to obtain public packages and related dependencies.
@@ -57,48 +60,46 @@ class VisibilityTempTip extends StatelessWidget {
                   "${fetchedGeoInfo['region']}".toLowerCase() ==
                       "Beijing".toLowerCase()) ||
               ("${fetchedGeoInfo['country_code']}".toLowerCase() ==
+                      "LU".toLowerCase() ||
+                  "${fetchedGeoInfo['country_code']}".toLowerCase() ==
+                      "QAT".toLowerCase()) ||
+              ("${fetchedGeoInfo['country_code']}".toLowerCase() ==
                       "JP".toLowerCase() ||
                   "${fetchedGeoInfo['country_code']}".toLowerCase() ==
                       "JPN".toLowerCase())),
       child: BackdropFilterScaffold(
-        sigma: 6.18 / 2,
-        backgroundColor: backgroundColor ?? Colors.white.withAlpha(132),
+        sigma: sigma,
+        backgroundColor: backgroundColor ?? Colors.transparent,
         body: Center(
           child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
             padding: EdgeInsets.all(singleChildScrollViewSpacing),
-            child: const Center(
+            child: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  BlendModeText(
-                    "Hello",
+                  const VisibilityTempTipText(
+                    " Hello",
                     fontSize: 75,
-                    fontWeight: FontWeight.bold,
-                    blendMode: BlendMode.difference,
-                    foregroundPaintColor: Colors.white,
+                    sigma: sigma,
                   ),
-                  BlendModeText(
-                    "What's wrong with you?",
+                  const VisibilityTempTipText(
+                    " What's wrong with you?",
                     fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                    blendMode: BlendMode.difference,
-                    foregroundPaintColor: Colors.white,
+                    sigma: sigma,
                   ),
-                  BlendModeText(
-                    """People in a simulation game, 8 billion people around the world only need to pay the author enough money for financial freedom, and the author will solve it!
-This may be considered as the best solution at present. Please use your VISA card to transfer money directly to the number `881017378957`, get rid of it~
+                  const VisibilityTempTipText(
+                    """ People in a simulation game, 8 billion people around the world only need to pay the author enough money for financial freedom, and the author will solve it!
+ This may be considered as the best solution at present. Please use your VISA card to transfer money directly to the number `881017378957`, get rid of it~
 
-Or you can scan the following QR code with Alipay, thank you:
-
+ Or you can scan the following QR code with Alipay, thank you:
 """,
                     fontSize: 13,
-                    fontWeight: FontWeight.bold,
-                    blendMode: BlendMode.difference,
-                    foregroundPaintColor: Colors.white,
+                    sigma: sigma,
                   ),
-                  BlendModeText(
+                  VisibilityTempTipText(
                     """
+
 █▀▀▀▀▀█ █▄█▄ █▄ ▀ █▄▄ ▄  █  █▀▀▄▄ █▀▀▀▀▀█
 █ ███ █ ██▀▄  ▀▀▄█▀█ ▄ ▄██ ▀ ▀▀ ▄ █ ███ █
 █ ▀▀▀ █ ▄▀ ▄█▀▄▄▀▄▄▀▄███▄ █▀  █▄▀ █ ▀▀▀ █
@@ -119,18 +120,16 @@ Or you can scan the following QR code with Alipay, thank you:
 █▀▀▀▀▀█ ▄▄▀▀█ ▄▀▄█▄ ▄██▀█ ▀█ ████ ▀ █ ▀▄█
 █ ███ █ ▀█▀ ▀█▀ ▄▄▀▄▀▄   ▄██ █▀█▀▀▀▀▀█▄█▀
 █ ▀▀▀ █ ▄▀▄ ▄▀  ▀█▀█▄▄██▀ ▄█ ▄█▀█▀ ▀▄▀ ▄█
-▀▀▀▀▀▀▀ ▀ ▀▀   ▀▀   ▀▀▀  ▀ ▀ ▀ ▀▀▀ ▀   ▀
-
-                                                 
-""",
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    height: 0,
+▀▀▀▀▀▀▀ ▀ ▀▀   ▀▀   ▀▀▀  ▀ ▀ ▀ ▀▀▀ ▀   ▀ """,
+                    fontSize: 12.04,
+                    sigma: sigma,
+                    height: 1,
                     wordSpacing: 0,
                     letterSpacing: 0,
-                    blendMode: BlendMode.difference,
-                    foregroundPaintColor: Colors.white,
-                  )
+                    backgroundPaint: Paint()
+                      ..color = Colors.lightBlue
+                      ..blendMode = BlendMode.difference,
+                  ),
                 ],
               ),
             ),

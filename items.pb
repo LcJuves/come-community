@@ -49,6 +49,9 @@ P
 /Java_with_Ant.svgAnt"2https://ant.apache.org/manual/install.html#getting*#
 }
 /Android.svgAOSP"1https://source.android.com/docs/setup/start?hl=en*4https://source.android.com/docs/setup/start?hl=zh-cn
+C
+
+/Meyou.svgApktool")https://apktool.org/docs/the-basics/intro*#
 Å
 /AppFlowy.svgAppFlowy"chttps://docs.appflowy.io/docs/appflowy/install-appflowy/installation-methods/installing-with-docker*#
 c
@@ -129,6 +132,8 @@ N
 /BentoML.svgBentoML"?https://docs.bentoml.com/en/latest/get-started/hello-world.html*#
 N
 	/Bevy.svgBevy"8https://bevyengine.org/learn/quick-start/getting-started*#
+K
+/Bincode.svgBincode"/https://docs.rs/bincode/latest/bincode/#example*#
 A
 	/Rust.svgbindgen"(https://rust-lang.github.io/rust-bindgen*#
 ç
@@ -161,8 +166,14 @@ F
 /Buildah.svgBuildah"chttps://buildah.io/blogs/2017/11/02/getting-started-with-buildah.html#building-oci-container-images*#
 [
 /Duke%20Hips.svgBuilding the JDK"2https://openjdk.org/groups/build/doc/building.html*#
+_
+
+/Meyou.svg	Buildroot"Chttps://buildroot.org/downloads/manual/manual.html#_getting_started*#
 2
 /Bun.svgBun"https://bun.sh/docs/quickstart*#
+D
+
+/Meyou.svgBusyBox"*https://busybox.net/downloads/BusyBox.html*#
 T
 /Bytebase.svgBytebase"6https://docs.bytebase.com/get-started/self-host#docker*#
 º
@@ -176,8 +187,8 @@ Y
 Camel Core"3https://camel.apache.org/camel-core/getting-started*#
 ∞
 /Android.svgCameraX"Fhttps://developer.android.com/codelabs/camerax-getting-started?hl=en#0*Ohttps://developer.android.google.cn/codelabs/camerax-getting-started?hl=zh-cn#0
-Ô
-/Cangjie.svgCangjie"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html*ihttps://cangjie-lang.cn/docs?url=%2F1.0.0%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
+˜
+/Cangjie.svgCangjie‰ªìÈ¢â"khttps://cangjie-lang.cn/en/docs?url=%2F0.53.13%2Fuser_manual%2Fsource_en%2Ffirst_understanding%2Fbasic.html*ihttps://cangjie-lang.cn/docs?url=%2F1.0.0%2Fuser_manual%2Fsource_zh_cn%2Ffirst_understanding%2Fbasic.html
 H
 	/Skia.svg	CanvasKit"-https://skia.org/docs/user/modules/quickstart*#
 <
@@ -265,6 +276,9 @@ b
 /OpenAIPlatform.svg	Codex CLI"=https://github.com/openai/codex?tab=readme-ov-file#quickstart*#
 ì
 /Colossal-AI.svgColossal-AI"4https://colossalai.org/docs/get_started/installation*<https://colossalai.org/zh-Hans/docs/get_started/installation
+I
+
+/Meyou.svgCommon Lisp"+https://lisp-lang.org/learn/getting-started*#
 B
 /CompilerExplorer.svgCompiler Explorer"https://godbolt.org*#
 ö
@@ -560,6 +574,9 @@ C
 /GitLab.svgGitLab REST API" https://docs.gitlab.com/api/rest*#
 K
 /GitLens.svgGitLens"/https://help.gitkraken.com/gitlens/gitlens-home*#
+O
+
+/Meyou.svgGitLocalize"1https://docs.gitlocalize.com/getting_started.html*#
 ]
 	/Rust.svgGitMCP"Ehttps://github.com/idosal/git-mcp?tab=readme-ov-file#-getting-started*#
 Ü
@@ -631,10 +648,12 @@ P
 /gulpjs.svgGulpJS"6https://gulpjs.com/docs/en/getting-started/quick-start*#
 D
 /gVisor.svggVisor"*https://gvisor.dev/docs/user_guide/install*#
+2
+/H3.svgH3" https://h3.dev/guide#quick-start*#
 µ
 /Apache%20Hadoop.svgHadoop"[https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html*8https://hadoop.apache.org/docs/r1.0.4/cn/quickstart.html
-√
-	/HMOS.svgHarmonyOS NEXT"Rhttps://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/start-overview-V5*Rhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/start-overview-V5
+–
+	/HMOS.svgHarmonyOS NEXTÈ∏øËíô NEXT"Rhttps://developer.huawei.com/consumer/en/doc/harmonyos-guides/start-with-ets-stage*Rhttps://developer.huawei.com/consumer/cn/doc/harmonyos-guides/start-with-ets-stage
 ?
 /Haskell.svgHaskell"#https://www.haskell.org/get-started*#
 `
@@ -648,6 +667,9 @@ T
 	/Hexo.svgHexo"https://hexo.io/docs/setup.html* https://hexo.io/zh-cn/docs/setup
 I
 	/HHVM.svgHHVM"3https://docs.hhvm.com/hhvm/basic-usage/introduction*#
+b
+
+/Meyou.svgHighlightJS"Dhttps://highlightjs.readthedocs.io/en/latest/readme.html#basic-usage*#
 `
 /Higress.svgHigress"$https://higress.cn/en/ai/quick-start*!https://higress.cn/ai/quick-start
 ^
@@ -676,8 +698,8 @@ w
 	/IANA.svgHTTP Methods"@https://www.iana.org/assignments/http-methods/http-methods.xhtml*#
 m
 	/IANA.svgHTTP Status Codes"Jhttps://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml*#
-R
-/HTTP_Toolkit.svgHTTP Toolkit",https://httptoolkit.com/docs/getting-started*#
+]
+/HTTP_Toolkit.svgHTTP Toolkit"7https://httptoolkit.com/docs/getting-started/installing*#
 <
 /HTTP_3_Check.svgHTTP/3 Check"https://http3check.net*#
 â
@@ -741,8 +763,6 @@ l
 I
 /IT-Tools.svg
 IT - TOOLS"https://it-tools.tech*https://it-tools.tech
-6
-/J1Assistant.svgJ1 Assistant"https://matter.ai*#
 f
 /Google.svg	J2CL/Wasm"Ihttps://github.com/google/j2cl/blob/master/docs/getting-started-j2wasm.md*#
 <
@@ -865,6 +885,9 @@ H
 /Liam_ERD.svgLiam ERD"*https://liambx.com/docs#how-to-get-started*#
 6
 	/Rust.svglibc" https://docs.rs/libc/latest/libc*#
+A
+
+/Meyou.svglibgit2"'https://libgit2.org/docs/reference/main*#
 W
 /libimobiledevice.svglibimobiledevice")https://libimobiledevice.org/#get-started*#
 3
@@ -987,8 +1010,8 @@ Mistral AI"2https://docs.mistral.ai/getting-started/quickstart*#
 	/Rust.svgmlir-sys"#https://github.com/mlir-rs/mlir-sys*#
 Y
 	/Rust.svgmlx-rs"Ahttps://github.com/oxideai/mlx-rs?tab=readme-ov-file#installation*#
-P
-/China%20Mobile.svgMobile Open Platform"#*https://dev.10086.cn/docInside0
+i
+/China%20Mobile.svgMobile Open Platform"#*7https://dev.10086.cn/docInside?contentId=100000098267390
 É
 /ModelScope.svg
 ModelScope"7https://modelscope.cn/docs/Beginner-s-Guide/Quick-Start*+https://modelscope.cn/docs/intro/quickstart
@@ -1004,6 +1027,8 @@ M
 /ByteDance.svgMonoio"Bhttps://github.com/bytedance/monoio?tab=readme-ov-file#quick-start*ahttps://github.com/bytedance/monoio/blob/master/README-zh.md#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B
 ê
 /MoonBit.svgMoonBit"9https://docs.moonbitlang.com/en/latest/tutorial/tour.html*<https://docs.moonbitlang.com/zh-cn/latest/tutorial/tour.html
+E
+/Motion.svgMotion"+https://motion.dev/docs/quick-start#install*#
 N
 	/MQTT.svgMQTT"8https://www.hivemq.com/blog/how-to-get-started-with-mqtt*#
 ì
@@ -1049,11 +1074,11 @@ F
 /Nim.svgNim"'https://nim-lang.org/documentation.html*#
 †
 /NodeJS.svgNodeJS"Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs*Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9
-	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 Z
 
 /NumPy.svgNumPy"Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart*#
+9
+	/Rust.svgnumpy""https://docs.rs/numpy/latest/numpy*#
 T
 
 /NuttX.svgNuttX"<https://nuttx.apache.org/docs/latest/quickstart/install.html*#
@@ -1107,6 +1132,8 @@ V
 /OpenCV.svgOpenCV"https://opencv.org/get-started*#
 Ï
 /OpenEuler.svg	OpenEuler"ahttps://docs.openeuler.org/en/docs/22.03_LTS_SP2/docs/Installation/installation-preparations.html*lhttps://docs.openeuler.org/zh/docs/22.03_LTS_SP2/docs/Installation/%E5%AE%89%E8%A3%85%E6%8C%87%E5%AF%BC.html
+N
+/Khronos.svgOpenGL"3https://www.khronos.org/opengl/wiki/Getting_Started*#
 i
 /OpenHands.svg	OpenHands"Ihttps://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file#-quick-start*#
 ‘
@@ -1190,6 +1217,9 @@ x
 Û
 /PowerShell.svg
 PowerShell"ihttps://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.5*ihttps://learn.microsoft.com/zh-cn/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.5
+H
+
+/Meyou.svgProGuard"-https://www.guardsquare.com/manual/quickstart*#
 U
 /Prometheus.svg
 Prometheus"3https://prometheus.io/docs/introduction/first_steps*#
@@ -1267,6 +1297,9 @@ F
 /Remmina.svgRemmina"ihttps://remmina.gitlab.io/remminadoc.gitlab.io/md__builds__remmina_remmina_ci__remmina_wiki__sidebar.html*#
 7
 	/Rust.svgreqwest"https://docs.rs/reqwest/latest*#
+N
+
+/Rerun.svgRerun"6https://rerun.io/docs/getting-started/quick-start/rust*#
 @
 /linebender.svgresvg"#https://github.com/linebender/resvg*#
 à
@@ -1391,6 +1424,9 @@ U
 H
 /SKIP.tools.svg
 SKIP.tools"&https://skip.tools/docs/gettingstarted*#
+ç
+
+/Slang.svgSlang"uhttps://docs.shader-slang.org/en/latest/external/slang/docs/user-guide/01-get-started.html#getting-started-with-slang*#
 Y
 
 /Slint.svgSlint"Ahttps://docs.slint.dev/latest/docs/slint/tutorial/getting_started*#
@@ -1439,6 +1475,8 @@ K
 (
 
 /Tabby.svgTabby"https://tabby.sh*#
+[
+/TabbyML.svgTabby ML">https://tabby.tabbyml.com/docs/quick-start/installation/docker*#
 T
 /Tabnine.svgTabnine"8https://docs.tabnine.com/main/getting-started/quickstart*#
 o
@@ -1606,6 +1644,9 @@ I
 /Wa.svgWa"https://wa-lang.org/tutorial*https://wa-lang.org/tutorial
 T
 /WebAssembly.svgWAMR"7https://wamr.gitbook.io/document/basics/getting-started*#
+;
+
+/Meyou.svgWASI"$https://wasi.dev/#how-to-get-started*#
 O
 
 /WASIX.svgWASIX"7https://wasix.org/docs/language-guide/rust/installation*#
@@ -1698,6 +1739,9 @@ l
 /OpenVela.svgXiaomi OpenVela"4https://github.com/open-vela/docs/blob/dev/README.md*:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md
 s
 /XML.svgXML"0https://developer.mozilla.org/en-US/docs/Web/XML*0https://developer.mozilla.org/zh-CN/docs/Web/XML
+B
+
+/Meyou.svgXTermJS"(https://xtermjs.org/docs/guides/download*#
 &
 	/YAML.svgYAML"https://yaml.org*#
 T
