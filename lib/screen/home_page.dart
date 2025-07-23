@@ -56,12 +56,9 @@ class _HomePageState extends State<HomePage> {
     return Stack(
       children: [
         AnimatedWallpaperContainer(),
-        /* Visibility(
-          visible: kDebugMode,
-          child: OverflowBox(
-            child: Container(
-              color: Colors.white,
-            ),
+        /* OverflowBox(
+          child: Container(
+            color: Colors.white,
           ),
         ), */
         BackdropFilterScaffold(

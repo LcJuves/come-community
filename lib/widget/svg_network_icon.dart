@@ -1,6 +1,6 @@
+import 'package:devfans/widget/devfans_circular_progress_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:devfans/widget/devfans_circular_progress_bar.dart';
 
 class SvgNetworkIcon extends StatelessWidget {
   final String url;
@@ -15,7 +15,7 @@ class SvgNetworkIcon extends StatelessWidget {
         strokeCap: StrokeCap.round,
         strokeWidth: 3,
         color: Color.fromARGB(127, 255, 255, 255),
-        blendMode: BlendMode.dstOut,
+        blendMode: BlendMode.srcOut,
       ),
     );
     return SizedBox.square(

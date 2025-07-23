@@ -75,7 +75,8 @@ class VisibilityTempTip extends StatelessWidget {
             scrollDirection: Axis.vertical,
             padding: EdgeInsets.all(singleChildScrollViewSpacing),
             child: Center(
-              child: Column(
+              child: SelectionArea(
+                  child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const VisibilityTempTipText(
@@ -93,13 +94,19 @@ class VisibilityTempTip extends StatelessWidget {
  This may be considered as the best solution at present. Please use your VISA card to transfer money directly to the number `881017378957`, get rid of it~
 
  Or you can scan the following QR code with Alipay, thank you:
+
 """,
                     fontSize: 13,
                     sigma: sigma,
                   ),
-                  VisibilityTempTipText(
-                    """
-
+                  Container(
+                    decoration: const BoxDecoration(
+                        color: Colors.lightBlue,
+                        backgroundBlendMode: BlendMode.difference),
+                    child: const FittedBox(
+                      fit: BoxFit.cover,
+                      child: VisibilityTempTipText(
+                        """
 █▀▀▀▀▀█ █▄█▄ █▄ ▀ █▄▄ ▄  █  █▀▀▄▄ █▀▀▀▀▀█
 █ ███ █ ██▀▄  ▀▀▄█▀█ ▄ ▄██ ▀ ▀▀ ▄ █ ███ █
 █ ▀▀▀ █ ▄▀ ▄█▀▄▄▀▄▄▀▄███▄ █▀  █▄▀ █ ▀▀▀ █
@@ -121,17 +128,16 @@ class VisibilityTempTip extends StatelessWidget {
 █ ███ █ ▀█▀ ▀█▀ ▄▄▀▄▀▄   ▄██ █▀█▀▀▀▀▀█▄█▀
 █ ▀▀▀ █ ▄▀▄ ▄▀  ▀█▀█▄▄██▀ ▄█ ▄█▀█▀ ▀▄▀ ▄█
 ▀▀▀▀▀▀▀ ▀ ▀▀   ▀▀   ▀▀▀  ▀ ▀ ▀ ▀▀▀ ▀   ▀ """,
-                    fontSize: 12.04,
-                    sigma: sigma,
-                    height: 1,
-                    wordSpacing: 0,
-                    letterSpacing: 0,
-                    backgroundPaint: Paint()
-                      ..color = Colors.lightBlue
-                      ..blendMode = BlendMode.difference,
+                        fontSize: 12.04,
+                        sigma: sigma,
+                        height: 1,
+                        wordSpacing: 0,
+                        letterSpacing: 0,
+                      ),
+                    ),
                   ),
                 ],
-              ),
+              )),
             ),
           ),
         ),

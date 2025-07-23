@@ -9,7 +9,7 @@ class VisibilityTempTipText extends StatelessWidget {
       this.letterSpacing,
       this.wordSpacing,
       this.height,
-      this.selectable = true,
+      this.selectable = false,
       this.backgroundPaint,
       this.sigma = 0});
 
