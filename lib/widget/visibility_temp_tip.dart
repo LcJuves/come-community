@@ -25,6 +25,32 @@ class VisibilityTempTip extends StatelessWidget {
 
   final dynamic fetchedGeoInfo;
 
+  bool networkDisabled(dynamic fetchedGeoInfo) {
+    // At present, only IPv6 support is provided.
+    return !("${fetchedGeoInfo['version']}".toLowerCase() != "ipv6" &&
+        (!"${fetchedGeoInfo['ip']}".toLowerCase().startsWith("27") ||
+            !"${fetchedGeoInfo['ip']}".toLowerCase().startsWith("255")));
+  }
+
+  bool geoDisabled(dynamic fetchedGeoInfo) {
+    return (fetchedGeoInfo == null ||
+        networkDisabled(
+            fetchedGeoInfo) /* At present, only IPv6 support is provided. */ ||
+        ("${fetchedGeoInfo['region']}".toLowerCase() ==
+                "Shandong".toLowerCase() ||
+            "${fetchedGeoInfo['region']}".toLowerCase() ==
+                "Jiangxi".toLowerCase() ||
+            ("${fetchedGeoInfo['city']}".toLowerCase() ==
+                    "Guangdong".toLowerCase() &&
+                networkDisabled(
+                    fetchedGeoInfo) /* At present, only IPv6 support is provided. */)) ||
+        ("${fetchedGeoInfo['region']}".toLowerCase() == "Hubei".toLowerCase() ||
+            "${fetchedGeoInfo['country_code']}".toLowerCase() ==
+                "JP".toLowerCase() ||
+            "${fetchedGeoInfo['country_code']}".toLowerCase() ==
+                "JPN".toLowerCase()));
+  }
+
   @override
   Widget build(BuildContext context) {
     if (!kIsWeb) {
@@ -37,36 +63,8 @@ class VisibilityTempTip extends StatelessWidget {
     // Let's f**k the guy who violates privacy together.
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
-      visible: (!kDebugMode && letTempTipVisible()) ||
-          (fetchedGeoInfo == null ||
-              ("${fetchedGeoInfo['version']}".toLowerCase() == "ipv4" &&
-                  !"${fetchedGeoInfo['ip']}".toLowerCase().startsWith(
-                      "27") /* At present, only IPv6 support is provided. */) ||
-              ("${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Shandong".toLowerCase() ||
-                  "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Jiangxi".toLowerCase() ||
-                  ("${fetchedGeoInfo['region']}".toLowerCase() ==
-                          "Guangdong".toLowerCase() &&
-                      !"${fetchedGeoInfo['ip']}"
-                          .toLowerCase()
-                          .startsWith("27")) ||
-                  "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Hubei".toLowerCase() ||
-                  "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Liaoning".toLowerCase() ||
-                  "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Shanghai".toLowerCase() ||
-                  "${fetchedGeoInfo['region']}".toLowerCase() ==
-                      "Beijing".toLowerCase()) ||
-              ("${fetchedGeoInfo['country_code']}".toLowerCase() ==
-                      "LU".toLowerCase() ||
-                  "${fetchedGeoInfo['country_code']}".toLowerCase() ==
-                      "QAT".toLowerCase()) ||
-              ("${fetchedGeoInfo['country_code']}".toLowerCase() ==
-                      "JP".toLowerCase() ||
-                  "${fetchedGeoInfo['country_code']}".toLowerCase() ==
-                      "JPN".toLowerCase())),
+      visible:
+          (!kDebugMode && letTempTipVisible()) || geoDisabled(fetchedGeoInfo),
       child: BackdropFilterScaffold(
         sigma: sigma,
         backgroundColor: backgroundColor ?? Colors.transparent,

@@ -13,7 +13,7 @@ class SvgNetworkIcon extends StatelessWidget {
       padding: EdgeInsets.all(10),
       child: DevFansCircularProgressIndicator(
         strokeCap: StrokeCap.round,
-        strokeWidth: 3,
+        strokeWidth: 3.3,
         color: Color.fromARGB(127, 255, 255, 255),
         blendMode: BlendMode.srcOut,
       ),

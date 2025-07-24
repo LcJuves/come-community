@@ -50,6 +50,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     const singleChildScrollViewSpacing = ((Constants.edgePadding +
                 Constants.balancePadding +
+                Constants.balanceBackPadding +
                 Constants.baseContainerPadding) *
             Constants.goldenRatio) +
         (Constants.titleLeftPadding * Constants.goldenRatio);

@@ -33,7 +33,7 @@ class _PreviewPageState extends State<PreviewPage> {
     }
     return Scaffold(
       backgroundColor: Colors.white,
-      /* appBar: AppBar(
+      appBar: AppBar(
         backgroundColor: Colors.white,
         leading: IconButton(
             onPressed: () async => await Navigator.maybePop(context),
@@ -72,7 +72,7 @@ class _PreviewPageState extends State<PreviewPage> {
             onPressed: () {},
           ), */
         ],
-      ), */
+      ),
       body: Padding(
         padding: EdgeInsets.only(
             top: MediaQuery.of(context).padding.top,

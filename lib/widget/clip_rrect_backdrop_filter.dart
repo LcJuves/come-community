@@ -13,7 +13,9 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
       this.decoration,
       this.width,
       this.height,
-      this.margin});
+      this.margin,
+      this.color,
+      this.shadowColor});
 
   final Widget? child;
 
@@ -34,6 +36,12 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
   /// Empty space to surround the [decoration] and [child].
   final EdgeInsetsGeometry? margin;
 
+  /// The background color.
+  final Color? color;
+
+  /// The shadow color.
+  final Color? shadowColor;
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -43,7 +51,8 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
       child: PhysicalModel(
         borderRadius: borderRadius,
         elevation: elevation,
-        color: Colors.transparent,
+        color: color ?? Colors.transparent,
+        shadowColor: shadowColor ?? Colors.grey.withAlpha(169),
         child: ClipRRect(
             borderRadius: borderRadius ?? BorderRadius.zero,
             child: BackdropFilter(

@@ -71,7 +71,9 @@ class _BaseContainerState extends State<BaseContainer> {
         key: GlobalObjectKey(widget.item),
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
-        color: Colors.white.withAlpha(204),
+        color: Colors.white.withAlpha(199),
+        hoverColor: Colors.white.withAlpha(115),
+        splashColor: Colors.white,
         onTap: () async {
           try {
             if (kIsWeb) {
@@ -91,7 +93,8 @@ class _BaseContainerState extends State<BaseContainer> {
         child: Row(mainAxisSize: MainAxisSize.min, children: [
           svgNetworkIcon,
           Padding(
-            padding: const EdgeInsets.only(left: Constants.titleLeftPadding),
+            padding: const EdgeInsets.only(
+                left: Constants.titleLeftPadding + Constants.goldenRatio),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -105,7 +108,7 @@ class _BaseContainerState extends State<BaseContainer> {
                         widget.item.title,
                         style: TextStyle(
                             fontSize:
-                                MediaQuery.textScalerOf(context).scale(18.84),
+                                MediaQuery.textScalerOf(context).scale(19),
                             fontWeight: FontWeight.bold,
                             foreground: Paint()
                               ..blendMode = BlendMode.dstOut
@@ -125,7 +128,9 @@ class _BaseContainerState extends State<BaseContainer> {
                           children: [
                             const CaptivePortalSvgPicture(),
                             const SizedBox.square(
-                              dimension: 5,
+                              dimension: Constants.balanceBackPadding +
+                                  Constants.balanceBackPadding +
+                                  Constants.goldenRatio,
                             ),
                             SizedBox(
                                 width: widget._textBoxDynamicWidth(context) -
