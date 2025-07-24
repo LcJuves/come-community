@@ -77,13 +77,13 @@ class _ClipRRectBackdropFilterSearchBarState
       child: Container(
         margin: EdgeInsets.all(widget.blurContainerPadding),
         decoration: BoxDecoration(
-            color: Colors.white.withAlpha(204),
+            color: Colors.white.withAlpha(40),
             borderRadius:
                 BorderRadius.circular(MediaQuery.of(context).size.longestSide),
-            backgroundBlendMode: BlendMode.overlay),
+            backgroundBlendMode: BlendMode.plus),
         constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
         child: SearchBar(
-          elevation: const WidgetStatePropertyAll(0),
+          elevation: const WidgetStatePropertyAll(3),
           keyboardType: TextInputType.webSearch,
           autoFocus: true,
           surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
@@ -95,20 +95,21 @@ class _ClipRRectBackdropFilterSearchBarState
             ),
           ),
           overlayColor:
-              WidgetStatePropertyAll(Colors.white.withAlpha(255 - (255 - 204))),
+              WidgetStatePropertyAll(Colors.white.withAlpha(255 - (255 - 143))),
           textInputAction: TextInputAction.search,
           shadowColor: const WidgetStatePropertyAll(Colors.transparent),
-          backgroundColor: WidgetStatePropertyAll(Colors.white.withAlpha(81)),
+          backgroundColor: WidgetStatePropertyAll(Colors.white.withAlpha(60)),
           hintText: Constants.searchBarHintText,
           hintStyle: WidgetStatePropertyAll(TextStyle(
+              fontWeight: FontWeight.w500,
               foreground: Paint()
                 ..blendMode = BlendMode.modulate
                 ..color = Constants.primaryColor)),
           textStyle: WidgetStatePropertyAll(TextStyle(
-              fontWeight: FontWeight.w500,
+              fontWeight: FontWeight.w600,
               foreground: Paint()
-                ..blendMode = BlendMode.modulate
-                ..color = Colors.black)),
+                ..blendMode = BlendMode.difference
+                ..color = Colors.white)),
           onChanged: widget.onChanged,
         ),
       ),

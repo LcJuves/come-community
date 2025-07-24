@@ -73,10 +73,7 @@ class InkWellContainer extends StatelessWidget {
       hoverColor: hoverColor,
       borderRadius: borderRadius,
       child: Container(
-        decoration: BoxDecoration(
-          color: color,
-          borderRadius: borderRadius,
-        ),
+        color: color,
         padding: padding,
         constraints: constraints,
         child: child,

@@ -68,7 +68,6 @@ class _BaseContainerState extends State<BaseContainer> {
     return ClipRRrectBackdropFilter(
       borderRadius: BorderRadius.circular(15),
       child: InkWellContainer(
-        key: GlobalObjectKey(widget.item),
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
         color: Colors.white.withAlpha(199),
