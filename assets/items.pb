@@ -13,8 +13,8 @@ D
 /Android.svgADPF"7https://developer.android.com/games/optimize/adpf?hl=en*@https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn
 |
 /AFFiNE.svgAFFiNE"bhttps://docs.affine.pro/self-host-affine/install/docker-compose-recommend#docker-compose-recommend*#
-X
-/A2A.svgAgent2Agent"<https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a*#
+[
+/A2A.svgAgent2Agent"?https://a2a-protocol.org/latest/topics/what-is-a2a/#what-is-a2a*#
 ;
 
 /Aider.svgAider"#https://aider.chat/#getting-started*#
@@ -22,22 +22,22 @@ n
 /Microsoft.svgAIOpsLab"Ohttps://github.com/microsoft/AIOpsLab?tab=readme-ov-file#%F0%9F%9A%80quickstart*#
 \
 /Airflow.svgAirflow"@https://airflow.apache.org/docs/apache-airflow/stable/start.html*#
-�
-/Aliyun.svgAlibaba Cloud"Xhttps://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/overview*Xhttps://www.alibabacloud.com/help/zh/cloud-migration-guide-for-beginners/latest/overview
-T
-/Alibaba.svgAliDNS"#*7https://www.alidns.com/knowledge?type=SETTING_DOCS#user0
+�
+/Aliyun.svgAlibaba Cloud	阿里云"Xhttps://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/overview*Xhttps://www.alibabacloud.com/help/zh/cloud-migration-guide-for-beginners/latest/overview
+n
+/Alibaba.svgAliDNS阿里公共解析服务"#*7https://www.alidns.com/knowledge?type=SETTING_DOCS#user0
 f
 /Alpine.svgAlpine Linux"Fhttps://docs.alpinelinux.org/user-handbook/0.1a/Installing/medium.html*#
 �
 /aws.svg	Amazon S3"Khttps://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html*Qhttps://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/GetStartedWithS3.html
 P
 /Anaconda.svgAnaconda"2https://docs.anaconda.com/anaconda/getting-started*#
-�
-/Android.svgAndroid"Uhttps://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?hl=en#0*^https://developer.android.google.cn/codelabs/basic-android-kotlin-compose-first-app?hl=zh-cn#0
-W
-/Android.svgAndroid Decompile"1https://github.lcjuves.com/java/android/decompile*#
-�
-/Android.svgAndroid NDK".https://developer.android.com/ndk/guides?hl=en*7https://developer.android.google.cn/ndk/guides?hl=zh-cn
+�
+/Android.svgAndroid安卓"Uhttps://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?hl=en#0*^https://developer.android.google.cn/codelabs/basic-android-kotlin-compose-first-app?hl=zh-cn#0
+h
+/Android.svgAndroid Decompile安卓反编译"1https://github.lcjuves.com/java/android/decompile*#
+�
+/Android.svgAndroid NDK安卓原生开发套件".https://developer.android.com/ndk/guides?hl=en*7https://developer.android.google.cn/ndk/guides?hl=zh-cn
 �
 /Android.svg
 Android XR":https://developer.android.com/develop/xr/get-started?hl=en*Chttps://developer.android.google.cn/develop/xr/get-started?hl=zh-cn
@@ -58,12 +58,12 @@ c
 /AppImage.svgAppImage"Ehttps://docs.appimage.org/introduction/quickstart.html#ref-quickstart*#
 o
 /Appium.svgAppium"+https://appium.io/docs/en/latest/quickstart*+https://appium.io/docs/zh/latest/quickstart
-K
+\
 
-/Apple.svgApple Developer")https://developer.apple.com/documentation*#
-K
+/Apple.svgApple Developer苹果开发者")https://developer.apple.com/documentation*#
+_
 
-/Apple.svgApple Open Projects"%https://opensource.apple.com/projects*#
+/Apple.svgApple Open Projects苹果开源项目"%https://opensource.apple.com/projects*#
 p
 /AppVeyor.svgAppVeyor"Rhttps://www.appveyor.com/docs/getting-started-with-appveyor-for-linux/#quick-start*#
 J
@@ -111,12 +111,12 @@ W
 /AzureQuantum.svgAzure Quantum"ahttps://learn.microsoft.com/en-us/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum*ahttps://learn.microsoft.com/zh-cn/training/modules/intro-to-azure-quantum/3-what-is-azure-quantum
 h
 /BabylonJS.svg	BabylonJS"Hhttps://doc.babylonjs.com/journey/theFirstStep#everyones-very-first-step*#
-W
-/BaiduOCR.svgBaidu AI Cloud"3https://intl.cloud.baidu.com/doc/BML/s/Xjxbjc84n-en*#
-<
-/BaiduKaifa.svgBaidu Kaifa"#*https://kaifa.baidu.com0
-L
-/BaiduOCR.svg	Baidu OCR"#*+https://cloud.baidu.com/doc/OCR/s/dk3iqnq510
+h
+/BaiduOCR.svgBaidu AI Cloud百度智能云"3https://intl.cloud.baidu.com/doc/BML/s/Xjxbjc84n-en*#
+S
+/BaiduKaifa.svgBaidu Kaifa百度开发者搜索"#*https://kaifa.baidu.com0
+i
+/BaiduOCR.svg	Baidu OCR百度智能云文字识别"#*+https://cloud.baidu.com/doc/OCR/s/dk3iqnq510
 X
 	/Rust.svgBake"Bhttps://github.com/ali77gh/bake-rs?tab=readme-ov-file#installation*#
 H
@@ -300,8 +300,8 @@ R
 /ContainerSSH.svgContainerSSH",https://containerssh.io/v0.5/getting-started*#
 G
 /Continue.svgContinue")https://docs.continue.dev/getting-started*#
-�
-/GitHub.svgConventional Commits"6https://www.conventionalcommits.org/en/v1.0.0/#summary*thhttps://www.conventionalcommits.org/zh-hans/v1.0.0/#%e7%ba%a6%e5%ae%9a%e5%bc%8f%e6%8f%90%e4%ba%a4%e8%a7%84%e8%8c%83
+�
+/GitHub.svgConventional Commits"6https://www.conventionalcommits.org/en/v1.0.0/#summary*shttps://www.conventionalcommits.org/zh-hans/v1.0.0/#%e7%ba%a6%e5%ae%9a%e5%bc%8f%e6%8f%90%e4%ba%a4%e8%a7%84%e8%8c%83
 j
 /Apache%20Cordova.svgCordova"Ehttps://cordova.apache.org/docs/en/latest/guide/cli/installation.html*#
 Y
@@ -359,9 +359,9 @@ c
 /DeepSeek-V3.svgDeepEP"Dhttps://github.com/deepseek-ai/DeepEP?tab=readme-ov-file#quick-start*#
 g
 /DeepSeek-V3.svgDeepGEMM"Fhttps://github.com/deepseek-ai/DeepGEMM?tab=readme-ov-file#quick-start*#
-�
+�
 /Deepin.svg
-Deepin DTK"#*�https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%950
+Deepin DTK深度/统信DTK"#*�https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%950
 s
 /DeepSeek-V3.svgDeepSeek"Rhttps://github.com/deepseek-ai/DeepSeek-R1?tab=readme-ov-file#6-how-to-run-locally*#
 r
@@ -396,16 +396,16 @@ B
 /DocsyJekyll.svgDocsy Jekyll"9https://vsoch.github.io/docsy-jekyll/docs/getting-started*#
 �
 /MDN.svgDOM"Shttps://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction*Shttps://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction
-w
--https://fastweb.lcjuves.com/donate/Alipay.svgDonate to the author"-https://fastweb.lcjuves.com/donate/Alipay.svg*#
+�
+-https://fastweb.lcjuves.com/donate/Alipay.svgDonate to the author向作者捐赠"-https://fastweb.lcjuves.com/donate/Alipay.svg*#
 z
 	/IANA.svgDoQ Error Codes"Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes*#
 �
 /dotNET.svgdotNET"Ohttps://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code*Ohttps://learn.microsoft.com/zh-cn/dotnet/core/tutorials/with-visual-studio-code
 �
 /dotNET.svgdotNET MAUI"phttps://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code*phttps://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code
-�
-/Douyin.svgDouyin Mini App"Ehttps://developers.tiktok.com/doc/our-guidelines-developer-guidelines*jhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev
+�
+/Douyin.svgDouyin Mini App抖音小程序"Ehttps://developers.tiktok.com/doc/our-guidelines-developer-guidelines*jhttps://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/tutorial/beginner/todo-list-app-dev
 O
 /Dragonfly.svg	Dragonfly"/https://www.dragonflydb.io/docs/getting-started*#
 �
@@ -516,8 +516,8 @@ K
 W
 
 /Geany.svgGeany"?https://www.geany.org/manual/current/index.html#getting-started*#
-W
-/GEETEST.svgGEETEST OneLogin"#*0https://docs.geetest.com/onelogin/overview/start0
+m
+/GEETEST.svgGEETEST OneLoginGEETEST 身份验证"#*0https://docs.geetest.com/onelogin/overview/start0
 �
 /Gemini.svg
 Gemini API"@https://ai.google.dev/gemini-api/docs/quickstart?hl=en&lang=rest*Chttps://ai.google.dev/gemini-api/docs/quickstart?hl=zh-cn&lang=rest
@@ -610,10 +610,10 @@ u
 
 /godot.svg
 godot-rust"?https://godot-rust.github.io/book/intro/setup.html#godot-engine*#
-�
-/GooglePublicDNS.svgGoogle Public DNS"?https://developers.google.com/speed/public-dns/docs/using?hl=en*Bhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
-�
-/GoogleTranslate.svgGoogle Translate"?https://translate.google.com/?hl=en&sl=en&tl=zh-CN&op=translate*Shttps://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate
+�
+/GooglePublicDNS.svgGoogle Public DNS谷歌公共 DNS"?https://developers.google.com/speed/public-dns/docs/using?hl=en*Bhttps://developers.google.com/speed/public-dns/docs/using?hl=zh-cn
+�
+/GoogleTranslate.svgGoogle Translate谷歌翻译"?https://translate.google.com/?hl=en&sl=en&tl=zh-CN&op=translate*Shttps://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate
 J
 /GraalVM.svgGraalVM".https://www.graalvm.org/latest/getting-started*#
 e
@@ -658,9 +658,9 @@ D
 /Haskell.svgHaskell"#https://www.haskell.org/get-started*#
 `
 	/Rust.svgHaylxon"Ghttps://github.com/pwnwriter/haylxon/?tab=readme-ov-file#hxn-in-action-*#
-}
+�
 /HelloAlgo.svg
-Hello Algo"0https://www.hello-algo.com/en/chapter_hello_algo*-https://www.hello-algo.com/chapter_hello_algo
+Hello AlgoHello 算法"0https://www.hello-algo.com/en/chapter_hello_algo*-https://www.hello-algo.com/chapter_hello_algo
 S
 /hex-rays.svghex-rays"5https://docs.hex-rays.com/getting-started/install-ida*#
 T
@@ -676,8 +676,8 @@ b
 /Apache%20Hive.svgHive"?https://cwiki.apache.org/confluence/display/Hive/GettingStarted*#
 �
 /HomeAssistant.svgHome Assistant"Zhttps://www.home-assistant.io/installation/generic-x86-64#install-home-assistant-container*#
-�
-/_Xiaomi.svgHome Integration"<https://github.com/XiaoMi/ha_xiaomi_home/blob/main/README.md*Chttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
+�
+/_Xiaomi.svgHome Integration米家集成"<https://github.com/XiaoMi/ha_xiaomi_home/blob/main/README.md*Chttps://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
 ?
 /Homebrew.svgHomebrew"!https://docs.brew.sh/Installation*#
 I
@@ -730,8 +730,8 @@ Q
 /Wikipedia.svgICMPv6"$https://en.wikipedia.org/wiki/ICMPv6*�https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B6%88%E6%81%AF%E5%8D%8F%E8%AE%AE%E7%AC%AC%E5%85%AD%E7%89%88
 m
 	/IANA.svgICMPv6 Parameters"Jhttps://www.iana.org/assignments/icmpv6-parameters/icmpv6-parameters.xhtml*#
-h
-/XunFeiOpenPlatform.svgiFLYTEK Open Platform"#*1https://www.xfyun.cn/doc/platform/quickguide.html0
+|
+/XunFeiOpenPlatform.svgiFLYTEK Open Platform讯飞开放平台"#*1https://www.xfyun.cn/doc/platform/quickguide.html0
 V
 /InAppWebView.svgInAppWebView"0https://inappwebview.dev/docs/intro#installation*#
 q
@@ -885,6 +885,8 @@ H
 /Liam_ERD.svgLiam ERD"*https://liambx.com/docs#how-to-get-started*#
 6
 	/Rust.svglibc" https://docs.rs/libc/latest/libc*#
+�
+/LibericaNIK.svgLiberica NIK"chttps://docs.bell-sw.com/liberica-nik/24.2.2b1-24.0.2b13/how-to/using-nik-with-desktop-applications*#
 A
 
 /Meyou.svglibgit2"'https://libgit2.org/docs/reference/main*#
@@ -920,9 +922,9 @@ T
 /Lodash.svgLodash"https://lodash.com/docs*#
 7
 /LOKINET.svgLOKINET"https://www.lokinet.org/faq*#
-�
+�
 
-/Meyou.svg	LoongArch"Rhttps://loongson.github.io/LoongArch-Documentation/README-EN.html#_getting_started*Ohttps://loongson.github.io/LoongArch-Documentation/README-CN.html#getting-start
+/Meyou.svg	LoongArch龙芯架构"Rhttps://loongson.github.io/LoongArch-Documentation/README-EN.html#_getting_started*Ohttps://loongson.github.io/LoongArch-Documentation/README-CN.html#getting-start
 u
 /LSP.svg
 LSP / LSIF"Zhttps://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification*#
@@ -1010,8 +1012,8 @@ Mistral AI"2https://docs.mistral.ai/getting-started/quickstart*#
 	/Rust.svgmlir-sys"#https://github.com/mlir-rs/mlir-sys*#
 Y
 	/Rust.svgmlx-rs"Ahttps://github.com/oxideai/mlx-rs?tab=readme-ov-file#installation*#
-i
-/China%20Mobile.svgMobile Open Platform"#*7https://dev.10086.cn/docInside?contentId=100000098267390
+}
+/China%20Mobile.svgMobile Open Platform中移开放平台"#*7https://dev.10086.cn/docInside?contentId=100000098267390
 �
 /ModelScope.svg
 ModelScope"7https://modelscope.cn/docs/Beginner-s-Guide/Quick-Start*+https://modelscope.cn/docs/intro/quickstart
@@ -1124,6 +1126,9 @@ L
 /OpenUSD.svgOpen USD"/https://openusd.org/release/tut_helloworld.html*#
 j
 /OpenVSX.svgOpen VSX"Mhttps://github.com/EclipseFdn/open-vsx.org?tab=readme-ov-file#getting-started*#
+q
+/OpenWebUI.svg
+Open WebUI"Phttps://docs.openwebui.com/getting-started/quick-start/#quick-start-with-docker-*#
 V
 /OpenAIPlatform.svgOpenAI Platform"+https://platform.openai.com/docs/quickstart*#
 ;
@@ -1158,9 +1163,9 @@ L
 /OpenWrt.svgOpenWrt"0https://openwrt.org/docs/guide-quick-start/start*3https://openwrt.org/zh/docs/guide-quick-start/start
 f
 /OpenZFS.svgOpenZFS"Jhttps://openzfs.github.io/openzfs-docs/Getting%20Started/Debian/index.html*#
-�
+�
 
-/Meyou.svgOriginQ QPanda3";https://qcloud.originqc.com.cn/document/qpanda-3/index.html*>https://qcloud.originqc.com.cn/document/qpanda-3/cn/index.html
+/Meyou.svgOriginQ QPanda3本源量子 QPanda3";https://qcloud.originqc.com.cn/document/qpanda-3/index.html*>https://qcloud.originqc.com.cn/document/qpanda-3/cn/index.html
 �
 /Orillusion.svg
 Orillusion">https://www.orillusion.com/en/guide/getting_start/install.html*;https://www.orillusion.com/guide/getting_start/install.html
@@ -1181,8 +1186,8 @@ _
 	/Rust.svgPepe"Ihttps://github.com/omarmhaimdat/pepe/tree/master?tab=readme-ov-file#usage*#
 {
 /PHP.svgPHP"4https://www.php.net/manual/en/tutorial.firstpage.php*4https://www.php.net/manual/zh/tutorial.firstpage.php
-�
-/PinganCloud.svgPing An Cloud"^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance*^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance
+�
+/PinganCloud.svgPing An Cloud	平安云"^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance*^https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance
 b
 /Cloudflare.svgPingora"Chttps://github.com/cloudflare/pingora/blob/main/docs/quick_start.md*#
 s
@@ -1251,10 +1256,12 @@ f
 /quiche.svgquiche"https://docs.quic.tech/quiche*#
 S
 /JavaScript.svgQuickJS"4https://bellard.org/quickjs/quickjs.html#Quick-start*#
-�
-	/Qwen.svgQwen"Ehttps://qwen.readthedocs.io/en/latest/getting_started/quickstart.html*Hhttps://qwen.readthedocs.io/zh-cn/latest/getting_started/quickstart.html
+�
+	/Qwen.svgQwen通义千问"Ehttps://qwen.readthedocs.io/en/latest/getting_started/quickstart.html*Hhttps://qwen.readthedocs.io/zh-cn/latest/getting_started/quickstart.html
 [
 	/Qwen.svgQwen Wan"Ahttps://github.com/Wan-Video/Wan2.1?tab=readme-ov-file#quickstart*#
+a
+	/Qwen.svgQwen3-Coder"Dhttps://github.com/QwenLM/Qwen3-Coder?tab=readme-ov-file#quick-start*#
 ;
 	/qwik.svgqwik"%https://qwik.dev/docs/getting-started*#
 Y
@@ -1300,6 +1307,8 @@ F
 N
 
 /Rerun.svgRerun"6https://rerun.io/docs/getting-started/quick-start/rust*#
+�
+/ResumeMatcher.svgResume Matcher"^https://github.com/srbhr/resume-matcher?tab=readme-ov-file#getting-started-with-resume-matcher*#
 @
 /linebender.svgresvg"#https://github.com/linebender/resvg*#
 �
@@ -1357,6 +1366,8 @@ H
 	/Rust.svgRust HIR".https://rustc-dev-guide.rust-lang.org/hir.html*#
 C
 	/Rust.svgRust MIR")https://rustc-dev-guide.rust-lang.org/mir*#
+c
+	/Rust.svgRust Playground"Bhttps://play.rust-lang.org/?version=stable&mode=debug&edition=2024*#
 R
 	/Rust.svgRust Project Goals".https://rust-lang.github.io/rust-project-goals*#
 Q
@@ -1390,6 +1401,8 @@ S
 /ScalaJS.svgScalaJS"7https://www.scala-js.org/doc/tutorial/scalajs-vite.html*#
 �
 /Android.svgSDK CmdLine Tools")https://developer.android.com/tools?hl=en*2https://developer.android.google.cn/tools?hl=zh-cn
+3
+/SDKMAN.svgSDKMAN"https://sdkman.io/install*#
 �
 /MDN.svgSecure contexts"Ehttps://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts*Ehttps://developer.mozilla.org/zh-CN/docs/Web/Security/Secure_Contexts
 ]
@@ -1427,6 +1440,9 @@ SKIP.tools"&https://skip.tools/docs/gettingstarted*#
 �
 
 /Slang.svgSlang"uhttps://docs.shader-slang.org/en/latest/external/slang/docs/user-guide/01-get-started.html#getting-started-with-slang*#
+L
+
+/Slang.svgSlang Playground")https://shader-slang.org/slang-playground*#
 Y
 
 /Slint.svgSlint"Ahttps://docs.slint.dev/latest/docs/slint/tutorial/getting_started*#
@@ -1470,6 +1486,9 @@ n
 K
 
 /Swift.svgSwiftPM"1https://www.swift.org/getting-started/cli-swiftpm*#
+y
+
+/Swift.svgSwiftUI"_https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app*#
 .
 /systemd.svgsystemd"https://systemd.io*#
 (
@@ -1489,8 +1508,8 @@ K
 /TAURI.svgTAURI"https://tauri.app/start*https://tauri.app/zh-cn/start
 H
 	/Java.svgTeaVM"1https://teavm.org/docs/intro/getting-started.html*#
-�
-/Tencent%20Cloud.svgTencent Cloud VM"7https://www.tencentcloud.com/document/product/213/38678*Fhttps://www.tencentcloud.com/zh/document/product/213/38678?lang=zh&pg=
+�
+/Tencent%20Cloud.svgTencent Cloud VM腾讯云虚拟机"7https://www.tencentcloud.com/document/product/213/38678*Fhttps://www.tencentcloud.com/zh/document/product/213/38678?lang=zh&pg=
 �
 /TensorFlow.svg
 TensorFlow":https://tensorflow.org/tutorials/quickstart/beginner?hl=en*Chttps://tensorflow.google.cn/tutorials/quickstart/beginner?hl=zh-cn
@@ -1576,6 +1595,8 @@ O
 	/UEFI.svgUEFI"https://uefi.org/uefi*#
 J
 /Unicode.svgUnicode".https://www.unicode.org/versions/Unicode17.0.0*#
+9
+/Unicode.svgUnicode CLDR"https://cldr.unicode.org*#
 W
 	/Rust.svgUniFFI"?https://mozilla.github.io/uniffi-rs/latest/Getting_started.html*#
 Z
@@ -1602,6 +1623,8 @@ H
 /uv.svguv"6https://docs.astral.sh/uv/getting-started/installation*#
 �
 /Microsoft.svgUWP"ahttps://learn.microsoft.com/zh-cn/windows/uwp/get-started/create-a-hello-world-app-xaml-universal*ahttps://learn.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-xaml-universal
+7
+/V8.svgV8"%https://v8.dev/docs/cross-compile-arm*#
 >
 	/Vala.svgVala"(https://docs.vala.dev/installation-guide*#
 =
@@ -1680,8 +1703,8 @@ t
 U
 
 /WebXR.svgWebXR"=https://immersiveweb.dev/#gettingstartedbuildingawebxrwebsite*#
-�
-/_WeChat.svgWeChat Mini Program"Vhttps://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html*Shttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html
+�
+/_WeChat.svgWeChat Mini Program微信小程序"Vhttps://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html*Shttps://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html
 6
 	/wgpu.svgwgpu" https://docs.rs/wgpu/latest/wgpu*#
 �
@@ -1700,6 +1723,8 @@ v
 	/Rust.svgwindows-drivers-rs"Rhttps://github.com/microsoft/windows-drivers-rs?tab=readme-ov-file#getting-started*#
 W
 /Windsurf.svgWindsurf"9https://docs.windsurf.com/windsurf/getting-started#set-up*#
+U
+	/WINE.svgWineHQ"=https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide*#
 m
 /Wasmer.svgWinterJS"Qhttps://github.com/wasmerio/winterjs?tab=readme-ov-file#running-winterjs-natively*#
 7
@@ -1735,6 +1760,8 @@ R
 l
 
 /Xcode.svgXcode"Thttps://developer.apple.com/documentation/xcode/creating-an-xcode-project-for-an-app*#
+P
+/Xen.svgXen"<https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide*#
 �
 /OpenVela.svgXiaomi OpenVela"4https://github.com/open-vela/docs/blob/dev/README.md*:https://github.com/open-vela/docs/blob/dev/README_zh-cn.md
 s
@@ -1768,3 +1795,5 @@ N
 	/Rust.svgZLUDA"7https://github.com/vosen/ZLUDA?tab=readme-ov-file#usage*#
 �
 /Zookeeper.svg	Zookeeper"�https://zookeeper.apache.org/doc/current/zookeeperStarted.html#getting-started-coordinating-distributed-applications-with-zooKeeper*#
+Z
+/ZIG.svg	⚡zap⚡"@https://github.com/zigzap/zap?tab=readme-ov-file#getting-started*#
