@@ -29,14 +29,3 @@ bool letTempTipVisible() {
   return !(getWindowLocationUri().host.startsWith(RegExp("[0-9]"))) &&
       !(getWindowLocationUri().host.endsWith("lcjuves.com"));
 }
-
-Future<dynamic> navLangGeoInfo() async {
-  if (!kIsWeb) {
-    return Future.value({'country_code': 'CN'});
-  }
-  var language = window.navigator.language;
-  if (language.isEmpty || language.toLowerCase().endsWith("cn")) {
-    return Future.value({'country_code': 'CN'});
-  }
-  return Future.value({'country_code': 'EN'});
-}

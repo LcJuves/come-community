@@ -1,4 +1,6 @@
 import 'package:devfans/constants.dart';
+import 'package:devfans/l10n/app_localizations_en.dart';
+import 'package:devfans/l10n/app_localizations_zh.dart';
 import 'package:devfans/webspec.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
 import 'package:devfans/widget/visibility_temp_tip_text.dart';
@@ -24,6 +26,24 @@ class VisibilityTempTip extends StatelessWidget {
   final double singleChildScrollViewSpacing;
 
   final dynamic fetchedGeoInfo;
+
+  bool get currentLocaleIsEN => fetchedGeoInfo['country_code'] == "EN";
+
+  String get visibilityTempTipDetailEn =>
+      """ People in a simulation game, 8 billion people around the world only need to pay the author enough money for financial freedom, and the author will solve it!
+ This may be considered as the best solution at present. Please use your VISA card to transfer money directly to the number `881017378957`, get rid of it~
+
+ Or you can scan the following QR code with Alipay, thank you:
+
+""";
+
+  String get visibilityTempTipDetailZh =>
+      """ 在一款模拟游戏里，全球80亿人只需给作者足够的钱实现财务自由，作者就会解决问题！
+ 这或许是目前最好的解决办法。请用你的VISA卡直接转账到账号‘881017378957’，摆脱困境吧～
+
+ 或者你也可以用支付宝扫描以下二维码，谢谢：
+
+""";
 
   bool networkDisabled(dynamic fetchedGeoInfo) {
     // At present, only IPv6 support is provided.
@@ -77,23 +97,24 @@ class VisibilityTempTip extends StatelessWidget {
                   child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const VisibilityTempTipText(
-                    " Hello",
+                  VisibilityTempTipText(
+                    currentLocaleIsEN
+                        ? AppLocalizationsEn().visibilityTempTipTitle
+                        : AppLocalizationsZh().visibilityTempTipTitle,
                     fontSize: 75,
                     sigma: sigma,
                   ),
-                  const VisibilityTempTipText(
-                    " What's wrong with you?",
+                  VisibilityTempTipText(
+                    currentLocaleIsEN
+                        ? AppLocalizationsEn().visibilityTempTipMessage
+                        : AppLocalizationsZh().visibilityTempTipMessage,
                     fontSize: 24,
                     sigma: sigma,
                   ),
-                  const VisibilityTempTipText(
-                    """ People in a simulation game, 8 billion people around the world only need to pay the author enough money for financial freedom, and the author will solve it!
- This may be considered as the best solution at present. Please use your VISA card to transfer money directly to the number `881017378957`, get rid of it~
-
- Or you can scan the following QR code with Alipay, thank you:
-
-""",
+                  VisibilityTempTipText(
+                    currentLocaleIsEN
+                        ? visibilityTempTipDetailEn
+                        : visibilityTempTipDetailZh,
                     fontSize: 13,
                     sigma: sigma,
                   ),

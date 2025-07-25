@@ -55,6 +55,15 @@ class BaseContainer extends StatefulWidget {
         : item.cnurl;
   }
 
+  String _getVisibleTitle() {
+    final itemCnTitle = item.cntitle;
+    final visibleTitle =
+        (geoInfo['country_code'] == "CN" && itemCnTitle.isNotEmpty)
+            ? itemCnTitle
+            : item.title;
+    return visibleTitle;
+  }
+
   @override
   State<BaseContainer> createState() => _BaseContainerState();
 }
@@ -65,6 +74,7 @@ class _BaseContainerState extends State<BaseContainer> {
     final launchUri = Uri.parse(widget._getLaunchUrl());
     final svgNetworkIcon =
         SvgNetworkIcon(url: widget._imgUrl, size: Constants.svgIconSize);
+
     return ClipRRrectBackdropFilter(
       borderRadius: BorderRadius.circular(15),
       child: InkWellContainer(
@@ -81,9 +91,10 @@ class _BaseContainerState extends State<BaseContainer> {
             }
             await Navigator.of(context).push(MaterialPageRoute(
               builder: (context) => PreviewPage(
-                  previewUrl: widget._getLaunchUrl(),
-                  svgNetworkIcon: svgNetworkIcon,
-                  title: widget.item.title),
+                title: widget._getVisibleTitle(),
+                svgNetworkIcon: svgNetworkIcon,
+                previewUrl: widget._getLaunchUrl(),
+              ),
             ));
           } catch (_) {
             await launchUrl(launchUri, mode: LaunchMode.inAppWebView);
@@ -104,7 +115,7 @@ class _BaseContainerState extends State<BaseContainer> {
                       gap: Constants.edgePadding * 4,
                       child: Text(
                         textScaler: TextScaler.noScaling,
-                        widget.item.title,
+                        widget._getVisibleTitle(),
                         style: TextStyle(
                             fontSize:
                                 MediaQuery.textScalerOf(context).scale(19),

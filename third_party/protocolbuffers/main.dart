@@ -58,6 +58,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Android.svg",
       title: "Android",
+      cntitle: "安卓",
       enurl:
           "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?hl=en#0",
       cnurl:
@@ -121,6 +122,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Android.svg",
       title: "Android NDK",
+      cntitle: "安卓原生开发套件",
       enurl: "https://developer.android.com/ndk/guides?hl=en",
       cnurl: "https://developer.android.google.cn/ndk/guides?hl=zh-cn",
     ),
@@ -137,6 +139,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Android.svg",
       title: "Android Decompile",
+      cntitle: "安卓反编译",
       enurl: "https://github.lcjuves.com/java/android/decompile",
       cnurl: "#",
     ),
@@ -457,6 +460,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Slang.svg",
+      title: "Slang Playground",
+      enurl: "https://shader-slang.org/slang-playground",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Rust.svg",
       title: "rustix",
       enurl:
@@ -748,6 +759,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/China%20Mobile.svg",
       title: "Mobile Open Platform",
+      cntitle: "中移开放平台",
       enurl: "#",
       cnurl: "https://dev.10086.cn/docInside?contentId=10000009826739",
       currentlyOnlySupportsChinese: true,
@@ -960,6 +972,15 @@ Future main(List<String> args) async {
       title: "Rust",
       enurl: "https://www.rust-lang.org/learn/get-started",
       cnurl: "https://www.rust-lang.org/zh-CN/learn/get-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "Rust Playground",
+      enurl:
+          "https://play.rust-lang.org/?version=stable&mode=debug&edition=2024",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1302,10 +1323,20 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Qwen.svg",
       title: "Qwen",
+      cntitle: "通义千问",
       enurl:
           "https://qwen.readthedocs.io/en/latest/getting_started/quickstart.html",
       cnurl:
           "https://qwen.readthedocs.io/zh-cn/latest/getting_started/quickstart.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Qwen.svg",
+      title: "Qwen3-Coder",
+      enurl:
+          "https://github.com/QwenLM/Qwen3-Coder?tab=readme-ov-file#quick-start",
+      cnurl: "#",
     ),
   );
   itemList.add(
@@ -1424,6 +1455,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Swift.svg",
+      title: "SwiftUI",
+      enurl:
+          "https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/SKIP.tools.svg",
       title: "SKIP.tools",
       enurl: "https://skip.tools/docs/gettingstarted",
@@ -1507,6 +1547,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Apple.svg",
       title: "Apple Developer",
+      cntitle: "苹果开发者",
       enurl: "https://developer.apple.com/documentation",
       cnurl: "#",
     ),
@@ -1515,6 +1556,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Apple.svg",
       title: "Apple Open Projects",
+      cntitle: "苹果开源项目",
       enurl: "https://opensource.apple.com/projects",
       cnurl: "#",
     ),
@@ -1600,7 +1642,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/A2A.svg",
       title: "Agent2Agent",
-      enurl: "https://google.github.io/A2A/topics/what-is-a2a/#what-is-a2a",
+      enurl: "https://a2a-protocol.org/latest/topics/what-is-a2a/#what-is-a2a",
       cnurl: "#",
     ),
   );
@@ -1676,6 +1718,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GoogleTranslate.svg",
       title: "Google Translate",
+      cntitle: "谷歌翻译",
       enurl: "https://translate.google.com/?hl=en&sl=en&tl=zh-CN&op=translate",
       cnurl:
           "https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=zh-CN&tl=en&op=translate",
@@ -2801,6 +2844,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Meyou.svg",
       title: "OriginQ QPanda3",
+      cntitle: "本源量子 QPanda3",
       enurl: "https://qcloud.originqc.com.cn/document/qpanda-3/index.html",
       cnurl: "https://qcloud.originqc.com.cn/document/qpanda-3/cn/index.html",
     ),
@@ -3048,6 +3092,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GEETEST.svg",
       title: "GEETEST OneLogin",
+      cntitle: "GEETEST 身份验证",
       enurl: "#",
       cnurl: "https://docs.geetest.com/onelogin/overview/start",
       currentlyOnlySupportsChinese: true,
@@ -3258,6 +3303,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/LibericaNIK.svg",
+      title: "Liberica NIK",
+      enurl:
+          "https://docs.bell-sw.com/liberica-nik/24.2.2b1-24.0.2b13/how-to/using-nik-with-desktop-applications",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GraalVM.svg",
       title: "GraalVM SDK",
       enurl: "https://www.graalvm.org/sdk/javadoc",
@@ -3356,11 +3410,11 @@ Future main(List<String> args) async {
       cnurl: "#",
     ),
   );
-  // itemList.add(Item(
-  //     imgUrl: "/V8.svg",
-  //     title: "V8",
-  //     enurl: "https://v8.dev/docs",
-  //     cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/V8.svg",
+      title: "V8",
+      enurl: "https://v8.dev/docs/cross-compile-arm",
+      cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/Duke%20Hips.svg",
@@ -3625,6 +3679,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/_Xiaomi.svg",
       title: "Home Integration",
+      cntitle: "米家集成",
       enurl: "https://github.com/XiaoMi/ha_xiaomi_home/blob/main/README.md",
       cnurl:
           "https://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md",
@@ -3749,6 +3804,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Deepin.svg",
       title: "Deepin DTK",
+      cntitle: "深度/统信DTK",
       enurl: "#",
       cnurl:
           "https://docs.deepin.org/info/%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83/DTK/%E6%A6%82%E8%BF%B0/%E6%A6%82%E8%BF%B0/DTK%E5%85%A5%E9%97%A8%E6%8C%87%E5%BC%95",
@@ -4578,6 +4634,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Unicode.svg",
+      title: "Unicode CLDR",
+      enurl: "https://cldr.unicode.org",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/vcpkg.svg",
       title: "vcpkg",
       enurl:
@@ -4961,6 +5025,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Alibaba.svg",
       title: "AliDNS",
+      cntitle: "阿里公共解析服务",
       enurl: "#",
       cnurl: "https://www.alidns.com/knowledge?type=SETTING_DOCS#user",
       currentlyOnlySupportsChinese: true,
@@ -4970,6 +5035,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Aliyun.svg",
       title: "Alibaba Cloud",
+      cntitle: "阿里云",
       enurl:
           "https://www.alibabacloud.com/help/en/cloud-migration-guide-for-beginners/latest/overview",
       cnurl:
@@ -5021,6 +5087,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/BaiduKaifa.svg",
       title: "Baidu Kaifa",
+      cntitle: "百度开发者搜索",
       enurl: "#",
       cnurl: "https://kaifa.baidu.com",
       currentlyOnlySupportsChinese: true,
@@ -5030,6 +5097,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/GooglePublicDNS.svg",
       title: "Google Public DNS",
+      cntitle: "谷歌公共 DNS",
       enurl: "https://developers.google.com/speed/public-dns/docs/using?hl=en",
       cnurl:
           "https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn",
@@ -5413,6 +5481,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ZIG.svg",
+      title: "⚡zap⚡",
+      enurl: "https://github.com/zigzap/zap?tab=readme-ov-file#getting-started",
+      cnurl: "#",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Microsoft.svg",
       title: "NatureLM",
       enurl: "https://naturelm.github.io",
@@ -5622,6 +5698,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/PinganCloud.svg",
       title: "Ping An Cloud",
+      cntitle: "平安云",
       enurl:
           "https://fincloud.pingan.com/ssr/help/compute/ecs/Quick_Start.Linux_Quick_Start.Create_Instance",
       cnurl:
@@ -5632,6 +5709,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Tencent%20Cloud.svg",
       title: "Tencent Cloud VM",
+      cntitle: "腾讯云虚拟机",
       enurl: "https://www.tencentcloud.com/document/product/213/38678",
       cnurl:
           "https://www.tencentcloud.com/zh/document/product/213/38678?lang=zh&pg=",
@@ -5651,6 +5729,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/BaiduOCR.svg",
       title: "Baidu OCR",
+      cntitle: "百度智能云文字识别",
       enurl: "#",
       cnurl: "https://cloud.baidu.com/doc/OCR/s/dk3iqnq51",
       currentlyOnlySupportsChinese: true,
@@ -5660,6 +5739,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/BaiduOCR.svg",
       title: "Baidu AI Cloud",
+      cntitle: "百度智能云",
       enurl: "https://intl.cloud.baidu.com/doc/BML/s/Xjxbjc84n-en",
       cnurl: "#",
     ),
@@ -5725,6 +5805,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/HelloAlgo.svg",
       title: "Hello Algo",
+      cntitle: "Hello 算法",
       enurl: "https://www.hello-algo.com/en/chapter_hello_algo",
       cnurl: "https://www.hello-algo.com/chapter_hello_algo",
     ),
@@ -6175,11 +6256,11 @@ Future main(List<String> args) async {
       cnurl: "#",
     ),
   );
-  // itemList.add(Item(
-  //     imgUrl: "/SDKMAN.svg",
-  //     title: "SDKMAN",
-  //     enurl: "https://sdkman.io/install",
-  //     cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/SDKMAN.svg",
+      title: "SDKMAN",
+      enurl: "https://sdkman.io/install",
+      cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/MindSpore.svg",
@@ -6213,11 +6294,12 @@ Future main(List<String> args) async {
       cnurl: "#",
     ),
   );
-  // itemList.add(Item(
-  //     imgUrl: "/OpenWebUI.svg",
-  //     title: "Open WebUI",
-  //     enurl: "https://docs.openwebui.com/getting-started/quick-start",
-  //     cnurl: "#"));
+  itemList.add(Item(
+      imgUrl: "/OpenWebUI.svg",
+      title: "Open WebUI",
+      enurl:
+          "https://docs.openwebui.com/getting-started/quick-start/#quick-start-with-docker-",
+      cnurl: "#"));
   itemList.add(
     Item(
       imgUrl: "/Google.svg",
@@ -6367,6 +6449,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/_WeChat.svg",
       title: "WeChat Mini Program",
+      cntitle: "微信小程序",
       enurl:
           "https://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html",
       cnurl:
@@ -6377,6 +6460,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Douyin.svg",
       title: "Douyin Mini App",
+      cntitle: "抖音小程序",
       enurl:
           "https://developers.tiktok.com/doc/our-guidelines-developer-guidelines",
       cnurl:
@@ -6497,6 +6581,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
       title: "Donate to the author",
+      cntitle: "向作者捐赠",
       enurl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
       cnurl: "#",
     ),
@@ -6587,6 +6672,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/XunFeiOpenPlatform.svg",
       title: "iFLYTEK Open Platform",
+      cntitle: "讯飞开放平台",
       enurl: "#",
       cnurl: "https://www.xfyun.cn/doc/platform/quickguide.html",
       currentlyOnlySupportsChinese: true,
@@ -6702,6 +6788,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Meyou.svg",
       title: "LoongArch",
+      cntitle: "龙芯架构",
       enurl:
           "https://loongson.github.io/LoongArch-Documentation/README-EN.html#_getting_started",
       cnurl:
@@ -6749,15 +6836,24 @@ Future main(List<String> args) async {
     ),
   );
 
-  // itemList.add(Item(
-  //     imgUrl: "/Xen.svg",
-  //     title: "Xen",
-  //     cnurl: "https://wiki.xenproject.org/wiki/Main_Page"));
+  itemList.add(Item(
+      imgUrl: "/Xen.svg",
+      title: "Xen",
+      enurl: "https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide",
+      cnurl: "#"));
 
-  // itemList.add(Item(
-  //     imgUrl: "/WINE.svg",
-  //     title: "WineHQ",
-  //     cnurl: "https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide"));
+  itemList.add(Item(
+      imgUrl: "/WINE.svg",
+      title: "WineHQ",
+      enurl: "https://gitlab.winehq.org/wine/wine/-/wikis/Wine-User's-Guide",
+      cnurl: "#"));
+
+  itemList.add(Item(
+      imgUrl: "/ResumeMatcher.svg",
+      title: "Resume Matcher",
+      enurl:
+          "https://github.com/srbhr/resume-matcher?tab=readme-ov-file#getting-started-with-resume-matcher",
+      cnurl: "#"));
   itemList.sort(
     (a, b) => a.title.toLowerCase().compareTo(b.title.toLowerCase()),
   );

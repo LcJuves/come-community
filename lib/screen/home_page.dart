@@ -1,5 +1,6 @@
 import 'package:devfans/constants.dart';
 import 'package:devfans/future_data.dart';
+import 'package:devfans/info.dart';
 import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
@@ -24,9 +25,10 @@ class HomePage extends StatefulWidget {
     return _fetchItemsFromBundle();
   }
 
-  Future<FutureData> _initFutureData() async {
+  Future<FutureData> _initFutureData(BuildContext context) async {
     final futureItems = await _initFutureItems();
-    final futureGeoInfo = await getGeoInfo();
+    // ignore: use_build_context_synchronously
+    final futureGeoInfo = await getGeoInfo(context);
     final futureData = FutureData(items: futureItems, geoInfo: futureGeoInfo);
     return Future.value(futureData);
   }
@@ -42,8 +44,10 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    futureData = /* kIsWeb ? */
-        widget._initFutureData() /* : Isolate.run(widget._initFutureData) */;
+    futureData = /* kIsWeb
+        ?  */
+        widget._initFutureData(
+            context) /* : Isolate.run(() => widget._initFutureData(context)) */;
   }
 
   @override
@@ -120,6 +124,7 @@ class _HomePageState extends State<HomePage> {
                     Align(
                       alignment: Alignment.bottomCenter,
                       child: ClipRRrectBackdropFilterSearchBar(
+                        geoInfo: fetchedData.fetchedGeoInfo,
                         singleChildScrollViewSpacing:
                             singleChildScrollViewSpacing,
                         onChanged: (value) async {
@@ -128,6 +133,10 @@ class _HomePageState extends State<HomePage> {
                                   item.title
                                       .toLowerCase()
                                       .contains(value.toLowerCase()) ||
+                                  (item.cntitle.isNotEmpty &&
+                                      item.cntitle
+                                          .toLowerCase()
+                                          .contains(value.toLowerCase())) ||
                                   item.enurl.contains(value) ||
                                   item.cnurl.contains(value));
                           setState(() {

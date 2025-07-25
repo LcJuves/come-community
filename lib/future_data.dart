@@ -1,10 +1,6 @@
-import 'dart:convert';
-
-import 'package:devfans/webspec.dart';
 import 'package:dio/dio.dart';
 import 'package:html/dom.dart';
 import 'package:html/parser.dart';
-import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
 class FutureData {
@@ -15,18 +11,6 @@ class FutureData {
   List<Item> get fetchedItems => items;
 
   get fetchedGeoInfo => geoInfo;
-}
-
-Future<dynamic> getGeoInfo() async {
-  try {
-    final responseBody = await http.read(Uri.parse('https://ipapi.co/json'));
-    if (responseBody.isEmpty) {
-      return navLangGeoInfo();
-    }
-    return jsonDecode(responseBody);
-  } catch (_) {
-    return navLangGeoInfo();
-  }
 }
 
 class FutureDesc {

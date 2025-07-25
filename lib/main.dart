@@ -1,6 +1,8 @@
 import 'package:devfans/screen/home_page.dart';
 import 'package:flutter/material.dart';
 
+import 'l10n/app_localizations.dart';
+
 void main() async {
   runApp(const MyApp());
 }
@@ -11,6 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
       theme: ThemeData(
         primaryColor: Colors.white,
         useMaterial3: true,
