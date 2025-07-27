@@ -1031,7 +1031,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
-      title: "The Rust Programming Language",
+      title: "Rust Programming Language",
       cnTitle: "Rust 程序设计语言",
       enUrl: "https://doc.rust-lang.org/book/ch01-01-installation.html",
       cnUrl: "https://kaisery.github.io/trpl-zh-cn/ch01-01-installation.html",
@@ -1040,7 +1040,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
-      title: "The Rust Edition Guide",
+      title: "Rust Edition Guide",
       enUrl:
           "https://doc.rust-lang.org/edition-guide/editions/creating-a-new-project.html",
       cnUrl: "#",
@@ -1147,7 +1147,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
-      title: "The Rust Core Library",
+      title: "Rust Core Library",
       enUrl: "https://doc.rust-lang.org/core/index.html#the-rust-core-library",
       cnUrl: "#",
     ),
@@ -2317,7 +2317,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/GNU.svg",
-      title: "The GNU C Library",
+      title: "GNU C Library",
       enUrl: "https://www.gnu.org/software/libc/manual/html_node/index.html",
       cnUrl: "#",
     ),
@@ -5498,7 +5498,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
-      title: "The Rust Style Guide",
+      title: "Rust Style Guide",
       enUrl:
           "https://doc.rust-lang.org/stable/style-guide/#the-default-rust-style",
       cnUrl: "#",
@@ -6799,7 +6799,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/UNIX.svg",
-      title: "The UNIX® Standard",
+      title: "UNIX® Standard",
       enUrl: "https://www.opengroup.org/membership/forums/platform/unix",
       cnUrl: "#",
     ),
