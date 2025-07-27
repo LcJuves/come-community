@@ -17,21 +17,23 @@ import 'dart:typed_data' as $typed_data;
 const Item$json = {
   '1': 'Item',
   '2': [
-    {'1': 'img_url', '3': 1, '4': 1, '5': 9, '10': 'imgUrl'},
-    {'1': 'title', '3': 2, '4': 1, '5': 9, '10': 'title'},
-    {'1': 'cntitle', '3': 3, '4': 1, '5': 9, '10': 'cntitle'},
-    {'1': 'enurl', '3': 4, '4': 1, '5': 9, '10': 'enurl'},
-    {'1': 'cnurl', '3': 5, '4': 1, '5': 9, '10': 'cnurl'},
-    {'1': 'currently_only_supports_chinese', '3': 6, '4': 1, '5': 8, '10': 'currentlyOnlySupportsChinese'},
+    {'1': 'emoji_icon', '3': 1, '4': 1, '5': 9, '10': 'emojiIcon'},
+    {'1': 'img_url', '3': 2, '4': 1, '5': 9, '10': 'imgUrl'},
+    {'1': 'title', '3': 3, '4': 1, '5': 9, '10': 'title'},
+    {'1': 'cn_title', '3': 4, '4': 1, '5': 9, '10': 'cnTitle'},
+    {'1': 'en_url', '3': 5, '4': 1, '5': 9, '10': 'enUrl'},
+    {'1': 'cn_url', '3': 6, '4': 1, '5': 9, '10': 'cnUrl'},
+    {'1': 'currently_only_supports_chinese', '3': 7, '4': 1, '5': 8, '10': 'currentlyOnlySupportsChinese'},
   ],
 };
 
 /// Descriptor for `Item`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List itemDescriptor = $convert.base64Decode(
-    'CgRJdGVtEhcKB2ltZ191cmwYASABKAlSBmltZ1VybBIUCgV0aXRsZRgCIAEoCVIFdGl0bGUSGA'
-    'oHY250aXRsZRgDIAEoCVIHY250aXRsZRIUCgVlbnVybBgEIAEoCVIFZW51cmwSFAoFY251cmwY'
-    'BSABKAlSBWNudXJsEkUKH2N1cnJlbnRseV9vbmx5X3N1cHBvcnRzX2NoaW5lc2UYBiABKAhSHG'
-    'N1cnJlbnRseU9ubHlTdXBwb3J0c0NoaW5lc2U=');
+    'CgRJdGVtEh0KCmVtb2ppX2ljb24YASABKAlSCWVtb2ppSWNvbhIXCgdpbWdfdXJsGAIgASgJUg'
+    'ZpbWdVcmwSFAoFdGl0bGUYAyABKAlSBXRpdGxlEhkKCGNuX3RpdGxlGAQgASgJUgdjblRpdGxl'
+    'EhUKBmVuX3VybBgFIAEoCVIFZW5VcmwSFQoGY25fdXJsGAYgASgJUgVjblVybBJFCh9jdXJyZW'
+    '50bHlfb25seV9zdXBwb3J0c19jaGluZXNlGAcgASgIUhxjdXJyZW50bHlPbmx5U3VwcG9ydHND'
+    'aGluZXNl');
 
 @$core.Deprecated('Use itemsDescriptor instead')
 const Items$json = {

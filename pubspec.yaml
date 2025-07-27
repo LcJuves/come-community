@@ -48,7 +48,9 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
-  # cached_network_image: ^3.4.1
+  dart_animated_emoji: ^0.1.2
+  lottie: ^3.3.1
+  cached_network_image: ^3.4.1
   # amicons: ^1.0.1
 
 dev_dependencies:
@@ -88,6 +90,7 @@ flutter:
     - items.pb
     - res/img/
     - res/svg/
+    - packages/dart_animated_emoji/generated/noto-animated.lottie
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

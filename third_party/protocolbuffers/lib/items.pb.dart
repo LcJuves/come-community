@@ -17,28 +17,32 @@ export 'package:protobuf/protobuf.dart' show GeneratedMessageGenericExtensions;
 
 class Item extends $pb.GeneratedMessage {
   factory Item({
+    $core.String? emojiIcon,
     $core.String? imgUrl,
     $core.String? title,
-    $core.String? cntitle,
-    $core.String? enurl,
-    $core.String? cnurl,
+    $core.String? cnTitle,
+    $core.String? enUrl,
+    $core.String? cnUrl,
     $core.bool? currentlyOnlySupportsChinese,
   }) {
     final $result = create();
+    if (emojiIcon != null) {
+      $result.emojiIcon = emojiIcon;
+    }
     if (imgUrl != null) {
       $result.imgUrl = imgUrl;
     }
     if (title != null) {
       $result.title = title;
     }
-    if (cntitle != null) {
-      $result.cntitle = cntitle;
+    if (cnTitle != null) {
+      $result.cnTitle = cnTitle;
     }
-    if (enurl != null) {
-      $result.enurl = enurl;
+    if (enUrl != null) {
+      $result.enUrl = enUrl;
     }
-    if (cnurl != null) {
-      $result.cnurl = cnurl;
+    if (cnUrl != null) {
+      $result.cnUrl = cnUrl;
     }
     if (currentlyOnlySupportsChinese != null) {
       $result.currentlyOnlySupportsChinese = currentlyOnlySupportsChinese;
@@ -50,12 +54,13 @@ class Item extends $pb.GeneratedMessage {
   factory Item.fromJson($core.String i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromJson(i, r);
 
   static final $pb.BuilderInfo _i = $pb.BuilderInfo(_omitMessageNames ? '' : 'Item', createEmptyInstance: create)
-    ..aOS(1, _omitFieldNames ? '' : 'imgUrl')
-    ..aOS(2, _omitFieldNames ? '' : 'title')
-    ..aOS(3, _omitFieldNames ? '' : 'cntitle')
-    ..aOS(4, _omitFieldNames ? '' : 'enurl')
-    ..aOS(5, _omitFieldNames ? '' : 'cnurl')
-    ..aOB(6, _omitFieldNames ? '' : 'currentlyOnlySupportsChinese')
+    ..aOS(1, _omitFieldNames ? '' : 'emojiIcon')
+    ..aOS(2, _omitFieldNames ? '' : 'imgUrl')
+    ..aOS(3, _omitFieldNames ? '' : 'title')
+    ..aOS(4, _omitFieldNames ? '' : 'cnTitle')
+    ..aOS(5, _omitFieldNames ? '' : 'enUrl')
+    ..aOS(6, _omitFieldNames ? '' : 'cnUrl')
+    ..aOB(7, _omitFieldNames ? '' : 'currentlyOnlySupportsChinese')
     ..hasRequiredFields = false
   ;
 
@@ -81,58 +86,67 @@ class Item extends $pb.GeneratedMessage {
   static Item? _defaultInstance;
 
   @$pb.TagNumber(1)
-  $core.String get imgUrl => $_getSZ(0);
+  $core.String get emojiIcon => $_getSZ(0);
   @$pb.TagNumber(1)
-  set imgUrl($core.String v) { $_setString(0, v); }
+  set emojiIcon($core.String v) { $_setString(0, v); }
   @$pb.TagNumber(1)
-  $core.bool hasImgUrl() => $_has(0);
+  $core.bool hasEmojiIcon() => $_has(0);
   @$pb.TagNumber(1)
-  void clearImgUrl() => $_clearField(1);
+  void clearEmojiIcon() => $_clearField(1);
 
   @$pb.TagNumber(2)
-  $core.String get title => $_getSZ(1);
+  $core.String get imgUrl => $_getSZ(1);
   @$pb.TagNumber(2)
-  set title($core.String v) { $_setString(1, v); }
+  set imgUrl($core.String v) { $_setString(1, v); }
   @$pb.TagNumber(2)
-  $core.bool hasTitle() => $_has(1);
+  $core.bool hasImgUrl() => $_has(1);
   @$pb.TagNumber(2)
-  void clearTitle() => $_clearField(2);
+  void clearImgUrl() => $_clearField(2);
 
   @$pb.TagNumber(3)
-  $core.String get cntitle => $_getSZ(2);
+  $core.String get title => $_getSZ(2);
   @$pb.TagNumber(3)
-  set cntitle($core.String v) { $_setString(2, v); }
+  set title($core.String v) { $_setString(2, v); }
   @$pb.TagNumber(3)
-  $core.bool hasCntitle() => $_has(2);
+  $core.bool hasTitle() => $_has(2);
   @$pb.TagNumber(3)
-  void clearCntitle() => $_clearField(3);
+  void clearTitle() => $_clearField(3);
 
   @$pb.TagNumber(4)
-  $core.String get enurl => $_getSZ(3);
+  $core.String get cnTitle => $_getSZ(3);
   @$pb.TagNumber(4)
-  set enurl($core.String v) { $_setString(3, v); }
+  set cnTitle($core.String v) { $_setString(3, v); }
   @$pb.TagNumber(4)
-  $core.bool hasEnurl() => $_has(3);
+  $core.bool hasCnTitle() => $_has(3);
   @$pb.TagNumber(4)
-  void clearEnurl() => $_clearField(4);
+  void clearCnTitle() => $_clearField(4);
 
   @$pb.TagNumber(5)
-  $core.String get cnurl => $_getSZ(4);
+  $core.String get enUrl => $_getSZ(4);
   @$pb.TagNumber(5)
-  set cnurl($core.String v) { $_setString(4, v); }
+  set enUrl($core.String v) { $_setString(4, v); }
   @$pb.TagNumber(5)
-  $core.bool hasCnurl() => $_has(4);
+  $core.bool hasEnUrl() => $_has(4);
   @$pb.TagNumber(5)
-  void clearCnurl() => $_clearField(5);
+  void clearEnUrl() => $_clearField(5);
 
   @$pb.TagNumber(6)
-  $core.bool get currentlyOnlySupportsChinese => $_getBF(5);
+  $core.String get cnUrl => $_getSZ(5);
   @$pb.TagNumber(6)
-  set currentlyOnlySupportsChinese($core.bool v) { $_setBool(5, v); }
+  set cnUrl($core.String v) { $_setString(5, v); }
   @$pb.TagNumber(6)
-  $core.bool hasCurrentlyOnlySupportsChinese() => $_has(5);
+  $core.bool hasCnUrl() => $_has(5);
   @$pb.TagNumber(6)
-  void clearCurrentlyOnlySupportsChinese() => $_clearField(6);
+  void clearCnUrl() => $_clearField(6);
+
+  @$pb.TagNumber(7)
+  $core.bool get currentlyOnlySupportsChinese => $_getBF(6);
+  @$pb.TagNumber(7)
+  set currentlyOnlySupportsChinese($core.bool v) { $_setBool(6, v); }
+  @$pb.TagNumber(7)
+  $core.bool hasCurrentlyOnlySupportsChinese() => $_has(6);
+  @$pb.TagNumber(7)
+  void clearCurrentlyOnlySupportsChinese() => $_clearField(7);
 }
 
 class Items extends $pb.GeneratedMessage {

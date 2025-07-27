@@ -60,12 +60,13 @@ class _HomePageState extends State<HomePage> {
         (Constants.titleLeftPadding * Constants.goldenRatio);
     return Stack(
       children: [
-        AnimatedWallpaperContainer(),
-        /* OverflowBox(
-          child: Container(
-            color: Colors.white,
-          ),
-        ), */
+        Constants.enableWallpaper
+            ? AnimatedWallpaperContainer()
+            : OverflowBox(
+                child: Container(
+                  color: Colors.white,
+                ),
+              ),
         BackdropFilterScaffold(
           backgroundColor: Colors.transparent,
           body: FutureBuilder<FutureData>(
@@ -94,10 +95,12 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     SingleChildScrollView(
                       scrollDirection: Axis.vertical,
-                      padding:
-                          const EdgeInsets.all(singleChildScrollViewSpacing),
-                      child: Center(
-                          child: Padding(
+                      padding: const EdgeInsets.only(
+                          top: singleChildScrollViewSpacing,
+                          bottom: singleChildScrollViewSpacing),
+                      child: Container(
+                        alignment: Alignment.center,
+                        width: MediaQuery.of(context).size.width,
                         padding: EdgeInsets.only(
                             top: MediaQuery.of(context).padding.top,
                             bottom: ((singleChildScrollViewSpacing * 3) *
@@ -119,7 +122,7 @@ class _HomePageState extends State<HomePage> {
                               )
                               .toList(),
                         ),
-                      )),
+                      ),
                     ),
                     Align(
                       alignment: Alignment.bottomCenter,
@@ -133,12 +136,12 @@ class _HomePageState extends State<HomePage> {
                                   item.title
                                       .toLowerCase()
                                       .contains(value.toLowerCase()) ||
-                                  (item.cntitle.isNotEmpty &&
-                                      item.cntitle
+                                  (item.hasCnTitle() &&
+                                      item.cnTitle
                                           .toLowerCase()
                                           .contains(value.toLowerCase())) ||
-                                  item.enurl.contains(value) ||
-                                  item.cnurl.contains(value));
+                                  item.enUrl.contains(value) ||
+                                  item.cnUrl.contains(value));
                           setState(() {
                             futureData = Future.value(FutureData(
                                 items: List.of(filteredItemsIterable),

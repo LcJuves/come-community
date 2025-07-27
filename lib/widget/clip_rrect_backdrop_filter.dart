@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:devfans/widget/rounded_rectangle_border_physical_shape.dart';
 import 'package:flutter/material.dart';
 
 class ClipRRrectBackdropFilter extends StatelessWidget {
@@ -48,17 +49,17 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
       width: width,
       height: height,
       margin: margin,
-      child: PhysicalModel(
-        borderRadius: borderRadius,
-        elevation: elevation,
-        color: color ?? Colors.transparent,
-        shadowColor: shadowColor ?? Colors.grey.withAlpha(169),
-        child: ClipRRect(
+      child: RoundedRectangleBorderPhysicalShape(
+          borderRadius: borderRadius ?? BorderRadius.zero,
+          elevation: elevation,
+          color: color ?? Colors.transparent,
+          shadowColor: shadowColor ?? Colors.grey.withAlpha(169),
+          child: ClipRRect(
             borderRadius: borderRadius ?? BorderRadius.zero,
-            child: BackdropFilter(
+            child: BackdropFilter.grouped(
                 filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
-                child: child)),
-      ),
+                child: child),
+          )),
     );
   }
 }

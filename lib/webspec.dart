@@ -5,8 +5,16 @@ String getUserAgent() {
   return window.navigator.userAgent.toLowerCase();
 }
 
+bool isRunOnSafariWebBrowser() {
+  if (!kIsWeb) {
+    return false;
+  }
+  final userAgent = getUserAgent().toLowerCase();
+  return kIsWeb && !userAgent.contains("chrom") && userAgent.contains("safari");
+}
+
 bool isRunOnAndroidWebViewOrBrowser() {
-  return kIsWeb && getUserAgent().contains("android");
+  return kIsWeb && getUserAgent().toLowerCase().contains("android");
 }
 
 bool isRunOnIOSWebViewOrBrowser() {

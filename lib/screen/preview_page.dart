@@ -1,4 +1,5 @@
 import 'package:devfans/constants.dart';
+import 'package:devfans/widget/rounded_rectangle_border_physical_shape.dart';
 import 'package:devfans/widget/svg_network_icon.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -7,12 +8,12 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 class PreviewPage extends StatefulWidget {
   final String title;
-  final SvgNetworkIcon svgNetworkIcon;
+  final Widget icon;
   final String previewUrl;
   const PreviewPage(
       {super.key,
       required this.title,
-      required this.svgNetworkIcon,
+      required this.icon,
       required this.previewUrl});
 
   @override
@@ -60,7 +61,7 @@ class _PreviewPageState extends State<PreviewPage> {
               child: Container(
                 margin: const EdgeInsets.only(
                     bottom: Constants.blurContainerPadding),
-                child: PhysicalModel(
+                child: RoundedRectangleBorderPhysicalShape(
                   shadowColor: Colors.grey.withAlpha(169),
                   borderRadius: BorderRadius.circular(
                       MediaQuery.of(context).size.longestSide),
@@ -88,7 +89,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                         Constants.goldenRatio) *
                                     3) *
                                 Constants.goldenRatio,
-                            child: widget.svgNetworkIcon,
+                            child: widget.icon,
                           ),
                         ),
                         Container(

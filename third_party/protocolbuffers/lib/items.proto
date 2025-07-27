@@ -1,12 +1,13 @@
 syntax = "proto3";
 
 message Item {
-    string img_url = 1;
-    string title = 2;
-    string cntitle = 3;
-    string enurl = 4;
-    string cnurl = 5;
-    bool currently_only_supports_chinese = 6;
+    string emoji_icon = 1;
+    string img_url = 2;
+    string title = 3;
+    string cn_title = 4;
+    string en_url = 5;
+    string cn_url = 6;
+    bool currently_only_supports_chinese = 7;
 }
 
 message Items {
