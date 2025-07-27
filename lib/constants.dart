@@ -13,7 +13,7 @@ abstract final class Constants {
   static const double titleLeftPadding = baseContainerPadding * 2 * goldenRatio;
   static const double urlBoxTopPadding =
       titleLeftPadding / (goldenRatio * 10) / goldenRatio;
-  static const double urlBoxWidth = 245.5;
+  static const double urlBoxWidth = 247.38;
   static const double captivePortalSvgIconSize = 13.5;
   static const double captivePortalSvgIconMarginRight =
       urlBoxTopPadding + (urlBoxTopPadding * goldenRatio);
