@@ -6966,6 +6966,14 @@ Future main(List<String> args) async {
       cnUrl: "#",
     ),
   );
+  itemList.add(
+    Item(
+      imgUrl: "/Zed.svg",
+      title: "Zed Extensions",
+      enUrl: "https://zed.dev/docs/extensions/developing-extensions",
+      cnUrl: "#",
+    ),
+  );
   itemList.add(Item(
       imgUrl: "/Meyou.svg",
       title: "WASI",

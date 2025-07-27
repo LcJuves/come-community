@@ -608,9 +608,9 @@ F
 /Nginx.svgNginx*.https://nginx.org/en/docs/beginners_guide.html2#
 ;/Nim.svgNim*'https://nim-lang.org/documentation.html2#
  /NodeJS.svgNodeJS*Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs2Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9	/Rust.svgnumpy*"https://docs.rs/numpy/latest/numpy2#
 Z
 /NumPy.svgNumPy*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart2#
+9	/Rust.svgnumpy*"https://docs.rs/numpy/latest/numpy2#
 T
 /NuttX.svgNuttX*<https://nuttx.apache.org/docs/latest/quickstart/install.html2#
 ;	/Nuxt.svgNuxt*%https://nuxt.com/docs/getting-started2#
@@ -1011,6 +1011,7 @@ T/youki_flat.svgyouki*7https://youki-dev.github.io/youki/user/basic_setup.ht
 7
 /Zapp_.svgZapp!*https://docs.zapp.run/templates2#
 9/Zed.svgZed*%https://zed.dev/docs/#getting-started2#
+T/Zed.svgZed Extensions*5https://zed.dev/docs/extensions/developing-extensions2#
 U/Duke%20Hips.svgZGC*9https://wiki.openjdk.org/display/zgc/Main#Main-QuickStart2#
 B/ZIG.svgZIG*.https://zig.guide/getting-started/installation2#
 D/ZIG.svgZig LangRef*(https://ziglang.org/documentation/0.14.12#
