@@ -333,6 +333,7 @@ j
 /Gnome.svgGNOME*Rhttps://developer.gnome.org/documentation/tutorials/beginners/getting_started.html2#
 \/GNU.svgGNU*#https://www.gnu.org/doc/doc.en.html2&https://www.gnu.org/doc/doc.zh-cn.html
 U/GNU.svgGNU Binutils*8https://sourceware.org/binutils/docs/binutils/index.html2#
+[/GNU.svgGNU C Library*=https://www.gnu.org/software/libc/manual/html_node/index.html2#
 s/GNU.svgGNU Coreutils*Uhttps://www.gnu.org/software/coreutils/manual/html_node/index.html#toc-Introduction-12#
 @/GNU.svgGNU FSD*(https://directory.fsf.org/wiki/Main_Page2#
 V/GNU.svgGNU make*=https://www.gnu.org/software/make/manual/html_node/index.html2#
@@ -607,9 +608,9 @@ F
 /Nginx.svgNginx*.https://nginx.org/en/docs/beginners_guide.html2#
 ;/Nim.svgNim*'https://nim-lang.org/documentation.html2#
 �/NodeJS.svgNodeJS*Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs2Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
+9	/Rust.svgnumpy*"https://docs.rs/numpy/latest/numpy2#
 Z
 /NumPy.svgNumPy*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart2#
-9	/Rust.svgnumpy*"https://docs.rs/numpy/latest/numpy2#
 T
 /NuttX.svgNuttX*<https://nuttx.apache.org/docs/latest/quickstart/install.html2#
 ;	/Nuxt.svgNuxt*%https://nuxt.com/docs/getting-started2#
@@ -766,7 +767,9 @@ Y/OCI.svgrunc*Dhttps://github.com/opencontainers/runc?tab=readme-ov-file#usi
 q	/Rust.svgRust*+https://www.rust-lang.org/learn/get-started21https://www.rust-lang.org/zh-CN/learn/get-started
 b	/Rust.svgRust and WebAssembly*<https://rustwasm.github.io/docs/book/game-of-life/setup.html2#
 �	/Rust.svgRust by Example"通过例子学 Rust*)https://doc.rust-lang.org/rust-by-example2*https://rustwiki.org/zh-CN/rust-by-example
+b	/Rust.svgRust Core Library*?https://doc.rust-lang.org/core/index.html#the-rust-core-library2#
 }	/Rust.svg	Rust CUDA*bhttps://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started2#
+p	/Rust.svgRust Edition Guide*Lhttps://doc.rust-lang.org/edition-guide/editions/creating-a-new-project.html2#
 h	/Rust.svgRust error codes"Rust 错误码*6https://doc.rust-lang.org/error_codes/error-index.html2#
 �/Rust-for-Linux.svgRust for Linux*-https://docs.kernel.org/rust/quick-start.html2@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html
 _/Windows_11.svgRust for Windows*7https://microsoft.github.io/windows-docs-rs/doc/windows2#
@@ -774,7 +777,9 @@ _/Windows_11.svgRust for Windows*7https://microsoft.github.io/windows-docs-r
 H	/Rust.svgRust HIR*.https://rustc-dev-guide.rust-lang.org/hir.html2#
 C	/Rust.svgRust MIR*)https://rustc-dev-guide.rust-lang.org/mir2#
 c	/Rust.svgRust Playground*Bhttps://play.rust-lang.org/?version=stable&mode=debug&edition=20242#
+�	/Rust.svgRust Programming Language"Rust 程序设计语言*8https://doc.rust-lang.org/book/ch01-01-installation.html2>https://kaisery.github.io/trpl-zh-cn/ch01-01-installation.html
 R	/Rust.svgRust Project Goals*.https://rust-lang.github.io/rust-project-goals2#
+f	/Rust.svgRust Style Guide*Dhttps://doc.rust-lang.org/stable/style-guide/#the-default-rust-style2#
 Q	/Rust.svg	Rust UEFI*6https://rust-osdev.github.io/uefi-rs/tutorial/app.html2#
 G	/Rust.svgRust up*.https://rust-lang.github.io/rustup/basics.html2#
 a/rust-analyzer.svgrust-analyzer*9https://rust-analyzer.github.io/book/vs_code.html#vs-code2#
@@ -868,12 +873,6 @@ L/TensorZero.svg
 TensorZero**https://www.tensorzero.com/docs/quickstart2#
 F/Termux.svgTermux*,https://wiki.termux.com/wiki/Getting_started2#
 R/Tetragon.svgTetragon*4https://tetragon.io/docs/getting-started/install-k8s2#
-_/GNU.svgThe GNU C Library*=https://www.gnu.org/software/libc/manual/html_node/index.html2#
-f	/Rust.svgThe Rust Core Library*?https://doc.rust-lang.org/core/index.html#the-rust-core-library2#
-t	/Rust.svgThe Rust Edition Guide*Lhttps://doc.rust-lang.org/edition-guide/editions/creating-a-new-project.html2#
-�	/Rust.svgThe Rust Programming Language"Rust 程序设计语言*8https://doc.rust-lang.org/book/ch01-01-installation.html2>https://kaisery.github.io/trpl-zh-cn/ch01-01-installation.html
-j	/Rust.svgThe Rust Style Guide*Dhttps://doc.rust-lang.org/stable/style-guide/#the-default-rust-style2#
-^	/UNIX.svgThe UNIX® Standard*9https://www.opengroup.org/membership/forums/platform/unix2#
 ^	/Rust.svgthread-priority*=https://docs.rs/thread-priority/latest/thread_priority/#usage2#
 q/ThreeJS.svgThreeJS*+https://threejs.org/manual/#en/installation2+https://threejs.org/manual/#zh/fundamentals
 �	/TiDB.svgTiDB*:https://docs.pingcap.com/tidb/stable/quick-start-with-tidb2=https://docs.pingcap.com/zh/tidb/stable/quick-start-with-tidb
@@ -919,6 +918,7 @@ Z	/Rust.svguniocr*Bhttps://github.com/mediar-ai/uniOCR?tab=readme-ov-file#qui
 i/OpenAIPlatform.svguniverse*Ehttps://github.com/openai/universe?tab=readme-ov-file#getting-started2#
 �	/UNIX.svgUnix domain socket*0https://en.wikipedia.org/wiki/Unix_domain_socket2Fhttps://zh.wikipedia.org/wiki/Unix%E5%9F%9F%E5%A5%97%E6%8E%A5%E5%AD%97
 �	/UNIX.svgUnix ELF*<https://en.wikipedia.org/wiki/Executable_and_Linkable_Format2phttps://zh.wikipedia.org/zh-cn/%E5%8F%AF%E5%9F%B7%E8%A1%8C%E8%88%87%E5%8F%AF%E9%8F%88%E6%8E%A5%E6%A0%BC%E5%BC%8F
+Z	/UNIX.svgUNIX® Standard*9https://www.opengroup.org/membership/forums/platform/unix2#
 �/Unreal%20Engine.svgUnreal Engine*ehttps://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine2ehttps://dev.epicgames.com/documentation/zh-cn/unreal-engine/understanding-the-basics-of-unreal-engine
 <	/Rust.svgunsynn*$https://docs.rs/unsynn/latest/unsynn2#
 1/UUP-dump.svgUUP dump*https://uupdump.net2#
