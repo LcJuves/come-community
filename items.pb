@@ -139,6 +139,7 @@ B
 ^/ClearLinux.svgClear Linux*;https://www.clearlinux.org/clear-linux-documentation/guides2#
 •/ClickHouse.svg
 ClickHouse*:https://clickhouse.com/docs/en/getting-started/quick-start2:https://clickhouse.com/docs/zh/getting-started/quick-start
+J	/Rust.svgClippy*2https://doc.rust-lang.org/clippy/installation.html2#
 F/Clojure.svgClojure**https://clojure.org/guides/getting_started2#
 i/CloudflareWorkers.svgCloudflare Workers*8https://developers.cloudflare.com/workers/languages/rust2#
 l
@@ -606,9 +607,9 @@ F
 /Nginx.svgNginx*.https://nginx.org/en/docs/beginners_guide.html2#
 ;/Nim.svgNim*'https://nim-lang.org/documentation.html2#
  /NodeJS.svgNodeJS*Bhttps://nodejs.org/en/learn/getting-started/introduction-to-nodejs2Ehttps://nodejs.org/zh-cn/learn/getting-started/introduction-to-nodejs
-9	/Rust.svgnumpy*"https://docs.rs/numpy/latest/numpy2#
 Z
 /NumPy.svgNumPy*Bhttps://numpy.org/doc/stable/user/quickstart.html#numpy-quickstart2#
+9	/Rust.svgnumpy*"https://docs.rs/numpy/latest/numpy2#
 T
 /NuttX.svgNuttX*<https://nuttx.apache.org/docs/latest/quickstart/install.html2#
 ;	/Nuxt.svgNuxt*%https://nuxt.com/docs/getting-started2#
@@ -764,7 +765,7 @@ Y/OCI.svgrunc*Dhttps://github.com/opencontainers/runc?tab=readme-ov-file#usi
 /Tabby.svgrussh*"https://docs.rs/russh/latest/russh2#
 q	/Rust.svgRust*+https://www.rust-lang.org/learn/get-started21https://www.rust-lang.org/zh-CN/learn/get-started
 b	/Rust.svgRust and WebAssembly*<https://rustwasm.github.io/docs/book/game-of-life/setup.html2#
-s	/Rust.svgRust by Example*)https://doc.rust-lang.org/rust-by-example2*https://rustwiki.org/zh-CN/rust-by-example
+‰	/Rust.svgRust by Example"é€šè¿‡ä¾‹å­å­¦ Rust*)https://doc.rust-lang.org/rust-by-example2*https://rustwiki.org/zh-CN/rust-by-example
 }	/Rust.svg	Rust CUDA*bhttps://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started2#
 X	/Rust.svgRust error codes*6https://doc.rust-lang.org/error_codes/error-index.html2#
 –/Rust-for-Linux.svgRust for Linux*-https://docs.kernel.org/rust/quick-start.html2@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html
