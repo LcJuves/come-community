@@ -1164,6 +1164,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "Rust error codes",
+      cnTitle: "Rust 错误码",
       enUrl: "https://doc.rust-lang.org/error_codes/error-index.html",
       cnUrl: "#",
     ),
@@ -2979,6 +2980,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/IANA.svg",
       title: "DoQ Error Codes",
+      cnTitle: "DoQ 错误码",
       enUrl:
           "https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes",
       cnUrl: "#",
@@ -3023,6 +3025,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/IANA.svg",
       title: "HTTP/3 Error Codes",
+      cnTitle: "HTTP/3 错误码",
       enUrl:
           "https://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-error-codes",
       cnUrl: "#",

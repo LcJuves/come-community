@@ -224,7 +224,7 @@ B/Diesel.svgDiesel*(https://diesel.rs/guides/getting-started2#
 ^/DocsyJekyll.svgDocsy Jekyll*9https://vsoch.github.io/docsy-jekyll/docs/getting-started2#
 π/MDN.svgDOM*Shttps://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction2Shttps://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction
 à-https://fastweb.lcjuves.com/donate/Alipay.svgDonate to the author"Âêë‰ΩúËÄÖÊçêËµ†*-https://fastweb.lcjuves.com/donate/Alipay.svg2#
-z	/IANA.svgDoQ Error Codes*Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes2#
+â	/IANA.svgDoQ Error Codes"DoQ ÈîôËØØÁ†Å*Yhttps://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-quic-error-codes2#
 ?/Dotenvx.svgDotenvx*#https://dotenvx.com/docs/quickstart2#
 ∑/dotNET.svgdotNET*Ohttps://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code2Ohttps://learn.microsoft.com/zh-cn/dotnet/core/tutorials/with-visual-studio-code
 ˛/dotNET.svgdotNET MAUI*phttps://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code2phttps://learn.microsoft.com/zh-cn/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code
@@ -392,7 +392,7 @@ w	/HTTP.svgHTTP*1https://developer.mozilla.org/en-US/docs/Web/HTTP21https://d
 m	/IANA.svgHTTP Status Codes*Jhttps://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml2#
 ]/HTTP_Toolkit.svgHTTP Toolkit*7https://httptoolkit.com/docs/getting-started/installing2#
 </HTTP_3_Check.svgHTTP/3 Check*https://http3check.net2#
-â	/IANA.svgHTTP/3 Error Codes*ehttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-error-codes2#
+õ	/IANA.svgHTTP/3 Error Codes"HTTP/3 ÈîôËØØÁ†Å*ehttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-error-codes2#
 â	/IANA.svgHTTP/3 Frame Types*ehttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-frame-types2#
 É	/IANA.svgHTTP/3 Settings*bhttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-settings2#
 ã	/IANA.svgHTTP/3 Stream Types*fhttps://www.iana.org/assignments/http3-parameters/http3-parameters.xhtml#http3-parameters-stream-types2#
@@ -767,7 +767,7 @@ q	/Rust.svgRust*+https://www.rust-lang.org/learn/get-started21https://www.rus
 b	/Rust.svgRust and WebAssembly*<https://rustwasm.github.io/docs/book/game-of-life/setup.html2#
 â	/Rust.svgRust by Example"ÈÄöËøá‰æãÂ≠êÂ≠¶ Rust*)https://doc.rust-lang.org/rust-by-example2*https://rustwiki.org/zh-CN/rust-by-example
 }	/Rust.svg	Rust CUDA*bhttps://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md#getting-started2#
-X	/Rust.svgRust error codes*6https://doc.rust-lang.org/error_codes/error-index.html2#
+h	/Rust.svgRust error codes"Rust ÈîôËØØÁ†Å*6https://doc.rust-lang.org/error_codes/error-index.html2#
 ñ/Rust-for-Linux.svgRust for Linux*-https://docs.kernel.org/rust/quick-start.html2@https://docs.kernel.org/translations/zh_CN/rust/quick-start.html
 _/Windows_11.svgRust for Windows*7https://microsoft.github.io/windows-docs-rs/doc/windows2#
 4	/Rust.svgRust GPU*https://rust-gpu.github.io2#
