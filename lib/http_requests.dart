@@ -1,47 +1,64 @@
-import 'package:dio/dio.dart';
+import 'dart:convert';
+
+import 'package:devfans/info.dart';
+import 'package:devfans/model/future_data.dart';
+import 'package:devfans/model/future_desc.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart' as material;
+import 'package:flutter/services.dart';
 import 'package:html/dom.dart';
 import 'package:html/parser.dart';
+import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
-class FutureData {
-  final List<Item> items;
-  final dynamic geoInfo;
-  const FutureData({required this.items, required this.geoInfo});
-
-  List<Item> get fetchedItems => items;
-
-  get fetchedGeoInfo => geoInfo;
+Future<Uint8List> httpReadBytes(Uri url) async {
+  final response = await http
+      .get(url, headers: {"User-Agent": "http", "Origin": url.toString()});
+  return Future.value(response.bodyBytes);
 }
 
-class FutureDesc {
-  String desc;
-  String msgDesc;
-
-  FutureDesc({required this.desc, required this.msgDesc});
+Future<String> httpReadString(Uri url) async {
+  final Uint8List bytes = await httpReadBytes(url);
+  String result = utf8.decode(bytes);
+  return Future.value(result);
 }
 
-Future<String> httpRead(Uri uri) async {
-  try {
-    final dio = Dio(BaseOptions(
-        headers: Map.of(<String, String>{"Origin": uri.origin}),
-        connectTimeout: const Duration(milliseconds: 6000),
-        receiveTimeout: const Duration(milliseconds: 6000),
-        sendTimeout: const Duration(milliseconds: 6000)));
-    final response = await dio.get(uri.toString());
-    return response.data.toString();
-  } catch (_) {
-    return "";
+Future<Items> _fetchItems() async {
+  if (!kDebugMode) {
+    final responseBodyBytes = await httpReadBytes(
+        Uri.parse("https://devfans.lcjuves.com/assets/items.pb"));
+    if (responseBodyBytes.isNotEmpty) {
+      return Items.fromBuffer(responseBodyBytes);
+    } else {
+      // If the server did not return a 200 OK response,
+      // then throw an exception.
+      throw Exception('Failed to load items');
+    }
   }
+  final buffer = await rootBundle.load('items.pb');
+  return Future.value(Items.fromBuffer(Uint8List.sublistView(buffer)));
 }
 
-Future<FutureDesc> fetchDesc(String url) async {
+Future<FutureData> fetchData(material.BuildContext context) async {
+  final futureItems = await _fetchItems();
+  // ignore: use_build_context_synchronously
+  final futureGeoInfo = await getGeoInfo(context, futureItems);
+  final futureData = FutureData(items: futureItems, geoInfo: futureGeoInfo);
+  return Future.value(futureData);
+}
+
+Future<FutureDesc> fetchDesc(Uri url) async {
   final FutureDesc futureDesc = FutureDesc(desc: "", msgDesc: "");
-  if (url.endsWith("svg")) {
+  if (url.path.endsWith("svg")) {
     return Future.value(futureDesc);
   }
-  final Uri uri = Uri.parse(url);
-  final responseBody = await httpRead(uri);
-  if (responseBody.isEmpty) {
+  final String responseBody;
+  try {
+    responseBody = await httpReadString(url);
+    if (responseBody.isEmpty) {
+      return Future.value(futureDesc);
+    }
+  } catch (_) {
     return Future.value(futureDesc);
   }
 

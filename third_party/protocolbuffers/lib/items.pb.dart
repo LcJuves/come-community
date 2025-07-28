@@ -19,11 +19,11 @@ class Item extends $pb.GeneratedMessage {
   factory Item({
     $core.String? emojiIcon,
     $core.String? imgUrl,
+    $core.String? zhImgUrl,
     $core.String? title,
-    $core.String? cnTitle,
+    $core.String? zhTitle,
     $core.String? enUrl,
-    $core.String? cnUrl,
-    $core.bool? currentlyOnlySupportsChinese,
+    $core.String? zhUrl,
   }) {
     final $result = create();
     if (emojiIcon != null) {
@@ -32,20 +32,20 @@ class Item extends $pb.GeneratedMessage {
     if (imgUrl != null) {
       $result.imgUrl = imgUrl;
     }
+    if (zhImgUrl != null) {
+      $result.zhImgUrl = zhImgUrl;
+    }
     if (title != null) {
       $result.title = title;
     }
-    if (cnTitle != null) {
-      $result.cnTitle = cnTitle;
+    if (zhTitle != null) {
+      $result.zhTitle = zhTitle;
     }
     if (enUrl != null) {
       $result.enUrl = enUrl;
     }
-    if (cnUrl != null) {
-      $result.cnUrl = cnUrl;
-    }
-    if (currentlyOnlySupportsChinese != null) {
-      $result.currentlyOnlySupportsChinese = currentlyOnlySupportsChinese;
+    if (zhUrl != null) {
+      $result.zhUrl = zhUrl;
     }
     return $result;
   }
@@ -56,11 +56,11 @@ class Item extends $pb.GeneratedMessage {
   static final $pb.BuilderInfo _i = $pb.BuilderInfo(_omitMessageNames ? '' : 'Item', createEmptyInstance: create)
     ..aOS(1, _omitFieldNames ? '' : 'emojiIcon')
     ..aOS(2, _omitFieldNames ? '' : 'imgUrl')
-    ..aOS(3, _omitFieldNames ? '' : 'title')
-    ..aOS(4, _omitFieldNames ? '' : 'cnTitle')
-    ..aOS(5, _omitFieldNames ? '' : 'enUrl')
-    ..aOS(6, _omitFieldNames ? '' : 'cnUrl')
-    ..aOB(7, _omitFieldNames ? '' : 'currentlyOnlySupportsChinese')
+    ..aOS(3, _omitFieldNames ? '' : 'zhImgUrl')
+    ..aOS(4, _omitFieldNames ? '' : 'title')
+    ..aOS(5, _omitFieldNames ? '' : 'zhTitle')
+    ..aOS(6, _omitFieldNames ? '' : 'enUrl')
+    ..aOS(7, _omitFieldNames ? '' : 'zhUrl')
     ..hasRequiredFields = false
   ;
 
@@ -104,56 +104,72 @@ class Item extends $pb.GeneratedMessage {
   void clearImgUrl() => $_clearField(2);
 
   @$pb.TagNumber(3)
-  $core.String get title => $_getSZ(2);
+  $core.String get zhImgUrl => $_getSZ(2);
   @$pb.TagNumber(3)
-  set title($core.String v) { $_setString(2, v); }
+  set zhImgUrl($core.String v) { $_setString(2, v); }
   @$pb.TagNumber(3)
-  $core.bool hasTitle() => $_has(2);
+  $core.bool hasZhImgUrl() => $_has(2);
   @$pb.TagNumber(3)
-  void clearTitle() => $_clearField(3);
+  void clearZhImgUrl() => $_clearField(3);
 
   @$pb.TagNumber(4)
-  $core.String get cnTitle => $_getSZ(3);
+  $core.String get title => $_getSZ(3);
   @$pb.TagNumber(4)
-  set cnTitle($core.String v) { $_setString(3, v); }
+  set title($core.String v) { $_setString(3, v); }
   @$pb.TagNumber(4)
-  $core.bool hasCnTitle() => $_has(3);
+  $core.bool hasTitle() => $_has(3);
   @$pb.TagNumber(4)
-  void clearCnTitle() => $_clearField(4);
+  void clearTitle() => $_clearField(4);
 
   @$pb.TagNumber(5)
-  $core.String get enUrl => $_getSZ(4);
+  $core.String get zhTitle => $_getSZ(4);
   @$pb.TagNumber(5)
-  set enUrl($core.String v) { $_setString(4, v); }
+  set zhTitle($core.String v) { $_setString(4, v); }
   @$pb.TagNumber(5)
-  $core.bool hasEnUrl() => $_has(4);
+  $core.bool hasZhTitle() => $_has(4);
   @$pb.TagNumber(5)
-  void clearEnUrl() => $_clearField(5);
+  void clearZhTitle() => $_clearField(5);
 
   @$pb.TagNumber(6)
-  $core.String get cnUrl => $_getSZ(5);
+  $core.String get enUrl => $_getSZ(5);
   @$pb.TagNumber(6)
-  set cnUrl($core.String v) { $_setString(5, v); }
+  set enUrl($core.String v) { $_setString(5, v); }
   @$pb.TagNumber(6)
-  $core.bool hasCnUrl() => $_has(5);
+  $core.bool hasEnUrl() => $_has(5);
   @$pb.TagNumber(6)
-  void clearCnUrl() => $_clearField(6);
+  void clearEnUrl() => $_clearField(6);
 
   @$pb.TagNumber(7)
-  $core.bool get currentlyOnlySupportsChinese => $_getBF(6);
+  $core.String get zhUrl => $_getSZ(6);
   @$pb.TagNumber(7)
-  set currentlyOnlySupportsChinese($core.bool v) { $_setBool(6, v); }
+  set zhUrl($core.String v) { $_setString(6, v); }
   @$pb.TagNumber(7)
-  $core.bool hasCurrentlyOnlySupportsChinese() => $_has(6);
+  $core.bool hasZhUrl() => $_has(6);
   @$pb.TagNumber(7)
-  void clearCurrentlyOnlySupportsChinese() => $_clearField(7);
+  void clearZhUrl() => $_clearField(7);
 }
 
 class Items extends $pb.GeneratedMessage {
   factory Items({
+    $core.bool? tempTipVisible,
+    $core.String? specIpAddrPrefix,
+    $core.bool? ipv6Guard,
+    $core.bool? shutdownSomeArea,
     $core.Iterable<Item>? itemList,
   }) {
     final $result = create();
+    if (tempTipVisible != null) {
+      $result.tempTipVisible = tempTipVisible;
+    }
+    if (specIpAddrPrefix != null) {
+      $result.specIpAddrPrefix = specIpAddrPrefix;
+    }
+    if (ipv6Guard != null) {
+      $result.ipv6Guard = ipv6Guard;
+    }
+    if (shutdownSomeArea != null) {
+      $result.shutdownSomeArea = shutdownSomeArea;
+    }
     if (itemList != null) {
       $result.itemList.addAll(itemList);
     }
@@ -164,7 +180,11 @@ class Items extends $pb.GeneratedMessage {
   factory Items.fromJson($core.String i, [$pb.ExtensionRegistry r = $pb.ExtensionRegistry.EMPTY]) => create()..mergeFromJson(i, r);
 
   static final $pb.BuilderInfo _i = $pb.BuilderInfo(_omitMessageNames ? '' : 'Items', createEmptyInstance: create)
-    ..pc<Item>(1, _omitFieldNames ? '' : 'itemList', $pb.PbFieldType.PM, subBuilder: Item.create)
+    ..aOB(1, _omitFieldNames ? '' : 'tempTipVisible')
+    ..aOS(2, _omitFieldNames ? '' : 'specIpAddrPrefix')
+    ..aOB(3, _omitFieldNames ? '' : 'ipv6Guard')
+    ..aOB(4, _omitFieldNames ? '' : 'shutdownSomeArea')
+    ..pc<Item>(5, _omitFieldNames ? '' : 'itemList', $pb.PbFieldType.PM, subBuilder: Item.create)
     ..hasRequiredFields = false
   ;
 
@@ -190,7 +210,43 @@ class Items extends $pb.GeneratedMessage {
   static Items? _defaultInstance;
 
   @$pb.TagNumber(1)
-  $pb.PbList<Item> get itemList => $_getList(0);
+  $core.bool get tempTipVisible => $_getBF(0);
+  @$pb.TagNumber(1)
+  set tempTipVisible($core.bool v) { $_setBool(0, v); }
+  @$pb.TagNumber(1)
+  $core.bool hasTempTipVisible() => $_has(0);
+  @$pb.TagNumber(1)
+  void clearTempTipVisible() => $_clearField(1);
+
+  @$pb.TagNumber(2)
+  $core.String get specIpAddrPrefix => $_getSZ(1);
+  @$pb.TagNumber(2)
+  set specIpAddrPrefix($core.String v) { $_setString(1, v); }
+  @$pb.TagNumber(2)
+  $core.bool hasSpecIpAddrPrefix() => $_has(1);
+  @$pb.TagNumber(2)
+  void clearSpecIpAddrPrefix() => $_clearField(2);
+
+  @$pb.TagNumber(3)
+  $core.bool get ipv6Guard => $_getBF(2);
+  @$pb.TagNumber(3)
+  set ipv6Guard($core.bool v) { $_setBool(2, v); }
+  @$pb.TagNumber(3)
+  $core.bool hasIpv6Guard() => $_has(2);
+  @$pb.TagNumber(3)
+  void clearIpv6Guard() => $_clearField(3);
+
+  @$pb.TagNumber(4)
+  $core.bool get shutdownSomeArea => $_getBF(3);
+  @$pb.TagNumber(4)
+  set shutdownSomeArea($core.bool v) { $_setBool(3, v); }
+  @$pb.TagNumber(4)
+  $core.bool hasShutdownSomeArea() => $_has(3);
+  @$pb.TagNumber(4)
+  void clearShutdownSomeArea() => $_clearField(4);
+
+  @$pb.TagNumber(5)
+  $pb.PbList<Item> get itemList => $_getList(4);
 }
 
 

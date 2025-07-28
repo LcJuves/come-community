@@ -1,4 +1,5 @@
 import 'package:devfans/constants.dart';
+import 'package:devfans/info.dart';
 import 'package:devfans/l10n/app_localizations_en.dart';
 import 'package:devfans/l10n/app_localizations_zh.dart';
 import 'package:devfans/webspec.dart';
@@ -7,8 +8,9 @@ import 'package:devfans/widget/visibility_temp_tip_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:protobuffers/items.pb.dart';
 
-const double sigma = 6.18 / 4;
+const double sigma = 6.18 / 4.5;
 
 class VisibilityTempTip extends StatelessWidget {
   const VisibilityTempTip({
@@ -16,7 +18,8 @@ class VisibilityTempTip extends StatelessWidget {
     this.body,
     this.backgroundColor,
     this.singleChildScrollViewSpacing = 0,
-    this.fetchedGeoInfo,
+    required this.fetchedGeoInfo,
+    required this.items,
   });
 
   final Widget? body;
@@ -26,6 +29,8 @@ class VisibilityTempTip extends StatelessWidget {
   final double singleChildScrollViewSpacing;
 
   final dynamic fetchedGeoInfo;
+
+  final Items items;
 
   bool get currentLocaleIsEN => fetchedGeoInfo['country_code'] == "EN";
 
@@ -45,32 +50,6 @@ class VisibilityTempTip extends StatelessWidget {
 
 """;
 
-  bool networkDisabled(dynamic fetchedGeoInfo) {
-    // At present, only IPv6 support is provided.
-    return !("${fetchedGeoInfo['version']}".toLowerCase() != "ipv6" &&
-        (!"${fetchedGeoInfo['ip']}".toLowerCase().startsWith("27") ||
-            !"${fetchedGeoInfo['ip']}".toLowerCase().startsWith("255")));
-  }
-
-  bool geoDisabled(dynamic fetchedGeoInfo) {
-    return (fetchedGeoInfo == null ||
-        networkDisabled(
-            fetchedGeoInfo) /* At present, only IPv6 support is provided. */ ||
-        ("${fetchedGeoInfo['region']}".toLowerCase() ==
-                "Shandong".toLowerCase() ||
-            "${fetchedGeoInfo['region']}".toLowerCase() ==
-                "Jiangxi".toLowerCase() ||
-            ("${fetchedGeoInfo['city']}".toLowerCase() ==
-                    "Guangdong".toLowerCase() &&
-                networkDisabled(
-                    fetchedGeoInfo) /* At present, only IPv6 support is provided. */)) ||
-        ("${fetchedGeoInfo['region']}".toLowerCase() == "Hubei".toLowerCase() ||
-            "${fetchedGeoInfo['country_code']}".toLowerCase() ==
-                "JP".toLowerCase() ||
-            "${fetchedGeoInfo['country_code']}".toLowerCase() ==
-                "JPN".toLowerCase()));
-  }
-
   @override
   Widget build(BuildContext context) {
     if (!kIsWeb) {
@@ -79,12 +58,15 @@ class VisibilityTempTip extends StatelessWidget {
       );
     }
 
+    final shouldVisible = items.hasTempTipVisible() && items.tempTipVisible;
+
     // I need international law.
     // Let's f**k the guy who violates privacy together.
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
-      visible:
-          (!kDebugMode && letTempTipVisible()) || geoDisabled(fetchedGeoInfo),
+      visible: (!kDebugMode && letTempTipVisible()) ||
+          geoDisabled(fetchedGeoInfo, items) ||
+          shouldVisible,
       child: BackdropFilterScaffold(
         sigma: sigma,
         backgroundColor: backgroundColor ?? Colors.transparent,

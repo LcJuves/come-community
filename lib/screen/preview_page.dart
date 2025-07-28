@@ -1,6 +1,5 @@
 import 'package:devfans/constants.dart';
 import 'package:devfans/widget/rounded_rectangle_border_physical_shape.dart';
-import 'package:devfans/widget/svg_network_icon.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -9,7 +8,7 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 class PreviewPage extends StatefulWidget {
   final String title;
   final Widget icon;
-  final String previewUrl;
+  final Uri previewUrl;
   const PreviewPage(
       {super.key,
       required this.title,
@@ -28,11 +27,10 @@ class _PreviewPageState extends State<PreviewPage> {
     super.initState();
     inAppWebView = InAppWebView(
         initialUrlRequest: URLRequest(
-            url: WebUri(widget.previewUrl),
+            url: WebUri(widget.previewUrl.toString()),
             assumesHTTP3Capable: true,
-            headers: Map.of(<String, String>{
-              "Origin": Uri.parse(widget.previewUrl).origin
-            })));
+            headers:
+                Map.of(<String, String>{"Origin": widget.previewUrl.origin})));
   }
 
   @override
@@ -106,7 +104,7 @@ class _PreviewPageState extends State<PreviewPage> {
                                     fontWeight: FontWeight.bold, fontSize: 15),
                               ),
                               Text(
-                                Uri.parse(widget.previewUrl).host,
+                                widget.previewUrl.host,
                                 style: const TextStyle(
                                     color: Colors.grey, fontSize: 13),
                               )

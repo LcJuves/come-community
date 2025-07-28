@@ -18,7 +18,8 @@ bool isRunOnAndroidWebViewOrBrowser() {
 }
 
 bool isRunOnIOSWebViewOrBrowser() {
-  return kIsWeb && RegExp(r'iphone|ipad|ipod|ios').hasMatch(getUserAgent());
+  return kIsWeb &&
+      RegExp(r'iphone|ipad|ipod|ios').hasMatch(getUserAgent().toLowerCase());
 }
 
 bool isRunOnMobileWebViewOrBrowser() {

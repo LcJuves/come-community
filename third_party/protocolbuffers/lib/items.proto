@@ -3,13 +3,17 @@ syntax = "proto3";
 message Item {
     string emoji_icon = 1;
     string img_url = 2;
-    string title = 3;
-    string cn_title = 4;
-    string en_url = 5;
-    string cn_url = 6;
-    bool currently_only_supports_chinese = 7;
+    string zh_img_url = 3;
+    string title = 4;
+    string zh_title = 5;
+    string en_url = 6;
+    string zh_url = 7;
 }
 
 message Items {
-    repeated Item item_list = 1;
+    bool temp_tip_visible = 1;
+    string spec_ip_addr_prefix = 2;
+    bool ipv6_guard = 3;
+    bool shutdown_some_area = 4;
+    repeated Item item_list = 5;
 }

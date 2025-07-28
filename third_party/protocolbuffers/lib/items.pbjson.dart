@@ -19,31 +19,37 @@ const Item$json = {
   '2': [
     {'1': 'emoji_icon', '3': 1, '4': 1, '5': 9, '10': 'emojiIcon'},
     {'1': 'img_url', '3': 2, '4': 1, '5': 9, '10': 'imgUrl'},
-    {'1': 'title', '3': 3, '4': 1, '5': 9, '10': 'title'},
-    {'1': 'cn_title', '3': 4, '4': 1, '5': 9, '10': 'cnTitle'},
-    {'1': 'en_url', '3': 5, '4': 1, '5': 9, '10': 'enUrl'},
-    {'1': 'cn_url', '3': 6, '4': 1, '5': 9, '10': 'cnUrl'},
-    {'1': 'currently_only_supports_chinese', '3': 7, '4': 1, '5': 8, '10': 'currentlyOnlySupportsChinese'},
+    {'1': 'zh_img_url', '3': 3, '4': 1, '5': 9, '10': 'zhImgUrl'},
+    {'1': 'title', '3': 4, '4': 1, '5': 9, '10': 'title'},
+    {'1': 'zh_title', '3': 5, '4': 1, '5': 9, '10': 'zhTitle'},
+    {'1': 'en_url', '3': 6, '4': 1, '5': 9, '10': 'enUrl'},
+    {'1': 'zh_url', '3': 7, '4': 1, '5': 9, '10': 'zhUrl'},
   ],
 };
 
 /// Descriptor for `Item`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List itemDescriptor = $convert.base64Decode(
     'CgRJdGVtEh0KCmVtb2ppX2ljb24YASABKAlSCWVtb2ppSWNvbhIXCgdpbWdfdXJsGAIgASgJUg'
-    'ZpbWdVcmwSFAoFdGl0bGUYAyABKAlSBXRpdGxlEhkKCGNuX3RpdGxlGAQgASgJUgdjblRpdGxl'
-    'EhUKBmVuX3VybBgFIAEoCVIFZW5VcmwSFQoGY25fdXJsGAYgASgJUgVjblVybBJFCh9jdXJyZW'
-    '50bHlfb25seV9zdXBwb3J0c19jaGluZXNlGAcgASgIUhxjdXJyZW50bHlPbmx5U3VwcG9ydHND'
-    'aGluZXNl');
+    'ZpbWdVcmwSHAoKemhfaW1nX3VybBgDIAEoCVIIemhJbWdVcmwSFAoFdGl0bGUYBCABKAlSBXRp'
+    'dGxlEhkKCHpoX3RpdGxlGAUgASgJUgd6aFRpdGxlEhUKBmVuX3VybBgGIAEoCVIFZW5VcmwSFQ'
+    'oGemhfdXJsGAcgASgJUgV6aFVybA==');
 
 @$core.Deprecated('Use itemsDescriptor instead')
 const Items$json = {
   '1': 'Items',
   '2': [
-    {'1': 'item_list', '3': 1, '4': 3, '5': 11, '6': '.Item', '10': 'itemList'},
+    {'1': 'temp_tip_visible', '3': 1, '4': 1, '5': 8, '10': 'tempTipVisible'},
+    {'1': 'spec_ip_addr_prefix', '3': 2, '4': 1, '5': 9, '10': 'specIpAddrPrefix'},
+    {'1': 'ipv6_guard', '3': 3, '4': 1, '5': 8, '10': 'ipv6Guard'},
+    {'1': 'shutdown_some_area', '3': 4, '4': 1, '5': 8, '10': 'shutdownSomeArea'},
+    {'1': 'item_list', '3': 5, '4': 3, '5': 11, '6': '.Item', '10': 'itemList'},
   ],
 };
 
 /// Descriptor for `Items`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List itemsDescriptor = $convert.base64Decode(
-    'CgVJdGVtcxIiCglpdGVtX2xpc3QYASADKAsyBS5JdGVtUghpdGVtTGlzdA==');
+    'CgVJdGVtcxIoChB0ZW1wX3RpcF92aXNpYmxlGAEgASgIUg50ZW1wVGlwVmlzaWJsZRItChNzcG'
+    'VjX2lwX2FkZHJfcHJlZml4GAIgASgJUhBzcGVjSXBBZGRyUHJlZml4Eh0KCmlwdjZfZ3VhcmQY'
+    'AyABKAhSCWlwdjZHdWFyZBIsChJzaHV0ZG93bl9zb21lX2FyZWEYBCABKAhSEHNodXRkb3duU2'
+    '9tZUFyZWESIgoJaXRlbV9saXN0GAUgAygLMgUuSXRlbVIIaXRlbUxpc3Q=');
 

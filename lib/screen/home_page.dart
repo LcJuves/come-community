@@ -1,6 +1,6 @@
 import 'package:devfans/constants.dart';
-import 'package:devfans/future_data.dart';
-import 'package:devfans/info.dart';
+import 'package:devfans/http_requests.dart';
+import 'package:devfans/model/future_data.dart';
 import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
 import 'package:devfans/widget/animated_wallpaper_container.dart';
 import 'package:devfans/widget/backdrop_filter_scaffold.dart';
@@ -10,28 +10,10 @@ import 'package:devfans/widget/clip_rrect_backdrop_filter_search_bar.dart';
 import 'package:devfans/widget/snapshot_error_text.dart';
 import 'package:devfans/widget/visibility_temp_tip.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:protobuffers/items.pb.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
-
-  Future<List<Item>> _fetchItemsFromBundle() async {
-    final buffer = await rootBundle.load('items.pb');
-    return Items.fromBuffer(Uint8List.sublistView(buffer)).itemList;
-  }
-
-  Future<List<Item>> _initFutureItems() async {
-    return _fetchItemsFromBundle();
-  }
-
-  Future<FutureData> _initFutureData(BuildContext context) async {
-    final futureItems = await _initFutureItems();
-    // ignore: use_build_context_synchronously
-    final futureGeoInfo = await getGeoInfo(context);
-    final futureData = FutureData(items: futureItems, geoInfo: futureGeoInfo);
-    return Future.value(futureData);
-  }
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -39,15 +21,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   late Future<FutureData> futureData;
-  List<Item>? _loadedItems;
+  List<Item>? _loadedItemList;
 
   @override
   void initState() {
     super.initState();
-    futureData = /* kIsWeb
-        ?  */
-        widget._initFutureData(
-            context) /* : Isolate.run(() => widget._initFutureData(context)) */;
+    futureData = fetchData(context);
   }
 
   @override
@@ -80,17 +59,19 @@ class _HomePageState extends State<HomePage> {
               if (snapshot.hasData) {
                 final fetchedData = snapshot.data!;
                 final fetchedGeoInfo = fetchedData.fetchedGeoInfo;
-                final filteredFetchedItems =
-                    List.of(fetchedData.fetchedItems.where((item) {
-                  if (item.currentlyOnlySupportsChinese &&
+                final fetchedItems = fetchedData.fetchedItems;
+                final filteredFetchedItemList =
+                    List.of(fetchedItems.itemList.where((item) {
+                  if (!item.hasEnUrl() &&
+                      item.hasZhUrl() &&
                       fetchedGeoInfo['country_code'] != "CN") {
                     // Let people who know English gradually understand Chinese culture
                     return fetchedGeoInfo['country_code'] == "EN";
                   }
-                  return true;
+                  return !(!item.hasEnUrl() && !item.hasZhUrl());
                 }));
 
-                _loadedItems ??= filteredFetchedItems;
+                _loadedItemList ??= filteredFetchedItemList;
                 return Stack(
                   children: [
                     SingleChildScrollView(
@@ -111,9 +92,10 @@ class _HomePageState extends State<HomePage> {
                           spacing: singleChildScrollViewSpacing,
                           runSpacing: singleChildScrollViewSpacing,
                           direction: Axis.horizontal,
-                          children: filteredFetchedItems
+                          children: filteredFetchedItemList
                               .map(
                                 (i) => BaseContainer(
+                                  key: ValueKey("${i.enUrl}#${i.imgUrl}"),
                                   item: i,
                                   geoInfo: fetchedData.fetchedGeoInfo,
                                   singleChildScrollViewSpacing:
@@ -131,20 +113,22 @@ class _HomePageState extends State<HomePage> {
                         singleChildScrollViewSpacing:
                             singleChildScrollViewSpacing,
                         onChanged: (value) async {
-                          final filteredItemsIterable = _loadedItems!.where(
-                              (item) =>
+                          final filteredItemListIterable = _loadedItemList!
+                              .where((item) =>
                                   item.title
                                       .toLowerCase()
                                       .contains(value.toLowerCase()) ||
-                                  (item.hasCnTitle() &&
-                                      item.cnTitle
+                                  (item.hasZhTitle() &&
+                                      item.zhTitle
                                           .toLowerCase()
                                           .contains(value.toLowerCase())) ||
                                   item.enUrl.contains(value) ||
-                                  item.cnUrl.contains(value));
+                                  item.zhUrl.contains(value));
                           setState(() {
                             futureData = Future.value(FutureData(
-                                items: List.of(filteredItemsIterable),
+                                items: Items(
+                                  itemList: filteredItemListIterable.toList(),
+                                ),
                                 geoInfo: fetchedData.fetchedGeoInfo));
                           });
                         },
@@ -164,6 +148,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     VisibilityTempTip(
+                      items: fetchedItems,
                       fetchedGeoInfo: fetchedGeoInfo,
                       singleChildScrollViewSpacing:
                           singleChildScrollViewSpacing,
