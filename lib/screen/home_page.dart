@@ -61,15 +61,20 @@ class _HomePageState extends State<HomePage> {
                 final fetchedGeoInfo = fetchedData.fetchedGeoInfo;
                 final fetchedItems = fetchedData.fetchedItems;
                 final filteredFetchedItemList =
-                    List.of(fetchedItems.itemList.where((item) {
+                    fetchedItems.itemList.where((item) {
                   if (!item.hasEnUrl() &&
                       item.hasZhUrl() &&
-                      fetchedGeoInfo['country_code'] != "CN") {
+                      !"${fetchedGeoInfo['country_code']}"
+                          .toLowerCase()
+                          .startsWith("cn")) {
+                    item.clearZhTitle();
                     // Let people who know English gradually understand Chinese culture
-                    return fetchedGeoInfo['country_code'] == "EN";
+                    return "${fetchedGeoInfo['country_code']}"
+                        .toLowerCase()
+                        .startsWith("en");
                   }
-                  return !(!item.hasEnUrl() && !item.hasZhUrl());
-                }));
+                  return item.hasEnUrl() || item.hasZhUrl();
+                }).toList();
 
                 _loadedItemList ??= filteredFetchedItemList;
                 return Stack(

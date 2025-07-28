@@ -2110,6 +2110,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+        imgUrl: "/VS Code.svg",
+        title: "VS Code Dev",
+        enUrl: "https://vscode.dev",
+        zhUrl: "https://vscode.dev/?vscode-lang=zh-cn"),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/IntelliJ_Platform_Plugin.svg",
       title: "IntelliJ Plugins",
       zhTitle: "IntelliJ 插件",
@@ -6637,7 +6644,7 @@ Future main(List<String> args) async {
 
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = false;
-  items.ipv6Guard = true;
+  items.ipv6Guard = false;
   items.specIpAddrPrefix = "27.38";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');

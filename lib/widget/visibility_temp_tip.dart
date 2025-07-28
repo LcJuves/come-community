@@ -32,7 +32,8 @@ class VisibilityTempTip extends StatelessWidget {
 
   final Items items;
 
-  bool get currentLocaleIsEN => fetchedGeoInfo['country_code'] == "EN";
+  bool get currentLocaleIsEN =>
+      "${fetchedGeoInfo['country_code']}".toLowerCase().startsWith("en");
 
   String get visibilityTempTipDetailEn =>
       """ People in a simulation game, 8 billion people around the world only need to pay the author enough money for financial freedom, and the author will solve it!
@@ -64,9 +65,9 @@ class VisibilityTempTip extends StatelessWidget {
     // Let's f**k the guy who violates privacy together.
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
-      visible: (!kDebugMode && letTempTipVisible()) ||
-          geoDisabled(fetchedGeoInfo, items) ||
-          shouldVisible,
+      visible: shouldVisible ||
+          (!kDebugMode && letTempTipVisible()) ||
+          geoDisabled(fetchedGeoInfo, items),
       child: BackdropFilterScaffold(
         sigma: sigma,
         backgroundColor: backgroundColor ?? Colors.transparent,

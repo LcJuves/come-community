@@ -12,8 +12,10 @@ import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
 Future<Uint8List> httpReadBytes(Uri url) async {
-  final response = await http
-      .get(url, headers: {"User-Agent": "http", "Origin": url.toString()});
+  final response = await http.get(url, headers: {
+    "User-Agent":
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  });
   return Future.value(response.bodyBytes);
 }
 

@@ -54,7 +54,9 @@ class BaseContainer extends StatefulWidget {
         !item.zhUrl.startsWith("#")) {
       return Uri.parse(item.zhUrl);
     }
-    return Uri.parse(item.enUrl);
+    return (item.hasEnUrl() && item.enUrl.isNotEmpty)
+        ? Uri.parse(item.enUrl)
+        : Uri.parse(item.zhUrl);
   }
 
   String _getVisibleTitle() {
@@ -68,10 +70,12 @@ class BaseContainer extends StatefulWidget {
 }
 
 class _BaseContainerState extends State<BaseContainer> {
+  late final Widget icon;
+
   @override
-  Widget build(BuildContext context) {
-    final launchUri = widget._getLaunchUrl();
-    final icon = widget.item.hasEmojiIcon() &&
+  void initState() {
+    super.initState();
+    icon = widget.item.hasEmojiIcon() &&
             AnimatedEmoji.isEmojiSupported(widget.item.emojiIcon)
         ? SizedBox.square(
             key: widget.key,
@@ -89,6 +93,11 @@ class _BaseContainerState extends State<BaseContainer> {
           )
         : SvgNetworkIcon(
             key: widget.key, url: widget._imgUrl, size: Constants.svgIconSize);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final launchUri = widget._getLaunchUrl();
     return ClipRRrectBackdropFilter(
       key: widget.key,
       borderRadius: BorderRadius.circular(15),

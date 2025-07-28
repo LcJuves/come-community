@@ -43,14 +43,15 @@ class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
   }
 
   String _getSearchBarHintText() {
-    final currentLocaleIsEN = geoInfo['country_code'] == "EN";
+    final currentLocaleIsNotCN =
+        !"${geoInfo['country_code']}".toLowerCase().startsWith("cn");
     return ((!kIsWeb &&
                 (Platform.isAndroid || Platform.isIOS || Platform.isFuchsia)) ||
             isRunOnMobileWebViewOrBrowser())
-        ? (currentLocaleIsEN
+        ? (currentLocaleIsNotCN
             ? AppLocalizationsEn().searchBarHintTextShort
             : AppLocalizationsZh().searchBarHintTextShort)
-        : (currentLocaleIsEN
+        : (currentLocaleIsNotCN
             ? AppLocalizationsEn().searchBarHintTextLong
             : AppLocalizationsZh().searchBarHintTextLong);
   }
