@@ -4833,7 +4833,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Space.svg",
       title: "JetBrains Space",
-      enUrl: "https://www.jetbrains.com/help/space/getting-started.html",
+      enUrl: "https://www.jetbrains.com/help/space/new-user-quick-start-guide.html",
     ),
   );
   itemList.add(

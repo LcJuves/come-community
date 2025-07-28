@@ -48,7 +48,7 @@ class BaseContainer extends StatefulWidget {
   }
 
   Uri _getLaunchUrl() {
-    if (geoInfo['country_code'] == "CN" &&
+    if ("${geoInfo['country_code']}".toLowerCase().startsWith("cn") &&
         item.hasZhUrl() &&
         item.zhUrl.isNotEmpty &&
         !item.zhUrl.startsWith("#")) {
@@ -60,7 +60,9 @@ class BaseContainer extends StatefulWidget {
   }
 
   String _getVisibleTitle() {
-    return item.hasZhTitle() && geoInfo['country_code'] == "CN"
+    return item.hasZhTitle() &&
+            item.zhTitle.isNotEmpty &&
+            "${geoInfo['country_code']}".toLowerCase().startsWith("cn")
         ? item.zhTitle
         : item.title;
   }
