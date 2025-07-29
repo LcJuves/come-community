@@ -2,5 +2,9 @@
   "searchBarHintTextShort": "Enter the search here",
   "searchBarHintTextLong": "Please enter some information here for search",
   "visibilityTempTipTitle": " Hello",
-  "visibilityTempTipMessage": " What's wrong with you?"
+  "visibilityTempTipMessage": " What's wrong with you?",
+  "waitingDevTipMessage": "Please wait a moment, the feature is currently under rapid development",
+  "copySucceedMessage": "Copied to clipboard",
+  "canNotCopiedMessage": "Can't copied to clipboard",
+  "unavailableWithShareResultMessage": "Sorry, unable to share"
 }

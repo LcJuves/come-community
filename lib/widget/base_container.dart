@@ -72,12 +72,39 @@ class BaseContainer extends StatefulWidget {
 }
 
 class _BaseContainerState extends State<BaseContainer> {
-  late final Widget icon;
+  late final Uri _launchUri;
+  late final String _msgDescDefaultValue;
+
+  /// Called when the user taps this part of the material.
+  late final GestureTapCallback? _onTap;
+  late final Widget _icon;
 
   @override
   void initState() {
     super.initState();
-    icon = widget.item.hasEmojiIcon() &&
+    _launchUri = widget._getLaunchUrl();
+    _msgDescDefaultValue = Uri.decodeComponent(_launchUri.toString());
+    _onTap = () async {
+      try {
+        if (kIsWeb) {
+          await launchUrl(_launchUri, mode: LaunchMode.inAppWebView);
+          return;
+        }
+        await Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => PreviewPage(
+              title: widget._getVisibleTitle(),
+              icon: _icon,
+              previewUrl: widget._getLaunchUrl(),
+              geoInfo: widget.geoInfo,
+            ),
+          ),
+        );
+      } catch (_) {
+        await launchUrl(_launchUri, mode: LaunchMode.inAppWebView);
+      }
+    };
+    _icon = widget.item.hasEmojiIcon() &&
             AnimatedEmoji.isEmojiSupported(widget.item.emojiIcon)
         ? SizedBox.square(
             key: widget.key,
@@ -99,39 +126,20 @@ class _BaseContainerState extends State<BaseContainer> {
 
   @override
   Widget build(BuildContext context) {
-    final launchUri = widget._getLaunchUrl();
     return ClipRRrectBackdropFilter(
       key: widget.key,
       borderRadius: BorderRadius.circular(15),
       child: InkWellContainer(
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
-        color: Colors.white.withAlpha(199),
-        hoverColor: Colors.white.withAlpha(115),
+        color: Colors.white.withAlpha(179),
+        hoverColor: Colors.white.withAlpha(95),
         splashColor: Colors.white,
-        onTap: () async {
-          try {
-            if (kIsWeb) {
-              await launchUrl(launchUri, mode: LaunchMode.inAppWebView);
-              return;
-            }
-            await Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (context) => PreviewPage(
-                  title: widget._getVisibleTitle(),
-                  icon: icon,
-                  previewUrl: widget._getLaunchUrl(),
-                ),
-              ),
-            );
-          } catch (_) {
-            await launchUrl(launchUri, mode: LaunchMode.inAppWebView);
-          }
-        },
+        onTap: _onTap,
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            icon,
+            _icon,
             const SizedBox.square(
               dimension: Constants.titleLeftPadding + Constants.goldenRatio,
             ),
@@ -159,8 +167,9 @@ class _BaseContainerState extends State<BaseContainer> {
                 const SizedBox.square(dimension: Constants.urlBoxTopPadding),
                 FutureBuilder<FutureDesc>(
                   key: widget.key,
-                  future: fetchDesc(launchUri),
-                  initialData: FutureDesc(desc: "", msgDesc: ""),
+                  future: fetchDesc(_launchUri),
+                  initialData: FutureDesc(
+                      desc: _launchUri.host, msgDesc: _msgDescDefaultValue),
                   builder: (context, snapshot) {
                     final FutureDesc futureDesc = snapshot.data!;
                     return Row(
@@ -209,7 +218,7 @@ class _BaseContainerState extends State<BaseContainer> {
                             ),
                             message: futureDesc.msgDesc.isNotEmpty
                                 ? futureDesc.msgDesc
-                                : launchUri.toString(),
+                                : _msgDescDefaultValue,
                             waitDuration: const Duration(milliseconds: 1200),
                             exitDuration: const Duration(),
                             child: TextMarquee(
@@ -217,7 +226,7 @@ class _BaseContainerState extends State<BaseContainer> {
                                   Constants.goldenRatio,
                               futureDesc.desc.isNotEmpty
                                   ? futureDesc.desc
-                                  : launchUri.host,
+                                  : _launchUri.host,
                               style: TextStyle(
                                 fontSize: Constants.captivePortalSvgIconSize,
                                 fontWeight: FontWeight.w500,

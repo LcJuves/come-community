@@ -20,4 +20,17 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get visibilityTempTipMessage => ' What\'s wrong with you?';
+
+  @override
+  String get waitingDevTipMessage =>
+      'Please wait a moment, the feature is currently under rapid development';
+
+  @override
+  String get copySucceedMessage => 'Copied to clipboard';
+
+  @override
+  String get canNotCopiedMessage => 'Can\'t copied to clipboard';
+
+  @override
+  String get unavailableWithShareResultMessage => 'Sorry, unable to share';
 }

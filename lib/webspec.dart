@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:universal_web/web.dart';
+import 'package:universal_web/web.dart' show window;
 
 String getUserAgent() {
   return window.navigator.userAgent.toLowerCase();
@@ -37,4 +37,11 @@ bool letTempTipVisible() {
   }
   return !(getWindowLocationUri().host.startsWith(RegExp("[0-9]"))) &&
       !(getWindowLocationUri().host.endsWith("lcjuves.com"));
+}
+
+/// Provides device id information.
+class PlatformDeviceId {
+  static Future<String?> get getDeviceId async {
+    return Future.value(getUserAgent());
+  }
 }

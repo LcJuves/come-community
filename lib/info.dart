@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:devfans/http_requests.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
 
@@ -40,6 +41,9 @@ Future<dynamic> _getLocaleLangInfo(BuildContext context) async {
 }
 
 bool networkDisabled(dynamic fetchedGeoInfo, Items items) {
+  if (kDebugMode) {
+    items.ipv6Guard = true;
+  }
   // At present, only IPv6 support is provided.
   return (items.hasIpv6Guard() &&
           items.ipv6Guard &&
@@ -50,8 +54,9 @@ bool networkDisabled(dynamic fetchedGeoInfo, Items items) {
           !"${fetchedGeoInfo['ip']}".startsWith(items.specIpAddrPrefix));
 }
 
-bool geoDisabled(dynamic fetchedGeoInfo, Items items) {
-  if (!items.hasShutdownSomeArea() || !items.shutdownSomeArea) {
+bool geoDisabled(dynamic fetchedGeoInfo, Items items, String? deviceId) {
+  if (!kDebugMode &&
+      (!items.hasShutdownSomeArea() || !items.shutdownSomeArea)) {
     fetchedGeoInfo['region'] = "${fetchedGeoInfo['region']} ?";
     fetchedGeoInfo['city'] = "${fetchedGeoInfo['city']} ?";
     fetchedGeoInfo['country_code'] = "${fetchedGeoInfo['country_code']} ?";

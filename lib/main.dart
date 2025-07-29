@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         tabBarTheme: const TabBarThemeData(
             indicatorColor: Color.fromARGB(255, 60, 198, 123)),
         scrollbarTheme: ScrollbarThemeData(
-            thumbColor: const WidgetStatePropertyAll(Colors.white),
+            thumbColor: WidgetStatePropertyAll(Colors.white.withAlpha(222)),
             radius: Radius.circular(MediaQuery.of(context).size.longestSide)),
       ),
       home: const HomePage(),

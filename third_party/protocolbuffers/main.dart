@@ -275,6 +275,14 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/MDN.svg",
+      title: "Web Worker API",
+      enUrl: "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API",
+      zhUrl: "https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
       title: "SharedArrayBuffer",
       enUrl:
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
@@ -612,6 +620,13 @@ Future main(List<String> args) async {
       imgUrl: "/WebAuthn.svg",
       title: "WebAuthn",
       enUrl: "https://webauthn.guide/#about-webauthn",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/WebAuthn.svg",
+      title: "Webauthn-rs",
+      enUrl: "https://docs.rs/webauthn-rs/latest/webauthn_rs/#getting-started",
     ),
   );
   itemList.add(
@@ -4833,7 +4848,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Space.svg",
       title: "JetBrains Space",
-      enUrl: "https://www.jetbrains.com/help/space/new-user-quick-start-guide.html",
+      enUrl:
+          "https://www.jetbrains.com/help/space/new-user-quick-start-guide.html",
     ),
   );
   itemList.add(
@@ -6645,7 +6661,7 @@ Future main(List<String> args) async {
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = false;
   items.ipv6Guard = false;
-  items.specIpAddrPrefix = "27.38";
+  items.specIpAddrPrefix = "163";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);

@@ -19,4 +19,16 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get visibilityTempTipMessage => ' 您怎么了？';
+
+  @override
+  String get waitingDevTipMessage => '请稍等，该功能正在加速开发中～';
+
+  @override
+  String get copySucceedMessage => '已复制到剪贴板';
+
+  @override
+  String get canNotCopiedMessage => '无法复制到剪贴板';
+
+  @override
+  String get unavailableWithShareResultMessage => '抱歉，无法进行分享';
 }

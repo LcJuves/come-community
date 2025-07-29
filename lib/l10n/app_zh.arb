@@ -2,5 +2,9 @@
   "searchBarHintTextShort": "在此处输入搜索",
   "searchBarHintTextLong": "在此处输入一些信息以进行搜索",
   "visibilityTempTipTitle": " 您好",
-  "visibilityTempTipMessage": " 您怎么了？"
+  "visibilityTempTipMessage": " 您怎么了？",
+  "waitingDevTipMessage": "请稍等，该功能正在加速开发中～",
+  "copySucceedMessage": "已复制到剪贴板",
+  "canNotCopiedMessage": "无法复制到剪贴板",
+  "unavailableWithShareResultMessage": "抱歉，无法进行分享"
 }

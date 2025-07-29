@@ -18,7 +18,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
   final Color color;
 
   /// When elevation is non zero the color to use for the shadow color.
-  final Color shadowColor;
+  final Color? shadowColor;
 
   final Widget? child;
 
@@ -28,7 +28,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
       this.clipBehavior = Clip.none,
       this.elevation = 0.0,
       this.color = Colors.white,
-      this.shadowColor = const Color(0xFF000000),
+      this.shadowColor,
       this.child});
 
   @override
@@ -40,7 +40,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
       clipBehavior: clipBehavior,
       elevation: elevation,
       color: color,
-      shadowColor: shadowColor,
+      shadowColor: shadowColor ?? Colors.grey.withAlpha(136),
       child: child,
     );
   }

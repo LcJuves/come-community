@@ -121,6 +121,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **' What\'s wrong with you?'**
   String get visibilityTempTipMessage;
+
+  /// No description provided for @waitingDevTipMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Please wait a moment, the feature is currently under rapid development'**
+  String get waitingDevTipMessage;
+
+  /// No description provided for @copySucceedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Copied to clipboard'**
+  String get copySucceedMessage;
+
+  /// No description provided for @canNotCopiedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Can\'t copied to clipboard'**
+  String get canNotCopiedMessage;
+
+  /// No description provided for @unavailableWithShareResultMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Sorry, unable to share'**
+  String get unavailableWithShareResultMessage;
 }
 
 class _AppLocalizationsDelegate

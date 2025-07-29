@@ -8,11 +8,13 @@ import 'package:devfans/widget/visibility_temp_tip_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+// import 'package:platform_device_id/platform_device_id.dart'
+//     if (dart.library.js_interop) 'package:devfans/webspec.dart' as uni_spec;
 import 'package:protobuffers/items.pb.dart';
 
 const double sigma = 6.18 / 4.5;
 
-class VisibilityTempTip extends StatelessWidget {
+class VisibilityTempTip extends StatefulWidget {
   const VisibilityTempTip({
     super.key,
     this.body,
@@ -52,52 +54,78 @@ class VisibilityTempTip extends StatelessWidget {
 """;
 
   @override
-  Widget build(BuildContext context) {
+  State<VisibilityTempTip> createState() => _VisibilityTempTipState();
+}
+
+class _VisibilityTempTipState extends State<VisibilityTempTip> {
+  late final bool _shouldVisible;
+  late final bool _geoDisabled;
+  late final String _visibilityTempTipTitle;
+  late final String _visibilityTempTipMessage;
+  late final String _visibilityTempTipDetail;
+
+  @override
+  void initState() {
+    super.initState();
+    _shouldVisible =
+        widget.items.hasTempTipVisible() && widget.items.tempTipVisible;
+    _visibilityTempTipTitle = widget.currentLocaleIsEN
+        ? AppLocalizationsEn().visibilityTempTipTitle
+        : AppLocalizationsZh().visibilityTempTipTitle;
+    _visibilityTempTipMessage = widget.currentLocaleIsEN
+        ? AppLocalizationsEn().visibilityTempTipMessage
+        : AppLocalizationsZh().visibilityTempTipMessage;
+    _visibilityTempTipDetail = widget.currentLocaleIsEN
+        ? widget.visibilityTempTipDetailEn
+        : widget.visibilityTempTipDetailZh;
+    _initGeoDisabledValue();
     if (!kIsWeb) {
       SystemChrome.setSystemUIOverlayStyle(
         Constants.defaultSystemUiOverlayStyle,
       );
     }
+  }
 
-    final shouldVisible = items.hasTempTipVisible() && items.tempTipVisible;
+  Future<void> _initGeoDisabledValue() async {
+    // final String? deviceId = await uni_spec.PlatformDeviceId.getDeviceId;
+    setState(() {
+      _geoDisabled = geoDisabled(widget.fetchedGeoInfo, widget.items, "");
+    });
+  }
 
+  @override
+  Widget build(BuildContext context) {
     // I need international law.
     // Let's f**k the guy who violates privacy together.
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
-      visible: shouldVisible ||
+      visible: _shouldVisible ||
           (!kDebugMode && letTempTipVisible()) ||
-          geoDisabled(fetchedGeoInfo, items),
+          _geoDisabled,
       child: BackdropFilterScaffold(
         sigma: sigma,
-        backgroundColor: backgroundColor ?? Colors.transparent,
+        backgroundColor: widget.backgroundColor ?? Colors.transparent,
         body: Center(
           child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
-            padding: EdgeInsets.all(singleChildScrollViewSpacing),
+            padding: EdgeInsets.all(widget.singleChildScrollViewSpacing),
             child: Center(
               child: SelectionArea(
                   child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   VisibilityTempTipText(
-                    currentLocaleIsEN
-                        ? AppLocalizationsEn().visibilityTempTipTitle
-                        : AppLocalizationsZh().visibilityTempTipTitle,
+                    _visibilityTempTipTitle,
                     fontSize: 75,
                     sigma: sigma,
                   ),
                   VisibilityTempTipText(
-                    currentLocaleIsEN
-                        ? AppLocalizationsEn().visibilityTempTipMessage
-                        : AppLocalizationsZh().visibilityTempTipMessage,
+                    _visibilityTempTipMessage,
                     fontSize: 24,
                     sigma: sigma,
                   ),
                   VisibilityTempTipText(
-                    currentLocaleIsEN
-                        ? visibilityTempTipDetailEn
-                        : visibilityTempTipDetailZh,
+                    _visibilityTempTipDetail,
                     fontSize: 13,
                     sigma: sigma,
                   ),
