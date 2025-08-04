@@ -132,8 +132,8 @@ class _BaseContainerState extends State<BaseContainer> {
       child: InkWellContainer(
         padding: const EdgeInsets.all(Constants.baseContainerPadding),
         borderRadius: BorderRadius.circular(15),
-        color: Colors.white.withAlpha(179),
-        hoverColor: Colors.white.withAlpha(95),
+        color: Colors.white.withAlpha(169),
+        hoverColor: Colors.white.withAlpha(195),
         splashColor: Colors.white,
         onTap: _onTap,
         child: Row(

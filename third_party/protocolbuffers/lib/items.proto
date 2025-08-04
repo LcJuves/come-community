@@ -15,5 +15,6 @@ message Items {
     string spec_ip_addr_prefix = 2;
     bool ipv6_guard = 3;
     bool shutdown_some_area = 4;
-    repeated Item item_list = 5;
+    bool use_blur_wallpaper = 5;
+    repeated Item item_list = 6;
 }

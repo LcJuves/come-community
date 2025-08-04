@@ -72,7 +72,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Meyou.svg",
       title: "How To Cook",
-      enUrl:
+      zhTitle: "程序员做饭指南",
+      zhUrl:
           "https://cook.aiursoft.cn/tips/%E5%8E%A8%E6%88%BF%E5%87%86%E5%A4%87",
     ),
   );
@@ -1337,6 +1338,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Qwen.svg",
       title: "Qwen Wan",
+      zhTitle: "通义万相",
       enUrl:
           "https://github.com/Wan-Video/Wan2.1?tab=readme-ov-file#quickstart",
     ),
@@ -3236,6 +3238,13 @@ Future main(List<String> args) async {
       imgUrl: "/GraalVM.svg",
       title: "GraalVM Native Image",
       enUrl: "https://www.graalvm.org/latest/reference-manual/native-image",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GraalVM.svg",
+      title: "GraalWasm",
+      enUrl: "https://www.graalvm.org/webassembly/#getting-started",
     ),
   );
   itemList.add(
@@ -6660,7 +6669,7 @@ Future main(List<String> args) async {
 
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = false;
-  items.ipv6Guard = false;
+  items.ipv6Guard = true;
   items.specIpAddrPrefix = "163";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');

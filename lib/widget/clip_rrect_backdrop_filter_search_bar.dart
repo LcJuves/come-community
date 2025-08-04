@@ -123,8 +123,8 @@ class _ClipRRectBackdropFilterSearchBarState
           textStyle: WidgetStatePropertyAll(TextStyle(
               fontWeight: FontWeight.w600,
               foreground: Paint()
-                ..blendMode = BlendMode.difference
-                ..color = Colors.white)),
+                ..blendMode = BlendMode.modulate
+                ..color = Constants.primaryColor)),
           onChanged: widget.onChanged,
         ),
       ),

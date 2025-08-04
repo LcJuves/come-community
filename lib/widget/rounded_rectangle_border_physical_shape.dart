@@ -27,7 +27,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
       this.borderRadius = BorderRadius.zero,
       this.clipBehavior = Clip.none,
       this.elevation = 0.0,
-      this.color = Colors.white,
+      this.color = Colors.transparent,
       this.shadowColor,
       this.child});
 
@@ -40,7 +40,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
       clipBehavior: clipBehavior,
       elevation: elevation,
       color: color,
-      shadowColor: shadowColor ?? Colors.grey.withAlpha(136),
+      shadowColor: shadowColor ?? Colors.grey.withAlpha(86),
       child: child,
     );
   }

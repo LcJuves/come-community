@@ -7,7 +7,8 @@
     {
       "name": "devfans",
       "request": "launch",
-      "type": "dart"
+      "type": "dart",
+      "args": ["--no-enable-impeller"]
     },
     {
       "name": "devfans (profile mode)",
