@@ -1209,6 +1209,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Angular.svg",
+      title: "Angular Playground",
+      zhTitle: "Angular 演练场",
+      enUrl: "https://angular.dev/playground",
+      zhUrl: "https://angular.cn/playground",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/OctoTools.svg",
       title: "OctoTools",
       enUrl:
@@ -1820,6 +1829,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Cangjie.svg",
+      title: "Cangjie Playground",
+      zhTitle: "仓颉演练场",
+      enUrl: "https://cangjie-lang.cn/en/playground",
+      zhUrl: "https://cangjie-lang.cn/playground",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/TAURI.svg",
       title: "TAURI",
       enUrl: "https://tauri.app/start",
@@ -2330,7 +2348,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/LLVM.svg",
       title: "LLVM",
-      enUrl: "https://llvm.org/docs/GettingStarted.html",
+      enUrl:
+          "https://llvm.org/docs/GettingStarted.html#getting-started-with-llvm",
     ),
   );
   itemList.add(
