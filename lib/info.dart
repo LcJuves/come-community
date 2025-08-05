@@ -64,6 +64,25 @@ bool geoDisabled(dynamic fetchedGeoInfo, Items items, String? deviceId) {
   return (fetchedGeoInfo == null ||
       // At present, only IPv6 support is provided.
       networkDisabled(fetchedGeoInfo, items) ||
-      "${fetchedGeoInfo['country_code']}".toLowerCase() == "JP".toLowerCase() ||
-      "${fetchedGeoInfo['country_code']}".toLowerCase() == "JPN".toLowerCase());
+      ("${fetchedGeoInfo['region']}".toLowerCase() ==
+              "Shandong".toLowerCase() ||
+          "${fetchedGeoInfo['region']}".toLowerCase() ==
+              "Jiangxi".toLowerCase() ||
+          "${fetchedGeoInfo['region']}".toLowerCase() ==
+                  "Guangdong".toLowerCase() &&
+              (!items.hasSpecIpAddrPrefix() ||
+                  !"${fetchedGeoInfo['ip']}"
+                      .startsWith(items.specIpAddrPrefix))) ||
+      "${fetchedGeoInfo['region']}".toLowerCase() == "Liaoning".toLowerCase() ||
+      "${fetchedGeoInfo['region']}".toLowerCase() == "Shanghai".toLowerCase() ||
+      "${fetchedGeoInfo['region']}".toLowerCase() == "Beijing".toLowerCase() ||
+      "${fetchedGeoInfo['city']}".toLowerCase() ==
+          "Changsha"
+              .toLowerCase() /* There are always more ways than difficulties */ ||
+      ("${fetchedGeoInfo['region']}".toLowerCase() == "Hubei".toLowerCase() ||
+          "${fetchedGeoInfo['country_code']}".toLowerCase() ==
+              "JP".toLowerCase() ||
+          "${fetchedGeoInfo['country_code']}".toLowerCase() ==
+              "JPN".toLowerCase()) ||
+      "${fetchedGeoInfo['country_code']}".toLowerCase() == "CAN".toLowerCase());
 }
