@@ -40,7 +40,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
       clipBehavior: clipBehavior,
       elevation: elevation,
       color: color,
-      shadowColor: shadowColor ?? Colors.grey.withAlpha(86),
+      shadowColor: shadowColor ?? Colors.grey.withAlpha(106),
       child: child,
     );
   }

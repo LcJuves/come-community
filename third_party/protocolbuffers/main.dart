@@ -284,6 +284,23 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/MDN.svg",
+      title: "Fetch API",
+      enUrl: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+      zhUrl: "https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
+      title: "CORS",
+      zhTitle: "跨源资源共享",
+      enUrl: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS",
+      zhUrl: "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/CORS",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
       title: "SharedArrayBuffer",
       enUrl:
           "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
@@ -337,6 +354,15 @@ Future main(List<String> args) async {
       imgUrl: "/Kotlin.svg",
       title: "Kotlin",
       enUrl: "https://kotlinlang.org/docs/getting-started.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Kotlin.svg",
+      title: "Kotlin Playground",
+      zhTitle: "Kotlin 演练场",
+      enUrl:
+          "https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMi4yLjAiLCJwbGF0Zm9ybSI6ImNvbXBvc2Utd2FzbSIsImFyZ3MiOiIiLCJub25lTWFya2VycyI6dHJ1ZSwidGhlbWUiOiJpZGVhIiwiY29kZSI6ImltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkV4cGVyaW1lbnRhbENvbXBvc2VVaUFwaVxuaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkud2luZG93LkNhbnZhc0Jhc2VkV2luZG93XG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5XG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLkltYWdlXG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW5cbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aFxuaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuQnV0dG9uXG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5NYXRlcmlhbFRoZW1lXG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5UZXh0XG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGVcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWVcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2ZcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWVcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudFxuaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXJcblxuQE9wdEluKEV4cGVyaW1lbnRhbENvbXBvc2VVaUFwaTo6Y2xhc3MpXG5mdW4gbWFpbigpIHtcbiAgQ2FudmFzQmFzZWRXaW5kb3cgeyBBcHAoKSB9XG59XG5cbkBDb21wb3NhYmxlXG5mdW4gQXBwKCkge1xuICBNYXRlcmlhbFRoZW1lIHtcbiAgICB2YXIgZ3JlZXRpbmdUZXh0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoXCJIZWxsbyBXb3JsZCFcIikgfVxuICAgIHZhciBzaG93SW1hZ2UgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfVxuICAgIHZhciBjb3VudGVyIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoMCkgfVxuICAgIENvbHVtbihNb2RpZmllci5maWxsTWF4V2lkdGgoKSwgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHkpIHtcbiAgICAgIEJ1dHRvbihvbkNsaWNrID0ge1xuICAgICAgICBjb3VudGVyKytcbiAgICAgICAgZ3JlZXRpbmdUZXh0ID0gXCJDb21wb3NlOiAke0dyZWV0aW5nKCkuZ3JlZXQoKX1cIlxuICAgICAgICBzaG93SW1hZ2UgPSAhc2hvd0ltYWdlXG4gICAgICB9KSB7XG4gICAgICAgIFRleHQoZ3JlZXRpbmdUZXh0KVxuICAgICAgfVxuICAgICAgQW5pbWF0ZWRWaXNpYmlsaXR5KHNob3dJbWFnZSkge1xuICAgICAgICBUZXh0KGNvdW50ZXIudG9TdHJpbmcoKSlcbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cblxucHJpdmF0ZSB2YWwgcGxhdGZvcm0gPSBvYmplY3QgOiBQbGF0Zm9ybSB7XG5cbiAgb3ZlcnJpZGUgdmFsIG5hbWU6IFN0cmluZ1xuICAgIGdldCgpID0gXCJXZWIgd2l0aCBLb3RsaW4vV2FzbVwiXG59XG5cbmZ1biBnZXRQbGF0Zm9ybSgpOiBQbGF0Zm9ybSA9IHBsYXRmb3JtXG5cbmNsYXNzIEdyZWV0aW5nIHtcbiAgcHJpdmF0ZSB2YWwgcGxhdGZvcm0gPSBnZXRQbGF0Zm9ybSgpXG5cbiAgZnVuIGdyZWV0KCk6IFN0cmluZyB7XG4gICAgcmV0dXJuIFwiSGVsbG8sICR7cGxhdGZvcm0ubmFtZX0hXCJcbiAgfVxufVxuXG5pbnRlcmZhY2UgUGxhdGZvcm0ge1xuICB2YWwgbmFtZTogU3RyaW5nXG59In0=",
     ),
   );
   itemList.add(
@@ -1390,6 +1416,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/_Electron.svg",
+      title: "Electron Forge",
+      enUrl: "https://www.electronforge.io/#creating-a-new-app",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/JavaScript.svg",
       title: "JavaScript",
       enUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -1530,7 +1563,7 @@ Future main(List<String> args) async {
       imgUrl: "/Swift.svg",
       title: "SwiftUI",
       enUrl:
-          "https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app",
+          "https://developer.apple.com/tutorials/develop-in-swift/hello-swiftui",
     ),
   );
   itemList.add(
@@ -1610,6 +1643,14 @@ Future main(List<String> args) async {
       title: "Apple Developer",
       zhTitle: "苹果开发者",
       enUrl: "https://developer.apple.com/documentation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Apple.svg",
+      title: "Adopting Liquid Glass",
+      enUrl:
+          "https://developer.apple.com/documentation/TechnologyOverviews/adopting-liquid-glass",
     ),
   );
   itemList.add(
@@ -1840,8 +1881,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/TAURI.svg",
       title: "TAURI",
-      enUrl: "https://tauri.app/start",
-      zhUrl: "https://tauri.app/zh-cn/start",
+      enUrl: "https://tauri.app/start/create-project",
+      zhUrl: "https://tauri.app/zh-cn/start/create-project",
     ),
   );
   itemList.add(
