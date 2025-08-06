@@ -1,3 +1,4 @@
 [submodule "third_party/openharmony-flutter"]
 	path = third_party/openharmony-flutter
 	url = https://gitcode.com/openharmony-tpc/flutter_flutter.git
+	branch = oh-3.27.4-dev
