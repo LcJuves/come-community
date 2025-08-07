@@ -6340,6 +6340,27 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "curl-rust",
+      enUrl: "https://github.com/alexcrichton/curl-rust?tab=readme-ov-file#quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
+      title: "RON",
+      enUrl: "https://github.com/ron-rs/ron?tab=readme-ov-file#example",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "Eon",
+      enUrl: "https://github.com/emilk/eon?tab=readme-ov-file#overview",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "Comprehensive Rust",
       enUrl: "https://google.github.io/comprehensive-rust",
       zhUrl: "https://google.github.io/comprehensive-rust/zh-CN",
