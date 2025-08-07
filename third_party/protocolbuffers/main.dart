@@ -382,6 +382,41 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Kotlin.svg",
+      title: "Language Server for Kotlin",
+      enUrl:
+          "https://github.com/Kotlin/kotlin-lsp?tab=readme-ov-file#vs-code-quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "ChatTTS",
+      enUrl: "https://github.com/2noise/ChatTTS?tab=readme-ov-file#get-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Chrome.svg",
+      emojiIcon: "🚀",
+      title: "Chrome MCP Server",
+      enUrl:
+          "https://github.com/hangwin/mcp-chrome?tab=readme-ov-file#-quick-start",
+      zhUrl:
+          "https://github.com/hangwin/mcp-chrome/blob/master/README_zh.md#-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Windows.svg",
+      // emojiIcon: "🪟",
+      title: "Windows-MCP",
+      enUrl:
+          "https://github.com/CursorTouch/Windows-MCP?tab=readme-ov-file#-getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Kotlin.svg",
       title: "kotlinx-io",
       enUrl:
           "https://github.com/Kotlin/kotlinx-io?tab=readme-ov-file#using-in-your-projects",
@@ -4865,6 +4900,14 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/OpenAIPlatform.svg",
+      title: "gpt-oss",
+      enUrl:
+          "https://github.com/openai/gpt-oss?tab=readme-ov-file#inference-examples",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OpenAIPlatform.svg",
       title: "Codex CLI",
       enUrl: "https://github.com/openai/codex?tab=readme-ov-file#quickstart",
     ),
@@ -6458,6 +6501,13 @@ Future main(List<String> args) async {
       title: "Donate to the author",
       zhTitle: "向作者捐赠",
       enUrl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/PayPal.svg",
+      title: "PayPal REST APIs",
+      enUrl: "https://developer.paypal.com/api/rest",
     ),
   );
   itemList.add(
