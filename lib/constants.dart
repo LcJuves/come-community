@@ -20,7 +20,7 @@ abstract final class Constants {
   static const int httpOk = 200;
   static const int colorMaxRangeValue = 255;
   static const String svgCommonUrlPrefix =
-      "https://fastweb.lcjuves.com/assets/svg";
+      "https://devfans.lcjuves.com/assets/res/svg";
   static final Color primaryColor = Colors.black.withAlpha(102);
   static const Color themeColor = Colors.black;
   static const SystemUiOverlayStyle defaultSystemUiOverlayStyle =

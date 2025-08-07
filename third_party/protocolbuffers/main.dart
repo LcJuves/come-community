@@ -6341,7 +6341,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "curl-rust",
-      enUrl: "https://github.com/alexcrichton/curl-rust?tab=readme-ov-file#quick-start",
+      enUrl:
+          "https://github.com/alexcrichton/curl-rust?tab=readme-ov-file#quick-start",
     ),
   );
   itemList.add(
@@ -6786,6 +6787,24 @@ Future main(List<String> args) async {
     title: "meilisearch",
     enUrl:
         "https://www.meilisearch.com/docs/learn/self_hosted/getting_started_with_self_hosted_meilisearch",
+  ));
+  itemList.add(Item(
+    imgUrl: "/pre-commit.svg",
+    title: "pre-commit",
+    enUrl: "https://pre-commit.com/#quick-start",
+  ));
+  itemList.add(Item(
+    imgUrl: "/Haxe.svg",
+    title: "Haxe",
+    enUrl:
+        "https://haxe.org/documentation/introduction/language-introduction.html",
+  ));
+  itemList.add(Item(
+    imgUrl: "/Haxe.svg",
+    title: "Haxe StdLib",
+    zhTitle: "Haxe 标准库",
+    enUrl:
+        "https://haxe.org/documentation/introduction/stdlib-introduction.html",
   ));
 
   itemList.add(Item(

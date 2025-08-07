@@ -26,7 +26,7 @@ Future<String> httpReadString(Uri url) async {
 }
 
 Future<Items> _fetchItems() async {
-  if (!kDebugMode) {
+  if (!kDebugMode && !kIsWeb) {
     final responseBodyBytes = await httpReadBytes(
         Uri.parse("https://devfans.lcjuves.com/assets/items.pb"));
     if (responseBodyBytes.isNotEmpty) {

@@ -6,19 +6,23 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class SvgNetworkIcon extends StatelessWidget {
+class SvgNetworkIcon extends StatefulWidget {
   final String url;
   final double size;
   const SvgNetworkIcon({super.key, required this.url, required this.size});
 
   @override
-  Widget build(BuildContext context) {
-    if (url.toLowerCase().contains("meyou.svg")) {
-      return const MeyouLogo();
-    }
+  State<SvgNetworkIcon> createState() => _SvgNetworkIconState();
+}
 
+class _SvgNetworkIconState extends State<SvgNetworkIcon> {
+  Widget? _image;
+
+  @override
+  void initState() {
+    super.initState();
     final circularProgressIndicator = Padding(
-      key: key,
+      key: widget.key,
       padding: const EdgeInsets.all(10),
       child: const DevFansCircularProgressIndicator(
         strokeCap: StrokeCap.round,
@@ -27,37 +31,42 @@ class SvgNetworkIcon extends StatelessWidget {
         blendMode: BlendMode.srcOut,
       ),
     );
-
-    final errorWidget = MeyouLogo(
-      key: key,
+    final errorMeyouLogo = MeyouLogo(
+      key: widget.key,
       color: Colors.red,
     );
-
-    Widget image = SvgPicture.network(
-      key: key,
-      url,
-      width: size,
-      height: size,
+    _image = SvgPicture.network(
+      key: widget.key,
+      widget.url,
+      width: widget.size,
+      height: widget.size,
       placeholderBuilder: (BuildContext context) => circularProgressIndicator,
-      errorBuilder: (context, error, stackTrace) => errorWidget,
+      errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
     );
 
     if (kIsWeb && !isRunOnSafariWebBrowser()) {
-      image = CachedNetworkImage(
-        key: key,
-        imageUrl: url,
-        width: size,
-        height: size,
+      _image = CachedNetworkImage(
+        key: widget.key,
+        imageUrl: widget.url,
+        width: widget.size,
+        height: widget.size,
         progressIndicatorBuilder: (context, url, downloadProgress) =>
             circularProgressIndicator,
-        errorWidget: (context, url, error) => errorWidget,
+        errorWidget: (context, url, error) => errorMeyouLogo,
       );
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (widget.url.toLowerCase().contains("meyou.svg")) {
+      return const MeyouLogo();
     }
 
     return SizedBox.square(
-      key: key,
-      dimension: size,
-      child: image,
+      key: widget.key,
+      dimension: widget.size,
+      child: _image,
     );
   }
 }
