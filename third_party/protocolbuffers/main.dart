@@ -3668,13 +3668,6 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
-      title: "axum",
-      enUrl: "https://docs.rs/axum/latest/axum/#example",
-    ),
-  );
-  itemList.add(
-    Item(
-      imgUrl: "/Rust.svg",
       title: "uniocr",
       enUrl:
           "https://github.com/mediar-ai/uniOCR?tab=readme-ov-file#quickstart-",
@@ -4663,6 +4656,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Theia.svg",
+      title: "Theia",
+      enUrl: "https://theia-ide.org/docs/user_getting_started",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/OW2_ASM.svg",
       title: "OW2 ASM",
       enUrl: "https://asm.ow2.io",
@@ -5047,12 +5047,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/JetBrains.svg",
-      title: "JetBrains Open Source",
-      zhTitle: "JetBrains 开源",
-      enUrl: "https://www.jetbrains.com/opensource",
-      zhUrl: "https://www.jetbrains.com/zh-cn/opensource"
-    ),
+        imgUrl: "/JetBrains.svg",
+        title: "JetBrains Open Source",
+        zhTitle: "JetBrains 开源",
+        enUrl: "https://www.jetbrains.com/opensource",
+        zhUrl: "https://www.jetbrains.com/zh-cn/opensource"),
   );
   itemList.add(
     Item(
