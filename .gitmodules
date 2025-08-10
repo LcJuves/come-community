@@ -2,3 +2,6 @@
 	path = third_party/openharmony-flutter
 	url = https://gitcode.com/openharmony-tpc/flutter_flutter.git
 	branch = oh-3.27.4-dev
+[submodule "third_party/web-artifacts"]
+	path = third_party/web-artifacts
+	url = https://github.com/MeyouRepo/devfans-web.git
