@@ -8,7 +8,7 @@ class BackdropFilterScaffold extends StatelessWidget {
       this.body,
       this.backgroundColor = Colors.transparent,
       this.blendMode = BlendMode.srcOver,
-      this.sigma = 0.3,
+      this.sigma = 0,
       this.appBar});
 
   final double sigma;

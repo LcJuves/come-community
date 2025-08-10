@@ -1,0 +1,20 @@
+table Item {
+    emoji_icon:string;
+    img_url:string;
+    zh_img_url:string;
+    title:string;
+    zh_title:string;
+    en_url:string;
+    zh_url:string;
+}
+
+table Items {
+    temp_tip_visible:bool;
+    spec_ip_addr_prefix:string;
+    ipv6_guard:bool;
+    shutdown_some_area:bool;
+    use_blur_wallpaper:bool;
+    item_list:[Item];
+}
+
+root_type Items;

@@ -5,17 +5,18 @@ import 'package:devfans/widget/meyou_logo.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:vector_graphics/vector_graphics_compat.dart';
 
-class SvgNetworkIcon extends StatefulWidget {
+class VectorImageIcon extends StatefulWidget {
   final String url;
   final double size;
-  const SvgNetworkIcon({super.key, required this.url, required this.size});
+  const VectorImageIcon({super.key, required this.url, required this.size});
 
   @override
-  State<SvgNetworkIcon> createState() => _SvgNetworkIconState();
+  State<VectorImageIcon> createState() => _VectorImageIconState();
 }
 
-class _SvgNetworkIconState extends State<SvgNetworkIcon> {
+class _VectorImageIconState extends State<VectorImageIcon> {
   Widget? _image;
 
   @override
@@ -35,21 +36,23 @@ class _SvgNetworkIconState extends State<SvgNetworkIcon> {
       key: widget.key,
       color: Colors.red,
     );
-    _image = SvgPicture.network(
-      key: widget.key,
-      widget.url,
+
+    _image = SvgPicture(
+      AssetBytesLoader(
+          "res/vec/${Uri.decodeComponent(Uri.decodeComponent(widget.url)).split("/").last}.vec"),
       width: widget.size,
       height: widget.size,
+      renderingStrategy: RenderingStrategy.raster,
       placeholderBuilder: (BuildContext context) => circularProgressIndicator,
       errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
     );
 
     if (kIsWeb && !isRunOnSafariWebBrowser()) {
       _image = CachedNetworkImage(
-        key: widget.key,
         imageUrl: widget.url,
         width: widget.size,
         height: widget.size,
+        fadeInCurve: Curves.fastEaseInToSlowEaseOut,
         progressIndicatorBuilder: (context, url, downloadProgress) =>
             circularProgressIndicator,
         errorWidget: (context, url, error) => errorMeyouLogo,

@@ -52,6 +52,8 @@ dependencies:
   http: ^1.4.0
   share_plus: ^11.0.0
   clipboard: ^2.0.2
+  vector_graphics: ^1.1.19
+  flutter_cache_manager: ^3.4.1
   # platform_device_id: ^1.0.1
   # amicons: ^1.0.1
 
@@ -93,6 +95,7 @@ flutter:
     - res/img/
     - res/svg/
     - packages/dart_animated_emoji/generated/noto-animated.lottie
+    - res/vec/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

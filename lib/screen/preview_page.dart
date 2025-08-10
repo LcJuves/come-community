@@ -167,9 +167,22 @@ class _PreviewPageState extends State<PreviewPage> {
                           Icons.share_rounded,
                           onPressed: () async {
                             try {
-                              final params =
-                                  ShareParams(uri: widget.previewUrl);
-                              final _ = await SharePlus.instance.share(params);
+                              final currentInAppWebViewUrl =
+                                  await _inAppWebViewController?.getUrl();
+                              if (currentInAppWebViewUrl != null) {
+                                final params =
+                                    ShareParams(uri: currentInAppWebViewUrl);
+                                final _ =
+                                    await SharePlus.instance.share(params);
+                              } else {
+                                // ignore: use_build_context_synchronously
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text(
+                                        _unavailableWithShareResultMessage),
+                                  ),
+                                );
+                              }
                             } catch (_) {
                               // ignore: use_build_context_synchronously
                               ScaffoldMessenger.of(context).showSnackBar(
@@ -181,30 +194,32 @@ class _PreviewPageState extends State<PreviewPage> {
                             }
                           },
                         ),
-                        PageIconButton(
-                          Icons.paste_rounded,
-                          onPressed: () async {
-                            final currentInAppWebViewUrl =
-                                await _inAppWebViewController?.getUrl();
-                            if (currentInAppWebViewUrl != null) {
-                              await FlutterClipboard.copy(
-                                  currentInAppWebViewUrl.toString());
-                              // ignore: use_build_context_synchronously
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(
-                                  content: Text(_copySucceedMessage),
-                                ),
-                              );
-                            } else {
-                              // ignore: use_build_context_synchronously
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(
-                                  content: Text(_canNotCopiedMessage),
-                                ),
-                              );
-                            }
-                          },
-                        ),
+                        Visibility(
+                            visible: kDebugMode,
+                            child: PageIconButton(
+                              Icons.paste_rounded,
+                              onPressed: () async {
+                                final currentInAppWebViewUrl =
+                                    await _inAppWebViewController?.getUrl();
+                                if (currentInAppWebViewUrl != null) {
+                                  await FlutterClipboard.copy(
+                                      currentInAppWebViewUrl.toString());
+                                  // ignore: use_build_context_synchronously
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(
+                                      content: Text(_copySucceedMessage),
+                                    ),
+                                  );
+                                } else {
+                                  // ignore: use_build_context_synchronously
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(
+                                      content: Text(_canNotCopiedMessage),
+                                    ),
+                                  );
+                                }
+                              },
+                            )),
                         Visibility(
                             visible: kDebugMode,
                             child: PageIconButton(
@@ -213,8 +228,6 @@ class _PreviewPageState extends State<PreviewPage> {
                                 final currentInAppWebViewUrl =
                                     await _inAppWebViewController?.getUrl();
                                 if (currentInAppWebViewUrl != null) {
-                                  await FlutterClipboard.copy(
-                                      currentInAppWebViewUrl.toString());
                                   await launchUrl(currentInAppWebViewUrl,
                                       mode: LaunchMode.inAppWebView);
                                 }
