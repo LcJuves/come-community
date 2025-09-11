@@ -897,6 +897,21 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Prisma.svg",
+      title: "Prisma ORM",
+      enUrl:
+          "https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/mongodb-typescript-mongodb",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/capire.svg",
+      title: "capire",
+      enUrl: "https://cap.js.org/get-started",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/PyTorch.svg",
       title: "PyTorch",
       enUrl: "https://pytorch.org/get-started/locally",
