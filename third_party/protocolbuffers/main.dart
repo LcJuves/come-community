@@ -657,6 +657,29 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/IsarHive.svg",
+      title: "Isar Hive",
+      enUrl:
+          "https://github.com/isar/hive?tab=readme-ov-file#buzz-into-action-",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Helix.svg",
+      title: "Helix",
+      enUrl: "https://docs.helix-editor.com/usage.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/WinApps.svg",
+      title: "WinApps",
+      enUrl:
+          "https://github.com/winapps-org/winapps?tab=readme-ov-file#installation",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Rive.svg",
       title: "Rive",
       enUrl: "https://rive.app/docs/runtimes/flutter/flutter#quick-start",
@@ -1496,6 +1519,36 @@ Future main(List<String> args) async {
       imgUrl: "/BentoML.svg",
       title: "BentoML",
       enUrl: "https://docs.bentoml.com/en/latest/get-started/hello-world.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/BetterAuth.svg",
+      title: "Better Auth",
+      enUrl: "https://www.better-auth.com/docs/installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/2FAuth.svg",
+      title: "2FAuth",
+      enUrl:
+          "https://docs.2fauth.app/getting-started/installation/self-hosted-server",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Retype.svg",
+      title: "Retype",
+      enUrl: "https://retype.com/guides/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "Lid Angle Sensor",
+      enUrl:
+          "https://github.com/samhenrigold/LidAngleSensor?tab=readme-ov-file#installation",
     ),
   );
   itemList.add(
