@@ -24,6 +24,7 @@ class Item extends $pb.GeneratedMessage {
     $core.String? zhTitle,
     $core.String? enUrl,
     $core.String? zhUrl,
+    $core.bool? useVecIcon,
   }) {
     final $result = create();
     if (emojiIcon != null) {
@@ -47,6 +48,9 @@ class Item extends $pb.GeneratedMessage {
     if (zhUrl != null) {
       $result.zhUrl = zhUrl;
     }
+    if (useVecIcon != null) {
+      $result.useVecIcon = useVecIcon;
+    }
     return $result;
   }
   Item._() : super();
@@ -61,6 +65,7 @@ class Item extends $pb.GeneratedMessage {
     ..aOS(5, _omitFieldNames ? '' : 'zhTitle')
     ..aOS(6, _omitFieldNames ? '' : 'enUrl')
     ..aOS(7, _omitFieldNames ? '' : 'zhUrl')
+    ..aOB(8, _omitFieldNames ? '' : 'useVecIcon')
     ..hasRequiredFields = false
   ;
 
@@ -147,6 +152,15 @@ class Item extends $pb.GeneratedMessage {
   $core.bool hasZhUrl() => $_has(6);
   @$pb.TagNumber(7)
   void clearZhUrl() => $_clearField(7);
+
+  @$pb.TagNumber(8)
+  $core.bool get useVecIcon => $_getBF(7);
+  @$pb.TagNumber(8)
+  set useVecIcon($core.bool v) { $_setBool(7, v); }
+  @$pb.TagNumber(8)
+  $core.bool hasUseVecIcon() => $_has(7);
+  @$pb.TagNumber(8)
+  void clearUseVecIcon() => $_clearField(8);
 }
 
 class Items extends $pb.GeneratedMessage {
@@ -155,6 +169,7 @@ class Items extends $pb.GeneratedMessage {
     $core.String? specIpAddrPrefix,
     $core.bool? ipv6Guard,
     $core.bool? shutdownSomeArea,
+    $core.bool? useBlurWallpaper,
     $core.Iterable<Item>? itemList,
   }) {
     final $result = create();
@@ -170,6 +185,9 @@ class Items extends $pb.GeneratedMessage {
     if (shutdownSomeArea != null) {
       $result.shutdownSomeArea = shutdownSomeArea;
     }
+    if (useBlurWallpaper != null) {
+      $result.useBlurWallpaper = useBlurWallpaper;
+    }
     if (itemList != null) {
       $result.itemList.addAll(itemList);
     }
@@ -184,7 +202,8 @@ class Items extends $pb.GeneratedMessage {
     ..aOS(2, _omitFieldNames ? '' : 'specIpAddrPrefix')
     ..aOB(3, _omitFieldNames ? '' : 'ipv6Guard')
     ..aOB(4, _omitFieldNames ? '' : 'shutdownSomeArea')
-    ..pc<Item>(5, _omitFieldNames ? '' : 'itemList', $pb.PbFieldType.PM, subBuilder: Item.create)
+    ..aOB(5, _omitFieldNames ? '' : 'useBlurWallpaper')
+    ..pc<Item>(6, _omitFieldNames ? '' : 'itemList', $pb.PbFieldType.PM, subBuilder: Item.create)
     ..hasRequiredFields = false
   ;
 
@@ -246,7 +265,16 @@ class Items extends $pb.GeneratedMessage {
   void clearShutdownSomeArea() => $_clearField(4);
 
   @$pb.TagNumber(5)
-  $pb.PbList<Item> get itemList => $_getList(4);
+  $core.bool get useBlurWallpaper => $_getBF(4);
+  @$pb.TagNumber(5)
+  set useBlurWallpaper($core.bool v) { $_setBool(4, v); }
+  @$pb.TagNumber(5)
+  $core.bool hasUseBlurWallpaper() => $_has(4);
+  @$pb.TagNumber(5)
+  void clearUseBlurWallpaper() => $_clearField(5);
+
+  @$pb.TagNumber(6)
+  $pb.PbList<Item> get itemList => $_getList(5);
 }
 
 

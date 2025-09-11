@@ -68,6 +68,7 @@ Future main(List<String> args) async {
           "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?hl=en#0",
       zhUrl:
           "https://developer.android.google.cn/codelabs/basic-android-kotlin-compose-first-app?hl=zh-cn#0",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -108,6 +109,7 @@ Future main(List<String> args) async {
           "https://developer.android.com/codelabs/camerax-getting-started?hl=en#0",
       zhUrl:
           "https://developer.android.google.cn/codelabs/camerax-getting-started?hl=zh-cn#0",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -117,6 +119,7 @@ Future main(List<String> args) async {
       enUrl: "https://developer.android.com/codelabs/exoplayer-intro?hl=en#0",
       zhUrl:
           "https://developer.android.google.cn/codelabs/exoplayer-intro?hl=zh-cn#0",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -125,6 +128,7 @@ Future main(List<String> args) async {
       title: "ADPF",
       enUrl: "https://developer.android.com/games/optimize/adpf?hl=en",
       zhUrl: "https://developer.android.google.cn/games/optimize/adpf?hl=zh-cn",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -134,6 +138,7 @@ Future main(List<String> args) async {
       zhTitle: "安卓原生开发套件",
       enUrl: "https://developer.android.com/ndk/guides?hl=en",
       zhUrl: "https://developer.android.google.cn/ndk/guides?hl=zh-cn",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -142,6 +147,7 @@ Future main(List<String> args) async {
       title: "SDK CmdLine Tools",
       enUrl: "https://developer.android.com/tools?hl=en",
       zhUrl: "https://developer.android.google.cn/tools?hl=zh-cn",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -150,6 +156,7 @@ Future main(List<String> args) async {
       title: "Android Decompile",
       zhTitle: "安卓反编译",
       enUrl: "https://github.lcjuves.com/java/android/decompile",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -167,6 +174,7 @@ Future main(List<String> args) async {
       zhTitle: "安卓开源项目",
       enUrl: "https://source.android.com/docs/setup/start?hl=en",
       zhUrl: "https://source.android.com/docs/setup/start?hl=zh-cn",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -242,6 +250,7 @@ Future main(List<String> args) async {
       enUrl: "https://developer.android.com/develop/xr/get-started?hl=en",
       zhUrl:
           "https://developer.android.google.cn/develop/xr/get-started?hl=zh-cn",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -2739,6 +2748,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ByteDance.svg",
+      title: "Trae Agent",
+      enUrl:
+          "https://github.com/bytedance/trae-agent?tab=readme-ov-file#-installation",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/hyper.svg",
       title: "hyper",
       enUrl: "https://hyper.rs/guides/1/init/setup",
@@ -2749,6 +2766,13 @@ Future main(List<String> args) async {
       imgUrl: "/Diesel.svg",
       title: "Diesel",
       enUrl: "https://diesel.rs/guides/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Remotion.svg",
+      title: "Remotion",
+      enUrl: "https://www.remotion.dev/docs/#prerequisites",
     ),
   );
   itemList.add(
@@ -4691,6 +4715,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/OCaml.svg",
+      title: "OCaml Playground",
+      zhTitle: "OCaml 演练场",
+      enUrl: "https://ocaml.org/play",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/KDE.svg",
       title: "KDE Developer",
       enUrl: "https://develop.kde.org/docs/getting-started",
@@ -5249,6 +5281,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OpenInterpreter.svg",
       title: "Open Interpreter",
+      zhTitle: "开放解释器",
       enUrl:
           "https://github.com/OpenInterpreter/open-interpreter?tab=readme-ov-file#quick-start",
       zhUrl:
@@ -5839,6 +5872,14 @@ Future main(List<String> args) async {
       imgUrl: "/Svelte.svg",
       title: "Svelte",
       enUrl: "https://svelte.dev/docs/svelte/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Svelte.svg",
+      title: "Svelte Playground",
+      zhTitle: "Svelte 演练场",
+      enUrl: "https://svelte.dev/playground/hello-world?version=5.38.9#H4sIAAAAAAAAE22PwU7DMBBEf2WxkJoIROjV2JG48Q-Ug-NshVVjW_G6BUX-d2ynqBeOO292ZndlTn0h4-wNrfVw8YudocPZEM49e2RHYzEy_r4y-gnVV4WiX7deQ3iKZ7RUtUlF_E_X3hE6KjFMRL2YQOPBHcgiQbWDhPtIirDbtfpd__KHtU-Obvy5EjHcMpz43I_b5WuNyndiKEojxoVEMBk387OyCeXmgKFgMSUi78A7bY0-ybXrQY7XugcJ-9wubDByWBvItXtbLLT8RfhNjNOSMH-USRl7KW2MH5WNmH8BshufzFoBAAA",
     ),
   );
   itemList.add(

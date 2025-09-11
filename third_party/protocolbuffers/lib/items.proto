@@ -8,6 +8,7 @@ message Item {
     string zh_title = 5;
     string en_url = 6;
     string zh_url = 7;
+    bool use_vec_icon = 8;
 }
 
 message Items {
