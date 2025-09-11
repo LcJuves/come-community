@@ -4275,6 +4275,24 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Microsoft.svg",
+      title: "WinUI 3",
+      enUrl:
+          "https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app",
+      zhUrl:
+          "https://learn.microsoft.com/zh-cn/windows/apps/winui/winui3/create-your-first-winui3-app",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Uno.svg",
+      title: "Uno Platform",
+      enUrl:
+          "https://platform.uno/docs/articles/create-an-app-vscode.html?tabs=Wasm",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Microsoft.svg",
       title: "Injectorpp for rust",
       enUrl:
           "https://github.com/microsoft/injectorppforrust?tab=readme-ov-file#usage",
@@ -5879,7 +5897,8 @@ Future main(List<String> args) async {
       imgUrl: "/Svelte.svg",
       title: "Svelte Playground",
       zhTitle: "Svelte 演练场",
-      enUrl: "https://svelte.dev/playground/hello-world?version=5.38.9#H4sIAAAAAAAAE22PwU7DMBBEf2WxkJoIROjV2JG48Q-Ug-NshVVjW_G6BUX-d2ynqBeOO292ZndlTn0h4-wNrfVw8YudocPZEM49e2RHYzEy_r4y-gnVV4WiX7deQ3iKZ7RUtUlF_E_X3hE6KjFMRL2YQOPBHcgiQbWDhPtIirDbtfpd__KHtU-Obvy5EjHcMpz43I_b5WuNyndiKEojxoVEMBk387OyCeXmgKFgMSUi78A7bY0-ybXrQY7XugcJ-9wubDByWBvItXtbLLT8RfhNjNOSMH-USRl7KW2MH5WNmH8BshufzFoBAAA",
+      enUrl:
+          "https://svelte.dev/playground/hello-world?version=5.38.9#H4sIAAAAAAAAE22PwU7DMBBEf2WxkJoIROjV2JG48Q-Ug-NshVVjW_G6BUX-d2ynqBeOO292ZndlTn0h4-wNrfVw8YudocPZEM49e2RHYzEy_r4y-gnVV4WiX7deQ3iKZ7RUtUlF_E_X3hE6KjFMRL2YQOPBHcgiQbWDhPtIirDbtfpd__KHtU-Obvy5EjHcMpz43I_b5WuNyndiKEojxoVEMBk387OyCeXmgKFgMSUi78A7bY0-ybXrQY7XugcJ-9wubDByWBvItXtbLLT8RfhNjNOSMH-USRl7KW2MH5WNmH8BshufzFoBAAA",
     ),
   );
   itemList.add(
