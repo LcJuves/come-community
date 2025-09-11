@@ -4775,7 +4775,14 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Maven.svg",
       title: "Maven",
-      enUrl: "https://maven.apache.org/ref/current",
+      enUrl: "https://maven.apache.org/install.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Maven.svg",
+      title: "Maven Daemon",
+      enUrl: "https://github.com/apache/maven-mvnd?tab=readme-ov-file#usage",
     ),
   );
   itemList.add(
