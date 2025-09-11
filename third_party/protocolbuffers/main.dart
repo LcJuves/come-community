@@ -1324,6 +1324,21 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Terraform.svg",
+      title: "Terraform",
+      enUrl:
+          "https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli",
+    ),
+  );
+  itemList.add(
+    Item(
+        imgUrl: "/Astro.svg",
+        title: "Astro",
+        enUrl: "https://docs.astro.build/en/install-and-setup",
+        zhUrl: "https://docs.astro.build/zh-cn/install-and-setup"),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Microsoft.svg",
       title: "Winsock",
       enUrl:
@@ -2090,6 +2105,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Framelink.svg",
+      title: "Framelink",
+      enUrl: "https://www.framelink.ai/docs/quickstart",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GitHub.svg",
       title: "Track Weight",
       enUrl:
@@ -2606,6 +2628,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/SVGOMG.svg",
+      title: "SVGOMG",
+      enUrl: "https://jakearchibald.github.io/svgomg",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Mermaid.svg",
       title: "Mermaid",
       enUrl: "https://mermaid.js.org/intro/getting-started.html",
@@ -2932,6 +2961,13 @@ Future main(List<String> args) async {
       imgUrl: "/Puppeteer.svg",
       title: "Puppeteer",
       enUrl: "https://pptr.dev/guides/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/crawlee.svg",
+      title: "crawlee",
+      enUrl: "https://crawlee.dev/js/docs/quick-start",
     ),
   );
   itemList.add(
@@ -6582,6 +6618,14 @@ Future main(List<String> args) async {
           "https://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/getstart.html",
       zhUrl:
           "https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/_WeChat.svg",
+      title: "WeChatOpenDevTools-AppleSilicon",
+      zhUrl:
+          "https://github.com/fupinglee/WeChatOpenDevTools-AppleSilicon?tab=readme-ov-file#-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95",
     ),
   );
   itemList.add(
