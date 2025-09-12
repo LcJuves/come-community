@@ -399,6 +399,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/KoalaPlot.svg",
+      title: "Koala Plot",
+      enUrl: "https://koalaplot.github.io/docs/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Kotlin.svg",
       title: "Language Server for Kotlin",
       enUrl:
@@ -833,6 +840,14 @@ Future main(List<String> args) async {
       imgUrl: "/MCP.svg",
       title: "MCP Java",
       enUrl: "https://modelcontextprotocol.io/sdk/java/mcp-overview",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MCP.svg",
+      title: "MCP Servers",
+      enUrl:
+          "https://github.com/modelcontextprotocol/servers?tab=readme-ov-file#-reference-servers",
     ),
   );
   itemList.add(
@@ -1881,6 +1896,20 @@ Future main(List<String> args) async {
       imgUrl: "/Java.svg",
       title: "TeaVM",
       enUrl: "https://teavm.org/docs/intro/getting-started.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Trino.svg",
+      title: "Trino",
+      enUrl: "https://trino.io/docs/current/installation/deployment.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/RocksDB.svg",
+      title: "RocksDB",
+      enUrl: "https://rocksdb.org/docs/getting-started.html",
     ),
   );
   itemList.add(
@@ -5872,6 +5901,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+        imgUrl: "/DeepSeek-V3.svg",
+        title: "DeepSeek API",
+        enUrl: "https://api-docs.deepseek.com",
+        zhUrl: "https://api-docs.deepseek.com/zh-cn"),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/DeepSeek-V3.svg",
       title: "DeepEP",
       enUrl:
@@ -7111,6 +7147,11 @@ Future main(List<String> args) async {
     title: "Haxe",
     enUrl:
         "https://haxe.org/documentation/introduction/language-introduction.html",
+  ));
+  itemList.add(Item(
+    imgUrl: "/Haxe.svg",
+    title: "Try Haxe",
+    enUrl: "https://try.haxe.org",
   ));
   itemList.add(Item(
     imgUrl: "/Haxe.svg",
