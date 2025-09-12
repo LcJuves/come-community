@@ -2113,6 +2113,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/HMOS.svg",
+      title: "ArkUI-X",
+      enUrl:
+          "https://gitcode.com/arkui-x/docs/blob/master/en/application-dev/quick-start/start-overview.md#before-you-start",
+      zhUrl:
+          "https://gitcode.com/arkui-x/docs/blob/master/zh-cn/application-dev/quick-start/start-overview.md#%E5%BC%80%E5%8F%91%E5%87%86%E5%A4%87",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Coder.svg",
       title: "Coder",
       enUrl: "https://coder.com/docs/tutorials/quickstart",
