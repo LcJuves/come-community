@@ -192,7 +192,8 @@ Future main(List<String> args) async {
       imgUrl: "/Android.svg",
       title: "AGP API",
       zhTitle: "安卓 Gradle 插件 API",
-      enUrl: "https://developer.android.google.cn/reference/tools/gradle-api/current/classes",
+      enUrl:
+          "https://developer.android.google.cn/reference/tools/gradle-api/current/classes",
       useVecIcon: true,
     ),
   );
@@ -5206,6 +5207,14 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/OpenAIPlatform.svg",
+      title: "gpt-oss playground",
+      zhTitle: "gpt-oss 演练场",
+      enUrl: "https://gpt-oss.com",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OpenAIPlatform.svg",
       title: "Codex CLI",
       enUrl: "https://github.com/openai/codex?tab=readme-ov-file#quickstart",
     ),
@@ -7193,7 +7202,7 @@ Future main(List<String> args) async {
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = false;
   items.ipv6Guard = true;
-  items.specIpAddrPrefix = "163";
+  items.specIpAddrPrefix = "2409:895a:3853";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
