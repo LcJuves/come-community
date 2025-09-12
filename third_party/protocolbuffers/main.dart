@@ -1653,6 +1653,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/GitHub.svg",
+      title: "Minisign",
+      enUrl: "https://jedisct1.github.io/minisign",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/ZLS.svg",
       title: "Zig LSP Kit",
       zhTitle: "Zig 语言服务协议套件",
@@ -1923,6 +1930,20 @@ Future main(List<String> args) async {
       imgUrl: "/Trino.svg",
       title: "Trino",
       enUrl: "https://trino.io/docs/current/installation/deployment.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Drizzle.svg",
+      title: "Drizzle",
+      enUrl: "https://orm.drizzle.team/docs/get-started/bun-sql-new",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/DrizzleGateway.svg",
+      title: "Drizzle Gateway",
+      enUrl: "https://gateway.drizzle.team",
     ),
   );
   itemList.add(
@@ -2299,6 +2320,13 @@ Future main(List<String> args) async {
       title: "GitHub REST API",
       enUrl: "https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28",
       zhUrl: "https://docs.github.com/zh/rest/quickstart?apiVersion=2022-11-28",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Meyou.svg",
+      title: "IP Location API",
+      enUrl: "https://ipapi.co/#api",
     ),
   );
   itemList.add(
