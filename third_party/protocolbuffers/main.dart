@@ -179,6 +179,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Android.svg",
+      title: "Android KTX",
+      zhTitle: "安卓 KTX",
+      enUrl: "https://developer.android.com/kotlin/ktx?hl=en",
+      zhUrl: "https://developer.android.google.cn/kotlin/ktx?hl=zh-cn",
+      useVecIcon: true,
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Fuchsia.svg",
       title: "Fuchsia",
       enUrl: "https://fuchsia.dev/fuchsia-src/get-started?hl=en",
