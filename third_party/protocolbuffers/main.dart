@@ -5487,6 +5487,16 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/AzurePipelines.svg",
+      title: "Azure AI Foundry",
+      enUrl:
+          "https://learn.microsoft.com/en-us/azure/ai-services/create-account-resource-manager-template?tabs=CLI",
+      zhUrl:
+          "https://learn.microsoft.com/zh-cn/azure/ai-services/create-account-resource-manager-template?tabs=CLI",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/CodeGeeX.svg",
       title: "CodeGeeX",
       enUrl: "https://github.com/THUDM/CodeGeeX4/blob/main/README.md",
