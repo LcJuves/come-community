@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:clipboard/clipboard.dart';
-import 'package:devfans/constants.dart';
-import 'package:devfans/l10n/app_localizations_en.dart';
-import 'package:devfans/l10n/app_localizations_zh.dart';
-import 'package:devfans/widget/page_icon_button.dart';
-import 'package:devfans/widget/rounded_rectangle_border_physical_shape.dart';
+import 'package:come/constants.dart';
+import 'package:come/l10n/app_localizations_en.dart';
+import 'package:come/l10n/app_localizations_zh.dart';
+import 'package:come/widget/page_icon_button.dart';
+import 'package:come/widget/rounded_rectangle_border_physical_shape.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

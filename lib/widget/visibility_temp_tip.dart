@@ -1,15 +1,15 @@
-import 'package:devfans/constants.dart';
-import 'package:devfans/info.dart';
-import 'package:devfans/l10n/app_localizations_en.dart';
-import 'package:devfans/l10n/app_localizations_zh.dart';
-import 'package:devfans/webspec.dart';
-import 'package:devfans/widget/backdrop_filter_scaffold.dart';
-import 'package:devfans/widget/visibility_temp_tip_text.dart';
+import 'package:come/constants.dart';
+import 'package:come/info.dart';
+import 'package:come/l10n/app_localizations_en.dart';
+import 'package:come/l10n/app_localizations_zh.dart';
+import 'package:come/webspec.dart';
+import 'package:come/widget/backdrop_filter_scaffold.dart';
+import 'package:come/widget/visibility_temp_tip_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 // import 'package:platform_device_id/platform_device_id.dart'
-//     if (dart.library.js_interop) 'package:devfans/webspec.dart' as uni_spec;
+//     if (dart.library.js_interop) 'package:come/webspec.dart' as uni_spec;
 import 'package:protobuffers/items.pb.dart';
 
 const double sigma = 6.18 / 4.5;

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:devfans/info.dart';
-import 'package:devfans/model/future_data.dart';
-import 'package:devfans/model/future_desc.dart';
+import 'package:come/info.dart';
+import 'package:come/model/future_data.dart';
+import 'package:come/model/future_desc.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' as material;
 import 'package:flutter/services.dart';
@@ -28,7 +28,7 @@ Future<String> httpReadString(Uri url) async {
 Future<Items> _fetchItems() async {
   if (!kDebugMode && !kIsWeb) {
     final responseBodyBytes = await httpReadBytes(
-        Uri.parse("https://devfans.lcjuves.com/assets/items.pb"));
+        Uri.parse("https://come.lcjuves.com/assets/items.pb"));
     if (responseBodyBytes.isNotEmpty) {
       return Items.fromBuffer(responseBodyBytes);
     } else {

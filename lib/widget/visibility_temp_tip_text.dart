@@ -1,5 +1,5 @@
-import 'package:devfans/widget/devfans_text.dart';
-import 'package:devfans/widget/linear_gradient_shader_mask.dart';
+import 'package:come/widget/come_text.dart';
+import 'package:come/widget/linear_gradient_shader_mask.dart';
 import 'package:flutter/material.dart';
 
 class VisibilityTempTipText extends StatelessWidget {
@@ -80,7 +80,7 @@ class VisibilityTempTipText extends StatelessWidget {
             blendMode: BlendMode.srcATop,
             child: Padding(
                 padding: const EdgeInsets.all(0.5),
-                child: DevFansText(
+                child: ComeText(
                   data ?? "",
                   selectable: selectable,
                   fontSize: fontSize,
@@ -90,7 +90,7 @@ class VisibilityTempTipText extends StatelessWidget {
                   height: height,
                   maskFilter: MaskFilter.blur(BlurStyle.solid, sigma * 1.5),
                 ))),
-        DevFansText(
+        ComeText(
           data ?? "",
           selectable: selectable,
           fontSize: fontSize,

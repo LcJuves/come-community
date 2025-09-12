@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:devfans/constants.dart';
-import 'package:devfans/widget/devfans_circular_progress_bar.dart';
+import 'package:come/constants.dart';
+import 'package:come/widget/come_circular_progress_bar.dart';
 import 'package:flutter/material.dart';
 
 class AdaptiveCircularProgressBar extends StatelessWidget {
@@ -24,7 +24,7 @@ class AdaptiveCircularProgressBar extends StatelessWidget {
         height: circularProgressSize,
         child: Padding(
           padding: EdgeInsets.all(circularProgressEdgePadding),
-          child: const DevFansCircularProgressIndicator(
+          child: const ComeCircularProgressIndicator(
             strokeWidth: 9,
             strokeCap: StrokeCap.round,
             color: Colors.white,

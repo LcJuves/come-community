@@ -5,19 +5,19 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "devfans",
+      "name": "come",
       "request": "launch",
       "type": "dart",
       "args": ["--no-enable-impeller"]
     },
     {
-      "name": "devfans (profile mode)",
+      "name": "come (profile mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile"
     },
     {
-      "name": "devfans (release mode)",
+      "name": "come (release mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "release"

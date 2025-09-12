@@ -1,14 +1,14 @@
-import 'package:devfans/constants.dart';
-import 'package:devfans/http_requests.dart';
-import 'package:devfans/model/future_data.dart';
-import 'package:devfans/widget/adaptive_circular_progress_bar.dart';
-import 'package:devfans/widget/animated_wallpaper_container.dart';
-import 'package:devfans/widget/backdrop_filter_scaffold.dart';
-import 'package:devfans/widget/base_container.dart';
-import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
-import 'package:devfans/widget/clip_rrect_backdrop_filter_search_bar.dart';
-import 'package:devfans/widget/snapshot_error_text.dart';
-import 'package:devfans/widget/visibility_temp_tip.dart';
+import 'package:come/constants.dart';
+import 'package:come/http_requests.dart';
+import 'package:come/model/future_data.dart';
+import 'package:come/widget/adaptive_circular_progress_bar.dart';
+import 'package:come/widget/animated_wallpaper_container.dart';
+import 'package:come/widget/backdrop_filter_scaffold.dart';
+import 'package:come/widget/base_container.dart';
+import 'package:come/widget/clip_rrect_backdrop_filter.dart';
+import 'package:come/widget/clip_rrect_backdrop_filter_search_bar.dart';
+import 'package:come/widget/snapshot_error_text.dart';
+import 'package:come/widget/visibility_temp_tip.dart';
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
 

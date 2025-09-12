@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:devfans/constants.dart';
-import 'package:devfans/widget/devfans_text.dart';
+import 'package:come/constants.dart';
+import 'package:come/widget/come_text.dart';
 import 'package:flutter/material.dart';
 
 class SnapshotErrorText extends StatelessWidget {
@@ -20,7 +20,7 @@ class SnapshotErrorText extends StatelessWidget {
           child: Container(
             width: MediaQuery.of(context).size.width,
             alignment: Alignment.topLeft,
-            child: DevFansText(
+            child: ComeText(
               selectable: true,
               '${asyncSnapshot.error}\n${asyncSnapshot.stackTrace}',
               textAlign: TextAlign.start,

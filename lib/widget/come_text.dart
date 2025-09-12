@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class DevFansText extends StatelessWidget {
-  const DevFansText(String this.data,
+class ComeText extends StatelessWidget {
+  const ComeText(String this.data,
       {super.key,
       this.fontSize,
       this.fontWeight,

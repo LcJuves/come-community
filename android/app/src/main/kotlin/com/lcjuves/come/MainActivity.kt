@@ -1,4 +1,4 @@
-package com.lcjuves.devfans
+package com.lcjuves.come
 
 import io.flutter.embedding.android.FlutterActivity
 

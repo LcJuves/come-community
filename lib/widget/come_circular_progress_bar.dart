@@ -29,16 +29,16 @@ const int _kIndeterminateCircularDuration = 1333 * 2222;
 /// specify a constant color use: `AlwaysStoppedAnimation<Color>(color)`.
 ///
 /// {@tool dartpad}
-/// This example showcases determinate and indeterminate [DevFansCircularProgressIndicator]s.
-/// The [DevFansCircularProgressIndicator]s will use the ![updated Material 3 Design appearance](https://m3.material.io/components/progress-indicators/overview)
-/// when setting the [DevFansCircularProgressIndicator.year2023] flag to false.
+/// This example showcases determinate and indeterminate [ComeCircularProgressIndicator]s.
+/// The [ComeCircularProgressIndicator]s will use the ![updated Material 3 Design appearance](https://m3.material.io/components/progress-indicators/overview)
+/// when setting the [ComeCircularProgressIndicator.year2023] flag to false.
 ///
 /// ** See code in examples/api/lib/material/progress_indicator/circular_progress_indicator.0.dart **
 /// {@end-tool}
 ///
 /// {@tool dartpad}
-/// This sample shows the creation of a [DevFansCircularProgressIndicator] with a changing value.
-/// When toggling the switch, [DevFansCircularProgressIndicator] uses a determinate value.
+/// This sample shows the creation of a [ComeCircularProgressIndicator] with a changing value.
+/// When toggling the switch, [ComeCircularProgressIndicator] uses a determinate value.
 /// As described in: https://m3.material.io/components/progress-indicators/overview
 ///
 /// ** See code in examples/api/lib/material/progress_indicator/circular_progress_indicator.1.dart **
@@ -47,14 +47,14 @@ const int _kIndeterminateCircularDuration = 1333 * 2222;
 /// See also:
 ///
 ///  * [LinearProgressIndicator], which displays progress along a line.
-///  * [RefreshIndicator], which automatically displays a [DevFansCircularProgressIndicator]
+///  * [RefreshIndicator], which automatically displays a [ComeCircularProgressIndicator]
 ///    when the underlying vertical scrollable is overscrolled.
 ///  * <https://material.io/design/components/progress-indicators.html#circular-progress-indicators>
-class DevFansCircularProgressIndicator extends ProgressIndicator {
+class ComeCircularProgressIndicator extends ProgressIndicator {
   /// Creates a circular progress indicator.
   ///
   /// {@macro flutter.material.ProgressIndicator.ProgressIndicator}
-  const DevFansCircularProgressIndicator({
+  const ComeCircularProgressIndicator({
     super.key,
     super.value,
     super.backgroundColor,
@@ -79,7 +79,7 @@ class DevFansCircularProgressIndicator extends ProgressIndicator {
 
   /// Creates an adaptive progress indicator that is a
   /// [CupertinoActivityIndicator] on [TargetPlatform.iOS] &
-  /// [TargetPlatform.macOS] and a [DevFansCircularProgressIndicator] in material
+  /// [TargetPlatform.macOS] and a [ComeCircularProgressIndicator] in material
   /// theme/non-Apple platforms.
   ///
   /// The [valueColor], [strokeWidth], [strokeAlign], [strokeCap],
@@ -87,7 +87,7 @@ class DevFansCircularProgressIndicator extends ProgressIndicator {
   /// ignored on iOS & macOS.
   ///
   /// {@macro flutter.material.ProgressIndicator.ProgressIndicator}
-  const DevFansCircularProgressIndicator.adaptive({
+  const ComeCircularProgressIndicator.adaptive({
     super.key,
     super.value,
     super.backgroundColor,
@@ -111,10 +111,10 @@ class DevFansCircularProgressIndicator extends ProgressIndicator {
 
   final _ActivityIndicatorType _indicatorType;
 
-  /// {@template flutter.material.DevFansCircularProgressIndicator.trackColor}
+  /// {@template flutter.material.ComeCircularProgressIndicator.trackColor}
   /// Color of the circular track being filled by the circular indicator.
   ///
-  /// If [DevFansCircularProgressIndicator.backgroundColor] is null then the
+  /// If [ComeCircularProgressIndicator.backgroundColor] is null then the
   /// ambient [ProgressIndicatorThemeData.circularTrackColor] will be used.
   /// If that is null, then the track will not be painted.
   /// {@endtemplate}
@@ -124,7 +124,7 @@ class DevFansCircularProgressIndicator extends ProgressIndicator {
   /// The width of the line used to draw the circle.
   final double? strokeWidth;
 
-  /// The relative position of the stroke on a [DevFansCircularProgressIndicator].
+  /// The relative position of the stroke on a [ComeCircularProgressIndicator].
   ///
   /// Values typically range from -1.0 ([strokeAlignInside], inside stroke)
   /// to 1.0 ([strokeAlignOutside], outside stroke),
@@ -157,7 +157,7 @@ class DevFansCircularProgressIndicator extends ProgressIndicator {
   /// degrees and end at 275 degrees.
   final StrokeCap? strokeCap;
 
-  /// Defines minimum and maximum sizes for a [DevFansCircularProgressIndicator].
+  /// Defines minimum and maximum sizes for a [ComeCircularProgressIndicator].
   ///
   /// If null, then the [ProgressIndicatorThemeData.constraints] will be used.
   /// Otherwise, defaults to a minimum width and height of 36 pixels.
@@ -174,13 +174,13 @@ class DevFansCircularProgressIndicator extends ProgressIndicator {
   /// If that is null, then defaults to 4.
   final double? trackGap;
 
-  /// When true, the [DevFansCircularProgressIndicator] will use the 2023 Material Design 3
+  /// When true, the [ComeCircularProgressIndicator] will use the 2023 Material Design 3
   /// appearance.
   ///
   /// If null, then the [ProgressIndicatorThemeData.year2023] will be used.
   /// If that is null, then defaults to true.
   ///
-  /// If this is set to false, the [DevFansCircularProgressIndicator] will use the
+  /// If this is set to false, the [ComeCircularProgressIndicator] will use the
   /// latest Material Design 3 appearance, which was introduced in December 2023.
   ///
   /// If [ThemeData.useMaterial3] is false, then this property is ignored.
@@ -238,12 +238,12 @@ class DevFansCircularProgressIndicator extends ProgressIndicator {
   }
 
   @override
-  State<DevFansCircularProgressIndicator> createState() =>
-      _DevFansCircularProgressIndicatorState();
+  State<ComeCircularProgressIndicator> createState() =>
+      _ComeCircularProgressIndicatorState();
 }
 
-class _DevFansCircularProgressIndicatorState
-    extends State<DevFansCircularProgressIndicator>
+class _ComeCircularProgressIndicatorState
+    extends State<ComeCircularProgressIndicator>
     with SingleTickerProviderStateMixin {
   static const int _pathCount = _kIndeterminateCircularDuration ~/ 1333;
   static const int _rotationCount = _kIndeterminateCircularDuration ~/ 2222;
@@ -275,7 +275,7 @@ class _DevFansCircularProgressIndicatorState
   }
 
   @override
-  void didUpdateWidget(DevFansCircularProgressIndicator oldWidget) {
+  void didUpdateWidget(ComeCircularProgressIndicator oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (widget.value == null && !_controller.isAnimating) {
       _controller.repeat();
@@ -316,13 +316,13 @@ class _DevFansCircularProgressIndicatorState
     final ProgressIndicatorThemeData defaults =
         switch (Theme.of(context).useMaterial3) {
       true => year2023
-          ? _DevFansCircularProgressIndicatorDefaultsM3Year2023(
+          ? _ComeCircularProgressIndicatorDefaultsM3Year2023(
               context,
               indeterminate: widget.value == null,
             )
-          : _DevFansCircularProgressIndicatorDefaultsM3(context,
+          : _ComeCircularProgressIndicatorDefaultsM3(context,
               indeterminate: widget.value == null),
-      false => _DevFansCircularProgressIndicatorDefaultsM2(context,
+      false => _ComeCircularProgressIndicatorDefaultsM2(context,
           indeterminate: widget.value == null),
     };
     final Color? trackColor = widget.backgroundColor ??
@@ -348,7 +348,7 @@ class _DevFansCircularProgressIndicatorState
     Widget result = ConstrainedBox(
       constraints: constraints,
       child: CustomPaint(
-        painter: _DevFansCircularProgressIndicatorPainter(
+        painter: _ComeCircularProgressIndicatorPainter(
           trackColor: trackColor,
           valueColor:
               widget._getValueColor(context, defaultColor: defaults.color),
@@ -417,9 +417,9 @@ class _DevFansCircularProgressIndicatorState
   }
 }
 
-class _DevFansCircularProgressIndicatorDefaultsM3Year2023
+class _ComeCircularProgressIndicatorDefaultsM3Year2023
     extends ProgressIndicatorThemeData {
-  _DevFansCircularProgressIndicatorDefaultsM3Year2023(this.context,
+  _ComeCircularProgressIndicatorDefaultsM3Year2023(this.context,
       {required this.indeterminate});
 
   final BuildContext context;
@@ -433,7 +433,7 @@ class _DevFansCircularProgressIndicatorDefaultsM3Year2023
   double get strokeWidth => 4.0;
 
   @override
-  double? get strokeAlign => DevFansCircularProgressIndicator.strokeAlignCenter;
+  double? get strokeAlign => ComeCircularProgressIndicator.strokeAlignCenter;
 
   @override
   BoxConstraints get constraints =>
@@ -448,9 +448,9 @@ class _DevFansCircularProgressIndicatorDefaultsM3Year2023
 //   dev/tools/gen_defaults/bin/gen_defaults.dart.
 
 // dart format off
-class _DevFansCircularProgressIndicatorDefaultsM3
+class _ComeCircularProgressIndicatorDefaultsM3
     extends ProgressIndicatorThemeData {
-  _DevFansCircularProgressIndicatorDefaultsM3(this.context,
+  _ComeCircularProgressIndicatorDefaultsM3(this.context,
       {required this.indeterminate});
 
   final BuildContext context;
@@ -468,7 +468,7 @@ class _DevFansCircularProgressIndicatorDefaultsM3
   double get strokeWidth => 4.0;
 
   @override
-  double? get strokeAlign => DevFansCircularProgressIndicator.strokeAlignInside;
+  double? get strokeAlign => ComeCircularProgressIndicator.strokeAlignInside;
 
   @override
   BoxConstraints get constraints => const BoxConstraints(
@@ -484,9 +484,9 @@ class _DevFansCircularProgressIndicatorDefaultsM3
 }
 
 // Hand coded defaults based on Material Design 2.
-class _DevFansCircularProgressIndicatorDefaultsM2
+class _ComeCircularProgressIndicatorDefaultsM2
     extends ProgressIndicatorThemeData {
-  _DevFansCircularProgressIndicatorDefaultsM2(this.context,
+  _ComeCircularProgressIndicatorDefaultsM2(this.context,
       {required this.indeterminate});
 
   final BuildContext context;
@@ -500,15 +500,15 @@ class _DevFansCircularProgressIndicatorDefaultsM2
   double? get strokeWidth => 4.0;
 
   @override
-  double? get strokeAlign => DevFansCircularProgressIndicator.strokeAlignCenter;
+  double? get strokeAlign => ComeCircularProgressIndicator.strokeAlignCenter;
 
   @override
   BoxConstraints get constraints =>
       const BoxConstraints(minWidth: 36.0, minHeight: 36.0);
 }
 
-class _DevFansCircularProgressIndicatorPainter extends CustomPainter {
-  _DevFansCircularProgressIndicatorPainter({
+class _ComeCircularProgressIndicatorPainter extends CustomPainter {
+  _ComeCircularProgressIndicatorPainter({
     this.trackColor,
     required this.valueColor,
     required this.value,
@@ -621,7 +621,7 @@ class _DevFansCircularProgressIndicatorPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(_DevFansCircularProgressIndicatorPainter oldPainter) {
+  bool shouldRepaint(_ComeCircularProgressIndicatorPainter oldPainter) {
     return oldPainter.trackColor != trackColor ||
         oldPainter.valueColor != valueColor ||
         oldPainter.value != value ||

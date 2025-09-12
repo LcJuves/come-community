@@ -1,5 +1,5 @@
-import 'package:devfans/constants.dart';
-import 'package:devfans/widget/linear_gradient_shader_mask.dart';
+import 'package:come/constants.dart';
+import 'package:come/widget/linear_gradient_shader_mask.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 

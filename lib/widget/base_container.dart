@@ -1,9 +1,9 @@
 import 'package:dart_animated_emoji/dart_animated_emoji.dart';
-import 'package:devfans/http_requests.dart';
-import 'package:devfans/model/future_desc.dart';
-import 'package:devfans/screen/preview_page.dart';
-import 'package:devfans/widget/captive_portal_svg_picture.dart';
-import 'package:devfans/widget/clip_rrect_backdrop_filter.dart';
+import 'package:come/http_requests.dart';
+import 'package:come/model/future_desc.dart';
+import 'package:come/screen/preview_page.dart';
+import 'package:come/widget/captive_portal_svg_picture.dart';
+import 'package:come/widget/clip_rrect_backdrop_filter.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';

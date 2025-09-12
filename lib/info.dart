@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:devfans/http_requests.dart';
+import 'package:come/http_requests.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
