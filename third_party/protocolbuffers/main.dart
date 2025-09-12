@@ -179,7 +179,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Android.svg",
+      imgUrl: "/AndroidKTX.svg",
       title: "Android KTX",
       zhTitle: "安卓 KTX",
       enUrl: "https://developer.android.com/kotlin/ktx?hl=en",
