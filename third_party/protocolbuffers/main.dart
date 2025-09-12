@@ -189,6 +189,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Android.svg",
+      title: "AGP API",
+      zhTitle: "安卓 Gradle 插件 API",
+      enUrl: "https://developer.android.google.cn/reference/tools/gradle-api/current/classes",
+      useVecIcon: true,
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Fuchsia.svg",
       title: "Fuchsia",
       enUrl: "https://fuchsia.dev/fuchsia-src/get-started?hl=en",
