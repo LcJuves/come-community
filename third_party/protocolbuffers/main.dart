@@ -445,6 +445,13 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Kotlin.svg",
+      title: "Koog",
+      enUrl: "https://docs.koog.ai/single-run-agents",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Kotlin.svg",
       title: "KSP API",
       enUrl: "https://kotlinlang.org/docs/ksp-quickstart.html",
     ),
@@ -4285,6 +4292,24 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Deepin.svg",
+      title: "Deepin",
+      zhTitle: "深度",
+      enUrl: "https://wiki.deepin.org/en/installation/native_install",
+      zhUrl: "https://www.deepin.org/zh/deepin-25-installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Deepin.svg",
+      title: "DDE",
+      zhTitle: "深度桌面环境",
+      enUrl: "https://www.deepin.org/en/dde",
+      zhUrl: "https://www.deepin.org/zh/dde",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Deepin.svg",
       title: "Deepin DTK",
       zhTitle: "深度/统信DTK",
       zhUrl:
@@ -4294,19 +4319,17 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Deepin.svg",
-      title: "linyaps",
+      title: "Linyaps",
       zhTitle: "如意玲珑",
-      enUrl:
-          "https://linyaps.org.cn/en/guide/start/install.html#install-linyaps",
-      zhUrl:
-          "https://linyaps.org.cn/guide/start/install.html#%E5%AE%89%E8%A3%85%E5%A6%82%E6%84%8F%E7%8E%B2%E7%8F%91",
+      enUrl: "https://linyaps.org.cn/en/guide/start/install.html",
+      zhUrl: "https://linyaps.org.cn/guide/start/install.html",
     ),
   );
   itemList.add(
     Item(
       imgUrl: "/QEMU.svg",
       title: "QEMU",
-      enUrl: "https://www.qemu.org/docs/master",
+      enUrl: "https://www.qemu.org/docs/master/system/images.html",
     ),
   );
   itemList.add(
@@ -5167,9 +5190,9 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Sonatype.svg",
-      title: "Maven Central Repository",
-      enUrl: "https://central.sonatype.org/register/central-portal",
+      imgUrl: "/maven-central.svg",
+      title: "Maven Central Publish Portal",
+      enUrl: "https://central.sonatype.org/publish/publish-portal-guide",
     ),
   );
   itemList.add(
