@@ -5274,6 +5274,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+        imgUrl: "/GitHub.svg",
+        title: "GitHub Trending",
+        enUrl: "https://github.com/trending",
+        zhUrl: "https://github.com/trending?spoken_language_code=zh"),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/crun.svg",
       title: "crun",
       enUrl:
@@ -5378,6 +5385,14 @@ Future main(List<String> args) async {
       imgUrl: "/HuggingFace.svg",
       title: "Hugging Face",
       enUrl: "https://huggingface.co/docs/transformers/quicktour",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/HuggingFace.svg",
+      title: "Transformers",
+      enUrl:
+          "https://github.com/huggingface/transformers?tab=readme-ov-file#installation",
     ),
   );
   itemList.add(
