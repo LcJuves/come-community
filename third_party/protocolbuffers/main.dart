@@ -3934,6 +3934,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Meyou.svg",
+      title: "FUGC",
+      enUrl: "https://fil-c.org/fugc",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Chroma.svg",
       title: "Chroma",
       enUrl:
