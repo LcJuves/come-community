@@ -74,8 +74,6 @@ bool geoDisabled(dynamic fetchedGeoInfo, Items items, String? deviceId) {
                   !"${fetchedGeoInfo['ip']}"
                       .startsWith(items.specIpAddrPrefix))) ||
       "${fetchedGeoInfo['region']}".toLowerCase() == "Liaoning".toLowerCase() ||
-      "${fetchedGeoInfo['region']}".toLowerCase() == "Shanghai".toLowerCase() ||
-      "${fetchedGeoInfo['region']}".toLowerCase() == "Beijing".toLowerCase() ||
       "${fetchedGeoInfo['city']}".toLowerCase() ==
           "Changsha"
               .toLowerCase() /* There are always more ways than difficulties */ ||
@@ -83,6 +81,5 @@ bool geoDisabled(dynamic fetchedGeoInfo, Items items, String? deviceId) {
           "${fetchedGeoInfo['country_code']}".toLowerCase() ==
               "JP".toLowerCase() ||
           "${fetchedGeoInfo['country_code']}".toLowerCase() ==
-              "JPN".toLowerCase()) ||
-      "${fetchedGeoInfo['country_code']}".toLowerCase() == "CAN".toLowerCase());
+              "JPN".toLowerCase()));
 }
