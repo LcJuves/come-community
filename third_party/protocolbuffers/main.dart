@@ -4482,6 +4482,20 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/WireGuard.svg",
+      title: "WireGuard NT",
+      enUrl: "https://git.zx2c4.com/wireguard-nt/about/#usage",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OpenVPN.svg",
+      title: "OpenVPN 3",
+      enUrl: "https://openvpn.github.io/openvpn3",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/OpenWrt.svg",
       title: "OpenWrt",
       enUrl: "https://openwrt.org/docs/guide-quick-start/start",
