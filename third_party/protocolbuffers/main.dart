@@ -565,6 +565,21 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ReactNativeReanimated.svg",
+      title: "React Native Reanimated",
+      enUrl:
+          "https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/WatermelonDB.svg",
+      title: "WatermelonDB",
+      enUrl: "https://watermelondb.dev/docs/Installation",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/RNTP.svg",
       title: "React Native Track Player",
       enUrl: "https://rntp.dev/docs/basics/getting-started",
@@ -2816,6 +2831,36 @@ Future main(List<String> args) async {
       title: "Redis",
       enUrl:
           "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Memcached.svg",
+      title: "Memcached Server",
+      enUrl: "https://docs.memcached.org/serverguide",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Memcached.svg",
+      title: "Memcached Client",
+      enUrl: "https://docs.memcached.org/userguide",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Memcached.svg",
+      title: "Memcached Protocols",
+      zhTitle: "Memcached 协议",
+      enUrl: "https://docs.memcached.org/protocols",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Memcached.svg",
+      title: "Memcached New LRU",
+      enUrl:
+          "https://github.com/memcached/memcached/blob/master/doc/new_lru.txt",
     ),
   );
   itemList.add(
