@@ -573,6 +573,20 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ReactNative.svg",
+      title: "VisionCamera",
+      enUrl: "https://react-native-vision-camera.com/docs/guides",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ReactNavigation.svg",
+      title: "React Navigation",
+      enUrl: "https://reactnavigation.org/docs/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/WatermelonDB.svg",
       title: "WatermelonDB",
       enUrl: "https://watermelondb.dev/docs/Installation",
