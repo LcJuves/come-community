@@ -580,6 +580,60 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/ReactNative.svg",
+      title: "React Native for Windows",
+      enUrl:
+          "https://microsoft.github.io/react-native-windows/docs/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ReactNative.svg",
+      title: "React Native visionOS",
+      enUrl:
+          "https://callstack.github.io/react-native-visionos-docs/docs/getting-started/create-first-app",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ReactNative.svg",
+      title: "React Native for Web",
+      enUrl: "https://necolas.github.io/react-native-web/docs/installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ReactNative.svg",
+      title: "react-native-skia",
+      enUrl:
+          "https://github.com/react-native-skia/react-native-skia?tab=readme-ov-file#setup-instructions",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/react-native-tvos.svg",
+      title: "react-native-tvos",
+      enUrl:
+          "https://github.com/react-native-tvos/react-native-tvos?tab=readme-ov-file#react-native-core-library-precompiled-framework-for-ios-and-tvos",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/react-native-tvos.svg",
+      title: "Stream Video Flutter SDK",
+      enUrl: "https://getstream.io/video/docs/flutter/quickstart",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/react-native-tvos.svg",
+      title: "Stream Chat Message",
+      enUrl:
+          "https://getstream.io/chat/docs/flutter-dart/?language=dart#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/ReactNavigation.svg",
       title: "React Navigation",
       enUrl: "https://reactnavigation.org/docs/getting-started",
