@@ -4538,6 +4538,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Meyou.svg",
+      title: "GraphBit",
+      enUrl: "https://docs.graphbit.ai/getting-started/quickstart",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/NVIDIA.svg",
       title: "CUDA",
       enUrl: "https://docs.nvidia.com/cuda/cuda-quick-start-guide",
@@ -5343,21 +5350,21 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Maven.svg",
+      imgUrl: "/ASF.svg",
       title: "Maven",
       enUrl: "https://maven.apache.org/install.html",
     ),
   );
   itemList.add(
     Item(
-      imgUrl: "/Maven.svg",
+      imgUrl: "/ASF.svg",
       title: "Maven Wrapper",
       enUrl: "https://maven.apache.org/tools/wrapper",
     ),
   );
   itemList.add(
     Item(
-      imgUrl: "/Maven.svg",
+      imgUrl: "/ASF.svg",
       title: "Maven Daemon",
       enUrl: "https://github.com/apache/maven-mvnd?tab=readme-ov-file#usage",
     ),
