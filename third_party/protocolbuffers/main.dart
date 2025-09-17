@@ -596,7 +596,7 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/ReactNative.svg",
+      imgUrl: "/RNWeb.svg",
       title: "React Native for Web",
       enUrl: "https://necolas.github.io/react-native-web/docs/installation",
     ),
@@ -619,14 +619,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/react-native-tvos.svg",
+      imgUrl: "/Stream.svg",
       title: "Stream Video Flutter SDK",
       enUrl: "https://getstream.io/video/docs/flutter/quickstart",
     ),
   );
   itemList.add(
     Item(
-      imgUrl: "/react-native-tvos.svg",
+      imgUrl: "/Stream.svg",
       title: "Stream Chat Message",
       enUrl:
           "https://getstream.io/chat/docs/flutter-dart/?language=dart#getting-started",
@@ -1593,6 +1593,22 @@ Future main(List<String> args) async {
       title: "Microsoft SQL",
       enUrl: "https://learn.microsoft.com/en-us/sql",
       zhUrl: "https://docs.microsoft.com/zh-cn/sql",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Microsoft.svg",
+      title: "MarkItDown",
+      enUrl:
+          "https://github.com/microsoft/markitdown?tab=readme-ov-file#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "shimmy",
+      enUrl:
+          "https://github.com/Michael-A-Kuykendall/shimmy?tab=readme-ov-file#quick-start-30-seconds",
     ),
   );
   itemList.add(
@@ -3271,6 +3287,7 @@ Future main(List<String> args) async {
           "https://developer.android.com/develop/ui/compose/documentation?hl=en",
       zhUrl:
           "https://developer.android.google.cn/develop/ui/compose/documentation?hl=zh-cn",
+      useVecIcon: true,
     ),
   );
   itemList.add(
@@ -3683,11 +3700,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/Conda.svg",
-      title: "Conda",
-      enUrl:
-          "https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html",
-    ),
+        imgUrl: "/Conda.svg",
+        title: "Conda",
+        enUrl:
+            "https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html",
+        useVecIcon: true),
   );
   itemList.add(
     Item(
