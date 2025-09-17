@@ -281,11 +281,12 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/JetpackCompose.svg",
-      title: "Jetpack XR SDK",
-      enUrl: "https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=en",
-      zhUrl: "https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=zh-cn",
-    ),
+        imgUrl: "/JetpackCompose.svg",
+        title: "Jetpack XR SDK",
+        enUrl: "https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=en",
+        zhUrl:
+            "https://developer.android.com/develop/xr/jetpack-xr-sdk?hl=zh-cn",
+        useVecIcon: true),
   );
   itemList.add(
     Item(
@@ -648,10 +649,10 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/RNTP.svg",
-      title: "React Native Track Player",
-      enUrl: "https://rntp.dev/docs/basics/getting-started",
-    ),
+        imgUrl: "/RNTP.svg",
+        title: "React Native Track Player",
+        enUrl: "https://rntp.dev/docs/basics/getting-started",
+        useVecIcon: true),
   );
   itemList.add(
     Item(
@@ -2709,14 +2710,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/VS Code.svg",
+      imgUrl: "/VS%2520Code.svg",
       title: "Visual Studio Code",
       enUrl: "https://code.visualstudio.com/docs/getstarted/getting-started",
     ),
   );
   itemList.add(
     Item(
-      imgUrl: "/VS Code.svg",
+      imgUrl: "/VS%2520Code.svg",
       title: "VS Code Extension",
       zhTitle: "VS Code 拓展",
       enUrl:
@@ -2725,14 +2726,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/VS Code.svg",
+      imgUrl: "/VS%2520Code.svg",
       title: "VS Code API",
       enUrl: "https://code.visualstudio.com/api/references/vscode-api",
     ),
   );
   itemList.add(
     Item(
-        imgUrl: "/VS Code.svg",
+        imgUrl: "/VS%2520Code.svg",
         title: "VS Code Dev",
         enUrl: "https://vscode.dev",
         zhUrl: "https://vscode.dev/?vscode-lang=zh-cn"),
