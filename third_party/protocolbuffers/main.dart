@@ -38,6 +38,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Flutter.svg",
+      title: "Flutter Geolocator Plugin",
+      enUrl: "https://pub.dev/packages/geolocator#usage",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Meyou.svg",
       title: "Widgetbook",
       enUrl: "https://docs.widgetbook.io/quick-start",
@@ -549,7 +556,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Kuikly.svg",
-      title: "Kuikly",
+      title: "KuiklyUI",
       enUrl:
           "https://github.com/Tencent-TDS/KuiklyUI?tab=readme-ov-file#getting-started",
       zhUrl:
@@ -830,6 +837,13 @@ Future main(List<String> args) async {
       title: "Liquid Glass Renderer",
       enUrl:
           "https://github.com/whynotmake-it/flutter_liquid_glass/tree/main/packages/liquid_glass_renderer#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Flutter.svg",
+      title: "flutter_html",
+      enUrl: "https://pub.dev/packages/flutter_html",
     ),
   );
   itemList.add(
@@ -3297,6 +3311,14 @@ Future main(List<String> args) async {
       title: "Compose Multiplatform",
       enUrl:
           "https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ComposeMultiplatform.svg",
+      title: "Compose Multiplatform WebView",
+      enUrl:
+          "https://kevinnzou.github.io/compose-webview-multiplatform/installation",
     ),
   );
   itemList.add(
@@ -5964,10 +5986,25 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Rust.svg",
+      title: "Spiderfire",
+      enUrl:
+          "https://github.com/redfire75369/spiderfire/blob/master/docs/quick-start.md#quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Wasmer.svg",
       title: "WinterJS",
       enUrl:
           "https://github.com/wasmerio/winterjs?tab=readme-ov-file#running-winterjs-natively",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Meyou.svg",
+      title: "Runtime compatibility",
+      enUrl: "https://runtime-compat.unjs.io",
     ),
   );
   itemList.add(
@@ -6208,6 +6245,13 @@ Future main(List<String> args) async {
       imgUrl: "/ZIG.svg",
       title: "Ziggy",
       enUrl: "https://ziggy-lang.io/documentation/getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/ZIG.svg",
+      title: "Zul",
+      enUrl: "https://github.com/karlseguin/zul?tab=readme-ov-file#usage",
     ),
   );
   itemList.add(
@@ -7332,6 +7376,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/PayPal.svg",
       title: "PayPal REST APIs",
+      zhTitle: "贝宝 REST APIs",
       enUrl: "https://developer.paypal.com/api/rest",
     ),
   );
