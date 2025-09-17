@@ -73,7 +73,6 @@ bool geoDisabled(dynamic fetchedGeoInfo, Items items, String? deviceId) {
               (!items.hasSpecIpAddrPrefix() ||
                   !"${fetchedGeoInfo['ip']}"
                       .startsWith(items.specIpAddrPrefix))) ||
-      "${fetchedGeoInfo['region']}".toLowerCase() == "Liaoning".toLowerCase() ||
       "${fetchedGeoInfo['city']}".toLowerCase() ==
           "Changsha"
               .toLowerCase() /* There are always more ways than difficulties */ ||
