@@ -45,6 +45,15 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Flutter.svg",
+      emojiIcon: "✈️",
+      title: "Flutter Offline",
+      enUrl:
+          "https://github.com/jogboms/flutter_offline?tab=readme-ov-file#-installing",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Meyou.svg",
       title: "Widgetbook",
       enUrl: "https://docs.widgetbook.io/quick-start",
@@ -507,7 +516,7 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Windows.svg",
-      // emojiIcon: "🪟",
+      emojiIcon: "🪟",
       title: "Windows-MCP",
       enUrl:
           "https://github.com/CursorTouch/Windows-MCP?tab=readme-ov-file#-getting-started",
@@ -2207,6 +2216,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/tsink.svg",
+      title: "tsink",
+      enUrl: "https://github.com/h2337/tsink?tab=readme-ov-file#installation",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/RocksDB.svg",
       title: "RocksDB",
       enUrl: "https://rocksdb.org/docs/getting-started.html",
@@ -2581,6 +2597,14 @@ Future main(List<String> args) async {
       title: "GitHub Packages",
       enUrl: "https://docs.github.com/en/packages/quickstart",
       zhUrl: "https://docs.github.com/zh/packages/quickstart",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "GitHub Pages",
+      enUrl: "https://docs.github.com/en/pages/quickstart",
+      zhUrl: "https://docs.github.com/zh/pages/quickstart",
     ),
   );
   itemList.add(
@@ -3526,6 +3550,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/AzureQuantum.svg",
+      title: "Q# Playground",
+      zhTitle: "Q# 演练场",
+      enUrl: "https://microsoft.github.io/qdk",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Meyou.svg",
       title: "OriginQ QPanda3",
       zhTitle: "本源量子 QPanda3",
@@ -4062,6 +4094,7 @@ Future main(List<String> args) async {
     imgUrl: "/V8.svg",
     title: "V8",
     enUrl: "https://v8.dev/docs/cross-compile-arm",
+    useVecIcon: true,
   ));
   itemList.add(
     Item(
@@ -7701,7 +7734,7 @@ Future main(List<String> args) async {
   );
 
   final items = Items(itemList: itemList.toSet().toList());
-  items.tempTipVisible = false;
+  items.tempTipVisible = true;
   items.ipv6Guard = true;
   items.specIpAddrPrefix = "163";
   items.shutdownSomeArea = true;
