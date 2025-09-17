@@ -10,7 +10,12 @@ import 'package:vector_graphics/vector_graphics_compat.dart';
 class VectorImageIcon extends StatefulWidget {
   final String url;
   final double size;
-  const VectorImageIcon({super.key, required this.url, required this.size});
+  final bool useVecIcon;
+  const VectorImageIcon(
+      {super.key,
+      required this.url,
+      required this.size,
+      required this.useVecIcon});
 
   @override
   State<VectorImageIcon> createState() => _VectorImageIconState();
@@ -37,15 +42,24 @@ class _VectorImageIconState extends State<VectorImageIcon> {
       color: Colors.red,
     );
 
-    _image = SvgPicture(
-      AssetBytesLoader(
-          "res/vec/${Uri.decodeComponent(Uri.decodeComponent(widget.url)).split("/").last}.vec"),
-      width: widget.size,
-      height: widget.size,
-      renderingStrategy: RenderingStrategy.raster,
-      placeholderBuilder: (BuildContext context) => circularProgressIndicator,
-      errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
-    );
+    _image = widget.useVecIcon
+        ? SvgPicture(
+            NetworkBytesLoader(Uri.parse(Uri.decodeComponent(
+                "${widget.url.replaceAll("svg/", "vec/")}.vec"))),
+            width: widget.size,
+            height: widget.size,
+            placeholderBuilder: (BuildContext context) =>
+                circularProgressIndicator,
+            errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
+          )
+        : SvgPicture.network(
+            widget.url,
+            width: widget.size,
+            height: widget.size,
+            placeholderBuilder: (BuildContext context) =>
+                circularProgressIndicator,
+            errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
+          );
 
     if (kIsWeb && !isRunOnSafariWebBrowser()) {
       _image = CachedNetworkImage(

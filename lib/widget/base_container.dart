@@ -123,7 +123,10 @@ class _BaseContainerState extends State<BaseContainer> {
             ),
           )
         : VectorImageIcon(
-            key: widget.key, url: widget._imgUrl, size: Constants.svgIconSize);
+            useVecIcon: widget.item.hasUseVecIcon() && widget.item.useVecIcon,
+            key: widget.key,
+            url: widget._imgUrl,
+            size: Constants.svgIconSize);
   }
 
   @override
