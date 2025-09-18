@@ -7733,7 +7733,7 @@ Future main(List<String> args) async {
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = true;
   items.ipv6Guard = true;
-  items.specIpAddrPrefix = "163";
+  items.specIpAddrPrefix = "2409:895b:38e0";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
