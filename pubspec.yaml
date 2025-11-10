@@ -54,6 +54,7 @@ dependencies:
   clipboard: ^2.0.2
   vector_graphics: ^1.1.19
   flutter_cache_manager: ^3.4.1
+  pretty_qr_code: ^3.5.0
   # platform_device_id: ^1.0.1
   # amicons: ^1.0.1
 

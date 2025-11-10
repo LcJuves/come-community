@@ -373,7 +373,6 @@ Future main(List<String> args) async {
       imgUrl: "/MDN.svg",
       title: "FedCM API",
       enUrl: "https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API",
-      // zhUrl: "https://developer.mozilla.org/zh-CN/docs/Web/API/FedCM_API",
     ),
   );
   itemList.add(
@@ -404,6 +403,17 @@ Future main(List<String> args) async {
           "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
       zhUrl:
           "https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/MDN.svg",
+      title: "Web Components",
+      zhTitle: "Web 组件",
+      enUrl:
+          "https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements",
+      zhUrl:
+          "https://developer.mozilla.org/zh-CN/docs/Web/API/Web_components/Using_custom_elements",
     ),
   );
   itemList.add(
@@ -447,7 +457,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Kotlin.svg",
       title: "Kotlin Playground",
-      zhTitle: "Kotlin 演练场",
+      zhTitle: "Kotlin 图乐园",
       enUrl:
           "https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMi4yLjAiLCJwbGF0Zm9ybSI6ImNvbXBvc2Utd2FzbSIsImFyZ3MiOiIiLCJub25lTWFya2VycyI6dHJ1ZSwidGhlbWUiOiJpZGVhIiwiY29kZSI6ImltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkV4cGVyaW1lbnRhbENvbXBvc2VVaUFwaVxuaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkud2luZG93LkNhbnZhc0Jhc2VkV2luZG93XG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5XG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLkltYWdlXG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW5cbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aFxuaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuQnV0dG9uXG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5NYXRlcmlhbFRoZW1lXG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5UZXh0XG5pbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGVcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWVcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2ZcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWVcbmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudFxuaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXJcblxuQE9wdEluKEV4cGVyaW1lbnRhbENvbXBvc2VVaUFwaTo6Y2xhc3MpXG5mdW4gbWFpbigpIHtcbiAgQ2FudmFzQmFzZWRXaW5kb3cgeyBBcHAoKSB9XG59XG5cbkBDb21wb3NhYmxlXG5mdW4gQXBwKCkge1xuICBNYXRlcmlhbFRoZW1lIHtcbiAgICB2YXIgZ3JlZXRpbmdUZXh0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoXCJIZWxsbyBXb3JsZCFcIikgfVxuICAgIHZhciBzaG93SW1hZ2UgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfVxuICAgIHZhciBjb3VudGVyIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoMCkgfVxuICAgIENvbHVtbihNb2RpZmllci5maWxsTWF4V2lkdGgoKSwgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHkpIHtcbiAgICAgIEJ1dHRvbihvbkNsaWNrID0ge1xuICAgICAgICBjb3VudGVyKytcbiAgICAgICAgZ3JlZXRpbmdUZXh0ID0gXCJDb21wb3NlOiAke0dyZWV0aW5nKCkuZ3JlZXQoKX1cIlxuICAgICAgICBzaG93SW1hZ2UgPSAhc2hvd0ltYWdlXG4gICAgICB9KSB7XG4gICAgICAgIFRleHQoZ3JlZXRpbmdUZXh0KVxuICAgICAgfVxuICAgICAgQW5pbWF0ZWRWaXNpYmlsaXR5KHNob3dJbWFnZSkge1xuICAgICAgICBUZXh0KGNvdW50ZXIudG9TdHJpbmcoKSlcbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cblxucHJpdmF0ZSB2YWwgcGxhdGZvcm0gPSBvYmplY3QgOiBQbGF0Zm9ybSB7XG5cbiAgb3ZlcnJpZGUgdmFsIG5hbWU6IFN0cmluZ1xuICAgIGdldCgpID0gXCJXZWIgd2l0aCBLb3RsaW4vV2FzbVwiXG59XG5cbmZ1biBnZXRQbGF0Zm9ybSgpOiBQbGF0Zm9ybSA9IHBsYXRmb3JtXG5cbmNsYXNzIEdyZWV0aW5nIHtcbiAgcHJpdmF0ZSB2YWwgcGxhdGZvcm0gPSBnZXRQbGF0Zm9ybSgpXG5cbiAgZnVuIGdyZWV0KCk6IFN0cmluZyB7XG4gICAgcmV0dXJuIFwiSGVsbG8sICR7cGxhdGZvcm0ubmFtZX0hXCJcbiAgfVxufVxuXG5pbnRlcmZhY2UgUGxhdGZvcm0ge1xuICB2YWwgbmFtZTogU3RyaW5nXG59In0=",
     ),
@@ -550,6 +560,13 @@ Future main(List<String> args) async {
       title: "Kotlin Multiplatform",
       enUrl:
           "https://www.jetbrains.com/help/kotlin-multiplatform-dev/quickstart.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/SQLDelight.svg",
+      title: "SQLDelight",
+      enUrl: "https://sqldelight.github.io/sqldelight/latest",
     ),
   );
   itemList.add(
@@ -734,7 +751,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Slang.svg",
       title: "Slang Playground",
-      zhTitle: "Slang 演练场",
+      zhTitle: "Slang 图乐园",
       enUrl: "https://shader-slang.org/slang-playground",
     ),
   );
@@ -844,7 +861,15 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Flutter.svg",
       title: "Flutter Widget from HTML (core)",
-      enUrl: "https://pub.dev/packages/flutter_widget_from_html_core#getting-started",
+      enUrl:
+          "https://pub.dev/packages/flutter_widget_from_html_core#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Flutter.svg",
+      title: "Pretty QR Code",
+      enUrl: "https://pub.dev/packages/pretty_qr_code#usage",
     ),
   );
   itemList.add(
@@ -960,6 +985,15 @@ Future main(List<String> args) async {
       title: "WebAuthn",
       enUrl: "https://webauthn.guide/#about-webauthn",
     ),
+  );
+  itemList.add(
+    Item(
+        imgUrl: "/MDN.svg",
+        title: "Web Authentication API",
+        enUrl:
+            "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API",
+        zhUrl:
+            "https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Authentication_API"),
   );
   itemList.add(
     Item(
@@ -1370,7 +1404,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Rust.svg",
       title: "Rust Playground",
-      zhTitle: "Rust 演练场",
+      zhTitle: "Rust 图乐园",
       enUrl:
           "https://play.rust-lang.org/?version=stable&mode=debug&edition=2024",
     ),
@@ -1576,7 +1610,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Angular.svg",
       title: "Angular Playground",
-      zhTitle: "Angular 演练场",
+      zhTitle: "Angular 图乐园",
       enUrl: "https://angular.dev/playground",
       zhUrl: "https://angular.cn/playground",
     ),
@@ -1900,7 +1934,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/ZLS.svg",
       title: "Zig Playground",
-      zhTitle: "Zig 演练场",
+      zhTitle: "Zig 图乐园",
       enUrl: "https://playground.zigtools.org",
     ),
   );
@@ -2120,7 +2154,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Gleam.svg",
       title: "Gleam Playground",
-      zhTitle: "Gleam 演练场",
+      zhTitle: "Gleam 图乐园",
       enUrl: "https://playground.gleam.run",
     ),
   );
@@ -2145,6 +2179,29 @@ Future main(List<String> args) async {
       title: "Slint",
       enUrl:
           "https://docs.slint.dev/latest/docs/slint/tutorial/getting_started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Slint.svg",
+      title: "SlintPad",
+      enUrl: "https://slintpad.com",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Excalidraw.svg",
+      title: "Excalidraw",
+      enUrl:
+          "https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Excalidraw.svg",
+      title: "Excalidraw Whiteboard",
+      zhTitle: "Excalidraw 白板",
+      enUrl: "https://excalidraw.com",
     ),
   );
   itemList.add(
@@ -2407,7 +2464,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Cangjie.svg",
       title: "Cangjie Playground",
-      zhTitle: "仓颉演练场",
+      zhTitle: "仓颉图乐园",
       enUrl: "https://cangjie-lang.cn/en/playground",
       zhUrl: "https://cangjie-lang.cn/playground",
     ),
@@ -2516,7 +2573,7 @@ Future main(List<String> args) async {
       imgUrl: "/GitHub.svg",
       title: "easyWSL",
       enUrl:
-          "https://github.com/redcode-labs/easyWSL?tab=readme-ov-file#-easywsl",
+          "https://github.com/bostrot/wsl2-distro-manager?tab=readme-ov-file#-install",
     ),
   );
   itemList.add(
@@ -2854,7 +2911,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/CodeOSS.svg",
       title: "Monaco Editor Playground",
-      zhTitle: "Monaco 编辑器演练场",
+      zhTitle: "Monaco 编辑器图乐园",
       enUrl:
           "https://microsoft.github.io/monaco-editor/playground.html?source=v0.52.2#example-creating-the-editor-hello-world",
     ),
@@ -3548,7 +3605,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/AzureQuantum.svg",
       title: "Q# Playground",
-      zhTitle: "Q# 演练场",
+      zhTitle: "Q# 图乐园",
       enUrl: "https://microsoft.github.io/qdk",
     ),
   );
@@ -4230,7 +4287,8 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/tonic.svg",
       title: "tonic",
-      enUrl: "https://github.com/ynqa/jnv",
+      enUrl:
+          "https://github.com/hyperium/tonic/blob/master/examples/helloworld-tutorial.md#getting-started",
     ),
   );
   itemList.add(
@@ -4239,6 +4297,13 @@ Future main(List<String> args) async {
       title: "uniocr",
       enUrl:
           "https://github.com/mediar-ai/uniOCR?tab=readme-ov-file#quickstart-",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Material-for-MkDocs-Icon.svg",
+      title: "GlusterFS",
+      enUrl: "https://docs.gluster.org/en/latest/Quick-Start-Guide/Quickstart",
     ),
   );
   itemList.add(
@@ -5327,7 +5392,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OCaml.svg",
       title: "OCaml Playground",
-      zhTitle: "OCaml 演练场",
+      zhTitle: "OCaml 图乐园",
       enUrl: "https://ocaml.org/play",
     ),
   );
@@ -5683,7 +5748,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/OpenAIPlatform.svg",
       title: "gpt-oss playground",
-      zhTitle: "gpt-oss 演练场",
+      zhTitle: "gpt-oss 图乐园",
       enUrl: "https://gpt-oss.com",
     ),
   );
@@ -5726,10 +5791,11 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/IntelliJ_IDEA.svg",
-      title: "IntelliJ IDEA",
-      enUrl: "https://www.jetbrains.com/help/idea/getting-started.html",
-    ),
+        imgUrl: "/IntelliJ_IDEA.svg",
+        title: "IntelliJ IDEA",
+        enUrl: "https://www.jetbrains.com/help/idea/getting-started.html",
+        zhUrl:
+            "https://www.jetbrains.com/zh-cn/help/idea/getting-started.html"),
   );
   itemList.add(
     Item(
@@ -6042,6 +6108,14 @@ Future main(List<String> args) async {
       imgUrl: "/Lima.svg",
       title: "Lima",
       enUrl: "https://lima-vm.io/docs/usage",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitHub.svg",
+      title: "Colima",
+      enUrl:
+          "https://github.com/abiosoft/colima?tab=readme-ov-file#getting-started",
     ),
   );
   itemList.add(
@@ -6576,7 +6650,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/Svelte.svg",
       title: "Svelte Playground",
-      zhTitle: "Svelte 演练场",
+      zhTitle: "Svelte 图乐园",
       enUrl:
           "https://svelte.dev/playground/hello-world?version=5.38.9#H4sIAAAAAAAAE22PwU7DMBBEf2WxkJoIROjV2JG48Q-Ug-NshVVjW_G6BUX-d2ynqBeOO292ZndlTn0h4-wNrfVw8YudocPZEM49e2RHYzEy_r4y-gnVV4WiX7deQ3iKZ7RUtUlF_E_X3hE6KjFMRL2YQOPBHcgiQbWDhPtIirDbtfpd__KHtU-Obvy5EjHcMpz43I_b5WuNyndiKEojxoVEMBk387OyCeXmgKFgMSUi78A7bY0-ybXrQY7XugcJ-9wubDByWBvItXtbLLT8RfhNjNOSMH-USRl7KW2MH5WNmH8BshufzFoBAAA",
     ),
@@ -6673,7 +6747,7 @@ Future main(List<String> args) async {
     Item(
       imgUrl: "/FingerprintJS.svg",
       title: "Fingerprint Pro Playground",
-      zhTitle: "Fingerprint Pro 演练场",
+      zhTitle: "Fingerprint Pro 图乐园",
       enUrl: "https://demo.fingerprint.com/playground",
     ),
   );
@@ -6690,6 +6764,13 @@ Future main(List<String> args) async {
       title: "Ubuntu Server",
       enUrl:
           "https://documentation.ubuntu.com/server/tutorial/basic-installation/#basic-installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/UbuntuServer.svg",
+      title: "Multipass",
+      enUrl: "https://canonical.com/multipass/install",
     ),
   );
   itemList.add(
@@ -7041,20 +7122,37 @@ Future main(List<String> args) async {
     ),
   );
   itemList.add(
-    Item(imgUrl: "/OAuth.svg", title: "OAuth 2", enUrl: "https://oauth.net/2"),
+    Item(
+        imgUrl: "/OAuth.svg",
+        title: "OAuth 2.1",
+        enUrl: "https://oauth.net/2.1"),
+  );
+  itemList.add(
+    Item(
+        imgUrl: "/OAuth.svg",
+        title: "OAuth 2.0 Playground",
+        zhTitle: "OAuth 2.0 图乐园",
+        enUrl: "https://www.oauth.com/playground"),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OAuth.svg",
+      title: "OAuth Grant Types",
+      enUrl: "https://oauth.net/2/grant-types",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OAuth.svg",
+      title: "GNAP",
+      enUrl: "https://oauth.net/gnap",
+    ),
   );
   itemList.add(
     Item(
       imgUrl: "/Meyou.svg",
       title: "OIDC",
       enUrl: "https://openid.net/developers/how-connect-works",
-    ),
-  );
-  itemList.add(
-    Item(
-      imgUrl: "/OAuth.svg",
-      title: "OAuth PKCE",
-      enUrl: "https://oauth.net/2/pkce",
     ),
   );
   itemList.add(
@@ -7392,7 +7490,8 @@ Future main(List<String> args) async {
       imgUrl: "/Alipay.svg",
       title: "Donate to the author",
       zhTitle: "向作者捐赠",
-      enUrl: "https://fastweb.lcjuves.com/donate/Alipay.svg",
+      enUrl:
+          "https://remit.alipay.com/?m=ZW1haWxAbGNqdXZlcy5jb20=,SklF,REVORw==,Q04=,IA==,IA==,IA==,IA==&d=1750575992645&v=v1.0",
     ),
   );
   itemList.add(
@@ -7733,7 +7832,7 @@ Future main(List<String> args) async {
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = true;
   items.ipv6Guard = true;
-  items.specIpAddrPrefix = "2409:895b:38e0";
+  items.specIpAddrPrefix = "27.38";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
