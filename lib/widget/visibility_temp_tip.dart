@@ -70,8 +70,9 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
     _shouldVisible = widget.items.hasTempTipVisible() &&
         widget.items.tempTipVisible &&
         (widget.items.hasSpecIpAddrPrefix() &&
-            !"${widget.fetchedGeoInfo['ip']}"
-                .startsWith(widget.items.specIpAddrPrefix));
+            (widget.fetchedGeoInfo == null ||
+                !"${widget.fetchedGeoInfo['ip']}"
+                    .startsWith(widget.items.specIpAddrPrefix)));
     _visibilityTempTipTitle = widget.currentLocaleIsEN
         ? AppLocalizationsEn().visibilityTempTipTitle
         : AppLocalizationsZh().visibilityTempTipTitle;
