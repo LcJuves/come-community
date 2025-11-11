@@ -63,9 +63,5 @@ bool geoDisabled(dynamic fetchedGeoInfo, Items items, String? deviceId) {
   }
   return (fetchedGeoInfo == null ||
       // At present, only IPv6 support is provided.
-      networkDisabled(fetchedGeoInfo, items) ||
-      ("${fetchedGeoInfo['country_code']}".toLowerCase() ==
-              "JP".toLowerCase() ||
-          "${fetchedGeoInfo['country_code']}".toLowerCase() ==
-              "JPN".toLowerCase()));
+      networkDisabled(fetchedGeoInfo, items));
 }
