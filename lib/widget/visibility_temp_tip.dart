@@ -58,7 +58,7 @@ class VisibilityTempTip extends StatefulWidget {
 }
 
 class _VisibilityTempTipState extends State<VisibilityTempTip> {
-  late final bool _shouldVisible;
+  late bool _shouldVisible;
   late final bool _geoDisabled;
   late final String _visibilityTempTipTitle;
   late final String _visibilityTempTipMessage;
@@ -67,12 +67,14 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
   @override
   void initState() {
     super.initState();
-    _shouldVisible = widget.items.hasTempTipVisible() &&
-        widget.items.tempTipVisible &&
-        (widget.items.hasSpecIpAddrPrefix() &&
-            (widget.fetchedGeoInfo == null ||
-                !"${widget.fetchedGeoInfo['ip']}"
-                    .startsWith(widget.items.specIpAddrPrefix)));
+    _shouldVisible =
+        widget.items.hasTempTipVisible() && widget.items.tempTipVisible;
+    if (widget.items.hasSpecIpAddrPrefix() &&
+        widget.fetchedGeoInfo != null &&
+        "${widget.fetchedGeoInfo['ip']}"
+            .startsWith(widget.items.specIpAddrPrefix)) {
+      _shouldVisible = false;
+    }
     _visibilityTempTipTitle = widget.currentLocaleIsEN
         ? AppLocalizationsEn().visibilityTempTipTitle
         : AppLocalizationsZh().visibilityTempTipTitle;
