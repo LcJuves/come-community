@@ -8,6 +8,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  flat_buffers: ^23.5.26
   # path: ^1.8.0
 
 dev_dependencies:
