@@ -7832,8 +7832,8 @@ Future main(List<String> args) async {
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = true;
   items.ipv6Guard = true;
-  items.specIpAddrPrefix = "2408:8256:2c80";
-  // items.specIpAddrPrefix = "163.125";
+  // items.specIpAddrPrefix = "2408:8256:2c80";
+  items.specIpAddrPrefix = "163.125";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
