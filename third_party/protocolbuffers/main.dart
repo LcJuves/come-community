@@ -682,10 +682,10 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
-      imgUrl: "/RNTP.svg",
-      title: "React Native Track Player",
-      enUrl: "https://rntp.dev/docs/basics/getting-started",
-    ),
+        imgUrl: "/RNTP.svg",
+        title: "React Native Track Player",
+        enUrl: "https://rntp.dev/docs/basics/getting-started",
+        useVecIcon: true),
   );
   itemList.add(
     Item(
