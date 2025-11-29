@@ -27,7 +27,7 @@ class Item {
 
   @override
   String toString() {
-    return 'Item{emojiIcon: ${emojiIcon}, imgUrl: ${imgUrl}, zhImgUrl: ${zhImgUrl}, title: ${title}, zhTitle: ${zhTitle}, enUrl: ${enUrl}, zhUrl: ${zhUrl}}';
+    return 'Item{emojiIcon: $emojiIcon, imgUrl: $imgUrl, zhImgUrl: $zhImgUrl, title: $title, zhTitle: $zhTitle, enUrl: $enUrl, zhUrl: $zhUrl}';
   }
 }
 
@@ -112,19 +112,19 @@ class ItemObjectBuilder extends fb.ObjectBuilder {
   @override
   int finish(fb.Builder fbBuilder) {
     final int? emojiIconOffset = _emojiIcon == null ? null
-        : fbBuilder.writeString(_emojiIcon!);
+        : fbBuilder.writeString(_emojiIcon);
     final int? imgUrlOffset = _imgUrl == null ? null
-        : fbBuilder.writeString(_imgUrl!);
+        : fbBuilder.writeString(_imgUrl);
     final int? zhImgUrlOffset = _zhImgUrl == null ? null
-        : fbBuilder.writeString(_zhImgUrl!);
+        : fbBuilder.writeString(_zhImgUrl);
     final int? titleOffset = _title == null ? null
-        : fbBuilder.writeString(_title!);
+        : fbBuilder.writeString(_title);
     final int? zhTitleOffset = _zhTitle == null ? null
-        : fbBuilder.writeString(_zhTitle!);
+        : fbBuilder.writeString(_zhTitle);
     final int? enUrlOffset = _enUrl == null ? null
-        : fbBuilder.writeString(_enUrl!);
+        : fbBuilder.writeString(_enUrl);
     final int? zhUrlOffset = _zhUrl == null ? null
-        : fbBuilder.writeString(_zhUrl!);
+        : fbBuilder.writeString(_zhUrl);
     fbBuilder.startTable(7);
     fbBuilder.addOffset(0, emojiIconOffset);
     fbBuilder.addOffset(1, imgUrlOffset);
@@ -165,7 +165,7 @@ class Items {
 
   @override
   String toString() {
-    return 'Items{tempTipVisible: ${tempTipVisible}, specIpAddrPrefix: ${specIpAddrPrefix}, ipv6Guard: ${ipv6Guard}, shutdownSomeArea: ${shutdownSomeArea}, useBlurWallpaper: ${useBlurWallpaper}, itemList: ${itemList}}';
+    return 'Items{tempTipVisible: $tempTipVisible, specIpAddrPrefix: $specIpAddrPrefix, ipv6Guard: $ipv6Guard, shutdownSomeArea: $shutdownSomeArea, useBlurWallpaper: $useBlurWallpaper, itemList: $itemList}';
   }
 }
 
@@ -243,9 +243,9 @@ class ItemsObjectBuilder extends fb.ObjectBuilder {
   @override
   int finish(fb.Builder fbBuilder) {
     final int? specIpAddrPrefixOffset = _specIpAddrPrefix == null ? null
-        : fbBuilder.writeString(_specIpAddrPrefix!);
+        : fbBuilder.writeString(_specIpAddrPrefix);
     final int? itemListOffset = _itemList == null ? null
-        : fbBuilder.writeList(_itemList!.map((b) => b.getOrCreateOffset(fbBuilder)).toList());
+        : fbBuilder.writeList(_itemList.map((b) => b.getOrCreateOffset(fbBuilder)).toList());
     fbBuilder.startTable(6);
     fbBuilder.addBool(0, _tempTipVisible);
     fbBuilder.addOffset(1, specIpAddrPrefixOffset);
