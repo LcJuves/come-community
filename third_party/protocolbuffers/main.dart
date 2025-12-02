@@ -1469,6 +1469,13 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Rust.svg",
+      title: "Rust Compiler Dev Guide",
+      enUrl: "https://rustc-dev-guide.rust-lang.org/building/quickstart.html",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Rust.svg",
       title: "Rust MIR",
       enUrl: "https://rustc-dev-guide.rust-lang.org/mir",
     ),
@@ -7072,7 +7079,8 @@ Future main(List<String> args) async {
       imgUrl: "/NativeScript-Vue.svg",
       title: "NativeScript-Vue Playground",
       zhTitle: "NativeScript-Vue 图乐园",
-      enUrl: "https://stackblitz.com/edit/nativescript-vue-nativescript-vue-5hqh9lmr?file=src%2Fcomponents%2FHome.vue&title=NativeScript%20Starter%20Vue3x",
+      enUrl:
+          "https://stackblitz.com/edit/nativescript-vue-nativescript-vue-5hqh9lmr?file=src%2Fcomponents%2FHome.vue&title=NativeScript%20Starter%20Vue3x",
     ),
   );
   itemList.add(
