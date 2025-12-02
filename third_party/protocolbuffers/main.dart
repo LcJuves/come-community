@@ -653,6 +653,21 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Github.svg",
+      title: "Valdi",
+      enUrl:
+          "https://github.com/Snapchat/Valdi/blob/main/docs/INSTALL.md#getting-started-with-valdi",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Kito.svg",
+      title: "Kito",
+      enUrl: "https://kito.pages.dev/docs/guides/quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Stream.svg",
       title: "Stream Video Flutter SDK",
       enUrl: "https://getstream.io/video/docs/flutter/quickstart",
@@ -2444,6 +2459,26 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/HMOS.svg",
+      title: "ArkTS",
+      enUrl:
+          "https://gitcode.com/arkui-x/docs/blob/master/en/application-dev/quick-start/start-with-ets-stage.md#getting-started-with-arkts-in-stage-model",
+      zhUrl:
+          "https://gitcode.com/arkui-x/docs/blob/master/zh-cn/application-dev/quick-start/start-with-ets-stage.md#%E4%BD%BF%E7%94%A8arkts%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91stage%E6%A8%A1%E5%9E%8B",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/HMOS.svg",
+      title: "ACE Tools",
+      enUrl:
+          "https://gitcode.com/arkui-x/docs/blob/master/en/application-dev/quick-start/start-with-ace-tools.md#ace-tools-quick-start",
+      zhUrl:
+          "https://gitcode.com/arkui-x/docs/blob/master/zh-cn/application-dev/quick-start/start-overview.md#%E5%BC%80%E5%8F%91%E5%87%86%E5%A4%87",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Coder.svg",
       title: "Coder",
       enUrl: "https://coder.com/docs/tutorials/quickstart",
@@ -2491,6 +2526,14 @@ Future main(List<String> args) async {
       zhTitle: "Git 源代码管理工具",
       enUrl: "https://git-scm.com/docs/git",
       zhUrl: "https://git-scm.com/docs/git/zh_HANS-CN",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/git-scm.svg",
+      title: "Fossil SCM",
+      zhTitle: "Fossil 源代码管理工具",
+      enUrl: "https://fossil-scm.org/home/doc/trunk/www/quickstart.wiki",
     ),
   );
   itemList.add(
@@ -3461,6 +3504,29 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Biome.svg",
+      title: "Biome Playground",
+      zhTitle: "Biome 图乐园",
+      enUrl: "https://biomejs.dev/playground",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Oxc.svg",
+      title: "Oxc Playground",
+      zhTitle: "Oxc 图乐园",
+      enUrl: "https://playground.oxc.rs",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Oxc.svg",
+      title: "Oxfmt",
+      enUrl: "https://oxc.rs/blog/2025-12-01-oxfmt-alpha.html#quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Playwright.svg",
       title: "Playwright",
       enUrl: "https://playwright.dev/docs/intro#installing-playwright",
@@ -3639,6 +3705,48 @@ Future main(List<String> args) async {
       title: "Media Types",
       zhTitle: "媒体类型",
       enUrl: "https://www.iana.org/assignments/media-types/media-types.xhtml",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Gurted.svg",
+      title: "Gurted",
+      enUrl: "https://docs.gurted.com/docs/intro/#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Gurted.svg",
+      title: "GURT Protocol",
+      enUrl: "https://docs.gurted.com/docs/gurt-protocol",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Gurted.svg",
+      title: "Gurty CLI Tool",
+      enUrl: "https://docs.gurted.com/docs/gurty-cli#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Gurted.svg",
+      title: "GURT Client Library",
+      enUrl: "https://docs.gurted.com/docs/gurt-client#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Gurted.svg",
+      title: "GURT Server Library",
+      enUrl: "https://docs.gurted.com/docs/gurt-server#installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/BLAKE3.svg",
+      title: "BLAKE3",
+      enUrl: "https://github.com/BLAKE3-team/BLAKE3?tab=readme-ov-file#usage",
     ),
   );
   itemList.add(
@@ -6998,6 +7106,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/B3.svg",
+      title: "BLAKE3",
+      enUrl: "https://github.com/BLAKE3-team/BLAKE3?tab=readme-ov-file#usage",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/devenv.svg",
       title: "devenv",
       enUrl: "https://devenv.sh/getting-started",
@@ -7653,6 +7768,22 @@ Future main(List<String> args) async {
       imgUrl: "/Zed.svg",
       title: "Zed",
       enUrl: "https://zed.dev/docs/#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Zed.svg",
+      title: "GPUI",
+      enUrl:
+          "https://github.com/zed-industries/zed/tree/main/crates/gpui#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GPUI-Component.svg",
+      title: "GPUI Component",
+      enUrl:
+          "https://longbridge.github.io/gpui-component/docs/getting-started#getting-started",
     ),
   );
   itemList.add(
