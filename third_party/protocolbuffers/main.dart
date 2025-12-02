@@ -465,6 +465,14 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Kotlin.svg",
+      title: "Kotlin IR Printer",
+      enUrl:
+          "https://github.com/bennyhuo/kotlin-ir-printer?tab=readme-ov-file#try-it",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Kotlin.svg",
       title: "kotlin-stdlib",
       enUrl: "https://kotlinlang.org/api/core/kotlin-stdlib",
     ),
@@ -4024,6 +4032,24 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      emojiIcon: "👋",
+      imgUrl: "/GitHub.svg",
+      title: "Hulo",
+      enUrl: "https://hulo-lang.github.io/docs/guide/#quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
+      emojiIcon: "👋",
+      imgUrl: "/GitHub.svg",
+      title: "docwiz",
+      enUrl: "https://github.com/Ansurfen/docwiz?tab=readme-ov-file#-install",
+      zhUrl:
+          "https://github.com/Ansurfen/docwiz/blob/main/docs/zh_cn/README.md#-%E5%AE%89%E8%A3%85",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GraalVM.svg",
       title: "GraalVM",
       enUrl: "https://www.graalvm.org/latest/getting-started",
@@ -7032,6 +7058,21 @@ Future main(List<String> args) async {
       title: "Ionic Vue",
       enUrl:
           "https://ionicframework.com/docs/vue/quickstart#what-is-ionic-framework",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/NativeScript-Vue.svg",
+      title: "NativeScript-Vue",
+      enUrl: "https://nativescript-vue.org/docs/getting-started/installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/NativeScript-Vue.svg",
+      title: "NativeScript-Vue Playground",
+      zhTitle: "NativeScript-Vue 图乐园",
+      enUrl: "https://stackblitz.com/edit/nativescript-vue-nativescript-vue-5hqh9lmr?file=src%2Fcomponents%2FHome.vue&title=NativeScript%20Starter%20Vue3x",
     ),
   );
   itemList.add(
