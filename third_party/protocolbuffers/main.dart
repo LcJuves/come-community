@@ -1275,8 +1275,16 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Docker.svg",
-      title: "Docker",
-      enUrl: "https://docs.docker.com",
+      title: "Docker Engine",
+      zhTitle: "Docker 引擎",
+      enUrl: "https://docs.docker.com/engine/install/debian",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Docker.svg",
+      title: "Docker Compose",
+      enUrl: "https://docs.docker.com/compose/gettingstarted",
     ),
   );
   itemList.add(
@@ -1294,6 +1302,14 @@ Future main(List<String> args) async {
       title: "Django",
       enUrl: "https://docs.djangoproject.com/en/5.2/intro/tutorial01",
       zhUrl: "https://docs.djangoproject.com/zh-hans/5.2/intro/tutorial01",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Meyou.svg",
+      title: "FastAPI",
+      enUrl: "https://fastapi.tiangolo.com/tutorial/first-steps",
+      zhUrl: "https://fastapi.tiangolo.com/zh/tutorial/first-steps",
     ),
   );
   itemList.add(
@@ -2031,6 +2047,13 @@ Future main(List<String> args) async {
       title: "SwiftUI",
       enUrl:
           "https://developer.apple.com/tutorials/develop-in-swift/hello-swiftui",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Swift.svg",
+      title: "CrossUI",
+      enUrl: "https://github.com/MeyouOSS/CrossUI?tab=readme-ov-file#crossui",
     ),
   );
   itemList.add(
@@ -3483,6 +3506,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/GitHub.svg",
+      title: "Strix",
+      enUrl:
+          "https://github.com/usestrix/strix/blob/main/README.md#-quick-start",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Hexo.svg",
       title: "Hexo",
       enUrl: "https://hexo.io/docs/setup.html",
@@ -3892,6 +3923,14 @@ Future main(List<String> args) async {
       imgUrl: "/RabbitMQ.svg",
       title: "RabbitMQ",
       enUrl: "https://www.rabbitmq.com/tutorials/tutorial-one-rust-stream",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/BlazingMQ.svg",
+      title: "BlazingMQ",
+      enUrl:
+          "https://bloomberg.github.io/blazingmq/docs/getting_started/blazingmq_in_action",
     ),
   );
   itemList.add(
@@ -4349,6 +4388,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/RustFS.svg",
+      title: "RustFS",
+      enUrl: "https://docs.rustfs.com/installation/linux/quick-start.html",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GTK.svg",
       title: "GTK",
       enUrl: "https://www.gtk.org/docs/getting-started",
@@ -4458,6 +4504,14 @@ Future main(List<String> args) async {
       imgUrl: "/MQTT.svg",
       title: "MQTT",
       enUrl: "https://www.hivemq.com/blog/how-to-get-started-with-mqtt",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Meyou.svg",
+      title: "Fory",
+      enUrl: "https://fory.apache.org/docs/docs/start/usage",
+      zhUrl: "https://fory.apache.org/zh-CN/docs/docs/start/usage",
     ),
   );
   itemList.add(
@@ -5054,6 +5108,14 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Xcode.svg",
+      title: "Command Line Tools for Xcode",
+      enUrl:
+          "https://developer.apple.com/documentation/xcode/command-line-tools",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/Meyou.svg",
       title: "HighlightJS",
       enUrl:
@@ -5091,8 +5153,23 @@ Future main(List<String> args) async {
   itemList.add(
     Item(
       imgUrl: "/Swagger.svg",
-      title: "Swagger",
-      enUrl: "https://swagger.io/docs",
+      title: "Swagger UI",
+      enUrl:
+          "https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OAI.svg",
+      title: "OpenAPI",
+      enUrl: "https://learn.openapis.org/#getting-started",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/OAI.svg",
+      title: "OAS",
+      enUrl: "https://spec.openapis.org/oas/latest.html",
     ),
   );
   itemList.add(
@@ -7000,6 +7077,44 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/GitBook.svg",
+      title: "x402 for Buyers",
+      enUrl:
+          "https://x402.gitbook.io/x402/getting-started/quickstart-for-buyers",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/GitBook.svg",
+      title: "x402 for Sellers",
+      enUrl:
+          "https://x402.gitbook.io/x402/getting-started/quickstart-for-sellers",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/SolonaKit.svg",
+      title: "Solana Kit",
+      enUrl: "https://www.solanakit.com/docs/getting-started/setup",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Web3JS.svg",
+      title: "Web3JS",
+      enUrl: "https://docs.web3js.org/guides/getting_started/quickstart",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/Web3JS.svg",
+      title: "Web3JS Playground",
+      zhTitle: "Web3JS 图乐园",
+      enUrl: "https://docs.web3js.org/web3_playground",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GCC.svg",
       title: "GCC",
       enUrl: "https://gcc.gnu.org/onlinedocs/gcc-15.1.0/gcc/#Introduction",
@@ -7541,6 +7656,13 @@ Future main(List<String> args) async {
       zhTitle: "向作者捐赠",
       enUrl:
           "https://remit.alipay.com/?m=ZW1haWxAbGNqdXZlcy5jb20=,SklF,REVORw==,Q04=,IA==,IA==,IA==,IA==&d=1750575992645&v=v1.0",
+    ),
+  );
+  itemList.add(
+    Item(
+      imgUrl: "/AntGroup.svg",
+      title: "FluidMarkdown",
+      enUrl: "https://github.com/antgroup/FluidMarkdown/blob/main/INSTALL.md",
     ),
   );
   itemList.add(

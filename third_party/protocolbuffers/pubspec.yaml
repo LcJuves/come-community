@@ -9,6 +9,7 @@ environment:
 # Add regular dependencies here.
 dependencies:
   protobuf: ^4.0.0
+  tar: ^2.0.2
   # path: ^1.8.0
 
 dev_dependencies:
