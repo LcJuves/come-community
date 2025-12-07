@@ -2689,6 +2689,13 @@ Future main(List<String> args) async {
   );
   itemList.add(
     Item(
+      imgUrl: "/Forgejo.svg",
+      title: "Forgejo Package Registry",
+      enUrl: "https://forgejo.org/docs/latest/user/packages",
+    ),
+  );
+  itemList.add(
+    Item(
       imgUrl: "/GitHub.svg",
       title: "GitHub Pages",
       enUrl: "https://docs.github.com/en/pages/quickstart",
@@ -8003,7 +8010,7 @@ Future main(List<String> args) async {
   final items = Items(itemList: itemList.toSet().toList());
   items.tempTipVisible = true;
   items.ipv6Guard = true;
-  items.specIpAddrPrefix = "2408:8256:2c80";
+  items.specIpAddrPrefix = "2408:8256:3382";
   items.shutdownSomeArea = true;
   final itemsPB = File('../../items.pb');
   await itemsPB.writeAsBytes(items.writeToBuffer(), flush: true);
