@@ -480,7 +480,7 @@ packages:
   protobuffers:
     dependency: "direct main"
     description:
-      path: "third_party/protocolbuffers"
+      path: "third_party/protobuf"
       relative: true
     source: path
     version: "1.0.0"
