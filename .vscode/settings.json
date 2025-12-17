@@ -1,13 +1,12 @@
 {
   "livePreview.serverRoot": "build/web",
-  "svg.preview.background": "transparent"
-  //   "protoc": {
-  //     "path": "/Users/lcjuves/Documents/macos/Enviroment/protoc-24/bin/protoc",
-  //     "options": [
-  //       "--plugin=/Users/lcjuves/.pub-cache/bin/protoc-gen-dart",
-  //       "--proto_path=${workspaceRoot}/third_party/protocolbuffers/lib",
-  //       "--dart_out=${workspaceRoot}/third_party/protocolbuffers/lib",
-  //       "${workspaceRoot}/third_party/protocolbuffers/lib/items.proto"
-  //     ]
-  //   }
+  "svg.preview.background": "transparent",
+  "protoc": {
+    "path": "protoc",
+    "options": [
+      "-I=$SRC_DIR",
+      "--dart_out=${workspaceRoot}/third_party/protobuf/lib",
+      "${workspaceRoot}/third_party/protobuf/lib/items.proto"
+    ]
+  }
 }
