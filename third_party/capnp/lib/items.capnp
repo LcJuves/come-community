@@ -8,11 +8,13 @@ struct Item {
   zhTitle @4 :Text;
   enUrl @5 :Text;
   zhUrl @6 :Text;
+  useVecIcon @7 :Bool;
+  spec @8 :Text;
 }
 
 struct Items {
   tempTipVisible @0 :Bool;
-  specIpAddrPrefix @1 :Text;
+  spec_ip_addr_prefixes @1 :List(Text);
   ipv6Guard @2 :Bool;
   shutdownSomeArea @3 :Bool;
   useBlurWallpaper @4 :Bool;

@@ -6,11 +6,13 @@ table Item {
     zh_title:string;
     en_url:string;
     zh_url:string;
+    use_vec_icon:bool;
+    spec:string;
 }
 
 table Items {
     temp_tip_visible:bool;
-    spec_ip_addr_prefix:string;
+    spec_ip_addr_prefixes:[string];
     ipv6_guard:bool;
     shutdown_some_area:bool;
     use_blur_wallpaper:bool;

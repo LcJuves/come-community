@@ -2,8 +2,8 @@
 // ignore_for_file: unused_import, unused_field, unused_element, unused_local_variable, constant_identifier_names
 
 import 'dart:typed_data' show Uint8List;
-import 'package:flat_buffers/flat_buffers.dart' as fb;
 
+import 'package:flat_buffers/flat_buffers.dart' as fb;
 
 class Item {
   Item._(this._bc, this._bcOffset);
@@ -17,17 +17,28 @@ class Item {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  String? get emojiIcon => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 4);
-  String? get imgUrl => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 6);
-  String? get zhImgUrl => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 8);
-  String? get title => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 10);
-  String? get zhTitle => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 12);
-  String? get enUrl => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 14);
-  String? get zhUrl => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 16);
+  String? get emojiIcon =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 4);
+  String? get imgUrl =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 6);
+  String? get zhImgUrl =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 8);
+  String? get title =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 10);
+  String? get zhTitle =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 12);
+  String? get enUrl =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 14);
+  String? get zhUrl =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 16);
+  bool get useVecIcon =>
+      const fb.BoolReader().vTableGet(_bc, _bcOffset, 18, false);
+  String? get spec =>
+      const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 20);
 
   @override
   String toString() {
-    return 'Item{emojiIcon: $emojiIcon, imgUrl: $imgUrl, zhImgUrl: $zhImgUrl, title: $title, zhTitle: $zhTitle, enUrl: $enUrl, zhUrl: $zhUrl}';
+    return 'Item{emojiIcon: ${emojiIcon}, imgUrl: ${imgUrl}, zhImgUrl: ${zhImgUrl}, title: ${title}, zhTitle: ${zhTitle}, enUrl: ${enUrl}, zhUrl: ${zhUrl}, useVecIcon: ${useVecIcon}, spec: ${spec}}';
   }
 }
 
@@ -35,8 +46,7 @@ class _ItemReader extends fb.TableReader<Item> {
   const _ItemReader();
 
   @override
-  Item createObject(fb.BufferContext bc, int offset) => 
-    Item._(bc, offset);
+  Item createObject(fb.BufferContext bc, int offset) => Item._(bc, offset);
 }
 
 class ItemBuilder {
@@ -45,35 +55,51 @@ class ItemBuilder {
   final fb.Builder fbBuilder;
 
   void begin() {
-    fbBuilder.startTable(7);
+    fbBuilder.startTable(9);
   }
 
   int addEmojiIconOffset(int? offset) {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
+
   int addImgUrlOffset(int? offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
+
   int addZhImgUrlOffset(int? offset) {
     fbBuilder.addOffset(2, offset);
     return fbBuilder.offset;
   }
+
   int addTitleOffset(int? offset) {
     fbBuilder.addOffset(3, offset);
     return fbBuilder.offset;
   }
+
   int addZhTitleOffset(int? offset) {
     fbBuilder.addOffset(4, offset);
     return fbBuilder.offset;
   }
+
   int addEnUrlOffset(int? offset) {
     fbBuilder.addOffset(5, offset);
     return fbBuilder.offset;
   }
+
   int addZhUrlOffset(int? offset) {
     fbBuilder.addOffset(6, offset);
+    return fbBuilder.offset;
+  }
+
+  int addUseVecIcon(bool? useVecIcon) {
+    fbBuilder.addBool(7, useVecIcon);
+    return fbBuilder.offset;
+  }
+
+  int addSpecOffset(int? offset) {
+    fbBuilder.addOffset(8, offset);
     return fbBuilder.offset;
   }
 
@@ -90,6 +116,8 @@ class ItemObjectBuilder extends fb.ObjectBuilder {
   final String? _zhTitle;
   final String? _enUrl;
   final String? _zhUrl;
+  final bool? _useVecIcon;
+  final String? _spec;
 
   ItemObjectBuilder({
     String? emojiIcon,
@@ -99,33 +127,44 @@ class ItemObjectBuilder extends fb.ObjectBuilder {
     String? zhTitle,
     String? enUrl,
     String? zhUrl,
-  })
-      : _emojiIcon = emojiIcon,
-        _imgUrl = imgUrl,
-        _zhImgUrl = zhImgUrl,
-        _title = title,
-        _zhTitle = zhTitle,
-        _enUrl = enUrl,
-        _zhUrl = zhUrl;
+    bool? useVecIcon,
+    String? spec,
+  }) : _emojiIcon = emojiIcon,
+       _imgUrl = imgUrl,
+       _zhImgUrl = zhImgUrl,
+       _title = title,
+       _zhTitle = zhTitle,
+       _enUrl = enUrl,
+       _zhUrl = zhUrl,
+       _useVecIcon = useVecIcon,
+       _spec = spec;
 
   /// Finish building, and store into the [fbBuilder].
   @override
   int finish(fb.Builder fbBuilder) {
-    final int? emojiIconOffset = _emojiIcon == null ? null
+    final int? emojiIconOffset = _emojiIcon == null
+        ? null
         : fbBuilder.writeString(_emojiIcon);
-    final int? imgUrlOffset = _imgUrl == null ? null
+    final int? imgUrlOffset = _imgUrl == null
+        ? null
         : fbBuilder.writeString(_imgUrl);
-    final int? zhImgUrlOffset = _zhImgUrl == null ? null
+    final int? zhImgUrlOffset = _zhImgUrl == null
+        ? null
         : fbBuilder.writeString(_zhImgUrl);
-    final int? titleOffset = _title == null ? null
+    final int? titleOffset = _title == null
+        ? null
         : fbBuilder.writeString(_title);
-    final int? zhTitleOffset = _zhTitle == null ? null
+    final int? zhTitleOffset = _zhTitle == null
+        ? null
         : fbBuilder.writeString(_zhTitle);
-    final int? enUrlOffset = _enUrl == null ? null
+    final int? enUrlOffset = _enUrl == null
+        ? null
         : fbBuilder.writeString(_enUrl);
-    final int? zhUrlOffset = _zhUrl == null ? null
+    final int? zhUrlOffset = _zhUrl == null
+        ? null
         : fbBuilder.writeString(_zhUrl);
-    fbBuilder.startTable(7);
+    final int? specOffset = _spec == null ? null : fbBuilder.writeString(_spec);
+    fbBuilder.startTable(9);
     fbBuilder.addOffset(0, emojiIconOffset);
     fbBuilder.addOffset(1, imgUrlOffset);
     fbBuilder.addOffset(2, zhImgUrlOffset);
@@ -133,6 +172,8 @@ class ItemObjectBuilder extends fb.ObjectBuilder {
     fbBuilder.addOffset(4, zhTitleOffset);
     fbBuilder.addOffset(5, enUrlOffset);
     fbBuilder.addOffset(6, zhUrlOffset);
+    fbBuilder.addBool(7, _useVecIcon);
+    fbBuilder.addOffset(8, specOffset);
     return fbBuilder.endTable();
   }
 
@@ -144,6 +185,7 @@ class ItemObjectBuilder extends fb.ObjectBuilder {
     return fbBuilder.buffer;
   }
 }
+
 class Items {
   Items._(this._bc, this._bcOffset);
   factory Items(List<int> bytes) {
@@ -156,16 +198,24 @@ class Items {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  bool get tempTipVisible => const fb.BoolReader().vTableGet(_bc, _bcOffset, 4, false);
-  String? get specIpAddrPrefix => const fb.StringReader().vTableGetNullable(_bc, _bcOffset, 6);
-  bool get ipv6Guard => const fb.BoolReader().vTableGet(_bc, _bcOffset, 8, false);
-  bool get shutdownSomeArea => const fb.BoolReader().vTableGet(_bc, _bcOffset, 10, false);
-  bool get useBlurWallpaper => const fb.BoolReader().vTableGet(_bc, _bcOffset, 12, false);
-  List<Item>? get itemList => const fb.ListReader<Item>(Item.reader).vTableGetNullable(_bc, _bcOffset, 14);
+  bool get tempTipVisible =>
+      const fb.BoolReader().vTableGet(_bc, _bcOffset, 4, false);
+  List<String>? get specIpAddrPrefixes => const fb.ListReader<String>(
+    fb.StringReader(),
+  ).vTableGetNullable(_bc, _bcOffset, 6);
+  bool get ipv6Guard =>
+      const fb.BoolReader().vTableGet(_bc, _bcOffset, 8, false);
+  bool get shutdownSomeArea =>
+      const fb.BoolReader().vTableGet(_bc, _bcOffset, 10, false);
+  bool get useBlurWallpaper =>
+      const fb.BoolReader().vTableGet(_bc, _bcOffset, 12, false);
+  List<Item>? get itemList => const fb.ListReader<Item>(
+    Item.reader,
+  ).vTableGetNullable(_bc, _bcOffset, 14);
 
   @override
   String toString() {
-    return 'Items{tempTipVisible: $tempTipVisible, specIpAddrPrefix: $specIpAddrPrefix, ipv6Guard: $ipv6Guard, shutdownSomeArea: $shutdownSomeArea, useBlurWallpaper: $useBlurWallpaper, itemList: $itemList}';
+    return 'Items{tempTipVisible: $tempTipVisible, specIpAddrPrefixes: $specIpAddrPrefixes, ipv6Guard: $ipv6Guard, shutdownSomeArea: $shutdownSomeArea, useBlurWallpaper: $useBlurWallpaper, itemList: $itemList}';
   }
 }
 
@@ -173,8 +223,7 @@ class _ItemsReader extends fb.TableReader<Items> {
   const _ItemsReader();
 
   @override
-  Items createObject(fb.BufferContext bc, int offset) => 
-    Items._(bc, offset);
+  Items createObject(fb.BufferContext bc, int offset) => Items._(bc, offset);
 }
 
 class ItemsBuilder {
@@ -190,22 +239,27 @@ class ItemsBuilder {
     fbBuilder.addBool(0, tempTipVisible);
     return fbBuilder.offset;
   }
-  int addSpecIpAddrPrefixOffset(int? offset) {
+
+  int addSpecIpAddrPrefixesOffset(int? offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
+
   int addIpv6Guard(bool? ipv6Guard) {
     fbBuilder.addBool(2, ipv6Guard);
     return fbBuilder.offset;
   }
+
   int addShutdownSomeArea(bool? shutdownSomeArea) {
     fbBuilder.addBool(3, shutdownSomeArea);
     return fbBuilder.offset;
   }
+
   int addUseBlurWallpaper(bool? useBlurWallpaper) {
     fbBuilder.addBool(4, useBlurWallpaper);
     return fbBuilder.offset;
   }
+
   int addItemListOffset(int? offset) {
     fbBuilder.addOffset(5, offset);
     return fbBuilder.offset;
@@ -218,7 +272,7 @@ class ItemsBuilder {
 
 class ItemsObjectBuilder extends fb.ObjectBuilder {
   final bool? _tempTipVisible;
-  final String? _specIpAddrPrefix;
+  final List<String>? _specIpAddrPrefixes;
   final bool? _ipv6Guard;
   final bool? _shutdownSomeArea;
   final bool? _useBlurWallpaper;
@@ -226,29 +280,34 @@ class ItemsObjectBuilder extends fb.ObjectBuilder {
 
   ItemsObjectBuilder({
     bool? tempTipVisible,
-    String? specIpAddrPrefix,
+    List<String>? specIpAddrPrefixes,
     bool? ipv6Guard,
     bool? shutdownSomeArea,
     bool? useBlurWallpaper,
     List<ItemObjectBuilder>? itemList,
-  })
-      : _tempTipVisible = tempTipVisible,
-        _specIpAddrPrefix = specIpAddrPrefix,
-        _ipv6Guard = ipv6Guard,
-        _shutdownSomeArea = shutdownSomeArea,
-        _useBlurWallpaper = useBlurWallpaper,
-        _itemList = itemList;
+  }) : _tempTipVisible = tempTipVisible,
+       _specIpAddrPrefixes = specIpAddrPrefixes,
+       _ipv6Guard = ipv6Guard,
+       _shutdownSomeArea = shutdownSomeArea,
+       _useBlurWallpaper = useBlurWallpaper,
+       _itemList = itemList;
 
   /// Finish building, and store into the [fbBuilder].
   @override
   int finish(fb.Builder fbBuilder) {
-    final int? specIpAddrPrefixOffset = _specIpAddrPrefix == null ? null
-        : fbBuilder.writeString(_specIpAddrPrefix);
-    final int? itemListOffset = _itemList == null ? null
-        : fbBuilder.writeList(_itemList.map((b) => b.getOrCreateOffset(fbBuilder)).toList());
+    final int? specIpAddrPrefixesOffset = _specIpAddrPrefixes == null
+        ? null
+        : fbBuilder.writeList(
+            _specIpAddrPrefixes.map(fbBuilder.writeString).toList(),
+          );
+    final int? itemListOffset = _itemList == null
+        ? null
+        : fbBuilder.writeList(
+            _itemList.map((b) => b.getOrCreateOffset(fbBuilder)).toList(),
+          );
     fbBuilder.startTable(6);
     fbBuilder.addBool(0, _tempTipVisible);
-    fbBuilder.addOffset(1, specIpAddrPrefixOffset);
+    fbBuilder.addOffset(1, specIpAddrPrefixesOffset);
     fbBuilder.addBool(2, _ipv6Guard);
     fbBuilder.addBool(3, _shutdownSomeArea);
     fbBuilder.addBool(4, _useBlurWallpaper);
