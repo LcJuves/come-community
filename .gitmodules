@@ -1,10 +1,10 @@
 [submodule "third_party/openharmony-flutter"]
 	path = third_party/openharmony-flutter
 	url = https://gitcode.com/openharmony-tpc/flutter_flutter.git
-	branch = oh-3.27.4-dev
+	branch = oh-3.32.4-dev
 [submodule "third_party/web-artifacts"]
 	path = third_party/web-artifacts
-	url = https://github.com/MeyouRepo/come-web.git
+	url = https://github.com/MeyouOSS/come-web.git
 [submodule "third_party/protobuf"]
 	path = third_party/protobuf
 	url = ssh://git@codeberg.org/LcJuves/protocolbuffers.git
