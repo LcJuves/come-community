@@ -1,28 +1,31 @@
 #!/bin/sh
+# https://docs.flutter.dev/deployment/cd#fastlane
 
 flutter clean
 flutter build web --wasm --strip-wasm --tree-shake-icons --no-native-null-assertions --no-web-resources-cdn -O 4 --release
 
 minify_js() {
-    bun build "$1" --minify-syntax --minify-whitespace --target browser --outfile "$1"
+	bun build "$1" --minify-syntax --minify-whitespace --target browser --outfile "$1"
 }
 
 minify_css() {
-    bun build "$1" --minify --css-chunking --target browser --outfile "$1"
+	bun build "$1" --minify --css-chunking --target browser --outfile "$1"
 }
 
 minify_html() {
-    bunx html-minifier --remove-comments --minify-js esbuild \
-        --minify-css esbuild --minify-urls relateurl \
-        --remove-optional-tags --remove-redundant-attributes \
-        --remove-tag-whitespace --collapse-whitespace \
-        --use-short-doctype --remove-script-type-attributes --remove-style-link-type-attributes \
-        "$1" -o "$1"
+	bunx html-minifier --remove-comments --minify-js esbuild \
+		--minify-css esbuild --minify-urls relateurl \
+		--remove-optional-tags --remove-redundant-attributes \
+		--remove-tag-whitespace --collapse-whitespace \
+		--remove-script-type-attributes \
+		--remove-style-link-type-attributes \
+		--use-short-doctype \
+		"$1" -o "$1"
 }
 
 minify_json() {
-    bun repl -e "(async()=>await Bun.write(Bun.stdout,JSON.stringify(require('./$1'))))()" >"$1.out"
-    mv "$1.out" "$1"
+	bun repl -e "(async()=>await Bun.write(Bun.stdout,JSON.stringify(require('./$1'))))()" >"$1.out"
+	mv "$1.out" "$1"
 }
 
 (

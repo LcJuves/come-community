@@ -1,5 +1,7 @@
+import 'dart:async';
 import 'dart:convert';
 
+import 'package:come/constants.dart';
 import 'package:come/info.dart';
 import 'package:come/model/future_data.dart';
 import 'package:come/model/future_desc.dart';
@@ -11,59 +13,55 @@ import 'package:html/parser.dart';
 import 'package:http/http.dart' as http;
 import 'package:protobuffers/items.pb.dart';
 
-Future<Uint8List> httpReadBytes(Uri url) async {
-  final response = await http.get(url, headers: {
+Future<Uint8List> httpReadBytes(Uri url) {
+  return http.readBytes(url, headers: {
     "User-Agent":
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+        Constants.ua, // Set a custom User-Agent to avoid potential blocking
   });
-  return Future.value(response.bodyBytes);
+  // return httpStreamReadBytesWithGetMethod(url);
 }
 
-Future<String> httpReadString(Uri url) async {
-  final Uint8List bytes = await httpReadBytes(url);
-  String result = utf8.decode(bytes);
-  return Future.value(result);
+Future<String> httpReadString(Uri url) {
+  return httpReadBytes(url).then((bytes) => utf8.decode(bytes));
 }
 
-Future<Items> _fetchItems() async {
+Future<Items> _fetchItems() {
   if (!kDebugMode && !kIsWeb) {
-    final responseBodyBytes = await httpReadBytes(
-        Uri.parse("https://come.lcjuves.com/assets/items.pb"));
-    if (responseBodyBytes.isNotEmpty) {
-      return Items.fromBuffer(responseBodyBytes);
-    } else {
-      // If the server did not return a 200 OK response,
-      // then throw an exception.
-      throw Exception('Failed to load items');
-    }
+    final httpReadBytesFuture =
+        httpReadBytes(Uri.parse("https://come.lcjuves.com/assets/final-items.pb"));
+    return httpReadBytesFuture.then((responseBodyBytes) =>
+        responseBodyBytes.isNotEmpty
+            ? Future.value(Items.fromBuffer(responseBodyBytes))
+            : Future.error(Exception('Failed to load items')));
   }
-  final buffer = await rootBundle.load('items.pb');
-  return Future.value(Items.fromBuffer(Uint8List.sublistView(buffer)));
+  final itemsPBBundleLoadFuture = rootBundle.load('final-items.pb');
+  return itemsPBBundleLoadFuture
+      .then((buffer) => Items.fromBuffer(Uint8List.sublistView(buffer)));
 }
 
-Future<FutureData> fetchData(material.BuildContext context) async {
-  final futureItems = await _fetchItems();
+Future<FutureData> fetchData(material.BuildContext context) {
   // ignore: use_build_context_synchronously
-  final futureGeoInfo = await getGeoInfo(context, futureItems);
-  final futureData = FutureData(items: futureItems, geoInfo: futureGeoInfo);
-  return Future.value(futureData);
+  return _fetchItems().then((futureItems) => fetchGeoInfo(context, futureItems)
+      .then((futureGeoInfo) =>
+          FutureData(items: futureItems, geoInfo: futureGeoInfo)));
 }
 
-Future<FutureDesc> fetchDesc(Uri url) async {
-  final FutureDesc futureDesc = FutureDesc(desc: "", msgDesc: "");
+Future<FutureDesc> fetchDesc(Uri url) {
+  final FutureDesc defaultFutureDesc = FutureDesc(desc: "", msgDesc: "");
   if (url.path.endsWith("svg")) {
-    return Future.value(futureDesc);
-  }
-  final String responseBody;
-  try {
-    responseBody = await httpReadString(url);
-    if (responseBody.isEmpty) {
-      return Future.value(futureDesc);
-    }
-  } catch (_) {
-    return Future.value(futureDesc);
+    return Future.value(defaultFutureDesc);
   }
 
+  final Future<String> httpReadBytesFuture = httpReadString(url);
+  return httpReadBytesFuture
+      .then((responseBody) async => responseBody.isEmpty
+          ? defaultFutureDesc
+          : await _parseDesc(responseBody))
+      .catchError((_) => defaultFutureDesc);
+}
+
+Future<FutureDesc> _parseDesc(String responseBody) {
+  final FutureDesc futureDesc = FutureDesc(desc: "", msgDesc: "");
   final Document document = parse(responseBody);
   final Element? head = document.head;
   if (head == null) return Future.value(futureDesc);
@@ -78,9 +76,9 @@ Future<FutureDesc> fetchDesc(Uri url) async {
       return Future.value(futureDesc);
     }
     final Element title = titleElements[0];
-    final titleElemVal = title.text;
-    futureDesc.desc = titleElemVal;
-    futureDesc.msgDesc = titleElemVal;
+    final titleText = title.text;
+    futureDesc.desc = titleText;
+    futureDesc.msgDesc = titleText;
     return Future.value(futureDesc);
   }
 
@@ -91,6 +89,9 @@ Future<FutureDesc> fetchDesc(Uri url) async {
   for (final metaElement in metaElements) {
     final String? metaKey =
         metaElement.attributes["property"] ?? metaElement.attributes["name"];
+    if (metaKey == null || metaKey.isEmpty) {
+      continue;
+    }
     final String? metaElementContent = metaElement.attributes["content"];
     if (metaElementContent == null || metaElementContent.isEmpty) {
       continue;
@@ -104,16 +105,17 @@ Future<FutureDesc> fetchDesc(Uri url) async {
     } else if (metaKey == "description") {
       metaDescription = metaElementContent;
     }
+    if (metaTitle != null &&
+        metaOgSiteName != null &&
+        metaOgDescription != null &&
+        metaDescription != null) {
+      break;
+    }
   }
-  if (!((metaOgSiteName == null || metaOgSiteName.isEmpty) &&
-      (metaTitle == null || metaTitle.isEmpty) &&
-      (metaOgDescription == null || metaOgDescription.isEmpty) &&
-      (metaDescription == null || metaDescription.isEmpty))) {
-    final desc =
-        metaTitle ?? metaOgSiteName ?? metaOgDescription ?? metaDescription;
-    final msgDesc = metaOgDescription ?? metaDescription;
-    futureDesc.desc = desc ?? "";
-    futureDesc.msgDesc = msgDesc ?? "";
-  }
+  final desc =
+      metaTitle ?? metaOgSiteName ?? metaOgDescription ?? metaDescription;
+  final msgDesc = metaOgDescription ?? metaDescription;
+  futureDesc.desc = desc ?? "";
+  futureDesc.msgDesc = msgDesc ?? "";
   return Future.value(futureDesc);
 }

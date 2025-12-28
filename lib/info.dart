@@ -5,39 +5,40 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:protobuffers/items.pb.dart';
 
-Future<dynamic> getGeoInfo(BuildContext context, Items items) async {
-  try {
-    if (!context.mounted) {
-      return Future.value({'country_code': 'EN'});
-    }
+Future<dynamic> fetchGeoInfo(BuildContext context, Items items) {
+  if (!context.mounted) {
+    return Future.value({'country_code': 'EN'});
+  }
 
-    final responseBody =
-        await httpReadString(Uri.parse('https://ipapi.co/json'));
+  final httpReadBytesFuture =
+      httpReadString(Uri.parse('https://ipapi.co/json'));
+  final result = httpReadBytesFuture.then((responseBody) {
     if (responseBody.isEmpty) {
       // ignore: use_build_context_synchronously
       return _getLocaleLangInfo(context);
     }
     final fetchedGeoInfo = jsonDecode(responseBody);
-    if (items.hasSpecIpAddrPrefix() &&
-        "${fetchedGeoInfo['ip']}".startsWith(items.specIpAddrPrefix) &&
-        "${fetchedGeoInfo['region_code']}".toLowerCase() ==
-            "GD".toLowerCase()) {
+    if (items.specIpAddrPrefixes.isNotEmpty &&
+        items.specIpAddrPrefixes
+            .where((prefix) => fetchedGeoInfo['ip'].startsWith(prefix))
+            .isNotEmpty &&
+        fetchedGeoInfo['region_code'].toLowerCase() == "GD".toLowerCase()) {
       fetchedGeoInfo['country_code'] = "EN";
     }
     return fetchedGeoInfo;
-  } catch (_) {
+  }).catchError((_) {
     // ignore: use_build_context_synchronously
     return _getLocaleLangInfo(context);
-  }
+  });
+  return result;
 }
 
-Future<dynamic> _getLocaleLangInfo(BuildContext context) async {
+dynamic _getLocaleLangInfo(BuildContext context) {
   Locale locale = Localizations.localeOf(context);
   final languageCode = locale.languageCode;
-  if (languageCode.isNotEmpty || languageCode.toLowerCase().startsWith("zh")) {
-    return Future.value({'country_code': 'CN'});
-  }
-  return Future.value({'country_code': 'EN'});
+  return languageCode.isNotEmpty || languageCode.toLowerCase().startsWith("zh")
+      ? {'country_code': 'CN'}
+      : {'country_code': 'EN'};
 }
 
 bool networkDisabled(dynamic fetchedGeoInfo, Items items) {
@@ -47,11 +48,13 @@ bool networkDisabled(dynamic fetchedGeoInfo, Items items) {
   // At present, only IPv6 support is provided.
   return (items.hasIpv6Guard() &&
           items.ipv6Guard &&
-          !items.hasSpecIpAddrPrefix() &&
-          ("${fetchedGeoInfo['version']}".toLowerCase() != "ipv6" ||
-              !"${fetchedGeoInfo['ip']}".toLowerCase().startsWith("255"))) ||
-      (items.hasSpecIpAddrPrefix() &&
-          !"${fetchedGeoInfo['ip']}".startsWith(items.specIpAddrPrefix));
+          items.specIpAddrPrefixes.isEmpty &&
+          (fetchedGeoInfo['version'].toLowerCase() != "ipv6" ||
+              !fetchedGeoInfo['ip'].toLowerCase().startsWith("255"))) ||
+      (items.specIpAddrPrefixes.isNotEmpty &&
+          items.specIpAddrPrefixes
+              .where((prefix) => prefix.startsWith(fetchedGeoInfo['ip']))
+              .isEmpty);
 }
 
 bool geoDisabled(dynamic fetchedGeoInfo, Items items, String? deviceId) {

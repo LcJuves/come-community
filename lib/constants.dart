@@ -36,4 +36,6 @@ abstract final class Constants {
       (Constants.edgePadding + Constants.balanceBackPadding) *
           Constants.goldenRatio;
   static const enableWallpaper = true;
+  static const ua =
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0';
 }

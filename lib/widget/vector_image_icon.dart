@@ -1,4 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:come/extended_http_client.dart';
 import 'package:come/webspec.dart';
 import 'package:come/widget/come_circular_progress_bar.dart';
 import 'package:come/widget/meyou_logo.dart';
@@ -11,11 +12,13 @@ class VectorImageIcon extends StatefulWidget {
   final String url;
   final double size;
   final bool useVecIcon;
+  final int cacheSize;
   const VectorImageIcon(
       {super.key,
       required this.url,
       required this.size,
-      required this.useVecIcon});
+      required this.useVecIcon,
+      required this.cacheSize});
 
   @override
   State<VectorImageIcon> createState() => _VectorImageIconState();
@@ -44,8 +47,10 @@ class _VectorImageIconState extends State<VectorImageIcon> {
 
     _image = widget.useVecIcon
         ? SvgPicture(
-            NetworkBytesLoader(Uri.parse(Uri.decodeComponent(
-                "${widget.url.replaceAll("svg/", "vec/")}.vec"))),
+            NetworkBytesLoader(
+                httpClient: extendedSpecHttpClient(),
+                Uri.parse(Uri.decodeComponent(
+                    "${widget.url.replaceAll("svg/", "vec/")}.vec"))),
             width: widget.size,
             height: widget.size,
             placeholderBuilder: (BuildContext context) =>
@@ -72,6 +77,16 @@ class _VectorImageIconState extends State<VectorImageIcon> {
         errorWidget: (context, url, error) => errorMeyouLogo,
       );
     }
+
+    /* _image = SizedBox(
+      width: widget.size,
+      height: widget.size,
+      child: ScalableImageWidget.fromSISource(
+          onLoading: (context) => circularProgressIndicator,
+          onError: (context) => circularProgressIndicator,
+          cache: ScalableImageCache(size: widget.cacheSize),
+          si: ScalableImageSource.fromSvgHttpUrl(Uri.parse(widget.url))),
+    ); */
   }
 
   @override

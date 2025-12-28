@@ -1,9 +1,9 @@
-import 'package:dart_animated_emoji/dart_animated_emoji.dart';
 import 'package:come/http_requests.dart';
 import 'package:come/model/future_desc.dart';
 import 'package:come/screen/preview_page.dart';
 import 'package:come/widget/captive_portal_svg_picture.dart';
 import 'package:come/widget/clip_rrect_backdrop_filter.dart';
+import 'package:dart_animated_emoji/dart_animated_emoji.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -16,25 +16,26 @@ import '../constants.dart';
 import 'inkwell_container.dart';
 import 'vector_image_icon.dart';
 
-// ignore: must_be_immutable
 class BaseContainer extends StatefulWidget {
   final String _commonUrlPrefix = Constants.svgCommonUrlPrefix;
-  late String _imgUrl;
+  late final String _imgUrl;
+  final int totalItems;
   final Item item;
   final dynamic geoInfo;
   final double singleChildScrollViewSpacing;
   late final bool _visible;
   BaseContainer({
     super.key,
+    required this.totalItems,
     required this.item,
     required this.geoInfo,
     required this.singleChildScrollViewSpacing,
   }) {
     _visible = true;
-    _imgUrl = item.imgUrl;
-    if (_imgUrl.startsWith('/')) {
-      _imgUrl = _commonUrlPrefix + _imgUrl;
-    }
+    final String itemImgUrl = item.imgUrl;
+    _imgUrl = !itemImgUrl.startsWith('/')
+        ? itemImgUrl
+        : _commonUrlPrefix + itemImgUrl;
   }
 
   double _textBoxDynamicWidth(BuildContext context) {
@@ -126,7 +127,9 @@ class _BaseContainerState extends State<BaseContainer> {
             useVecIcon: widget.item.hasUseVecIcon() && widget.item.useVecIcon,
             key: widget.key,
             url: widget._imgUrl,
-            size: Constants.svgIconSize);
+            size: Constants.svgIconSize,
+            cacheSize: widget.totalItems,
+          );
   }
 
   @override

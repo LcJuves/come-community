@@ -9,8 +9,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 // import 'package:platform_device_id/platform_device_id.dart'
-//     if (dart.library.js_interop) 'package:come/webspec.dart' as uni_spec;
+//     if (dart.library.js_interop) 'package:come/webspec.dart' as platform_device_id;
 import 'package:protobuffers/items.pb.dart';
+import 'package:universal_web/web.dart';
 
 const double sigma = 6.18 / 4.5;
 
@@ -69,11 +70,17 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
     super.initState();
     _shouldVisible =
         widget.items.hasTempTipVisible() && widget.items.tempTipVisible;
-    if (widget.items.hasSpecIpAddrPrefix() &&
+    if (widget.items.specIpAddrPrefixes.isNotEmpty &&
         widget.fetchedGeoInfo != null &&
-        "${widget.fetchedGeoInfo['ip']}"
-            .startsWith(widget.items.specIpAddrPrefix)) {
+        widget.items.specIpAddrPrefixes
+            .where((prefix) => widget.fetchedGeoInfo['ip'].startsWith(prefix))
+            .isNotEmpty) {
       _shouldVisible = false;
+    }
+    if (_shouldVisible && kDebugMode && kIsWeb) {
+      final flutterView =
+          document.querySelector("flutter-view") as HTMLDivElement?;
+      flutterView?.remove();
     }
     _visibilityTempTipTitle = widget.currentLocaleIsEN
         ? AppLocalizationsEn().visibilityTempTipTitle
@@ -93,7 +100,7 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
   }
 
   Future<void> _initGeoDisabledValue() async {
-    // final String? deviceId = await uni_spec.PlatformDeviceId.getDeviceId;
+    // final String? deviceId = await platform_device_id.PlatformDeviceId.getDeviceId;
     setState(() {
       _geoDisabled = geoDisabled(widget.fetchedGeoInfo, widget.items, "");
     });

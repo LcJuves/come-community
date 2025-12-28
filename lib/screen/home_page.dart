@@ -101,6 +101,7 @@ class _HomePageState extends State<HomePage> {
                               .map(
                                 (i) => BaseContainer(
                                   key: ValueKey("${i.enUrl}#${i.imgUrl}"),
+                                  totalItems: fetchedItems.itemList.length,
                                   item: i,
                                   geoInfo: fetchedData.fetchedGeoInfo,
                                   singleChildScrollViewSpacing:
@@ -163,7 +164,12 @@ class _HomePageState extends State<HomePage> {
               }
 
               // By default, show a loading circular progress bar.
-              return const AdaptiveCircularProgressBar();
+              return const AnimatedOpacity(
+                opacity: 1.0,
+                duration: Duration(milliseconds: 1000),
+                curve: Curves.fastEaseInToSlowEaseOut,
+                child: AdaptiveCircularProgressBar(),
+              );
             },
           ),
         ),
