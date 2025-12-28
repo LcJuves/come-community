@@ -1,5 +1,16 @@
-import 'package:come/widget/linear_gradient_shader_mask.dart';
-import 'package:flutter/material.dart';
+import 'package:come/widget/linear_gradient_shader_mask.dart'
+    show LinearGradientShaderMask;
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        IconData,
+        AlignmentGeometry,
+        Color,
+        BuildContext,
+        Widget,
+        Alignment,
+        Colors,
+        Icon;
 
 class LinearGradientIcon extends StatelessWidget {
   final IconData icon;

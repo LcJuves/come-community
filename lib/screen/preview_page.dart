@@ -1,17 +1,50 @@
-import 'dart:io';
+import 'dart:io' show Platform;
 
-import 'package:clipboard/clipboard.dart';
-import 'package:come/constants.dart';
-import 'package:come/l10n/app_localizations_en.dart';
-import 'package:come/l10n/app_localizations_zh.dart';
-import 'package:come/widget/page_icon_button.dart';
-import 'package:come/widget/rounded_rectangle_border_physical_shape.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:share_plus/share_plus.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:clipboard/clipboard.dart' show FlutterClipboard;
+import 'package:come/constants.dart' show Constants;
+import 'package:flutter/foundation.dart' show kIsWeb, kDebugMode;
+import 'package:flutter/material.dart'
+    show
+        StatefulWidget,
+        Widget,
+        State,
+        BuildContext,
+        EdgeInsets,
+        TextStyle,
+        Brightness,
+        Colors,
+        MediaQuery,
+        Alignment,
+        BorderRadius,
+        MainAxisSize,
+        MainAxisAlignment,
+        Icons,
+        Navigator,
+        SizedBox,
+        Container,
+        FontWeight,
+        Text,
+        Column,
+        ScaffoldMessenger,
+        SnackBar,
+        Visibility,
+        Row,
+        Align,
+        Stack,
+        Padding,
+        Scaffold;
+import 'package:flutter/services.dart' show SystemChrome;
+import 'package:flutter_inappwebview/flutter_inappwebview.dart'
+    show InAppWebViewController, InAppWebView, WebUri, URLRequest;
+import 'package:share_plus/share_plus.dart' show ShareParams, SharePlus;
+import 'package:url_launcher/url_launcher.dart' show launchUrl;
+import 'package:url_launcher/url_launcher_string.dart' show LaunchMode;
+
+import '../l10n/app_localizations_en.dart' show AppLocalizationsEn;
+import '../l10n/app_localizations_zh.dart' show AppLocalizationsZh;
+import '../widget/page_icon_button.dart' show PageIconButton;
+import '../widget/rounded_rectangle_border_physical_shape.dart'
+    show RoundedRectangleBorderPhysicalShape;
 
 class PreviewPage extends StatefulWidget {
   final String title;

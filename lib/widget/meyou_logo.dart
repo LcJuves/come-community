@@ -1,28 +1,358 @@
-import 'package:come/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class MeyouLogo extends StatelessWidget {
-  final String _meyouSvg = """
-<svg viewBox="0 0 857.42 978.33" xmlns="http://www.w3.org/2000/svg"><path d="M463.34.003c-17.632.21-32.248 13.518-33.82 31.506l-4.48 51.164c-1.677 19.187 12.184 35.705 31.372 37.383 19.186 1.679 35.704-12.18 37.383-31.367l4.476-51.164c1.68-19.188-12.182-35.708-31.369-37.387a35.946 35.946 0 00-3.562-.135zM167.56 91.925c-7.733.072-15.502 2.763-21.968 8.189-14.78 12.402-16.669 33.988-4.267 48.768l33.559 39.992c12.4 14.78 33.986 16.668 48.766 4.266 14.71-11.602 16.669-33.988 4.267-48.768l-33.559-39.992c-6.975-8.314-16.857-12.548-26.799-12.455zm570.74 50.744c-7.733.072-15.502 2.762-21.968 8.187l-39.992 33.559c-14.78 12.4-16.67 33.986-4.267 48.766 12.4 14.78 33.988 16.669 48.768 4.268l39.992-33.56c14.78-12.4 16.668-33.985 4.265-48.765v-.002c-6.976-8.313-16.857-12.546-26.799-12.453zm-308.55 62.785c-128.62-1.43-238.2 96.826-249.54 226.36-6.786 77.546 22.895 152.65 80.327 205.2 14.21 12.52 36.005 12.013 48.527-2.2s12.01-36.004-2.201-48.525c-41.76-38.293-62.797-92.497-57.9-148.46 8.602-98.333 95.541-171.28 193.88-162.68 98.332 8.603 171.28 95.545 162.68 193.88-5.665 64.756-45.877 121.8-105.37 148.01l-1.895.938-1.722 1.023c-12.76 7.745-19.645 12.783-29.217 103.78l-170.78-55.22c-18.038-5.607-37.405 3.978-43.811 21.944-5.606 18.038 3.977 37.406 21.945 43.811l212.32 68.521c2.328 1.008 4.726 1.218 7.924 1.498 7.995.7 15.4-1.07 22.215-5.306 8.554-5.696 14.26-15.67 15.17-26.062l1.607-18.387c4.057-46.37 7.684-69.414 9.533-81.336 74.338-39.414 124.36-113.98 131.71-197.93 11.09-135.98-90.38-256.02-226.29-267.91l-.013-.006c-6.409-.561-12.78-.873-19.105-.944zm-11.626 108.8c-17.63.21-32.246 13.517-33.82 31.506-1.678 19.186 12.182 35.704 31.37 37.383 17.587 1.539 77.126 11.58 71.53 75.537-1.676 19.184 12.184 35.7 31.37 37.379 19.186 1.678 35.705-12.182 37.384-31.37 7.134-81.543-47.93-142.75-134.27-150.3-1.199-.104-2.389-.148-3.564-.134zm-384.16 54.195c-17.63.21-32.246 13.518-33.82 31.506-1.68 19.186 12.181 35.704 31.37 37.383l51.163 4.476c19.186 1.68 35.706-12.18 37.385-31.369 1.678-19.186-12.982-35.775-31.369-37.383l-51.164-4.478a35.988 35.988 0 00-3.564-.135zm737.09 64.49c-17.63.208-32.246 13.517-33.82 31.506-1.678 19.186 12.183 35.705 31.37 37.383l51.163 4.476c19.188 1.678 35.707-12.182 37.385-31.369 2.478-19.116-12.182-35.705-30.57-37.314l-51.963-4.545c-1.199-.105-2.389-.15-3.564-.136zm-375.63 52.393c-1.72.09-3.973.98-6.756 2.67-3.174 1.863-6.944 4.813-11.312 8.847-5.096 4.707-9.196 8.365-12.303 10.971s-5.178 4.097-6.215 4.475c-.464-.041-.788-.168-.97-.385-.176-.283-.243-.658-.203-1.123a62.9 62.9 0 011.949-5.049 62.858 62.858 0 001.77-6.47c.523-2.163.866-4.174 1.029-6.034.192-2.192-.093-3.89-.858-5.095-.758-1.271-2.035-1.984-3.828-2.141-2.96.946-5.678 1.78-8.15 2.5a415.567 415.567 0 00-6.85 6.025c-1.956 1.703-3.618 3.097-4.984 4.182-2.656 2.043-5.504 4.404-8.55 7.082-2.972 2.617-6.08 5.624-9.321 9.021a97.35 97.35 0 00-2.02 2.434 29.779 29.779 0 01-1.55 1.67 260.78 260.78 0 012.109 5.707c.536 1.519.894 2.787 1.072 3.807.44-.43.844-.863 1.217-1.3.379-.502.691-1.01.937-1.523 2.089-1.69 3.859-3.174 5.309-4.453s2.686-2.409 3.709-3.39c1.563-1.804 2.914-3.091 4.053-3.862 1.21-.83 2.214-1.212 3.011-1.142.465.04.814.239 1.051.594.309.295.443.675.402 1.14-.25 2.856-1.876 7.666-4.877 14.43-2.928 6.703-4.488 11.15-4.68 13.342-.081.93.356 1.67 1.311 2.223 1.022.558 2.53.925 4.522 1.1.664.057 2.255-.908 4.771-2.897 2.59-2.049 6.078-5.223 10.47-9.523 2.767-2.57 5.466-5.11 8.095-7.623 2.701-2.574 5.33-5.088 7.887-7.541 2.264-1.408 3.9-2.504 4.906-3.286a33.968 33.968 0 002.916-2.355c.789-.6 1.461-1.01 2.016-1.229.626-.28 1.172-.399 1.636-.359.531.047.978.287 1.342.72.364.434.513 1.016.45 1.747a722.723 722.723 0 01-2.374 9.93c-.553 2.493-.967 4.164-1.242 5.011-.123.658-.524 1.794-1.201 3.408s-1.57 3.777-2.676 6.49a104.48 104.48 0 00-2.1 5.64c-.537 1.558-.85 2.837-.937 3.833-.076.864-.01 1.64.197 2.326.214.621.578 1.053 1.092 1.3 1.643.344 2.961.561 3.957.648 1.993.174 7.452-4.468 16.377-13.926 8.931-9.525 15.123-14.136 18.576-13.834 2.59.226 6.048 3.54 10.373 9.941 4.398 6.34 8.887 9.713 13.47 10.113 1.394.122 3.062-.2 5.003-.967 1.947-.833 4.197-2.076 6.75-3.726-.813-2.949-1.84-6.118-3.082-9.506a9.089 9.089 0 01-1.057.611c-.344.104-.681.14-1.013.111-1.528-.133-3.209-1.585-5.041-4.355-1.76-2.83-3.701-7.015-5.827-12.555-.329-.832-.946-1.825-1.85-2.975-.896-1.216-2.05-2.553-3.462-4.015a9.304 9.304 0 00-.936-.785 1.932 1.932 0 00-.97-.387c-1.86-.162-3.785.072-5.781.701-1.99.562-3.98 1.491-5.967 2.79a119.639 119.639 0 00-5.32 3.448l-4.915 3.385c-1.046 1.247-1.971 2.27-2.777 3.07-.74.806-1.397 1.418-1.969 1.836-.761-.468-1.122-.935-1.082-1.4.035-.4.106-.828.213-1.287.107-.459.323-1.01.647-1.65a46.59 46.59 0 004.029-10.489 75.62 75.62 0 001.926-11.676c.244-2.789-.038-4.922-.846-6.398-.735-1.537-2.066-2.39-3.992-2.559a5.072 5.072 0 00-.705-.01zm-121.62 277.8c-14.652-.121-28.414 8.942-33.619 23.54-5.606 18.039 3.98 37.407 21.947 43.812l188.68 62.424c2.328 1.01 5.525 1.29 7.924 1.5 15.988 1.399 30.489-7.807 35.885-23.445 6.476-18.767-3.908-38.203-21.945-43.81l-188.68-62.425a35.28 35.28 0 00-10.191-1.596zm12.701 103.42c-14.652-.122-28.412 8.942-33.617 23.54-5.606 18.039 3.977 37.406 21.945 43.812l129.98 42.79c2.33 1.01 5.526 1.289 7.924 1.499 15.99 1.398 30.489-7.807 35.885-23.445 6.406-17.968-3.976-37.403-21.943-43.81l-129.98-42.788a35.296 35.296 0 00-10.193-1.598z" fill="#3cc67b"/></svg>
-""";
+  final Color color;
 
-  final Color? color;
-
-  const MeyouLogo({super.key, this.color});
+  const MeyouLogo({super.key, this.color = const Color(0xff3cc67b)});
 
   @override
   Widget build(BuildContext context) {
-    ColorFilter? colorFilter;
-    if (color != null) {
-      colorFilter = ColorFilter.mode(color!, BlendMode.srcATop);
-    }
-    return SizedBox.square(
-      dimension: Constants.svgIconSize,
-      child: SvgPicture.string(
-        _meyouSvg,
-        colorFilter: colorFilter,
+    return ColorFiltered(
+      colorFilter: ColorFilter.mode(color, BlendMode.srcATop),
+      child: CustomPaint(
+        painter: MeyouLogoPainter(),
       ),
     );
+  }
+}
+
+class MeyouLogoPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    Path path = Path();
+    final Paint paint = Paint();
+
+    // Path 1 Fill
+    paint.color = const Color(0xff3cc67b);
+    path.moveTo(size.width * 0.54, 0);
+    path.cubicTo(size.width * 0.52, 0, size.width * 0.5, size.height * 0.01,
+        size.width * 0.5, size.height * 0.03);
+    path.lineTo(size.width * 0.5, size.height * 0.08);
+    path.cubicTo(size.width * 0.49, size.height * 0.1, size.width * 0.51,
+        size.height * 0.12, size.width * 0.53, size.height * 0.12);
+    path.cubicTo(size.width * 0.55, size.height * 0.12, size.width * 0.57,
+        size.height * 0.11, size.width * 0.58, size.height * 0.09);
+    path.lineTo(size.width * 0.58, size.height * 0.04);
+    path.cubicTo(size.width * 0.58, size.height * 0.02, size.width * 0.57, 0,
+        size.width * 0.54, 0);
+    path.cubicTo(
+        size.width * 0.54, 0, size.width * 0.54, 0, size.width * 0.54, 0);
+    path.lineTo(size.width * 0.54, 0);
+    path.moveTo(size.width * 0.2, size.height * 0.09);
+    path.cubicTo(size.width * 0.19, size.height * 0.09, size.width * 0.18,
+        size.height * 0.1, size.width * 0.17, size.height * 0.1);
+    path.cubicTo(size.width * 0.15, size.height * 0.12, size.width * 0.15,
+        size.height * 0.14, size.width * 0.16, size.height * 0.15);
+    path.lineTo(size.width * 0.2, size.height * 0.19);
+    path.cubicTo(size.width * 0.22, size.height * 0.21, size.width * 0.24,
+        size.height * 0.21, size.width * 0.26, size.height * 0.2);
+    path.cubicTo(size.width * 0.28, size.height * 0.19, size.width * 0.28,
+        size.height * 0.16, size.width * 0.27, size.height * 0.15);
+    path.lineTo(size.width * 0.23, size.height * 0.11);
+    path.cubicTo(size.width * 0.22, size.height * 0.1, size.width * 0.21,
+        size.height * 0.09, size.width * 0.2, size.height * 0.09);
+    path.lineTo(size.width * 0.2, size.height * 0.09);
+    path.moveTo(size.width * 0.86, size.height * 0.15);
+    path.cubicTo(size.width * 0.85, size.height * 0.15, size.width * 0.84,
+        size.height * 0.15, size.width * 0.84, size.height * 0.15);
+    path.lineTo(size.width * 0.79, size.height * 0.19);
+    path.cubicTo(size.width * 0.77, size.height * 0.2, size.width * 0.77,
+        size.height * 0.22, size.width * 0.78, size.height * 0.24);
+    path.cubicTo(size.width * 0.8, size.height * 0.25, size.width * 0.82,
+        size.height * 0.26, size.width * 0.84, size.height * 0.24);
+    path.lineTo(size.width * 0.89, size.height * 0.21);
+    path.cubicTo(size.width * 0.9, size.height * 0.2, size.width * 0.91,
+        size.height * 0.17, size.width * 0.89, size.height * 0.16);
+    path.lineTo(size.width * 0.89, size.height * 0.16);
+    path.cubicTo(size.width * 0.88, size.height * 0.15, size.width * 0.87,
+        size.height * 0.15, size.width * 0.86, size.height * 0.15);
+    path.lineTo(size.width * 0.86, size.height * 0.15);
+    path.moveTo(size.width * 0.5, size.height * 0.21);
+    path.cubicTo(size.width * 0.35, size.height * 0.21, size.width * 0.22,
+        size.height * 0.31, size.width * 0.21, size.height * 0.44);
+    path.cubicTo(size.width * 0.2, size.height * 0.52, size.width * 0.24,
+        size.height * 0.6, size.width * 0.3, size.height * 0.65);
+    path.cubicTo(size.width * 0.32, size.height * 0.66, size.width * 0.35,
+        size.height * 0.66, size.width * 0.36, size.height * 0.65);
+    path.cubicTo(size.width * 0.38, size.height * 0.63, size.width * 0.37,
+        size.height * 0.61, size.width * 0.36, size.height * 0.6);
+    path.cubicTo(size.width * 0.31, size.height * 0.56, size.width * 0.28,
+        size.height * 0.5, size.width * 0.29, size.height * 0.45);
+    path.cubicTo(size.width * 0.3, size.height * 0.35, size.width * 0.4,
+        size.height * 0.27, size.width * 0.52, size.height * 0.28);
+    path.cubicTo(size.width * 0.63, size.height * 0.29, size.width * 0.72,
+        size.height * 0.38, size.width * 0.71, size.height * 0.48);
+    path.cubicTo(size.width * 0.7, size.height * 0.55, size.width * 0.65,
+        size.height * 0.6, size.width * 0.58, size.height * 0.63);
+    path.lineTo(size.width * 0.58, size.height * 0.63);
+    path.lineTo(size.width * 0.58, size.height * 0.63);
+    path.cubicTo(size.width * 0.56, size.height * 0.64, size.width * 0.56,
+        size.height * 0.65, size.width * 0.55, size.height * 0.74);
+    path.lineTo(size.width * 0.35, size.height * 0.68);
+    path.cubicTo(size.width * 0.32, size.height * 0.68, size.width * 0.3,
+        size.height * 0.69, size.width * 0.29, size.height * 0.7);
+    path.cubicTo(size.width * 0.29, size.height * 0.72, size.width * 0.3,
+        size.height * 0.74, size.width * 0.32, size.height * 0.75);
+    path.lineTo(size.width * 0.57, size.height * 0.82);
+    path.cubicTo(size.width * 0.57, size.height * 0.82, size.width * 0.57,
+        size.height * 0.82, size.width * 0.58, size.height * 0.82);
+    path.cubicTo(size.width * 0.59, size.height * 0.82, size.width * 0.6,
+        size.height * 0.82, size.width * 0.6, size.height * 0.82);
+    path.cubicTo(size.width * 0.61, size.height * 0.81, size.width * 0.62,
+        size.height * 0.8, size.width * 0.62, size.height * 0.79);
+    path.lineTo(size.width * 0.62, size.height * 0.77);
+    path.cubicTo(size.width * 0.63, size.height * 0.72, size.width * 0.63,
+        size.height * 0.7, size.width * 0.63, size.height * 0.69);
+    path.cubicTo(size.width * 0.72, size.height * 0.65, size.width * 0.78,
+        size.height * 0.57, size.width * 0.79, size.height * 0.48);
+    path.cubicTo(size.width * 0.8, size.height * 0.35, size.width * 0.68,
+        size.height * 0.22, size.width * 0.52, size.height * 0.21);
+    path.lineTo(size.width * 0.52, size.height * 0.21);
+    path.cubicTo(size.width * 0.52, size.height * 0.21, size.width * 0.51,
+        size.height * 0.21, size.width * 0.5, size.height * 0.21);
+    path.lineTo(size.width * 0.5, size.height * 0.21);
+    path.moveTo(size.width * 0.49, size.height * 0.32);
+    path.cubicTo(size.width * 0.47, size.height * 0.32, size.width * 0.45,
+        size.height * 0.34, size.width * 0.45, size.height * 0.35);
+    path.cubicTo(size.width * 0.45, size.height * 0.37, size.width * 0.46,
+        size.height * 0.39, size.width * 0.48, size.height * 0.39);
+    path.cubicTo(size.width * 0.51, size.height * 0.39, size.width * 0.57,
+        size.height * 0.4, size.width * 0.57, size.height * 0.47);
+    path.cubicTo(size.width * 0.57, size.height * 0.49, size.width * 0.58,
+        size.height * 0.51, size.width * 0.6, size.height * 0.51);
+    path.cubicTo(size.width * 0.63, size.height * 0.51, size.width * 0.65,
+        size.height * 0.49, size.width * 0.65, size.height * 0.47);
+    path.cubicTo(size.width * 0.66, size.height * 0.39, size.width * 0.59,
+        size.height * 0.33, size.width * 0.49, size.height * 0.32);
+    path.cubicTo(size.width * 0.49, size.height * 0.32, size.width * 0.49,
+        size.height * 0.32, size.width * 0.49, size.height * 0.32);
+    path.lineTo(size.width * 0.49, size.height * 0.32);
+    path.moveTo(size.width * 0.04, size.height * 0.38);
+    path.cubicTo(size.width * 0.02, size.height * 0.38, 0, size.height * 0.39,
+        0, size.height * 0.41);
+    path.cubicTo(0, size.height * 0.43, size.width * 0.01, size.height * 0.45,
+        size.width * 0.04, size.height * 0.45);
+    path.lineTo(size.width * 0.1, size.height * 0.45);
+    path.cubicTo(size.width * 0.12, size.height * 0.45, size.width * 0.14,
+        size.height * 0.44, size.width * 0.14, size.height * 0.42);
+    path.cubicTo(size.width * 0.14, size.height * 0.4, size.width * 0.12,
+        size.height * 0.38, size.width * 0.1, size.height * 0.38);
+    path.lineTo(size.width * 0.04, size.height * 0.38);
+    path.cubicTo(size.width * 0.04, size.height * 0.38, size.width * 0.04,
+        size.height * 0.38, size.width * 0.04, size.height * 0.38);
+    path.lineTo(size.width * 0.04, size.height * 0.38);
+    path.moveTo(size.width * 0.9, size.height * 0.44);
+    path.cubicTo(size.width * 0.88, size.height * 0.44, size.width * 0.86,
+        size.height * 0.46, size.width * 0.86, size.height * 0.47);
+    path.cubicTo(size.width * 0.86, size.height * 0.49, size.width * 0.87,
+        size.height * 0.51, size.width * 0.9, size.height * 0.51);
+    path.lineTo(size.width * 0.96, size.height * 0.52);
+    path.cubicTo(size.width * 0.98, size.height * 0.52, size.width,
+        size.height * 0.51, size.width, size.height * 0.49);
+    path.cubicTo(size.width, size.height * 0.47, size.width * 0.99,
+        size.height * 0.45, size.width * 0.96, size.height * 0.45);
+    path.lineTo(size.width * 0.9, size.height * 0.44);
+    path.cubicTo(size.width * 0.9, size.height * 0.44, size.width * 0.9,
+        size.height * 0.44, size.width * 0.9, size.height * 0.44);
+    path.lineTo(size.width * 0.9, size.height * 0.44);
+    path.moveTo(size.width * 0.46, size.height * 0.5);
+    path.cubicTo(size.width * 0.46, size.height * 0.5, size.width * 0.46,
+        size.height * 0.5, size.width * 0.45, size.height * 0.5);
+    path.cubicTo(size.width * 0.45, size.height * 0.5, size.width * 0.45,
+        size.height * 0.5, size.width * 0.44, size.height * 0.51);
+    path.cubicTo(size.width * 0.43, size.height * 0.51, size.width * 0.43,
+        size.height * 0.52, size.width * 0.43, size.height * 0.52);
+    path.cubicTo(size.width * 0.42, size.height * 0.52, size.width * 0.42,
+        size.height * 0.52, size.width * 0.42, size.height * 0.52);
+    path.cubicTo(size.width * 0.42, size.height * 0.52, size.width * 0.42,
+        size.height * 0.52, size.width * 0.42, size.height * 0.52);
+    path.cubicTo(size.width * 0.42, size.height * 0.52, size.width * 0.42,
+        size.height * 0.52, size.width * 0.42, size.height * 0.52);
+    path.cubicTo(size.width * 0.42, size.height * 0.52, size.width * 0.42,
+        size.height * 0.52, size.width * 0.42, size.height * 0.52);
+    path.cubicTo(size.width * 0.42, size.height * 0.51, size.width * 0.42,
+        size.height * 0.51, size.width * 0.42, size.height * 0.51);
+    path.cubicTo(size.width * 0.42, size.height * 0.51, size.width * 0.42,
+        size.height * 0.51, size.width * 0.42, size.height * 0.5);
+    path.cubicTo(size.width * 0.42, size.height * 0.5, size.width * 0.42,
+        size.height * 0.5, size.width * 0.42, size.height * 0.5);
+    path.cubicTo(size.width * 0.42, size.height * 0.5, size.width * 0.42,
+        size.height * 0.5, size.width * 0.42, size.height * 0.5);
+    path.cubicTo(size.width * 0.41, size.height * 0.5, size.width * 0.41,
+        size.height * 0.5, size.width * 0.41, size.height * 0.5);
+    path.cubicTo(size.width * 0.41, size.height * 0.5, size.width * 0.4,
+        size.height * 0.5, size.width * 0.4, size.height * 0.51);
+    path.cubicTo(size.width * 0.4, size.height * 0.51, size.width * 0.4,
+        size.height * 0.51, size.width * 0.39, size.height * 0.51);
+    path.cubicTo(size.width * 0.39, size.height * 0.51, size.width * 0.39,
+        size.height * 0.51, size.width * 0.38, size.height * 0.52);
+    path.cubicTo(size.width * 0.38, size.height * 0.52, size.width * 0.38,
+        size.height * 0.52, size.width * 0.37, size.height * 0.53);
+    path.cubicTo(size.width * 0.37, size.height * 0.53, size.width * 0.37,
+        size.height * 0.53, size.width * 0.37, size.height * 0.53);
+    path.cubicTo(size.width * 0.37, size.height * 0.53, size.width * 0.37,
+        size.height * 0.53, size.width * 0.37, size.height * 0.53);
+    path.cubicTo(size.width * 0.37, size.height * 0.53, size.width * 0.37,
+        size.height * 0.53, size.width * 0.37, size.height * 0.54);
+    path.cubicTo(size.width * 0.37, size.height * 0.54, size.width * 0.37,
+        size.height * 0.54, size.width * 0.37, size.height * 0.54);
+    path.cubicTo(size.width * 0.37, size.height * 0.54, size.width * 0.37,
+        size.height * 0.54, size.width * 0.37, size.height * 0.54);
+    path.cubicTo(size.width * 0.37, size.height * 0.54, size.width * 0.37,
+        size.height * 0.54, size.width * 0.38, size.height * 0.54);
+    path.cubicTo(size.width * 0.38, size.height * 0.54, size.width * 0.38,
+        size.height * 0.53, size.width * 0.38, size.height * 0.53);
+    path.cubicTo(size.width * 0.38, size.height * 0.53, size.width * 0.38,
+        size.height * 0.53, size.width * 0.39, size.height * 0.53);
+    path.cubicTo(size.width * 0.39, size.height * 0.53, size.width * 0.39,
+        size.height * 0.53, size.width * 0.39, size.height * 0.53);
+    path.cubicTo(size.width * 0.39, size.height * 0.52, size.width * 0.39,
+        size.height * 0.52, size.width * 0.39, size.height * 0.52);
+    path.cubicTo(size.width * 0.39, size.height * 0.52, size.width * 0.39,
+        size.height * 0.52, size.width * 0.4, size.height * 0.52);
+    path.cubicTo(size.width * 0.4, size.height * 0.53, size.width * 0.4,
+        size.height * 0.53, size.width * 0.4, size.height * 0.53);
+    path.cubicTo(size.width * 0.4, size.height * 0.53, size.width * 0.39,
+        size.height * 0.53, size.width * 0.39, size.height * 0.54);
+    path.cubicTo(size.width * 0.39, size.height * 0.55, size.width * 0.38,
+        size.height * 0.55, size.width * 0.38, size.height * 0.55);
+    path.cubicTo(size.width * 0.38, size.height * 0.56, size.width * 0.38,
+        size.height * 0.56, size.width * 0.39, size.height * 0.56);
+    path.cubicTo(size.width * 0.39, size.height * 0.56, size.width * 0.39,
+        size.height * 0.56, size.width * 0.39, size.height * 0.56);
+    path.cubicTo(size.width * 0.39, size.height * 0.56, size.width * 0.39,
+        size.height * 0.56, size.width * 0.4, size.height * 0.55);
+    path.cubicTo(size.width * 0.4, size.height * 0.55, size.width * 0.4,
+        size.height * 0.55, size.width * 0.41, size.height * 0.54);
+    path.cubicTo(size.width * 0.41, size.height * 0.54, size.width * 0.42,
+        size.height * 0.54, size.width * 0.42, size.height * 0.54);
+    path.cubicTo(size.width * 0.42, size.height * 0.53, size.width * 0.42,
+        size.height * 0.53, size.width * 0.43, size.height * 0.53);
+    path.cubicTo(size.width * 0.43, size.height * 0.53, size.width * 0.43,
+        size.height * 0.53, size.width * 0.43, size.height * 0.53);
+    path.cubicTo(size.width * 0.43, size.height * 0.53, size.width * 0.44,
+        size.height * 0.52, size.width * 0.44, size.height * 0.52);
+    path.cubicTo(size.width * 0.44, size.height * 0.52, size.width * 0.44,
+        size.height * 0.52, size.width * 0.44, size.height * 0.52);
+    path.cubicTo(size.width * 0.44, size.height * 0.52, size.width * 0.44,
+        size.height * 0.52, size.width * 0.44, size.height * 0.52);
+    path.cubicTo(size.width * 0.44, size.height * 0.52, size.width * 0.44,
+        size.height * 0.52, size.width * 0.44, size.height * 0.52);
+    path.cubicTo(size.width * 0.44, size.height * 0.52, size.width * 0.44,
+        size.height * 0.52, size.width * 0.44, size.height * 0.52);
+    path.cubicTo(size.width * 0.44, size.height * 0.53, size.width * 0.44,
+        size.height * 0.53, size.width * 0.44, size.height * 0.53);
+    path.cubicTo(size.width * 0.44, size.height * 0.54, size.width * 0.44,
+        size.height * 0.54, size.width * 0.44, size.height * 0.54);
+    path.cubicTo(size.width * 0.44, size.height * 0.54, size.width * 0.44,
+        size.height * 0.54, size.width * 0.44, size.height * 0.54);
+    path.cubicTo(size.width * 0.44, size.height * 0.55, size.width * 0.44,
+        size.height * 0.55, size.width * 0.43, size.height * 0.55);
+    path.cubicTo(size.width * 0.43, size.height * 0.55, size.width * 0.43,
+        size.height * 0.55, size.width * 0.43, size.height * 0.56);
+    path.cubicTo(size.width * 0.43, size.height * 0.56, size.width * 0.43,
+        size.height * 0.56, size.width * 0.43, size.height * 0.56);
+    path.cubicTo(size.width * 0.43, size.height * 0.56, size.width * 0.43,
+        size.height * 0.56, size.width * 0.43, size.height * 0.56);
+    path.cubicTo(size.width * 0.43, size.height * 0.56, size.width * 0.43,
+        size.height * 0.56, size.width * 0.43, size.height * 0.56);
+    path.cubicTo(size.width * 0.43, size.height * 0.56, size.width * 0.44,
+        size.height * 0.56, size.width * 0.44, size.height * 0.56);
+    path.cubicTo(size.width * 0.44, size.height * 0.56, size.width * 0.45,
+        size.height * 0.56, size.width * 0.46, size.height * 0.55);
+    path.cubicTo(size.width * 0.47, size.height * 0.54, size.width * 0.47,
+        size.height * 0.54, size.width * 0.48, size.height * 0.54);
+    path.cubicTo(size.width * 0.48, size.height * 0.54, size.width * 0.48,
+        size.height * 0.54, size.width * 0.49, size.height * 0.55);
+    path.cubicTo(size.width * 0.49, size.height * 0.55, size.width * 0.5,
+        size.height * 0.56, size.width * 0.51, size.height * 0.56);
+    path.cubicTo(size.width * 0.51, size.height * 0.56, size.width * 0.51,
+        size.height * 0.56, size.width * 0.51, size.height * 0.56);
+    path.cubicTo(size.width * 0.51, size.height * 0.55, size.width * 0.52,
+        size.height * 0.55, size.width * 0.52, size.height * 0.55);
+    path.cubicTo(size.width * 0.52, size.height * 0.55, size.width * 0.52,
+        size.height * 0.55, size.width * 0.52, size.height * 0.54);
+    path.cubicTo(size.width * 0.52, size.height * 0.54, size.width * 0.51,
+        size.height * 0.54, size.width * 0.51, size.height * 0.54);
+    path.cubicTo(size.width * 0.51, size.height * 0.54, size.width * 0.51,
+        size.height * 0.54, size.width * 0.51, size.height * 0.54);
+    path.cubicTo(size.width * 0.51, size.height * 0.54, size.width * 0.51,
+        size.height * 0.54, size.width * 0.51, size.height * 0.54);
+    path.cubicTo(size.width * 0.51, size.height * 0.54, size.width * 0.5,
+        size.height * 0.53, size.width * 0.5, size.height * 0.53);
+    path.cubicTo(size.width * 0.5, size.height * 0.52, size.width * 0.5,
+        size.height * 0.52, size.width * 0.5, size.height * 0.52);
+    path.cubicTo(size.width * 0.5, size.height * 0.52, size.width * 0.5,
+        size.height * 0.52, size.width * 0.49, size.height * 0.52);
+    path.cubicTo(size.width * 0.49, size.height * 0.52, size.width * 0.49,
+        size.height * 0.52, size.width * 0.49, size.height * 0.52);
+    path.cubicTo(size.width * 0.49, size.height * 0.52, size.width * 0.49,
+        size.height * 0.52, size.width * 0.49, size.height * 0.52);
+    path.cubicTo(size.width * 0.49, size.height * 0.52, size.width * 0.49,
+        size.height * 0.52, size.width * 0.49, size.height * 0.52);
+    path.cubicTo(size.width * 0.48, size.height * 0.52, size.width * 0.48,
+        size.height * 0.52, size.width * 0.48, size.height * 0.52);
+    path.cubicTo(size.width * 0.48, size.height * 0.52, size.width * 0.47,
+        size.height * 0.52, size.width * 0.47, size.height * 0.52);
+    path.lineTo(size.width * 0.47, size.height * 0.53);
+    path.cubicTo(size.width * 0.47, size.height * 0.53, size.width * 0.46,
+        size.height * 0.53, size.width * 0.46, size.height * 0.53);
+    path.cubicTo(size.width * 0.46, size.height * 0.53, size.width * 0.46,
+        size.height * 0.53, size.width * 0.46, size.height * 0.53);
+    path.cubicTo(size.width * 0.46, size.height * 0.53, size.width * 0.46,
+        size.height * 0.53, size.width * 0.46, size.height * 0.53);
+    path.cubicTo(size.width * 0.46, size.height * 0.53, size.width * 0.46,
+        size.height * 0.53, size.width * 0.46, size.height * 0.53);
+    path.cubicTo(size.width * 0.46, size.height * 0.53, size.width * 0.46,
+        size.height * 0.53, size.width * 0.46, size.height * 0.53);
+    path.cubicTo(size.width * 0.46, size.height * 0.52, size.width * 0.46,
+        size.height * 0.52, size.width * 0.47, size.height * 0.52);
+    path.cubicTo(size.width * 0.47, size.height * 0.51, size.width * 0.47,
+        size.height * 0.51, size.width * 0.47, size.height * 0.51);
+    path.cubicTo(size.width * 0.47, size.height * 0.5, size.width * 0.47,
+        size.height * 0.5, size.width * 0.47, size.height * 0.5);
+    path.cubicTo(size.width * 0.47, size.height * 0.5, size.width * 0.46,
+        size.height * 0.5, size.width * 0.46, size.height * 0.5);
+    path.cubicTo(size.width * 0.46, size.height * 0.5, size.width * 0.46,
+        size.height * 0.5, size.width * 0.46, size.height * 0.5);
+    path.lineTo(size.width * 0.46, size.height * 0.5);
+    path.moveTo(size.width * 0.32, size.height * 0.78);
+    path.cubicTo(size.width * 0.3, size.height * 0.78, size.width * 0.29,
+        size.height * 0.79, size.width * 0.28, size.height * 0.8);
+    path.cubicTo(size.width * 0.27, size.height * 0.82, size.width * 0.28,
+        size.height * 0.84, size.width * 0.31, size.height * 0.85);
+    path.lineTo(size.width * 0.53, size.height * 0.91);
+    path.cubicTo(size.width * 0.53, size.height * 0.91, size.width * 0.53,
+        size.height * 0.91, size.width * 0.54, size.height * 0.91);
+    path.cubicTo(size.width * 0.55, size.height * 0.92, size.width * 0.57,
+        size.height * 0.91, size.width * 0.58, size.height * 0.89);
+    path.cubicTo(size.width * 0.58, size.height * 0.87, size.width * 0.57,
+        size.height * 0.85, size.width * 0.55, size.height * 0.85);
+    path.lineTo(size.width * 0.33, size.height * 0.78);
+    path.cubicTo(size.width * 0.33, size.height * 0.78, size.width * 0.32,
+        size.height * 0.78, size.width * 0.32, size.height * 0.78);
+    path.lineTo(size.width * 0.32, size.height * 0.78);
+    path.moveTo(size.width * 0.33, size.height * 0.89);
+    path.cubicTo(size.width * 0.32, size.height * 0.89, size.width * 0.3,
+        size.height * 0.89, size.width * 0.29, size.height * 0.91);
+    path.cubicTo(size.width * 0.29, size.height * 0.93, size.width * 0.3,
+        size.height * 0.95, size.width * 0.32, size.height * 0.95);
+    path.lineTo(size.width * 0.47, size.height);
+    path.cubicTo(size.width * 0.47, size.height, size.width * 0.48, size.height,
+        size.width * 0.48, size.height);
+    path.cubicTo(size.width * 0.5, size.height, size.width * 0.52,
+        size.height * 0.99, size.width * 0.52, size.height * 0.98);
+    path.cubicTo(size.width * 0.53, size.height * 0.96, size.width * 0.52,
+        size.height * 0.94, size.width * 0.5, size.height * 0.93);
+    path.lineTo(size.width * 0.35, size.height * 0.89);
+    path.cubicTo(size.width * 0.34, size.height * 0.89, size.width * 0.34,
+        size.height * 0.89, size.width * 0.33, size.height * 0.89);
+    path.lineTo(size.width * 0.33, size.height * 0.89);
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(CustomPainter oldDelegate) {
+    return true;
   }
 }

@@ -1,5 +1,15 @@
-import 'package:come/constants.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        IconData,
+        VoidCallback,
+        BuildContext,
+        Widget,
+        EdgeInsets,
+        Icon,
+        IconButton;
+
+import '../constants.dart' show Constants;
 
 class PageIconButton extends StatelessWidget {
   /// The icon to display. The available icons are described in [Icons].

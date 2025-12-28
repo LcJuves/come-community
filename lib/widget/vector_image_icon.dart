@@ -1,12 +1,28 @@
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:come/extended_http_client.dart';
-import 'package:come/webspec.dart';
-import 'package:come/widget/come_circular_progress_bar.dart';
-import 'package:come/widget/meyou_logo.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:vector_graphics/vector_graphics_compat.dart';
+import 'package:cached_network_image/cached_network_image.dart'
+    show CachedNetworkImage;
+import 'package:come/extended_http_client.dart' show extendedSpecHttpClient;
+import 'package:come/webspec.dart' show isRunOnSafariWebBrowser;
+import 'package:come/widget/come_circular_progress_bar.dart'
+    show ComeCircularProgressIndicator;
+import 'package:come/widget/meyou_logo.dart' show MeyouLogo;
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/material.dart'
+    show
+        StatefulWidget,
+        State,
+        Widget,
+        EdgeInsets,
+        BuildContext,
+        StrokeCap,
+        Color,
+        BlendMode,
+        Padding,
+        Colors,
+        Curves,
+        SizedBox;
+import 'package:flutter_svg/svg.dart' show SvgPicture;
+import 'package:vector_graphics/vector_graphics_compat.dart'
+    show NetworkBytesLoader;
 
 class VectorImageIcon extends StatefulWidget {
   final String url;

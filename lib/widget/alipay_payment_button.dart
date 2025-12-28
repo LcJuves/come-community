@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show StatelessWidget, BuildContext, Widget, Container;
 
 class AlipayPaymentButton extends StatelessWidget {
   const AlipayPaymentButton({super.key});

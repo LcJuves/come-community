@@ -3,7 +3,6 @@
 
 flutter clean
 flutter build web --wasm --strip-wasm --tree-shake-icons --no-native-null-assertions --no-web-resources-cdn -O 4 --release
-rm -rf ./**/itmes.pb
 dart run third_party/protobuf/main.dart
 
 minify_js() {

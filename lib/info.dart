@@ -1,9 +1,11 @@
-import 'dart:convert';
+import 'dart:convert' show jsonDecode;
+import 'dart:ui' show Locale;
 
-import 'package:come/http_requests.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:protobuffers/items.pb.dart';
+import 'package:come/http_requests.dart' show httpReadString;
+import 'package:flutter/foundation.dart' show kDebugMode;
+import 'package:flutter/material.dart' show BuildContext;
+import 'package:flutter/widgets.dart' show Localizations;
+import 'package:protobuffers/items.pb.dart' show Items;
 
 Future<dynamic> fetchGeoInfo(BuildContext context, Items items) {
   if (!context.mounted) {

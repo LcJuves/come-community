@@ -1,8 +1,43 @@
-import 'dart:math' as math;
-import 'dart:ui';
+import 'dart:math' as math show max, pi;
 
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart' show CupertinoActivityIndicator;
+import 'package:flutter/foundation.dart' show clampDouble;
+import 'package:flutter/material.dart'
+    show
+        ProgressIndicator,
+        Color,
+        StrokeCap,
+        BoxConstraints,
+        BlendMode,
+        EdgeInsetsGeometry,
+        BuildContext,
+        Widget,
+        State,
+        SingleTickerProviderStateMixin,
+        Animatable,
+        Interval,
+        SawTooth,
+        AnimationController,
+        ProgressIndicatorThemeData,
+        ThemeData,
+        ColorScheme,
+        EdgeInsets,
+        CustomPainter,
+        Canvas,
+        Size,
+        Paint,
+        Offset,
+        ProgressIndicatorTheme,
+        Theme,
+        Semantics,
+        Curves,
+        CurveTween,
+        CustomPaint,
+        ConstrainedBox,
+        Padding,
+        AnimatedBuilder,
+        TargetPlatform,
+        PaintingStyle;
 
 enum _ActivityIndicatorType { material, adaptive }
 

@@ -1,6 +1,16 @@
-import 'dart:ui';
+import 'dart:ui' show ImageFilter;
 
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        Colors,
+        Widget,
+        Color,
+        BlendMode,
+        PreferredSizeWidget,
+        BuildContext,
+        Scaffold,
+        BackdropFilter;
 
 class BackdropFilterScaffold extends StatelessWidget {
   const BackdropFilterScaffold(

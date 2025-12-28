@@ -1,4 +1,17 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        BorderRadiusGeometry,
+        Clip,
+        Color,
+        Widget,
+        BuildContext,
+        BorderRadius,
+        Colors,
+        RoundedRectangleBorder,
+        Directionality,
+        ShapeBorderClipper,
+        PhysicalShape;
 
 class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
   final BorderRadiusGeometry borderRadius;

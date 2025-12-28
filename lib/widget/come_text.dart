@@ -1,4 +1,21 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        FontWeight,
+        FontStyle,
+        TextBaseline,
+        TextAlign,
+        BlendMode,
+        Color,
+        StrokeCap,
+        MaskFilter,
+        Paint,
+        BuildContext,
+        Widget,
+        Colors,
+        TextStyle,
+        Text,
+        SelectableText;
 
 class ComeText extends StatelessWidget {
   const ComeText(String this.data,

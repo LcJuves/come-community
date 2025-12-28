@@ -1,7 +1,21 @@
-import 'package:come/screen/home_page.dart';
-import 'package:flutter/material.dart';
-
-import 'l10n/app_localizations.dart';
+import 'package:come/l10n/app_localizations.dart' show AppLocalizations;
+import 'package:come/screen/home_page.dart' show HomePage;
+import 'package:flutter/material.dart'
+    show
+        runApp,
+        StatelessWidget,
+        BuildContext,
+        Widget,
+        Color,
+        TabBarThemeData,
+        Colors,
+        TextSelectionThemeData,
+        WidgetStatePropertyAll,
+        Radius,
+        MediaQuery,
+        ScrollbarThemeData,
+        ThemeData,
+        MaterialApp;
 
 void main() async {
   runApp(const MyApp());

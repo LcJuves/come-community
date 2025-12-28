@@ -1,20 +1,55 @@
-import 'package:come/http_requests.dart';
-import 'package:come/model/future_desc.dart';
-import 'package:come/screen/preview_page.dart';
-import 'package:come/widget/captive_portal_svg_picture.dart';
-import 'package:come/widget/clip_rrect_backdrop_filter.dart';
-import 'package:dart_animated_emoji/dart_animated_emoji.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
-import 'package:protobuffers/items.pb.dart';
-import 'package:text_marquee/text_marquee.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'package:widget_marquee/widget_marquee.dart';
-
-import '../constants.dart';
-import 'inkwell_container.dart';
-import 'vector_image_icon.dart';
+import 'package:come/constants.dart' show Constants;
+import 'package:come/http_requests.dart' show fetchDesc;
+import 'package:come/model/future_desc.dart' show FutureDesc;
+import 'package:come/screen/preview_page.dart' show PreviewPage;
+import 'package:come/widget/captive_portal_svg_picture.dart'
+    show CaptivePortalSvgPicture;
+import 'package:come/widget/clip_rrect_backdrop_filter.dart'
+    show ClipRRrectBackdropFilter;
+import 'package:come/widget/inkwell_container.dart' show InkWellContainer;
+import 'package:come/widget/vector_image_icon.dart' show VectorImageIcon;
+import 'package:dart_animated_emoji/dart_animated_emoji.dart'
+    show AnimatedEmoji;
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/material.dart'
+    show
+        StatefulWidget,
+        BuildContext,
+        State,
+        GestureTapCallback,
+        Widget,
+        EdgeInsets,
+        SizedBox,
+        Color,
+        MediaQuery,
+        Navigator,
+        MaterialPageRoute,
+        Curves,
+        BorderRadius,
+        Colors,
+        MainAxisSize,
+        MainAxisAlignment,
+        CrossAxisAlignment,
+        TextScaler,
+        FontWeight,
+        Paint,
+        BlendMode,
+        TextStyle,
+        Text,
+        BoxShape,
+        BoxDecoration,
+        TooltipTriggerMode,
+        Tooltip,
+        Row,
+        FutureBuilder,
+        Column,
+        AnimatedOpacity;
+import 'package:lottie/lottie.dart' show LottieBuilder, LottieComposition;
+import 'package:protobuffers/items.pb.dart' show Item;
+import 'package:text_marquee/text_marquee.dart' show TextMarquee;
+import 'package:url_launcher/url_launcher.dart' show launchUrl;
+import 'package:url_launcher/url_launcher_string.dart' show LaunchMode;
+import 'package:widget_marquee/widget_marquee.dart' show Marquee;
 
 class BaseContainer extends StatefulWidget {
   final String _commonUrlPrefix = Constants.svgCommonUrlPrefix;

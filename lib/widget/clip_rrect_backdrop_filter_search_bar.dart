@@ -1,13 +1,38 @@
-import 'dart:io';
+import 'dart:io' show Platform;
 
-import 'package:come/constants.dart';
-import 'package:come/l10n/app_localizations_en.dart';
-import 'package:come/l10n/app_localizations_zh.dart';
-import 'package:come/webspec.dart';
-import 'package:come/widget/clip_rrect_backdrop_filter.dart';
-import 'package:come/widget/linear_gradient_icon.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
+import 'package:come/constants.dart' show Constants;
+import 'package:come/l10n/app_localizations_en.dart' show AppLocalizationsEn;
+import 'package:come/l10n/app_localizations_zh.dart' show AppLocalizationsZh;
+import 'package:come/webspec.dart' show isRunOnMobileWebViewOrBrowser;
+import 'package:come/widget/clip_rrect_backdrop_filter.dart'
+    show ClipRRrectBackdropFilter;
+import 'package:come/widget/linear_gradient_icon.dart' show LinearGradientIcon;
+import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/material.dart'
+    show
+        StatefulWidget,
+        ValueChanged,
+        EdgeInsetsGeometry,
+        State,
+        BuildContext,
+        Widget,
+        EdgeInsets,
+        WidgetStatePropertyAll,
+        Padding,
+        MediaQuery,
+        BorderRadius,
+        Colors,
+        BlendMode,
+        BoxDecoration,
+        BoxConstraints,
+        TextInputType,
+        Icons,
+        TextInputAction,
+        FontWeight,
+        Paint,
+        TextStyle,
+        SearchBar,
+        Container;
 
 class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
   const ClipRRrectBackdropFilterSearchBar(

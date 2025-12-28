@@ -1,7 +1,16 @@
-import 'package:come/constants.dart';
-import 'package:come/widget/linear_gradient_shader_mask.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:come/constants.dart' show Constants;
+import 'package:come/widget/linear_gradient_shader_mask.dart'
+    show LinearGradientShaderMask;
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        BuildContext,
+        Widget,
+        ColorFilter,
+        SizedBox,
+        BlendMode,
+        Colors;
+import 'package:flutter_svg/svg.dart' show SvgPicture;
 
 class CaptivePortalSvgPicture extends StatelessWidget {
   const CaptivePortalSvgPicture({super.key});

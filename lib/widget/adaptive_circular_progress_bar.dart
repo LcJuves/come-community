@@ -1,8 +1,22 @@
-import 'dart:ui';
+import 'dart:ui' show ImageFilter;
 
-import 'package:come/constants.dart';
-import 'package:come/widget/come_circular_progress_bar.dart';
-import 'package:flutter/material.dart';
+import 'package:come/constants.dart' show Constants;
+import 'package:come/widget/come_circular_progress_bar.dart'
+    show ComeCircularProgressIndicator;
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        BuildContext,
+        Widget,
+        MediaQuery,
+        EdgeInsets,
+        StrokeCap,
+        Colors,
+        BlendMode,
+        Padding,
+        SizedBox,
+        Center,
+        BackdropFilter;
 
 class AdaptiveCircularProgressBar extends StatelessWidget {
   final double sigma;

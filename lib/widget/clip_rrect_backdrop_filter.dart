@@ -1,7 +1,22 @@
-import 'dart:ui';
+import 'dart:ui' show ImageFilter;
 
-import 'package:come/widget/rounded_rectangle_border_physical_shape.dart';
-import 'package:flutter/material.dart';
+import 'package:come/widget/rounded_rectangle_border_physical_shape.dart'
+    show RoundedRectangleBorderPhysicalShape;
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        BorderRadius,
+        Widget,
+        Decoration,
+        RRect,
+        CustomClipper,
+        EdgeInsetsGeometry,
+        Color,
+        BuildContext,
+        Colors,
+        BackdropFilter,
+        ClipRRect,
+        Container;
 
 class ClipRRrectBackdropFilter extends StatelessWidget {
   const ClipRRrectBackdropFilter(

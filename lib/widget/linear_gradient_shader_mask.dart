@@ -1,4 +1,16 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        Alignment,
+        Color,
+        AlignmentGeometry,
+        BlendMode,
+        Widget,
+        BuildContext,
+        Rect,
+        Colors,
+        LinearGradient,
+        ShaderMask;
 
 class LinearGradientShaderMask extends StatelessWidget {
   const LinearGradientShaderMask({

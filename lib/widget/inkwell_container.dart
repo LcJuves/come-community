@@ -1,4 +1,15 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        BorderRadius,
+        GestureTapCallback,
+        Color,
+        Widget,
+        EdgeInsetsGeometry,
+        BoxConstraints,
+        BuildContext,
+        Container,
+        InkWell;
 
 class InkWellContainer extends StatelessWidget {
   const InkWellContainer(

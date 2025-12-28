@@ -1,17 +1,18 @@
-import 'dart:async';
-import 'dart:convert';
+import 'dart:convert' show utf8;
+import 'dart:typed_data' show Uint8List;
 
-import 'package:come/constants.dart';
-import 'package:come/info.dart';
-import 'package:come/model/future_data.dart';
-import 'package:come/model/future_desc.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart' as material;
-import 'package:flutter/services.dart';
-import 'package:html/dom.dart';
-import 'package:html/parser.dart';
-import 'package:http/http.dart' as http;
-import 'package:protobuffers/items.pb.dart';
+import 'package:come/constants.dart' show Constants;
+import 'package:come/info.dart' show fetchGeoInfo;
+import 'package:come/model/future_data.dart' show FutureData;
+import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
+import 'package:flutter/material.dart' as material show BuildContext;
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:html/dom.dart' show Element, Document;
+import 'package:html/parser.dart' show parse;
+import 'package:http/http.dart' as http show readBytes;
+import 'package:protobuffers/items.pb.dart' show Items;
+
+import 'model/future_desc.dart' show FutureDesc;
 
 Future<Uint8List> httpReadBytes(Uri url) {
   return http.readBytes(url, headers: {
@@ -27,8 +28,8 @@ Future<String> httpReadString(Uri url) {
 
 Future<Items> _fetchItems() {
   if (!kDebugMode && !kIsWeb) {
-    final httpReadBytesFuture =
-        httpReadBytes(Uri.parse("https://come.lcjuves.com/assets/final-items.pb"));
+    final httpReadBytesFuture = httpReadBytes(
+        Uri.parse("https://come.lcjuves.com/assets/final-items.pb"));
     return httpReadBytesFuture.then((responseBodyBytes) =>
         responseBodyBytes.isNotEmpty
             ? Future.value(Items.fromBuffer(responseBodyBytes))

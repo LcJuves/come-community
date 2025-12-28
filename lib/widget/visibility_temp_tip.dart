@@ -1,17 +1,40 @@
-import 'package:come/constants.dart';
-import 'package:come/info.dart';
-import 'package:come/l10n/app_localizations_en.dart';
-import 'package:come/l10n/app_localizations_zh.dart';
-import 'package:come/webspec.dart';
-import 'package:come/widget/backdrop_filter_scaffold.dart';
-import 'package:come/widget/visibility_temp_tip_text.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 // import 'package:platform_device_id/platform_device_id.dart'
 //     if (dart.library.js_interop) 'package:come/webspec.dart' as platform_device_id;
-import 'package:protobuffers/items.pb.dart';
-import 'package:universal_web/web.dart';
+
+import 'package:come/constants.dart' show Constants;
+import 'package:come/info.dart' show geoDisabled;
+import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
+import 'package:flutter/material.dart'
+    show
+        StatefulWidget,
+        Widget,
+        Color,
+        State,
+        BuildContext,
+        BoxDecoration,
+        FittedBox,
+        Colors,
+        Axis,
+        EdgeInsets,
+        MainAxisAlignment,
+        BlendMode,
+        BoxFit,
+        Container,
+        Column,
+        SelectionArea,
+        Center,
+        SingleChildScrollView,
+        Visibility;
+import 'package:flutter/services.dart' show SystemChrome;
+import 'package:protobuffers/items.pb.dart' show Items;
+import 'package:universal_web/helpers.dart' show HTMLDivElement;
+import 'package:universal_web/web.dart' show document;
+
+import '../l10n/app_localizations_en.dart' show AppLocalizationsEn;
+import '../l10n/app_localizations_zh.dart' show AppLocalizationsZh;
+import '../webspec.dart' show letTempTipVisible;
+import 'backdrop_filter_scaffold.dart' show BackdropFilterScaffold;
+import 'visibility_temp_tip_text.dart' show VisibilityTempTipText;
 
 const double sigma = 6.18 / 4.5;
 

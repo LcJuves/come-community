@@ -1,6 +1,20 @@
-import 'package:come/widget/come_text.dart';
-import 'package:come/widget/linear_gradient_shader_mask.dart';
-import 'package:flutter/material.dart';
+import 'package:come/widget/come_text.dart' show ComeText;
+import 'package:come/widget/linear_gradient_shader_mask.dart'
+    show LinearGradientShaderMask;
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        Paint,
+        BuildContext,
+        Widget,
+        EdgeInsets,
+        BlendMode,
+        FontWeight,
+        MaskFilter,
+        BlurStyle,
+        Padding,
+        Colors,
+        Stack;
 
 class VisibilityTempTipText extends StatelessWidget {
   const VisibilityTempTipText(String this.data,

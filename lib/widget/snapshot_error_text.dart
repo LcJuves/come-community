@@ -1,8 +1,23 @@
-import 'dart:ui';
+import 'dart:ui' show ImageFilter;
 
-import 'package:come/constants.dart';
-import 'package:come/widget/come_text.dart';
-import 'package:flutter/material.dart';
+import 'package:come/constants.dart' show Constants;
+import 'package:come/widget/come_text.dart' show ComeText;
+import 'package:flutter/material.dart'
+    show
+        StatelessWidget,
+        AsyncSnapshot,
+        BuildContext,
+        Widget,
+        EdgeInsets,
+        Axis,
+        MediaQuery,
+        Alignment,
+        TextAlign,
+        Colors,
+        BlendMode,
+        Container,
+        SingleChildScrollView,
+        BackdropFilter;
 
 class SnapshotErrorText extends StatelessWidget {
   final AsyncSnapshot asyncSnapshot;

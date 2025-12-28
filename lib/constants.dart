@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter/material.dart' show Color, Colors, Brightness;
+import 'package:flutter/services.dart' show SystemUiOverlayStyle;
 
 abstract final class Constants {
   static const double goldenRatio = 0.618;
