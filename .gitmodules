@@ -5,6 +5,7 @@
 [submodule "third_party/web-artifacts"]
 	path = third_party/web-artifacts
 	url = https://github.com/MeyouOSS/come-web.git
+	branch = main
 [submodule "third_party/protobuf"]
 	path = third_party/protobuf
 	url = ssh://git@codeberg.org/LcJuves/protocolbuffers.git
