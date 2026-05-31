@@ -27,8 +27,7 @@ import 'package:flutter/material.dart'
         Visibility;
 import 'package:flutter/services.dart' show SystemChrome;
 import 'package:protobuffers/items.pb.dart' show Items;
-import 'package:universal_web/helpers.dart' show HTMLDivElement;
-import 'package:universal_web/web.dart' show document;
+import 'package:universal_web/web.dart' show document, HTMLDivElement;
 
 import '../l10n/app_localizations_en.dart' show AppLocalizationsEn;
 import '../l10n/app_localizations_zh.dart' show AppLocalizationsZh;

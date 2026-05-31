@@ -1,3 +1,4 @@
+import 'package:come/widget/squircle_border.dart' show SquircleBorder;
 import 'package:flutter/material.dart'
     show
         StatelessWidget,
@@ -8,7 +9,6 @@ import 'package:flutter/material.dart'
         BuildContext,
         BorderRadius,
         Colors,
-        RoundedRectangleBorder,
         Directionality,
         ShapeBorderClipper,
         PhysicalShape;
@@ -48,7 +48,8 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
   Widget build(BuildContext context) {
     return PhysicalShape(
       clipper: ShapeBorderClipper(
-          shape: RoundedRectangleBorder(borderRadius: borderRadius),
+          shape: SquircleBorder(
+              radius: borderRadius.resolve(Directionality.maybeOf(context))),
           textDirection: Directionality.maybeOf(context)),
       clipBehavior: clipBehavior,
       elevation: elevation,

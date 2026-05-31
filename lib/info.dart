@@ -1,47 +1,42 @@
-import 'dart:convert' show jsonDecode;
-import 'dart:ui' show Locale;
-
-import 'package:come/http_requests.dart' show httpReadString;
 import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart' show BuildContext;
-import 'package:flutter/widgets.dart' show Localizations;
 import 'package:protobuffers/items.pb.dart' show Items;
 
 Future<dynamic> fetchGeoInfo(BuildContext context, Items items) {
-  if (!context.mounted) {
-    return Future.value({'country_code': 'EN'});
-  }
+  // if (!context.mounted) {
+  return Future.value({'country_code': 'EN'});
+  // }
 
-  final httpReadBytesFuture =
-      httpReadString(Uri.parse('https://ipapi.co/json'));
-  final result = httpReadBytesFuture.then((responseBody) {
-    if (responseBody.isEmpty) {
-      // ignore: use_build_context_synchronously
-      return _getLocaleLangInfo(context);
-    }
-    final fetchedGeoInfo = jsonDecode(responseBody);
-    if (items.specIpAddrPrefixes.isNotEmpty &&
-        items.specIpAddrPrefixes
-            .where((prefix) => fetchedGeoInfo['ip'].startsWith(prefix))
-            .isNotEmpty &&
-        fetchedGeoInfo['region_code'].toLowerCase() == "GD".toLowerCase()) {
-      fetchedGeoInfo['country_code'] = "EN";
-    }
-    return fetchedGeoInfo;
-  }).catchError((_) {
-    // ignore: use_build_context_synchronously
-    return _getLocaleLangInfo(context);
-  });
-  return result;
+  // final httpReadBytesFuture =
+  //     httpReadString(Uri.parse('https://ipapi.co/json'));
+  // final result = httpReadBytesFuture.then((responseBody) {
+  //   if (responseBody.isEmpty) {
+  //     // ignore: use_build_context_synchronously
+  //     return _getLocaleLangInfo(context);
+  //   }
+  //   final fetchedGeoInfo = jsonDecode(responseBody);
+  //   if (items.specIpAddrPrefixes.isNotEmpty &&
+  //       items.specIpAddrPrefixes
+  //           .where((prefix) => fetchedGeoInfo['ip'].startsWith(prefix))
+  //           .isNotEmpty &&
+  //       fetchedGeoInfo['region_code'].toLowerCase() == "GD".toLowerCase()) {
+  //     fetchedGeoInfo['country_code'] = "EN";
+  //   }
+  //   return fetchedGeoInfo;
+  // }).catchError((_) {
+  //   // ignore: use_build_context_synchronously
+  //   return _getLocaleLangInfo(context);
+  // });
+  // return result;
 }
 
-dynamic _getLocaleLangInfo(BuildContext context) {
-  Locale locale = Localizations.localeOf(context);
-  final languageCode = locale.languageCode;
-  return languageCode.isNotEmpty || languageCode.toLowerCase().startsWith("zh")
-      ? {'country_code': 'CN'}
-      : {'country_code': 'EN'};
-}
+// dynamic _getLocaleLangInfo(BuildContext context) {
+//   Locale locale = Localizations.localeOf(context);
+//   final languageCode = locale.languageCode;
+//   return languageCode.isNotEmpty || languageCode.toLowerCase().startsWith("zh")
+//       ? {'country_code': 'CN'}
+//       : {'country_code': 'EN'};
+// }
 
 bool networkDisabled(dynamic fetchedGeoInfo, Items items) {
   if (kDebugMode) {
