@@ -35,8 +35,7 @@ bool letTempTipVisible() {
   if (!kIsWeb) {
     return false;
   }
-  return !(getWindowLocationUri().host.startsWith("192.168.31")) &&
-      // !(getWindowLocationUri().host.startsWith("[::")) &&
+  return !(getWindowLocationUri().host.startsWith("[::")) &&
       !(getWindowLocationUri().host.endsWith("lcjuves.com"));
 }
 

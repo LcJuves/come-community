@@ -1,6 +1,7 @@
 import 'package:come/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:jovial_svg/jovial_svg.dart'
+    show ScalableImageWidget, ScalableImage;
 
 class AlipayIcon extends StatelessWidget {
   final String _alipayIconSvg = """
@@ -18,6 +19,10 @@ class AlipayIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        width: width, height: height, child: SvgPicture.string(_alipayIconSvg));
+        width: width,
+        height: height,
+        child: ScalableImageWidget(
+          si: ScalableImage.fromSvgString(_alipayIconSvg),
+        ));
   }
 }

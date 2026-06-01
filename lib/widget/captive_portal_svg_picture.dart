@@ -3,14 +3,17 @@ import 'package:come/widget/linear_gradient_shader_mask.dart'
     show LinearGradientShaderMask;
 import 'package:flutter/material.dart'
     show
-        StatelessWidget,
-        BuildContext,
-        Widget,
-        ColorFilter,
-        SizedBox,
         BlendMode,
-        Colors;
-import 'package:flutter_svg/svg.dart' show SvgPicture;
+        BuildContext,
+        ColorFilter,
+        ColorFiltered,
+        Colors,
+        SizedBox,
+        StatelessWidget,
+        Widget;
+
+import 'package:jovial_svg/jovial_svg.dart'
+    show ScalableImageWidget, ScalableImage;
 
 class CaptivePortalSvgPicture extends StatelessWidget {
   const CaptivePortalSvgPicture({super.key});
@@ -24,10 +27,11 @@ class CaptivePortalSvgPicture extends StatelessWidget {
       dimension: Constants.captivePortalSvgIconSize,
       child: LinearGradientShaderMask(
         blendMode: BlendMode.modulate,
-        child: SvgPicture.string(
-          _captivePortalSvg,
-          colorFilter: const ColorFilter.mode(Colors.grey, BlendMode.srcATop),
-        ),
+        child: ColorFiltered(
+            colorFilter: const ColorFilter.mode(Colors.grey, BlendMode.srcATop),
+            child: ScalableImageWidget(
+              si: ScalableImage.fromSvgString(_captivePortalSvg),
+            )),
       ),
     );
   }

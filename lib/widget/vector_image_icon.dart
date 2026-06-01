@@ -1,11 +1,6 @@
-import 'package:cached_network_image/cached_network_image.dart'
-    show CachedNetworkImage;
-import 'package:come/extended_http_client.dart' show extendedSpecHttpClient;
-import 'package:come/webspec.dart' show isRunOnSafariWebBrowser;
 import 'package:come/widget/come_circular_progress_bar.dart'
     show ComeCircularProgressIndicator;
 import 'package:come/widget/meyou_logo.dart' show MeyouLogo;
-import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart'
     show
         StatefulWidget,
@@ -18,23 +13,22 @@ import 'package:flutter/material.dart'
         BlendMode,
         Padding,
         Colors,
-        Curves,
         SizedBox;
-import 'package:flutter_svg/svg.dart' show SvgPicture;
-import 'package:vector_graphics/vector_graphics_compat.dart'
-    show NetworkBytesLoader;
+import 'package:jovial_svg/jovial_svg.dart'
+    show ScalableImageWidget, ScalableImageCache, ScalableImageSource;
 
 class VectorImageIcon extends StatefulWidget {
   final String url;
   final double size;
   final bool useVecIcon;
   final int cacheSize;
-  const VectorImageIcon(
-      {super.key,
-      required this.url,
-      required this.size,
-      required this.useVecIcon,
-      required this.cacheSize});
+  const VectorImageIcon({
+    super.key,
+    required this.url,
+    required this.size,
+    required this.useVecIcon,
+    required this.cacheSize,
+  });
 
   @override
   State<VectorImageIcon> createState() => _VectorImageIconState();
@@ -56,53 +50,24 @@ class _VectorImageIconState extends State<VectorImageIcon> {
         blendMode: BlendMode.srcOut,
       ),
     );
-    final errorMeyouLogo = MeyouLogo(
-      key: widget.key,
-      color: Colors.red,
-    );
+    final errorMeyouLogo = MeyouLogo(key: widget.key, color: Colors.red);
 
-    _image = widget.useVecIcon
-        ? SvgPicture(
-            NetworkBytesLoader(
-                httpClient: extendedSpecHttpClient(),
-                Uri.parse(Uri.decodeComponent(
-                    "${widget.url.replaceAll("svg/", "vec/")}.vec"))),
-            width: widget.size,
-            height: widget.size,
-            placeholderBuilder: (BuildContext context) =>
-                circularProgressIndicator,
-            errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
+    final vectorImageHttpUrl = widget.useVecIcon
+        ? Uri.parse(
+            Uri.decodeComponent("${widget.url.replaceAll("svg/", "vec/")}.vec"),
           )
-        : SvgPicture.network(
-            widget.url,
-            width: widget.size,
-            height: widget.size,
-            placeholderBuilder: (BuildContext context) =>
-                circularProgressIndicator,
-            errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
-          );
+        : Uri.parse(widget.url);
 
-    if (kIsWeb && !isRunOnSafariWebBrowser()) {
-      _image = CachedNetworkImage(
-        imageUrl: widget.url,
-        width: widget.size,
-        height: widget.size,
-        fadeInCurve: Curves.fastEaseInToSlowEaseOut,
-        progressIndicatorBuilder: (context, url, downloadProgress) =>
-            circularProgressIndicator,
-        errorWidget: (context, url, error) => errorMeyouLogo,
-      );
-    }
-
-    /* _image = SizedBox(
+    _image = SizedBox(
       width: widget.size,
       height: widget.size,
       child: ScalableImageWidget.fromSISource(
-          onLoading: (context) => circularProgressIndicator,
-          onError: (context) => circularProgressIndicator,
-          cache: ScalableImageCache(size: widget.cacheSize),
-          si: ScalableImageSource.fromSvgHttpUrl(Uri.parse(widget.url))),
-    ); */
+        onLoading: (context) => circularProgressIndicator,
+        onError: (context) => errorMeyouLogo,
+        cache: ScalableImageCache(size: widget.cacheSize),
+        si: ScalableImageSource.fromSvgHttpUrl(vectorImageHttpUrl),
+      ),
+    );
   }
 
   @override

@@ -2,7 +2,6 @@
 //     if (dart.library.js_interop) 'package:come/webspec.dart' as platform_device_id;
 
 import 'package:come/constants.dart' show Constants;
-import 'package:come/info.dart' show geoDisabled;
 import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
 import 'package:flutter/material.dart'
     show
@@ -31,7 +30,6 @@ import 'package:universal_web/web.dart' show document, HTMLDivElement;
 
 import '../l10n/app_localizations_en.dart' show AppLocalizationsEn;
 import '../l10n/app_localizations_zh.dart' show AppLocalizationsZh;
-import '../webspec.dart' show letTempTipVisible;
 import 'backdrop_filter_scaffold.dart' show BackdropFilterScaffold;
 import 'visibility_temp_tip_text.dart' show VisibilityTempTipText;
 
@@ -92,13 +90,13 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
     super.initState();
     _shouldVisible =
         widget.items.hasTempTipVisible() && widget.items.tempTipVisible;
-    if (widget.items.specIpAddrPrefixes.isNotEmpty &&
-        widget.fetchedGeoInfo != null &&
-        widget.items.specIpAddrPrefixes
-            .where((prefix) => widget.fetchedGeoInfo['ip'].startsWith(prefix))
-            .isNotEmpty) {
-      _shouldVisible = false;
-    }
+    // if (widget.items.specIpAddrPrefixes.isNotEmpty &&
+    //     widget.fetchedGeoInfo != null &&
+    //     widget.items.specIpAddrPrefixes
+    //         .where((prefix) => widget.fetchedGeoInfo['ip'].startsWith(prefix))
+    //         .isNotEmpty) {
+    //   _shouldVisible = false;
+    // }
     if (_shouldVisible && kDebugMode && kIsWeb) {
       final flutterView =
           document.querySelector("flutter-view") as HTMLDivElement?;
@@ -124,7 +122,8 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
   Future<void> _initGeoDisabledValue() async {
     // final String? deviceId = await platform_device_id.PlatformDeviceId.getDeviceId;
     setState(() {
-      _geoDisabled = geoDisabled(widget.fetchedGeoInfo, widget.items, "");
+      _geoDisabled =
+          false /* geoDisabled(widget.fetchedGeoInfo, widget.items, "") */;
     });
   }
 
@@ -135,7 +134,7 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
       visible: _shouldVisible ||
-          (!kDebugMode && letTempTipVisible()) ||
+          // (!kDebugMode && letTempTipVisible()) ||
           _geoDisabled,
       child: BackdropFilterScaffold(
         sigma: sigma,

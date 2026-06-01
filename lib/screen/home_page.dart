@@ -13,6 +13,7 @@ import 'package:come/widget/clip_rrect_backdrop_filter.dart'
 import 'package:come/widget/clip_rrect_backdrop_filter_search_bar.dart'
     show ClipRRrectBackdropFilterSearchBar;
 import 'package:come/widget/snapshot_error_text.dart' show SnapshotErrorText;
+import 'package:come/widget/visibility_temp_tip.dart' show VisibilityTempTip;
 import 'package:flutter/material.dart'
     show
         StatefulWidget,
@@ -178,12 +179,12 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                     ),
-                    // VisibilityTempTip(
-                    //   items: fetchedItems,
-                    //   fetchedGeoInfo: fetchedGeoInfo,
-                    //   singleChildScrollViewSpacing:
-                    //       singleChildScrollViewSpacing,
-                    // ),
+                    VisibilityTempTip(
+                      items: fetchedItems,
+                      fetchedGeoInfo: fetchedGeoInfo,
+                      singleChildScrollViewSpacing:
+                          singleChildScrollViewSpacing,
+                    ),
                   ],
                 );
               }

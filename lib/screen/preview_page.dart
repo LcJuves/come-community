@@ -43,8 +43,8 @@ import 'package:url_launcher/url_launcher_string.dart' show LaunchMode;
 import '../l10n/app_localizations_en.dart' show AppLocalizationsEn;
 import '../l10n/app_localizations_zh.dart' show AppLocalizationsZh;
 import '../widget/page_icon_button.dart' show PageIconButton;
-import '../widget/rounded_rectangle_border_physical_shape.dart'
-    show RoundedRectangleBorderPhysicalShape;
+import '../widget/rounded_superellipse_border_physical_shape.dart'
+    show RoundedSuperellipseBorderPhysicalShape;
 
 class PreviewPage extends StatefulWidget {
   final String title;
@@ -121,7 +121,7 @@ class _PreviewPageState extends State<PreviewPage> {
               child: Container(
                 margin: const EdgeInsets.only(
                     bottom: Constants.blurContainerPadding),
-                child: RoundedRectangleBorderPhysicalShape(
+                child: RoundedSuperellipseBorderPhysicalShape(
                   shadowColor: Colors.grey.withAlpha(169),
                   borderRadius: BorderRadius.circular(
                       MediaQuery.of(context).size.longestSide),

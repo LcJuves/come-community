@@ -1,4 +1,4 @@
-import 'package:come/widget/squircle_border.dart' show SquircleBorder;
+import 'package:flutter/cupertino.dart' show RoundedSuperellipseBorder;
 import 'package:flutter/material.dart'
     show
         StatelessWidget,
@@ -13,7 +13,7 @@ import 'package:flutter/material.dart'
         ShapeBorderClipper,
         PhysicalShape;
 
-class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
+class RoundedSuperellipseBorderPhysicalShape extends StatelessWidget {
   final BorderRadiusGeometry borderRadius;
 
   /// {@macro flutter.material.Material.clipBehavior}
@@ -35,7 +35,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
 
   final Widget? child;
 
-  const RoundedRectangleBorderPhysicalShape(
+  const RoundedSuperellipseBorderPhysicalShape(
       {super.key,
       this.borderRadius = BorderRadius.zero,
       this.clipBehavior = Clip.none,
@@ -48,8 +48,7 @@ class RoundedRectangleBorderPhysicalShape extends StatelessWidget {
   Widget build(BuildContext context) {
     return PhysicalShape(
       clipper: ShapeBorderClipper(
-          shape: SquircleBorder(
-              radius: borderRadius.resolve(Directionality.maybeOf(context))),
+          shape: RoundedSuperellipseBorder(borderRadius: borderRadius),
           textDirection: Directionality.maybeOf(context)),
       clipBehavior: clipBehavior,
       elevation: elevation,
