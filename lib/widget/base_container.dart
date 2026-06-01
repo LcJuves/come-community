@@ -4,8 +4,8 @@ import 'package:come/model/future_desc.dart' show FutureDesc;
 import 'package:come/screen/preview_page.dart' show PreviewPage;
 import 'package:come/widget/captive_portal_svg_picture.dart'
     show CaptivePortalSvgPicture;
-import 'package:come/widget/clip_rrect_backdrop_filter.dart'
-    show ClipRRrectBackdropFilter;
+import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
+    show ClipRSuperellipseBackdropFilter;
 import 'package:come/widget/inkwell_container.dart' show InkWellContainer;
 import 'package:come/widget/vector_image_icon.dart' show VectorImageIcon;
 import 'package:dart_animated_emoji/dart_animated_emoji.dart'
@@ -176,7 +176,7 @@ class _BaseContainerState extends State<BaseContainer> {
       duration: const Duration(milliseconds: 1000),
       curve: Curves.fastEaseInToSlowEaseOut,
       // The green box must be a child of the AnimatedOpacity widget.
-      child: ClipRRrectBackdropFilter(
+      child: ClipRSuperellipseBackdropFilter(
         key: widget.key,
         borderRadius: BorderRadius.circular(15),
         child: InkWellContainer(

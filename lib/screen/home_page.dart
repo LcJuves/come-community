@@ -8,10 +8,10 @@ import 'package:come/widget/animated_wallpaper_container.dart'
 import 'package:come/widget/backdrop_filter_scaffold.dart'
     show BackdropFilterScaffold;
 import 'package:come/widget/base_container.dart' show BaseContainer;
-import 'package:come/widget/clip_rrect_backdrop_filter.dart'
-    show ClipRRrectBackdropFilter;
-import 'package:come/widget/clip_rrect_backdrop_filter_search_bar.dart'
-    show ClipRRrectBackdropFilterSearchBar;
+import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
+    show ClipRSuperellipseBackdropFilter;
+import 'package:come/widget/clip_rsuperellipse_backdrop_filter_search_bar.dart'
+    show ClipRSuperellipseBackdropFilterSearchBar;
 import 'package:come/widget/snapshot_error_text.dart' show SnapshotErrorText;
 import 'package:come/widget/visibility_temp_tip.dart' show VisibilityTempTip;
 import 'package:flutter/material.dart'
@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Align(
                       alignment: Alignment.bottomCenter,
-                      child: ClipRRrectBackdropFilterSearchBar(
+                      child: ClipRSuperellipseBackdropFilterSearchBar(
                         geoInfo: fetchedData.fetchedGeoInfo,
                         singleChildScrollViewSpacing:
                             singleChildScrollViewSpacing,
@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Align(
                       alignment: Alignment.topCenter,
-                      child: ClipRRrectBackdropFilter(
+                      child: ClipRSuperellipseBackdropFilter(
                         elevation: 0,
                         width: MediaQuery.of(context).size.width,
                         height: MediaQuery.of(context).padding.top,

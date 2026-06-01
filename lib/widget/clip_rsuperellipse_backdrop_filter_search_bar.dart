@@ -4,8 +4,8 @@ import 'package:come/constants.dart' show Constants;
 import 'package:come/l10n/app_localizations_en.dart' show AppLocalizationsEn;
 import 'package:come/l10n/app_localizations_zh.dart' show AppLocalizationsZh;
 import 'package:come/webspec.dart' show isRunOnMobileWebViewOrBrowser;
-import 'package:come/widget/clip_rrect_backdrop_filter.dart'
-    show ClipRRrectBackdropFilter;
+import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
+    show ClipRSuperellipseBackdropFilter;
 import 'package:come/widget/linear_gradient_icon.dart' show LinearGradientIcon;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart'
@@ -34,8 +34,8 @@ import 'package:flutter/material.dart'
         SearchBar,
         Container;
 
-class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
-  const ClipRRrectBackdropFilterSearchBar(
+class ClipRSuperellipseBackdropFilterSearchBar extends StatefulWidget {
+  const ClipRSuperellipseBackdropFilterSearchBar(
       {super.key,
       this.onChanged,
       required this.singleChildScrollViewSpacing,
@@ -51,7 +51,7 @@ class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
   final dynamic geoInfo;
 
   @override
-  State<ClipRRrectBackdropFilterSearchBar> createState() =>
+  State<ClipRSuperellipseBackdropFilterSearchBar> createState() =>
       _ClipRRectBackdropFilterSearchBarState();
 
   double _textBoxDynamicWidth(
@@ -83,7 +83,7 @@ class ClipRRrectBackdropFilterSearchBar extends StatefulWidget {
 }
 
 class _ClipRRectBackdropFilterSearchBarState
-    extends State<ClipRRrectBackdropFilterSearchBar> {
+    extends State<ClipRSuperellipseBackdropFilterSearchBar> {
   @override
   Widget build(BuildContext context) {
     final searchBarMaxWidth = ((Constants.urlBoxWidth +
@@ -104,7 +104,7 @@ class _ClipRRectBackdropFilterSearchBarState
     final double marginHorizontal = textBoxDynamicWidth == Constants.urlBoxWidth
         ? widget.singleChildScrollViewSpacing
         : (screenWidth - oneCardWidth - Constants.blurContainerPadding) / 2;
-    return ClipRRrectBackdropFilter(
+    return ClipRSuperellipseBackdropFilter(
       margin: widget.margin ??
           EdgeInsets.only(
               left: marginHorizontal,

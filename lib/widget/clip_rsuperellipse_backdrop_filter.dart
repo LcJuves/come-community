@@ -3,27 +3,13 @@ import 'dart:ui' show ImageFilter;
 import 'package:come/widget/rounded_superellipse_border_physical_shape.dart'
     show RoundedSuperellipseBorderPhysicalShape;
 import 'package:flutter/material.dart'
-    show
-        StatelessWidget,
-        BorderRadius,
-        Widget,
-        Decoration,
-        RRect,
-        CustomClipper,
-        EdgeInsetsGeometry,
-        Color,
-        BuildContext,
-        Colors,
-        BackdropFilter,
-        ClipRRect,
-        Container;
+    show StatelessWidget, BorderRadius, Widget, Decoration, RRect, CustomClipper, EdgeInsetsGeometry, Color, BuildContext, Colors, BackdropFilter, ClipRRect, Container, ClipRSuperellipse;
 
-class ClipRRrectBackdropFilter extends StatelessWidget {
-  const ClipRRrectBackdropFilter(
+class ClipRSuperellipseBackdropFilter extends StatelessWidget {
+  const ClipRSuperellipseBackdropFilter(
       {super.key,
       this.child,
       this.borderRadius = BorderRadius.zero,
-      this.clipper,
       this.elevation = 3.0,
       this.sigma = 5,
       this.decoration,
@@ -46,9 +32,6 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
   final double? width;
   final double? height;
 
-  /// If non-null, determines which clip to use.
-  final CustomClipper<RRect>? clipper;
-
   /// Empty space to surround the [decoration] and [child].
   final EdgeInsetsGeometry? margin;
 
@@ -69,7 +52,7 @@ class ClipRRrectBackdropFilter extends StatelessWidget {
           elevation: elevation,
           color: color ?? Colors.transparent,
           shadowColor: shadowColor ?? Colors.grey.withAlpha(169),
-          child: ClipRRect(
+          child: ClipRSuperellipse(
             borderRadius: borderRadius ?? BorderRadius.zero,
             child: BackdropFilter.grouped(
                 filter: ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
