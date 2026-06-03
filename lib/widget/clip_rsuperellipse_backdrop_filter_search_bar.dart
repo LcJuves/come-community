@@ -9,30 +9,7 @@ import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
 import 'package:come/widget/linear_gradient_icon.dart' show LinearGradientIcon;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart'
-    show
-        StatefulWidget,
-        ValueChanged,
-        EdgeInsetsGeometry,
-        State,
-        BuildContext,
-        Widget,
-        EdgeInsets,
-        WidgetStatePropertyAll,
-        Padding,
-        MediaQuery,
-        BorderRadius,
-        Colors,
-        BlendMode,
-        BoxDecoration,
-        BoxConstraints,
-        TextInputType,
-        Icons,
-        TextInputAction,
-        FontWeight,
-        Paint,
-        TextStyle,
-        SearchBar,
-        Container;
+    show StatefulWidget, ValueChanged, EdgeInsetsGeometry, State, BuildContext, Widget, EdgeInsets, WidgetStatePropertyAll, Padding, MediaQuery, BorderRadius, Colors, BlendMode, BoxDecoration, BoxConstraints, TextInputType, Icons, TextInputAction, FontWeight, Paint, TextStyle, SearchBar, Container, RoundedSuperellipseBorder;
 
 class ClipRSuperellipseBackdropFilterSearchBar extends StatefulWidget {
   const ClipRSuperellipseBackdropFilterSearchBar(
@@ -124,6 +101,9 @@ class _ClipRRectBackdropFilterSearchBarState
             backgroundBlendMode: BlendMode.plus),
         constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
         child: SearchBar(
+          shape:  WidgetStatePropertyAll(RoundedSuperellipseBorder(
+              borderRadius:
+                  BorderRadius.circular(MediaQuery.of(context).size.longestSide))),
           elevation: const WidgetStatePropertyAll(3),
           keyboardType: TextInputType.webSearch,
           autoFocus: true,

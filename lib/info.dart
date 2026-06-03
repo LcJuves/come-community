@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart' show kDebugMode;
-import 'package:flutter/material.dart' show BuildContext;
+import 'package:flutter/material.dart' show BuildContext, Localizations, Locale;
 import 'package:protobuffers/items.pb.dart' show Items;
 
 Future<dynamic> fetchGeoInfo(BuildContext context, Items items) {
   // if (!context.mounted) {
-  return Future.value({'country_code': 'EN'});
+  // return Future.value({'country_code': 'EN'});
   // }
 
   // final httpReadBytesFuture =
@@ -25,18 +25,18 @@ Future<dynamic> fetchGeoInfo(BuildContext context, Items items) {
   //   return fetchedGeoInfo;
   // }).catchError((_) {
   //   // ignore: use_build_context_synchronously
-  //   return _getLocaleLangInfo(context);
+  return Future.value(_getLocaleLangInfo(context));
   // });
   // return result;
 }
 
-// dynamic _getLocaleLangInfo(BuildContext context) {
-//   Locale locale = Localizations.localeOf(context);
-//   final languageCode = locale.languageCode;
-//   return languageCode.isNotEmpty || languageCode.toLowerCase().startsWith("zh")
-//       ? {'country_code': 'CN'}
-//       : {'country_code': 'EN'};
-// }
+dynamic _getLocaleLangInfo(BuildContext context) {
+  Locale locale = Localizations.localeOf(context);
+  final languageCode = locale.languageCode;
+  return languageCode.isNotEmpty && languageCode.toLowerCase().startsWith("zh")
+      ? {'country_code': 'CN'}
+      : {'country_code': 'EN'};
+}
 
 bool networkDisabled(dynamic fetchedGeoInfo, Items items) {
   if (kDebugMode) {
