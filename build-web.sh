@@ -6,7 +6,7 @@ flutter build web --wasm --csp \
 	--no-native-null-assertions \
 	--no-web-resources-cdn -O 4 \
 	--no-source-maps --release
-dart run third_party/protobuf/main.dart
+dart run third-party/protobuf/main.dart
 
 minify_js() {
 	# bun build "$1" --minify --keep-names --target browser --outfile "$1"
