@@ -27,11 +27,11 @@
   <meta name="apple-mobile-web-app-title" content="Come">
   <meta name="theme-color" content="black">
   <meta name="author" content="Liangcheng Juves">
-  <link rel="apple-touch-icon" type="image/svg+xml" href="https://fastweb.lcjuves.com/assets/svg/Meyou.svg">
+  <link rel="apple-touch-icon" type="image/svg+xml" href="assets/res/svg/Meyou.svg">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="https://fastweb.lcjuves.com/assets/svg/Meyou.svg" />
-  <link rel="shortcut icon" type="image/svg+xml" href="https://fastweb.lcjuves.com/assets/svg/Meyou.svg" />
+  <link rel="icon" type="image/svg+xml" href="assets/res/svg/Meyou.svg" />
+  <link rel="shortcut icon" type="image/svg+xml" href="assets/res/svg/Meyou.svg" />
 
   <title>Come</title>
   <link rel="manifest" href="manifest.json">
@@ -56,17 +56,15 @@
 </head>
 
 <body>
-  <svg width="61.8%" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="50" cy="150" r="10" fill="white">
-      <animate attributeName="r" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1" values="5;35;5" />
+  <svg width="61.8%" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="4" cy="12" r="3">
+      <animate id="spinner_jObz" begin="0;spinner_vwSQ.end-0.25s" attributeName="r" dur="0.75s" values="3;.2;3" />
     </circle>
-
-    <circle cx="150" cy="150" r="10" fill="white">
-      <animate attributeName="r" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1" values="5;35;5" />
+    <circle cx="12" cy="12" r="3">
+      <animate begin="spinner_jObz.end-0.6s" attributeName="r" dur="0.75s" values="3;.2;3" />
     </circle>
-
-    <circle cx="250" cy="150" r="10" fill="white">
-      <animate attributeName="r" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1" values="5;35;5" />
+    <circle cx="20" cy="12" r="3">
+      <animate id="spinner_vwSQ" begin="spinner_jObz.end-0.45s" attributeName="r" dur="0.75s" values="3;.2;3" />
     </circle>
   </svg>
   <script src="flutter_bootstrap.js" async></script>

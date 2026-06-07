@@ -4,26 +4,37 @@
 flutter clean
 flutter build web --wasm --csp \
 	--no-native-null-assertions \
-	--no-web-resources-cdn -O 4 \
+	--no-web-resources-cdn -O4 \
 	--no-source-maps --release
 dart run third-party/protobuf/main.dart
 
 minify_js() {
-	# bun build "$1" --minify --keep-names --target browser --outfile "$1"
+	bun build "$1" --minify --target browser --outfile "$1"
+	bunx javascript-obfuscator "$1" --identifier-names-generator mangled \
+		--unicode-escape-sequence true --numbers-to-expressions true \
+		--disable-console-output true --parse-html true \
+		--self-defending true --simplify true --vm-bytecode-encoding true \
+		--vm-bytecode-array-encoding true --vm-bytecode-format binary \
+		--debug-protection true -o "$1"
+	# bunx swc "$1" -o "$1.out"
+}
+
+esbuild_minify_js() {
 	bunx esbuild --minify --loader=js --target=esnext \
 		--tree-shaking=true <"$1" >"$1.out"
 	mv "$1.out" "$1"
-	# echo >/dev/null
 }
 
 minify_html() {
-	bunx html-minifier --remove-comments --minify-js esbuild \
-		--minify-css esbuild --minify-urls relateurl \
+	bunx html-minifier --remove-comments --minify-js bun \
+		--minify-css bun --minify-urls relateurl \
 		--remove-optional-tags --remove-redundant-attributes \
 		--remove-tag-whitespace --collapse-whitespace \
 		--remove-script-type-attributes \
 		--remove-style-link-type-attributes \
-		--use-short-doctype \
+		--remove-attribute-quotes --remove-empty-attributes \
+		--remove-empty-elements --use-short-doctype \
+		--sort-attributes --sort-class-name \
 		"$1" -o "$1"
 }
 
@@ -51,6 +62,7 @@ minify_json() {
 	minify_js flutter.js
 	minify_html index.html
 	minify_js main.dart.js
+	esbuild_minify_js main.dart.js
 	minify_js main.dart.mjs
 	minify_json manifest.json
 )
