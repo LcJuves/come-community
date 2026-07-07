@@ -1,4 +1,4 @@
-# Come
+# Come Community
 
 A new Flutter project.
 
