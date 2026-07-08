@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart'
+import 'package:flutter/material.dart' show IconButton;
+import 'package:flutter/widgets.dart'
     show
         StatelessWidget,
         IconData,
         VoidCallback,
-        BuildContext,
         Widget,
+        BuildContext,
         EdgeInsets,
-        Icon,
-        IconButton;
+        Icon;
 
 import '../constants.dart' show Constants;
 
@@ -28,7 +28,7 @@ class PageIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-        iconSize: (Constants.svgIconSize / 2) * Constants.goldenRatio,
+        iconSize: (Constants.vectorIconSize / 2) * Constants.goldenRatio,
         padding: const EdgeInsets.all(10),
         onPressed: onPressed,
         icon: Icon(icon));

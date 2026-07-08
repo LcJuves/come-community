@@ -13,8 +13,8 @@ class AlipayIcon extends StatelessWidget {
 
   const AlipayIcon(
       {super.key,
-      this.width = Constants.svgIconSize,
-      this.height = Constants.svgIconSize});
+      this.width = Constants.vectorIconSize,
+      this.height = Constants.vectorIconSize});
 
   @override
   Widget build(BuildContext context) {

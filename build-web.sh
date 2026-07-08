@@ -62,7 +62,7 @@ minify_json() {
 	minify_js flutter.js
 	minify_html index.html
 	minify_js main.dart.js
-	esbuild_minify_js main.dart.js
+	# esbuild_minify_js main.dart.js
 	minify_js main.dart.mjs
 	minify_json manifest.json
 )

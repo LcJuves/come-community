@@ -1,24 +1,30 @@
 import 'package:come/l10n/app_localizations.dart' show AppLocalizations;
 import 'package:come/screen/home_page.dart' show HomePage;
+import 'package:device_preview_plus/device_preview_plus.dart'
+    show DevicePreview;
+import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter/material.dart'
     show
-        runApp,
+        MaterialApp,
+        ThemeData,
+        TabBarThemeData,
+        Colors,
+        TextSelectionThemeData,
+        ScrollbarThemeData;
+import 'package:flutter/rendering.dart' show Radius;
+import 'package:flutter/widgets.dart'
+    show
         StatelessWidget,
         BuildContext,
         Widget,
         Color,
-        TabBarThemeData,
-        Colors,
-        TextSelectionThemeData,
+        runApp,
         WidgetStatePropertyAll,
-        Radius,
-        MediaQuery,
-        ScrollbarThemeData,
-        ThemeData,
-        MaterialApp;
+        MediaQuery;
 
 void main() async {
-  runApp(const MyApp());
+  runApp(DevicePreview(
+      enabled: !kReleaseMode, builder: (context) => const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -27,6 +33,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       theme: ThemeData(

@@ -2,17 +2,16 @@ import 'dart:ui' show ImageFilter;
 
 import 'package:come/widget/rounded_superellipse_border_physical_shape.dart'
     show RoundedSuperellipseBorderPhysicalShape;
-import 'package:flutter/material.dart'
+import 'package:flutter/material.dart' show Colors;
+import 'package:flutter/painting.dart' show RoundedSuperellipseBorder;
+import 'package:flutter/rendering.dart'
+    show BorderRadius, Decoration, EdgeInsetsGeometry, Color, ShapeDecoration;
+import 'package:flutter/widgets.dart'
     show
         StatelessWidget,
-        BorderRadius,
-        Widget,
-        Decoration,
-        EdgeInsetsGeometry,
-        Color,
-        BuildContext,
-        Colors,
         BackdropFilter,
+        Widget,
+        BuildContext,
         Container,
         ClipRSuperellipse;
 
@@ -58,6 +57,9 @@ class ClipRSuperellipseBackdropFilter extends StatelessWidget {
       width: width,
       height: height,
       margin: margin,
+      decoration: ShapeDecoration(
+        shape: RoundedSuperellipseBorder(borderRadius: borderRadius),
+      ),
       child: RoundedSuperellipseBorderPhysicalShape(
           borderRadius: borderRadius ?? BorderRadius.zero,
           elevation: elevation,

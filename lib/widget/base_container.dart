@@ -10,40 +10,40 @@ import 'package:come/widget/inkwell_container.dart' show InkWellContainer;
 import 'package:come/widget/vector_image_icon.dart' show VectorImageIcon;
 import 'package:dart_animated_emoji/dart_animated_emoji.dart'
     show AnimatedEmoji;
+import 'package:flutter/cupertino.dart' show RoundedSuperellipseBorder;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart'
     show
-        StatefulWidget,
+        AnimatedOpacity,
+        BlendMode,
+        BorderRadius,
         BuildContext,
-        State,
-        GestureTapCallback,
-        Widget,
-        EdgeInsets,
-        SizedBox,
         Color,
+        Colors,
+        Column,
+        CrossAxisAlignment,
+        Curves,
+        EdgeInsets,
+        FontWeight,
+        FutureBuilder,
+        GestureTapCallback,
+        MainAxisAlignment,
+        MainAxisSize,
+        MaterialPageRoute,
         MediaQuery,
         Navigator,
-        MaterialPageRoute,
-        Curves,
-        BorderRadius,
-        Colors,
-        MainAxisSize,
-        MainAxisAlignment,
-        CrossAxisAlignment,
-        TextScaler,
-        FontWeight,
         Paint,
-        BlendMode,
-        TextStyle,
-        Text,
-        BoxShape,
-        BoxDecoration,
-        TooltipTriggerMode,
-        Tooltip,
         Row,
-        FutureBuilder,
-        Column,
-        AnimatedOpacity;
+        ShapeDecoration,
+        SizedBox,
+        State,
+        StatefulWidget,
+        Text,
+        TextScaler,
+        TextStyle,
+        Tooltip,
+        TooltipTriggerMode,
+        Widget;
 import 'package:lottie/lottie.dart' show LottieBuilder, LottieComposition;
 import 'package:protobuffers/items.pb.dart' show Item;
 import 'package:text_marquee/text_marquee.dart' show TextMarquee;
@@ -78,7 +78,7 @@ class BaseContainer extends StatefulWidget {
     final usableWidth = screenWidth -
         (singleChildScrollViewSpacing * 2) -
         (Constants.baseContainerPadding * 2) -
-        Constants.svgIconSize -
+        Constants.vectorIconSize -
         (Constants.titleLeftPadding * 2);
     return usableWidth < Constants.urlBoxWidth
         ? usableWidth
@@ -146,7 +146,7 @@ class _BaseContainerState extends State<BaseContainer> {
             AnimatedEmoji.isEmojiSupported(widget.item.emojiIcon)
         ? SizedBox.square(
             key: widget.key,
-            dimension: Constants.svgIconSize,
+            dimension: Constants.vectorIconSize,
             child: LottieBuilder.asset(
               AnimatedEmoji.flutterNotoDotLottieAsset,
               decoder: (bytes) => LottieComposition.decodeZip(
@@ -162,7 +162,7 @@ class _BaseContainerState extends State<BaseContainer> {
             useVecIcon: widget.item.hasUseVecIcon() && widget.item.useVecIcon,
             key: widget.key,
             url: widget._imgUrl,
-            size: Constants.svgIconSize,
+            size: Constants.vectorIconSize,
             cacheSize: widget.totalItems,
           );
   }
@@ -233,21 +233,21 @@ class _BaseContainerState extends State<BaseContainer> {
                           ),
                           SizedBox(
                             width: widget._textBoxDynamicWidth(context) -
-                                Constants.captivePortalSvgIconSize -
-                                Constants.captivePortalSvgIconMarginRight,
+                                Constants.captivePortalIconSize -
+                                Constants.captivePortalIconMarginRight,
                             child: Tooltip(
                               padding: const EdgeInsets.all(
                                 (Constants.goldenRatio * 10) * 2,
                               ),
-                              decoration: BoxDecoration(
+                              decoration: ShapeDecoration(
                                 color: Colors.white,
-                                shape: BoxShape.rectangle,
-                                borderRadius: BorderRadius.circular(
+                                shape: RoundedSuperellipseBorder(
+                                    borderRadius: BorderRadius.circular(
                                   (Constants.goldenRatio * 10) * 2,
-                                ),
+                                )),
                               ),
                               textStyle: TextStyle(
-                                fontSize: Constants.captivePortalSvgIconSize,
+                                fontSize: Constants.captivePortalIconSize,
                                 fontWeight: FontWeight.w500,
                                 fontFamily: "Menlo",
                                 foreground: Paint()
@@ -278,7 +278,7 @@ class _BaseContainerState extends State<BaseContainer> {
                                     ? futureDesc.desc
                                     : _launchUri.host,
                                 style: TextStyle(
-                                  fontSize: Constants.captivePortalSvgIconSize,
+                                  fontSize: Constants.captivePortalIconSize,
                                   fontWeight: FontWeight.w500,
                                   foreground: Paint()
                                     ..blendMode = BlendMode.dstOut

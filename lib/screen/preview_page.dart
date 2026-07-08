@@ -168,7 +168,7 @@ class _PreviewPageState extends State<PreviewPage> {
                           margin: const EdgeInsets.only(
                               left: Constants.blurContainerPadding * 3),
                           child: SizedBox.square(
-                            dimension: (((Constants.svgIconSize / 2) *
+                            dimension: (((Constants.vectorIconSize / 2) *
                                         Constants.goldenRatio) *
                                     3) *
                                 Constants.goldenRatio,

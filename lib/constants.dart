@@ -1,5 +1,7 @@
-import 'package:flutter/material.dart' show Color, Colors, Brightness;
+import 'package:flutter/material.dart' show Colors;
+import 'package:flutter/rendering.dart' show Color;
 import 'package:flutter/services.dart' show SystemUiOverlayStyle;
+import 'package:flutter/widgets.dart' show Brightness;
 
 abstract final class Constants {
   static const double goldenRatio = 0.618;
@@ -9,13 +11,14 @@ abstract final class Constants {
   static const double baseContainerPadding =
       (edgePadding + balancePadding + (balanceBackPadding * goldenRatio)) *
           goldenRatio;
-  static const double svgIconSize = 55.2 + (balanceBackPadding * goldenRatio);
+  static const double vectorIconSize =
+      55.2 + (balanceBackPadding * goldenRatio);
   static const double titleLeftPadding = baseContainerPadding * 2 * goldenRatio;
   static const double urlBoxTopPadding =
       titleLeftPadding / (goldenRatio * 10) / goldenRatio;
   static const double urlBoxWidth = 247.38;
-  static const double captivePortalSvgIconSize = 13.5;
-  static const double captivePortalSvgIconMarginRight =
+  static const double captivePortalIconSize = 13.5;
+  static const double captivePortalIconMarginRight =
       urlBoxTopPadding + (urlBoxTopPadding * goldenRatio);
   static const int httpOk = 200;
   static const int colorMaxRangeValue = 255;

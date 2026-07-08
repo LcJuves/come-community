@@ -9,7 +9,31 @@ import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
 import 'package:come/widget/linear_gradient_icon.dart' show LinearGradientIcon;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart'
-    show StatefulWidget, ValueChanged, EdgeInsetsGeometry, State, BuildContext, Widget, EdgeInsets, WidgetStatePropertyAll, Padding, MediaQuery, BorderRadius, Colors, BlendMode, BoxDecoration, BoxConstraints, TextInputType, Icons, TextInputAction, FontWeight, Paint, TextStyle, SearchBar, Container, RoundedSuperellipseBorder;
+    show
+        StatefulWidget,
+        ValueChanged,
+        EdgeInsetsGeometry,
+        State,
+        BuildContext,
+        Widget,
+        EdgeInsets,
+        WidgetStatePropertyAll,
+        Padding,
+        MediaQuery,
+        BorderRadius,
+        Colors,
+        BlendMode,
+        BoxDecoration,
+        BoxConstraints,
+        TextInputType,
+        Icons,
+        TextInputAction,
+        FontWeight,
+        Paint,
+        TextStyle,
+        SearchBar,
+        Container;
+import 'package:flutter/widgets.dart' show ClipRSuperellipse;
 
 class ClipRSuperellipseBackdropFilterSearchBar extends StatefulWidget {
   const ClipRSuperellipseBackdropFilterSearchBar(
@@ -37,7 +61,7 @@ class ClipRSuperellipseBackdropFilterSearchBar extends StatefulWidget {
     final usableWidth = screenWidth -
         (singleChildScrollViewSpacing * 2) -
         (Constants.baseContainerPadding * 2) -
-        Constants.svgIconSize -
+        Constants.vectorIconSize -
         (Constants.titleLeftPadding * 2);
     return usableWidth < Constants.urlBoxWidth
         ? usableWidth
@@ -66,7 +90,7 @@ class _ClipRRectBackdropFilterSearchBarState
     final searchBarMaxWidth = ((Constants.urlBoxWidth +
                 (Constants.baseContainerPadding * 2) +
                 Constants.titleLeftPadding +
-                Constants.svgIconSize -
+                Constants.vectorIconSize -
                 Constants.blurContainerPadding) *
             2) +
         widget.singleChildScrollViewSpacing;
@@ -76,7 +100,7 @@ class _ClipRRectBackdropFilterSearchBarState
     final oneCardWidth = textBoxDynamicWidth +
         (Constants.baseContainerPadding * 2) +
         Constants.titleLeftPadding +
-        Constants.svgIconSize -
+        Constants.vectorIconSize -
         Constants.blurContainerPadding;
     final double marginHorizontal = textBoxDynamicWidth == Constants.urlBoxWidth
         ? widget.singleChildScrollViewSpacing
@@ -93,46 +117,47 @@ class _ClipRRectBackdropFilterSearchBarState
           BorderRadius.circular(MediaQuery.of(context).size.longestSide),
       elevation: 0,
       child: Container(
-        margin: const EdgeInsets.all(Constants.blurContainerPadding),
-        decoration: BoxDecoration(
-            color: Colors.white.withAlpha(40),
-            borderRadius:
-                BorderRadius.circular(MediaQuery.of(context).size.longestSide),
-            backgroundBlendMode: BlendMode.plus),
-        constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
-        child: SearchBar(
-          shape:  WidgetStatePropertyAll(RoundedSuperellipseBorder(
-              borderRadius:
-                  BorderRadius.circular(MediaQuery.of(context).size.longestSide))),
-          elevation: const WidgetStatePropertyAll(3),
-          keyboardType: TextInputType.webSearch,
-          autoFocus: true,
-          surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
-          leading: const Padding(
-            padding:
-                EdgeInsets.fromLTRB(10, 10, 10 * Constants.goldenRatio, 10),
-            child: LinearGradientIcon(
-              Icons.search_rounded,
-            ),
-          ),
-          overlayColor: WidgetStatePropertyAll(Colors.white.withAlpha(167)),
-          textInputAction: TextInputAction.search,
-          shadowColor: const WidgetStatePropertyAll(Colors.transparent),
-          backgroundColor: WidgetStatePropertyAll(Colors.white.withAlpha(60)),
-          hintText: widget._getSearchBarHintText(),
-          hintStyle: WidgetStatePropertyAll(TextStyle(
-              fontWeight: FontWeight.w500,
-              foreground: Paint()
-                ..blendMode = BlendMode.modulate
-                ..color = Constants.primaryColor)),
-          textStyle: WidgetStatePropertyAll(TextStyle(
-              fontWeight: FontWeight.w600,
-              foreground: Paint()
-                ..blendMode = BlendMode.modulate
-                ..color = Constants.primaryColor)),
-          onChanged: widget.onChanged,
-        ),
-      ),
+          margin: const EdgeInsets.all(Constants.blurContainerPadding),
+          child: ClipRSuperellipse(
+              borderRadius: BorderRadius.circular(
+                  MediaQuery.of(context).size.longestSide),
+              child: Container(
+                decoration: BoxDecoration(
+                    color: Colors.white.withAlpha(40),
+                    backgroundBlendMode: BlendMode.plus),
+                constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
+                child: SearchBar(
+                  elevation: const WidgetStatePropertyAll(3),
+                  keyboardType: TextInputType.webSearch,
+                  autoFocus: true,
+                  surfaceTintColor: const WidgetStatePropertyAll(Colors.black),
+                  leading: const Padding(
+                    padding: EdgeInsets.fromLTRB(
+                        10, 10, 10 * Constants.goldenRatio, 10),
+                    child: LinearGradientIcon(
+                      Icons.search_rounded,
+                    ),
+                  ),
+                  overlayColor:
+                      WidgetStatePropertyAll(Colors.white.withAlpha(167)),
+                  textInputAction: TextInputAction.search,
+                  shadowColor: const WidgetStatePropertyAll(Colors.transparent),
+                  backgroundColor:
+                      WidgetStatePropertyAll(Colors.white.withAlpha(60)),
+                  hintText: widget._getSearchBarHintText(),
+                  hintStyle: WidgetStatePropertyAll(TextStyle(
+                      fontWeight: FontWeight.w500,
+                      foreground: Paint()
+                        ..blendMode = BlendMode.modulate
+                        ..color = Constants.primaryColor)),
+                  textStyle: WidgetStatePropertyAll(TextStyle(
+                      fontWeight: FontWeight.w600,
+                      foreground: Paint()
+                        ..blendMode = BlendMode.modulate
+                        ..color = Constants.primaryColor)),
+                  onChanged: widget.onChanged,
+                ),
+              ))),
     );
   }
 }
