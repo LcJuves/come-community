@@ -1,12 +1,12 @@
-[submodule "third-party/openharmony-flutter"]
-	path = third-party/openharmony-flutter
+[submodule "come-artifacts"]
+	path = third-party/come-artifacts
+	url = https://github.com/MeyouOSS/come-artifacts.git
+	branch = main
+[submodule "ohos-flutter"]
+	path = third-party/ohos-flutter
 	url = https://gitcode.com/CPF-Flutter/flutter_flutter.git
 	branch = oh-3.41.9-release
-[submodule "third-party/web-artifacts"]
-	path = third-party/web-artifacts
-	url = https://github.com/MeyouOSS/come-web.git
-	branch = main
-[submodule "third-party/protobuf"]
+[submodule "protobuf"]
 	path = third-party/protobuf
 	url = ssh://git@codeberg.org/LcJuves/protocolbuffers.git
 	branch = main
