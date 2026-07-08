@@ -2,11 +2,15 @@
 	path = third-party/come-artifacts
 	url = https://github.com/MeyouOSS/come-artifacts.git
 	branch = main
-[submodule "ohos-flutter"]
-	path = third-party/ohos-flutter
-	url = https://gitcode.com/CPF-Flutter/flutter_flutter.git
-	branch = oh-3.41.9-release
 [submodule "protobuf"]
 	path = third-party/protobuf
 	url = ssh://git@codeberg.org/LcJuves/protocolbuffers.git
 	branch = main
+[submodule "flutter-webos"]
+	path = third-party/flutter-webos
+	url = https://github.com/lg-flutter-webos/flutter-webos.git
+	branch = main
+[submodule "flutter-ohos"]
+	path = third-party/flutter-ohos
+	url = https://gitcode.com/CPF-Flutter/flutter_flutter.git
+	branch = oh-3.41.9-release
