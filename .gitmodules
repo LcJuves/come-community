@@ -1,7 +1,7 @@
 [submodule "third-party/openharmony-flutter"]
 	path = third-party/openharmony-flutter
-	url = https://gitcode.com/openharmony-tpc/flutter_flutter.git
-	branch = oh-3.41.9-dev
+	url = https://gitcode.com/CPF-Flutter/flutter_flutter.git
+	branch = oh-3.41.9-release
 [submodule "third-party/web-artifacts"]
 	path = third-party/web-artifacts
 	url = https://github.com/MeyouOSS/come-web.git
