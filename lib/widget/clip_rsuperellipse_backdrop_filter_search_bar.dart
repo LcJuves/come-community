@@ -118,6 +118,7 @@ class _ClipRRectBackdropFilterSearchBarState
       elevation: 0,
       child: Container(
           margin: const EdgeInsets.all(Constants.blurContainerPadding),
+          constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
           child: ClipRSuperellipse(
               borderRadius: BorderRadius.circular(
                   MediaQuery.of(context).size.longestSide),
@@ -125,7 +126,6 @@ class _ClipRRectBackdropFilterSearchBarState
                 decoration: BoxDecoration(
                     color: Colors.white.withAlpha(40),
                     backgroundBlendMode: BlendMode.plus),
-                constraints: BoxConstraints(maxWidth: searchBarMaxWidth),
                 child: SearchBar(
                   elevation: const WidgetStatePropertyAll(3),
                   keyboardType: TextInputType.webSearch,
