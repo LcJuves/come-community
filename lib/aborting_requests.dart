@@ -4,7 +4,7 @@ import 'package:come/extended_http_client.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
-Future<Uint8List> httpStreamReadBytesWithGetMethod(Uri url) {
+Future<Uint8List> httpStreamReadBytesWithGetMethod(Uri url) async {
   return httpStreamReadBytes("GET", url);
 }
 

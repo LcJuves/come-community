@@ -1,7 +1,8 @@
 import 'dart:convert' show utf8;
 import 'dart:typed_data' show Uint8List;
 
-import 'package:come/constants.dart' show Constants;
+import 'package:come/aborting_requests.dart'
+    show httpStreamReadBytesWithGetMethod;
 import 'package:come/info.dart' show fetchGeoInfo;
 import 'package:come/model/future_data.dart' show FutureData;
 import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
@@ -9,42 +10,39 @@ import 'package:flutter/material.dart' as material show BuildContext;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:html/dom.dart' show Element, Document;
 import 'package:html/parser.dart' show parse;
-import 'package:http/http.dart' as http show readBytes;
 import 'package:protobuffers/items.pb.dart' show Items;
 
 import 'model/future_desc.dart' show FutureDesc;
 
-Future<Uint8List> httpReadBytes(Uri url) {
-  return http.readBytes(url, headers: {
-    "User-Agent":
-        Constants.ua, // Set a custom User-Agent to avoid potential blocking
-  });
-  // return httpStreamReadBytesWithGetMethod(url);
+Future<Uint8List> httpReadBytes(Uri url) async {
+  return httpStreamReadBytesWithGetMethod(url);
 }
 
-Future<String> httpReadString(Uri url) {
-  return httpReadBytes(url).then((bytes) => utf8.decode(bytes));
+Future<String> httpReadString(Uri url) async {
+  final responseBytes = await httpReadBytes(url);
+  return utf8.decode(responseBytes);
 }
 
-Future<Items> _fetchItems() {
+Future<Items> _fetchItems() async {
   if (!kDebugMode && !kIsWeb) {
-    final httpReadBytesFuture = httpReadBytes(
+    final responseBodyBytes = await httpReadBytes(
         Uri.parse("https://come.lcjuves.com/assets/final-items.pb"));
-    return httpReadBytesFuture.then((responseBodyBytes) =>
-        responseBodyBytes.isNotEmpty
-            ? Future.value(Items.fromBuffer(responseBodyBytes))
-            : Future.error(Exception('Failed to load items')));
+    if (responseBodyBytes.isEmpty) {
+      throw Exception('Failed to load items');
+    }
+    return Items.fromBuffer(responseBodyBytes);
   }
-  final itemsPBBundleLoadFuture = rootBundle.load('final-items.pb');
-  return itemsPBBundleLoadFuture
-      .then((buffer) => Items.fromBuffer(Uint8List.sublistView(buffer)));
+  final data = await rootBundle.load('final-items.pb');
+  return Items.fromBuffer(Uint8List.sublistView(data));
 }
 
-Future<FutureData> fetchData(material.BuildContext context) {
-  // ignore: use_build_context_synchronously
-  return _fetchItems().then((futureItems) => fetchGeoInfo(context, futureItems)
-      .then((futureGeoInfo) =>
-          FutureData(items: futureItems, geoInfo: futureGeoInfo)));
+Future<FutureData> fetchData(material.BuildContext context) async {
+  final futureItems = await _fetchItems();
+  if (!context.mounted) {
+    return FutureData(items: futureItems, geoInfo: {'country_code': 'EN'});
+  }
+  final futureGeoInfo = await fetchGeoInfo(context, futureItems);
+  return FutureData(items: futureItems, geoInfo: futureGeoInfo);
 }
 
 Future<FutureDesc> fetchDesc(Uri url) {
