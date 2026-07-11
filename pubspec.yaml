@@ -50,7 +50,6 @@ dependencies:
   http: ^1.4.0
   share_plus: ^11.0.0
   clipboard: ^2.0.2
-  # flutter_cache_manager: ^3.4.1
   # tar: ^2.0.2
   # pretty_qr_code: ^3.5.0
   cupertino_http: ^2.4.0
@@ -61,6 +60,12 @@ dependencies:
   device_preview_plus: ^2.8.3
   # platform_device_id: ^1.0.1
   # amicons: ^1.0.1
+  flutter_svg_image:
+    path: third-party/flutter-svg-image
+  vector_graphics: ^1.1.19
+  flutter_cache_manager: ^3.4.1
+  flutter_svg: ^2.2.2
+  liquid_glass_widgets: ^0.21.3
 
 dev_dependencies:
   flutter_test:

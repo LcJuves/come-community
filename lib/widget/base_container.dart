@@ -2,8 +2,8 @@ import 'package:come/constants.dart' show Constants;
 import 'package:come/http_requests.dart' show fetchDesc;
 import 'package:come/model/future_desc.dart' show FutureDesc;
 import 'package:come/screen/preview_page.dart' show PreviewPage;
-import 'package:come/widget/captive_portal_svg_picture.dart'
-    show CaptivePortalSvgPicture;
+import 'package:come/widget/captive_portal_svg_image.dart'
+    show CaptivePortalSvgImage;
 import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
     show ClipRSuperellipseBackdropFilter;
 import 'package:come/widget/inkwell_container.dart' show InkWellContainer;
@@ -59,6 +59,7 @@ class BaseContainer extends StatefulWidget {
   final dynamic geoInfo;
   final double singleChildScrollViewSpacing;
   late final bool _visible;
+
   BaseContainer({
     super.key,
     required this.totalItems,
@@ -182,8 +183,8 @@ class _BaseContainerState extends State<BaseContainer> {
         child: InkWellContainer(
           padding: const EdgeInsets.all(Constants.baseContainerPadding),
           borderRadius: BorderRadius.circular(15),
-          color: Colors.white.withAlpha(169),
-          hoverColor: Colors.white.withAlpha(195),
+          color: Colors.white.withAlpha(99),
+          hoverColor: Colors.white.withAlpha(99),
           splashColor: Colors.white,
           onTap: _onTap,
           child: Row(
@@ -225,7 +226,7 @@ class _BaseContainerState extends State<BaseContainer> {
                       return Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          const CaptivePortalSvgPicture(),
+                          const CaptivePortalSvgImage(),
                           const SizedBox.square(
                             dimension: Constants.balanceBackPadding +
                                 Constants.balanceBackPadding +

@@ -14,3 +14,7 @@
 	path = third-party/flutter-ohos
 	url = https://gitcode.com/CPF-Flutter/flutter_flutter.git
 	branch = oh-3.41.9-release
+[submodule "flutter-svg-image"]
+	path = third-party/flutter-svg-image
+	url = https://github.com/MeyouOSS/flutter_svg_image.git
+	branch = main

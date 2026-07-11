@@ -124,7 +124,7 @@ class _ClipRRectBackdropFilterSearchBarState
                   MediaQuery.of(context).size.longestSide),
               child: Container(
                 decoration: BoxDecoration(
-                    color: Colors.white.withAlpha(40),
+                    color: Colors.white.withAlpha(35),
                     backgroundBlendMode: BlendMode.plus),
                 child: SearchBar(
                   elevation: const WidgetStatePropertyAll(3),

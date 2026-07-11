@@ -21,7 +21,6 @@ import 'package:flutter/material.dart'
         BuildContext,
         Widget,
         EdgeInsets,
-        AnimatedOpacity,
         Colors,
         Container,
         OverflowBox,
@@ -33,13 +32,16 @@ import 'package:flutter/material.dart'
         SingleChildScrollView,
         Align,
         Stack,
-        Curves,
         FutureBuilder;
+import 'package:flutter/rendering.dart' show Key;
 import 'package:protobuffers/items.pb.dart' show Item;
 import 'package:protobuffers/items.pbserver.dart' show Items;
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+  late final bool _visible;
+  HomePage({Key? key}) : super(key: key) {
+    _visible = true;
+  }
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -190,12 +192,7 @@ class _HomePageState extends State<HomePage> {
               }
 
               // By default, show a loading circular progress bar.
-              return const AnimatedOpacity(
-                opacity: 1.0,
-                duration: Duration(milliseconds: 1000),
-                curve: Curves.fastEaseInToSlowEaseOut,
-                child: AdaptiveCircularProgressBar(),
-              );
+              return AdaptiveCircularProgressBar();
             },
           ),
         ),

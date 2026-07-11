@@ -1,9 +1,11 @@
 import 'package:come/widget/come_circular_progress_bar.dart'
     show ComeCircularProgressIndicator;
 import 'package:come/widget/meyou_logo.dart' show MeyouLogo;
-import 'package:flutter/material.dart'
+import 'package:flutter/material.dart' show Colors;
+import 'package:flutter/widgets.dart'
     show
         StatefulWidget,
+        Padding,
         State,
         Widget,
         EdgeInsets,
@@ -11,11 +13,16 @@ import 'package:flutter/material.dart'
         StrokeCap,
         Color,
         BlendMode,
-        Padding,
-        Colors,
-        SizedBox;
+        SizedBox,
+        BoxFit,
+        Curves;
+import 'package:flutter_svg/flutter_svg.dart' show SvgPicture;
+import 'package:flutter_svg_image/flutter_svg_image.dart'
+    show CachedNetworkSvgSource;
 import 'package:jovial_svg/jovial_svg.dart'
-    show ScalableImageWidget, ScalableImageCache, ScalableImageSource;
+    show ScalableImageWidget, ScalableImageCache;
+import 'package:vector_graphics/vector_graphics_compat.dart'
+    show NetworkBytesLoader;
 
 class VectorImageIcon extends StatefulWidget {
   final String url;
@@ -35,7 +42,7 @@ class VectorImageIcon extends StatefulWidget {
 }
 
 class _VectorImageIconState extends State<VectorImageIcon> {
-  Widget? _image;
+  late final Widget _image;
 
   @override
   void initState() {
@@ -51,31 +58,51 @@ class _VectorImageIconState extends State<VectorImageIcon> {
       ),
     );
     final errorMeyouLogo = MeyouLogo(key: widget.key, color: Colors.red);
+    final vectorImageHttpUrl = Uri.parse(widget.useVecIcon
+        ? Uri.decodeComponent("${widget.url.replaceAll("svg/", "vec/")}.vec")
+        : widget.url);
+    if (vectorImageHttpUrl.path.toLowerCase().contains("/meyou")) {
+      _image = MeyouLogo(key: widget.key);
+      return;
+    }
+    // if (vectorImageHttpUrl.path.toLowerCase().contains("/alipay")) {
+    //   _image = const AlipayQRCodeIcon(/* blendMode: BlendMode.difference */);
+    //   return;
+    // }
 
-    final vectorImageHttpUrl = widget.useVecIcon
-        ? Uri.parse(
-            Uri.decodeComponent("${widget.url.replaceAll("svg/", "vec/")}.vec"),
+    _image = !widget.useVecIcon
+        ? ScalableImageWidget.fromSISource(
+            onLoading: (context) => circularProgressIndicator,
+            onError: (context) => errorMeyouLogo,
+            cache: ScalableImageCache(size: widget.cacheSize),
+            fit: BoxFit.contain,
+            si: CachedNetworkSvgSource(
+              vectorImageHttpUrl.toString(),
+            ),
           )
-        : Uri.parse(widget.url);
+        : SvgPicture(
+            NetworkBytesLoader(
+                // httpClient: extendedSpecHttpClient(),
+                vectorImageHttpUrl),
+            width: widget.size,
+            height: widget.size,
+            placeholderBuilder: (BuildContext context) =>
+                circularProgressIndicator,
+            errorBuilder: (context, error, stackTrace) => errorMeyouLogo,
+          );
 
-    _image = SizedBox(
-      width: widget.size,
-      height: widget.size,
-      child: ScalableImageWidget.fromSISource(
-        onLoading: (context) => circularProgressIndicator,
-        onError: (context) => errorMeyouLogo,
-        cache: ScalableImageCache(size: widget.cacheSize),
-        si: ScalableImageSource.fromSvgHttpUrl(vectorImageHttpUrl),
-      ),
-    );
+    // SvgWebImage.initWebView();
+    // _image = Image(
+    //   fit: BoxFit.contain,
+    //   image: SvgWebImage.cachedNetwork(
+    //     vectorImageHttpUrl.toString(),
+    //     cacheSvg: true,
+    //   ),
+    // );
   }
 
   @override
   Widget build(BuildContext context) {
-    if (widget.url.toLowerCase().contains("meyou.svg")) {
-      return const MeyouLogo();
-    }
-
     return SizedBox.square(
       key: widget.key,
       dimension: widget.size,

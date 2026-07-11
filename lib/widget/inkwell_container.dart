@@ -10,6 +10,7 @@ import 'package:flutter/material.dart'
         BuildContext,
         Container,
         InkWell;
+import 'package:flutter/rendering.dart';
 
 class InkWellContainer extends StatelessWidget {
   const InkWellContainer(
@@ -82,9 +83,10 @@ class InkWellContainer extends StatelessWidget {
     return InkWell(
       splashColor: splashColor,
       hoverColor: hoverColor,
-      borderRadius: borderRadius,
+      customBorder: RoundedSuperellipseBorder(borderRadius: borderRadius),
       child: Container(
-        color: color,
+        decoration:
+            BoxDecoration(color: color, backgroundBlendMode: BlendMode.plus),
         padding: padding,
         constraints: constraints,
         child: child,
