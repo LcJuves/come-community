@@ -18,3 +18,7 @@
 	path = third-party/flutter-svg-image
 	url = https://github.com/MeyouOSS/flutter_svg_image.git
 	branch = main
+[submodule "come-community-ai-data"]
+	path = third-party/come-community-ai-data
+	url = https://github.com/MeyouOSS/come-community-ai-data.git
+	branch = main
