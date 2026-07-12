@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
             thumbColor: WidgetStatePropertyAll(Colors.white.withAlpha(222)),
             radius: Radius.circular(MediaQuery.of(context).size.longestSide)),
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

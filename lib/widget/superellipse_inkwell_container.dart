@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart'
     show
-        StatelessWidget,
         BorderRadius,
-        GestureTapCallback,
-        Color,
-        Widget,
-        EdgeInsetsGeometry,
         BoxConstraints,
         BuildContext,
+        Color,
         Container,
-        InkWell;
+        EdgeInsetsGeometry,
+        GestureTapCallback,
+        InkWell,
+        StatelessWidget,
+        Widget;
 import 'package:flutter/rendering.dart';
 
-class InkWellContainer extends StatelessWidget {
-  const InkWellContainer(
+class SuperellipseInkWellContainer extends StatelessWidget {
+  const SuperellipseInkWellContainer(
       {super.key,
       this.borderRadius,
       this.onTap,
@@ -87,6 +87,8 @@ class InkWellContainer extends StatelessWidget {
       child: Container(
         decoration:
             BoxDecoration(color: color, backgroundBlendMode: BlendMode.plus),
+        foregroundDecoration: ShapeDecoration(
+            shape: RoundedSuperellipseBorder(borderRadius: borderRadius)),
         padding: padding,
         constraints: constraints,
         child: child,

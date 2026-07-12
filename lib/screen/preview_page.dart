@@ -34,6 +34,7 @@ import 'package:flutter/material.dart'
         Padding,
         Scaffold;
 import 'package:flutter/services.dart' show SystemChrome;
+import 'package:flutter/widgets.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart'
     show InAppWebViewController, InAppWebView, WebUri, URLRequest;
 import 'package:share_plus/share_plus.dart' show ShareParams, SharePlus;
@@ -123,11 +124,15 @@ class _PreviewPageState extends State<PreviewPage> {
                     bottom: Constants.blurContainerPadding),
                 child: RoundedSuperellipseBorderPhysicalShape(
                   shadowColor: Colors.grey.withAlpha(169),
-                  borderRadius: BorderRadius.circular(
-                      MediaQuery.of(context).size.longestSide),
                   elevation: 3,
-                  color: Colors.white.withAlpha(222),
                   child: Container(
+                    decoration: BoxDecoration(
+                        color: Colors.white.withAlpha(35),
+                        backgroundBlendMode: BlendMode.plus),
+                    foregroundDecoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(
+                            borderRadius: BorderRadius.circular(
+                                MediaQuery.of(context).size.longestSide))),
                     padding:
                         const EdgeInsets.all(Constants.blurContainerPadding),
                     child: Row(

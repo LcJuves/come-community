@@ -7,10 +7,10 @@ import 'package:come/widget/animated_wallpaper_container.dart'
     show AnimatedWallpaperContainer;
 import 'package:come/widget/backdrop_filter_scaffold.dart'
     show BackdropFilterScaffold;
-import 'package:come/widget/base_container.dart' show BaseContainer;
-import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
+import 'package:come/widget/item_container.dart' show ItemContainer;
+import 'package:come/widget/clipr_superellipse_backdrop_filter.dart'
     show ClipRSuperellipseBackdropFilter;
-import 'package:come/widget/clip_rsuperellipse_backdrop_filter_search_bar.dart'
+import 'package:come/widget/clipr_superellipse_backdrop_filter_search_bar.dart'
     show ClipRSuperellipseBackdropFilterSearchBar;
 import 'package:come/widget/snapshot_error_text.dart' show SnapshotErrorText;
 import 'package:come/widget/visibility_temp_tip.dart' show VisibilityTempTip;
@@ -33,15 +33,11 @@ import 'package:flutter/material.dart'
         Align,
         Stack,
         FutureBuilder;
-import 'package:flutter/rendering.dart' show Key;
 import 'package:protobuffers/items.pb.dart' show Item;
 import 'package:protobuffers/items.pbserver.dart' show Items;
 
 class HomePage extends StatefulWidget {
-  late final bool _visible;
-  HomePage({Key? key}) : super(key: key) {
-    _visible = true;
-  }
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -127,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                           direction: Axis.horizontal,
                           children: filteredFetchedItemList
                               .map(
-                                (i) => BaseContainer(
+                                (i) => ItemContainer(
                                   key: ValueKey("${i.enUrl}#${i.imgUrl}"),
                                   totalItems: fetchedItems.itemList.length,
                                   item: i,
@@ -174,11 +170,7 @@ class _HomePageState extends State<HomePage> {
                         elevation: 0,
                         width: MediaQuery.of(context).size.width,
                         height: MediaQuery.of(context).padding.top,
-                        child: OverflowBox(
-                          child: Container(
-                            color: Colors.black.withAlpha(20),
-                          ),
-                        ),
+                        child: const OverflowBox(),
                       ),
                     ),
                     VisibilityTempTip(

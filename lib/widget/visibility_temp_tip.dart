@@ -2,6 +2,7 @@
 //     if (dart.library.js_interop) 'package:come/webspec.dart' as platform_device_id;
 
 import 'package:come/constants.dart' show Constants;
+import 'package:come/webspec.dart' show letTempTipVisible;
 import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
 import 'package:flutter/material.dart'
     show
@@ -134,7 +135,7 @@ class _VisibilityTempTipState extends State<VisibilityTempTip> {
     // And it is not allowed to obtain public packages and related dependencies.
     return Visibility(
       visible: _shouldVisible ||
-          // (!kDebugMode && letTempTipVisible()) ||
+          (!kDebugMode && letTempTipVisible()) ||
           _geoDisabled,
       child: BackdropFilterScaffold(
         sigma: sigma,

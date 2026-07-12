@@ -14,8 +14,7 @@ import 'package:flutter/widgets.dart'
         Color,
         BlendMode,
         SizedBox,
-        BoxFit,
-        Curves;
+        BoxFit;
 import 'package:flutter_svg/flutter_svg.dart' show SvgPicture;
 import 'package:flutter_svg_image/flutter_svg_image.dart'
     show CachedNetworkSvgSource;

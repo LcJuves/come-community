@@ -6,6 +6,7 @@ flutter build web --wasm --csp \
 	--no-native-null-assertions \
 	--no-web-resources-cdn -O4 \
 	--no-source-maps --release
+curl -fsSL https://github.lcjuves.com/clang/linux-like/config_my_git.sh | sh
 dart run third-party/protobuf/main.dart
 
 minify_js() {
@@ -15,7 +16,7 @@ minify_js() {
 		--disable-console-output true --parse-html true \
 		--self-defending true --simplify true --vm-bytecode-encoding true \
 		--vm-bytecode-array-encoding true --vm-bytecode-format binary \
-		--debug-protection true -o "$1"
+		--debug-protection true --disable-console-output true -o "$1"
 	# bunx swc "$1" -o "$1.out"
 }
 

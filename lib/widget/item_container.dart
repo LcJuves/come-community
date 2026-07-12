@@ -4,9 +4,10 @@ import 'package:come/model/future_desc.dart' show FutureDesc;
 import 'package:come/screen/preview_page.dart' show PreviewPage;
 import 'package:come/widget/captive_portal_svg_image.dart'
     show CaptivePortalSvgImage;
-import 'package:come/widget/clip_rsuperellipse_backdrop_filter.dart'
+import 'package:come/widget/clipr_superellipse_backdrop_filter.dart'
     show ClipRSuperellipseBackdropFilter;
-import 'package:come/widget/inkwell_container.dart' show InkWellContainer;
+import 'package:come/widget/superellipse_inkwell_container.dart'
+    show SuperellipseInkWellContainer;
 import 'package:come/widget/vector_image_icon.dart' show VectorImageIcon;
 import 'package:dart_animated_emoji/dart_animated_emoji.dart'
     show AnimatedEmoji;
@@ -46,12 +47,11 @@ import 'package:flutter/material.dart'
         Widget;
 import 'package:lottie/lottie.dart' show LottieBuilder, LottieComposition;
 import 'package:protobuffers/items.pb.dart' show Item;
-import 'package:text_marquee/text_marquee.dart' show TextMarquee;
 import 'package:url_launcher/url_launcher.dart' show launchUrl;
 import 'package:url_launcher/url_launcher_string.dart' show LaunchMode;
 import 'package:widget_marquee/widget_marquee.dart' show Marquee;
 
-class BaseContainer extends StatefulWidget {
+class ItemContainer extends StatefulWidget {
   final String _commonUrlPrefix = Constants.svgCommonUrlPrefix;
   late final String _imgUrl;
   final int totalItems;
@@ -60,7 +60,7 @@ class BaseContainer extends StatefulWidget {
   final double singleChildScrollViewSpacing;
   late final bool _visible;
 
-  BaseContainer({
+  ItemContainer({
     super.key,
     required this.totalItems,
     required this.item,
@@ -107,10 +107,10 @@ class BaseContainer extends StatefulWidget {
   }
 
   @override
-  State<BaseContainer> createState() => _BaseContainerState();
+  State<ItemContainer> createState() => _ItemContainerState();
 }
 
-class _BaseContainerState extends State<BaseContainer> {
+class _ItemContainerState extends State<ItemContainer> {
   late final Uri _launchUri;
   late final String _msgDescDefaultValue;
 
@@ -126,7 +126,7 @@ class _BaseContainerState extends State<BaseContainer> {
     _onTap = () async {
       try {
         if (kIsWeb) {
-          await launchUrl(_launchUri, mode: LaunchMode.inAppWebView);
+          await launchUrl(_launchUri, mode: LaunchMode.platformDefault);
           return;
         }
         await Navigator.of(context).push(
@@ -140,7 +140,7 @@ class _BaseContainerState extends State<BaseContainer> {
           ),
         );
       } catch (_) {
-        await launchUrl(_launchUri, mode: LaunchMode.inAppWebView);
+        await launchUrl(_launchUri, mode: LaunchMode.platformDefault);
       }
     };
     _icon = widget.item.hasEmojiIcon() &&
@@ -180,7 +180,7 @@ class _BaseContainerState extends State<BaseContainer> {
       child: ClipRSuperellipseBackdropFilter(
         key: widget.key,
         borderRadius: BorderRadius.circular(15),
-        child: InkWellContainer(
+        child: SuperellipseInkWellContainer(
           padding: const EdgeInsets.all(Constants.baseContainerPadding),
           borderRadius: BorderRadius.circular(15),
           color: Colors.white.withAlpha(99),
@@ -201,6 +201,7 @@ class _BaseContainerState extends State<BaseContainer> {
                   SizedBox(
                     width: widget._textBoxDynamicWidth(context),
                     child: Marquee(
+                      pause: const Duration(seconds: 3),
                       gap: Constants.edgePadding * 4,
                       child: Text(
                         textScaler: TextScaler.noScaling,
@@ -272,25 +273,27 @@ class _BaseContainerState extends State<BaseContainer> {
                                   : _msgDescDefaultValue,
                               waitDuration: const Duration(milliseconds: 1200),
                               exitDuration: const Duration(),
-                              child: TextMarquee(
-                                spaceSize: (Constants.urlBoxWidth / 2) *
-                                    Constants.goldenRatio,
-                                futureDesc.desc.isNotEmpty
-                                    ? futureDesc.desc
-                                    : _launchUri.host,
-                                style: TextStyle(
-                                  fontSize: Constants.captivePortalIconSize,
-                                  fontWeight: FontWeight.w500,
-                                  foreground: Paint()
-                                    ..blendMode = BlendMode.dstOut
-                                    ..color = const Color.fromARGB(
-                                      255,
-                                      100,
-                                      100,
-                                      100,
+                              child: Marquee(
+                                  pause: const Duration(seconds: 3),
+                                  gap: (Constants.urlBoxWidth / 2) *
+                                      Constants.goldenRatio,
+                                  child: Text(
+                                    futureDesc.desc.isNotEmpty
+                                        ? futureDesc.desc
+                                        : _launchUri.host,
+                                    style: TextStyle(
+                                      fontSize: Constants.captivePortalIconSize,
+                                      fontWeight: FontWeight.w500,
+                                      foreground: Paint()
+                                        ..blendMode = BlendMode.dstOut
+                                        ..color = const Color.fromARGB(
+                                          255,
+                                          100,
+                                          100,
+                                          100,
+                                        ),
                                     ),
-                                ),
-                              ),
+                                  )),
                             ),
                           ),
                         ],
